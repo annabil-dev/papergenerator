@@ -120,8 +120,8 @@
       </div>
     </div>
 
-    <!-- Toast -->
-    <div v-if="store.toast.show" class="toast">
+    <!-- Toast — z-[60] so it appears above the loading overlay (z-50) -->
+    <div v-if="store.toast.show" class="toast" style="z-index:9999; right:auto; bottom:24px; left:50%; transform:translateX(-50%)">
       <div :class="[
         'px-4 py-3 rounded-lg shadow-lg text-white text-sm flex items-center gap-2',
         store.toast.type === 'success' ? 'bg-green-600' :
@@ -131,11 +131,19 @@
       </div>
     </div>
 
-    <!-- Loading Overlay -->
-    <div v-if="store.aiLoading" class="fixed inset-0 bg-black/30 flex items-center justify-center z-50">
-      <div class="bg-white rounded-xl p-6 shadow-2xl flex flex-col items-center gap-3">
-        <div class="w-10 h-10 border-4 border-blue-200 border-t-blue-600 rounded-full animate-spin"></div>
-        <span class="text-sm text-gray-600">AI is generating content...</span>
+    <!-- Loading Overlay — z-50, shows live progress message -->
+    <div v-if="store.aiLoading" class="fixed inset-0 bg-black/40 flex items-center justify-center z-50">
+      <div class="bg-white rounded-xl p-8 shadow-2xl flex flex-col items-center gap-4 min-w-72 max-w-sm w-full mx-4">
+        <div class="w-12 h-12 border-4 border-blue-200 border-t-blue-600 rounded-full animate-spin"></div>
+        <span class="text-sm text-gray-700 text-center font-medium">
+          {{ store.aiLoadingMessage || 'AI sedang memproses...' }}
+        </span>
+        <div class="w-full bg-gray-100 rounded-full h-1.5 overflow-hidden">
+          <div class="h-full bg-blue-500 rounded-full animate-pulse" style="width: 85%"></div>
+        </div>
+        <p class="text-xs text-gray-400 text-center">
+          Proses ini membutuhkan 3–7 menit.<br>Halaman ini akan diperbarui otomatis.
+        </p>
       </div>
     </div>
   </div>

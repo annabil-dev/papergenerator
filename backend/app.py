@@ -14,6 +14,7 @@ import time
 import base64
 import logging
 import traceback
+import threading
 from pathlib import Path
 from datetime import datetime
 
@@ -54,6 +55,23 @@ EXPORT_FOLDER.mkdir(exist_ok=True)
 # OpenAI client
 openai_client = None
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+
+# ─── In-Memory Job Store ──────────────────────────────────────────────────────
+# Stores background generation jobs: job_id -> { status, result, error, started_at }
+_jobs: dict = {}
+_jobs_lock = threading.Lock()
+
+def _job_set(job_id: str, data: dict):
+    with _jobs_lock:
+        _jobs[job_id] = data
+
+def _job_get(job_id: str) -> dict | None:
+    with _jobs_lock:
+        return _jobs.get(job_id)
+
+def _job_pop(job_id: str) -> dict | None:
+    with _jobs_lock:
+        return _jobs.pop(job_id, None)
 
 
 def get_openai_client():
@@ -200,27 +218,14 @@ Keep it professional and concise.""",
 
 # ─── Generate Full Paper ─────────────────────────────────────────────────────
 
-@app.route("/api/generate-full", methods=["POST"])
-def generate_full():
+def _run_generate_full_job(job_id: str, prompt: str):
     """
-    Generate a complete IEEE paper structure from a topic/prompt.
-    Returns the full paper JSON structure matching the frontend schema.
-    Target: minimum 3000 words, with formulas, tables, figures, equations.
+    Background thread: calls OpenAI, parses result, stores in _jobs.
+    The HTTP endpoint returns immediately with job_id; frontend polls /api/job/<id>.
     """
     t_start = time.time()
-    log.info("=" * 60)
-    log.info("[generate-full] STEP 1: Request received from %s", request.remote_addr)
+    log.info("[job:%s] STEP 1: background thread started, prompt=%r", job_id, prompt[:80])
     try:
-        data = request.get_json()
-        if not data:
-            log.error("[generate-full] No JSON body")
-            return jsonify({"error": "No JSON data provided"}), 400
-        prompt = data.get("prompt", "")
-        if not prompt:
-            log.error("[generate-full] prompt is empty")
-            return jsonify({"error": "Prompt is required"}), 400
-
-        log.info("[generate-full] STEP 2: prompt=%r", prompt[:120])
         client = get_openai_client()
 
         system_prompt = "You are an expert IEEE conference paper author. Generate a complete IEEE conference paper as valid JSON only — no markdown, no text outside the JSON object."
@@ -293,91 +298,55 @@ Requirements:
 - All LaTeX: double-escaped in JSON (\\\\alpha not \\alpha)
 - Topic for this paper: {prompt}"""
 
-        log.info("[generate-full] STEP 3: Calling OpenAI model=%s", OPENAI_MODEL)
+        log.info("[job:%s] STEP 2: Calling OpenAI model=%s", job_id, OPENAI_MODEL)
         t_openai_start = time.time()
 
-        TIMEOUT_SECONDS = 600  # 10-minute hard deadline for full-paper generation
-        log.info("[generate-full] STEP 3b: timeout set to %ds", TIMEOUT_SECONDS)
         response = client.chat.completions.create(
             model=OPENAI_MODEL,
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_message}
             ],
-            timeout=TIMEOUT_SECONDS
+            timeout=600
         )
 
-        t_openai_end = time.time()
-        openai_duration = t_openai_end - t_openai_start
+        openai_duration = time.time() - t_openai_start
         usage = response.usage
         log.info(
-            "[generate-full] STEP 4: OpenAI responded in %.1fs | "
-            "prompt_tokens=%d completion_tokens=%d total_tokens=%d",
-            openai_duration, usage.prompt_tokens, usage.completion_tokens, usage.total_tokens
+            "[job:%s] STEP 3: OpenAI responded in %.1fs | tokens=%d",
+            job_id, openai_duration, usage.total_tokens
         )
 
         result_text = response.choices[0].message.content.strip()
-        raw_len = len(result_text)
-        log.info("[generate-full] STEP 5: Raw response length = %d chars", raw_len)
 
-        # Save raw response to file for debugging
-        RAW_DUMP = Path(__file__).parent / "last_openai_raw.txt"
+        # Save raw response for debugging
         try:
-            RAW_DUMP.write_text(result_text, encoding="utf-8")
-            log.info("[generate-full] STEP 5a: Raw response saved to %s", RAW_DUMP)
-        except Exception as dump_err:
-            log.warning("[generate-full] Could not save raw dump: %s", dump_err)
+            (Path(__file__).parent / "last_openai_raw.txt").write_text(result_text, encoding="utf-8")
+        except Exception:
+            pass
 
-        # Strip markdown code block if present
+        # Strip markdown fences if present
         if result_text.startswith("```"):
-            log.info("[generate-full] STEP 6: Stripping markdown code fences")
             result_text = re.sub(r'^```(?:json)?\s*', '', result_text)
             result_text = re.sub(r'\s*```$', '', result_text.rstrip())
-            log.info("[generate-full] STEP 6a: After strip length = %d chars", len(result_text))
 
-        # Parse JSON — use safe string-index extraction (no regex on large strings)
-        log.info("[generate-full] STEP 7: Parsing JSON")
+        # Parse JSON
         paper_data = None
-        parse_error_msg = None
         try:
             paper_data = json.loads(result_text)
-            log.info("[generate-full] STEP 7a: json.loads OK")
-        except json.JSONDecodeError as primary_err:
-            parse_error_msg = str(primary_err)
-            log.warning("[generate-full] STEP 7b: direct json.loads failed: %s", primary_err)
-            # Safe extraction: find first '{' and last '}' — O(n), no regex backtracking
+        except json.JSONDecodeError as e:
+            log.warning("[job:%s] direct json.loads failed: %s — trying brace extraction", job_id, e)
             first_brace = result_text.find('{')
             last_brace = result_text.rfind('}')
             if first_brace != -1 and last_brace > first_brace:
-                candidate = result_text[first_brace:last_brace + 1]
-                log.info(
-                    "[generate-full] STEP 7c: trying substring [%d:%d] len=%d",
-                    first_brace, last_brace + 1, len(candidate)
-                )
-                try:
-                    paper_data = json.loads(candidate)
-                    log.info("[generate-full] STEP 7d: substring json.loads OK")
-                except json.JSONDecodeError as e2:
-                    log.error("[generate-full] STEP 7e: substring json.loads also failed: %s", e2)
-                    return jsonify({
-                        "error": f"Failed to parse JSON: {str(e2)}",
-                        "raw_start": result_text[:500],
-                        "hint": "The AI response was not valid JSON. Try a different topic."
-                    }), 500
+                paper_data = json.loads(result_text[first_brace:last_brace + 1])
             else:
-                log.error("[generate-full] STEP 7f: No JSON braces found in response")
-                return jsonify({
-                    "error": "No JSON found in response",
-                    "raw": result_text[:300] if result_text else "Empty response"
-                }), 500
+                raise ValueError("No JSON object found in OpenAI response")
 
         if not isinstance(paper_data, dict):
-            log.error("[generate-full] STEP 8: Parsed value is not a dict: %s", type(paper_data))
-            return jsonify({"error": "Response is not a JSON object"}), 500
+            raise ValueError(f"Parsed value is not a dict: {type(paper_data)}")
 
-        log.info("[generate-full] STEP 8: paper_data keys = %s", list(paper_data.keys()))
-
-        # Normalise / fill missing fields to match frontend schema
+        # Normalise schema to match frontend expectations
         paper_data.setdefault("authors", [{"name": "Author Name", "affiliation": "Department, University", "location": "City, Country", "email": "author@example.com"}])
         paper_data.setdefault("keywords", [])
         paper_data.setdefault("sections", [])
@@ -387,87 +356,125 @@ Requirements:
         paper_data.setdefault("tables", [])
         paper_data.setdefault("equations", [])
 
-        # Ensure every author has all required sub-fields
         for auth in paper_data["authors"]:
-            auth.setdefault("name", "")
-            auth.setdefault("affiliation", "")
-            auth.setdefault("location", "")
-            auth.setdefault("email", "")
+            auth.setdefault("name", ""); auth.setdefault("affiliation", "")
+            auth.setdefault("location", ""); auth.setdefault("email", "")
 
-        # Ensure every section has required fields and auto-generate id if missing
         for i, sec in enumerate(paper_data["sections"]):
-            sec.setdefault("id", f"id-sec{i+1}")
-            sec.setdefault("number", "")
-            sec.setdefault("title", "")
-            sec.setdefault("content", "")
+            sec.setdefault("id", f"id-sec{i+1}"); sec.setdefault("number", "")
+            sec.setdefault("title", ""); sec.setdefault("content", "")
             sec.setdefault("subsections", [])
             for j, sub in enumerate(sec["subsections"]):
                 sub.setdefault("id", f"id-sub{i+1}{chr(97+j)}")
                 sub.setdefault("letter", chr(65 + j))
-                sub.setdefault("title", "")
-                sub.setdefault("content", "")
+                sub.setdefault("title", ""); sub.setdefault("content", "")
                 sub.setdefault("numberedItems", [])
 
-        # Ensure figures/tables/equations have proper ids
         for i, fig in enumerate(paper_data["figures"]):
-            fig.setdefault("id", f"figure-{i+1}")
-            fig.setdefault("caption", f"Fig. {i+1}. ")
-            fig.setdefault("filename", "")
-            fig.setdefault("url", "")
+            fig.setdefault("id", f"figure-{i+1}"); fig.setdefault("caption", f"Fig. {i+1}. ")
+            fig.setdefault("filename", ""); fig.setdefault("url", "")
 
         for i, tbl in enumerate(paper_data["tables"]):
-            tbl.setdefault("id", f"table-{i+1}")
-            tbl.setdefault("caption", f"TABLE {i+1}. ")
-            tbl.setdefault("headers", [])
-            tbl.setdefault("rows", [])
+            tbl.setdefault("id", f"table-{i+1}"); tbl.setdefault("caption", f"TABLE {i+1}. ")
+            tbl.setdefault("headers", []); tbl.setdefault("rows", [])
 
         for i, eq in enumerate(paper_data["equations"]):
-            eq.setdefault("id", f"eq-{i+1}")
-            eq.setdefault("latex", "")
-            eq.setdefault("number", i + 1)
+            eq.setdefault("id", f"eq-{i+1}"); eq.setdefault("latex", ""); eq.setdefault("number", i + 1)
 
-        log.info("[generate-full] STEP 9: Schema normalization already done — skipping duplicate")
-        log.info(
-            "[generate-full] STEP 10: Building JSON response | "
-            "sections=%d figures=%d tables=%d equations=%d refs=%d",
-            len(paper_data.get("sections", [])),
-            len(paper_data.get("figures", [])),
-            len(paper_data.get("tables", [])),
-            len(paper_data.get("equations", [])),
-            len(paper_data.get("references", []))
-        )
-
-        result = {
-            "success": True,
-            "paper": paper_data,
+        elapsed = time.time() - t_start
+        log.info("[job:%s] DONE in %.1fs — storing result", job_id, elapsed)
+        _job_set(job_id, {
+            "status": "done",
+            "result": paper_data,
             "usage": {
-                "prompt_tokens": response.usage.prompt_tokens,
-                "completion_tokens": response.usage.completion_tokens,
-                "total_tokens": response.usage.total_tokens
-            }
-        }
-        log.info("[generate-full] STEP 11: jsonify + returning response")
-        resp = jsonify(result)
-        log.info("[generate-full] DONE: response built successfully")
-        return resp
+                "prompt_tokens": usage.prompt_tokens,
+                "completion_tokens": usage.completion_tokens,
+                "total_tokens": usage.total_tokens,
+            },
+            "elapsed": int(elapsed),
+        })
 
-    except json.JSONDecodeError as e:
-        log.error("[generate-full] EXCEPTION json.JSONDecodeError: %s", e, exc_info=True)
-        return jsonify({"error": f"Failed to parse AI response as JSON: {str(e)}"}), 500
     except Exception as e:
-        # Detect timeout specifically for a clear user-facing error
+        elapsed = time.time() - t_start
         err_type = type(e).__name__
         err_str = str(e)
-        if "timeout" in err_type.lower() or "timeout" in err_str.lower() or "timed out" in err_str.lower():
-            elapsed = time.time() - t_start
-            log.error("[generate-full] TIMEOUT after %.1fs: %s", elapsed, e)
-            return jsonify({
-                "error": f"Generation timed out after {int(elapsed)}s (limit: 600s). The topic may be too complex — try a shorter prompt.",
-                "timeout": True
-            }), 504
-        log.error("[generate-full] EXCEPTION %s: %s", err_type, e, exc_info=True)
+        timeout_flag = "timeout" in err_type.lower() or "timeout" in err_str.lower() or "timed out" in err_str.lower()
+        log.error("[job:%s] FAILED after %.1fs (%s): %s", job_id, elapsed, err_type, e, exc_info=True)
+        _job_set(job_id, {
+            "status": "error",
+            "error": f"Generation timed out after {int(elapsed)}s. Try a shorter topic." if timeout_flag else err_str,
+            "timeout": timeout_flag,
+        })
+
+
+@app.route("/api/generate-full", methods=["POST"])
+def generate_full():
+    """
+    Start full paper generation as a background job.
+    Returns { job_id } immediately — poll /api/job/<job_id> for status.
+    """
+    try:
+        data = request.get_json()
+        if not data:
+            return jsonify({"error": "No JSON data provided"}), 400
+        prompt = data.get("prompt", "").strip()
+        if not prompt:
+            return jsonify({"error": "Prompt is required"}), 400
+
+        # Validate API key early so the user gets an instant error
+        get_openai_client()
+
+        job_id = uuid.uuid4().hex[:12]
+        _job_set(job_id, {"status": "pending", "started_at": time.time()})
+
+        thread = threading.Thread(target=_run_generate_full_job, args=(job_id, prompt), daemon=True)
+        thread.start()
+
+        log.info("[generate-full] job_id=%s started for prompt=%r", job_id, prompt[:80])
+        return jsonify({"success": True, "job_id": job_id})
+
+    except Exception as e:
         traceback.print_exc()
-        return jsonify({"error": err_str}), 500
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/job/<job_id>", methods=["GET"])
+def get_job_status(job_id):
+    """
+    Poll the status of a background generation job.
+    Returns:
+      { status: 'pending', elapsed: int }
+      { status: 'done',    success: true, paper: {...}, usage: {...}, elapsed: int }
+      { status: 'error',   error: str }
+    """
+    job = _job_get(job_id)
+    if job is None:
+        return jsonify({"error": "Job not found or already retrieved"}), 404
+
+    elapsed = int(time.time() - job.get("started_at", time.time())) if "started_at" in job else job.get("elapsed", 0)
+
+    if job["status"] == "pending":
+        return jsonify({"status": "pending", "elapsed": elapsed})
+
+    elif job["status"] == "done":
+        _job_pop(job_id)   # clean up
+        return jsonify({
+            "status": "done",
+            "success": True,
+            "paper": job["result"],
+            "usage": job.get("usage", {}),
+            "elapsed": job.get("elapsed", elapsed),
+        })
+
+    else:  # error
+        _job_pop(job_id)   # clean up
+        return jsonify({
+            "status": "error",
+            "error": job.get("error", "Unknown error"),
+            "timeout": job.get("timeout", False),
+        })
+
+
 
 
 # ─── Image Upload ─────────────────────────────────────────────────────────────

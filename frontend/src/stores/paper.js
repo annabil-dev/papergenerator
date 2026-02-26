@@ -12,6 +12,7 @@ export const usePaperStore = defineStore('paper', () => {
   const paper = ref(createEmptyPaper())
   const loading = ref(false)
   const aiLoading = ref(false)
+  const aiLoadingMessage = ref('')
   const toast = ref({ show: false, message: '', type: 'info' })
   const activeTab = ref('metadata')
   const savedPapers = ref([])
@@ -319,24 +320,68 @@ export const usePaperStore = defineStore('paper', () => {
   async function aiGenerateFullPaper(prompt) {
     try {
       aiLoading.value = true
-      // 10-minute timeout — matches backend hard deadline
-      const res = await axios.post(`${API_BASE}/generate-full`, { prompt }, { timeout: 600000 })
-      if (res.data.success) {
-        paper.value = { ...createEmptyPaper(), ...res.data.paper, id: paper.value.id }
-        showToast('Full paper generated!', 'success')
-        return true
+      aiLoadingMessage.value = 'Menghubungi AI...'
+
+      // ── Step 1: Start the background job ─────────────────────────────────
+      let startRes
+      try {
+        startRes = await axios.post(`${API_BASE}/generate-full`, { prompt }, { timeout: 15000 })
+      } catch (startErr) {
+        throw new Error('Gagal menghubungi server: ' + (startErr.response?.data?.error || startErr.message))
       }
-      throw new Error(res.data.error || 'Generation failed')
+
+      if (!startRes.data?.job_id) {
+        throw new Error(startRes.data?.error || 'Server tidak mengembalikan job_id')
+      }
+
+      const jobId = startRes.data.job_id
+      const startTime = Date.now()
+      const MAX_WAIT_MS = 12 * 60 * 1000  // 12 minutes hard limit
+
+      // ── Step 2: Poll until done ───────────────────────────────────────────
+      while (true) {
+        await new Promise(resolve => setTimeout(resolve, 3000))   // wait 3 s
+
+        const elapsed = Math.round((Date.now() - startTime) / 1000)
+        const mins = Math.floor(elapsed / 60)
+        const secs = elapsed % 60
+        const timeStr = mins > 0 ? `${mins}m ${secs}s` : `${secs}s`
+        aiLoadingMessage.value = `🤖 AI sedang membuat paper... (${timeStr})`
+
+        let pollRes
+        try {
+          pollRes = await axios.get(`${API_BASE}/job/${jobId}`, { timeout: 10000 })
+        } catch (pollErr) {
+          // Network error during poll — retry (don't abort)
+          console.warn('[aiGenerateFullPaper] poll error (retrying):', pollErr.message)
+          continue
+        }
+
+        const { status } = pollRes.data
+
+        if (status === 'done') {
+          paper.value = { ...createEmptyPaper(), ...pollRes.data.paper, id: paper.value.id }
+          const usage = pollRes.data.usage || {}
+          showToast(`Paper berhasil dibuat! (${timeStr}, ${usage.total_tokens || '?'} token)`, 'success')
+          return true
+        }
+
+        if (status === 'error') {
+          const errMsg = pollRes.data.error || 'Generasi gagal'
+          throw new Error(pollRes.data.timeout ? `Timeout: ${errMsg}` : errMsg)
+        }
+
+        // status === 'pending' → continue polling
+        if (Date.now() - startTime > MAX_WAIT_MS) {
+          throw new Error('Timeout: proses melebihi 12 menit. Coba topik yang lebih singkat.')
+        }
+      }
     } catch (err) {
-      // Distinguish timeout from other errors
-      if (err.code === 'ECONNABORTED' || err.response?.status === 504 || err.response?.data?.timeout) {
-        showToast('Generation timed out (>10 min). Try a shorter/simpler topic.', 'error')
-      } else {
-        showToast('AI error: ' + (err.response?.data?.error || err.message), 'error')
-      }
+      showToast('Error AI: ' + (err.response?.data?.error || err.message), 'error')
       return false
     } finally {
       aiLoading.value = false
+      aiLoadingMessage.value = ''
     }
   }
 
@@ -382,7 +427,7 @@ export const usePaperStore = defineStore('paper', () => {
 
   return {
     // State
-    paper, loading, aiLoading, toast, activeTab, savedPapers,
+    paper, loading, aiLoading, aiLoadingMessage, toast, activeTab, savedPapers,
     // Computed
     hasContent,
     // Paper CRUD

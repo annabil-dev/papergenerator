@@ -408,6 +408,47 @@ export const usePaperStore = defineStore('paper', () => {
     }
   }
 
+  function downloadJson() {
+    try {
+      const data = JSON.stringify(paper.value, null, 2)
+      const blob = new Blob([data], { type: 'application/json' })
+      const url = URL.createObjectURL(blob)
+      const link = document.createElement('a')
+      link.href = url
+      const filename = (paper.value.title || 'paper').replace(/[^a-zA-Z0-9_\-]/g, '_').slice(0, 60)
+      link.setAttribute('download', `${filename}.json`)
+      document.body.appendChild(link)
+      link.click()
+      link.remove()
+      URL.revokeObjectURL(url)
+      showToast('JSON downloaded!', 'success')
+    } catch (err) {
+      showToast('Download failed: ' + err.message, 'error')
+    }
+  }
+
+  function uploadJson(file) {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader()
+      reader.onload = (e) => {
+        try {
+          const data = JSON.parse(e.target.result)
+          paper.value = { ...createEmptyPaper(), ...data }
+          showToast('Paper loaded from JSON!', 'success')
+          resolve(true)
+        } catch (err) {
+          showToast('Invalid JSON file: ' + err.message, 'error')
+          reject(err)
+        }
+      }
+      reader.onerror = () => {
+        showToast('Failed to read file', 'error')
+        reject(new Error('File read error'))
+      }
+      reader.readAsText(file)
+    })
+  }
+
   // ─── Helpers ──────────────────────────────────────────────────────────────
   function toRoman(num) {
     const romanNumerals = [
@@ -451,7 +492,7 @@ export const usePaperStore = defineStore('paper', () => {
     // AI
     aiGenerate, aiGenerateFullPaper,
     // Export
-    exportDocx,
+    exportDocx, downloadJson, uploadJson,
     // Helpers
     showToast, generateId, toRoman
   }

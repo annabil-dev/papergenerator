@@ -18,6 +18,7 @@ from pathlib import Path
 from docx import Document
 from docx.shared import Pt, Inches
 from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_LINE_SPACING
+from docx.oxml import OxmlElement
 from docx.oxml.ns import qn, nsdecls
 from docx.oxml import parse_xml
 
@@ -163,9 +164,7 @@ def generate_ieee_docx(paper: dict, output_path: str, images_dir: str = "uploads
     sec.bottom_margin = Inches(1.0)
     sec.left_margin   = Inches(0.625)
     sec.right_margin  = Inches(0.625)
-
-    cols_xml = parse_xml(f'<w:cols {nsdecls("w")} w:num="2" w:space="340"/>')
-    sec._sectPr.append(cols_xml)
+    # Section 1 = 1 column (title, authors, abstract, keywords)
 
     #  Default style 
     normal = doc.styles["Normal"]
@@ -239,6 +238,37 @@ def generate_ieee_docx(paper: dict, output_path: str, images_dir: str = "uploads
         r.bold = True; r.italic = True; r.font.size = Pt(9); r.font.name = "Times New Roman"
         r = p.add_run(", ".join(keywords))
         r.italic = True; r.font.size = Pt(9); r.font.name = "Times New Roman"
+
+    # ── Section break: end 1-col header, begin 2-col body ─────────────────────
+    # Embed a sectPr inside the last (keywords/abstract) paragraph's pPr.
+    # This ends section 1 (1-column) with a continuous break.
+    # The document body's final sectPr (section 2) will be 2-column.
+    last_p_el = doc.paragraphs[-1]._p
+    last_pPr  = last_p_el.get_or_add_pPr()
+    sec1_sectPr = OxmlElement('w:sectPr')
+    for tag, attrs in [
+        ('w:type',   {'w:val': 'continuous'}),
+        ('w:pgSz',   {'w:w': '12240', 'w:h': '15840'}),
+        ('w:pgMar',  {'w:top': '1080', 'w:right': '900',
+                      'w:bottom': '1440', 'w:left': '900'}),
+        ('w:cols',   {'w:num': '1', 'w:space': '720'}),
+    ]:
+        el = OxmlElement(tag)
+        for k, v in attrs.items(): el.set(qn(k), v)
+        sec1_sectPr.append(el)
+    last_pPr.append(sec1_sectPr)
+    # Set body final sectPr to 2 columns
+    body = doc.element.body
+    body_sectPr = body.find(qn('w:sectPr'))
+    if body_sectPr is None:
+        body_sectPr = OxmlElement('w:sectPr')
+        body.append(body_sectPr)
+    for existing in body_sectPr.findall(qn('w:cols')):
+        body_sectPr.remove(existing)
+    cols2 = OxmlElement('w:cols')
+    cols2.set(qn('w:num'), '2')
+    cols2.set(qn('w:space'), '340')
+    body_sectPr.append(cols2)
 
     #  Sections 
     for section in paper.get("sections", []):
@@ -368,7 +398,7 @@ def _add_content_paragraphs(doc, content: str, images_dir: str, paper: dict):
                 _add_table(doc, para, paper)
                 continue
             # Bullet block
-            if "" in para:
+            if "•" in para:
                 _add_bullet_block(doc, para)
                 continue
             # Normal text - split on single newlines
@@ -385,13 +415,13 @@ def _add_content_paragraphs(doc, content: str, images_dir: str, paper: dict):
 
 
 def _add_bullet_block(doc, text: str):
-    """Render text containing bullet markers ()."""
-    parts = re.split(r'(?=)', text)
+    """Render text containing bullet markers (•)."""
+    parts = re.split(r'(?=•)', text)
     for part in parts:
         part = part.strip()
         if not part:
             continue
-        if part.startswith(""):
+        if part.startswith("•"):
             item_text = part[1:].strip()
             p = doc.add_paragraph()
             p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
@@ -399,7 +429,7 @@ def _add_bullet_block(doc, text: str):
             p.paragraph_format.first_line_indent = Inches(-0.15)
             p.paragraph_format.space_before = Pt(1)
             p.paragraph_format.space_after  = Pt(1)
-            r = p.add_run(" ")
+            r = p.add_run("• ")
             r.font.size = Pt(10); r.font.name = "Times New Roman"
             _add_formatted_text(p, item_text)
         else:

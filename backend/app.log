@@ -784,3 +784,113 @@ openai.APITimeoutError: Request timed out.
  * Running on http://192.168.18.9:5000
 2026-02-27 00:54:54,173 [INFO] [33mPress CTRL+C to quit[0m
 2026-02-27 00:54:56,541 [INFO] 127.0.0.1 - - [27/Feb/2026 00:54:56] "GET /api/papers HTTP/1.1" 200 -
+2026-02-27 00:55:06,911 [INFO] ============================================================
+2026-02-27 00:55:06,911 [INFO] Backend started
+2026-02-27 00:55:06,931 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.9:5000
+2026-02-27 00:55:06,931 [INFO] [33mPress CTRL+C to quit[0m
+2026-02-27 00:55:10,234 [INFO] 127.0.0.1 - - [27/Feb/2026 00:55:10] "GET /api/papers HTTP/1.1" 200 -
+2026-02-27 00:55:16,416 [INFO] [job:3296d2648bff] started, prompt='Real-Time LiDAR SLAM with Reinforcement Learning Path Planning for Autonomous AG'
+2026-02-27 00:55:16,416 [INFO] [generate-full] job_id=3296d2648bff started for prompt='Real-Time LiDAR SLAM with Reinforcement Learning Path Planning for Autonomous AG'
+2026-02-27 00:55:16,417 [INFO] [job:3296d2648bff] calling generate_paper_json, model=gpt-5-mini-2025-08-07
+2026-02-27 00:55:16,417 [INFO] 127.0.0.1 - - [27/Feb/2026 00:55:16] "POST /api/generate-full HTTP/1.1" 200 -
+2026-02-27 00:55:19,436 [INFO] 127.0.0.1 - - [27/Feb/2026 00:55:19] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:55:22,448 [INFO] 127.0.0.1 - - [27/Feb/2026 00:55:22] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:55:25,462 [INFO] 127.0.0.1 - - [27/Feb/2026 00:55:25] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:55:28,475 [INFO] 127.0.0.1 - - [27/Feb/2026 00:55:28] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:55:32,053 [INFO] 127.0.0.1 - - [27/Feb/2026 00:55:32] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:55:36,046 [INFO] 127.0.0.1 - - [27/Feb/2026 00:55:36] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:55:39,379 [INFO] 127.0.0.1 - - [27/Feb/2026 00:55:39] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:55:43,043 [INFO] 127.0.0.1 - - [27/Feb/2026 00:55:43] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:55:45,343 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 00:55:47,041 [INFO] 127.0.0.1 - - [27/Feb/2026 00:55:47] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:55:51,046 [INFO] 127.0.0.1 - - [27/Feb/2026 00:55:51] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:55:55,056 [INFO] 127.0.0.1 - - [27/Feb/2026 00:55:55] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:55:59,045 [INFO] 127.0.0.1 - - [27/Feb/2026 00:55:59] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:56:03,190 [INFO] 127.0.0.1 - - [27/Feb/2026 00:56:03] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:56:07,043 [INFO] 127.0.0.1 - - [27/Feb/2026 00:56:07] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:56:11,050 [INFO] 127.0.0.1 - - [27/Feb/2026 00:56:11] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:56:15,045 [INFO] 127.0.0.1 - - [27/Feb/2026 00:56:15] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:56:19,046 [INFO] 127.0.0.1 - - [27/Feb/2026 00:56:19] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:56:23,041 [INFO] 127.0.0.1 - - [27/Feb/2026 00:56:23] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:56:27,062 [INFO] 127.0.0.1 - - [27/Feb/2026 00:56:27] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:56:31,053 [INFO] 127.0.0.1 - - [27/Feb/2026 00:56:31] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:56:35,051 [INFO] 127.0.0.1 - - [27/Feb/2026 00:56:35] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:56:39,043 [INFO] 127.0.0.1 - - [27/Feb/2026 00:56:39] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:56:43,043 [INFO] 127.0.0.1 - - [27/Feb/2026 00:56:43] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:56:47,051 [INFO] 127.0.0.1 - - [27/Feb/2026 00:56:47] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:56:51,042 [INFO] 127.0.0.1 - - [27/Feb/2026 00:56:51] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:56:55,051 [INFO] 127.0.0.1 - - [27/Feb/2026 00:56:55] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:56:59,042 [INFO] 127.0.0.1 - - [27/Feb/2026 00:56:59] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:57:03,041 [INFO] 127.0.0.1 - - [27/Feb/2026 00:57:03] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:57:07,041 [INFO] 127.0.0.1 - - [27/Feb/2026 00:57:07] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:57:11,041 [INFO] 127.0.0.1 - - [27/Feb/2026 00:57:11] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:57:15,056 [INFO] 127.0.0.1 - - [27/Feb/2026 00:57:15] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:57:19,056 [INFO] 127.0.0.1 - - [27/Feb/2026 00:57:19] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:57:23,046 [INFO] 127.0.0.1 - - [27/Feb/2026 00:57:23] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:57:27,050 [INFO] 127.0.0.1 - - [27/Feb/2026 00:57:27] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:57:31,045 [INFO] 127.0.0.1 - - [27/Feb/2026 00:57:31] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:57:35,041 [INFO] 127.0.0.1 - - [27/Feb/2026 00:57:35] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:57:39,046 [INFO] 127.0.0.1 - - [27/Feb/2026 00:57:39] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:57:43,041 [INFO] 127.0.0.1 - - [27/Feb/2026 00:57:43] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:57:47,040 [INFO] 127.0.0.1 - - [27/Feb/2026 00:57:47] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:57:51,041 [INFO] 127.0.0.1 - - [27/Feb/2026 00:57:51] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:57:55,039 [INFO] 127.0.0.1 - - [27/Feb/2026 00:57:55] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 00:57:56,718 [INFO] [job:3296d2648bff] JSON saved → D:\PROGRAM\paperGenerator\backend\output\20260227_005756_Real_Time_LiDAR_SLAM_with_Reinforcement_Learning_P.json
+2026-02-27 00:57:56,718 [INFO] [job:3296d2648bff] DONE in 160.3s
+2026-02-27 00:57:59,052 [INFO] 127.0.0.1 - - [27/Feb/2026 00:57:59] "GET /api/job/3296d2648bff HTTP/1.1" 200 -
+2026-02-27 01:00:39,597 [INFO] 127.0.0.1 - - [27/Feb/2026 01:00:39] "POST /api/export HTTP/1.1" 200 -
+2026-02-27 01:01:19,842 [INFO] 127.0.0.1 - - [27/Feb/2026 01:01:19] "POST /api/export HTTP/1.1" 200 -
+2026-02-27 01:02:31,519 [INFO] 127.0.0.1 - - [27/Feb/2026 01:02:31] "POST /api/papers HTTP/1.1" 200 -
+2026-02-27 01:02:31,527 [INFO] 127.0.0.1 - - [27/Feb/2026 01:02:31] "GET /api/papers HTTP/1.1" 200 -
+2026-02-27 01:02:40,313 [INFO] 127.0.0.1 - - [27/Feb/2026 01:02:40] "GET /api/papers/id-1dc1bx37q HTTP/1.1" 200 -
+2026-02-27 01:06:37,751 [INFO] 127.0.0.1 - - [27/Feb/2026 01:06:37] "GET /api/papers HTTP/1.1" 200 -
+2026-02-27 01:07:29,873 [INFO] 127.0.0.1 - - [27/Feb/2026 01:07:29] "GET /api/papers HTTP/1.1" 200 -
+2026-02-27 01:08:13,987 [INFO] 127.0.0.1 - - [27/Feb/2026 01:08:13] "GET /api/papers HTTP/1.1" 200 -
+2026-02-27 01:08:27,217 [INFO] ============================================================
+2026-02-27 01:08:27,219 [INFO] Backend started
+2026-02-27 01:08:27,247 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.9:5000
+2026-02-27 01:08:27,247 [INFO] [33mPress CTRL+C to quit[0m
+2026-02-27 01:09:42,878 [INFO] ============================================================
+2026-02-27 01:09:42,878 [INFO] Backend started
+2026-02-27 01:09:59,478 [INFO] ============================================================
+2026-02-27 01:09:59,478 [INFO] Backend started
+2026-02-27 01:09:59,498 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.9:5000
+2026-02-27 01:09:59,498 [INFO] [33mPress CTRL+C to quit[0m
+2026-02-27 01:10:14,457 [INFO] ============================================================
+2026-02-27 01:10:14,466 [INFO] Backend started
+2026-02-27 01:10:14,493 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.9:5000
+2026-02-27 01:10:14,494 [INFO] [33mPress CTRL+C to quit[0m
+2026-02-27 01:10:32,892 [INFO] ============================================================
+2026-02-27 01:10:32,892 [INFO] Backend started
+2026-02-27 01:10:32,909 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.9:5000
+2026-02-27 01:10:32,909 [INFO] [33mPress CTRL+C to quit[0m
+2026-02-27 01:11:47,089 [INFO] 127.0.0.1 - - [27/Feb/2026 01:11:47] "GET /api/papers HTTP/1.1" 200 -
+2026-02-27 01:12:37,089 [INFO] 127.0.0.1 - - [27/Feb/2026 01:12:37] "GET /api/papers HTTP/1.1" 200 -
+2026-02-27 01:13:22,276 [INFO] 127.0.0.1 - - [27/Feb/2026 01:13:22] "POST /api/export HTTP/1.1" 200 -
+2026-02-27 01:13:45,664 [INFO] 127.0.0.1 - - [27/Feb/2026 01:13:45] "GET /api/papers HTTP/1.1" 200 -
+2026-02-27 01:13:45,678 [INFO] 127.0.0.1 - - [27/Feb/2026 01:13:45] "GET /api/papers HTTP/1.1" 200 -
+2026-02-27 01:31:02,836 [INFO] ============================================================
+2026-02-27 01:31:02,836 [INFO] Backend started
+2026-02-27 01:31:02,863 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.9:5000
+2026-02-27 01:31:02,863 [INFO] [33mPress CTRL+C to quit[0m
+2026-02-27 01:31:07,556 [INFO] 127.0.0.1 - - [27/Feb/2026 01:31:07] "GET /api/papers HTTP/1.1" 200 -
+2026-02-27 01:31:09,887 [INFO] 127.0.0.1 - - [27/Feb/2026 01:31:09] "GET /api/papers HTTP/1.1" 200 -
+2026-02-27 01:32:01,189 [INFO] 127.0.0.1 - - [27/Feb/2026 01:32:01] "POST /api/export HTTP/1.1" 200 -

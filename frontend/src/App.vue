@@ -12,49 +12,34 @@
           <span class="text-xs bg-blue-600 px-2 py-0.5 rounded">IEEE Format</span>
         </div>
         <div class="flex items-center gap-2">
-          <!-- Saved Papers Dropdown -->
-          <div class="relative" ref="dropdownRef">
-            <button @click="showPaperList = !showPaperList"
-              class="px-3 py-1.5 bg-blue-600 hover:bg-blue-500 rounded text-sm flex items-center gap-1">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
-              </svg>
-              Papers
-            </button>
-            <div v-if="showPaperList"
-              class="absolute right-0 top-full mt-1 w-72 bg-white rounded-lg shadow-xl z-50 text-gray-800 border">
-              <div class="p-2 border-b flex justify-between items-center">
-                <span class="text-sm font-semibold">Saved Papers</span>
-                <button @click="store.newPaper(); showPaperList = false"
-                  class="text-xs bg-green-500 text-white px-2 py-1 rounded hover:bg-green-600">+ New</button>
-              </div>
-              <div class="max-h-60 overflow-y-auto">
-                <div v-if="store.savedPapers.length === 0" class="p-3 text-sm text-gray-400 text-center">
-                  No saved papers
-                </div>
-                <div v-for="p in store.savedPapers" :key="p.id"
-                  class="flex items-center justify-between px-3 py-2 hover:bg-gray-50 cursor-pointer border-b last:border-0"
-                  @click="store.loadPaper(p.id); showPaperList = false">
-                  <div class="flex-1 min-w-0">
-                    <div class="text-sm font-medium truncate">{{ p.title || 'Untitled' }}</div>
-                    <div class="text-xs text-gray-400">{{ new Date(p.modified).toLocaleDateString() }}</div>
-                  </div>
-                  <button @click.stop="store.deletePaper(p.id)"
-                    class="ml-2 text-red-400 hover:text-red-600 text-xs">✕</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <button @click="store.savePaper()"
-            class="px-3 py-1.5 bg-green-600 hover:bg-green-500 rounded text-sm flex items-center gap-1"
-            :disabled="store.loading">
+          <!-- New -->
+          <button @click="store.newPaper()"
+            class="px-3 py-1.5 bg-gray-600 hover:bg-gray-500 rounded text-sm flex items-center gap-1">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4" />
+                d="M12 4v16m8-8H4" />
             </svg>
-            Save
+            New
+          </button>
+
+          <!-- Upload JSON -->
+          <label class="px-3 py-1.5 bg-blue-600 hover:bg-blue-500 rounded text-sm flex items-center gap-1 cursor-pointer">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+            </svg>
+            Upload JSON
+            <input type="file" accept=".json" class="hidden" @change="onUploadJson" />
+          </label>
+
+          <!-- Save JSON -->
+          <button @click="store.downloadJson()"
+            class="px-3 py-1.5 bg-green-600 hover:bg-green-500 rounded text-sm flex items-center gap-1">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+            </svg>
+            Save JSON
           </button>
 
           <button @click="store.exportDocx()"
@@ -131,7 +116,19 @@
       </div>
     </div>
 
-    <!-- Loading Overlay — z-50, shows live progress message -->
+    <!-- DOCX Export Overlay -->
+    <div v-if="store.loading" class="fixed inset-0 bg-black/40 flex items-center justify-center z-50">
+      <div class="bg-white rounded-xl p-8 shadow-2xl flex flex-col items-center gap-4 min-w-72 max-w-sm w-full mx-4">
+        <div class="w-12 h-12 border-4 border-orange-200 border-t-orange-500 rounded-full animate-spin"></div>
+        <span class="text-sm text-gray-700 text-center font-medium">Generating DOCX...</span>
+        <div class="w-full bg-gray-100 rounded-full h-1.5 overflow-hidden">
+          <div class="h-full bg-orange-400 rounded-full animate-pulse" style="width: 70%"></div>
+        </div>
+        <p class="text-xs text-gray-400 text-center">Harap tunggu, sedang membuat dokumen Word.</p>
+      </div>
+    </div>
+
+    <!-- AI Loading Overlay — z-50, shows live progress message -->
     <div v-if="store.aiLoading" class="fixed inset-0 bg-black/40 flex items-center justify-center z-50">
       <div class="bg-white rounded-xl p-8 shadow-2xl flex flex-col items-center gap-4 min-w-72 max-w-sm w-full mx-4">
         <div class="w-12 h-12 border-4 border-blue-200 border-t-blue-600 rounded-full animate-spin"></div>
@@ -162,7 +159,14 @@ import PreviewTab from './components/PreviewTab.vue'
 
 const store = usePaperStore()
 const fullPaperPrompt = ref('')
-const showPaperList = ref(false)
+
+function onUploadJson(event) {
+  const file = event.target.files?.[0]
+  if (file) {
+    store.uploadJson(file)
+    event.target.value = ''  // reset so same file can be re-uploaded
+  }
+}
 
 const tabs = [
   { id: 'metadata', label: '📝 Title & Authors' },

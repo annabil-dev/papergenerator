@@ -5,6 +5,7 @@ export default defineConfig({
   plugins: [vue()],
   server: {
     port: 3000,
+    allowedHosts: ['paper.otomasi.app'],
     proxy: {
       '/api': {
         target: 'http://localhost:5000',
@@ -13,5 +14,8 @@ export default defineConfig({
         timeout: 0
       }
     }
+  },
+  preview: {
+    allowedHosts: ['paper.otomasi.app']
   }
 })

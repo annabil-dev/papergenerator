@@ -1,0 +1,7 @@
+[    1219ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/favicon.ico:0
+[  195271ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/api/generate:0
+[  195278ms] [ERROR] Generate error: Error: fetch failed
+    at generateWithAI (webpack-internal:///(app-pages-browser)/./src/components/RPSEditor.tsx:369:23) @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:32
+[  260122ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/api/generate:0
+[  260126ms] [ERROR] Generate error: Error: Failed to generate RPS: 'N1'
+    at generateWithAI (webpack-internal:///(app-pages-browser)/./src/components/RPSEditor.tsx:369:23) @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:32

@@ -24,7 +24,8 @@ from dotenv import load_dotenv
 from openai import OpenAI
 import httpx
 
-from docx_generator import generate_ieee_docx
+from generate_docx_from_json import generate_ieee_docx
+from generate_ai_josn_paper import generate_paper_json
 
 # Load environment variables
 load_dotenv()
@@ -220,133 +221,25 @@ Keep it professional and concise.""",
 
 def _run_generate_full_job(job_id: str, prompt: str):
     """
-    Background thread: calls OpenAI, parses result, stores in _jobs.
+    Background thread: generates paper via generate_paper_json(), stores in _jobs.
     The HTTP endpoint returns immediately with job_id; frontend polls /api/job/<id>.
     """
     t_start = time.time()
-    log.info("[job:%s] STEP 1: background thread started, prompt=%r", job_id, prompt[:80])
+    log.info("[job:%s] started, prompt=%r", job_id, prompt[:80])
     try:
-        client = get_openai_client()
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key or api_key == "sk-your-actual-api-key":
+            raise Exception("OPENAI_API_KEY not configured")
 
-        system_prompt = "You are an expert IEEE conference paper author. Generate a complete IEEE conference paper as valid JSON only — no markdown, no text outside the JSON object."
-
-        user_message = f"""Generate a complete IEEE conference paper on this topic: {prompt}
-
-Return ONLY the JSON object below — no markdown, no code fences, no text outside JSON.
-All LaTeX in JSON strings: double-escape backslashes (\\\\alpha, \\\\frac{{a}}{{b}}, \\\\mathbf{{X}}).
-Inline math: $...$  |  Display equation: $$...$$ on its own paragraph line in content strings.
-equations[] array: raw LaTeX only, no $ delimiters.
-
-{{
-  "title": "Specific technical title max 15 words including proposed method acronym",
-  "authors": [
-    {{"name": "Firstname Lastname", "affiliation": "Dept of X, University Y", "location": "City, Country", "email": "a@b.edu"}},
-    {{"name": "Second Author",      "affiliation": "School of Z, Institute W", "location": "City, Country", "email": "c@d.edu"}}
-  ],
-  "abstract": "150-200 words: problem, method key innovations, quantitative result (X% metric on Dataset, +Y% vs baseline), impact.",
-  "keywords": ["kw1","kw2","kw3","kw4","kw5","kw6"],
-  "sections": [
-    {{"id":"id-sec1","number":"I","title":"INTRODUCTION","content":"400-500 words. Context, prior work [1][2][3], problem gap, contributions (\\n• ...), paper organization.","subsections":[]}},
-    {{"id":"id-sec2","number":"II","title":"RELATED WORK","content":"100-150 word overview of the three threads.","subsections":[
-      {{"id":"id-sub2a","letter":"A","title":"[Category A relevant to topic]","content":"250-350 words reviewing 5+ works chronologically with limitations.","numberedItems":[]}},
-      {{"id":"id-sub2b","letter":"B","title":"[Category B relevant to topic]","content":"250-350 words.","numberedItems":[]}},
-      {{"id":"id-sub2c","letter":"C","title":"[Category C relevant to topic]","content":"200-300 words.","numberedItems":[]}}
-    ]}},
-    {{"id":"id-sec3","number":"III","title":"PROPOSED METHOD","content":"80-120 word overview of the full framework referencing Fig. 1.","subsections":[
-      {{"id":"id-sub3a","letter":"A","title":"Problem Formulation","content":"200-300 words. Formally define input/output with 2 display equations $$...$$ each explained.","numberedItems":[]}},
-      {{"id":"id-sub3b","letter":"B","title":"System Architecture","content":"300-400 words referencing Fig. 1 and Fig. 2 with inline math and 1 display equation.","numberedItems":[]}},
-      {{"id":"id-sub3c","letter":"C","title":"[Key Proposed Module]","content":"300-400 words with 1-2 display equations.","numberedItems":[]}},
-      {{"id":"id-sub3d","letter":"D","title":"Loss Function","content":"200-300 words with total loss display equation $$\\\\mathcal{{L}}_{{\\\\text{{total}}}} = ...$$.","numberedItems":[]}}
-    ]}},
-    {{"id":"id-sec4","number":"IV","title":"EXPERIMENTAL RESULTS","content":"80-100 word overview.","subsections":[
-      {{"id":"id-sub4a","letter":"A","title":"Experimental Setup","content":"200-300 words: datasets, splits, augmentation, hardware referencing Table I.","numberedItems":[]}},
-      {{"id":"id-sub4b","letter":"B","title":"Performance Evaluation","content":"250-350 words comparing Table II row-by-row with specific numbers.","numberedItems":[]}},
-      {{"id":"id-sub4c","letter":"C","title":"Ablation Study","content":"200-300 words analyzing Table III component-by-component.","numberedItems":[]}}
-    ]}},
-    {{"id":"id-sec5","number":"V","title":"CONCLUSION","content":"150-200 words: summary, key metric, limitation, future work.","subsections":[]}}
-  ],
-  "acknowledgment": "2-3 sentences: specific funding agency, grant number, computational resources.",
-  "references": [
-    {{"id":1,"text":"IEEE format: Author(s), 'Title,' Venue, Year, pp., doi."}},
-    {{"id":2,"text":"..."}}
-  ],
-  "figures": [
-    {{"id":"figure-1","caption":"Fig. 1. Overall architecture of the proposed method showing encoder, key module, and decoder.","filename":"","url":""}},
-    {{"id":"figure-2","caption":"Fig. 2. Detailed structure of the proposed [Key Module].","filename":"","url":""}},
-    {{"id":"figure-3","caption":"Fig. 3. Qualitative results: input, ground truth, prediction.","filename":"","url":""}},
-    {{"id":"figure-4","caption":"Fig. 4. Accuracy vs. efficiency trade-off compared to state-of-the-art.","filename":"","url":""}}
-  ],
-  "tables": [
-    {{"id":"table-1","caption":"TABLE I. Training Configuration","headers":["Setting","Value"],"rows":[["Dataset","<name>"],["Optimizer","SGD (momentum=0.9)"],["Initial LR","<value>"],["LR Schedule","Poly (power=0.9)"],["Batch Size","<value>"],["Epochs","<value>"],["GPU","<model>"],["Framework","PyTorch"]]}},
-    {{"id":"table-2","caption":"TABLE II. Comparison with State-of-the-Art","headers":["Method","Backbone","Params (M)","FLOPs (G)","Metric (%)","FPS"],"rows":[["Method1 [1]","<backbone>","<params>","<flops>","<metric>","<fps>"],["Method2 [2]","<backbone>","<params>","<flops>","<metric>","<fps>"],["Method3 [3]","<backbone>","<params>","<flops>","<metric>","<fps>"],["Method4 [4]","<backbone>","<params>","<flops>","<metric>","<fps>"],["Method5 [5]","<backbone>","<params>","<flops>","<metric>","<fps>"],["Method6 [6]","<backbone>","<params>","<flops>","<metric>","<fps>"],["Method7 [7]","<backbone>","<params>","<flops>","<metric>","<fps>"],["Proposed (Ours)","Custom","<params>","<flops>","<metric>","<fps>"]]}},
-    {{"id":"table-3","caption":"TABLE III. Ablation Study","headers":["Config","Module A","Module B","Module C","Params (M)","Metric (%)"],"rows":[["Baseline","✗","✗","✗","<p>","<m>"],["+ Module A","✓","✗","✗","<p>","<m>"],["+ Module B","✓","✓","✗","<p>","<m>"],["Full Model","✓","✓","✓","<p>","<m>"]]}}
-  ],
-  "equations": [
-    {{"id":"eq-1","latex":"<raw LaTeX eq 1>","number":1}},
-    {{"id":"eq-2","latex":"<raw LaTeX eq 2>","number":2}},
-    {{"id":"eq-3","latex":"<raw LaTeX eq 3>","number":3}},
-    {{"id":"eq-4","latex":"<raw LaTeX eq 4>","number":4}},
-    {{"id":"eq-5","latex":"<raw LaTeX eq 5>","number":5}},
-    {{"id":"eq-6","latex":"<raw LaTeX eq 6>","number":6}}
-  ]
-}}
-
-Requirements:
-- 12+ real IEEE-format references (2018-2025)
-- Fill ALL table rows with topic-realistic numbers
-- Invent specific method acronym fitting the topic
-- All LaTeX: double-escaped in JSON (\\\\alpha not \\alpha)
-- Topic for this paper: {prompt}"""
-
-        log.info("[job:%s] STEP 2: Calling OpenAI model=%s", job_id, OPENAI_MODEL)
-        t_openai_start = time.time()
-
-        response = client.chat.completions.create(
+        log.info("[job:%s] calling generate_paper_json, model=%s", job_id, OPENAI_MODEL)
+        paper_data = generate_paper_json(
+            judul=prompt,
+            custom_prompt="",
+            api_key=api_key,
             model=OPENAI_MODEL,
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_message}
-            ],
-            timeout=600
         )
 
-        openai_duration = time.time() - t_openai_start
-        usage = response.usage
-        log.info(
-            "[job:%s] STEP 3: OpenAI responded in %.1fs | tokens=%d",
-            job_id, openai_duration, usage.total_tokens
-        )
-
-        result_text = response.choices[0].message.content.strip()
-
-        # Save raw response for debugging
-        try:
-            (Path(__file__).parent / "last_openai_raw.txt").write_text(result_text, encoding="utf-8")
-        except Exception:
-            pass
-
-        # Strip markdown fences if present
-        if result_text.startswith("```"):
-            result_text = re.sub(r'^```(?:json)?\s*', '', result_text)
-            result_text = re.sub(r'\s*```$', '', result_text.rstrip())
-
-        # Parse JSON
-        paper_data = None
-        try:
-            paper_data = json.loads(result_text)
-        except json.JSONDecodeError as e:
-            log.warning("[job:%s] direct json.loads failed: %s — trying brace extraction", job_id, e)
-            first_brace = result_text.find('{')
-            last_brace = result_text.rfind('}')
-            if first_brace != -1 and last_brace > first_brace:
-                paper_data = json.loads(result_text[first_brace:last_brace + 1])
-            else:
-                raise ValueError("No JSON object found in OpenAI response")
-
-        if not isinstance(paper_data, dict):
-            raise ValueError(f"Parsed value is not a dict: {type(paper_data)}")
-
-        # Normalise schema to match frontend expectations
+        # ── Normalise schema ─────────────────────────────────────────────────
         paper_data.setdefault("authors", [{"name": "Author Name", "affiliation": "Department, University", "location": "City, Country", "email": "author@example.com"}])
         paper_data.setdefault("keywords", [])
         paper_data.setdefault("sections", [])
@@ -381,16 +274,27 @@ Requirements:
         for i, eq in enumerate(paper_data["equations"]):
             eq.setdefault("id", f"eq-{i+1}"); eq.setdefault("latex", ""); eq.setdefault("number", i + 1)
 
+        # ── Save JSON to output/ ─────────────────────────────────────────────
+        try:
+            output_dir = Path(__file__).parent / "output"
+            output_dir.mkdir(exist_ok=True)
+            safe_title = re.sub(r"[^a-zA-Z0-9_]", "_", prompt[:50]).strip("_")
+            ts_str = time.strftime("%Y%m%d_%H%M%S")
+            json_out = output_dir / f"{ts_str}_{safe_title}.json"
+            json_out.write_text(
+                json.dumps(paper_data, ensure_ascii=False, indent=2),
+                encoding="utf-8",
+            )
+            log.info("[job:%s] JSON saved → %s", job_id, json_out)
+        except Exception as save_err:
+            log.warning("[job:%s] Could not save JSON: %s", job_id, save_err)
+
         elapsed = time.time() - t_start
-        log.info("[job:%s] DONE in %.1fs — storing result", job_id, elapsed)
+        log.info("[job:%s] DONE in %.1fs", job_id, elapsed)
         _job_set(job_id, {
             "status": "done",
             "result": paper_data,
-            "usage": {
-                "prompt_tokens": usage.prompt_tokens,
-                "completion_tokens": usage.completion_tokens,
-                "total_tokens": usage.total_tokens,
-            },
+            "usage": {},
             "elapsed": int(elapsed),
         })
 
@@ -405,6 +309,7 @@ Requirements:
             "error": f"Generation timed out after {int(elapsed)}s. Try a shorter topic." if timeout_flag else err_str,
             "timeout": timeout_flag,
         })
+
 
 
 @app.route("/api/generate-full", methods=["POST"])
@@ -422,7 +327,9 @@ def generate_full():
             return jsonify({"error": "Prompt is required"}), 400
 
         # Validate API key early so the user gets an instant error
-        get_openai_client()
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key or api_key == "sk-your-actual-api-key":
+            raise Exception("OPENAI_API_KEY not configured. Please set it in backend/.env")
 
         job_id = uuid.uuid4().hex[:12]
         _job_set(job_id, {"status": "pending", "started_at": time.time()})

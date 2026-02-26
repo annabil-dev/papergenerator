@@ -14,7 +14,6 @@ venv/
 ENV/
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -27,6 +26,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+.pytest_cache/
 
 # Node
 node_modules/
@@ -35,9 +35,13 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# Logs
-*.log
-app.log
+# Build/Output
+dist/
+frontend/dist/
+frontend/node_modules/
+.next/
+out/
+build/
 
 # IDE
 .vscode/
@@ -45,18 +49,36 @@ app.log
 *.swp
 *.swo
 *~
-
-# OS
 .DS_Store
 Thumbs.db
 
-# Build/Output
-dist/
-build/
-.next/
-out/
-
 # Project specific
+backend/uploads/
+backend/exports/
 exports/
 uploads/
 papers/
+
+# Logs
+logs/
+*.log
+app.log
+backend-*.log
+frontend-*.log
+/tmp/
+/var/
+
+# PM2
+.pm2/
+.pm2dump.pm2
+
+# Production/Deployment
+*.pem
+*.key
+!*.pem.example
+!*.key.example
+
+# Temporary files
+*.tmp
+*.temp
+.cache/

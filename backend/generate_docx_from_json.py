@@ -233,18 +233,30 @@ def generate_ieee_docx(paper: dict, output_path: str, images_dir: str = "uploads
         p = doc.add_paragraph()
         p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
         p.paragraph_format.space_before = Pt(2)
-        p.paragraph_format.space_after  = Pt(12)
+        p.paragraph_format.space_after  = Pt(0)
         r = p.add_run("Keywords\u2014")
         r.bold = True; r.italic = True; r.font.size = Pt(9); r.font.name = "Times New Roman"
         r = p.add_run(", ".join(keywords))
         r.italic = True; r.font.size = Pt(9); r.font.name = "Times New Roman"
 
-    # ── Section break: end 1-col header, begin 2-col body ─────────────────────
-    # Embed a sectPr inside the last (keywords/abstract) paragraph's pPr.
-    # This ends section 1 (1-column) with a continuous break.
-    # The document body's final sectPr (section 2) will be 2-column.
-    last_p_el = doc.paragraphs[-1]._p
-    last_pPr  = last_p_el.get_or_add_pPr()
+    # ── Section break: 1-col → 2-col continuous, no extra space ───────────────
+    # Use an invisible separator paragraph to hold the inline sectPr so the
+    # keywords paragraph itself stays clean (no embedded sectPr, no trailing gap).
+    # Section 2 (2-column) starts immediately after this separator paragraph.
+    sep = doc.add_paragraph()
+    sep_pPr = sep._p.get_or_add_pPr()
+    # Make the separator paragraph invisible: 1pt font + exact 1pt line height
+    sep_rPr = OxmlElement('w:rPr')
+    sep_sz  = OxmlElement('w:sz'); sep_sz.set(qn('w:val'), '2')  # 1pt = 2 half-pts
+    sep_rPr.append(sep_sz)
+    sep_pPr.append(sep_rPr)
+    sp_el = OxmlElement('w:spacing')
+    sp_el.set(qn('w:before'),   '0')
+    sp_el.set(qn('w:after'),    '0')
+    sp_el.set(qn('w:line'),     '20')   # 1pt in 240ths-of-a-point
+    sp_el.set(qn('w:lineRule'), 'exact')
+    sep_pPr.append(sp_el)
+    # Embed sectPr: section 1 ends here with 1-column + continuous break
     sec1_sectPr = OxmlElement('w:sectPr')
     for tag, attrs in [
         ('w:type',   {'w:val': 'continuous'}),
@@ -256,8 +268,8 @@ def generate_ieee_docx(paper: dict, output_path: str, images_dir: str = "uploads
         el = OxmlElement(tag)
         for k, v in attrs.items(): el.set(qn(k), v)
         sec1_sectPr.append(el)
-    last_pPr.append(sec1_sectPr)
-    # Set body final sectPr to 2 columns
+    sep_pPr.append(sec1_sectPr)
+    # Body final sectPr — section 2: 2-column
     body = doc.element.body
     body_sectPr = body.find(qn('w:sectPr'))
     if body_sectPr is None:

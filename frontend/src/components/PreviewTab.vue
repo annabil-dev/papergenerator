@@ -47,17 +47,17 @@
         <span class="italic">{{ store.paper.keywords.join(', ') }}</span>
       </div>
 
-      <!-- Two-column layout simulation -->
-      <div class="columns-2 gap-6" style="font-family: 'Times New Roman', serif; font-size: 10pt;">
+      <!-- Single-column layout -->
+      <div class="space-y-4" style="font-family: 'Times New Roman', serif; font-size: 10pt;">
         <!-- Sections -->
-        <div v-for="section in store.paper.sections" :key="section.id" class="mb-4 break-inside-avoid-column">
+        <div v-for="section in store.paper.sections" :key="section.id" class="mb-4">
           <h2 class="text-center font-bold mb-2 text-sm">
             {{ section.number }}. {{ section.title?.toUpperCase() }}
           </h2>
           <div class="text-justify indent-6 whitespace-pre-wrap text-sm leading-snug">{{ section.content }}</div>
 
           <!-- Subsections -->
-          <div v-for="sub in section.subsections" :key="sub.id" class="mt-3 break-inside-avoid-column">
+          <div v-for="sub in section.subsections" :key="sub.id" class="mt-3">
             <h3 class="font-bold italic text-sm mb-1">
               {{ sub.letter }}. {{ sub.title }}
             </h3>
@@ -71,13 +71,13 @@
         </div>
 
         <!-- Acknowledgment -->
-        <div v-if="store.paper.acknowledgment" class="mb-4 break-inside-avoid-column">
+        <div v-if="store.paper.acknowledgment" class="mb-4">
           <h2 class="text-center font-bold mb-2 text-sm">ACKNOWLEDGMENT</h2>
           <div class="text-justify indent-6 whitespace-pre-wrap text-sm leading-snug">{{ store.paper.acknowledgment }}</div>
         </div>
 
         <!-- References -->
-        <div v-if="store.paper.references.length > 0" class="break-inside-avoid-column">
+        <div v-if="store.paper.references.length > 0">
           <h2 class="text-center font-bold mb-2 text-sm">REFERENCES</h2>
           <div v-for="ref in store.paper.references" :key="ref.id"
             class="text-xs leading-snug mb-1 pl-6 -indent-6">

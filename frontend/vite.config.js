@@ -8,7 +8,7 @@ export default defineConfig({
     allowedHosts: ['paper.otomasi.app'],
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'http://localhost:1001',
         changeOrigin: true,
         proxyTimeout: 0,
         timeout: 0

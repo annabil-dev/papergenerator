@@ -31,7 +31,7 @@ from auth import auth_bp, init_oauth
 from admin import admin_bp
 
 from generate_ai_josn_paper import generate_paper_json
-from genIEEE import build_document as build_ieee_docx
+from template.IEEEgen import build_document as build_ieee_docx
 
 # Load environment variables
 load_dotenv(Path(__file__).parent.parent / ".env")

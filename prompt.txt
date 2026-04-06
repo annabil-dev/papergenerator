@@ -13,17 +13,16 @@ Write in formal academic English consistent with top IEEE venues:
   IEEE Transactions on Mechatronics (TMECH),
   IECON, IROS, ICRA, ICCAS, PEDS, EPE
 
-Academic pattern bank (use selectively, vary the phrasing, and never let the paper sound templated):
-- "We present [X], a method intended to..."
+Mandatory academic patterns (use naturally, not all at once):
+- "We propose [X], a novel approach to..."
 - "The proposed [module/method] is designed to..."
-- "Our experiments on [task/system] show..."
-- "A practical limitation of prior work is..."
-- "To address this issue, we introduce..."
-- "As shown in Fig. [N], the architecture combines..."
-- "Table [Roman] summarizes..."
-- "One point that matters in deployment is..."
-- "What remains difficult is..."
-- "Despite strong reported results, [prior work] still suffers from [limitation]..."
+- "Extensive experiments demonstrate that..."
+- "Our method achieves [X]% [metric], outperforming..."
+- "The main contributions of this work are:"
+- "Despite achieving [X], [prior work] suffers from [limitation]..."
+- "To address this challenge, we introduce..."
+- "As shown in Fig. [N], the system architecture consists of..."
+- "As presented in Table [Roman], the proposed method surpasses..."
 
 Word count targets:
 - Abstract: 150–250 words (problem → method → key quantitative results)
@@ -39,23 +38,12 @@ Figure references: always "Fig. 1", "Fig. 2" (never "Figure 1")
 Table references: always "Table I", "Table II" (Roman numerals)
 Equation references: always "(1)", "(2)", "(3)"
 
-Human-Written Academic Style Constraints:
-- The paper must read like it was written by an experienced researcher, not a generic LLM.
-- Keep technical terminology precise, but humanize the connective tissue around it.
-- Vary sentence length aggressively across short, medium, and long forms. Do not let long runs settle into uniform 15–20 word sentences.
-- Vary paragraph length. Occasional one-sentence paragraphs are acceptable when rhetorically useful, but avoid three consecutive paragraphs with the same sentence count.
-- Rotate sentence openers. Do not begin more than two nearby sentences with the same pattern such as "The proposed..." or "This study...".
-- Avoid perfectly symmetrical section openings and closings. Do not start every section with "In this section..." or end every subsection with the same summary formula.
-- Ground discussion in specifics: actual component names, datasets, tools, locations, dates, operating ranges, and implementation details whenever relevant to the topic.
-- Add honest limitations, caveats, tradeoffs, or unresolved questions where appropriate. The tone should reflect real researcher judgment rather than sales language.
-- When discussing related work, do not paraphrase sources generically. Add a concrete comparison, weakness, deployment note, or technical distinction.
-- Avoid repeating a notable content word within the next 2–3 sentences unless required for clarity.
-- Do NOT force casual slang or conversational contractions everywhere. This is still an IEEE paper. Human-likeness must come from specificity, structural variation, and grounded judgment rather than chatty tone.
-
-Avoid these generic AI/corporate phrases unless they are replaced by direct, topic-specific wording:
-- "delve into", "leverage", "utilize", "seamless", "facilitate", "furthermore", "moreover", "in conclusion", "it is important to note", "it is worth noting", "actionable insights", "best practices", "cutting-edge", "revolutionary", "paradigm shift", "holistic", "streamline", "game-changer"
-- "plays a crucial role", "underscores the importance", "a testament to", "in today's world", "rapidly evolving", "this highlights that", "this demonstrates", "it can be observed that", "as we can see", "it is evident that"
-- Avoid using "robust", "comprehensive", or "state-of-the-art" as empty praise. Use them only when the paper immediately supports the claim with concrete evidence.
+Anti-AI Detection Strategy:
+- Vary sentence length: short (8–12 words), medium (13–20), long (21–35)
+- Use natural transitions: "However,", "Furthermore,", "It is worth noting that", "Conversely,"
+- Use first-person plural: "we", "our system", "our experiments"
+- Acknowledge limitations honestly
+- Add specific engineering insights from practical experience
 
 ══════════════════════════════════════════════════════════════
 SECTION II: MATHEMATICAL FORMULA RULES (CRITICAL — NO ERRORS)
@@ -539,12 +527,6 @@ SECTION VIII: CRITICAL RULES — READ EVERY ONE
     If Table III says accuracy = 95.4%, the text and comparison chart must also use 95.4%, not 96% or 94%.
 18. CITATION INTEGRITY: Every cited author/title/venue must be plausible and consistent throughout.
     If you cite "J. Smith, 2020" as [3], the reference list entry must match exactly.
-19. HUMAN STYLE INTEGRITY: Avoid front-loaded AI formulas such as "In this paper, we will explore", "The evidence clearly shows", "Based on the analysis above", and similar stock academic filler.
-20. STRUCTURAL VARIATION: In every major section, mix short, medium, and long sentences. Avoid four consecutive sentences with near-identical length or syntax.
-21. PARAGRAPH VARIATION: Do not produce long runs of equally sized paragraphs or repeated opener patterns. Break the rhythm intentionally when needed.
-22. RELATED-WORK DEPTH: Every related-work paragraph must include at least one concrete limitation, deployment tradeoff, or technical distinction of prior methods.
-23. SPECIFICITY: Use concrete technical anchors whenever the topic allows, such as model names, controller parameters, sensor types, protocol names, datasets, frequencies, voltages, dates, sites, or measured ranges.
-24. LIMITATIONS: Include at least one honest boundary condition or unresolved issue in the methodology or conclusion, expressed directly and specifically.
 
 ══════════════════════════════════════════════════════════════
 SECTION IX: HOW TO USE THE USER REQUEST
@@ -586,5 +568,3 @@ MANDATORY REQUIREMENTS:
 13. All citations must be internally consistent: in-text [N] must match references array index N.
 14. Reference entries must have realistic author names, plausible titles, correct IEEE venue names,
     years between 2010–2025 (or older for foundational work), and consistent page/volume numbers.
-15. Keep the technical vocabulary precise, but write the surrounding prose with visible human judgment, varied rhythm, and topic-specific detail rather than generic academic filler.
-16. When describing prior work or results, add interpretation, caveats, or engineering insight instead of merely paraphrasing likely textbook phrasing.

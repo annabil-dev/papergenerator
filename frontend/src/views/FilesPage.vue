@@ -16,7 +16,7 @@
       <!-- Paper selector if no paperId in route -->
       <div v-if="!currentPaperId" class="mb-6">
         <label class="block text-sm font-medium text-gray-700 mb-2">Select Paper</label>
-        <select v-model="selectedPaperId" @change="loadImages"
+        <select v-model="selectedPaperId" @change="onSelectPaper"
           class="w-full max-w-md px-3 py-2 border border-gray-200 rounded-xl text-sm bg-white focus:ring-2 focus:ring-blue-200 outline-none">
           <option value="">— Select a paper —</option>
           <option v-for="p in papers" :key="p.id" :value="p.id">{{ p.title }}</option>
@@ -114,12 +114,13 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
-import { useRoute } from 'vue-router'
+import { ref, computed, onMounted, watch } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
 import api from '../api/index.js'
 import AppHeader from '../components/AppHeader.vue'
 
 const route = useRoute()
+const router = useRouter()
 const BASE = import.meta.env.VITE_API_URL || ''
 
 const papers = ref([])
@@ -133,6 +134,11 @@ const paperTitle = ref('')
 
 const currentPaperId = computed(() => route.params.paperId || null)
 const effectivePaperId = computed(() => currentPaperId.value || selectedPaperId.value)
+
+function onSelectPaper() {
+  if (!selectedPaperId.value) return
+  router.push(`/files/${selectedPaperId.value}`)
+}
 
 function resolveUrl(url) {
   return url?.startsWith('http') ? url : `${BASE}${url}`
@@ -219,5 +225,10 @@ onMounted(async () => {
     paperTitle.value = paper?.title || 'Paper'
     await loadImages()
   }
+})
+
+watch(effectivePaperId, async (pid, prev) => {
+  if (!pid || pid === prev) return
+  await loadImages()
 })
 </script>

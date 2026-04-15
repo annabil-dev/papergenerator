@@ -27,6 +27,7 @@ function deleteCookie(name) {
 // ─── Standalone helpers (needed before store init) ────────────────────────
 function createEmptyPaper() {
   return {
+    journal: 'IEEE',
     title: '',
     authors: [{ name: '', affiliation: '', location: '', email: '' }],
     abstract: '',
@@ -49,6 +50,7 @@ function normContent(content) {
 
 function fromPaperJsonRaw(json) {
   const p = createEmptyPaper()
+  p.journal = (json.journal || json.template || 'IEEE')
   p.title = json.title || ''
   p.authors = (json.authors || []).length ? json.authors : [{ name: '', affiliation: '', location: '', email: '' }]
   p.abstract = json.abstract || ''
@@ -110,6 +112,30 @@ export const usePaperStore = defineStore('paper', () => {
   const aiLoadingMessage = ref('')
   const toast = ref({ show: false, message: '', type: 'info' })
 
+  const availableJournals = ref([])
+  const journalsLoading = ref(false)
+
+  async function fetchJournals() {
+    if (availableJournals.value.length) return availableJournals.value
+    journalsLoading.value = true
+    try {
+      const res = await api.get(`${API_BASE}/journals`, { timeout: 10000 })
+      availableJournals.value = (res.data?.journals || []).filter(Boolean)
+      if (!availableJournals.value.length) availableJournals.value = ['IEEE']
+    } catch {
+      // Fallback (minimal) — backend should normally provide the full list
+      availableJournals.value = ['IEEE', 'MEV', 'ULTIMACOMP']
+    } finally {
+      journalsLoading.value = false
+    }
+
+    const current = (paper.value.journal || 'IEEE')
+    if (availableJournals.value.length && !availableJournals.value.includes(current)) {
+      paper.value.journal = availableJournals.value[0]
+    }
+    return availableJournals.value
+  }
+
   // ─── Auto-save paper to cookie on every deep change ───────────────────
   watch(paper, (val) => {
     try { setCookie(COOKIE_PAPER, JSON.stringify(toPaperJson())) } catch { /* ignore */ }
@@ -143,7 +169,7 @@ export const usePaperStore = defineStore('paper', () => {
   // ─── Convert TO paper.json format ──────────────────────────────────────
   function toPaperJson() {
     const p = paper.value
-    const json = { title: p.title, authors: p.authors, abstract: p.abstract, keywords: p.keywords }
+    const json = { journal: p.journal || 'IEEE', title: p.title, authors: p.authors, abstract: p.abstract, keywords: p.keywords }
     let imgNum = 1, tblNum = 1, eqNum = 1
 
     function numContent(items) {
@@ -271,11 +297,12 @@ export const usePaperStore = defineStore('paper', () => {
   async function exportDocx() {
     try {
       loading.value = true
-      const res = await api.post(`${API_BASE}/export`, { paper: toPaperJson() }, { responseType: 'blob' })
+      const journal = (paper.value.journal || 'IEEE').trim() || 'IEEE'
+      const res = await api.post(`${API_BASE}/export`, { journal, paper: toPaperJson() }, { responseType: 'blob' })
       const url = window.URL.createObjectURL(new Blob([res.data]))
       const a = document.createElement('a')
       a.href = url
-      a.download = `${(paper.value.title || 'paper').replace(/[^a-zA-Z0-9_\-]/g, '_').slice(0, 60)}.docx`
+      a.download = `${journal}_${(paper.value.title || 'paper').replace(/[^a-zA-Z0-9_\-]/g, '_').slice(0, 60)}.docx`
       document.body.appendChild(a); a.click(); a.remove()
       window.URL.revokeObjectURL(url)
       showToast('DOCX exported!', 'success')
@@ -302,7 +329,7 @@ export const usePaperStore = defineStore('paper', () => {
         return true
       }
       if (poll.data.status === 'error') throw new Error(poll.data.error || 'Failed')
-      if (Date.now() - t0 > 12 * 60 * 1000) throw new Error('Timeout: > 12 menit')
+      if (Date.now() - t0 > 25 * 60 * 1000) throw new Error('Timeout: > 25 menit')
     }
   }
 
@@ -332,7 +359,7 @@ export const usePaperStore = defineStore('paper', () => {
     try { jobInfo = JSON.parse(raw) } catch { deleteCookie(COOKIE_JOB); return }
     const { jobId, t0 } = jobInfo || {}
     if (!jobId || !t0) { deleteCookie(COOKIE_JOB); return }
-    if (Date.now() - t0 > 12 * 60 * 1000) { deleteCookie(COOKIE_JOB); return }
+    if (Date.now() - t0 > 25 * 60 * 1000) { deleteCookie(COOKIE_JOB); return }
     try {
       const check = await api.get(`${API_BASE}/job/${jobId}`, { timeout: 8000 })
       if (check.data.status === 'error' || !check.data.status) { deleteCookie(COOKIE_JOB); return }
@@ -435,6 +462,7 @@ export const usePaperStore = defineStore('paper', () => {
   return {
     paper, loading, aiLoading, aiLoadingMessage, toast,
     currentPaperId, paperImages,
+    availableJournals, journalsLoading, fetchJournals,
     numbering, getItemNumber, toPaperJson, fromPaperJson,
     addSection, removeSection, addSubsection, removeSubsection,
     addContent, removeContent, moveContent,

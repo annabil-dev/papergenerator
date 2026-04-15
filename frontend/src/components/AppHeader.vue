@@ -11,7 +11,10 @@
           <router-link to="/dashboard" class="px-3 py-1.5 rounded-lg text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors" active-class="bg-blue-50 text-blue-700">
             Papers
           </router-link>
-          <router-link to="/files" class="px-3 py-1.5 rounded-lg text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors" active-class="bg-blue-50 text-blue-700">
+          <router-link :to="paperLink" class="px-3 py-1.5 rounded-lg text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors" active-class="bg-blue-50 text-blue-700">
+            Paper
+          </router-link>
+          <router-link :to="filesLink" class="px-3 py-1.5 rounded-lg text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors" active-class="bg-blue-50 text-blue-700">
             Files
           </router-link>
           <router-link v-if="auth.isAdmin" to="/admin" class="px-3 py-1.5 rounded-lg text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors" active-class="bg-purple-50 text-purple-700">
@@ -43,7 +46,10 @@
             <router-link to="/dashboard" @click="menuOpen = false" class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 transition-colors">
               📄 My Papers
             </router-link>
-            <router-link to="/files" @click="menuOpen = false" class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 transition-colors">
+            <router-link :to="paperLink" @click="menuOpen = false" class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 transition-colors">
+              📝 Paper
+            </router-link>
+            <router-link :to="filesLink" @click="menuOpen = false" class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 transition-colors">
               🗂️ Files
             </router-link>
             <router-link v-if="auth.isAdmin" to="/admin" @click="menuOpen = false" class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-50 transition-colors">
@@ -62,14 +68,24 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useAuthStore } from '../stores/auth.js'
+import { usePaperStore } from '../stores/paper.js'
 
 const auth = useAuthStore()
+const paper = usePaperStore()
 const router = useRouter()
 const menuOpen = ref(false)
 const menuRef = ref(null)
+
+const paperLink = computed(() => {
+  return paper.currentPaperId ? `/editor/${paper.currentPaperId}` : '/editor'
+})
+
+const filesLink = computed(() => {
+  return paper.currentPaperId ? `/files/${paper.currentPaperId}` : '/files'
+})
 
 function doLogout() {
   auth.logout()

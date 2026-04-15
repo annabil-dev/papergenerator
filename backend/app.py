@@ -14,6 +14,7 @@ import time
 import logging
 import traceback
 import threading
+import importlib
 from pathlib import Path
 from datetime import datetime
 
@@ -26,7 +27,7 @@ from werkzeug.middleware.proxy_fix import ProxyFix
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from models import db, User, Paper, PaperImage, ApiUsageLog
+from models import db, User, Paper, PaperImage, ApiUsageLog, AiJob
 from auth import auth_bp, init_oauth
 from admin import admin_bp
 
@@ -103,24 +104,83 @@ UPLOAD_FOLDER.mkdir(exist_ok=True)
 EXPORT_FOLDER = Path(__file__).parent / "exports"
 EXPORT_FOLDER.mkdir(exist_ok=True)
 
+TEMPLATE_FOLDER = Path(__file__).parent / "template"
+
+
+def _available_journals():
+    """Return canonical journal/template codes based on template/*.docx + *gen.py."""
+    codes = []
+    try:
+        for docx_path in TEMPLATE_FOLDER.glob("*.docx"):
+            code = docx_path.stem
+            gen_path = TEMPLATE_FOLDER / f"{code}gen.py"
+            if gen_path.exists():
+                codes.append(code)
+    except Exception:
+        return []
+    return sorted(set(codes), key=str.lower)
+
+
+def _resolve_journal_code(raw: str | None) -> str:
+    available = _available_journals()
+    if not raw:
+        return "IEEE" if "IEEE" in available else (available[0] if available else "IEEE")
+    raw_norm = str(raw).strip()
+    if not raw_norm:
+        return "IEEE" if "IEEE" in available else (available[0] if available else "IEEE")
+
+    # Case-insensitive match to avoid client-side casing bugs
+    m = {c.lower(): c for c in available}
+    return m.get(raw_norm.lower(), raw_norm)
+
+
+def _get_builder_for_journal(journal_code: str):
+    """Return the build_document callable for a known template code."""
+    available = _available_journals()
+    m = {c.lower(): c for c in available}
+    canonical = m.get(journal_code.lower())
+    if not canonical:
+        raise ValueError(f"Unknown journal template: {journal_code}")
+    mod = importlib.import_module(f"template.{canonical}gen")
+    builder = getattr(mod, "build_document", None)
+    if not callable(builder):
+        raise ValueError(f"Template generator missing build_document: {canonical}gen")
+    return canonical, builder
+
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 openai_client = None
 
-# ─── In-Memory Job Store ──────────────────────────────────────────────────────
-_jobs: dict = {}
-_jobs_lock = threading.Lock()
+# ─── AI Job Store (DB-backed; safe across multi-worker gunicorn) ─────────────
+def _job_create(job_id: str, user_id: int, prompt: str):
+    job = AiJob(id=job_id, user_id=user_id, status="pending", prompt=prompt)
+    db.session.add(job)
+    db.session.commit()
+    return job
 
-def _job_set(job_id, data):
-    with _jobs_lock:
-        _jobs[job_id] = data
 
-def _job_get(job_id):
-    with _jobs_lock:
-        return _jobs.get(job_id)
+def _job_get(job_id: str, user_id: int):
+    return AiJob.query.filter_by(id=job_id, user_id=user_id).first()
 
-def _job_pop(job_id):
-    with _jobs_lock:
-        return _jobs.pop(job_id, None)
+
+def _job_set_done(job_id: str, user_id: int, paper_data: dict, elapsed_s: int):
+    job = _job_get(job_id, user_id)
+    if not job:
+        return
+    job.status = "done"
+    job.result = paper_data
+    job.error = None
+    job.timeout = False
+    db.session.commit()
+
+
+def _job_set_error(job_id: str, user_id: int, error_msg: str, timeout_flag: bool = False):
+    job = _job_get(job_id, user_id)
+    if not job:
+        return
+    job.status = "error"
+    job.error = error_msg
+    job.timeout = bool(timeout_flag)
+    db.session.commit()
 
 def get_openai_client():
     global openai_client
@@ -128,7 +188,7 @@ def get_openai_client():
         api_key = os.getenv("OPENAI_API_KEY")
         if not api_key or api_key == "sk-your-actual-api-key":
             raise Exception("OPENAI_API_KEY not configured. Please set it in .env")
-        openai_client = OpenAI(api_key=api_key, timeout=600.0)
+        openai_client = OpenAI(api_key=api_key, timeout=1200.0)
     return openai_client
 
 def _get_current_user_id():
@@ -240,6 +300,11 @@ def generate():
 def _run_generate_full_job(job_id, prompt, user_id=None):
     t_start = time.time()
     log.info("[job:%s] started, prompt=%r", job_id, prompt[:80])
+    uid = None
+    try:
+        uid = int(user_id) if user_id is not None else None
+    except Exception:
+        uid = None
     try:
         api_key = os.getenv("OPENAI_API_KEY")
         if not api_key or api_key == "sk-your-actual-api-key":
@@ -293,7 +358,9 @@ def _run_generate_full_job(job_id, prompt, user_id=None):
 
         elapsed = time.time() - t_start
         _log_api_usage("generate-full", {"total_tokens": 0, "prompt_tokens": 0, "completion_tokens": 0}, user_id)
-        _job_set(job_id, {"status": "done", "result": paper_data, "usage": {}, "elapsed": int(elapsed)})
+        with app.app_context():
+            if uid is not None:
+                _job_set_done(job_id, uid, paper_data, int(elapsed))
         log.info("[job:%s] DONE in %.1fs", job_id, elapsed)
 
     except Exception as e:
@@ -301,11 +368,14 @@ def _run_generate_full_job(job_id, prompt, user_id=None):
         err_str = str(e)
         timeout_flag = "timeout" in type(e).__name__.lower() or "timeout" in err_str.lower() or "timed out" in err_str.lower()
         log.error("[job:%s] FAILED after %.1fs: %s", job_id, elapsed, e, exc_info=True)
-        _job_set(job_id, {
-            "status": "error",
-            "error": f"Generation timed out after {int(elapsed)}s. Try a shorter topic." if timeout_flag else err_str,
-            "timeout": timeout_flag,
-        })
+        with app.app_context():
+            if uid is not None:
+                _job_set_error(
+                    job_id,
+                    uid,
+                    f"Generation timed out after {int(elapsed)}s. Try a shorter topic." if timeout_flag else err_str,
+                    timeout_flag=timeout_flag,
+                )
 
 
 @app.route("/api/generate-full", methods=["POST"])
@@ -325,8 +395,10 @@ def generate_full():
             raise Exception("OPENAI_API_KEY not configured")
 
         user_id = _get_current_user_id()
+        if not user_id:
+            return jsonify({"error": "Unauthorized"}), 401
         job_id = uuid.uuid4().hex[:12]
-        _job_set(job_id, {"status": "pending", "started_at": time.time()})
+        _job_create(job_id, int(user_id), prompt)
         threading.Thread(target=_run_generate_full_job, args=(job_id, prompt, user_id), daemon=True).start()
         return jsonify({"success": True, "job_id": job_id})
 
@@ -338,18 +410,31 @@ def generate_full():
 @app.route("/api/job/<job_id>", methods=["GET"])
 @jwt_required()
 def get_job_status(job_id):
-    job = _job_get(job_id)
+    user_id = int(get_jwt_identity())
+    job = _job_get(job_id, user_id)
     if job is None:
         return jsonify({"error": "Job not found or already retrieved"}), 404
-    elapsed = int(time.time() - job.get("started_at", time.time())) if "started_at" in job else job.get("elapsed", 0)
-    if job["status"] == "pending":
+
+    elapsed = int((datetime.utcnow() - (job.started_at or datetime.utcnow())).total_seconds())
+    if job.status == "pending":
         return jsonify({"status": "pending", "elapsed": elapsed})
-    elif job["status"] == "done":
-        _job_pop(job_id)
-        return jsonify({"status": "done", "success": True, "paper": job["result"], "usage": job.get("usage", {}), "elapsed": job.get("elapsed", elapsed)})
-    else:
-        _job_pop(job_id)
-        return jsonify({"status": "error", "error": job.get("error", "Unknown error"), "timeout": job.get("timeout", False)})
+    if job.status == "done":
+        paper = job.result or {}
+        try:
+            db.session.delete(job)
+            db.session.commit()
+        except Exception:
+            db.session.rollback()
+        return jsonify({"status": "done", "success": True, "paper": paper, "usage": {}, "elapsed": elapsed})
+
+    err = job.error or "Unknown error"
+    timeout_flag = bool(job.timeout)
+    try:
+        db.session.delete(job)
+        db.session.commit()
+    except Exception:
+        db.session.rollback()
+    return jsonify({"status": "error", "error": err, "timeout": timeout_flag})
 
 # ─── Paper-specific Image Upload ─────────────────────────────────────────────
 
@@ -432,6 +517,15 @@ def get_paper_image(paper_id, filename):
         return jsonify({"error": "Image not found"}), 404
     return send_file(str(filepath))
 
+
+@app.route("/api/journals", methods=["GET"])
+@jwt_required()
+def list_journals():
+    try:
+        return jsonify({"journals": _available_journals()})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 # ─── Legacy Image Upload ──────────────────────────────────────────────────────
 
 @app.route("/api/upload-image", methods=["POST"])
@@ -466,15 +560,30 @@ def export_docx():
         if not data:
             return jsonify({"error": "No paper data provided"}), 400
         paper = data.get("paper", data)
+
+        journal_raw = data.get("journal")
+        if isinstance(paper, dict) and not journal_raw:
+            journal_raw = paper.get("journal")
+        journal_code = _resolve_journal_code(journal_raw)
+        try:
+            canonical_journal, builder = _get_builder_for_journal(journal_code)
+        except Exception as e:
+            return jsonify({"error": str(e), "available": _available_journals()}), 400
+
         json_filename = f"_tmp_{uuid.uuid4().hex[:8]}.json"
         json_filepath = EXPORT_FOLDER / json_filename
         json_filepath.write_text(json.dumps(paper, ensure_ascii=False, indent=2), encoding="utf-8")
         try:
-            output_path = EXPORT_FOLDER / f"paper_{uuid.uuid4().hex[:8]}.docx"
-            build_ieee_docx(json_filepath, output_path)
+            output_path = EXPORT_FOLDER / f"{canonical_journal}_{uuid.uuid4().hex[:8]}.docx"
+            builder(json_filepath, output_path)
+
+            safe_title = re.sub(r'[^a-zA-Z0-9_\-]+', '_', str(paper.get('title', 'paper'))).strip('_')
+            if not safe_title:
+                safe_title = 'paper'
+            download_name = f"{canonical_journal}_{safe_title[:60]}.docx"
             return send_file(
                 str(output_path), as_attachment=True,
-                download_name=f"{paper.get('title', 'paper')[:50]}.docx",
+                download_name=download_name,
                 mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
             )
         finally:

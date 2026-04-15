@@ -96,3 +96,17 @@ class ApiUsageLog(db.Model):
     total_tokens = db.Column(db.Integer, default=0)
     model = db.Column(db.String(50))
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
+
+
+class AiJob(db.Model):
+    __tablename__ = 'ai_jobs'
+
+    id = db.Column(db.String(20), primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    status = db.Column(db.String(20), nullable=False, default='pending')  # pending | done | error
+    prompt = db.Column(db.Text)
+    result = db.Column(db.JSON, nullable=True, default=dict)
+    error = db.Column(db.Text)
+    timeout = db.Column(db.Boolean, default=False)
+    started_at = db.Column(db.DateTime, default=datetime.utcnow)
+    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)

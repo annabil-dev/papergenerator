@@ -36,6 +36,8 @@ Based on the topic description above:
 1. Generate a professional, publication-ready IEEE-style academic title in English that best represents this topic.
 2. Write a complete IEEE paper about this exact topic, incorporating all specific details mentioned (location, institution, system name, etc.).
 3. All sections, equations, figures, tables, and references must be directly relevant to this topic.
+4. If the topic description (and additional instructions) does NOT include numeric data (dataset size, accuracy, latency, voltage, etc.), you MUST generate estimated/simulation-based numeric values that fit the topic and keep them consistent across the abstract, tables, figures, Results, and Section V.
+5. The output must include all sections through Section V (CONCLUSION); do not stop early.
 
 Additional instructions: {custom_prompt}
 """
@@ -70,7 +72,8 @@ def generate_paper_json(
         raise ValueError("OPENAI_API_KEY tidak ditemukan di environment")
     _model = model or os.getenv("OPENAI_MODEL", MODEL)
 
-    _client = OpenAI(api_key=_api_key, timeout=600.0)
+    # Full-paper generation can exceed 7 minutes for long prompts; allow more headroom.
+    _client = OpenAI(api_key=_api_key, timeout=1200.0)
 
     # ── Load system prompt fresh from disk on every call ────────────────────
     if PROMPT_FILE.exists():

@@ -211,6 +211,11 @@
         <div class="h-20"></div>
       </div>
 
+      <!-- TAB: JOURNAL -->
+      <div v-show="activeTab === 'journal'">
+        <JournalTab />
+      </div>
+
       <!-- TAB: FIGURES -->
       <div v-show="activeTab === 'figures'">
         <FiguresTab />
@@ -241,7 +246,7 @@
           <p class="text-sm text-gray-700 font-medium">
             {{ store.aiLoading ? store.aiLoadingMessage || 'AI sedang memproses...' : 'Processing...' }}
           </p>
-          <p v-if="store.aiLoading" class="text-xs text-gray-400 mt-2">This may take 3–7 minutes.</p>
+          <p v-if="store.aiLoading" class="text-xs text-gray-400 mt-2">This may take 3–15 minutes.</p>
         </div>
       </div>
     </Teleport>
@@ -256,6 +261,7 @@ import { usePaperStore } from '../stores/paper.js'
 import AppHeader from '../components/AppHeader.vue'
 import ContentList from '../components/ContentList.vue'
 import FiguresTab from '../components/FiguresTab.vue'
+import JournalTab from '../components/JournalTab.vue'
 import PreviewTab from '../components/PreviewTab.vue'
 
 const store = usePaperStore()
@@ -270,6 +276,7 @@ const savedOk = ref(false)
 
 const tabs = [
   { id: 'editor', label: '📝 Editor' },
+  { id: 'journal', label: '📚 Journal' },
   { id: 'figures', label: '🖼️ Figures' },
   { id: 'preview', label: '👁 Preview' },
 ]

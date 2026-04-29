@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Pharmacy
+================================================================================
+FIELD: Pharmacy / Pharmaceutical Sciences
+DEFAULT CITATION STYLE: APA or Vancouver
+
+METHODOLOGY: drug formulation, pharmacokinetics, bioavailability, dissolution testing,
+  HPLC analysis, stability studies, clinical pharmacology, drug interaction
+EQUATIONS: first-order kinetics C(t) = C₀·e^(-kt), AUC, Cmax, t1/2 = 0.693/k
+FIGURES: pharmacokinetic curve, dissolution profile, HPLC chromatogram, formulation diagram
+TABLES: pharmacokinetic parameters, formulation comparison, stability data
+VENUES: J. Pharm. Sci., Eur. J. Pharm. Biopharm., Int. J. Pharm., Drug Dev. Ind. Pharm.

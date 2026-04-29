@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Telematics
+================================================================================
+FIELD: Engineering / Transportation
+DEFAULT CITATION STYLE: IEEE
+
+METHODOLOGY: GPS/GNSS data analysis, vehicle tracking, OBD-II data collection,
+  driver behavior analysis, accident prediction model, fleet management optimization
+EQUATIONS: distance estimation, speed profile, fuel consumption model, risk score
+FIGURES: vehicle trajectory map, speed profile chart, driver behavior cluster diagram
+TABLES: tracking accuracy, fuel consumption comparison, accident risk scores
+VENUES: IEEE Trans. Intell. Transp. Syst., Transportation Research Part C, Accident Analysis Prevention

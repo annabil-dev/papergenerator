@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Geographic Information Systems
+================================================================================
+FIELD: Geography / Engineering
+DEFAULT CITATION STYLE: APA or IEEE
+
+METHODOLOGY: spatial data analysis, raster/vector processing, remote sensing integration,
+  geostatistics (kriging), network analysis, spatial autocorrelation
+EQUATIONS: Moran's I, kriging interpolation, NDVI, buffer distance formula
+FIGURES: GIS map layers, spatial distribution map, 3D terrain model, hotspot analysis
+TABLES: spatial statistics, land cover classification accuracy, point data summary
+VENUES: Int. J. Geographical Information Science, Computers Geosciences, Remote Sensing

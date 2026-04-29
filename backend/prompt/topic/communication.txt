@@ -1,0 +1,81 @@
+================================================================================
+TOPIC GUIDE — Communication Studies & Media Studies
+================================================================================
+FIELD: Social Sciences / Communication
+DEFAULT CITATION STYLE: APA
+SUBDISCIPLINE: Komunikasi Massa, Jurnalisme, Komunikasi Digital, Public Relations, Media Sosial
+
+ABSTRACT CHARACTERISTICS:
+  150–250 words. Reports: communication phenomenon studied, medium/platform analyzed
+  (social media, newspaper, TV, organizational communication), methodology (content analysis,
+  survey, framing analysis, sentiment analysis), sample (n=), key findings (framing patterns,
+  sentiment %, influence factors), and communication implications.
+
+INTRODUCTION ELEMENTS:
+  - Media landscape change: digital transformation, social media dominance, declining traditional media.
+  - Communication problem: misinformation, crisis communication failure, digital divide, media bias.
+  - Theoretical context: framing theory (Entman), agenda-setting (McCombs & Shaw), uses and gratifications.
+  - Research gap: specific platform/context, language, or demographic not studied.
+  - Research question or hypotheses.
+
+LITERATURE REVIEW:
+  Common section name: "Literature Review" / "Theoretical Framework"
+  - Communication theories: agenda-setting (McCombs 1972), framing (Entman 1993), cultivation theory (Gerbner), spiral of silence (Noelle-Neumann).
+  - Media effects: uses and gratifications (Katz, Blumler, Gurevitch), social learning theory.
+  - Digital communication: social media algorithms, filter bubbles, echo chambers (Pariser 2011).
+  - Health communication: risk perception, message framing, behavior change (HBM, extended parallel process model).
+  - Organizational communication: Grunig's PR models (press agentry, public information, two-way symmetrical).
+  - Journalism: gatekeeping theory, news values (Galtung & Ruge), objectivity norms.
+
+METHODOLOGY:
+  Common section name: "Research Method" / "Methodology"
+  - Content analysis: coding scheme (unitizing, sampling, recording), inter-rater reliability (Cohen's κ >0.7), n=50–500 texts/posts.
+  - Framing analysis: Entman's four functions (definition, cause, moral, remedy); qualitative or quantitative.
+  - Survey: attitude/behavior/media use questionnaire; Likert scale; n=100–500.
+  - Sentiment analysis: VADER (NLTK), TextBlob, BERT-based; Python; dataset (Twitter/Facebook/Instagram API).
+  - Social network analysis (SNA): centrality (degree, betweenness), community detection; Gephi/NetworkX.
+  - Interview: in-depth (journalists, PR practitioners, n=10–20); thematic analysis.
+  - Statistical: chi-square (content categories), Pearson r (media use correlations), regression.
+
+TYPICAL RESULTS & DISCUSSION:
+  - Content analysis: thematic categories with frequency (%) and chi-square p<0.05.
+  - Cohen's κ: >0.70 = acceptable agreement; >0.80 = strong.
+  - Sentiment: positive 40–60%, negative 20–30%, neutral 20–30% (context-dependent).
+  - Framing: episodic vs. thematic framing ratio; dominant frames identified.
+  - Survey: attitude score mean 3.5–4.2/5.0; regression R² 0.20–0.45.
+  Tables: frame/category frequency table, sentiment distribution, inter-rater reliability.
+  Figures: word cloud, sentiment trend over time, social network graph, bar chart.
+
+TYPICAL FIGURES:
+  - Word cloud of dominant terms.
+  - Sentiment trend line over time (crisis communication).
+  - Social network graph (nodes = accounts, edges = interactions).
+  - Bar chart: frame frequency comparison.
+  - Line graph: media coverage volume over event timeline.
+
+TYPICAL TABLES:
+  - Content category frequency: category | f | % | chi-square.
+  - Inter-rater reliability: coder pair | Cohen's κ | agreement %.
+  - Survey regression: variable | B | SE | β | t | p.
+
+CONCLUSION CHARACTERISTICS:
+  - Communication patterns described and theoretically interpreted.
+  - Implications for media professionals, public communicators, policymakers.
+  - Limitations: single platform/period, coder subjectivity, self-report survey bias.
+  - Future: longitudinal analysis, cross-platform comparison, experimental design.
+
+COMMON REFERENCE VENUES:
+  Journal of Communication, Journalism & Mass Communication Quarterly,
+  New Media & Society, Journalism Practice, Media, Culture & Society,
+  Asian Journal of Communication, Jurnal Komunikasi (Malaysia/Indonesia),
+  Public Relations Review
+
+DOMAIN VOCABULARY:
+  framing, agenda-setting, uses and gratifications, gatekeeping, sentiment analysis,
+  content analysis, inter-rater reliability, Cohen's κ, social network analysis,
+  echo chamber, filter bubble, VADER, BERT, Gephi, episodic/thematic frame
+
+METHODOLOGY KEYWORDS:
+  systematic content analysis, framing analysis (Entman), inter-rater reliability (Cohen's κ),
+  sentiment analysis (VADER/BERT), social network analysis (Gephi/NetworkX),
+  survey questionnaire (Likert), thematic analysis, Twitter/Instagram API data collection

@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Smart City
+================================================================================
+FIELD: Urban Studies / Engineering / Computer Science
+DEFAULT CITATION STYLE: IEEE or APA
+
+METHODOLOGY: urban data analytics, IoT sensor network, traffic simulation,
+  energy consumption modeling, citizen survey, digital twin city
+EQUATIONS: traffic flow model, energy efficiency index, liveability index
+FIGURES: smart city architecture diagram, traffic heat map, energy consumption dashboard
+TABLES: service KPI comparison, energy metrics, citizen satisfaction scores
+VENUES: IEEE Access, Sustainable Cities Society, Cities, J. Urban Technology

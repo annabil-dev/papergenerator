@@ -1,0 +1,80 @@
+================================================================================
+TOPIC GUIDE — Anthropology
+================================================================================
+FIELD: Social Sciences / Anthropology
+DEFAULT CITATION STYLE: APA or Chicago
+SUBDISCIPLINE: Antropologi Budaya, Antropologi Sosial, Etnografi, Arkeologi, Antropologi Linguistik
+
+ABSTRACT CHARACTERISTICS:
+  150–250 words. Reports: community/culture/site studied, theoretical lens,
+  methods (ethnographic fieldwork, survey, archaeological excavation, interview),
+  key findings (cultural practices, social structures, ritual significance, artifact analysis).
+
+INTRODUCTION ELEMENTS:
+  - Cultural or social context: community profile, geographic setting, historical background.
+  - Anthropological problem: cultural change, identity, globalization impact, traditional knowledge.
+  - Theoretical framing: structuralism, functionalism, interpretivism, postcolonialism.
+  - Research gap: understudied community, undocumented practice, reinterpretation needed.
+  - Research question and positionality of researcher.
+
+LITERATURE REVIEW:
+  Common section name: "Theoretical Framework" / "Literature Review"
+  - Founders: Malinowski (functionalism, fieldwork), Boas (cultural relativism), Lévi-Strauss (structuralism), Geertz (thick description, interpretive anthropology).
+  - Key concepts: culture, habitus (Bourdieu), liminality (Turner), rite of passage (van Gennep).
+  - Indigenous studies: UNDRIP, cultural sovereignty, epistemic justice.
+  - Material culture: artifact analysis, ethnoarchaeology, museology.
+  - Linguistic anthropology: Sapir-Whorf hypothesis, language endangerment, language and identity.
+  - Medical anthropology: illness narratives, health-seeking behavior, traditional medicine.
+
+METHODOLOGY:
+  Common section name: "Research Methodology" / "Methods"
+  - Ethnographic fieldwork: participant observation (3 months–2 years); field notes; thick description.
+  - Interviews: in-depth, semi-structured, oral history (n=15–30 key informants); purposive + snowball sampling.
+  - Focus group discussions (FGD): 2–4 groups of 6–10 participants.
+  - Archaeological: surface survey, excavation, stratigraphy, artifact typology, C14 dating.
+  - Artefact analysis: iconography, material identification (XRF, SEM).
+  - Data analysis: thematic coding (NVivo/Atlas.ti), narrative analysis, discourse analysis.
+  - Ethical: free prior informed consent (FPIC), community benefit sharing, anonymization.
+  - Reflexivity: researcher's standpoint, positionality statement.
+
+TYPICAL RESULTS & DISCUSSION:
+  - Ethnographic themes: 3–5 major themes with rich descriptive narrative and illustrative quotes.
+  - Cultural persistence/change indicators (e.g., % youth retaining traditional practice).
+  - Archaeological: artifact distribution by stratigraphic layer; C14 dates (cal BP).
+  - Linguistic: documentation of X endangered words/phrases; use frequency.
+  Tables: informant profile, thematic structure, artifact typology table.
+  Figures: kinship diagram, ritual sequence timeline, map of study area, artifact photos.
+
+TYPICAL FIGURES:
+  - Study area/community map.
+  - Kinship/social structure diagram.
+  - Ritual or ceremony photograph/illustration.
+  - Artifact photographs with typology labels.
+  - Timeline: historical sequence of cultural events.
+
+TYPICAL TABLES:
+  - Informant profile: code | gender | age | role | years in community.
+  - Thematic structure: theme | sub-theme | illustrative quote | informant code.
+  - Artifact typology: type | material | period | context | function.
+
+CONCLUSION CHARACTERISTICS:
+  - Cultural phenomenon interpreted within theoretical framework.
+  - Contribution to anthropological knowledge of specific region/community.
+  - Ethical recommendations for cultural preservation or policy.
+  - Limitations: researcher positionality, community access limitations, linguistic barrier.
+  - Future: longitudinal study, comparative ethnography, community-based participatory research.
+
+COMMON REFERENCE VENUES:
+  American Ethnologist, Cultural Anthropology, Journal of the Royal Anthropological Institute,
+  American Anthropologist, Ethnology, Journal of Southeast Asian Studies,
+  Wacana (Universitas Indonesia), Archipel (EFEO Paris)
+
+DOMAIN VOCABULARY:
+  ethnography, thick description, participant observation, emic/etic, habitus,
+  liminality, rite of passage, cultural relativism, kinship, materiality,
+  FPIC, reflexivity, positionality, discourse analysis, oral history, artefact
+
+METHODOLOGY KEYWORDS:
+  ethnographic fieldwork, participant observation, semi-structured interview,
+  thematic analysis (NVivo/Atlas.ti), narrative analysis, C14 dating,
+  FPIC consent, snowball sampling, reflexivity statement

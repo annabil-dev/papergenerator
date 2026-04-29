@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Healthcare Management
+================================================================================
+FIELD: Health Sciences / Management
+DEFAULT CITATION STYLE: APA or Harvard
+
+METHODOLOGY: hospital performance evaluation, patient satisfaction survey, Lean/Six Sigma,
+  cost-effectiveness analysis, systematic review, dashboard analytics
+EQUATIONS: patient satisfaction index, efficiency ratio, cost per quality-adjusted life year
+FIGURES: hospital process flow, performance dashboard, comparison bar chart
+TABLES: performance indicators, patient outcome data, cost-effectiveness table
+VENUES: Health Services Research, Int. J. Health Planning Management, BMC Health Services Research

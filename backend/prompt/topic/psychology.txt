@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Psychology
+================================================================================
+FIELD: Psychology / Social Sciences
+DEFAULT CITATION STYLE: APA
+
+METHODOLOGY: experimental design, survey/questionnaire, structural equation modeling,
+  factor analysis, regression, meta-analysis, cognitive assessment, behavioral study
+EQUATIONS: Cronbach's α, Cohen's d, Pearson r, regression equation y = β₀ + β₁x
+FIGURES: research model diagram, bar chart of means, SEM path diagram, correlation matrix
+TABLES: descriptive statistics, ANOVA results, factor loadings, comparison with norms
+VENUES: Psychological Science, J. Experimental Psychology, J. Personality Social Psychology

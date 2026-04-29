@@ -1,0 +1,83 @@
+================================================================================
+TOPIC GUIDE — Accounting
+================================================================================
+FIELD: Business / Accounting
+DEFAULT CITATION STYLE: APA or Harvard
+SUBDISCIPLINE: Akuntansi Keuangan, Akuntansi Manajemen, Audit, Perpajakan, Akuntansi Sektor Publik
+
+ABSTRACT CHARACTERISTICS:
+  150–250 words. Reports: research setting (public companies, SMEs, government entities),
+  accounting phenomenon studied, methodology (archival data analysis, survey, experiment),
+  sample (n firms/respondents, period), key statistical results (regression coefficients,
+  R², t-stat, Cronbach's α), and contribution to accounting literature.
+
+INTRODUCTION ELEMENTS:
+  - Economic/regulatory context: financial reporting standards (IFRS, PSAK), auditing standards.
+  - Problem: earnings management, audit quality decline, tax avoidance behavior, disclosure gaps.
+  - Theoretical background: agency theory, stakeholder theory, institutional theory.
+  - Research gap: unexplored context (emerging market, specific industry, post-IFRS adoption).
+  - Hypotheses: H1–H3 typically.
+
+LITERATURE REVIEW:
+  Common section name: "Literature Review" / "Theoretical Framework"
+  - Agency theory (Jensen & Meckling 1976): information asymmetry, principal-agent conflict.
+  - Earnings management: accruals-based (Jones model modified, Kothari model) vs. real activities.
+  - Audit quality: Big4 vs. non-Big4, auditor independence, rotation, fee pressure.
+  - Corporate governance: board composition, audit committee, ownership structure.
+  - Tax avoidance: book-tax difference (BTD), effective tax rate (ETR), tax planning aggressiveness.
+  - Value relevance: Ohlson (1995) model; ERC (earnings response coefficient).
+  - Financial distress: Altman Z-score, Piotroski F-score.
+
+METHODOLOGY:
+  Common section name: "Research Methodology" / "Methods"
+  - Data: archival (financial statements from BEI/IDX, Bloomberg, DataStream); n=50–500 firms.
+  - Period: 3–10 years; panel data (fixed effects, random effects; Hausman test).
+  - Dependent variable: discretionary accruals (DA), ETR, audit quality proxy, ROA.
+  - Independent variables: board size, ownership concentration, leverage, firm size (ln total assets).
+  - Regression: OLS, logistic (for binary), tobit (for censored); robust standard errors.
+  - Endogeneity: 2SLS (two-stage least squares), PSM (propensity score matching), lagged IV.
+  - Survey (if primary): Likert scale (1–5); reliability (Cronbach's α >0.7); validity (CFA); SEM.
+  - Ethical: data source cited; no respondent identification.
+
+TYPICAL RESULTS & DISCUSSION:
+  - Earnings management (DA): mean DA ≈ 0.02–0.06 (small but significant).
+  - ETR: 22–28% (Indonesia 25% statutory); tax avoidance = statutory ETR − actual ETR.
+  - Audit quality: Big4 dummy negative relation to DA: β ≈ -0.02 to -0.05, p<0.05.
+  - R² (OLS): accounting studies typically 15–40%.
+  - Survey: path coefficient (SEM) typically 0.3–0.7 with t-stat >1.96.
+  Tables: descriptive statistics, correlation matrix, regression results (Panels A-B).
+  Figures: conceptual framework, residual plot, trend of key variable over years.
+
+TYPICAL FIGURES:
+  - Conceptual/research framework diagram.
+  - Trend line: mean earnings management or ETR over time.
+  - Bar chart: comparison across industry or firm type.
+  - Scatter plot: residuals vs. fitted (OLS diagnostics).
+
+TYPICAL TABLES:
+  - Descriptive statistics: variable | n | mean | SD | min | max.
+  - Pearson/Spearman correlation matrix.
+  - Regression results: variable | coefficient | SE | t-stat | p-value | VIF.
+  - Robustness check (alternative measurement/sample).
+
+CONCLUSION CHARACTERISTICS:
+  - Hypotheses supported or rejected with implications for regulators, auditors, investors.
+  - Contribution to agency theory/earnings management literature in emerging markets.
+  - Limitations: endogeneity concerns, single country, self-selection bias.
+  - Future: cross-country comparison, causal study (diff-in-diff), longitudinal analysis.
+
+COMMON REFERENCE VENUES:
+  The Accounting Review, Journal of Accounting Research,
+  Contemporary Accounting Research, Accounting, Organizations and Society,
+  Journal of Financial Reporting and Accounting, Asian Journal of Accounting Research,
+  Journal of Accounting and Public Policy
+
+DOMAIN VOCABULARY:
+  accruals, discretionary accruals, Jones model, ETR, BTD, agency theory,
+  audit quality, Big4, IFRS, PSAK, earnings response coefficient (ERC),
+  Altman Z-score, Piotroski, SEM, CFA, Cronbach's alpha, panel data, VIF
+
+METHODOLOGY KEYWORDS:
+  archival data analysis, Jones modified model (accruals), ETR measurement,
+  panel data regression (FE/RE), Hausman test, Propensity Score Matching (PSM),
+  2SLS endogeneity, logistic regression, SEM-PLS/AMOS, reliability-validity test

@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Operations Research
+================================================================================
+FIELD: Mathematics / Engineering / Business
+DEFAULT CITATION STYLE: IEEE or APA
+
+METHODOLOGY: linear programming, integer programming, simulation (Monte Carlo/DES),
+  network optimization, queuing theory, multi-objective optimization (NSGA-II, GA)
+EQUATIONS: objective function, constraints, optimality conditions, utilization ρ = λ/μ
+FIGURES: optimization convergence plot, network diagram, sensitivity analysis chart
+TABLES: optimal solution comparison, sensitivity analysis, simulation statistics
+VENUES: Operations Research, INFORMS J., Omega, European J. Operational Research

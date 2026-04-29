@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Marketing
+================================================================================
+FIELD: Business / Marketing
+DEFAULT CITATION STYLE: APA or Harvard
+
+METHODOLOGY: consumer survey, conjoint analysis, SEM, regression, experiment,
+  brand equity measurement, segmentation, customer satisfaction (CSAT/NPS)
+EQUATIONS: regression β, structural model paths, satisfaction index, market share
+FIGURES: customer journey map, brand positioning map, survey response chart
+TABLES: demographic profile, factor loadings, hypothesis results, brand metric comparison
+VENUES: J. Marketing, J. Consumer Research, J. Marketing Research, Marketing Science

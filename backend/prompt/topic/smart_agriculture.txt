@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Smart Agriculture
+================================================================================
+FIELD: Agriculture / Engineering
+DEFAULT CITATION STYLE: IEEE or APA
+
+METHODOLOGY: precision farming, drone/UAV imagery, NDVI analysis, soil sensor network,
+  crop disease detection (CNN), irrigation optimization, yield prediction
+EQUATIONS: NDVI = (NIR-RED)/(NIR+RED), irrigation demand, crop yield model
+FIGURES: UAV field imagery, NDVI map, disease detection sample, sensor network diagram
+TABLES: crop yield by treatment, detection accuracy, sensor comparison
+VENUES: Computers Electronics Agriculture, Precision Agriculture, IEEE JSTARS

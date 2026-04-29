@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Information Systems
+================================================================================
+FIELD: Computer Science / Business
+DEFAULT CITATION STYLE: APA or IEEE
+
+METHODOLOGY: design science research, survey (TAM/UTAUT), action research,
+  case study, IS artifact evaluation, SEM, usability testing
+EQUATIONS: TAM model paths, regression, Cronbach's α, technology acceptance
+FIGURES: system architecture, research model diagram, user interface screenshot
+TABLES: system evaluation metrics, survey construct reliability, user acceptance
+VENUES: MIS Quarterly, J. Management Information Systems, Information Systems Research

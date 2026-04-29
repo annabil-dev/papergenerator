@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Literature
+================================================================================
+FIELD: Humanities / Literature
+DEFAULT CITATION STYLE: MLA
+
+METHODOLOGY: close reading, literary criticism, narratology, comparative literature,
+  postcolonial theory, feminist criticism, stylistic analysis, digital humanities
+EQUATIONS: (rare — corpus statistics if digital humanities approach)
+FIGURES: thematic framework diagram, text network visualization, frequency chart
+TABLES: textual comparison, theme frequency, motif distribution
+VENUES: PMLA, Modern Fiction Studies, American Literature, Journal of Modern Literature

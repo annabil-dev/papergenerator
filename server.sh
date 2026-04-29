@@ -23,16 +23,16 @@ ECOSYSTEM="$APP_DIR/ecosystem.config.cjs"
 NGINX_CONF="$APP_DIR/nginx.conf"
 NGINX_SITES="/etc/nginx/sites-available"
 NGINX_ENABLED="/etc/nginx/sites-enabled"
-DOMAIN="paper.otomasi.app"
-BACKEND_PORT=1001
-FRONTEND_PORT=1000
+DOMAIN="paperfull.app"
+BACKEND_PORT=8001
+FRONTEND_PORT=8000
 
 # ─── Header ───────────────────────────────────────────────────────────────────
 print_header() {
     echo ""
     echo -e "${CYAN}╔════════════════════════════════════════╗${NC}"
     echo -e "${CYAN}║      Paper Generator Manager           ║${NC}"
-    echo -e "${CYAN}║   Flask:1001  •  Vite:1000  •  PM2    ║${NC}"
+    echo -e "${CYAN}║   Flask:8001  •  Vite:8000  •  PM2    ║${NC}"
     echo -e "${CYAN}╚════════════════════════════════════════╝${NC}"
     echo ""
 }
@@ -315,29 +315,29 @@ setup_nginx() {
 
     if [ ! -f "/etc/letsencrypt/live/$DOMAIN/fullchain.pem" ]; then
         echo -e "   ${YELLOW}NOTE${NC} - No SSL cert yet. Deploying HTTP-only config for Certbot challenge."
-        cat > "$NGINX_SITES/$DOMAIN" <<'HTTPONLY'
+        cat > "$NGINX_SITES/$DOMAIN" <<HTTPONLY
 server {
     listen 80;
     listen [::]:80;
-    server_name paper.otomasi.app;
+    server_name paperfull.app www.paperfull.app;
 
     location /.well-known/acme-challenge/ {
         root /var/www/certbot;
     }
 
     location /api/ {
-        proxy_pass         http://127.0.0.1:1001;
-        proxy_set_header   Host $host;
-        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_pass         http://127.0.0.1:$BACKEND_PORT;
+        proxy_set_header   Host \$host;
+        proxy_set_header   X-Real-IP \$remote_addr;
         proxy_buffering    off;
         proxy_read_timeout 600s;
         client_max_body_size 50M;
     }
 
     location / {
-        proxy_pass       http://127.0.0.1:1000;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
+        proxy_pass       http://127.0.0.1:$FRONTEND_PORT;
+        proxy_set_header Host \$host;
+        proxy_set_header X-Real-IP \$remote_addr;
     }
 }
 HTTPONLY
@@ -371,8 +371,8 @@ setup_ssl() {
         apt-get install -y certbot python3-certbot-nginx
     fi
 
-    certbot --nginx -d "$DOMAIN" --non-interactive --agree-tos --redirect \
-        -m "admin@otomasi.app" --keep-until-expiring
+    certbot --nginx -d "$DOMAIN" -d "www.$DOMAIN" --non-interactive --agree-tos --redirect \
+        -m "admin@paperfull.app" --keep-until-expiring
 
     if [ $? -eq 0 ]; then
         cp "$NGINX_CONF" "$NGINX_SITES/$DOMAIN"

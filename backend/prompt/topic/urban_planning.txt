@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Urban Planning
+================================================================================
+FIELD: Social Sciences / Urban Studies
+DEFAULT CITATION STYLE: APA or Chicago
+
+METHODOLOGY: GIS spatial analysis, demographic survey, land use modeling,
+  traffic simulation, participatory planning, mixed-methods research
+EQUATIONS: density indicators, accessibility index, traffic flow model
+FIGURES: GIS land use map, transportation network diagram, population density map
+TABLES: land use statistics, demographic breakdown, policy comparison
+VENUES: J. American Planning Assoc., Urban Studies, Cities, J. Urban Technology

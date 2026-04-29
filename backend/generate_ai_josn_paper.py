@@ -27,17 +27,21 @@ load_dotenv(BASE_DIR / ".env", override=True)
 MODEL = os.getenv("OPENAI_MODEL", "gpt-5-mini-2025-08-07")
 
 # ── Prompt file path (loaded dynamically on each call) ───────────────────────
-PROMPT_FILE = BASE_DIR / "prompt.txt"
+PROMPT_FILE = BASE_DIR / "prompt" / "prompt.txt"
 
 
 USER_TEMPLATE = """Topic description: {judul}
 
 Based on the topic description above:
-1. Generate a professional, publication-ready IEEE-style academic title in English that best represents this topic.
-2. Write a complete IEEE paper about this exact topic, incorporating all specific details mentioned (location, institution, system name, etc.).
+1. Generate a professional, publication-ready academic title in English that best represents this topic.
+2. Write a complete research paper about this exact topic, incorporating all specific details mentioned (location, institution, system name, equipment, data, etc.).
 3. All sections, equations, figures, tables, and references must be directly relevant to this topic.
 4. If the topic description (and additional instructions) does NOT include numeric data (dataset size, accuracy, latency, voltage, etc.), you MUST generate estimated/simulation-based numeric values that fit the topic and keep them consistent across the abstract, tables, figures, Results, and Section V.
 5. The output must include all sections through Section V (CONCLUSION); do not stop early.
+6. LOCATION & INSTITUTION: If the topic description mentions a university, department, laboratory, city, province, or country — use it EXACTLY in authors[].affiliation and authors[].location. Also ground the Introduction and Methodology in that location (e.g., "conducted at Universitas X in Surabaya"). Do NOT replace user-specified locations with generic placeholders.
+7. EQUATIONS: Use equations from the TOPIC GUIDE if one is provided. Otherwise, use domain-appropriate formulas from the system prompt's DOMAIN FORMULA REFERENCE. Every equation must directly match the methodology described (e.g., PID formula for a PID control paper, DH transform for a robot kinematics paper). Do NOT use generic or unrelated placeholder math.
+8. DATA CONSISTENCY: Pick one fixed set of numeric values at the start and use them identically in the abstract, every table row, every text paragraph, and the conclusion. Do NOT round differently in different sections (e.g., do not say "~95%" in the abstract but "95.4%" in the table — use 95.4% everywhere).
+9. TEXT FORMATTING: Use \\b...\\b for bold, \\i...\\i for italic, \\u...\\u for underline inside "text" field values and table "Rows" strings. Do NOT use **...** or *...* (Markdown is not supported by the DOCX renderer).
 
 Additional instructions: {custom_prompt}
 """
@@ -49,6 +53,8 @@ def generate_paper_json(
     custom_prompt: str = "",
     api_key: str = None,
     model: str = None,
+    topic: str = None,
+    style: str = None,
     progress_cb=None,
 ) -> dict:
     """
@@ -80,6 +86,23 @@ def generate_paper_json(
         system_prompt = PROMPT_FILE.read_text(encoding="utf-8")
     else:
         raise ValueError("prompt.txt not found")
+
+    # Append humanize rules
+    humanize_file = BASE_DIR / "prompt" / "humanize.txt"
+    if humanize_file.exists():
+        system_prompt += "\n\n" + humanize_file.read_text(encoding="utf-8")
+
+    # Append style guide
+    if style:
+        style_file = BASE_DIR / "prompt" / "style" / f"{style}.txt"
+        if style_file.exists():
+            system_prompt += "\n\n" + style_file.read_text(encoding="utf-8")
+
+    # Append topic guide
+    if topic:
+        topic_file = BASE_DIR / "prompt" / "topic" / f"{topic}.txt"
+        if topic_file.exists():
+            system_prompt += "\n\n" + topic_file.read_text(encoding="utf-8")
 
     user_message = (
         USER_TEMPLATE

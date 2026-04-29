@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Renewable Energy
+================================================================================
+FIELD: Engineering / Environmental Science
+DEFAULT CITATION STYLE: IEEE or APA
+
+METHODOLOGY: solar PV modeling, wind turbine modeling, maximum power point tracking (MPPT),
+  grid integration, energy storage, battery management, hybrid systems
+EQUATIONS: P_PV = η·A·G, wind power P = 0.5·ρ·A·Cp·v³, MPPT algorithms
+FIGURES: I-V and P-V curves, system block diagram, energy generation vs. time
+TABLES: system specifications, efficiency comparison, cost analysis, payback period
+VENUES: IEEE Trans. Energy Convers., Renew. Energy, Sol. Energy, Applied Energy

@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Management
+================================================================================
+FIELD: Business / Management
+DEFAULT CITATION STYLE: APA or Harvard
+
+METHODOLOGY: survey research, case study, SEM, factor analysis, Delphi method,
+  balanced scorecard, strategic analysis (SWOT, Porter's Five Forces), action research
+EQUATIONS: reliability (Cronbach's α), regression, structural paths, ROI formula
+FIGURES: conceptual framework/research model, organizational chart, strategy map
+TABLES: factor analysis loadings, hypothesis testing results, performance indicators
+VENUES: Academy of Management Review, J. Management, Strategic Management J., Harvard Business Review

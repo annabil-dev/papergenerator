@@ -1,0 +1,81 @@
+================================================================================
+TOPIC GUIDE — Dentistry & Oral Health
+================================================================================
+FIELD: Medicine / Dentistry
+DEFAULT CITATION STYLE: Vancouver or APA
+SUBDISCIPLINE: Kedokteran Gigi, Konservasi Gigi, Orthodonti, Periodontologi, Bedah Mulut, Kedokteran Gigi Komunitas
+
+ABSTRACT CHARACTERISTICS:
+  150–250 words (structured for clinical studies). Reports: patient population (n, age, sex,
+  diagnosis), dental procedure or material studied, study design (RCT, in vitro, cohort),
+  outcome measures (bond strength MPa, marginal seal, pocket depth mm, plaque index,
+  patient satisfaction VAS), statistical results.
+
+INTRODUCTION ELEMENTS:
+  - Prevalence of oral disease (caries, periodontitis, malocclusion) in target population.
+  - Clinical challenge: treatment failure, material limitation, patient compliance.
+  - Research gap: new material/technique not evaluated in local population, comparison study.
+  - Objectives: evaluate efficacy of dental treatment, material, or intervention.
+
+LITERATURE REVIEW:
+  Common section name: "Literature Review" / "Background"
+  - Dental caries: Keyes' four factors (tooth, bacteria, substrate, time); DMFT/DMFS indices.
+  - Restorative materials: composite resin, glass ionomer cement (GIC), amalgam; bond strength evaluation (ISO 6872, ISO 4049).
+  - Periodontitis: Armitage classification (2017); pocket depth (PD), clinical attachment level (CAL), bleeding on probing (BOP).
+  - Orthodontics: Angle classification (I/II/III); PAR index; bracket bonding, bracket failure rate.
+  - Oral surgery: extraction difficulty (Pederson scale), healing assessment, dry socket incidence.
+  - Dental materials: flexural strength (ISO 6872), compressive strength, Vickers hardness (HV), roughness (Ra µm).
+  - Community dentistry: DMFT index WHO standards; oral health-related quality of life (OHRQoL, OHIP-14).
+
+METHODOLOGY:
+  Common section name: "Materials and Methods" / "Research Method"
+  - Study design: RCT, quasi-experimental, cross-sectional, in vitro, systematic review.
+  - Sample: patients (n=30–100); inclusion/exclusion criteria; power analysis.
+  - Clinical measurements: PD, CAL (Florida probe), DMFT, plaque index (O'Leary), gingival index (Löe & Silness).
+  - In vitro (material testing): specimen preparation (n=10–20 per group), ISO standards; universal testing machine (UTM), SEM, FTIR.
+  - Bond strength: shear bond strength (SBS), microtensile bond strength (µTBS); specimens prepared per ISO 11405.
+  - Statistical: ANOVA, Kruskal-Wallis (non-parametric), Mann-Whitney, Fisher's exact; Bonferroni post-hoc; α=0.05.
+
+TYPICAL RESULTS & DISCUSSION:
+  - DMFT: WHO 2018 Indonesia national average 7.0 (adults); acceptable goal <3 for 12-year-olds.
+  - Shear bond strength: composite resin to enamel 20–35 MPa; dentine 15–25 MPa.
+  - Flexural strength (zirconia): 900–1200 MPa; lithium disilicate 400–500 MPa.
+  - Pocket depth: healthy <3mm; moderate periodontitis 4–6mm; severe >6mm.
+  - Reduction in BOP after scaling/root planing: 60–80% reduction at 6 weeks.
+  Tables: material properties comparison, clinical measurement comparison, DMFT data.
+  Figures: SEM micrograph of fracture surface, clinical pre/post photo, box plot PD.
+
+TYPICAL FIGURES:
+  - SEM micrograph (material fracture surface or adhesive interface).
+  - Box plot: pocket depth before and after treatment.
+  - Bar chart: DMFT by age group.
+  - Clinical photographs: pre/post treatment.
+  - Survival curve (Kaplan-Meier for prosthetic survival).
+
+TYPICAL TABLES:
+  - Material properties: material | flexural strength (MPa) | hardness (HV) | Ra (µm).
+  - Clinical outcome: group | PD (mm) | CAL (mm) | BOP (%) | plaque index.
+  - DMFT: group | age | n | D | M | F | DMFT | SD.
+
+CONCLUSION CHARACTERISTICS:
+  - Dental material/procedure meets clinical performance criteria.
+  - Treatment protocol effectively reduces disease parameters.
+  - Community oral health recommendations.
+  - Limitations: single-center, short follow-up, specific patient population.
+  - Future: multicenter RCT, long-term follow-up (2–5 years), cost-effectiveness analysis.
+
+COMMON REFERENCE VENUES:
+  Journal of Dentistry, Clinical Oral Investigations, Dental Materials,
+  Journal of Dental Research, International Journal of Oral and Maxillofacial Surgery,
+  Community Dentistry and Oral Epidemiology, Journal of Periodontology,
+  Jurnal Kedokteran Gigi Universitas Indonesia (JKGUI)
+
+DOMAIN VOCABULARY:
+  DMFT, DMFS, caries, periodontitis, PD, CAL, BOP, plaque index, SBS, µTBS,
+  composite resin, GIC, zirconia, lithium disilicate, ISO 6872, flexural strength,
+  Vickers hardness, OHIP-14, PAR index, Angle classification, dry socket
+
+METHODOLOGY KEYWORDS:
+  DMFT examination (WHO criteria), pocket depth/CAL measurement (Florida probe),
+  shear bond strength testing (ISO 11405), universal testing machine, SEM analysis,
+  RCT design, Kruskal-Wallis, Mann-Whitney, Bonferroni correction, OHRQoL (OHIP-14)

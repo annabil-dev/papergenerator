@@ -276,7 +276,11 @@ def _append_line_break(paragraph) -> None:
 
 
 def _normalize_text_commands(text: str) -> str:
-    return text.replace("\\n", "\n")
+    text = text.replace("\\n", "\n")
+    # Convert Markdown bold/italic to \b..\b / \i..\i toggle format
+    text = re.sub(r'\*\*(.+?)\*\*', r'\\b\1\\b', text, flags=re.DOTALL)
+    text = re.sub(r'\*([^*\n]+?)\*', r'\\i\1\\i', text)
+    return text
 
 
 def _iter_rich_tokens(text: str):

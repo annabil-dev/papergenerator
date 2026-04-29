@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Natural Language Processing
+================================================================================
+FIELD: Computer Science / Linguistics
+DEFAULT CITATION STYLE: APA or IEEE
+
+METHODOLOGY: tokenization, word embedding, BERT, GPT, sentiment analysis, NER,
+  text classification, seq2seq, transformer, TF-IDF, cosine similarity
+EQUATIONS: perplexity, BLEU score, F1, cosine similarity, TF-IDF formula
+FIGURES: word cloud, attention weights, embedding space (t-SNE), precision-recall curve
+TABLES: benchmark results (GLUE, SQuAD), model size vs. accuracy, error analysis
+VENUES: ACL, EMNLP, NAACL, Computational Linguistics, Transactions of the ACL

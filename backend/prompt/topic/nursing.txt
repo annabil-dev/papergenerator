@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Nursing
+================================================================================
+FIELD: Nursing / Health Sciences
+DEFAULT CITATION STYLE: APA or Vancouver
+
+METHODOLOGY: clinical trial, randomized controlled trial (RCT), systematic review,
+  nursing intervention, patient assessment, evidence-based practice, qualitative study
+EQUATIONS: effect size (Cohen's d), odds ratio, NRS/VAS pain scale, Cronbach's α
+FIGURES: CONSORT flow diagram, intervention pathway, outcome trend chart
+TABLES: patient demographics, clinical outcomes, intervention comparison
+VENUES: J. Adv. Nurs., Int. J. Nurs. Stud., Nurs. Res., Worldviews Evid. Based Nurs.

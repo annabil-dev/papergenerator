@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Tourism
+================================================================================
+FIELD: Social Sciences / Business
+DEFAULT CITATION STYLE: APA or Harvard
+
+METHODOLOGY: tourist satisfaction survey, destination competitiveness analysis,
+  SEM, content analysis, visitor behavior study, econometric modeling
+EQUATIONS: tourist satisfaction index, regression, Cronbach's α, structural paths
+FIGURES: conceptual research model, satisfaction distribution chart, tourist flow map
+TABLES: demographic profile, factor analysis results, destination comparison
+VENUES: Tourism Management, Annals of Tourism Research, J. Travel Research

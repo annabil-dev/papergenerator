@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Robotics
+================================================================================
+FIELD: Engineering / Technology
+DEFAULT CITATION STYLE: IEEE
+
+METHODOLOGY: inverse kinematics, forward kinematics, DH parameters, trajectory planning,
+  PID control, ROS, MoveIt, Gazebo simulation, servo motor, encoder feedback
+EQUATIONS: DH transform T_i, Jacobian J(q)·q̇, PID u(t), quintic polynomial
+FIGURES: robot CAD model, DH frames, workspace envelope, joint angle plots, Gazebo screenshot
+TABLES: DH parameters, servo specs, trajectory error comparison
+VENUES: IEEE ICRA, IEEE IROS, IEEE Trans. Robot., IEEE Robot. Autom. Lett., Robotics and Autonomous Systems

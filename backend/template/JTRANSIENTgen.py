@@ -214,7 +214,10 @@ def _split_text_blocks(text: str) -> list[str]:
 
 
 def _iter_rich_tokens(text: str):
+    # Normalize newlines and convert Markdown bold/italic to toggle-escape format
     normalized = text.replace("\\n", "\n")
+    normalized = re.sub(r'\*\*(.+?)\*\*', r'\\b\1\\b', normalized, flags=re.DOTALL)
+    normalized = re.sub(r'\*([^*\n]+?)\*', r'\\i\1\\i', normalized)
     buffer: list[str] = []
     bold = False
     italic = False

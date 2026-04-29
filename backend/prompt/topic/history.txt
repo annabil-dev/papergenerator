@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — History
+================================================================================
+FIELD: Humanities / History
+DEFAULT CITATION STYLE: Chicago or MLA
+
+METHODOLOGY: archival research, primary source analysis, oral history, historiography,
+  comparative history, digital humanities, periodization
+EQUATIONS: (minimal — quantitative history may use statistical methods)
+FIGURES: historical timeline, map of events, document facsimile, statistical trend
+TABLES: chronological event table, comparative data table, archival source list
+VENUES: American Historical Review, J. Modern History, Past and Present, History and Theory

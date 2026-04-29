@@ -1,0 +1,81 @@
+================================================================================
+TOPIC GUIDE — Chemical Engineering
+================================================================================
+FIELD: Engineering / Chemical Engineering
+DEFAULT CITATION STYLE: APA or AIChE
+SUBDISCIPLINE: Teknik Kimia, Proses Kimia, Reaksi Kimia, Pemisahan, Energi Kimia, Bioprosess
+
+ABSTRACT CHARACTERISTICS:
+  150–250 words. Reports: chemical process or unit operation studied, scale (lab/pilot/industrial),
+  operating conditions (T °C, P bar, flow rate L/h, feed concentration mol/L), key results
+  (conversion %, yield %, selectivity, energy efficiency, product purity %), and comparison
+  with existing process benchmark.
+
+INTRODUCTION ELEMENTS:
+  - Industrial process context: petroleum refining, petrochemicals, food/pharma processing, biofuels.
+  - Process inefficiency or environmental challenge: energy intensity, waste generation, safety hazard.
+  - Research gap: process optimization, new catalyst/solvent, intensification method, green chemistry.
+  - Objectives: design, model, optimize, or scale-up chemical process.
+
+LITERATURE REVIEW:
+  Common section name: "Literature Review" / "Background"
+  - Reaction engineering: kinetics (rate law, Arrhenius equation), reactor types (CSTR, PFR, batch).
+  - Thermodynamics: phase equilibrium, VLE (vapor-liquid equilibrium), activity coefficients.
+  - Separation processes: distillation (McCabe-Thiele), absorption/stripping, extraction, membrane.
+  - Catalysis: heterogeneous (surface area BET, pore size, active metal loading), homogeneous, enzymatic.
+  - Process simulation: Aspen Plus/HYSYS, CHEMCAD; material/energy balance.
+  - Green chemistry: atom economy (% AE), E-factor (kg waste/kg product), solvent selection.
+  - Mass and heat transfer: Reynolds analogy, Nusselt number, packed bed pressure drop (Ergun equation).
+
+METHODOLOGY:
+  Common section name: "Materials and Methods" / "Experimental Design"
+  - Experimental: reactor setup, catalyst preparation (impregnation, sol-gel), characterization (XRD, BET, TPR).
+  - Reaction conditions: temperature (°C), pressure (bar), residence time (τ = V/F), feed ratio (stoichiometry).
+  - Analytical: GC (conversion/selectivity), HPLC, spectrophotometry, titration.
+  - Response Surface Methodology (RSM): Central Composite Design (CCD) or Box-Behnken; ANOVA; optimal conditions.
+  - Simulation (Aspen Plus): flowsheet, thermodynamic model (NRTL/UNIQUAC/SRK), convergence.
+  - Scale-up: Damköhler number, dimensionless analysis, mass transfer coefficient kLa (bioreactor).
+  - Safety: HAZOP (Hazard and Operability Study) for process design.
+
+TYPICAL RESULTS & DISCUSSION:
+  - Conversion: equilibrium-limited reactions 60–90%; catalytic 80–99%.
+  - Yield: overall process yield 70–95%; side reactions lower selectivity to 85–95%.
+  - Catalyst activity: TOF (turnover frequency) = 0.1–10 s⁻¹; stability in 100h test.
+  - Energy efficiency: heat integration reduces utility by 20–40%.
+  - Separation: distillation column 99+% purity with specific reflux ratio.
+  Tables: reaction conditions vs. conversion/yield, catalyst characterization, RSM ANOVA.
+  Figures: conversion vs. T/P/time, RSM 3D response surface, process flow diagram.
+
+TYPICAL FIGURES:
+  - Conversion/yield vs. temperature or time curve.
+  - RSM 3D response surface and contour plot.
+  - Aspen Plus process flow diagram (PFD).
+  - Catalyst characterization: XRD diffractogram, BET isotherm.
+  - Selectivity vs. conversion plot.
+
+TYPICAL TABLES:
+  - Experimental matrix (RSM): run | T | P | ratio | conversion | yield.
+  - RSM ANOVA: source | SS | df | MS | F | p | R².
+  - Catalyst properties: BET area (m²/g) | pore volume (cm³/g) | mean pore size (nm) | metal loading (wt%).
+
+CONCLUSION CHARACTERISTICS:
+  - Optimal operating conditions identified with maximized yield/conversion.
+  - Catalyst/solvent/process modification effect quantified.
+  - Economic/environmental benefit of optimized process.
+  - Limitations: lab-scale, simplified model assumptions, single feedstock.
+  - Future: pilot-scale demonstration, techno-economic analysis (TEA), lifecycle assessment (LCA).
+
+COMMON REFERENCE VENUES:
+  Chemical Engineering Journal, Industrial & Engineering Chemistry Research,
+  AIChE Journal, Bioresource Technology, Fuel, Applied Catalysis A/B,
+  Separation and Purification Technology, Journal of Cleaner Production
+
+DOMAIN VOCABULARY:
+  conversion, yield, selectivity, CSTR, PFR, catalyst, TOF, BET, RSM, CCD,
+  Aspen Plus, NRTL, UNIQUAC, E-factor, atom economy, VLE, kLa, HAZOP,
+  Arrhenius, McCabe-Thiele, Damköhler number, heat integration, Ergun equation
+
+METHODOLOGY KEYWORDS:
+  RSM (Central Composite Design), Aspen Plus simulation, catalyst characterization (XRD/BET/TPR),
+  GC/HPLC analysis, ANOVA optimization, kinetic parameter estimation (Arrhenius),
+  HAZOP analysis, heat integration (Pinch method), mass transfer coefficient (kLa)

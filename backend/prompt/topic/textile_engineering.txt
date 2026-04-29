@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Textile Engineering
+================================================================================
+FIELD: Engineering / Materials Science
+DEFAULT CITATION STYLE: APA or ACS
+
+METHODOLOGY: fabric testing (tensile strength, elongation, moisture management),
+  dyeing process optimization, yarn characterization, smart textile integration
+EQUATIONS: tensile stress, moisture regain, color fastness rating
+FIGURES: fabric microscopy, stress-strain curve, color fastness chart, smart textile diagram
+TABLES: fabric properties comparison, dyeing conditions, test result table
+VENUES: Textile Research J., J. Textile Science Engineering, Fibers and Polymers

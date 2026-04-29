@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Human Resources
+================================================================================
+FIELD: Business / Management
+DEFAULT CITATION STYLE: APA or Harvard
+
+METHODOLOGY: survey (employee satisfaction/engagement), SEM, regression analysis,
+  job performance study, training effectiveness evaluation, HR analytics
+EQUATIONS: regression, Cronbach's α, structural paths, turnover rate formula
+FIGURES: HR conceptual model, satisfaction trend chart, engagement wheel diagram
+TABLES: sample demographics, reliability coefficients, hypothesis test results
+VENUES: J. Applied Psychology, Human Resource Management, Personnel Psychology

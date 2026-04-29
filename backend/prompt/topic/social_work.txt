@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Social Work
+================================================================================
+FIELD: Social Sciences
+DEFAULT CITATION STYLE: APA
+
+METHODOLOGY: needs assessment, program evaluation, case study, systematic review,
+  community-based participatory research, mixed methods
+EQUATIONS: effect size, odds ratio, reliability coefficient, regression
+FIGURES: intervention logic model, outcome trend chart, demographic pie chart
+TABLES: participant demographics, program outcome data, comparison group results
+VENUES: British J. Social Work, Social Work Research, J. Social Work Practice

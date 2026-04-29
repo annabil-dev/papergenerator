@@ -1,0 +1,81 @@
+================================================================================
+TOPIC GUIDE — Internet of Things (IoT) & Embedded Systems
+================================================================================
+FIELD: Computer Science / Engineering
+DEFAULT CITATION STYLE: IEEE
+SUBDISCIPLINE: IoT, Sensor, Embedded System, Smart Environment, Edge Computing, MQTT, LoRa
+
+ABSTRACT CHARACTERISTICS:
+  150–250 words. Reports: IoT application domain (smart agriculture, smart health, smart home,
+  industry 4.0), system architecture, sensors used, communication protocol, performance metrics
+  (latency ms, packet delivery ratio %, power consumption mW, accuracy %).
+
+INTRODUCTION ELEMENTS:
+  - IoT market size (50+ billion connected devices by 2030) and application potential.
+  - Specific challenge: real-time monitoring, low power, reliable connectivity, data security.
+  - Research gap: new sensor integration, edge computing, protocol comparison, novel application.
+  - Objectives: design, implement, evaluate IoT system.
+
+LITERATURE REVIEW:
+  Common section name: "Related Work" / "Background"
+  - IoT architecture: perception layer (sensors), network layer (protocols), application layer.
+  - Microcontrollers: Arduino (AVR), Raspberry Pi (ARM), ESP32 (dual-core, WiFi+BT), STM32.
+  - Communication protocols: MQTT, CoAP, HTTP/REST; wireless: WiFi, ZigBee, LoRa/LoRaWAN, BLE, NB-IoT.
+  - Sensors: temperature/humidity (DHT22, SHT31), soil moisture (capacitive), gas (MQ series), IMU (MPU6050).
+  - Edge computing: local processing to reduce latency and bandwidth.
+  - Security: TLS/SSL encryption, authentication, end-to-end encryption.
+  - Platforms: ThingsBoard, AWS IoT, Blynk, Node-RED.
+
+METHODOLOGY:
+  Common section name: "System Design and Implementation"
+  - Hardware components: MCU model, sensors list, actuators, communication modules.
+  - Software: firmware (C/C++, MicroPython), RTOS (FreeRTOS), cloud platform.
+  - Communication: MQTT broker (Mosquitto), publish/subscribe pattern, QoS levels.
+  - Data flow: sensor → MCU → broker → cloud/edge → dashboard.
+  - Performance testing: latency (RTT ms), PDR (packet delivery ratio %, n=1000 packets), power measurement (current sensor INA219).
+  - Machine learning at edge: TensorFlow Lite, ONNX runtime for inference.
+  - Security: TLS 1.2/1.3, token authentication.
+
+TYPICAL RESULTS & DISCUSSION:
+  - Latency: WiFi MQTT 20–100 ms; LoRa 1–10 s (trade-off with range).
+  - PDR: WiFi >95%; LoRa long range 80–92%.
+  - Power: sleep mode ESP32 10–50 µA; active 80–200 mA; LoRa node 3–5 year battery with AA.
+  - Sensor accuracy: temperature ±0.5°C; humidity ±2%; soil moisture ±3%.
+  - ML inference at edge: accuracy within 2–5% of cloud model; latency <100 ms.
+  Tables: hardware components, protocol comparison, power consumption.
+  Figures: system architecture diagram, dashboard screenshot, latency/PDR graphs.
+
+TYPICAL FIGURES:
+  - System architecture/block diagram.
+  - Sensor data time-series plot.
+  - Latency comparison bar chart (WiFi vs. LoRa vs. BLE).
+  - Power consumption graph.
+  - Dashboard UI screenshot.
+  - Network topology diagram.
+
+TYPICAL TABLES:
+  - Hardware specifications: component | model | specs | power (mA) | cost.
+  - Protocol comparison: protocol | range | data rate | power | latency | security.
+  - Test results: metric | measured | target | pass/fail.
+
+CONCLUSION CHARACTERISTICS:
+  - System successfully implemented and validated.
+  - Performance metrics meet target requirements.
+  - Comparison with existing systems showing improvements.
+  - Limitations: coverage range, battery life, network congestion.
+  - Future: AI integration, 5G/NB-IoT, blockchain for data integrity, commercial deployment.
+
+COMMON REFERENCE VENUES:
+  IEEE Internet of Things Journal, Sensors (MDPI), Computers & Electrical Engineering,
+  IEEE Transactions on Industrial Informatics, Future Generation Computer Systems,
+  Journal of Network and Computer Applications, Wireless Communications and Mobile Computing
+
+DOMAIN VOCABULARY:
+  ESP32, Raspberry Pi, MQTT, LoRa, LoRaWAN, ZigBee, BLE, NB-IoT, CoAP,
+  PDR, RTT, latency, throughput, ADC, I2C, SPI, UART, DHT22, MPU6050,
+  FreeRTOS, TensorFlow Lite, edge computing, fog computing, cloud IoT
+
+METHODOLOGY KEYWORDS:
+  prototype implementation, hardware-in-the-loop testing, MQTT stress testing,
+  latency measurement (RTT), PDR measurement (packet counter), power profiling (INA219),
+  sensor calibration, TinyML deployment, network emulation (ns-3)

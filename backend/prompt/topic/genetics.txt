@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Genetics
+================================================================================
+FIELD: Natural Sciences / Medicine
+DEFAULT CITATION STYLE: APA or Vancouver
+
+METHODOLOGY: genome-wide association study (GWAS), PCR, sequencing, gene expression
+  analysis, bioinformatics pipeline, linkage analysis, population genetics
+EQUATIONS: Hardy-Weinberg equilibrium, heritability, chi-square for genotype frequency
+FIGURES: Manhattan plot, phylogenetic tree, gene expression heatmap, pedigree chart
+TABLES: allele frequency comparison, gene ontology annotation, SNP association results
+VENUES: Nature Genetics, Am. J. Human Genetics, Human Molecular Genetics, Genome Research

@@ -1,0 +1,77 @@
+================================================================================
+TOPIC GUIDE — Political Science & International Relations
+================================================================================
+FIELD: Social Sciences / Political Science
+DEFAULT CITATION STYLE: APA
+SUBDISCIPLINE: Ilmu Politik, Hubungan Internasional, Kebijakan Publik, Pemerintahan, Demokrasi
+
+ABSTRACT CHARACTERISTICS:
+  150–200 words. Reports: political phenomenon studied (election, policy, diplomatic relations,
+  governance), theoretical lens, methodology (case study, comparative analysis, qualitative,
+  quantitative), unit of analysis, and key findings or arguments.
+
+INTRODUCTION ELEMENTS:
+  - Political context: democratization, regional security, governance reform, global institutions.
+  - Theoretical framework: realism, liberalism, constructivism (IR), institutionalism, rational choice.
+  - Research gap: understudied case, new empirical evidence, theoretical contribution.
+  - Research question and argument (thesis statement).
+
+LITERATURE REVIEW:
+  Common section name: "Literature Review" / "Theoretical Framework"
+  - IR theories: Waltz (neorealism), Keohane & Nye (liberalism/interdependence), Wendt (constructivism).
+  - Democratic theory: procedural (Schumpeter), substantive democracy, democratic consolidation.
+  - Public policy: policy cycle, agenda setting (Kingdon's multiple streams), implementation theory.
+  - Comparative politics: electoral systems (majoritarian vs. PR), party systems, presidentialism vs. parliamentarism.
+  - Political economy: varieties of capitalism, developmental state, fiscal policy.
+  - Southeast Asia political context: ASEAN, Indonesia democratization, regional security.
+
+METHODOLOGY:
+  Common section name: "Research Methodology" / "Analytical Framework"
+  - Qualitative: case study (Yin), process tracing, historical institutionalism, discourse analysis.
+  - Comparative: most similar/most different system design (MSSD/MDSD).
+  - Quantitative: cross-national datasets (V-Dem, Freedom House, World Bank governance indicators), regression.
+  - Data sources: official documents, government reports, elite interviews, NGO reports.
+  - Content analysis: primary sources (speeches, treaties, legislation, media).
+  - Methods for IR: game theory formalization, network analysis of alliances.
+
+TYPICAL RESULTS & DISCUSSION:
+  - Democracy index: Freedom House score 1–7; V-Dem liberal democracy index 0–1.
+  - Governance: World Bank CPIA; Transparency International CPI (0–100).
+  - Electoral: vote share %, Gallagher disproportionality index, ENPP (effective number of parties).
+  - Foreign policy: trade volume USD billion; treaty ratification rates.
+  Tables: case comparison matrix, governance indicator trends.
+  Figures: time series of democracy scores, coalition formation chart, network diagram.
+
+TYPICAL FIGURES:
+  - Time-series: democracy or governance score over years.
+  - Comparative bar chart: country scores on governance indicators.
+  - Network diagram: alliance/cooperation network.
+  - Process tracing timeline diagram.
+
+TYPICAL TABLES:
+  - Case comparison matrix (country | variable | outcome).
+  - V-Dem/Freedom House indicators by country and year.
+  - Policy analysis: policy | actors | mechanisms | outcome.
+
+CONCLUSION CHARACTERISTICS:
+  - Theoretical argument supported/challenged by empirical evidence.
+  - Contribution to comparative politics, IR theory, or policy studies.
+  - Policy recommendation for practitioners.
+  - Limitations: case selection bias, data availability, single period.
+  - Future: comparative expansion, quantitative testing of theory, policy evaluation.
+
+COMMON REFERENCE VENUES:
+  American Political Science Review, Comparative Politics, World Politics,
+  Journal of Democracy, International Organization, Foreign Affairs,
+  Governance, Asian Survey, Contemporary Southeast Asia,
+  Journal of Southeast Asian Studies
+
+DOMAIN VOCABULARY:
+  realism, liberalism, constructivism, neoliberal institutionalism, hegemony,
+  democratization, electoral system, party system, coalition, civil society,
+  V-Dem, Freedom House, ASEAN, sovereignty, norm diffusion, process tracing
+
+METHODOLOGY KEYWORDS:
+  case study (Yin), process tracing, most similar system design, comparative analysis,
+  discourse analysis, elite interview, content analysis, regression (cross-national),
+  V-Dem dataset, Freedom House data, Qualitative Comparative Analysis (QCA)

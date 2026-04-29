@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Human Computer Interaction
+================================================================================
+FIELD: Computer Science / Design
+DEFAULT CITATION STYLE: APA or IEEE
+
+METHODOLOGY: user study, usability testing, think-aloud protocol, A/B testing,
+  SUS questionnaire, eye tracking, cognitive walkthrough, survey design
+EQUATIONS: task completion rate, error rate, SUS score, Fitts' law index of difficulty
+FIGURES: UI/UX prototype screenshot, task time comparison, heatmap from eye tracking
+TABLES: SUS scores, task performance metrics, preference ratings
+VENUES: CHI (ACM), UIST, IEEE Trans. Human-Machine Systems, Human Computer Interaction

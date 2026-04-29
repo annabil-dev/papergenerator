@@ -66,7 +66,8 @@ app.config['SECRET_KEY'] = os.getenv('SECRET_KEY', 'flask-secret-key')
 CORS(app, supports_credentials=True, origins=[
     "http://localhost:1000",
     "http://localhost:5173",
-    "https://paper.otomasi.app",
+    "https://paperfull.app",
+    "https://www.paperfull.app",
 ])
 db.init_app(app)
 jwt = JWTManager(app)
@@ -297,7 +298,7 @@ def generate():
 
 # ─── Generate Full Paper ─────────────────────────────────────────────────────
 
-def _run_generate_full_job(job_id, prompt, user_id=None):
+def _run_generate_full_job(job_id, prompt, user_id=None, topic=None, style=None, pdf_texts=None):
     t_start = time.time()
     log.info("[job:%s] started, prompt=%r", job_id, prompt[:80])
     uid = None
@@ -310,7 +311,18 @@ def _run_generate_full_job(job_id, prompt, user_id=None):
         if not api_key or api_key == "sk-your-actual-api-key":
             raise Exception("OPENAI_API_KEY not configured")
 
-        paper_data = generate_paper_json(judul=prompt, custom_prompt="", api_key=api_key, model=OPENAI_MODEL)
+        extra = ""
+        if pdf_texts:
+            combined = "\n\n".join(pdf_texts[:5])
+            extra = f"\n\n[REFERENCE DOCUMENTS]\n{combined}"
+        paper_data = generate_paper_json(
+            judul=prompt,
+            custom_prompt=extra,
+            api_key=api_key,
+            model=OPENAI_MODEL,
+            topic=topic,
+            style=style,
+        )
 
         paper_data.setdefault("authors", [{"name": "Author Name", "affiliation": "Department, University", "location": "City, Country", "email": "author@example.com"}])
         paper_data.setdefault("keywords", [])
@@ -389,6 +401,9 @@ def generate_full():
         prompt = data.get("prompt", "").strip()
         if not prompt:
             return jsonify({"error": "Prompt is required"}), 400
+        topic = data.get("topic") or None
+        style = data.get("style") or None
+        pdf_texts = data.get("pdf_texts") or []
 
         api_key = os.getenv("OPENAI_API_KEY")
         if not api_key or api_key == "sk-your-actual-api-key":
@@ -399,7 +414,12 @@ def generate_full():
             return jsonify({"error": "Unauthorized"}), 401
         job_id = uuid.uuid4().hex[:12]
         _job_create(job_id, int(user_id), prompt)
-        threading.Thread(target=_run_generate_full_job, args=(job_id, prompt, user_id), daemon=True).start()
+        threading.Thread(
+            target=_run_generate_full_job,
+            args=(job_id, prompt, user_id),
+            kwargs={"topic": topic, "style": style, "pdf_texts": pdf_texts},
+            daemon=True,
+        ).start()
         return jsonify({"success": True, "job_id": job_id})
 
     except Exception as e:
@@ -435,6 +455,70 @@ def get_job_status(job_id):
     except Exception:
         db.session.rollback()
     return jsonify({"status": "error", "error": err, "timeout": timeout_flag})
+
+# ─── Topics / Styles / PDF Upload ─────────────────────────────────────────────
+
+@app.route("/api/topics", methods=["GET"])
+def list_topics():
+    """Return sorted list of available topic slugs."""
+    topic_dir = Path(__file__).parent / "prompt" / "topic"
+    topics = sorted(
+        p.stem for p in topic_dir.glob("*.txt") if not p.stem.startswith("_")
+    )
+    return jsonify({"topics": topics})
+
+
+@app.route("/api/styles", methods=["GET"])
+def list_styles():
+    """Return sorted list of available citation style slugs."""
+    style_dir = Path(__file__).parent / "prompt" / "style"
+    styles = sorted(p.stem for p in style_dir.glob("*.txt"))
+    return jsonify({"styles": styles})
+
+
+MAX_PDF_FILES = 5
+MAX_WORDS_PER_FILE = 5000
+
+@app.route("/api/upload-pdfs", methods=["POST"])
+@limiter.limit("20 per minute")
+@jwt_required()
+def upload_pdfs():
+    """Extract text from up to 5 uploaded PDF/DOCX files (max 5000 words each)."""
+    from extract_pdfs import extract_text_from_pdf  # noqa: PLC0415
+    from docx import Document  # noqa: PLC0415
+
+    files = request.files.getlist("files")
+    if not files:
+        return jsonify({"error": "No files uploaded"}), 400
+    if len(files) > MAX_PDF_FILES:
+        return jsonify({"error": f"Max {MAX_PDF_FILES} files allowed"}), 400
+
+    results = []
+    warnings = []
+    for f in files:
+        try:
+            # Check file extension to determine extraction method
+            filename = f.filename.lower()
+            if filename.endswith('.pdf'):
+                text = extract_text_from_pdf(f.stream)
+            elif filename.endswith('.docx'):
+                # Extract text from DOCX
+                doc = Document(f.stream)
+                text = "\n".join([para.text for para in doc.paragraphs])
+            else:
+                warnings.append(f"{f.filename}: format tidak didukung (hanya PDF dan DOCX)")
+                continue
+
+            words = text.split()
+            if len(words) > MAX_WORDS_PER_FILE:
+                warnings.append(f"{f.filename}: file terlalu besar, dibatasi ke {MAX_WORDS_PER_FILE} kata")
+                text = " ".join(words[:MAX_WORDS_PER_FILE])
+            results.append(text)
+        except Exception as e:
+            warnings.append(f"{f.filename}: gagal mengekstrak ({e})")
+
+    return jsonify({"pdf_texts": results, "warnings": warnings})
+
 
 # ─── Paper-specific Image Upload ─────────────────────────────────────────────
 

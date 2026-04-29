@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Medical Imaging
+================================================================================
+FIELD: Biomedical Engineering / Medicine
+DEFAULT CITATION STYLE: IEEE or Vancouver
+
+METHODOLOGY: MRI, CT, X-ray, ultrasound processing, segmentation, classification,
+  U-Net, image registration, denoising, lesion detection, transfer learning
+EQUATIONS: PSNR, SSIM, Dice coefficient, sensitivity, specificity, AUC
+FIGURES: medical image samples, segmentation overlay, ROC curve, model architecture
+TABLES: dataset statistics, segmentation accuracy (Dice/IoU), comparison with radiologist
+VENUES: IEEE Trans. Med. Imaging, Medical Image Analysis, MICCAI, Radiology

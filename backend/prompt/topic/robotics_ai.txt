@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Robotics Ai
+================================================================================
+FIELD: Engineering / Computer Science
+DEFAULT CITATION STYLE: IEEE
+
+METHODOLOGY: reinforcement learning, imitation learning, deep RL (PPO/SAC/TD3),
+  robot perception, sim-to-real transfer, manipulation planning, multi-robot coordination
+EQUATIONS: RL reward function, Bellman equation, policy gradient, Q-learning update
+FIGURES: robot learning curve, manipulation task visualization, sim-to-real comparison
+TABLES: task success rate, sample efficiency, baseline comparison
+VENUES: IEEE ICRA, IEEE IROS, NeurIPS, ICML, Science Robotics

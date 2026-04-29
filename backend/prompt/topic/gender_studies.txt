@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Gender Studies
+================================================================================
+FIELD: Social Sciences / Humanities
+DEFAULT CITATION STYLE: APA or MLA
+
+METHODOLOGY: feminist qualitative research, discourse analysis, survey,
+  intersectionality analysis, critical theory, content analysis
+EQUATIONS: gender gap index, regression for gender wage gap, Cronbach's α
+FIGURES: gender comparison bar chart, conceptual framework, trend over time
+TABLES: demographic breakdown, regression results, thematic categories
+VENUES: Gender Society, Feminist Review, Signs: J. Women Culture Society

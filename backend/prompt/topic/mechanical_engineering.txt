@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Mechanical Engineering
+================================================================================
+FIELD: Engineering / Technology
+DEFAULT CITATION STYLE: IEEE or APA
+
+METHODOLOGY: static/dynamic analysis, CFD, thermodynamic cycle analysis,
+  vibration analysis, tribology, manufacturing process optimization, fatigue testing
+EQUATIONS: equation of motion, heat transfer Q = m·Cp·ΔT, Navier-Stokes (CFD)
+FIGURES: CAD model, FEA stress map, CFD simulation, vibration frequency response
+TABLES: material properties, simulation vs. experimental comparison, design parameters
+VENUES: J. Mechanical Engineering, J. Mech. Design, Int. J. Mech. Sci., Mech. Systems Signal Process.

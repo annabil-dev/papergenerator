@@ -1,0 +1,86 @@
+================================================================================
+TOPIC GUIDE — Agronomy (Crop Science)
+================================================================================
+FIELD: Agricultural and Biological Sciences / Agriculture
+DEFAULT CITATION STYLE: APA
+SUBDISCIPLINE: Agronomi Tanaman Lapang, Ilmu Tanah, Irigasi, Mekanisasi Pertanian
+
+ABSTRACT CHARACTERISTICS:
+  150–250 words. Typically reports: crop species, treatments applied (fertilizer, irrigation,
+  variety), experimental design (RCBD/factorial), key results (yield kg/ha, growth parameters),
+  and statistical significance.
+  Example: "Yield of rice (Oryza sativa L.) increased by 23% with NPK fertilization at 200 kg/ha..."
+
+INTRODUCTION ELEMENTS:
+  - Importance of crop in food security / global production context.
+  - Current productivity gap or agronomic problem (soil degradation, water scarcity, yield stagnation).
+  - Summary of existing approaches and their limitations.
+  - Research objectives (3–4 specific objectives).
+  - Hypothesis: "Increasing N application will linearly increase yield up to X kg/ha."
+  Subsections: Background, Problem Statement, Research Objectives, Hypothesis.
+
+LITERATURE REVIEW:
+  Common section name: "Literature Review" / "Review of Related Literature"
+  - Review crop physiology related to the problem (photosynthesis, nutrient uptake).
+  - Soil science background: nutrient availability, pH effects, organic matter.
+  - Previous fertilization/irrigation/variety trials from similar agroecosystems.
+  - Cite major references: FAO reports, IRRI publications, agricultural journals.
+  - Statistical design background: ANOVA, RCBD, LSD/DMRT post-hoc tests.
+  Key topics: nutrient use efficiency, water use efficiency, genetic potential of varieties.
+
+METHODOLOGY:
+  Common section name: "Materials and Methods" / "Methodology"
+  - Location: experimental field/station with soil characteristics (soil type, texture, pH, organic C).
+  - Experimental design: Randomized Complete Block Design (RCBD), 3 replications; Factorial design (2 factors × 4 levels).
+  - Treatments: fertilizer doses (kg/ha), irrigation regimes, variety comparisons.
+  - Agronomic practices: planting date, spacing, pest management (standard).
+  - Observations/Variables: plant height (cm), leaf area index, tillers, days to flowering, yield (kg/ha), 1000-grain weight (g), harvest index.
+  - Statistical analysis: ANOVA at 5%, LSD or DMRT 5%, correlation/regression.
+  - Equipment: tensiometer (soil moisture), chlorophyll meter (SPAD), digital scale.
+
+TYPICAL RESULTS & DISCUSSION:
+  Section name: "Results and Discussion"
+  - ANOVA table: treatment | mean ± SD | significance (a, b, c grouping).
+  - Typical yield ranges: rice 3–8 ton/ha; maize 5–12 ton/ha; soybean 1.5–4 ton/ha.
+  - Typical growth parameters: plant height 80–120 cm (rice); leaf area index 4–7.
+  - Treatment differences: 15–40% increase in yield between control and best treatment.
+  - Correlation: r = 0.78 between N uptake and yield.
+  - Comparison with literature: "Results agree with [Author, Year] who found..."
+  Tables: ANOVA table, treatment means with DMRT grouping, growth parameter summary.
+  Figures: bar chart of yield by treatment, growth curve, soil nutrient level chart.
+
+TYPICAL FIGURES:
+  - Bar chart: yield (ton/ha) by fertilizer treatment with error bars.
+  - Line graph: growth parameters (plant height) over time (days after planting).
+  - Scatter plot: correlation between N uptake and grain yield.
+  - Field layout diagram (RCBD block design).
+
+TYPICAL TABLES:
+  - ANOVA table (F-value, significance for all variables).
+  - Mean comparison table with DMRT grouping (a,b,c notation).
+  - Soil analysis results (pH, N-total, P-available, K-exchangeable).
+  - Agronomic parameters summary (mean ± SE for each treatment).
+
+CONCLUSION CHARACTERISTICS:
+  - States which treatment gives optimal results (e.g., "NPK 200 kg/ha gives highest yield of 7.2 ton/ha").
+  - Recommends practical application for farmers.
+  - Limitations: single location/season; need for multi-location validation.
+  - Future research: farmer field trials, economic analysis (B/C ratio).
+
+ADDITIONAL SECTIONS:
+  - "Site Description": climate data (rainfall mm, temperature °C), soil map.
+  - "Economic Analysis": input cost vs. yield gain (B/C ratio).
+
+COMMON REFERENCE VENUES:
+  Field Crops Research, Plant and Soil, Agronomy Journal, Crop Science,
+  European Journal of Agronomy, Soil and Tillage Research, Pedosphere,
+  Indonesian Journal of Agronomy, Journal of Agricultural Science
+
+DOMAIN VOCABULARY:
+  Oryza sativa, Zea mays, Glycine max, NPK, urea, pH, organic matter, N-total,
+  P-available, K-exchangeable, yield, harvest index, leaf area index, SPAD,
+  RCBD, DMRT, LSD, agronomic efficiency, water use efficiency
+
+METHODOLOGY KEYWORDS:
+  RCBD, factorial experiment, ANOVA, DMRT/LSD post-hoc test, field trial,
+  soil analysis (Kjeldahl, Olsen, flame photometry), randomization, replication

@@ -24,7 +24,7 @@ graceful_timeout = 30     # give in-flight requests 30s to finish during reload
 keepalive = 5             # keep connection alive 5s between requests (nginx upstream)
 
 # ── Binding ──────────────────────────────────────────────────────────────────
-bind = "127.0.0.1:1001"
+bind = "127.0.0.1:8001"
 backlog = 2048            # OS-level queue for unaccepted connections
 
 # ── Security ─────────────────────────────────────────────────────────────────
@@ -37,8 +37,8 @@ proc_name = "paper-generator-api"
 default_proc_name = "paper-generator-api"
 
 # ── Logging ──────────────────────────────────────────────────────────────────
-accesslog = "/home/ubuntu/papergenerator/logs/gunicorn-access.log"
-errorlog  = "/home/ubuntu/papergenerator/logs/gunicorn-error.log"
+accesslog = "/home/otomasi/papergenerator/logs/gunicorn-access.log"
+errorlog  = "/home/otomasi/papergenerator/logs/gunicorn-error.log"
 loglevel  = "info"
 access_log_format = '%(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" %(D)sµs'
 

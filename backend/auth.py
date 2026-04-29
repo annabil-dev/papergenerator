@@ -40,7 +40,8 @@ def google_login():
             'error': 'Google OAuth not configured',
             'message': 'Set GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET in .env and restart backend'
         }), 503
-    redirect_uri = url_for('auth.google_callback', _external=True)
+    domain = os.getenv('DOMAIN', 'paperfull.app')
+    redirect_uri = f"https://{domain}/api/auth/google/callback"
     return oauth.google.authorize_redirect(redirect_uri)
 
 

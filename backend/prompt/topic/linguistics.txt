@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Linguistics
+================================================================================
+FIELD: Humanities / Linguistics
+DEFAULT CITATION STYLE: APA or MLA
+
+METHODOLOGY: corpus analysis, phonetic analysis, discourse analysis, sociolinguistics,
+  experimental linguistics, computational linguistics, language acquisition study
+EQUATIONS: frequency statistics, chi-square, regression, cosine similarity
+FIGURES: phonetic spectogram, syntax tree, geographic dialect map, frequency plot
+TABLES: feature frequency comparison, error analysis, speaker demographic breakdown
+VENUES: Language, Journal of Linguistics, Applied Linguistics, Journal of Pragmatics

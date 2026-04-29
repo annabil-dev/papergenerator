@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Machine Learning
+================================================================================
+FIELD: Computer Science / Engineering
+DEFAULT CITATION STYLE: IEEE or APA
+
+METHODOLOGY: supervised/unsupervised learning, neural networks, SVM, random forest,
+  gradient boosting, hyperparameter tuning, cross-validation, bias-variance tradeoff
+EQUATIONS: loss functions, gradient descent, regularization, Bayes theorem, entropy
+FIGURES: learning curves, decision boundary, feature importance plot, ROC curve
+TABLES: model accuracy comparison, confusion matrix, hyperparameter grid search
+VENUES: IEEE Trans. Neural Netw. Learn. Syst., Machine Learning, J. Machine Learning Research

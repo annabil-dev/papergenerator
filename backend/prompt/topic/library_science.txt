@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Library Science
+================================================================================
+FIELD: Social Sciences / Information Science
+DEFAULT CITATION STYLE: APA or Chicago
+
+METHODOLOGY: bibliometric analysis, user survey, content analysis, usability testing,
+  bibliometric mapping (VOSviewer), systematic review methodology
+EQUATIONS: h-index, citation impact, Bradford's law, Lotka's law
+FIGURES: bibliometric map, citation trend line, subject co-occurrence network
+TABLES: keyword frequency, journal ranking, user satisfaction scores
+VENUES: J. American Society Information Science, Library Information Science Research

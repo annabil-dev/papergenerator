@@ -1,0 +1,81 @@
+================================================================================
+TOPIC GUIDE — Civil Engineering
+================================================================================
+FIELD: Engineering / Civil
+DEFAULT CITATION STYLE: APA or ASCE
+SUBDISCIPLINE: Teknik Sipil, Struktur Bangunan, Transportasi, Geoteknik, Beton, Manajemen Konstruksi
+
+ABSTRACT CHARACTERISTICS:
+  150–250 words. Reports: civil engineering problem (structural, transportation, geotechnical,
+  water resources), method used (experimental, numerical FEM, field measurement), material
+  properties or design parameters, key results (compressive strength MPa, bearing capacity kN/m²,
+  deflection mm, traffic volume PCU, cost IDR), and engineering significance.
+
+INTRODUCTION ELEMENTS:
+  - Infrastructure challenge: aging structures, rapid urbanization, natural disaster vulnerability.
+  - Specific engineering problem: structural failure, traffic congestion, soil instability, water shortage.
+  - Code/standard context: SNI (Indonesia), ACI, Eurocode, AASHTO.
+  - Research gap: new material, analysis method, or local conditions not addressed by standards.
+  - Objectives: design, analyze, test, or optimize civil engineering system.
+
+LITERATURE REVIEW:
+  Common section name: "Literature Review" / "Background"
+  - Structural: reinforced concrete (ACI 318), steel (AISC LRFD), timber, composites; beam/column/slab design.
+  - Geotechnical: soil classification (USCS), bearing capacity (Terzaghi, Meyerhof), settlement analysis.
+  - Transportation: traffic volume (PCU), LOS (Level of Service A–F, HCM), pavement design (CBR, AASHTO).
+  - Concrete technology: mix design (SNI 7656:2012), w/c ratio, admixtures (fly ash, silica fume, superplasticizer).
+  - Structural analysis: finite element method (SAP2000, ETABS, STAAD.Pro); nonlinear pushover.
+  - Hydraulics: open channel flow (Manning's equation), culvert design, flood routing.
+
+METHODOLOGY:
+  Common section name: "Materials and Methods" / "Research Method"
+  - Material testing: concrete (SNI 1974:2011 compressive strength, splitting tensile, flexural); aggregate gradation; slump test.
+  - Structural analysis: FEM modeling (SAP2000/ETABS); load combinations (SNI 1727, SNI 1726 seismic).
+  - Geotechnical: SPT, CPT, Atterberg limits, direct shear, triaxial; soil classification.
+  - Pavement: Marshall test (asphalt); CBR (California Bearing Ratio); IRI (roughness).
+  - Experimental: specimens (3–5 per mix), curing (28 days), loading setup.
+  - Statistical: ANOVA, t-test for material properties; regression for pavement performance.
+
+TYPICAL RESULTS & DISCUSSION:
+  - Concrete compressive strength: normal 20–30 MPa; high performance 40–80 MPa; fc' 28-day.
+  - Fly ash replacement (25%): compressive strength ±5% with improved durability.
+  - Bearing capacity: soft clay 30–80 kPa; stiff clay 100–200 kPa; sand 150–500 kPa.
+  - Traffic LOS: A (<0.6) to F (>1.0) volume/capacity ratio; C–D acceptable for urban road.
+  - Asphalt Marshall: stability 750–1000 kg; flow 2–4 mm (standard specification).
+  Tables: material property comparison (mix designs), structural load-deflection table, SPT data.
+  Figures: stress-strain curve, load-deflection diagram, structural model, FEM stress contour.
+
+TYPICAL FIGURES:
+  - Load-deflection curve (structural testing).
+  - Compressive strength bar chart (mix designs comparison).
+  - FEM stress distribution contour.
+  - Structural cross-section drawing.
+  - Soil classification chart / SPT N vs. depth.
+
+TYPICAL TABLES:
+  - Mix design: mix | cement | water | FA | CA | admixture | w/c | slump | fc' (MPa).
+  - Structural results: element | calculated | capacity | UC ratio.
+  - Geotechnical: depth | N-SPT | classification | Cu | φ | γ.
+
+CONCLUSION CHARACTERISTICS:
+  - Engineering design meets code requirements with adequate safety margin.
+  - Material or method improvement quantified.
+  - Cost or efficiency benefit demonstrated.
+  - Limitations: lab scale vs. field conditions, idealized loads, single site.
+  - Future: field implementation, long-term monitoring, full-scale prototype.
+
+COMMON REFERENCE VENUES:
+  Journal of Structural Engineering (ASCE), Construction and Building Materials,
+  Engineering Structures, Transportation Research Record, Geotechnique,
+  Jurnal Teknik Sipil (ITB/Unibraw), Civil Engineering Dimension,
+  Soil Dynamics and Earthquake Engineering
+
+DOMAIN VOCABULARY:
+  compressive strength, fc', w/c ratio, fly ash, silica fume, SPT, CPT, CBR,
+  bearing capacity, LOS, PCU, SAP2000, ETABS, SNI, ACI 318, AISC LRFD,
+  Terzaghi, Meyerhof, Marshall stability, IRI, Atterberg limits, USCS
+
+METHODOLOGY KEYWORDS:
+  concrete compressive test (SNI 1974), Marshall asphalt test, SPT/CPT geotechnical,
+  FEM (SAP2000/ETABS) structural analysis, seismic load (SNI 1726), mix design,
+  28-day curing, pushover nonlinear analysis

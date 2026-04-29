@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Sports Science
+================================================================================
+FIELD: Health Sciences / Sports
+DEFAULT CITATION STYLE: APA or Vancouver
+
+METHODOLOGY: exercise physiology testing, biomechanical analysis, RCT training
+  intervention, motion capture, strength/endurance measurement, anthropometry
+EQUATIONS: VO2max estimation, maximal heart rate, force-velocity curve, Cohen's d
+FIGURES: motion capture visualization, exercise performance curve, comparison bar chart
+TABLES: physiological parameters, training protocol, performance outcomes
+VENUES: J. Sport Sciences, Int. J. Sport Physiology Performance, Medicine Science Sports Exercise

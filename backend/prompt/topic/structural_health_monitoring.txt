@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Structural Health Monitoring
+================================================================================
+FIELD: Civil Engineering / Engineering
+DEFAULT CITATION STYLE: IEEE or APA
+
+METHODOLOGY: vibration-based monitoring, sensor placement, damage detection algorithms,
+  modal analysis, signal processing (FFT, wavelet), machine learning for anomaly detection
+EQUATIONS: frequency shift, mode shape, damage index, natural frequency formula
+FIGURES: sensor placement diagram, frequency response comparison, damage localization map
+TABLES: sensor specs, modal parameter comparison, damage detection accuracy
+VENUES: Structural Health Monitoring, Engineering Structures, Mechanical Systems Signal Processing

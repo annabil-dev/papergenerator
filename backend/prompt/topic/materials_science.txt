@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Materials Science
+================================================================================
+FIELD: Engineering / Natural Sciences
+DEFAULT CITATION STYLE: ACS or IEEE
+
+METHODOLOGY: material synthesis, characterization (XRD, SEM, TEM, FTIR), mechanical
+  testing, thermal analysis, thin film deposition, surface treatment
+EQUATIONS: stress-strain relation σ = E·ε, Scherrer equation for XRD, Bragg's law
+FIGURES: SEM/TEM micrograph, XRD pattern, stress-strain curve, hardness map
+TABLES: material properties, composition analysis, mechanical test results
+VENUES: Acta Materialia, J. Alloys Compounds, Materials Today, Adv. Materials

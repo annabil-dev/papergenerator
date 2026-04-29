@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Physics
+================================================================================
+FIELD: Natural Sciences / Physics
+DEFAULT CITATION STYLE: APA or IEEE
+
+METHODOLOGY: experimental measurement, theoretical derivation, simulation (COMSOL,
+  ANSYS), Monte Carlo method, particle physics, quantum mechanics
+EQUATIONS: Newton's laws, Maxwell's equations, Schrödinger equation, thermodynamic laws
+FIGURES: experimental setup diagram, simulation output, energy level diagram, phase diagram
+TABLES: measured vs. theoretical values, material properties, uncertainty analysis
+VENUES: Physical Review Letters, Nature Physics, J. Physics D, Applied Physics Letters

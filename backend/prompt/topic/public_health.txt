@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Public Health
+================================================================================
+FIELD: Medicine / Public Health
+DEFAULT CITATION STYLE: APA or Vancouver
+
+METHODOLOGY: epidemiological study design, cross-sectional, cohort, case-control,
+  systematic review, meta-analysis, regression analysis, health policy evaluation
+EQUATIONS: odds ratio, relative risk, prevalence, incidence rate, attributable risk
+FIGURES: epidemic curve, forest plot, geographic map, population pyramid
+TABLES: demographic characteristics, risk factor analysis, study comparison
+VENUES: Am. J. Public Health, Lancet, BMJ, Epidemiology and Community Health, Bull WHO

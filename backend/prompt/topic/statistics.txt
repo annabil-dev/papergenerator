@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Statistics
+================================================================================
+FIELD: Mathematics / Statistics
+DEFAULT CITATION STYLE: APA or IEEE
+
+METHODOLOGY: hypothesis testing, ANOVA, regression analysis, Bayesian inference,
+  non-parametric tests, power analysis, sampling design
+EQUATIONS: t-test, chi-square, F-statistic, confidence interval, Bayesian posterior
+FIGURES: distribution plot, Q-Q plot, regression diagnostic plot, confidence interval chart
+TABLES: descriptive statistics, ANOVA table, regression output, test results
+VENUES: J. Royal Statistical Society, Biometrika, Statistics and Probability Letters

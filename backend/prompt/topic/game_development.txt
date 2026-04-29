@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Game Development
+================================================================================
+FIELD: Computer Science / Media
+DEFAULT CITATION STYLE: IEEE or APA
+
+METHODOLOGY: game engine development (Unity/Unreal), AI behavior (pathfinding, FSM),
+  game mechanics design, user experience testing, procedural generation
+EQUATIONS: A* pathfinding cost, frame rate (FPS), collision detection algorithms
+FIGURES: game UI screenshot, AI behavior state machine diagram, level design map
+TABLES: player performance metrics, frame rate comparison, user satisfaction scores
+VENUES: IEEE Trans. Games, ACM CHI Play, Int. J. Computer Games Technology

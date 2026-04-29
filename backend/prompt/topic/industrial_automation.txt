@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Industrial Automation
+================================================================================
+FIELD: Engineering / Technology
+DEFAULT CITATION STYLE: IEEE
+
+METHODOLOGY: PLC programming (IEC 61131-3), ladder logic, SCADA, HMI design,
+  Modbus TCP/RTU, EtherCAT, OPC-UA, Industry 4.0, digital twin
+EQUATIONS: scan cycle time, throughput η, PID discrete, Modbus frame timing
+FIGURES: ladder logic screenshot, SCADA dashboard, network topology, HMI panel
+TABLES: I/O mapping, PLC specs comparison, communication latency, scan cycle breakdown
+VENUES: IEEE Trans. Ind. Electron., IEEE Trans. Autom. Sci. Eng., IECON, IEEE ETFA

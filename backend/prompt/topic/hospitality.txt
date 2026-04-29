@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Hospitality
+================================================================================
+FIELD: Business / Social Sciences
+DEFAULT CITATION STYLE: APA or Harvard
+
+METHODOLOGY: customer satisfaction survey, service quality (SERVQUAL), SEM,
+  mystery shopping, revenue management analysis, case study
+EQUATIONS: SERVQUAL gap score, regression, Cronbach's α, RevPAR formula
+FIGURES: service quality gap diagram, satisfaction score chart, hotel performance map
+TABLES: SERVQUAL dimensions, hypothesis test results, revenue metrics
+VENUES: Int. J. Hospitality Management, J. Hospitality Tourism Research, Cornell Hospitality Quarterly

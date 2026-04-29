@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Mechatronics
+================================================================================
+FIELD: Engineering / Technology
+DEFAULT CITATION STYLE: IEEE
+
+METHODOLOGY: actuator selection, sensor integration, control system design,
+  3D printing, CNC machining, CAD (SolidWorks/Fusion 360), gear design, servo control
+EQUATIONS: gear ratio, inertia matching, natural frequency, torque equation
+FIGURES: mechanical assembly CAD, exploded view, FEA stress map, control block diagram
+TABLES: component BOM, material properties, mechanical specifications, performance comparison
+VENUES: Mechatronics, IEEE/ASME Trans. Mechatronics, J. Intelligent Robotic Systems

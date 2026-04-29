@@ -1,0 +1,76 @@
+================================================================================
+TOPIC GUIDE — Aquaculture & Fisheries
+================================================================================
+FIELD: Agricultural and Biological Sciences / Aquatic Science
+DEFAULT CITATION STYLE: APA
+SUBDISCIPLINE: Akuakultur, Budidaya Ikan, Perikanan Tangkap, Nutrisi Ikan, Patologi Ikan
+
+ABSTRACT CHARACTERISTICS:
+  150–250 words. Reports: fish/shrimp species (with Latin name), system (pond, recirculating
+  aquaculture system — RAS, cage), treatments, key results (SGR %/day, FCR, survival %,
+  water quality parameters), statistical design.
+
+INTRODUCTION ELEMENTS:
+  - Global/national aquaculture production statistics (tons/year).
+  - Production bottleneck: disease, feed cost, water quality, growth rate.
+  - Gap: effect of specific feed ingredient/management on the target species.
+  - Objectives: "To evaluate the effect of X on growth, survival, and FCR of Y."
+
+LITERATURE REVIEW:
+  Common section name: "Literature Review" / "Review of Related Studies"
+  - Nutritional requirements of the target species: protein (30–45% CP), lipid, energy.
+  - Alternative protein/lipid sources: soybean meal, black soldier fly larvae (BSFL), fishmeal replacement.
+  - Disease resistance and immune response: lysozyme activity, hematological parameters.
+  - Water quality parameters: DO (mg/L), temperature (°C), pH, ammonia (mg/L), nitrite.
+  - Probiotics, prebiotics, immunostimulants in aquaculture.
+
+METHODOLOGY:
+  Common section name: "Materials and Methods"
+  - Experimental fish: species, initial weight (g), stocking density (fish/m² or /tank).
+  - System: aquaria (100 L), floating cages, recirculating system.
+  - Experimental design: CRD, 4 treatments × 3 replicates.
+  - Feed preparation: formulated diet, proximate analysis (crude protein %, lipid %).
+  - Feeding: ad libitum or 3–5% body weight/day; 2–3 times/day.
+  - Duration: 56–90 days.
+  - Variables: SGR = (ln Wf - ln Wi)/t × 100; FCR = feed consumed/weight gain; survival rate (%); condition factor K; protein efficiency ratio (PER).
+  - Water quality: DO, pH, temperature, ammonia (measured weekly).
+  - Statistical: ANOVA, DMRT 5%.
+
+TYPICAL RESULTS & DISCUSSION:
+  - SGR: Nile tilapia 2.5–4.5 %/day; catfish 3–5 %/day; shrimp 5–8 %/day.
+  - FCR: fish 1.2–2.5; shrimp 1.5–2.0.
+  - Survival rate: 80–98%.
+  - Water quality: DO 5–7 mg/L; temp 26–30°C; pH 6.5–8.0; ammonia <0.1 mg/L.
+  Tables: growth performance table, water quality table, feed analysis table.
+  Figures: growth curve, SGR comparison bar chart, survival rate chart.
+
+TYPICAL FIGURES:
+  - Growth curve: body weight over time.
+  - Bar chart: SGR, FCR, survival rate by treatment.
+  - Water quality trend chart.
+  - Feed utilization efficiency diagram.
+
+TYPICAL TABLES:
+  - Feed proximate analysis (moisture, CP, lipid, ash, NFE, GE).
+  - Growth performance: initial weight | final weight | SGR | FCR | survival %.
+  - Water quality: DO | temp | pH | NH3 | NO2 (weekly mean ± SD).
+
+CONCLUSION CHARACTERISTICS:
+  - States optimal dietary treatment and its practical significance.
+  - Economic: reduced feed cost, improved profitability.
+  - Limitations: tank study vs. pond conditions; single species.
+  - Future: semi-commercial scale trials, combination with probiotics.
+
+COMMON REFERENCE VENUES:
+  Aquaculture, Aquaculture Nutrition, Aquaculture Reports,
+  Journal of the World Aquaculture Society, Fish Physiology and Biochemistry,
+  Journal of Applied Aquaculture, Fisheries Research
+
+DOMAIN VOCABULARY:
+  SGR, FCR, survival rate, condition factor, PER, stocking density, DO, RAS,
+  fishmeal, soybean meal, BSFL, crude protein, lipid, proximate analysis,
+  lysozyme, hematocrit, glucose, cortisol, immune response, WSSV, Aeromonas
+
+METHODOLOGY KEYWORDS:
+  CRD, ANOVA, DMRT, proximate analysis, growth trial, challenge test,
+  hematological analysis, water quality monitoring, feeding trial

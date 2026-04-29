@@ -333,11 +333,15 @@ export const usePaperStore = defineStore('paper', () => {
     }
   }
 
-  async function aiGenerateFullPaper(prompt) {
+  async function aiGenerateFullPaper(prompt, { topic, style, pdfTexts } = {}) {
     try {
       aiLoading.value = true
       aiLoadingMessage.value = 'Menghubungi AI...'
-      const startRes = await api.post(`${API_BASE}/generate-full`, { prompt }, { timeout: 15000 })
+      const payload = { prompt }
+      if (topic) payload.topic = topic
+      if (style) payload.style = style
+      if (pdfTexts && pdfTexts.length) payload.pdf_texts = pdfTexts
+      const startRes = await api.post(`${API_BASE}/generate-full`, payload, { timeout: 15000 })
       if (!startRes.data?.job_id) throw new Error(startRes.data?.error || 'No job_id')
       const jobId = startRes.data.job_id
       setCookie(COOKIE_JOB, JSON.stringify({ jobId, t0: Date.now() }), 60 * 30)
@@ -474,6 +478,8 @@ export const usePaperStore = defineStore('paper', () => {
     aiGenerateFullPaper, resumePendingJob,
     savePaperToDb, loadPaperFromDb, loadPaperImages,
     uploadImage, deletePaperImage,
-    showToast, toRoman
+    showToast, toRoman,
+    apiGet: (url) => api.get(url),
+    apiUploadPdfs: (formData) => api.post(`${API_BASE}/upload-pdfs`, formData, { headers: { 'Content-Type': 'multipart/form-data' } }),
   }
 })

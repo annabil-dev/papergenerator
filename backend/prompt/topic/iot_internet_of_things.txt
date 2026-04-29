@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Iot Internet Of Things
+================================================================================
+FIELD: Engineering / Computer Science
+DEFAULT CITATION STYLE: IEEE
+
+METHODOLOGY: MQTT, CoAP, HTTP/REST, edge computing, cloud integration, sensor fusion,
+  Node-RED, energy harvesting, wireless protocols (WiFi/BLE/LoRa/Zigbee)
+EQUATIONS: RSSI, SNR, throughput η, energy consumption E = P·t, latency
+FIGURES: IoT architecture diagram, dashboard screenshot, network topology, power curve
+TABLES: protocol comparison (BLE/LoRa/WiFi), sensor specs, latency measurement
+VENUES: IEEE Internet Things J., IEEE Trans. Ind. Inform., IEEE Sensors J., Sensors (MDPI)

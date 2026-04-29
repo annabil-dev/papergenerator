@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Mathematics
+================================================================================
+FIELD: Mathematics
+DEFAULT CITATION STYLE: APA or IEEE
+
+METHODOLOGY: theorem proving, numerical analysis, linear algebra, topology,
+  optimization theory, graph theory, mathematical modeling
+EQUATIONS: proofs, differential equations, matrix algebra, optimization conditions
+FIGURES: geometric visualization, graph/network diagram, numerical convergence plot
+TABLES: numerical results comparison, algorithm iteration table, error analysis
+VENUES: J. American Mathematical Society, Advances in Mathematics, SIAM Journal

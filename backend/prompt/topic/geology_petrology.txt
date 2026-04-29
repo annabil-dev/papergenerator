@@ -1,0 +1,81 @@
+================================================================================
+TOPIC GUIDE — Geology & Petrology
+================================================================================
+FIELD: Earth and Planetary Sciences / Geology
+DEFAULT CITATION STYLE: APA
+SUBDISCIPLINE: Geologi, Petrologi, Geokimia, Sedimentologi, Geologi Struktur, Vulkanologi
+
+ABSTRACT CHARACTERISTICS:
+  150–250 words. Reports: study area (location, region), rock unit or geological feature,
+  field and lab methods, key findings (rock composition, mineral assemblage, P-T conditions,
+  geochemical signature, age Ma, structural orientation).
+
+INTRODUCTION ELEMENTS:
+  - Regional geological setting and tectonic framework.
+  - Previous work and unresolved questions.
+  - Research gap: poorly mapped area, ambiguous genesis, undated formation.
+  - Objectives: geological mapping, petrogenesis, geochemistry, structural analysis.
+
+LITERATURE REVIEW:
+  Common section name: "Geological Background" / "Regional Geology" / "Literature Review"
+  - Regional stratigraphy and tectonic history.
+  - Previous geochemical/petrological studies on similar rocks.
+  - Plate tectonic setting: arc, ophiolite, continental collision, rift.
+  - Geochronology methods: U-Pb zircon, Ar-Ar, Rb-Sr, Sm-Nd.
+  - Geochemical discriminant diagrams: TAS (Total Alkali-Silica), AFM, Harker diagrams.
+  - Metamorphic grade: P-T path, mineral stability fields.
+
+METHODOLOGY:
+  Common section name: "Field and Analytical Methods" / "Methods"
+  - Fieldwork: geological mapping (scale 1:10,000 to 1:50,000), structural measurements.
+  - Sample collection: representative rock samples (n=20–50), GPS coordinates.
+  - Petrography: thin sections, polarized light microscopy; modal analysis.
+  - Geochemistry: XRF for major (SiO2, TiO2, Al2O3, etc.) and trace elements (Rb, Sr, Zr, Nb, Y, REE).
+  - ICP-MS: trace elements, REE (Rare Earth Elements); detection limits ppb.
+  - Geochronology: U-Pb zircon CL imaging + SHRIMP/LA-ICP-MS dating.
+  - Isotopes: Sr-Nd (εNd, (87Sr/86Sr)i).
+  - P-T thermobarometry: geothermobarometers (garnet-biotite, phengite barometry).
+
+TYPICAL RESULTS & DISCUSSION:
+  - Major elements: SiO2 range 45–75 wt%; classification using TAS or QAPF.
+  - REE patterns: LREE/HREE ratio (La/YbN = 5–50); Eu anomaly (Eu/Eu*).
+  - U-Pb zircon age: reported as X ± Y Ma (2σ); geological significance.
+  - εNd values: -5 to +5 for calc-alkaline arc; +8 to +12 for MORB.
+  - P-T conditions: T = 550–700°C, P = 5–10 kbar (typical amphibolite facies).
+  Tables: whole-rock major/trace element table (n samples), isotopic ratios.
+  Figures: TAS diagram, Harker variation diagrams, Chondrite-normalized REE, P-T diagram.
+
+TYPICAL FIGURES:
+  - Geological map (study area with legend).
+  - Thin section photomicrograph (cross-polarized, plane-polarized).
+  - TAS diagram with sample plot.
+  - Chondrite-normalized REE spider diagram.
+  - Harker variation diagrams (SiO2 vs. major/trace oxides).
+  - U-Pb concordia diagram.
+
+TYPICAL TABLES:
+  - Whole-rock major element (wt%): SiO2 | TiO2 | Al2O3 | FeOt | MnO | MgO | CaO | Na2O | K2O | P2O5 | LOI.
+  - Trace elements (ppm): Rb | Sr | Ba | Zr | Nb | Y | La | Ce | Nd | Sm | Eu | Yb | Lu.
+  - Geochronology: sample | mineral | n analyses | age (Ma ± 2σ) | MSWD.
+
+CONCLUSION CHARACTERISTICS:
+  - Petrogenesis (magmatic origin, mantle source, crustal contamination) resolved.
+  - Tectonic setting interpretation.
+  - Geochronological significance.
+  - Limitations: limited sample coverage, incomplete isotopic dataset.
+  - Future: detailed mapping, more geochronology, P-T path reconstruction.
+
+COMMON REFERENCE VENUES:
+  Journal of Petrology, Lithos, Contributions to Mineralogy and Petrology,
+  Chemical Geology, Earth and Planetary Science Letters, Precambrian Research,
+  Indonesian Journal of Geoscience, Journal of Southeast Asian Earth Sciences
+
+DOMAIN VOCABULARY:
+  SiO2, REE, TAS diagram, AFM diagram, Harker plot, Chondrite-normalized,
+  εNd, (87Sr/86Sr)i, U-Pb, SHRIMP, LA-ICP-MS, zircon, thermobarometry, P-T path,
+  arc, ophiolite, MORB, OIB, tectonic discrimination, modal analysis, LOI
+
+METHODOLOGY KEYWORDS:
+  geological mapping, thin section petrography, XRF (major + trace), ICP-MS (REE),
+  U-Pb zircon dating (SHRIMP/LA-ICP-MS), Sm-Nd isotopes, thermobarometry,
+  TAS diagram, spider diagram normalization, CL imaging of zircons

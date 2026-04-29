@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Sociology
+================================================================================
+FIELD: Social Sciences
+DEFAULT CITATION STYLE: APA or Chicago
+
+METHODOLOGY: survey research, ethnography, content analysis, grounded theory,
+  structural equation modeling, network analysis, longitudinal study
+EQUATIONS: regression coefficients, chi-square, Pearson r, Gini coefficient, odds ratio
+FIGURES: social network visualization, demographic pyramid, trend line chart
+TABLES: demographic breakdown, regression results, thematic analysis categories
+VENUES: American Sociological Review, Social Forces, Sociological Methods Research

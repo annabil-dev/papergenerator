@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Supply Chain
+================================================================================
+FIELD: Business / Engineering
+DEFAULT CITATION STYLE: APA or IEEE
+
+METHODOLOGY: simulation (AnyLogic/Arena), optimization model, case study,
+  survey (supplier/buyer), inventory analysis, demand forecasting
+EQUATIONS: EOQ = sqrt(2DS/H), fill rate, bullwhip effect, lead time distribution
+FIGURES: supply chain network map, inventory level chart, process flow diagram
+TABLES: cost comparison, performance KPI, scenario analysis results
+VENUES: J. Supply Chain Management, Int. J. Production Economics, Omega

@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Signal Processing
+================================================================================
+FIELD: Engineering / Computer Science
+DEFAULT CITATION STYLE: IEEE
+
+METHODOLOGY: FFT, DFT, digital filters (FIR/IIR), windowing, wavelet transform,
+  Fourier analysis, noise removal, feature extraction, spectrum analysis
+EQUATIONS: DFT X[k] = sum x[n]·e^(-j2πkn/N), convolution, filter transfer function
+FIGURES: frequency spectrum, filter frequency response, time-domain signal comparison
+TABLES: filter specs, SNR comparison, computational complexity
+VENUES: IEEE Trans. Signal Process., IEEE Signal Process. Lett., IEEE ICASSP

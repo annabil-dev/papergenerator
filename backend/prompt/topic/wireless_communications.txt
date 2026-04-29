@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Wireless Communications
+================================================================================
+FIELD: Engineering / Computer Science
+DEFAULT CITATION STYLE: IEEE
+
+METHODOLOGY: channel modeling, OFDM, MIMO, modulation analysis, BER simulation,
+  5G/6G protocol design, beamforming, spectrum sensing
+EQUATIONS: Shannon capacity C = B·log₂(1+SNR), BER formula, path loss model
+FIGURES: BER vs. SNR curve, constellation diagram, spectrum allocation, MIMO block diagram
+TABLES: modulation scheme comparison, channel model parameters, capacity comparison
+VENUES: IEEE Trans. Commun., IEEE Trans. Wireless Commun., IEEE J. Sel. Areas Commun.

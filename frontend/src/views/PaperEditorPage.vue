@@ -53,6 +53,69 @@
         <!-- AI Generate -->
         <div class="bg-white rounded-xl shadow-sm border-t-4 border-t-purple-500 p-5">
           <h2 class="font-semibold text-gray-700 mb-3 flex items-center gap-2">⚡ Generate with AI</h2>
+
+          <!-- Topic + Style row -->
+          <div class="flex gap-3 mb-3">
+            <div class="flex-1 relative" ref="topicWrapRef">
+              <label class="text-xs text-gray-500 mb-1 block">Topic / Field</label>
+              <input
+                v-model="topicSearch"
+                @focus="topicOpen = true"
+                @input="topicOpen = true"
+                @keydown.escape="topicOpen = false"
+                @keydown.enter.prevent="selectTopicFromSearch"
+                type="text"
+                :placeholder="selectedTopic ? topicLabel(selectedTopic) : '— Search topic… —'"
+                class="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm focus:ring-2 focus:ring-purple-200 focus:border-purple-400 outline-none bg-white"
+              />
+              <!-- clear badge -->
+              <span v-if="selectedTopic" @click="clearTopic"
+                class="absolute right-2 top-[50%] translate-y-[-4px] text-gray-400 hover:text-gray-600 cursor-pointer text-xs">✕</span>
+              <!-- dropdown -->
+              <ul v-if="topicOpen && filteredTopics.length"
+                class="absolute z-50 mt-1 w-full bg-white border border-gray-200 rounded-lg shadow-lg max-h-52 overflow-y-auto text-sm">
+                <li v-if="!topicSearch" @click="clearTopic(); topicOpen=false"
+                  class="px-3 py-2 text-gray-400 hover:bg-purple-50 cursor-pointer">— Auto-detect —</li>
+                <li v-for="t in filteredTopics" :key="t"
+                  @click="pickTopic(t)"
+                  :class="['px-3 py-2 cursor-pointer hover:bg-purple-50 transition-colors', selectedTopic === t ? 'bg-purple-100 font-medium text-purple-700' : 'text-gray-700']">
+                  {{ topicLabel(t) }}
+                </li>
+              </ul>
+            </div>
+            <div class="flex-1">
+              <label class="text-xs text-gray-500 mb-1 block">Citation Style</label>
+              <select v-model="selectedStyle"
+                class="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm focus:ring-2 focus:ring-purple-200 focus:border-purple-400 outline-none bg-white">
+                <option value="">— Default (IEEE) —</option>
+                <option v-for="s in availableStyles" :key="s" :value="s">{{ s }}</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- PDF upload -->
+          <div class="mb-3">
+            <label class="text-xs text-gray-500 mb-1 block">Reference PDFs/DOCX (optional, max 5 files × 5000 words)</label>
+            <div
+              @dragover.prevent
+              @drop.prevent="handlePdfDrop"
+              class="border-2 border-dashed border-gray-200 rounded-lg px-3 py-3 text-center hover:border-purple-300 hover:bg-purple-50/30 transition-colors cursor-pointer"
+              @click="pdfInput?.click()">
+              <span class="text-xs text-gray-400">Drag &amp; drop PDFs/DOCX here, or <span class="text-purple-600 font-medium">click to select</span></span>
+              <input type="file" accept=".pdf,.docx" multiple ref="pdfInput"
+                @change="onPdfChange"
+                class="hidden" />
+            </div>
+            <ul v-if="pdfFiles.length" class="mt-1.5 space-y-0.5">
+              <li v-for="(f,i) in pdfFiles" :key="i" class="text-xs text-gray-500 flex items-center gap-1">
+                <span>📄 {{ f.name }}</span>
+                <button @click.stop="removePdf(i)" class="text-red-400 hover:text-red-600 ml-1">✕</button>
+              </li>
+            </ul>
+            <p v-if="pdfWarnings.length" class="text-xs text-amber-600 mt-1">{{ pdfWarnings.join('; ') }}</p>
+          </div>
+
+          <!-- Prompt + Generate -->
           <div class="flex gap-3">
             <textarea v-model="aiPrompt" rows="2"
               placeholder="e.g. Real-Time Hand Gesture Recognition for PLC Control using MediaPipe..."
@@ -254,7 +317,7 @@
 </template>
 
 <script setup>
-import { ref, watch, onMounted, onUnmounted } from 'vue'
+import { ref, computed, watch, onMounted, onUnmounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import draggable from 'vuedraggable'
 import { usePaperStore } from '../stores/paper.js'
@@ -273,6 +336,57 @@ const aiPrompt = ref('')
 const newKeyword = ref('')
 const autoSaving = ref(false)
 const savedOk = ref(false)
+
+// ─── Topic / Style / PDF state ────────────────────────────────────────────
+const selectedTopic = ref('')
+const selectedStyle = ref('')
+const availableTopics = ref([])
+const availableStyles = ref([])
+const pdfFiles = ref([])
+const pdfTexts = ref([])
+const pdfWarnings = ref([])
+const pdfInput = ref(null)
+
+// ─── Topic search combobox ────────────────────────────────────────────────
+const topicSearch = ref('')
+const topicOpen = ref(false)
+const topicWrapRef = ref(null)
+
+function topicLabel(slug) {
+  return slug.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())
+}
+
+const filteredTopics = computed(() => {
+  const q = topicSearch.value.trim().toLowerCase()
+  if (!q) return availableTopics.value
+  return availableTopics.value.filter(t =>
+    t.toLowerCase().includes(q) || topicLabel(t).toLowerCase().includes(q)
+  )
+})
+
+function pickTopic(t) {
+  selectedTopic.value = t
+  topicSearch.value = ''
+  topicOpen.value = false
+}
+
+function clearTopic() {
+  selectedTopic.value = ''
+  topicSearch.value = ''
+}
+
+function selectTopicFromSearch() {
+  if (filteredTopics.value.length) pickTopic(filteredTopics.value[0])
+}
+
+function onClickOutsideTopic(e) {
+  if (topicWrapRef.value && !topicWrapRef.value.contains(e.target)) {
+    topicOpen.value = false
+  }
+}
+
+onMounted(() => document.addEventListener('mousedown', onClickOutsideTopic))
+onUnmounted(() => document.removeEventListener('mousedown', onClickOutsideTopic))
 
 const tabs = [
   { id: 'editor', label: '📝 Editor' },
@@ -322,6 +436,15 @@ onMounted(async () => {
     store.newPaper()
     store.currentPaperId = null
   }
+  // Load available topics and styles
+  try {
+    const [tRes, sRes] = await Promise.all([
+      store.apiGet('/api/topics'),
+      store.apiGet('/api/styles'),
+    ])
+    availableTopics.value = tRes?.data?.topics || []
+    availableStyles.value = sRes?.data?.styles || []
+  } catch (e) { /* non-critical */ }
 })
 
 // ─── Methods ──────────────────────────────────────────────────────────────
@@ -341,7 +464,55 @@ function addKw() {
 
 async function generateAI() {
   if (!aiPrompt.value.trim()) return
-  await store.aiGenerateFullPaper(aiPrompt.value)
+
+  // Upload PDFs first if any
+  let textsToSend = pdfTexts.value.slice()
+  if (pdfFiles.value.length) {
+    try {
+      const fd = new FormData()
+      pdfFiles.value.forEach(f => fd.append('files', f))
+      const res = await store.apiUploadPdfs(fd)
+      textsToSend = res?.data?.pdf_texts || []
+      pdfWarnings.value = res?.data?.warnings || []
+    } catch (e) {
+      store.showToast('PDF upload failed: ' + e.message, 'error')
+      return
+    }
+  }
+
+  await store.aiGenerateFullPaper(aiPrompt.value, {
+    topic: selectedTopic.value || undefined,
+    style: selectedStyle.value || undefined,
+    pdfTexts: textsToSend.length ? textsToSend : undefined,
+  })
+}
+
+function onPdfChange(e) {
+  const files = Array.from(e.target.files || [])
+  addPdfFiles(files)
+  if (pdfInput.value) pdfInput.value.value = ''
+}
+
+function addPdfFiles(files) {
+  const pdfs = files.filter(f => f.type === 'application/pdf' || f.name.endsWith('.pdf') || f.name.endsWith('.docx'))
+  const combined = [...pdfFiles.value, ...pdfs].slice(0, 5)
+  pdfFiles.value = combined
+  if (files.length !== pdfs.length) {
+    pdfWarnings.value = ['Only PDF and DOCX files are accepted.']
+  } else if (combined.length === 5 && (pdfFiles.value.length + pdfs.length) > 5) {
+    pdfWarnings.value = ['Max 5 files allowed. Extra files were ignored.']
+  } else {
+    pdfWarnings.value = []
+  }
+}
+
+function handlePdfDrop(e) {
+  const files = Array.from(e.dataTransfer?.files || [])
+  addPdfFiles(files)
+}
+
+function removePdf(i) {
+  pdfFiles.value = pdfFiles.value.filter((_, idx) => idx !== i)
 }
 </script>
 

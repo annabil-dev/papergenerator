@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Veterinary Science
+================================================================================
+FIELD: Veterinary / Health Sciences
+DEFAULT CITATION STYLE: APA or Vancouver
+
+METHODOLOGY: clinical trial, diagnostic accuracy study, case series, epidemiological
+  survey, microbiological analysis, histopathology, pharmacological study
+EQUATIONS: sensitivity, specificity, odds ratio, pharmacokinetic parameters
+FIGURES: diagnostic flowchart, histopathology images, clinical outcome chart
+TABLES: case demographics, test comparison, treatment outcomes
+VENUES: J. Veterinary Internal Medicine, Veterinary Record, Res. Veterinary Science

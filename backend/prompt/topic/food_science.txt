@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Food Science
+================================================================================
+FIELD: Natural Sciences / Food Technology
+DEFAULT CITATION STYLE: APA or ACS
+
+METHODOLOGY: proximate analysis, sensory evaluation, shelf life study, food processing,
+  microbiology testing, chromatography, rheology, nutritional analysis
+EQUATIONS: Arrhenius degradation model, water activity, reaction kinetics
+FIGURES: sensory spider chart, texture profile, chromatogram, microbial growth curve
+TABLES: proximate composition, sensory scores, microbial count, nutritional facts
+VENUES: Food Chemistry, J. Food Science, LWT - Food Science Technology, Food Quality Preference

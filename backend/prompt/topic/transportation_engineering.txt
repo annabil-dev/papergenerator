@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Transportation Engineering
+================================================================================
+FIELD: Engineering / Urban Planning
+DEFAULT CITATION STYLE: IEEE or APA
+
+METHODOLOGY: traffic simulation (VISSIM/SUMO), origin-destination survey, speed study,
+  capacity analysis, signal timing optimization, accident black spot analysis
+EQUATIONS: traffic flow q = k·v, LOS criteria, Webster's signal timing, PCU factor
+FIGURES: traffic flow diagram, signal timing plan, LOS comparison chart, speed distribution
+TABLES: traffic volume data, LOS results, accident rate comparison
+VENUES: Transportation Research Record, Accident Analysis Prevention, J. Transportation Eng.

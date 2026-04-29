@@ -190,7 +190,11 @@ def _append_run(paragraph: Paragraph, text: str, *, size_pt: float | None = None
 
 
 def _normalize_text_commands(text: str) -> str:
-    return text.replace("\\n", "\n")
+    text = text.replace("\\n", "\n")
+    # Convert Markdown bold/italic to \b..\b / \i..\i toggle format
+    text = re.sub(r'\*\*(.+?)\*\*', r'\\b\1\\b', text, flags=re.DOTALL)
+    text = re.sub(r'\*([^*\n]+?)\*', r'\\i\1\\i', text)
+    return text
 
 
 def _split_text_blocks(text: str) -> list[str]:

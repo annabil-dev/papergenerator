@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Philosophy
+================================================================================
+FIELD: Humanities / Philosophy
+DEFAULT CITATION STYLE: Chicago or MLA
+
+METHODOLOGY: conceptual analysis, argument analysis, thought experiments,
+  applied ethics, meta-ethics, phenomenology, comparative philosophy
+EQUATIONS: (logic formulas: propositional logic P→Q, modal logic □P)
+FIGURES: conceptual framework diagram, argument map, ethical decision tree
+TABLES: philosophical position comparison, argument summary table
+VENUES: Mind, Philosophical Review, Ethics, Philosophical Quarterly, J. Applied Philosophy

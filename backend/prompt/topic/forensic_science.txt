@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Forensic Science
+================================================================================
+FIELD: Natural Sciences / Law
+DEFAULT CITATION STYLE: APA or ACS
+
+METHODOLOGY: DNA profiling, fingerprint analysis, toxicological screening,
+  ballistics, digital forensics, trace evidence analysis
+EQUATIONS: DNA mixture probability, sensitivity/specificity, LOD/LOQ
+FIGURES: DNA gel electrophoresis, fingerprint comparison image, toxicology chromatogram
+TABLES: test sensitivity/specificity, database hit rate, analyte concentration
+VENUES: Forensic Science Int., J. Forensic Sciences, Science Justice

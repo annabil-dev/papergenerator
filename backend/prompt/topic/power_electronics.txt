@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Power Electronics
+================================================================================
+FIELD: Engineering / Technology
+DEFAULT CITATION STYLE: IEEE
+
+METHODOLOGY: DC-DC converters (buck/boost/buck-boost), inverters, PWM modulation,
+  gate drivers, MOSFET/IGBT selection, switching loss analysis, thermal management
+EQUATIONS: V_out = D·V_in, switching loss P_sw, efficiency η = P_out/P_in, THD
+FIGURES: circuit schematic, switching waveform, efficiency vs. load curve, PCB layout
+TABLES: component specs, efficiency at different loads, converter comparison
+VENUES: IEEE Trans. Power Electron., IEEE Trans. Ind. Electron., IEEE Applied Power Electronics Conf.

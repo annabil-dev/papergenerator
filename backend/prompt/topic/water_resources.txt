@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Water Resources
+================================================================================
+FIELD: Civil Engineering / Environmental Science
+DEFAULT CITATION STYLE: APA or IEEE
+
+METHODOLOGY: hydrological modeling (HEC-HMS, SWAT), water quality analysis,
+  groundwater modeling (MODFLOW), rainfall-runoff analysis, irrigation design
+EQUATIONS: rational method Q = CIA, Manning's equation, Darcy's law, SCS curve number
+FIGURES: watershed map, hydrograph, water quality trend, groundwater level map
+TABLES: hydrology statistics, water quality parameters, model calibration results
+VENUES: J. Hydrology, Water Resources Research, Hydrological Processes

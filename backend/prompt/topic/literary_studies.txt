@@ -1,0 +1,85 @@
+================================================================================
+TOPIC GUIDE — Literary Studies
+================================================================================
+FIELD: Arts and Humanities / Literature
+DEFAULT CITATION STYLE: MLA
+SUBDISCIPLINE: Sastra Prosa, Sastra Puisi, Drama, Sastra Perbandingan, Sastra Postkolonial
+
+ABSTRACT CHARACTERISTICS:
+  150–200 words. Identifies: literary work(s) analyzed, critical theory applied,
+  argument about the text, broader cultural/social significance.
+  Example: "Through a postcolonial lens, this paper examines how Pramoedya Ananta Toer's..."
+
+INTRODUCTION ELEMENTS:
+  - Introduction of the literary work(s) with bibliographic context (author, year, genre).
+  - Statement of the critical angle: feminist, postcolonial, ecocritical, psychoanalytic, Marxist.
+  - Identification of the interpretive gap in existing literary scholarship.
+  - Thesis: central interpretive argument about the text.
+  - Scope: specific aspects to be analyzed (narrative structure, characterization, imagery).
+
+LITERATURE REVIEW:
+  Common section name: "Critical Context" / "Scholarly Background" / "Literature Review"
+  - Survey of existing critical interpretations of the work/author.
+  - Situate within relevant critical theory: Said's Orientalism, Spivak's subaltern,
+    Butler's gender performativity, Freudian psychoanalysis, Marxist criticism.
+  - Review genre studies relevant to the work (novel theory, lyric poetry, dramatic theory).
+  - Engage with reception history: how the text was read across different periods.
+  Key frameworks: New Criticism, Deconstruction, New Historicism, Ecocriticism,
+  Postcolonialism, Queer Theory, Affect Theory.
+
+METHODOLOGY:
+  Common section name: "Critical Approach" / "Methodology" / "Theoretical Framework"
+  - Close reading: detailed analysis of specific passages, imagery, figurative language.
+  - Narrative analysis: narrator, focalization, narrative time, plot structure.
+  - Discourse analysis: ideological content, power relations in language.
+  - Intertextual analysis: tracing allusions, influences, dialogism (Bakhtin).
+  - Genre analysis: conventions, subversions, hybridization.
+  - Thematic analysis: identifying recurring themes and their development.
+  - Comparative literary analysis: cross-cultural or cross-linguistic comparison.
+  Data: literary texts, author interviews, historical documents, critical essays.
+
+TYPICAL RESULTS & DISCUSSION:
+  Section name: "Analysis" / "Reading" / thematic chapter titles
+  - Textual evidence: direct quotations from the literary work with page citations.
+  - Analysis of specific literary devices (metaphor, irony, symbolism, alliteration).
+  - Argument built through sequential close reading of passages.
+  - Connection between textual features and broader social/ideological meanings.
+  Estimated: 3–6 passages analyzed in detail; 10–20 works of scholarship engaged.
+  Tables: motif frequency, character appearance analysis, structural comparison.
+  Figures: character relationship diagram, narrative arc chart.
+
+TYPICAL FIGURES:
+  - Narrative structure diagram (Freytag's pyramid or narrative arc).
+  - Character relationship map.
+  - Thematic word cloud or frequency analysis.
+  - Intertextual connection diagram.
+
+TYPICAL TABLES:
+  - Motif/symbol inventory (symbol | text location | interpretation).
+  - Character analysis matrix (character | role | arc | symbolic function).
+  - Comparative works analysis (work | period | critical approach | central theme).
+
+CONCLUSION CHARACTERISTICS:
+  - Restates interpretive thesis with synthesis of textual evidence.
+  - Reflects on implications for understanding the author, period, or broader human condition.
+  - Acknowledges interpretive limitations and alternative readings.
+  - Suggests new avenues: applying different theory, comparative study, translation analysis.
+
+ADDITIONAL SECTIONS:
+  - "Note on the Text": edition used, translation issues, textual variants.
+  - "Biographical Context": relevant author biography (if historicist approach).
+
+COMMON REFERENCE VENUES:
+  PMLA, Modern Fiction Studies, American Literature, ELH (English Literary History),
+  Journal of Postcolonial Writing, Comparative Literature, New Literary History,
+  Narrative (journal), Poetics Today
+
+DOMAIN VOCABULARY:
+  diegesis, narrator, focalization, intertextuality, polyphony, dialogism, allegory,
+  irony, mimesis, catharsis, trope, motif, archetype, bildungsroman, unreliable narrator,
+  stream of consciousness, magical realism, gothic, subaltern
+
+METHODOLOGY KEYWORDS:
+  close reading, narrative analysis, discourse analysis, intertextual analysis,
+  genre analysis, thematic analysis, postcolonial reading, feminist criticism,
+  deconstruction, psychoanalytic criticism, ecocriticism

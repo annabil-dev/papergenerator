@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Photonics
+================================================================================
+FIELD: Physics / Engineering
+DEFAULT CITATION STYLE: IEEE or ACS
+
+METHODOLOGY: laser characterization, optical fiber design, waveguide simulation (FDTD),
+  spectroscopy, photodetector testing, optical network design
+EQUATIONS: Beer-Lambert law, Snell's law, power budget, modulation bandwidth
+FIGURES: optical spectrum, mode profile diagram, waveguide simulation output, eye diagram
+TABLES: optical component specs, power budget calculation, BER vs. power curve
+VENUES: Optics Letters, Optics Express, IEEE J. Quantum Electron., J. Lightwave Technol.

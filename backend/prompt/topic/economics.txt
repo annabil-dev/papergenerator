@@ -1,0 +1,80 @@
+================================================================================
+TOPIC GUIDE — Economics (General)
+================================================================================
+FIELD: Social Sciences / Economics
+DEFAULT CITATION STYLE: APA or AEA
+SUBDISCIPLINE: Ekonomi Makro, Ekonomi Mikro, Ekonomi Pembangunan, Ekonomi Internasional, Ekonomi Indonesia
+
+ABSTRACT CHARACTERISTICS:
+  150–250 words. Reports: economic phenomenon or policy analyzed, data source
+  (BPS, World Bank, IMF), analytical method (regression, time series, panel data, CGE),
+  variables (GDP growth %, inflation %, unemployment %, trade balance), statistical results
+  (coefficient, p-value, elasticity), and economic policy implications.
+
+INTRODUCTION ELEMENTS:
+  - Macroeconomic context: Indonesia GDP growth, inflation, fiscal/monetary policy.
+  - Economic problem: income inequality (Gini), poverty, current account deficit, commodity price.
+  - Research gap: unexplored determinant, regional variation, post-pandemic recovery.
+  - Theoretical framework: Keynesian, neoclassical, institutional, behavioral economics.
+  - Research objectives: estimate relationship, test hypothesis, assess policy impact.
+
+LITERATURE REVIEW:
+  Common section name: "Literature Review" / "Theoretical Framework"
+  - Macroeconomics: Solow growth model, Phillips curve, IS-LM, Mundell-Fleming (open economy).
+  - Development economics: Kuznets curve, poverty trap, human capital (Becker), Leontief input-output.
+  - Trade theory: comparative advantage (Ricardo), Heckscher-Ohlin, gravity model (bilateral trade).
+  - Fiscal policy: government spending multiplier, Ricardian equivalence, fiscal consolidation.
+  - Monetary policy: Taylor rule, inflation targeting (BI 7-day RR), exchange rate pass-through.
+  - Panel data: Hausman test (FE vs. RE), Arellano-Bond GMM, Driscoll-Kraay SE.
+
+METHODOLOGY:
+  Common section name: "Data and Methodology" / "Research Methodology"
+  - Data: BPS Indonesia (GDP, inflation, employment), World Bank WDI, IMF IFS, CEIC; annual/quarterly.
+  - Period: 10–30 years (e.g., 2000–2023 for post-reformasi analysis).
+  - Regression: OLS, GLS, WLS; standard errors (HC3 robust, cluster); VIF multicollinearity.
+  - Time series: unit root (ADF, KPSS), Johansen cointegration, VECM, ARDL bounds test, VAR/SVAR.
+  - Panel data: Hausman test → fixed effect (FE) or random effect (RE); two-way FE; GMM.
+  - Causality: Granger causality test (bivariate/multivariate).
+  - Tools: Stata, R (plm, lmtest, vars), EViews, Python (statsmodels).
+
+TYPICAL RESULTS & DISCUSSION:
+  - GDP growth determinant: investment elasticity 0.3–0.5; human capital 0.2–0.4 (p<0.05).
+  - Cointegration: long-run relationship between variables confirmed; ECT -0.15 to -0.45 (significant, negative).
+  - Exchange rate pass-through to inflation: 0.1–0.3 (partial pass-through).
+  - Panel FE: R² within 0.4–0.7; country FE explains structural differences.
+  - Gini coefficient Indonesia: 0.38–0.42 (2010–2023); declining trend.
+  Tables: regression results, cointegration test, Hausman test, descriptive statistics.
+  Figures: trend plots, IRF (impulse response function), variance decomposition, scatter.
+
+TYPICAL FIGURES:
+  - Time series plot (GDP, inflation, trade balance 2000–2023).
+  - Impulse response function (VAR/SVAR).
+  - Scatter plot (income vs. inequality: Kuznets curve).
+  - Variance decomposition bar chart.
+
+TYPICAL TABLES:
+  - Descriptive statistics: variable | mean | SD | min | max | source.
+  - Regression results: variable | coeff | SE | t-stat | p-value | elasticity.
+  - Unit root test: variable | ADF stat | critical value | result.
+
+CONCLUSION CHARACTERISTICS:
+  - Key economic determinants identified and quantified.
+  - Long-run and short-run dynamics established.
+  - Policy implications for government/central bank.
+  - Limitations: data availability, endogeneity, structural breaks, model specification.
+  - Future: sub-national analysis, CGE simulation, machine learning forecasting.
+
+COMMON REFERENCE VENUES:
+  American Economic Review, Journal of Development Economics, World Development,
+  Journal of International Economics, Applied Economics, Bulletin of Indonesian Economic Studies (BIES),
+  Jurnal Ekonomi dan Keuangan Indonesia (JEKI), Journal of Asian Economics
+
+DOMAIN VOCABULARY:
+  GDP, GNI, inflation, Gini coefficient, Solow model, Phillips curve, IS-LM,
+  Johansen cointegration, VECM, ARDL, Granger causality, Hausman test, GMM,
+  ADF/KPSS, VAR, IRF, FE/RE, elasticity, BPS, WDI, IMF, OLS, ECT
+
+METHODOLOGY KEYWORDS:
+  ADF unit root test, Johansen cointegration, VECM/ARDL estimation (EViews/Stata),
+  Granger causality test, Hausman test (FE vs. RE), panel data GMM (Arellano-Bond),
+  impulse response function (VAR), variance decomposition, OLS robust SE (HC3)

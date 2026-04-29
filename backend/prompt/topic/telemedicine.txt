@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Telemedicine
+================================================================================
+FIELD: Medicine / Information Technology
+DEFAULT CITATION STYLE: Vancouver or APA
+
+METHODOLOGY: remote patient monitoring, teleconsultation, mobile health (mHealth),
+  electronic health records (EHR), video conferencing, AI diagnostic tools
+EQUATIONS: diagnostic accuracy, sensitivity/specificity, Cohen's kappa, NPS score
+FIGURES: system architecture diagram, user interface screenshot, workflow diagram
+TABLES: outcome comparison (in-person vs. remote), usability scores, cost analysis
+VENUES: J. Telemed. Telecare, NPJ Digital Medicine, J. Medical Internet Res., BMJ Open

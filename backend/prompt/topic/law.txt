@@ -1,0 +1,12 @@
+================================================================================
+TOPIC GUIDE — Law
+================================================================================
+FIELD: Law / Legal Studies
+DEFAULT CITATION STYLE: APA or Chicago
+
+METHODOLOGY: doctrinal analysis, case law review, comparative law, empirical legal study,
+  statutory interpretation, legal survey, content analysis of court decisions
+EQUATIONS: (minimal — mainly descriptive statistics if quantitative data is included)
+FIGURES: legal framework diagram, comparative law matrix, timeline of legislation
+TABLES: case comparison table, statutory provision comparison, survey results
+VENUES: Harvard Law Review, Yale Law Journal, Modern Law Review, Int. J. Law Information Technology

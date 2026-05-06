@@ -1,0 +1,636 @@
+================================================================================
+TOPIC GUIDE — Public Administration (Administrasi Publik)
+================================================================================
+FIELD: Social Sciences / Public Administration
+DEFAULT CITATION STYLE: APA
+SUBDISCIPLINE: Public Service Management, Bureaucratic Reform, Public Policy Analysis, E-Government, Local Governance, Public Finance, Collaborative Governance, Smart City Governance
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title (specific, with method and domain)
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Qualitative: case study (Yin, 2018), phenomenology (Creswell), grounded theory (Charmaz)
+   - Mixed methods: sequential explanatory, convergent parallel design
+   - SEM-PLS (SmartPLS 4.0) for complex causal models
+   - Policy analysis: Dunn framework, Bardach's eightfold path
+   - Institutional analysis: IAD framework (Ostrom), institutional collective action
+   - Public service quality: SERVQUAL (Parasuraman), IPA (Importance-Performance Analysis)
+   - DEA (Data Envelopment Analysis) for efficiency measurement
+   - Network analysis for collaborative governance mapping
+   - Sentiment analysis of public service feedback (NLP-based)
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics with statistical measures
+   - Comparison with baselines
+   - All numbers realistic and internally consistent
+
+5. MATHEMATICAL FORMULAS (where applicable):
+   - SERVQUAL Gap Score: Gap_i = P_i - E_i (Perception minus Expectation)
+   - DEA Efficiency: theta* = min theta subject to Sum(lambda_j * x_ij) <= theta*x_i0, Sum(lambda_j * y_rj) >= y_r0, lambda_j >= 0
+   - IKM (Indeks Kepuasan Masyarakat): IKM = (Total Nilai Persepsi / Total Unsur Terisi) x Nilai Penimbang
+   - Multiple Regression: Y = B0 + B1*X1 + B2*X2 + ... + Bn*Xn + e
+   - SEM Path Coefficient: Beta (standardized), t-value > 1.96, p < 0.05
+   - R-squared (coefficient of determination) for model fit
+   - Composite Reliability > 0.70, AVE > 0.50
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian governance/political context
+   - Reference to ASN reform, village fund (dana desa), SPBE, Ombudsman, KPK, regional autonomy
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords, Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+ABSTRACT CHARACTERISTICS:
+  200-250 words. Reports: public administration phenomenon studied (service delivery, policy implementation, governance reform), theoretical framework, methodology, unit of analysis, key findings, and practical implications for public sector improvement.
+
+INTRODUCTION ELEMENTS:
+  - Context: Indonesian bureaucratic reform (reformasi birokrasi), decentralization, New Public Management vs. New Public Service
+  - Theoretical framework: NPM (Hood), NPS (Denhardt & Denhardt), governance (Rhodes), institutional theory (North)
+  - Research gap: understudied local context, new digital transformation, post-pandemic governance
+  - Research question with clear dependent and independent variables
+
+LITERATURE REVIEW:
+  Common section name: "Tinjauan Pustaka" / "Literature Review"
+  - Public service theories: NPM, NPS, Public Value (Moore), co-production (Ostrom)
+  - Governance: good governance (UNDP), collaborative governance (Ansell & Gash), network governance
+  - Policy implementation: Van Meter & Van Horn, Edwards III, Grindle
+  - E-government: maturity models, digital transformation, SPBE framework
+  - Indonesian context: ASN Law, village governance, regional autonomy, Ombudsman RI
+
+METHODOLOGY:
+  Common section name: "Metode Penelitian" / "Research Methodology"
+  - Qualitative: case study (single/multiple), phenomenology, grounded theory, ethnography
+  - Quantitative: survey (Likert scale), SEM-PLS, multiple regression, DEA
+  - Mixed methods: sequential explanatory, convergent parallel
+  - Data sources: government reports (LAKIP, LKJIP), surveys, interviews, FGD
+  - Sampling: purposive (qualitative), proportional stratified random (quantitative)
+  - Analysis: thematic analysis, content analysis, SmartPLS, SPSS, NVivo
+
+TYPICAL RESULTS & DISCUSSION:
+  - Service quality: SERVQUAL gap scores (-2.0 to +1.0), IKM scores (1.00-4.00)
+  - Efficiency: DEA scores (0-1), input-output ratios
+  - SEM: path coefficients (Beta), R-squared, Q-squared, f-squared, model fit (SRMR < 0.08)
+  - Policy implementation: success rate %, compliance indicators
+  - Governance index: IKLH, IPM, governance effectiveness scores
+  Tables: gap analysis matrix, DEA efficiency scores, SEM results
+  Figures: path diagrams, radar charts, trend analysis
+
+COMMON REFERENCE VENUES:
+  Public Administration Review, Governance, Journal of Public Administration Research and Theory,
+  International Review of Administrative Sciences, Public Management Review,
+  Jurnal Administrasi Publik, Jurnal Kebijakan dan Administrasi Publik,
+  Asian Journal of Political Science, Policy Studies Journal
+
+DOMAIN VOCABULARY:
+  good governance, bureaucratic reform, public service, decentralization, regional autonomy,
+  ASN (Aparatur Sipil Negara), SPBE, e-government, village fund, accountability,
+  transparency, participation, responsiveness, effectiveness, efficiency,
+  collaborative governance, co-production, public value, institutional capacity
+
+INDONESIAN CONTEXT:
+  - ASN Reform: UU No. 5/2014, merit system, talent management, competency assessment
+  - Village Fund (Dana Desa): UU No. 6/2014, village governance, BPD, musyawarah desa
+  - SPBE: Perpres No. 95/2018, digital government maturity, interoperability
+  - Ombudsman RI: public service complaint, maladministration
+  - KPK: anti-corruption, integrity zone (zona integritas), WBK/WBBM
+  - Regional Autonomy: UU No. 23/2014, transfer of authority, fiscal decentralization
+  - Bureaucratic Reform: Grand Design 2010-2025, 8 areas of change
+  - Public Service: UU No. 25/2009, minimum service standards (SPM)
+
+================================================================================
+RESEARCH TOPIC BANK — 500 TOPICS
+================================================================================
+
+CATEGORY 1: PUBLIC SERVICE INNOVATION (001-050)
+001. Digital transformation of one-stop integrated services (PTSP) in Indonesian municipalities: A SERVQUAL analysis of citizen satisfaction
+002. Innovation diffusion in public service delivery: Comparative case study of mall pelayanan publik in Java and Sulawesi
+003. Artificial intelligence chatbot implementation for public complaint handling: Mixed methods study in DKI Jakarta
+004. Co-production of public services through community health workers (kader posyandu): Institutional analysis using IAD framework
+005. Mobile government applications and citizen engagement: SEM-PLS analysis of user acceptance in Indonesian local governments
+006. Service innovation labs in Indonesian bureaucracy: Qualitative study of design thinking adoption in ministry-level organizations
+007. Blockchain technology for transparent public procurement: Case study of e-katalog system reform
+008. Citizen satisfaction with online tax services: Comparative analysis of e-filing adoption across income groups
+009. Public service motivation and innovation behavior among frontline bureaucrats: Multi-level analysis in Indonesian districts
+010. Gamification strategies in public service delivery: Experimental study of citizen compliance behavior
+011. One-stop service integration challenges in border areas: Phenomenological study of PLBN (Pos Lintas Batas Negara)
+012. Smart loket system and queue management innovation: DEA efficiency analysis across 34 provinces
+013. Public service recovery strategies after natural disasters: Grounded theory study of post-earthquake governance in Sulawesi
+014. Inclusive public service design for persons with disabilities: Universal design assessment of government offices
+015. Night market public services (pelayanan malam hari): Innovation adoption and citizen response in urban municipalities
+016. Drive-through government services: Comparative efficiency analysis of conventional vs. drive-through models
+017. WhatsApp-based public services in rural Indonesia: Technology acceptance model analysis
+018. Public service innovation awards (SINOVIK) and sustained implementation: Longitudinal case study 2020-2025
+019. Citizen co-creation in local regulation drafting: Participatory governance analysis using Arnstein's ladder
+020. Robotic process automation (RPA) in civil registration services: Cost-benefit analysis and efficiency gains
+021. Pop-up government services for remote communities: Accessibility and equity analysis in Eastern Indonesia
+022. Voice of citizen (VoC) analytics for public service improvement: Sentiment analysis of government social media
+023. Service level agreement implementation in inter-agency coordination: Case study of investment licensing reform
+024. Proactive public services (jemput bola) for elderly citizens: Service design and satisfaction analysis
+025. Digital twin technology for urban public service planning: Simulation study of waste management optimization
+026. Ombudsman complaint resolution effectiveness: Longitudinal analysis of maladministration cases 2020-2025
+027. Public service innovation sustainability: Why do award-winning innovations fail to scale?
+028. Biometric identification for social protection delivery: Privacy concerns and citizen trust analysis
+029. Cross-border public service cooperation in ASEAN: Comparative study of immigration service harmonization
+030. Nudge theory application in public service compliance: Field experiment in tax payment behavior
+031. Public service blueprinting for marriage registration: Process improvement using lean government principles
+032. Cloud-based integrated public service platform: Technology readiness assessment of Indonesian local governments
+033. Citizen journey mapping in healthcare public services: Mixed methods study of BPJS Kesehatan experience
+034. Public service innovation ecosystem: Triple helix collaboration in smart city development
+035. Mystery shopping evaluation of public service quality: Multi-site assessment of PTSP performance
+036. Social media-based public service delivery: Instagram and TikTok government accounts effectiveness
+037. Augmented reality for public information services: User experience study in government tourism offices
+038. Public service charter implementation and accountability: Comparative analysis across Indonesian provinces
+039. Zero-defect public service management: Six sigma application in civil registration offices
+040. Peer-to-peer public service delivery through village digital platforms: Case study of Sideka implementation
+041. After-hours public services and work-life balance of civil servants: Mixed methods analysis
+042. Public service innovation diffusion barriers in patrimonial bureaucratic culture: Ethnographic study
+043. Contactless public services post-COVID-19: Sustainability of digital-first service delivery models
+044. Citizen feedback loop mechanisms and service improvement cycles: Action research in municipal government
+045. Public service co-design with marginalized communities: Participatory action research with urban poor
+046. Interoperability challenges in integrated public service systems: Technical and institutional analysis
+047. Public service innovation measurement index: Development and validation for Indonesian context
+048. Drone technology for public service delivery in archipelagic regions: Feasibility and cost analysis
+049. Behavioral insights unit in Indonesian government: Institutional design and early outcomes assessment
+050. Public service guarantee law implementation: Ten-year evaluation of UU No. 25/2009 effectiveness
+
+CATEGORY 2: BUREAUCRATIC REFORM & GOVERNANCE (051-100)
+051. Merit system implementation in ASN recruitment: Comparative analysis of CASN selection 2020-2024
+052. Talent management in Indonesian civil service: SEM analysis of competency-based placement effectiveness
+053. Bureaucratic culture transformation through organizational development interventions: Longitudinal case study
+054. Performance-based budgeting and bureaucratic accountability: Panel data analysis of Indonesian ministries
+055. Whistleblower protection system effectiveness in Indonesian public sector: Mixed methods evaluation
+056. Agile governance adoption in traditional bureaucratic structures: Case study of digital transformation units
+057. Integrity zone (zona integritas) and corruption prevention: Quasi-experimental analysis of WBK/WBBM impact
+058. Bureaucratic reform roadmap 2020-2024 mid-term evaluation: Policy implementation analysis using Edwards III model
+059. Open government partnership and transparency: Indonesia's OGP action plan implementation assessment
+060. Organizational ambidexterity in public sector: Balancing exploitation and exploration in ministry reform
+061. Civil servant competency gap analysis: Human capital readiness for digital government era
+062. Bureaucratic red tape reduction through regulatory guillotine: Process evaluation of OSS (Online Single Submission)
+063. Leadership style and organizational change in Indonesian bureaucracy: Multi-level SEM analysis
+064. Knowledge management system adoption in government agencies: TAM-based analysis with cultural moderators
+065. Performance allowance (tunjangan kinerja) and employee motivation: Equity theory perspective
+066. Bureaucratic politics in policy formulation: Power dynamics analysis of ministerial coordination
+067. E-performance system and civil servant productivity: Before-after comparison in provincial governments
+068. Institutional isomorphism in bureaucratic reform: Why do agencies adopt similar structures?
+069. Psychological capital and adaptive performance of civil servants during organizational change
+070. Bureaucratic reform and public trust: Mediation analysis of service quality perception
+071. Span of control rationalization in government organizations: Structural efficiency analysis
+072. Competency assessment center for echelon promotion: Validity and reliability study
+073. Remote working policy for civil servants post-pandemic: Productivity and well-being analysis
+074. Organizational culture assessment instrument (OCAI) application in Indonesian ministries
+075. Bureaucratic discretion and street-level implementation: Lipsky's framework in Indonesian context
+076. Digital leadership competency framework for senior executive service (JPT): Delphi study
+077. Anti-corruption education integration in civil servant training: Curriculum evaluation study
+078. Bureaucratic reform index and regional competitiveness: Correlation analysis across 514 districts
+079. Succession planning in Indonesian civil service: Talent pipeline readiness assessment
+080. Organizational restructuring impact on service delivery: Difference-in-differences analysis
+081. Civil servant mobility and career development: Network analysis of rotation patterns
+082. Bureaucratic innovation champions: Identifying and nurturing intrapreneurs in government
+083. Performance management system reform: Balanced scorecard adaptation for Indonesian public sector
+084. Bureaucratic accountability mechanisms: Comparative analysis of internal and external oversight
+085. Government agency merger effectiveness: Post-merger integration assessment of Indonesian ministries
+086. Civil servant digital literacy and e-government readiness: National survey analysis
+087. Bureaucratic responsiveness to citizen demands: Response time analysis of public complaint systems
+088. Organizational learning in government: Knowledge creation and transfer mechanisms
+089. Bureaucratic reform and gender mainstreaming: Intersectional analysis of ASN policies
+090. Public sector employer branding and millennial recruitment: Conjoint analysis of job preferences
+091. Bureaucratic pathology diagnosis and intervention: Organizational health assessment framework
+092. Civil servant retirement preparation program effectiveness: Longitudinal well-being study
+093. Inter-agency coordination mechanisms for cross-cutting policy issues: Network governance analysis
+094. Bureaucratic reform sustainability after political leadership change: Institutional resilience study
+095. Government innovation lab methodology: Design sprint adaptation for public sector problems
+096. Civil servant work engagement and public service motivation: JD-R model application
+097. Bureaucratic simplification through functional position expansion: Impact on service delivery speed
+098. Organizational justice perception and turnover intention among young civil servants
+099. Bureaucratic reform communication strategy: Internal change management effectiveness
+100. Government organizational agility index: Development and validation study
+
+CATEGORY 3: PUBLIC POLICY ANALYSIS & IMPLEMENTATION (101-150)
+101. Omnibus law (UU Cipta Kerja) implementation challenges: Multi-stakeholder policy analysis
+102. Health policy response to pandemic: Comparative analysis of PSBB vs. PPKM effectiveness
+103. Education policy decentralization and learning outcomes: Quasi-experimental analysis of teacher deployment
+104. Social protection policy targeting accuracy: Inclusion-exclusion error analysis of PKH and BPNT
+105. Environmental policy implementation in industrial zones: Compliance analysis using institutional theory
+106. Drug policy reform in Indonesia: Discourse analysis of harm reduction vs. zero tolerance approaches
+107. Transportation policy and urban mobility: Cost-benefit analysis of MRT/LRT development
+108. Housing policy for low-income communities: Implementation gap analysis of FLPP program
+109. Digital economy policy and platform worker protection: Regulatory impact assessment
+110. Food security policy during crisis: Supply chain resilience analysis of BULOG intervention
+111. Minimum wage policy and employment effects: Regression discontinuity design analysis
+112. Waste management policy implementation: Comparative study of pay-as-you-throw systems
+113. Tourism policy post-pandemic recovery: Destination governance and stakeholder collaboration
+114. Energy transition policy: Political economy analysis of coal phase-out challenges
+115. Immigration policy reform and labor market integration: Mixed methods analysis of foreign worker regulation
+116. Disability inclusion policy implementation: Gap analysis between regulation and practice
+117. Agricultural subsidy policy effectiveness: Propensity score matching analysis of farmer welfare
+118. Cybersecurity policy framework development: Comparative analysis with ASEAN neighbors
+119. Population policy and demographic dividend: Policy coherence analysis across ministries
+120. Anti-stunting policy convergence: Multi-sector coordination effectiveness at village level
+121. Public-private partnership policy in infrastructure: Risk allocation analysis of toll road projects
+122. Intellectual property policy and innovation ecosystem: Patent filing trend analysis
+123. Disaster risk reduction policy mainstreaming: Institutional capacity assessment of BNPB
+124. Youth employment policy effectiveness: Tracer study of Kartu Prakerja program participants
+125. Maritime policy implementation: Jokowi's global maritime fulcrum vision assessment
+126. Fiscal policy response to economic crisis: Multiplier effect analysis of PEN program
+127. Education technology policy during school closures: Equity analysis of distance learning access
+128. Health insurance policy (JKN) sustainability: Actuarial analysis and reform options
+129. Land reform policy implementation: Political economy of agrarian conflict resolution
+130. Anti-monopoly policy enforcement: KPPU decision effectiveness analysis
+131. Climate change adaptation policy at local level: Vulnerability-based planning assessment
+132. Creative economy policy and cultural industry development: Value chain analysis
+133. Tobacco control policy implementation: Political economy of excise tax reform
+134. Child protection policy coordination: Multi-agency response system effectiveness
+135. Smart city policy adoption determinants: Cross-sectional analysis of Indonesian municipalities
+136. Public procurement policy reform: E-procurement impact on competition and efficiency
+137. Halal industry policy and global competitiveness: Institutional framework analysis
+138. Regional innovation system policy: Triple helix effectiveness in science-techno parks
+139. Poverty reduction policy convergence: TNP2K coordination mechanism evaluation
+140. Water resource management policy: Integrated water resource management implementation gaps
+141. Digital literacy policy for rural communities: Program evaluation of internet masuk desa
+142. Elderly care policy development: Comparative analysis with aging society best practices
+143. Counter-terrorism policy and deradicalization: Program effectiveness and human rights balance
+144. Forest governance policy and REDD+ implementation: Multi-level governance analysis
+145. Special economic zone policy effectiveness: Investment realization and employment creation analysis
+146. National health system strengthening policy: Post-pandemic institutional reform assessment
+147. Education curriculum policy change (Kurikulum Merdeka): Implementation readiness analysis
+148. Urban informal sector policy: Street vendor relocation program impact assessment
+149. Data governance policy framework: Personal data protection law implementation challenges
+150. Evidence-based policy making institutionalization: Knowledge broker role in Indonesian government
+
+CATEGORY 4: E-GOVERNMENT & DIGITAL PUBLIC SERVICES (151-200)
+151. SPBE (Sistem Pemerintahan Berbasis Elektronik) maturity assessment: National evaluation 2020-2025
+152. Digital divide in e-government access: Urban-rural disparity analysis across Indonesian provinces
+153. Citizen adoption of e-government services: Extended UTAUT model with trust and digital literacy
+154. Open data portal utilization and public value creation: Mixed methods analysis of data.go.id
+155. Cybersecurity governance in Indonesian government: Risk assessment and institutional readiness
+156. Interoperability framework for government information systems: Technical and organizational barriers
+157. Social media government communication effectiveness: Content analysis of ministry accounts
+158. Digital identity (identitas kependudukan digital) implementation: Privacy and security analysis
+159. E-participation platforms and democratic engagement: Case study of LAPOR! and Musrenbang online
+160. Government cloud (GovCloud) migration strategy: Cost-benefit and risk analysis
+161. Artificial intelligence in public decision-making: Ethical framework and governance implications
+162. Big data analytics for evidence-based policy: Institutional readiness assessment of Indonesian agencies
+163. Digital signature adoption in government correspondence: Legal validity and efficiency analysis
+164. E-budgeting system and fiscal transparency: Comparative analysis across Indonesian provinces
+165. Government enterprise architecture implementation: TOGAF adaptation for Indonesian public sector
+166. Chatbot technology for citizen services: Natural language processing accuracy in Bahasa Indonesia
+167. Digital literacy training for civil servants: Effectiveness evaluation using Kirkpatrick model
+168. E-procurement system (LPSE) and corruption reduction: Quasi-experimental impact analysis
+169. Smart village (desa cerdas) digital platform: Technology adoption in rural governance
+170. Government data center consolidation: Efficiency gains and security improvement analysis
+171. E-health governance integration: Interoperability of Puskesmas information systems
+172. Digital complaint management system: Response time and resolution quality analysis
+173. Blockchain for land certificate verification: Pilot study feasibility and scalability assessment
+174. Government mobile application usability: Heuristic evaluation of top 20 Indonesian gov apps
+175. Artificial intelligence for public budget optimization: Machine learning approach to allocation efficiency
+176. Digital archiving and records management: E-government maturity in document governance
+177. Internet of Things (IoT) for smart public infrastructure: Governance framework development
+178. E-voting feasibility for Indonesian elections: Security, accessibility, and trust analysis
+179. Government API ecosystem development: Open government data interoperability standards
+180. Digital transformation leadership in local government: Chief digital officer role analysis
+181. Cybersecurity incident response in government: Organizational preparedness assessment
+182. E-licensing system effectiveness: Business process reengineering impact on investment climate
+183. Social media crisis communication by government: Content analysis of disaster response accounts
+184. Digital divide mitigation strategies: Comparative analysis of internet masuk desa programs
+185. Government website accessibility compliance: WCAG 2.1 audit of Indonesian ministry websites
+186. E-musrenbang and participatory budgeting: Digital inclusion and representation analysis
+187. Cloud computing adoption barriers in government: TOE framework analysis
+188. Digital twin for urban governance: Smart city simulation and decision support systems
+189. Government data governance maturity model: Assessment framework for Indonesian agencies
+190. E-government service quality and citizen trust: Longitudinal panel study 2020-2025
+191. Artificial intelligence ethics guidelines for Indonesian public sector: Comparative policy analysis
+192. Digital transformation index for local government: Development and benchmarking study
+193. Government social media analytics: Sentiment analysis of public policy discourse
+194. E-government and anti-corruption: Digital trail effectiveness in procurement monitoring
+195. Smart government dashboard for performance monitoring: Real-time data visualization systems
+196. Digital inclusion for elderly citizens: Age-friendly e-government design principles
+197. Government data sharing agreements: Legal and institutional framework analysis
+198. E-government failure factors: Post-mortem analysis of discontinued government IT projects
+199. Digital government ecosystem maturity: Comparative analysis of ASEAN member states
+200. Integrated national data system (Satu Data Indonesia): Implementation challenges and progress
+
+CATEGORY 5: LOCAL GOVERNMENT & DECENTRALIZATION (201-250)
+201. Fiscal decentralization and public service quality: Panel data analysis of Indonesian districts 2015-2024
+202. Village fund (dana desa) utilization effectiveness: DEA analysis across 74,000 villages
+203. Regional head (pilkada) political dynasty and governance quality: Comparative case study
+204. Inter-regional cooperation (kerja sama antar daerah): Institutional collective action analysis
+205. Asymmetric decentralization in Papua and Aceh: Comparative governance outcomes assessment
+206. Village-owned enterprises (BUMDes) governance and economic impact: Mixed methods evaluation
+207. Regional innovation capacity and decentralization: Knowledge production analysis across provinces
+208. Local government debt management and fiscal sustainability: Early warning system development
+209. Minimum service standards (SPM) achievement: Cross-district comparison and determinant analysis
+210. Village governance digitalization: E-village budgeting system implementation assessment
+211. Regional development planning (RPJMD) quality and alignment: Content analysis across provinces
+212. Local tax optimization and own-source revenue: Efficiency analysis of regional tax administration
+213. Decentralization and environmental governance: Local government capacity for climate action
+214. Village deliberation (musyawarah desa) and participatory democracy: Ethnographic study
+215. Regional competitiveness index determinants: SEM analysis of governance and infrastructure factors
+216. Local government innovation and political will: Comparative analysis of reformist regional heads
+217. Fiscal transfer dependency and local government performance: Moral hazard analysis
+218. Village information system (SID) and transparency: Citizen access and utilization study
+219. Regional spatial planning (RTRW) implementation: Compliance analysis and enforcement mechanisms
+220. Local government response to climate disasters: Adaptive governance capacity assessment
+221. Dana desa and poverty reduction: Propensity score matching analysis of village-level outcomes
+222. Regional bureaucratic reform and investment climate: Panel regression analysis
+223. Village apparatus (perangkat desa) competency and service delivery: Training effectiveness study
+224. Decentralization of health services: District health system performance comparison
+225. Local government budget transparency: Open budget index analysis across Indonesian cities
+226. Regional development bank (BPD) governance and local economic development: Institutional analysis
+227. Village boundary conflict resolution: Collaborative governance approach in multi-ethnic areas
+228. Local government digital maturity and service innovation: Cluster analysis of 514 districts
+229. Decentralization and education quality: School-based management effectiveness analysis
+230. Regional disaster management agency (BPBD) institutional capacity: Comparative assessment
+231. Village fund accountability mechanisms: Social audit and community oversight effectiveness
+232. Local government performance evaluation (EKPPD): Validity and improvement analysis
+233. Inter-village cooperation for infrastructure development: Collective action and free-rider analysis
+234. Regional autonomy and cultural preservation: Local government role in indigenous governance
+235. Local government procurement efficiency: E-procurement adoption and competition analysis
+236. Village development planning (RPJMDes) participatory quality: Gender and inclusion assessment
+237. Decentralization and corruption: District-level analysis of governance quality indicators
+238. Local government human resource planning: Workforce analytics for optimal ASN distribution
+239. Regional public service agency (BLUD) governance: Autonomy and accountability balance
+240. Village community empowerment: Social capital and collective action in development programs
+241. Local government response to urbanization: Metropolitan governance coordination challenges
+242. Dana desa and village infrastructure quality: Engineering assessment and maintenance analysis
+243. Regional innovation award and sustained performance: Longitudinal tracking of KIPP winners
+244. Local government climate budget tagging: Green budgeting implementation assessment
+245. Village head (kepala desa) leadership and development outcomes: Mixed methods analysis
+246. Decentralization and health insurance: Local government role in JKN implementation
+247. Regional economic corridor development: Governance coordination across district boundaries
+248. Village digital economy development: E-commerce adoption and market access analysis
+249. Local government performance-based incentive (DID): Effectiveness and behavioral response
+250. Decentralization reform 20-year assessment: Institutional evolution and future directions
+
+CATEGORY 6: PUBLIC FINANCE & BUDGETING (251-300)
+251. Performance-based budgeting implementation maturity: Assessment of Indonesian ministries and agencies
+252. Budget absorption patterns and fiscal year-end spending: Time series analysis 2015-2024
+253. Gender-responsive budgeting (ARG) implementation: Compliance and outcome analysis across sectors
+254. Village fund financial management: Internal control system effectiveness evaluation
+255. Regional fiscal capacity and equalization transfer: Horizontal imbalance analysis
+256. Public expenditure tracking survey (PETS): Leakage analysis in education sector funding
+257. Medium-term expenditure framework (MTEF) and budget predictability: Implementation assessment
+258. Tax compliance behavior of Indonesian SMEs: Behavioral economics analysis
+259. Government accounting standards (SAP) implementation: Audit opinion determinant analysis
+260. Budget transparency and citizen participation: Open budget survey analysis for Indonesia
+261. Fiscal decentralization and income inequality: Panel data analysis across provinces
+262. E-budgeting system and budget manipulation prevention: Digital audit trail effectiveness
+263. Public debt sustainability analysis: Fiscal risk assessment of Indonesian government bonds
+264. Regional transfer fund (DAU, DAK, DBH) allocation formula: Equity and efficiency evaluation
+265. Government investment management: Cost-benefit analysis framework for public infrastructure
+266. Budget politics in Indonesian parliament: DPR budget committee decision-making analysis
+267. Local government own-source revenue optimization: Tax effort and capacity analysis
+268. Public financial management reform: PEFA assessment trend analysis 2015-2025
+269. Social spending effectiveness: Return on investment analysis of poverty reduction programs
+270. Government cash management modernization: Treasury single account implementation assessment
+271. Climate finance tracking in government budget: Green tagging methodology development
+272. Public procurement value for money: Price comparison analysis of government purchases
+273. Fiscal risk management framework: Contingent liability assessment of SOE guarantees
+274. Budget earmarking for education (20%): Compliance and learning outcome correlation
+275. Regional fiscal stress indicators: Early warning system for local government financial health
+276. Government asset management optimization: Idle asset utilization and revenue generation
+277. Performance information in budget documents: Quality assessment of ministry RKA-KL
+278. Fiscal policy countercyclical effectiveness: Automatic stabilizer analysis during economic shocks
+279. Public pension fund sustainability: Actuarial analysis of TASPEN and ASABRI
+280. Budget execution efficiency: Determinant analysis of spending quality indicators
+281. Participatory budgeting (musrenbang) and budget allocation: Citizen preference alignment study
+282. Government financial statement quality: Determinants of unqualified audit opinion (WTP)
+283. Fiscal federalism and service delivery: Expenditure assignment analysis in Indonesian context
+284. Tax administration modernization: Core tax system implementation readiness assessment
+285. Public investment management assessment (PIMA): Infrastructure governance quality evaluation
+286. Budget credibility and deviation analysis: Planned vs. actual expenditure comparison
+287. Local government financial distress prediction: Machine learning approach to fiscal early warning
+288. Government subsidy reform: Political economy of energy subsidy rationalization
+289. Fiscal transparency portal effectiveness: Citizen engagement with budget information
+290. Public-private partnership fiscal risk: Government guarantee portfolio analysis
+291. Regional minimum allocation fund (DAU) reform: Simulation of alternative formulas
+292. Government internal audit effectiveness: APIP capability model assessment
+293. Budget for disaster preparedness: Fiscal space analysis and contingency fund adequacy
+294. Revenue sharing fund (DBH) and resource curse: Natural resource governance analysis
+295. Government financial technology adoption: Digital payment system for public transactions
+296. Fiscal impact of demographic transition: Long-term budget projection for aging population
+297. Local government credit rating determinants: Financial ratio and governance analysis
+298. Public expenditure review for health sector: Allocative and technical efficiency assessment
+299. Government accounting information system (SAKTI): User acceptance and implementation challenges
+300. Fiscal consolidation strategy post-pandemic: Expenditure rationalization and revenue mobilization
+
+CATEGORY 7: HUMAN RESOURCE MANAGEMENT IN PUBLIC SECTOR (301-350)
+301. ASN competency-based human resource management: Implementation assessment across ministries
+302. Civil servant performance appraisal system (SKP): Validity and reliability of new format
+303. Public service motivation (PSM) and job performance: Cross-cultural validation in Indonesian context
+304. Talent management and succession planning: High-potential identification in civil service
+305. Civil servant training effectiveness: ROI analysis of Pusdiklat programs
+306. Work-life balance and employee well-being: Flexible working arrangement impact study
+307. Generational differences in work values: Millennial and Gen-Z civil servants expectations
+308. Employee engagement drivers in Indonesian public sector: JD-R model application
+309. Competency assessment center validity: Predictive validity for leadership performance
+310. Civil servant career development system: Dual career track (structural-functional) effectiveness
+311. Performance management reform: From activity-based to outcome-based assessment transition
+312. Public sector employer value proposition: Attraction and retention factor analysis
+313. Civil servant digital competency framework: Development and validation study
+314. Organizational citizenship behavior in government: Antecedents and outcomes analysis
+315. Human resource information system (SIMPEG) utilization: Decision support effectiveness
+316. Civil servant disciplinary system: Proportionality and deterrence effect analysis
+317. Knowledge sharing behavior among civil servants: Social exchange theory perspective
+318. Public sector leadership development program: Longitudinal impact assessment of Sekolah Kader
+319. Employee voice and innovative work behavior: Psychological safety in bureaucratic context
+320. Civil servant placement optimization: Person-job fit analysis using competency mapping
+321. Burnout and turnover intention among healthcare civil servants: Conservation of resources theory
+322. Performance allowance system and pay equity: Comparative analysis across government agencies
+323. Civil servant mobility policy: Inter-agency transfer effectiveness and career impact
+324. Organizational commitment and public service motivation: Mediation analysis in local government
+325. Human capital development plan (HCDP) implementation: Gap analysis in Indonesian ministries
+326. Civil servant recruitment reform: Computer-assisted test (CAT) fairness and validity
+327. Workplace diversity management in Indonesian civil service: Inclusion climate assessment
+328. Remote work productivity measurement: Output-based performance indicators for civil servants
+329. Civil servant professional development: Self-directed learning and continuous education
+330. Organizational culture and innovation behavior: Competing values framework in government
+331. Employee assistance program (EAP) for civil servants: Mental health support effectiveness
+332. Strategic workforce planning: Predictive analytics for ASN supply-demand forecasting
+333. Civil servant integrity assessment: Psychometric validation of integrity test instruments
+334. Public sector compensation competitiveness: Total reward comparison with private sector
+335. Knowledge management and organizational memory: Preventing knowledge loss from retirement
+336. Civil servant secondment program: Cross-sector learning and capability building
+337. Performance coaching for civil servants: Manager-as-coach effectiveness study
+338. Organizational justice and counterproductive work behavior: Mediation of trust
+339. Civil servant health and productivity management: Presenteeism cost analysis
+340. Talent analytics in government: Data-driven human resource decision making
+341. Civil servant ethical leadership: Trickle-down effect on subordinate behavior
+342. Workforce agility in public sector: Adaptive capacity during organizational change
+343. Civil servant learning organization: Senge's five disciplines application in government
+344. Public sector gig workers: Contract employee (PPPK) integration and management
+345. Organizational socialization of new civil servants: Onboarding program effectiveness
+346. Civil servant emotional intelligence and service quality: Customer-contact employee analysis
+347. Human resource development for village apparatus: Capacity building program evaluation
+348. Public sector high-performance work system: Bundle of HR practices effectiveness
+349. Civil servant career plateau and revitalization: Mid-career development intervention
+350. Future of work in government: AI augmentation and human-machine collaboration readiness
+
+CATEGORY 8: COLLABORATIVE GOVERNANCE & NETWORKS (351-400)
+351. Collaborative governance for watershed management: Multi-stakeholder platform effectiveness in Citarum
+352. Public-private partnership governance: Risk sharing and accountability in toll road projects
+353. Cross-sector collaboration for stunting reduction: Network analysis of convergence action
+354. Collaborative innovation in smart city development: Triple helix partnership assessment
+355. Multi-level governance of disaster risk reduction: Coordination between BNPB, BPBD, and communities
+356. Network governance in tourism destination management: Stakeholder collaboration analysis
+357. Collaborative governance for waste management: Community-government partnership in bank sampah
+358. Public-nonprofit collaboration in social services: Institutional arrangement and effectiveness
+359. Inter-municipal cooperation for metropolitan governance: Collective action challenges in Jabodetabek
+360. Collaborative governance for forest fire prevention: Multi-agency coordination assessment
+361. University-government-industry collaboration: Knowledge transfer in regional innovation systems
+362. Collaborative governance for food security: Supply chain coordination during crisis
+363. Public-community co-production of security: Siskamling revitalization and community policing
+364. Network governance in health system: Referral system coordination effectiveness
+365. Collaborative governance for cultural heritage preservation: Multi-stakeholder management model
+366. Public-private dialogue for regulatory reform: Business association engagement effectiveness
+367. Collaborative governance for marine conservation: MPA management partnership analysis
+368. Cross-border governance cooperation: Indonesia-Malaysia-Singapore growth triangle coordination
+369. Collaborative governance for homeless services: Multi-agency response system analysis
+370. Network governance in education: School committee and community participation effectiveness
+371. Collaborative governance for river basin management: Institutional collective action analysis
+372. Public-social enterprise partnership: Hybrid governance for social impact delivery
+373. Collaborative governance for urban transportation: BRT system multi-stakeholder management
+374. Network governance in agricultural extension: Farmer group coordination and knowledge sharing
+375. Collaborative governance for pandemic response: Multi-sector coordination effectiveness
+376. Public-private partnership for affordable housing: Governance arrangement and delivery outcomes
+377. Collaborative governance for youth development: Cross-agency program coordination
+378. Network governance in creative economy: Cultural district stakeholder collaboration
+379. Collaborative governance for digital inclusion: Multi-sector partnership for internet access
+380. Public-community partnership for village tourism: Governance model and benefit sharing
+381. Collaborative governance for air quality management: Multi-jurisdictional coordination
+382. Network governance in social protection: Program complementarity and coordination
+383. Collaborative governance for mangrove conservation: Community-based management effectiveness
+384. Public-private partnership for healthcare: Hospital management collaboration model
+385. Collaborative governance for labor market: Tripartite coordination effectiveness
+386. Network governance in disaster recovery: Long-term reconstruction coordination
+387. Collaborative governance for child protection: Multi-disciplinary team effectiveness
+388. Public-academic partnership for policy research: Knowledge utilization in government
+389. Collaborative governance for sustainable agriculture: Organic certification partnership
+390. Network governance in urban renewal: Stakeholder engagement in kampung improvement
+391. Collaborative governance for water supply: Public utility and community management comparison
+392. Public-private partnership for education: Corporate social responsibility in school development
+393. Collaborative governance for elderly care: Family-community-government coordination
+394. Network governance in trade facilitation: Port community system stakeholder analysis
+395. Collaborative governance for renewable energy: Community-based power plant management
+396. Public-civil society partnership for human rights: Advocacy network effectiveness
+397. Collaborative governance for migrant worker protection: Multi-agency coordination abroad
+398. Network governance in innovation ecosystem: Science park stakeholder collaboration
+399. Collaborative governance for indigenous community empowerment: Recognition and partnership model
+400. Public-private-people partnership (4P) for smart city: Citizen engagement in urban governance
+
+CATEGORY 9: PUBLIC ACCOUNTABILITY & ANTI-CORRUPTION (401-450)
+401. KPK institutional effectiveness post-revision: Comparative analysis of corruption prosecution 2019-2025
+402. Integrity zone (zona integritas) implementation and corruption prevention: Impact evaluation
+403. Whistleblower system utilization in Indonesian government: Barriers and enablers analysis
+404. E-procurement and corruption reduction: Quasi-experimental analysis of LPSE implementation
+405. Asset declaration system (LHKPN) effectiveness: Compliance and deterrence analysis
+406. Anti-corruption education in civil servant training: Knowledge-attitude-behavior assessment
+407. Social accountability mechanisms: Community scorecard implementation in public services
+408. Government internal control system (SPIP) maturity: Determinants of effectiveness
+409. Corruption risk assessment methodology: Institutional vulnerability mapping in local government
+410. Open government and corruption perception: Panel analysis of transparency initiatives
+411. Anti-money laundering governance: PPATK institutional capacity and inter-agency coordination
+412. Public audit and accountability: BPK audit findings follow-up effectiveness analysis
+413. Corruption in public procurement: Red flag analysis and detection methodology
+414. Integrity pact implementation in government contracts: Compliance and outcome assessment
+415. Anti-corruption agency independence: Comparative institutional analysis post-KPK revision
+416. Bureaucratic corruption and service delivery: Citizen experience survey analysis
+417. Corporate governance of state-owned enterprises: Anti-corruption mechanism effectiveness
+418. Local government accountability reporting: LAKIP quality and performance correlation
+419. Corruption prevention through digitalization: E-government anti-corruption pathway analysis
+420. Public participation in anti-corruption: Civil society monitoring effectiveness
+421. Conflict of interest management in government: Policy framework and implementation gaps
+422. Corruption and decentralization: District-level governance quality and corruption incidence
+423. Anti-corruption court (Tipikor) sentencing patterns: Deterrence effectiveness analysis
+424. Government transparency index and public trust: Mediation analysis of accountability perception
+425. Corruption in village fund management: Internal control and community oversight effectiveness
+426. Lobbying regulation and political corruption: Institutional framework gap analysis
+427. Anti-corruption compliance program in SOEs: GCG implementation assessment
+428. Public financial accountability and audit opinion: Determinants of clean audit achievement
+429. Corruption reporting mechanism effectiveness: Comparative analysis of channels and outcomes
+430. Political corruption and campaign finance: Regulatory framework and enforcement analysis
+431. Anti-corruption institutional design: Comparative analysis of Indonesian oversight bodies
+432. Corruption vulnerability in licensing services: Process mapping and risk mitigation
+433. Public accountability dashboard: Real-time monitoring system effectiveness assessment
+434. Corruption and public service quality: Structural equation modeling of citizen perception
+435. Anti-corruption norm internalization: Behavioral change analysis in government organizations
+436. Fiscal accountability and budget transparency: Correlation with corruption perception index
+437. Corruption in natural resource governance: Rent-seeking analysis in mining permits
+438. Public integrity testing: Methodology development and ethical considerations
+439. Anti-corruption policy coherence: Multi-agency strategy alignment assessment
+440. Corruption and inequality: Distributional impact analysis of corrupt practices
+441. Government accountability to parliament: DPR oversight function effectiveness
+442. Corruption prevention in disaster relief: Emergency procurement governance analysis
+443. Public sector ethics infrastructure: Institutional completeness assessment
+444. Anti-corruption technology: AI-based anomaly detection in government transactions
+445. Corruption and public investment efficiency: Infrastructure quality and cost overrun analysis
+446. Accountability mechanism for village fund: Comparative analysis of oversight models
+447. Political will and anti-corruption reform: Leadership commitment measurement framework
+448. Corruption in education sector: Teacher recruitment and school fund management analysis
+449. Public accountability and media freedom: Press role in corruption exposure
+450. Anti-corruption mainstreaming in development planning: Integration assessment across sectors
+
+CATEGORY 10: SMART CITY & URBAN GOVERNANCE (451-500)
+451. Smart city maturity model for Indonesian cities: Multi-dimensional assessment framework
+452. Smart governance and citizen participation: Digital platform engagement analysis
+453. Smart mobility solutions and urban transportation governance: MaaS implementation assessment
+454. Smart environment monitoring: IoT-based air quality governance in industrial cities
+455. Smart economy and digital marketplace governance: Platform regulation for urban SMEs
+456. Smart living and public health governance: Digital health ecosystem in urban areas
+457. Smart people and digital literacy governance: Human capital development for smart city
+458. Smart city data governance: Privacy, security, and ethical framework development
+459. Urban digital twin for city planning: Governance implications and decision support
+460. Smart city financing model: Public-private partnership for technology infrastructure
+461. Smart waste management governance: IoT-enabled collection and citizen participation
+462. Smart water management: Digital monitoring and governance of urban water supply
+463. Smart energy governance: Microgrid management and renewable energy integration in cities
+464. Smart city command center effectiveness: Real-time governance and emergency response
+465. Smart parking governance: Digital solution implementation and revenue optimization
+466. Smart city interoperability: Cross-platform data integration governance framework
+467. Smart building governance: Green building regulation and compliance monitoring
+468. Smart city and social inclusion: Digital divide mitigation in urban governance
+469. Smart tourism governance: Destination management through digital platforms
+470. Smart city resilience: Digital infrastructure governance for disaster preparedness
+471. Smart city performance measurement: KPI framework and benchmarking methodology
+472. Smart city citizen engagement: Participatory governance through mobile applications
+473. Smart city procurement governance: Innovation-friendly procurement for technology solutions
+474. Smart city talent governance: Attracting and retaining digital talent in government
+475. Smart city collaboration governance: Multi-stakeholder partnership management model
+476. Smart city regulation sandbox: Experimental governance for urban innovation
+477. Smart city cybersecurity governance: Critical infrastructure protection framework
+478. Smart city open data governance: Data sharing policy and utilization analysis
+479. Smart city sustainability governance: SDGs integration in urban digital strategy
+480. Smart city scalability governance: Pilot-to-scale transition management framework
+481. Smart city vendor governance: Technology partner selection and management
+482. Smart city change management: Organizational transformation for digital governance
+483. Smart city equity governance: Ensuring fair distribution of smart city benefits
+484. Smart city monitoring and evaluation: Impact assessment framework development
+485. Smart city innovation ecosystem: Startup-government collaboration governance
+486. Smart city digital infrastructure governance: 5G deployment and spectrum management
+487. Smart city cross-jurisdictional governance: Metropolitan coordination for smart services
+488. Smart city citizen data rights: Personal data governance in urban digital services
+489. Smart city budget governance: Technology investment prioritization framework
+490. Smart city knowledge governance: Best practice sharing and learning networks
+491. Smart city environmental governance: Carbon footprint monitoring and reduction strategy
+492. Smart city health governance: Pandemic preparedness through digital infrastructure
+493. Smart city education governance: EdTech integration in urban school management
+494. Smart city safety governance: AI-powered surveillance ethics and effectiveness
+495. Smart city cultural governance: Digital preservation and creative economy support
+496. Smart city food governance: Urban agriculture and food supply chain digitalization
+497. Smart city housing governance: PropTech regulation and affordable housing monitoring
+498. Smart city elderly governance: Age-friendly smart city design and services
+499. Smart city youth governance: Digital participation platforms for young citizens
+500. Smart city future governance: Anticipatory governance and emerging technology regulation

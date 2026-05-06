@@ -1,0 +1,633 @@
+================================================================================
+TOPIC GUIDE — Perencanaan Tata Ruang dan Pertanahan (Spatial Planning & Land Administration)
+================================================================================
+FIELD: Urban & Regional Planning / Land Administration / Geospatial Science
+DEFAULT CITATION STYLE: APA
+SUBDISCIPLINE: Urban Spatial Planning, Rural & Regional Planning, Land Administration & Cadastre, Land Use Change & Modeling, Disaster Risk & Spatial Planning, Transportation & Infrastructure Planning, Environmental Spatial Planning, Coastal & Maritime Spatial Planning
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title (specific, with method and domain)
+
+3. LATEST METHODOLOGY (2022-2025):
+   - GIS spatial analysis: ArcGIS Pro, QGIS, GeoDa, spatial statistics
+   - Remote sensing: Landsat 8/9, Sentinel-2, SPOT, drone/UAV mapping, Google Earth Engine
+   - Land use/land cover change detection: supervised classification (Random Forest, SVM, deep learning), object-based image analysis (OBIA)
+   - Spatial modeling: CA-Markov, SLEUTH, CLUE-S, Land Change Modeler, agent-based modeling
+   - Participatory mapping: PGIS, community mapping, OpenStreetMap, crowdsourcing
+   - Land valuation: NJOP analysis, hedonic pricing model, GIS-based mass appraisal
+   - Cadastral survey: GNSS, total station, UAV photogrammetry, fit-for-purpose land administration
+   - Spatial decision support: MCDM (AHP, TOPSIS, PROMETHEE), weighted overlay, fuzzy logic
+   - 3D/4D GIS: CityGML, BIM-GIS integration, digital twin for urban planning
+   - Big data & AI: geospatial AI, deep learning for remote sensing, spatial data mining
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics: land use area (ha/km²), change rate (%/year), accuracy (%), Kappa coefficient, accessibility index, density (persons/km²), land value (Rp/m²)
+   - Comparison with baselines (temporal comparison, scenario analysis)
+   - All numbers realistic and internally consistent
+   - Statistical measures: mean, std deviation, confidence intervals, spatial autocorrelation
+
+5. MATHEMATICAL FORMULAS:
+   - Land use change rate: r = (A2-A1)/(A1×Δt)×100%
+   - Urban sprawl index: USI = (ΔUrban/ΔPopulation) × (Urban_area/Total_area)
+   - Accessibility index: Ai = Σ(Oj × f(dij)), where f(dij) = dij^(-β)
+   - Land value regression: ln(P) = β0 + β1X1 + β2X2 + ... + ε
+   - Kappa coefficient: K = (Po - Pe)/(1 - Pe)
+   - Spatial autocorrelation (Moran's I): I = (n/W) × (Σi Σj wij(xi-x̄)(xj-x̄))/(Σi(xi-x̄)²)
+   - Shannon entropy: H = -Σ pi × ln(pi) / ln(n)
+   - Landscape metrics: patch density PD = N/A, edge density ED = E/A
+   - Gravity model: Tij = k × (Pi × Pj)/dij^α
+   - Cellular automata transition probability: P(t+1) = f(neighborhood, suitability, constraints)
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian context: RTRW, RDTR, ATR/BPN, land reform (TORA), Indonesian spatial planning law (UU 26/2007)
+   - Include Indonesian researchers and journals where applicable
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords (5-7), Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+================================================================================
+DOMAIN-SPECIFIC CONTEXT
+================================================================================
+
+INDONESIAN CONTEXT:
+- RTRW (Rencana Tata Ruang Wilayah) - Regional Spatial Plan
+- RDTR (Rencana Detail Tata Ruang) - Detailed Spatial Plan
+- ATR/BPN (Kementerian Agraria dan Tata Ruang/Badan Pertanahan Nasional)
+- Land reform program: TORA (Tanah Objek Reforma Agraria)
+- PTSL (Pendaftaran Tanah Sistematis Lengkap) - Complete Systematic Land Registration
+- UU 26/2007 (Spatial Planning Law) and UU Cipta Kerja amendments
+- Indonesian land tenure system: hak milik, HGU, HGB, hak pakai
+- One Map Policy (Kebijakan Satu Peta)
+- IKN (Ibu Kota Nusantara) - New Capital City development
+- TOD (Transit-Oriented Development) in Indonesian cities
+- Indonesian urbanization challenges: urban sprawl, informal settlements, land conflicts
+
+KEY JOURNALS:
+- Land Use Policy
+- Habitat International
+- Cities
+- Computers, Environment and Urban Systems
+- International Journal of Applied Earth Observation and Geoinformation
+- Remote Sensing of Environment
+- Journal of Land Use Science
+- Tata Loka (Undip - Indonesian)
+- Jurnal Perencanaan Wilayah dan Kota (ITB - Indonesian)
+
+SOFTWARE & TOOLS:
+- ArcGIS Pro (spatial analysis, geoprocessing, 3D visualization)
+- QGIS (open-source GIS, spatial analysis, cartography)
+- Google Earth Engine (cloud-based remote sensing analysis)
+- ENVI/ERDAS (image processing, classification)
+- TerrSet/IDRISI (land change modeling, CA-Markov)
+- CityEngine (3D urban modeling, procedural design)
+- InVEST (ecosystem services modeling)
+- UrbanSim (urban simulation modeling)
+- GeoDa (spatial statistics, exploratory spatial data analysis)
+- R/Python (spatial statistics, machine learning, automation)
+
+REGULATIONS & POLICIES:
+- UU 26/2007 tentang Penataan Ruang
+- UU 11/2020 tentang Cipta Kerja (spatial planning amendments)
+- PP 21/2021 tentang Penyelenggaraan Penataan Ruang
+- Permen ATR/BPN tentang RDTR
+- Perpres IKN (Ibu Kota Nusantara)
+- RPJMN 2020-2024 (National Medium-Term Development Plan)
+- SDGs (Sustainable Development Goals) - Goal 11: Sustainable Cities
+
+================================================================================
+RESEARCH TOPIC BANK — 500 TOPICS
+================================================================================
+
+CATEGORY 1: URBAN SPATIAL PLANNING (001-050)
+001. Analysis of urban sprawl dynamics in Jakarta metropolitan area using multi-temporal satellite imagery
+002. Development of transit-oriented development (TOD) suitability model for Indonesian cities
+003. Assessment of green open space adequacy in Indonesian medium-sized cities using GIS
+004. Modeling urban heat island effect and its relationship with land use in Surabaya
+005. Evaluation of RDTR implementation effectiveness in controlling urban land use change
+006. Development of walkability index for Indonesian urban neighborhoods using GIS analysis
+007. Analysis of informal settlement growth patterns in Indonesian coastal cities
+008. Assessment of urban infrastructure carrying capacity for Indonesian new town development
+009. Modeling pedestrian accessibility to public facilities in Indonesian urban areas
+010. Evaluation of mixed-use zoning policy impact on Indonesian urban spatial structure
+011. Development of urban growth boundary delineation method for Indonesian cities
+012. Analysis of gentrification patterns and displacement in Indonesian urban renewal areas
+013. Assessment of public space quality and utilization in Indonesian urban kampung
+014. Modeling traffic congestion impact on urban land use change in Indonesian cities
+015. Evaluation of smart city spatial planning framework for Indonesian metropolitan areas
+016. Development of urban village (kampung) upgrading prioritization model using MCDM
+017. Analysis of commercial land use agglomeration patterns in Indonesian secondary cities
+018. Assessment of urban flood risk in relation to spatial planning compliance
+019. Modeling compact city development scenarios for Indonesian medium-sized cities
+020. Evaluation of urban heritage conservation zone effectiveness in Indonesian historic cities
+021. Development of child-friendly city spatial indicator for Indonesian urban planning
+022. Analysis of urban-rural fringe land conversion dynamics in Indonesian peri-urban areas
+023. Assessment of parking space provision adequacy in Indonesian urban commercial districts
+024. Modeling urban population distribution using nighttime light imagery for Indonesian cities
+025. Evaluation of vertical housing (rusunawa) location selection in Indonesian urban areas
+026. Development of urban resilience spatial assessment for Indonesian disaster-prone cities
+027. Analysis of street vendor spatial distribution and conflict with urban planning
+028. Assessment of urban green corridor connectivity for biodiversity in Indonesian cities
+029. Modeling land price dynamics in Indonesian urban areas using hedonic approach
+030. Evaluation of new town development impact on surrounding rural land use change
+031. Development of age-friendly city spatial planning criteria for Indonesian urban areas
+032. Analysis of industrial zone relocation impact on urban spatial restructuring
+033. Assessment of urban drainage system capacity in relation to land use intensification
+034. Modeling urban air quality in relation to spatial planning and traffic patterns
+035. Evaluation of TOD implementation around Indonesian MRT/LRT station areas
+036. Development of urban food desert identification method for Indonesian cities
+037. Analysis of gated community proliferation impact on Indonesian urban spatial equity
+038. Assessment of urban cemetery land availability and alternative solutions
+039. Modeling urban energy consumption patterns in relation to spatial form
+040. Evaluation of creative industry cluster spatial planning in Indonesian cities
+041. Development of inclusive urban design assessment for Indonesian public spaces
+042. Analysis of urban logistics facility location optimization in Indonesian metropolitan areas
+043. Assessment of urban water supply coverage in relation to spatial development patterns
+044. Modeling urban growth simulation for IKN (Nusantara) new capital city development
+045. Evaluation of urban renewal program impact on community displacement in Indonesian cities
+046. Development of smart parking spatial planning for Indonesian urban congestion reduction
+047. Analysis of urban health facility accessibility for Indonesian elderly population
+048. Assessment of urban solid waste management facility siting using GIS-MCDM
+049. Modeling urban microclimate improvement through green infrastructure spatial planning
+050. Evaluation of 15-minute city concept applicability for Indonesian urban neighborhoods
+
+CATEGORY 2: RURAL & REGIONAL PLANNING (051-100)
+051. Analysis of rural-urban migration impact on agricultural land abandonment in Java
+052. Development of agropolitan area delineation method for Indonesian rural development
+053. Assessment of rural infrastructure accessibility index for Indonesian remote villages
+054. Modeling agricultural land conversion prediction in Indonesian peri-urban regions
+055. Evaluation of transmigration settlement spatial planning effectiveness in Kalimantan
+056. Development of rural economic zone identification using spatial clustering analysis
+057. Analysis of deforestation patterns in Indonesian rural frontier areas
+058. Assessment of rural electrification coverage using spatial analysis in Eastern Indonesia
+059. Modeling rural settlement pattern evolution in Indonesian volcanic highland areas
+060. Evaluation of village fund (Dana Desa) allocation spatial equity across Indonesian regions
+061. Development of rural tourism destination spatial planning for Indonesian cultural villages
+062. Analysis of plantation expansion impact on indigenous community land in Sumatra
+063. Assessment of rural road network connectivity for agricultural product distribution
+064. Modeling food security vulnerability mapping for Indonesian rural districts
+065. Evaluation of special economic zone (KEK) impact on regional spatial development
+066. Development of rural disaster evacuation route planning using network analysis
+067. Analysis of mining activity impact on rural land use change in Indonesian regions
+068. Assessment of rural health facility distribution equity using spatial accessibility model
+069. Modeling regional economic growth corridor spatial development in Indonesian islands
+070. Evaluation of border area (kawasan perbatasan) spatial development program effectiveness
+071. Development of rural water resource management spatial planning for Indonesian watersheds
+072. Analysis of palm oil plantation expansion impact on rural spatial structure in Kalimantan
+073. Assessment of rural education facility accessibility for Indonesian remote communities
+074. Modeling inter-regional connectivity improvement through infrastructure development
+075. Evaluation of national strategic area (KSN) spatial planning implementation
+076. Development of rural livelihood vulnerability mapping using geospatial indicators
+077. Analysis of land consolidation program effectiveness for Indonesian agricultural areas
+078. Assessment of rural market center hierarchy using central place theory and GIS
+079. Modeling regional land use optimization for food production and conservation balance
+080. Evaluation of integrated rural development area (kawasan perdesaan) planning effectiveness
+081. Development of rural broadband infrastructure planning using spatial demand modeling
+082. Analysis of climate change impact on rural agricultural land suitability in Indonesia
+083. Assessment of rural sanitation facility coverage using spatial analysis
+084. Modeling regional urban system development for Indonesian polycentric planning
+085. Evaluation of agrarian reform (TORA) implementation spatial distribution and equity
+086. Development of rural renewable energy potential mapping for Indonesian off-grid areas
+087. Analysis of rural land fragmentation patterns and agricultural productivity impact
+088. Assessment of regional disaster risk reduction spatial planning effectiveness
+089. Modeling rural population projection and settlement expansion for Indonesian planning
+090. Evaluation of regional spatial plan (RTRW) conformity with actual land use development
+091. Development of rural indigenous territory (wilayah adat) spatial recognition framework
+092. Analysis of inter-island connectivity impact on regional economic spatial development
+093. Assessment of rural post-harvest facility location optimization for Indonesian agriculture
+094. Modeling regional carbon stock change from land use conversion in Indonesian provinces
+095. Evaluation of new autonomous region (DOB) spatial planning capacity and challenges
+096. Development of rural community-based spatial planning methodology for Indonesian villages
+097. Analysis of regional industrial cluster spatial development in Indonesian economic corridors
+098. Assessment of rural telecommunications tower siting using GIS-based MCDM
+099. Modeling regional water balance for spatial planning in Indonesian dry climate areas
+100. Evaluation of regional spatial planning coordination between adjacent Indonesian provinces
+
+CATEGORY 3: LAND USE CHANGE & MODELING (101-150)
+101. Prediction of urban land use change in Bandung metropolitan using CA-Markov model
+102. Analysis of deforestation drivers in Sumatran lowland using logistic regression
+103. Development of land use change simulation for Indonesian peat land conversion
+104. Modeling agricultural land loss prediction in Java using SLEUTH urban growth model
+105. Assessment of land use change impact on ecosystem services in Indonesian watersheds
+106. Development of deep learning-based land use classification for Indonesian urban areas
+107. Analysis of mangrove land use change detection using Sentinel-2 time series
+108. Modeling future land use scenarios for Indonesian new capital city (IKN) region
+109. Assessment of land use change impact on flood risk in Indonesian urban catchments
+110. Development of object-based image analysis for Indonesian land use mapping
+111. Analysis of land use transition matrix for Indonesian peri-urban transformation
+112. Modeling land use change impact on water quality in Indonesian river basins
+113. Assessment of land use policy effectiveness using counterfactual spatial analysis
+114. Development of agent-based model for Indonesian land use change simulation
+115. Analysis of land use change impact on local climate in Indonesian cities
+116. Modeling land suitability for urban expansion in Indonesian metropolitan regions
+117. Assessment of land use change impact on biodiversity in Indonesian tropical forests
+118. Development of Google Earth Engine-based land use monitoring for Indonesian provinces
+119. Analysis of land use change driving factors using geographically weighted regression
+120. Modeling land use optimization for sustainable development in Indonesian coastal zones
+121. Assessment of land use change impact on carbon emissions in Indonesian regions
+122. Development of machine learning ensemble for Indonesian land use classification accuracy
+123. Analysis of land use change trajectory in Indonesian mining concession areas
+124. Modeling land use demand projection for Indonesian spatial planning revision
+125. Assessment of land use change impact on groundwater recharge in Indonesian urban areas
+126. Development of time series analysis for Indonesian land use change trend detection
+127. Analysis of land use change in Indonesian volcanic hazard zones
+128. Modeling land use allocation optimization using linear programming for Indonesian planning
+129. Assessment of land use change impact on soil erosion in Indonesian highland areas
+130. Development of transfer learning approach for Indonesian land use classification
+131. Analysis of land use change in Indonesian special economic zones (KEK)
+132. Modeling land use change under climate change scenarios for Indonesian agriculture
+133. Assessment of land use change monitoring using SAR data for Indonesian cloud-prone areas
+134. Development of participatory land use change scenario building for Indonesian communities
+135. Analysis of land use change in Indonesian toll road corridor development areas
+136. Modeling land use change impact on urban heat island in Indonesian cities
+137. Assessment of land use change compliance with Indonesian spatial plan regulations
+138. Development of multi-temporal land use change analysis for Indonesian RTRW evaluation
+139. Analysis of land use change in Indonesian dam and reservoir catchment areas
+140. Modeling land use change prediction for Indonesian food estate development areas
+141. Assessment of land use change impact on air quality in Indonesian industrial regions
+142. Development of cloud computing-based land use change detection for Indonesian monitoring
+143. Analysis of land use change in Indonesian mangrove rehabilitation program areas
+144. Modeling land use change under different policy scenarios for Indonesian spatial planning
+145. Assessment of land use change accuracy using field validation in Indonesian landscapes
+146. Development of land use change early warning system for Indonesian critical areas
+147. Analysis of land use change in Indonesian transit-oriented development corridors
+148. Modeling land use change impact on disaster vulnerability in Indonesian coastal cities
+149. Assessment of land use change in Indonesian national park buffer zones
+150. Development of integrated land use change model for Indonesian sustainable development
+
+CATEGORY 4: LAND ADMINISTRATION & CADASTRE (151-200)
+151. Assessment of PTSL (Complete Systematic Land Registration) implementation effectiveness in Java
+152. Development of fit-for-purpose land administration framework for Indonesian rural areas
+153. Analysis of land dispute patterns and resolution mechanisms in Indonesian urban areas
+154. Implementation of UAV photogrammetry for Indonesian cadastral boundary mapping
+155. Assessment of digital land certificate (sertifikat elektronik) adoption in Indonesian cities
+156. Development of blockchain-based land registration system for Indonesian transparency
+157. Analysis of land tenure security impact on investment in Indonesian urban settlements
+158. Implementation of CORS GNSS network for Indonesian cadastral survey accuracy
+159. Assessment of One Map Policy implementation for Indonesian land administration integration
+160. Development of 3D cadastre framework for Indonesian multi-story building registration
+161. Analysis of customary land (tanah ulayat) recognition challenges in Indonesian land system
+162. Implementation of mobile GIS application for Indonesian field cadastral data collection
+163. Assessment of land valuation accuracy for Indonesian property tax (PBB) assessment
+164. Development of land information system integration for Indonesian ATR/BPN services
+165. Analysis of land banking mechanism for Indonesian urban development land provision
+166. Implementation of crowdsourced boundary mapping for Indonesian participatory cadastre
+167. Assessment of land redistribution program impact on Indonesian rural livelihoods
+168. Development of automated boundary extraction from satellite imagery for Indonesian cadastre
+169. Analysis of land registration backlog and acceleration strategy for Indonesian provinces
+170. Implementation of spatial data infrastructure for Indonesian land administration
+171. Assessment of land consolidation feasibility for Indonesian urban renewal projects
+172. Development of land suitability assessment for Indonesian agrarian reform allocation
+173. Analysis of land market dynamics and speculation in Indonesian new development areas
+174. Implementation of BIM-cadastre integration for Indonesian building permit system
+175. Assessment of community mapping accuracy for Indonesian village boundary delineation
+176. Development of land use conformity monitoring system for Indonesian permit compliance
+177. Analysis of land acquisition process efficiency for Indonesian infrastructure projects
+178. Implementation of point cadastre approach for Indonesian rapid land registration
+179. Assessment of land governance indicator for Indonesian provincial comparison
+180. Development of predictive model for Indonesian land dispute occurrence
+181. Analysis of land certificate distribution equity across Indonesian socioeconomic groups
+182. Implementation of WebGIS-based land information service for Indonesian public access
+183. Assessment of land readjustment mechanism for Indonesian urban infrastructure provision
+184. Development of land parcel identification system for Indonesian national cadastre
+185. Analysis of informal land transaction patterns in Indonesian peri-urban areas
+186. Implementation of RTK-GNSS for Indonesian high-accuracy cadastral boundary survey
+187. Assessment of land administration service delivery improvement in Indonesian BPN offices
+188. Development of land value capture mechanism for Indonesian TOD area development
+189. Analysis of land ownership concentration patterns in Indonesian agricultural regions
+190. Implementation of digital transformation strategy for Indonesian land administration
+191. Assessment of land registration impact on Indonesian women's land rights
+192. Development of land conflict early warning system for Indonesian agrarian areas
+193. Analysis of land conversion permit (izin alih fungsi) compliance in Indonesian regions
+194. Implementation of continuous operating reference station for Indonesian cadastral network
+195. Assessment of land administration capacity building needs for Indonesian local government
+196. Development of integrated land and building tax system for Indonesian municipalities
+197. Analysis of land tenure formalization impact on Indonesian informal settlement upgrading
+198. Implementation of machine learning for Indonesian land parcel boundary detection
+199. Assessment of land administration data quality for Indonesian spatial planning support
+200. Development of land governance assessment framework for Indonesian decentralized system
+
+CATEGORY 5: DISASTER RISK & SPATIAL PLANNING (201-250)
+201. Development of earthquake risk-based spatial planning for Indonesian seismic-prone cities
+202. Assessment of flood hazard zone mapping accuracy for Indonesian RDTR integration
+203. Analysis of tsunami evacuation route optimization using network analysis in Indonesian coastal cities
+204. Modeling volcanic hazard zone delineation for Indonesian settlement planning
+205. Evaluation of disaster risk reduction integration in Indonesian RTRW documents
+206. Development of landslide susceptibility mapping for Indonesian highland spatial planning
+207. Assessment of liquefaction risk zone identification for Indonesian urban development control
+208. Analysis of multi-hazard risk assessment for Indonesian spatial planning decision support
+209. Modeling climate change-induced flood risk for Indonesian coastal city adaptation planning
+210. Evaluation of building setback regulation effectiveness in Indonesian tsunami-prone areas
+211. Development of drought vulnerability mapping for Indonesian agricultural spatial planning
+212. Assessment of fire risk zone mapping for Indonesian peatland management planning
+213. Analysis of land subsidence impact on spatial planning in Indonesian coastal cities
+214. Modeling sea level rise impact on Indonesian coastal land use planning
+215. Evaluation of disaster-resilient settlement design for Indonesian earthquake-prone areas
+216. Development of real-time flood monitoring system for Indonesian urban spatial management
+217. Assessment of evacuation shelter location optimization for Indonesian disaster planning
+218. Analysis of post-disaster spatial reconstruction planning in Indonesian affected areas
+219. Modeling compound disaster risk assessment for Indonesian multi-hazard regions
+220. Evaluation of green infrastructure for flood mitigation in Indonesian urban spatial planning
+221. Development of community-based disaster risk mapping for Indonesian village planning
+222. Assessment of critical infrastructure vulnerability to natural hazards in Indonesian cities
+223. Analysis of informal settlement exposure to disaster risk in Indonesian urban areas
+224. Modeling debris flow hazard zone for Indonesian volcanic slope spatial planning
+225. Evaluation of disaster risk information integration in Indonesian land use permit system
+226. Development of early warning system spatial coverage analysis for Indonesian communities
+227. Assessment of disaster evacuation accessibility for Indonesian disabled population
+228. Analysis of post-earthquake land use change in Indonesian affected urban areas
+229. Modeling coastal erosion risk for Indonesian shoreline spatial management planning
+230. Evaluation of disaster risk transfer mechanism in Indonesian spatial planning framework
+231. Development of seismic microzonation for Indonesian urban detailed spatial planning
+232. Assessment of flood detention area designation in Indonesian watershed spatial planning
+233. Analysis of wildfire risk mapping for Indonesian dryland forest management planning
+234. Modeling climate adaptation spatial strategy for Indonesian small island communities
+235. Evaluation of disaster risk assessment methodology for Indonesian spatial plan revision
+236. Development of IoT-based landslide monitoring for Indonesian slope area management
+237. Assessment of disaster-resilient infrastructure location planning for Indonesian regions
+238. Analysis of cascading disaster risk in Indonesian volcanic-seismic hazard zones
+239. Modeling urban flood simulation for Indonesian spatial planning scenario evaluation
+240. Evaluation of nature-based solutions integration in Indonesian disaster risk planning
+241. Development of disaster damage assessment using remote sensing for Indonesian recovery
+242. Assessment of climate-resilient agriculture spatial planning for Indonesian food security
+243. Analysis of disaster risk perception and spatial behavior in Indonesian hazard zones
+244. Modeling tsunami inundation for Indonesian coastal spatial plan zone delineation
+245. Evaluation of disaster risk governance in Indonesian spatial planning institutions
+246. Development of multi-criteria disaster shelter site selection for Indonesian cities
+247. Assessment of disaster risk communication through spatial planning for Indonesian communities
+248. Analysis of land use planning effectiveness in reducing disaster losses in Indonesian cities
+249. Modeling compound flood-drought risk for Indonesian water resource spatial planning
+250. Evaluation of disaster recovery spatial planning framework for Indonesian post-disaster areas
+
+CATEGORY 6: TRANSPORTATION & INFRASTRUCTURE PLANNING (251-300)
+251. Analysis of public transport accessibility using GIS for Indonesian urban spatial planning
+252. Development of TOD area delineation method for Indonesian MRT/LRT station planning
+253. Assessment of road network connectivity impact on land use change in Indonesian regions
+254. Modeling traffic demand forecasting for Indonesian new town development planning
+255. Evaluation of non-motorized transport infrastructure provision in Indonesian urban areas
+256. Development of freight logistics facility location optimization for Indonesian industrial zones
+257. Analysis of parking demand spatial distribution for Indonesian commercial district planning
+258. Assessment of infrastructure carrying capacity for Indonesian urban density regulation
+259. Modeling transportation network impact on property value in Indonesian cities
+260. Evaluation of complete street design implementation for Indonesian urban road planning
+261. Development of bus rapid transit route optimization for Indonesian medium-sized cities
+262. Analysis of last-mile connectivity improvement for Indonesian TOD area planning
+263. Assessment of port hinterland spatial development for Indonesian maritime logistics
+264. Modeling airport noise zone impact on surrounding land use planning
+265. Evaluation of toll road interchange area spatial development control
+266. Development of pedestrian network planning for Indonesian urban commercial areas
+267. Analysis of ride-hailing service spatial pattern impact on Indonesian urban transport
+268. Assessment of electric vehicle charging station location planning for Indonesian cities
+269. Modeling inter-modal transportation hub location optimization for Indonesian regions
+270. Evaluation of waterway transportation infrastructure for Indonesian river city planning
+271. Development of school zone traffic safety spatial planning for Indonesian urban areas
+272. Analysis of informal transport (ojek/angkot) route spatial coverage in Indonesian cities
+273. Assessment of railway station area development potential for Indonesian TOD planning
+274. Modeling road widening impact on land use change in Indonesian urban corridors
+275. Evaluation of bicycle lane network planning for Indonesian flat terrain cities
+276. Development of emergency vehicle accessibility analysis for Indonesian urban planning
+277. Analysis of transportation infrastructure investment impact on regional spatial development
+278. Assessment of rural road improvement priority using spatial accessibility analysis
+279. Modeling new road construction impact on deforestation in Indonesian frontier areas
+280. Evaluation of integrated transport-land use planning for Indonesian metropolitan areas
+281. Development of smart mobility spatial planning for Indonesian smart city implementation
+282. Analysis of transportation equity using spatial accessibility for Indonesian urban poor
+283. Assessment of bridge and tunnel infrastructure impact on island connectivity planning
+284. Modeling transportation carbon emission spatial distribution for Indonesian climate planning
+285. Evaluation of park-and-ride facility location for Indonesian suburban commuter planning
+286. Development of goods distribution center spatial planning for Indonesian e-commerce growth
+287. Analysis of transportation infrastructure resilience to natural disasters in Indonesian regions
+288. Assessment of cable car/gondola transportation feasibility for Indonesian hilly terrain
+289. Modeling transportation demand management spatial strategy for Indonesian congested cities
+290. Evaluation of transportation impact assessment methodology for Indonesian development permits
+291. Development of autonomous vehicle infrastructure spatial planning for Indonesian cities
+292. Analysis of transportation network vulnerability for Indonesian critical infrastructure planning
+293. Assessment of river crossing infrastructure need for Indonesian urban expansion planning
+294. Modeling transportation accessibility impact on health facility utilization in Indonesian areas
+295. Evaluation of transportation-oriented land value capture for Indonesian infrastructure financing
+296. Development of multimodal transportation network planning for Indonesian tourism areas
+297. Analysis of transportation infrastructure gap for Indonesian special economic zone support
+298. Assessment of pedestrian overpass/underpass location optimization for Indonesian urban safety
+299. Modeling transportation system performance under different spatial development scenarios
+300. Evaluation of transportation master plan implementation for Indonesian metropolitan regions
+
+CATEGORY 7: ENVIRONMENTAL SPATIAL PLANNING (301-350)
+301. Assessment of ecosystem services valuation for Indonesian spatial planning decision support
+302. Development of green infrastructure network planning for Indonesian urban biodiversity
+303. Analysis of urban forest spatial distribution and connectivity in Indonesian cities
+304. Modeling carbon sequestration potential of different land use scenarios in Indonesian regions
+305. Evaluation of environmental carrying capacity for Indonesian spatial development control
+306. Development of watershed-based spatial planning for Indonesian water resource management
+307. Assessment of biodiversity hotspot identification for Indonesian conservation area planning
+308. Analysis of air quality spatial modeling for Indonesian industrial zone buffer planning
+309. Modeling groundwater vulnerability mapping for Indonesian land use regulation
+310. Evaluation of ecological footprint analysis for Indonesian regional sustainability assessment
+311. Development of urban green space accessibility analysis for Indonesian environmental justice
+312. Assessment of wetland conservation spatial planning for Indonesian biodiversity protection
+313. Analysis of noise pollution mapping for Indonesian urban land use compatibility
+314. Modeling soil contamination risk for Indonesian brownfield redevelopment planning
+315. Evaluation of environmental impact assessment spatial analysis for Indonesian development
+316. Development of river buffer zone delineation for Indonesian riparian spatial management
+317. Assessment of urban heat mitigation through green infrastructure spatial planning
+318. Analysis of waste management facility siting using environmental spatial criteria
+319. Modeling ecosystem connectivity for Indonesian wildlife corridor spatial planning
+320. Evaluation of environmental zoning effectiveness in Indonesian coastal spatial management
+321. Development of payment for ecosystem services spatial framework for Indonesian watersheds
+322. Assessment of urban agriculture spatial potential for Indonesian food system planning
+323. Analysis of industrial pollution dispersion modeling for Indonesian spatial buffer design
+324. Modeling land degradation risk for Indonesian sustainable land management planning
+325. Evaluation of environmental compliance monitoring using remote sensing for Indonesian areas
+326. Development of blue-green infrastructure planning for Indonesian urban water management
+327. Assessment of sacred natural site integration in Indonesian environmental spatial planning
+328. Analysis of microplastic pollution spatial distribution in Indonesian urban waterways
+329. Modeling climate change vulnerability for Indonesian ecosystem-based spatial adaptation
+330. Evaluation of environmental spatial planning for Indonesian peatland restoration program
+331. Development of urban biodiversity assessment for Indonesian green building spatial planning
+332. Assessment of mangrove ecosystem spatial planning for Indonesian coastal protection
+333. Analysis of light pollution mapping for Indonesian observatory and ecological area planning
+334. Modeling water quality spatial analysis for Indonesian drinking water source protection
+335. Evaluation of environmental carrying capacity method for Indonesian tourism area planning
+336. Development of nature-based solution spatial planning for Indonesian urban flood management
+337. Assessment of soil erosion risk mapping for Indonesian agricultural land conservation
+338. Analysis of environmental justice spatial assessment for Indonesian industrial area planning
+339. Modeling habitat suitability for endangered species in Indonesian conservation planning
+340. Evaluation of environmental spatial monitoring using drone technology for Indonesian areas
+341. Development of circular economy spatial planning for Indonesian industrial symbiosis
+342. Assessment of urban tree canopy coverage analysis for Indonesian city greening program
+343. Analysis of environmental health risk spatial assessment for Indonesian residential planning
+344. Modeling renewable energy potential mapping for Indonesian environmental spatial planning
+345. Evaluation of environmental restoration priority area identification for Indonesian degraded lands
+346. Development of climate-responsive urban design spatial guidelines for Indonesian cities
+347. Assessment of environmental flow requirement for Indonesian river basin spatial planning
+348. Analysis of invasive species distribution modeling for Indonesian ecosystem management
+349. Modeling environmental impact of urbanization on Indonesian coastal lagoon systems
+350. Evaluation of environmental spatial planning integration in Indonesian KLHS (strategic assessment)
+
+CATEGORY 8: COASTAL & MARITIME SPATIAL PLANNING (351-400)
+351. Development of marine spatial planning framework for Indonesian archipelagic waters
+352. Assessment of coastal land use change impact on mangrove ecosystem in Indonesian regions
+353. Analysis of coastal erosion and accretion patterns for Indonesian shoreline management
+354. Modeling sea level rise impact on Indonesian coastal settlement vulnerability
+355. Evaluation of coastal setback line determination for Indonesian spatial planning
+356. Development of small island spatial planning methodology for Indonesian outer islands
+357. Assessment of coastal aquaculture zone suitability mapping for Indonesian mariculture
+358. Analysis of coastal tourism carrying capacity for Indonesian beach destination planning
+359. Modeling coastal flood risk under climate change for Indonesian low-lying areas
+360. Evaluation of integrated coastal zone management implementation in Indonesian provinces
+361. Development of coral reef conservation zone delineation for Indonesian marine planning
+362. Assessment of fishing ground spatial management for Indonesian artisanal fisheries
+363. Analysis of coastal reclamation impact on marine ecosystem in Indonesian urban coasts
+364. Modeling tidal inundation mapping for Indonesian coastal spatial plan revision
+365. Evaluation of marine protected area effectiveness using spatial analysis in Indonesian waters
+366. Development of coastal community vulnerability assessment for Indonesian climate adaptation
+367. Assessment of seagrass ecosystem spatial distribution for Indonesian marine conservation
+368. Analysis of port development impact on coastal land use in Indonesian maritime cities
+369. Modeling coastal groundwater salinization risk for Indonesian land use planning
+370. Evaluation of beach nourishment spatial planning for Indonesian coastal erosion management
+371. Development of maritime boundary delineation for Indonesian inter-provincial planning
+372. Assessment of coastal wetland loss and restoration priority for Indonesian regions
+373. Analysis of offshore wind energy potential mapping for Indonesian maritime spatial planning
+374. Modeling coastal urban growth impact on water quality in Indonesian bays
+375. Evaluation of coastal disaster risk zone integration in Indonesian RTRW documents
+376. Development of blue economy spatial planning for Indonesian coastal communities
+377. Assessment of mangrove rehabilitation site selection using GIS for Indonesian coasts
+378. Analysis of coastal land subsidence impact on spatial planning in Indonesian cities
+379. Modeling marine debris accumulation spatial pattern for Indonesian coastal management
+380. Evaluation of coastal spatial planning compliance with Indonesian maritime law
+381. Development of underwater cultural heritage spatial protection for Indonesian marine areas
+382. Assessment of coastal sand mining impact on shoreline change in Indonesian regions
+383. Analysis of seaweed farming zone suitability for Indonesian coastal spatial planning
+384. Modeling storm surge risk for Indonesian coastal infrastructure planning
+385. Evaluation of coastal green belt effectiveness for Indonesian tsunami mitigation planning
+386. Development of marine spatial data infrastructure for Indonesian ocean governance
+387. Assessment of coastal livelihood diversification spatial planning for Indonesian communities
+388. Analysis of ship traffic density mapping for Indonesian maritime safety planning
+389. Modeling coastal habitat connectivity for Indonesian marine biodiversity conservation
+390. Evaluation of coastal spatial planning for Indonesian special economic zone development
+391. Development of participatory coastal mapping for Indonesian fishing community planning
+392. Assessment of coastal water quality spatial monitoring for Indonesian aquaculture planning
+393. Analysis of coastal land ownership pattern for Indonesian beach access planning
+394. Modeling coastal ecosystem service valuation for Indonesian spatial planning decision
+395. Evaluation of coastal spatial planning response to Indonesian La Nina/El Nino events
+396. Development of island carrying capacity assessment for Indonesian tourism spatial planning
+397. Assessment of coastal infrastructure vulnerability to climate change in Indonesian regions
+398. Analysis of maritime spatial conflict identification for Indonesian multi-use ocean planning
+399. Modeling coastal zone land use optimization for Indonesian sustainable development
+400. Evaluation of coastal spatial planning governance for Indonesian decentralized management
+
+CATEGORY 9: SMART CITY & DIGITAL PLANNING (401-450)
+401. Development of digital twin framework for Indonesian urban spatial planning and management
+402. Assessment of smart city readiness index for Indonesian medium-sized cities
+403. Analysis of big data application for Indonesian urban mobility pattern understanding
+404. Modeling urban growth prediction using deep learning for Indonesian spatial planning
+405. Evaluation of e-government spatial planning service for Indonesian public participation
+406. Development of IoT-based urban monitoring system for Indonesian smart city planning
+407. Assessment of open data platform for Indonesian spatial planning transparency
+408. Analysis of social media data for Indonesian urban activity pattern spatial analysis
+409. Modeling real-time urban simulation for Indonesian spatial planning decision support
+410. Evaluation of digital permit system (OSS) integration with Indonesian spatial planning
+411. Development of 3D city model for Indonesian urban planning visualization
+412. Assessment of smart transportation data for Indonesian urban spatial planning input
+413. Analysis of mobile phone data for Indonesian population distribution estimation
+414. Modeling AI-based land use classification for Indonesian automated spatial monitoring
+415. Evaluation of citizen science data quality for Indonesian participatory spatial planning
+416. Development of spatial decision support system for Indonesian RDTR formulation
+417. Assessment of smart building data integration for Indonesian urban energy planning
+418. Analysis of e-commerce spatial impact on Indonesian urban commercial area planning
+419. Modeling urban digital infrastructure planning for Indonesian smart city development
+420. Evaluation of GeoAI application for Indonesian spatial planning automation
+421. Development of augmented reality visualization for Indonesian spatial plan communication
+422. Assessment of smart waste management spatial planning for Indonesian urban areas
+423. Analysis of ride-hailing data for Indonesian urban transport spatial planning
+424. Modeling smart grid spatial planning for Indonesian urban energy distribution
+425. Evaluation of digital land administration integration with Indonesian spatial planning
+426. Development of real-time air quality monitoring for Indonesian urban spatial management
+427. Assessment of smart parking spatial data for Indonesian urban planning input
+428. Analysis of satellite-based urban monitoring for Indonesian spatial plan compliance
+429. Modeling urban resilience using digital twin for Indonesian disaster planning
+430. Evaluation of PropTech data for Indonesian urban property market spatial analysis
+431. Development of blockchain-based spatial planning permit for Indonesian transparency
+432. Assessment of autonomous vehicle impact on Indonesian urban spatial planning
+433. Analysis of remote work trend impact on Indonesian urban spatial structure
+434. Modeling smart water management spatial planning for Indonesian urban areas
+435. Evaluation of digital participation platform for Indonesian spatial planning engagement
+436. Development of machine learning-based building detection for Indonesian urban mapping
+437. Assessment of smart energy spatial planning for Indonesian net-zero city target
+438. Analysis of food delivery data for Indonesian urban food system spatial planning
+439. Modeling digital twin-based scenario planning for Indonesian urban development
+440. Evaluation of smart city indicator spatial distribution for Indonesian urban assessment
+441. Development of geospatial AI for Indonesian land use change prediction
+442. Assessment of smart mobility data for Indonesian TOD area planning evaluation
+443. Analysis of digital divide spatial pattern for Indonesian smart city equity planning
+444. Modeling urban metabolism using spatial data for Indonesian circular city planning
+445. Evaluation of digital twin for Indonesian infrastructure asset spatial management
+446. Development of computer vision for Indonesian streetscape quality assessment
+447. Assessment of smart grid data for Indonesian renewable energy spatial planning
+448. Analysis of platform economy spatial impact on Indonesian urban land use
+449. Modeling smart city infrastructure location optimization for Indonesian urban planning
+450. Evaluation of digital spatial planning maturity for Indonesian local government assessment
+
+CATEGORY 10: LAND POLICY & AGRARIAN REFORM (451-500)
+451. Analysis of TORA (Tanah Objek Reforma Agraria) spatial distribution equity across Indonesian provinces
+452. Assessment of land reform beneficiary livelihood improvement in Indonesian rural areas
+453. Evaluation of social forestry program spatial implementation in Indonesian forest margins
+454. Development of land conflict mapping and early warning system for Indonesian regions
+455. Analysis of land grabbing patterns and community resistance in Indonesian plantation areas
+456. Assessment of land redistribution impact on agricultural productivity in Indonesian regions
+457. Evaluation of community land rights recognition (hak komunal) implementation in Indonesia
+458. Development of land policy impact assessment framework for Indonesian spatial planning
+459. Analysis of land speculation patterns in Indonesian new infrastructure development corridors
+460. Assessment of land tenure security perception among Indonesian smallholder farmers
+461. Evaluation of land bank institution (bank tanah) implementation for Indonesian land provision
+462. Development of land governance indicator monitoring system for Indonesian provinces
+463. Analysis of gender equity in Indonesian land ownership and registration programs
+464. Assessment of indigenous land rights (masyarakat hukum adat) spatial recognition
+465. Evaluation of land acquisition law implementation for Indonesian public interest projects
+466. Development of land value taxation model for Indonesian urban land management
+467. Analysis of absentee landlordism patterns in Indonesian agricultural regions
+468. Assessment of land certification impact on Indonesian rural credit access
+469. Evaluation of land use permit compliance monitoring for Indonesian spatial planning
+470. Development of participatory land use planning for Indonesian community empowerment
+471. Analysis of land market liberalization impact on Indonesian smallholder land access
+472. Assessment of land readjustment mechanism for Indonesian urban infrastructure provision
+473. Evaluation of vertical housing policy impact on Indonesian urban land efficiency
+474. Development of land suitability assessment for Indonesian food estate program
+475. Analysis of land conversion moratorium effectiveness in Indonesian agricultural protection
+476. Assessment of land administration decentralization impact on Indonesian service delivery
+477. Evaluation of land reform and spatial planning integration for Indonesian development
+478. Development of land value capture mechanism for Indonesian transit infrastructure financing
+479. Analysis of land ownership inequality and spatial segregation in Indonesian cities
+480. Assessment of land registration acceleration impact on Indonesian land market formalization
+481. Evaluation of agrarian reform contribution to Indonesian SDGs achievement
+482. Development of land conflict resolution spatial decision support for Indonesian mediators
+483. Analysis of land policy coherence between national and local level in Indonesian planning
+484. Assessment of land reform impact on Indonesian deforestation reduction
+485. Evaluation of land administration modernization impact on Indonesian investment climate
+486. Development of land governance assessment for Indonesian anti-corruption spatial planning
+487. Analysis of land tenure insecurity impact on Indonesian urban informal settlement
+488. Assessment of land pooling mechanism for Indonesian new town development
+489. Evaluation of land use planning enforcement effectiveness in Indonesian local government
+490. Development of land information system for Indonesian integrated spatial planning
+491. Analysis of land policy impact on Indonesian housing affordability crisis
+492. Assessment of customary forest (hutan adat) recognition spatial implementation
+493. Evaluation of land reform program targeting accuracy for Indonesian marginalized groups
+494. Development of land value zone mapping for Indonesian property tax reform
+495. Analysis of land reclamation policy and coastal spatial planning in Indonesian cities
+496. Assessment of land administration service satisfaction for Indonesian public users
+497. Evaluation of land policy coordination between ATR/BPN and local planning agencies
+498. Development of land governance transparency index for Indonesian provincial ranking
+499. Analysis of land reform sustainability and beneficiary land retention in Indonesian areas
+500. Evaluation of integrated land policy framework for Indonesian sustainable spatial development

@@ -5,7 +5,7 @@
       <div class="flex items-center gap-2">
         <span class="text-2xl">📄</span>
         <span class="text-xl font-bold">PaperGenerator</span>
-        <span class="text-xs bg-blue-500/30 text-blue-300 px-2 py-0.5 rounded-full font-medium ml-1">IEEE</span>
+        <span class="text-xs bg-blue-500/30 text-blue-300 px-2 py-0.5 rounded-full font-medium ml-1">Multi-Journal</span>
       </div>
       <button
         @click="auth.loginWithGoogle()"
@@ -23,13 +23,12 @@
         AI-Powered Academic Paper Writing
       </div>
       <h1 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
-        Write IEEE Papers
-        <span class="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">10x Faster</span>
-        <br />with AI
+        Generate Papers for
+        <span class="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Journal</span>
+        <br />or Conference
       </h1>
       <p class="text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-        Generate complete IEEE-format academic papers with AI, manage your research, organize figures,
-        and export directly to DOCX — all in one place.
+        Generate publication-ready papers for IEEE, international journals, SINTA-indexed journals, and conferences. Support for robotics, mechatronics, AI, power electronics, PLC automation, and embedded systems. Auto-format with LaTeX formulas, figures, tables, and references — export to DOCX ready for submission.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <button
@@ -58,6 +57,82 @@
       </div>
     </section>
 
+    <!-- Publication Types Section -->
+    <section class="max-w-6xl mx-auto px-8 pb-24">
+      <h2 class="text-3xl font-bold text-center mb-4 text-white">Supported Publication Types</h2>
+      <p class="text-slate-400 text-center mb-12 max-w-2xl mx-auto">Generate papers for various publication venues with proper formatting and citation styles</p>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="bg-gradient-to-br from-indigo-500/10 to-indigo-600/5 border border-indigo-500/20 rounded-xl p-5">
+          <div class="text-2xl mb-2">📚</div>
+          <h3 class="font-semibold mb-1 text-indigo-300">IEEE Journals</h3>
+          <p class="text-slate-400 text-xs">TIE, TPEL, RA-L, TMECH, IoT-J, Access, and more. IEEE citation format and conference standards.</p>
+        </div>
+        <div class="bg-gradient-to-br from-emerald-500/10 to-emerald-600/5 border border-emerald-500/20 rounded-xl p-5">
+          <div class="text-2xl mb-2">🌐</div>
+          <h3 class="font-semibold mb-1 text-emerald-300">International Journals</h3>
+          <p class="text-slate-400 text-xs">Scopus, Web of Science indexed journals. APA, Vancouver, and custom citation formats supported.</p>
+        </div>
+        <div class="bg-gradient-to-br from-amber-500/10 to-amber-600/5 border border-amber-500/20 rounded-xl p-5">
+          <div class="text-2xl mb-2">🏆</div>
+          <h3 class="font-semibold mb-1 text-amber-300">SINTA Journals</h3>
+          <p class="text-slate-400 text-xs">Indonesian SINTA 1-6 indexed journals. Proper formatting for national publication requirements.</p>
+        </div>
+        <div class="bg-gradient-to-br from-rose-500/10 to-rose-600/5 border border-rose-500/20 rounded-xl p-5">
+          <div class="text-2xl mb-2">🎤</div>
+          <h3 class="font-semibold mb-1 text-rose-300">Conferences</h3>
+          <p class="text-slate-400 text-xs">International and local conferences. ICRA, IROS, IECON, and other technical conferences.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Domains Section -->
+    <section class="max-w-6xl mx-auto px-8 pb-24">
+      <h2 class="text-3xl font-bold text-center mb-4 text-white">Specialized Domains</h2>
+      <p class="text-slate-400 text-center mb-12 max-w-2xl mx-auto">Our AI is trained on 100+ domain-specific topics for accurate technical content generation</p>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="bg-gradient-to-br from-blue-500/10 to-blue-600/5 border border-blue-500/20 rounded-xl p-5">
+          <div class="text-2xl mb-2">⚙️</div>
+          <h3 class="font-semibold mb-1 text-blue-300">Engineering</h3>
+          <p class="text-slate-400 text-xs">Mechanical, Electrical, Civil, Chemical, Aerospace, Mechatronics, Robotics, Power Electronics</p>
+        </div>
+        <div class="bg-gradient-to-br from-purple-500/10 to-purple-600/5 border border-purple-500/20 rounded-xl p-5">
+          <div class="text-2xl mb-2">💻</div>
+          <h3 class="font-semibold mb-1 text-purple-300">Computer Science</h3>
+          <p class="text-slate-400 text-xs">AI, Machine Learning, Data Science, Cybersecurity, Cloud Computing, IoT, Blockchain, Networks</p>
+        </div>
+        <div class="bg-gradient-to-br from-red-500/10 to-red-600/5 border border-red-500/20 rounded-xl p-5">
+          <div class="text-2xl mb-2">🏥</div>
+          <h3 class="font-semibold mb-1 text-red-300">Medical & Health</h3>
+          <p class="text-slate-400 text-xs">Medicine, Nursing, Cardiology, Oncology, Biomedical Engineering, Public Health, Pharmacology</p>
+        </div>
+        <div class="bg-gradient-to-br from-green-500/10 to-green-600/5 border border-green-500/20 rounded-xl p-5">
+          <div class="text-2xl mb-2">🔬</div>
+          <h3 class="font-semibold mb-1 text-green-300">Natural Sciences</h3>
+          <p class="text-slate-400 text-xs">Biology, Chemistry, Physics, Mathematics, Environmental Science, Geology, Genetics</p>
+        </div>
+        <div class="bg-gradient-to-br from-amber-500/10 to-amber-600/5 border border-amber-500/20 rounded-xl p-5">
+          <div class="text-2xl mb-2">💰</div>
+          <h3 class="font-semibold mb-1 text-amber-300">Business & Finance</h3>
+          <p class="text-slate-400 text-xs">Accounting, Finance, Economics, Management, Marketing, Entrepreneurship, Operations</p>
+        </div>
+        <div class="bg-gradient-to-br from-cyan-500/10 to-cyan-600/5 border border-cyan-500/20 rounded-xl p-5">
+          <div class="text-2xl mb-2">�</div>
+          <h3 class="font-semibold mb-1 text-cyan-300">Social Sciences</h3>
+          <p class="text-slate-400 text-xs">Psychology, Sociology, Anthropology, Political Science, Education, Communication, Law</p>
+        </div>
+        <div class="bg-gradient-to-br from-lime-500/10 to-lime-600/5 border border-lime-500/20 rounded-xl p-5">
+          <div class="text-2xl mb-2">🌾</div>
+          <h3 class="font-semibold mb-1 text-lime-300">Agriculture & Environment</h3>
+          <p class="text-slate-400 text-xs">Agriculture, Agronomy, Horticulture, Environmental Engineering, Climate Science, Food Science</p>
+        </div>
+        <div class="bg-gradient-to-br from-pink-500/10 to-pink-600/5 border border-pink-500/20 rounded-xl p-5">
+          <div class="text-2xl mb-2">🎨</div>
+          <h3 class="font-semibold mb-1 text-pink-300">Arts & Humanities</h3>
+          <p class="text-slate-400 text-xs">Literature, Philosophy, History, Linguistics, Architecture, Performing Arts, Religious Studies</p>
+        </div>
+      </div>
+    </section>
+
     <!-- CTA -->
     <section class="max-w-3xl mx-auto px-8 pb-24 text-center">
       <div class="bg-gradient-to-r from-blue-600/20 to-cyan-600/20 border border-blue-500/30 rounded-3xl p-12">
@@ -75,7 +150,7 @@
 
     <!-- Footer -->
     <footer class="border-t border-white/10 py-8 text-center text-slate-500 text-sm">
-      <p>© 2026 PaperGenerator · IEEE Academic Paper AI Tool</p>
+      <p>© 2026 PaperGenerator · Multi-Journal Academic Paper AI Tool</p>
     </footer>
   </div>
 </template>
@@ -99,32 +174,62 @@ const features = [
   {
     icon: '⚡',
     title: 'AI Paper Generation',
-    description: 'Generate complete IEEE papers from a single prompt. AI writes sections, fills in content, creates references and equations.',
+    description: 'Generate complete papers with 4000+ words from a single prompt. AI writes all sections with academic writing style, proper citations, and anti-AI detection strategies.',
+  },
+  {
+    icon: '🌍',
+    title: 'Multi-Journal Support',
+    description: 'Support for IEEE, international journals, SINTA-indexed journals, and conferences. Auto-adapt formatting to match specific journal or conference requirements.',
+  },
+  {
+    icon: '🧮',
+    title: 'LaTeX Formula Generation',
+    description: 'Auto-generate mathematical formulas with DOCX-compatible LaTeX syntax. Supports domain-specific equations for control theory, kinematics, machine learning, and power electronics.',
+  },
+  {
+    icon: '🖼️',
+    title: 'AI Figure Generation',
+    description: 'Generate detailed technical figures with AI prompts. Create block diagrams, circuit schematics, charts, heatmaps, and experimental setup illustrations automatically.',
+  },
+  {
+    icon: '📊',
+    title: 'Table & Reference Management',
+    description: 'Auto-generate formatted tables with realistic data. Create 20+ references in various formats (IEEE, APA, Vancouver). All data internally consistent across figures, tables, and text.',
+  },
+  {
+    icon: '🎯',
+    title: 'Multi-Domain Support',
+    description: 'Specialized for robotics, mechatronics, AI/ML, PLC automation, power electronics, embedded systems, and IoT. Domain-specific equations, figures, and terminology.',
+  },
+  {
+    icon: '🏆',
+    title: 'SINTA Journal Support',
+    description: 'Optimized for Indonesian SINTA-indexed journals with proper formatting and citation styles. Support for SINTA 1-6 indexed journals across various disciplines.',
+  },
+  {
+    icon: '🎤',
+    title: 'Conference Paper Support',
+    description: 'Generate conference papers with proper formatting for international and local conferences. Abstract, paper length, and presentation-ready content.',
   },
   {
     icon: '🗂️',
     title: 'Paper Management',
-    description: 'Organize all your papers in one place. Create, edit, and delete papers. Each paper has its own figures and images.',
-  },
-  {
-    icon: '🖼️',
-    title: 'Smart Image Management',
-    description: 'Upload images per paper. Select images from dropdowns when editing figures. Toggle to include or exclude images from export.',
+    description: 'Organize all your papers in one place. Create, edit, and delete papers. Each paper has its own figures, images, and complete content.',
   },
   {
     icon: '📐',
-    title: 'IEEE Format',
-    description: 'Auto-format papers according to IEEE conference paper standards. Export to DOCX ready for submission.',
+    title: 'Format Export',
+    description: 'Auto-format papers according to journal or conference standards. Export directly to DOCX ready for submission with proper formatting, equations, and figures.',
   },
   {
     icon: '🔒',
     title: 'Secure & Private',
-    description: 'Login with Google. Each user only sees their own papers. Your research stays private and secure.',
+    description: 'Login with Google. Each user only sees their own papers. Your research stays private and secure with user-specific data isolation.',
   },
   {
-    icon: '📊',
+    icon: '📈',
     title: 'Admin Dashboard',
-    description: 'Track API token usage per user. View all papers. Monitor traffic and token consumption with detailed analytics.',
+    description: 'Track API token usage per user. View all papers. Monitor traffic and token consumption with detailed analytics for system management.',
   },
 ]
 </script>

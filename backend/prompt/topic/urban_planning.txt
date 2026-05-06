@@ -3,10 +3,634 @@ TOPIC GUIDE — Urban Planning
 ================================================================================
 FIELD: Social Sciences / Urban Studies
 DEFAULT CITATION STYLE: APA or Chicago
+SUBDISCIPLINE: Land Use, Transportation, Housing, Public Space, Regional Planning, Participatory Planning
 
-METHODOLOGY: GIS spatial analysis, demographic survey, land use modeling,
-  traffic simulation, participatory planning, mixed-methods research
-EQUATIONS: density indicators, accessibility index, traffic flow model
-FIGURES: GIS land use map, transportation network diagram, population density map
-TABLES: land use statistics, demographic breakdown, policy comparison
-VENUES: J. American Planning Assoc., Urban Studies, Cities, J. Urban Technology
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature related to the user's topic
+   - Reference recent works (2020-2025) that establish what is known
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame the gap as a researchable question with measurable outcomes
+   - Ensure the gap targets Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine the user's idea into a publishable research title
+   - The title must be specific, include method and application domain
+   - Target journals listed in COMMON REFERENCE VENUES below
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Use cutting-edge methods appropriate to the subdiscipline
+   - Include complete research procedures and protocols
+   - Specify all tools, software, instruments, and configurations
+   - Detail sample size calculations, validation strategy, and reproducibility measures
+
+4. ESTIMATED DATA & RESULTS:
+   - Provide realistic estimated data tables (10-30 data points)
+   - Include statistical measures: mean, std, 95% CI, effect sizes
+   - Performance/outcome metrics appropriate to the field
+   - Comparison with control groups or baseline conditions
+   - All numbers must be realistic, internally consistent, and domain-appropriate
+   - Data must support the research conclusions logically
+
+5. MATHEMATICAL FORMULAS:
+   - Include 5-10 relevant formulas with full variable definitions
+   - Statistical tests, measurement models, analytical equations
+   - Connect formulas to the methodology and results
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - Minimum 25-30 references organized thematically
+   - Structure: (a) foundational theories, (b) recent advances 2020-2025, (c) limitations
+   - Each subsection MUST end with: "However, no study has addressed..."
+   - Use synthesis paragraphs, not citation lists
+   - Include Indonesian/Southeast Asian context where relevant
+
+7. COMPLETE PAPER STRUCTURE:
+   - Title, Abstract (200-250 words), Keywords (5-7)
+   - Introduction (1500-2000 words)
+   - Literature Review (2000-3000 words)
+   - Methodology (2000-3000 words with formulas)
+   - Results & Discussion (2000-3000 words with tables and figure descriptions)
+   - Conclusion (500-800 words)
+   - References (30+ entries, 60%+ from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+ABSTRACT CHARACTERISTICS:
+  150–250 words. State the urban planning problem, study context, data/source material,
+  method, evaluation metrics, principal findings, contribution, limitation, and implication.
+
+INTRODUCTION ELEMENTS:
+  - Define the empirical or conceptual problem and why it matters now.
+  - Identify stakeholders, geographic/social scope, and practical consequences.
+  - Position the work against current literature and policy/technical debates.
+  - State research gap, research questions, objectives, and expected contribution.
+
+LITERATURE REVIEW:
+  Common section name: "Related Work" / "Background" / "Theoretical Framework"
+  - Core theories, frameworks, standards, and domain concepts.
+  - Recent empirical findings and methodological debates.
+  - Dataset, corpus, archive, platform, or field-site precedents.
+  - Limitations in existing evidence and opportunities for replication or extension.
+
+METHODOLOGY:
+  Common section name: "Methods" / "Research Design"
+  - Design: qualitative, quantitative, computational, experimental, comparative, or mixed methods.
+  - Data: sampling frame, inclusion criteria, instruments, preprocessing, and ethics.
+  - Analysis: model, coding scheme, validation strategy, robustness checks, and reproducibility.
+  - Metrics: report validity, reliability, uncertainty, bias, and domain-specific performance indicators.
+
+TYPICAL RESULTS & DISCUSSION:
+  - Present findings by research question, not by raw output sequence.
+  - Compare outcomes with prior studies and explain contextual differences.
+  - Discuss uncertainty, sensitivity, trade-offs, and alternative interpretations.
+  - Tables: descriptive statistics, model results, comparative cases, coded themes.
+  - Figures: conceptual framework, workflow, maps/networks/charts, result dashboards.
+
+TYPICAL FIGURES:
+  - Study design workflow or analytical pipeline.
+  - Conceptual framework or theory-of-change diagram.
+  - Spatial, network, timeline, or distribution visualization as relevant.
+  - Comparative result chart with confidence/uncertainty indicators.
+
+TYPICAL TABLES:
+  - Data/source summary: source | period | coverage | variables | limitations.
+  - Method matrix: research question | data | method | metric | expected output.
+  - Findings table: theme/model/case | evidence | interpretation | implication.
+
+CONCLUSION CHARACTERISTICS:
+  - Answer the research questions directly and quantify or qualify the contribution.
+  - State theoretical, methodological, and practical implications.
+  - Acknowledge limitations in scope, data quality, generalizability, and bias.
+  - Recommend future work with concrete datasets, sites, populations, or methods.
+
+COMMON REFERENCE VENUES:
+  Use leading journals, conferences, books, standards, and domain reports appropriate to the topic.
+
+DOMAIN VOCABULARY:
+  Land Use, Transportation, Housing, Public Space, Regional Planning, Participatory Planning
+
+METHODOLOGY KEYWORDS:
+  mixed-methods design, GIS/spatial analysis, survey research, case study comparison, statistical modeling, network analysis, content analysis, simulation modeling, interview-based inquiry, policy evaluation
+
+RESEARCH TOPIC BANK (500 TOPICS)
+
+CATEGORY 1 — Land Use Planning
+001. CATEGORY 2 — Land Use Planning: mixed-methods design of mixed-use zoning interventions in Indonesian secondary cities using accuracy as the primary evaluation lens.
+002. CATEGORY 3 — Land Use Planning: GIS/spatial analysis of mixed-use zoning interventions in coastal metropolitan regions using accessibility as the primary evaluation lens.
+003. CATEGORY 4 — Land Use Planning: survey research of mixed-use zoning interventions in university campuses using resilience as the primary evaluation lens.
+004. CATEGORY 5 — Land Use Planning: case study comparison of mixed-use zoning interventions in rural service areas using usability as the primary evaluation lens.
+005. CATEGORY 6 — Land Use Planning: statistical modeling of mixed-use zoning interventions in low-income neighborhoods using governance quality as the primary evaluation lens.
+006. CATEGORY 7 — Land Use Planning: network analysis of mixed-use zoning interventions in post-pandemic public institutions using accuracy as the primary evaluation lens.
+007. CATEGORY 8 — Land Use Planning: content analysis of mixed-use zoning interventions in rapidly growing suburbs using accessibility as the primary evaluation lens.
+008. CATEGORY 9 — Land Use Planning: simulation modeling of mixed-use zoning interventions in historic city centers using resilience as the primary evaluation lens.
+009. CATEGORY 10 — Land Use Planning: interview-based inquiry of mixed-use zoning interventions in cross-border regions using usability as the primary evaluation lens.
+010. CATEGORY 11 — Land Use Planning: policy evaluation of mixed-use zoning interventions in climate-vulnerable districts using governance quality as the primary evaluation lens.
+011. CATEGORY 12 — Land Use Planning: mixed-methods design of mixed-use zoning interventions in Indonesian secondary cities using accuracy as the primary evaluation lens.
+012. CATEGORY 13 — Land Use Planning: GIS/spatial analysis of mixed-use zoning interventions in coastal metropolitan regions using accessibility as the primary evaluation lens.
+013. CATEGORY 14 — Land Use Planning: survey research of mixed-use zoning interventions in university campuses using resilience as the primary evaluation lens.
+014. CATEGORY 15 — Land Use Planning: case study comparison of mixed-use zoning interventions in rural service areas using usability as the primary evaluation lens.
+015. CATEGORY 16 — Land Use Planning: statistical modeling of mixed-use zoning interventions in low-income neighborhoods using governance quality as the primary evaluation lens.
+016. CATEGORY 17 — Land Use Planning: network analysis of mixed-use zoning interventions in post-pandemic public institutions using accuracy as the primary evaluation lens.
+017. CATEGORY 18 — Land Use Planning: content analysis of mixed-use zoning interventions in rapidly growing suburbs using accessibility as the primary evaluation lens.
+018. CATEGORY 19 — Land Use Planning: simulation modeling of mixed-use zoning interventions in historic city centers using resilience as the primary evaluation lens.
+019. CATEGORY 20 — Land Use Planning: interview-based inquiry of mixed-use zoning interventions in cross-border regions using usability as the primary evaluation lens.
+020. CATEGORY 21 — Land Use Planning: policy evaluation of mixed-use zoning interventions in climate-vulnerable districts using governance quality as the primary evaluation lens.
+021. CATEGORY 22 — Land Use Planning: mixed-methods design of mixed-use zoning interventions in Indonesian secondary cities using accuracy as the primary evaluation lens.
+022. CATEGORY 23 — Land Use Planning: GIS/spatial analysis of mixed-use zoning interventions in coastal metropolitan regions using accessibility as the primary evaluation lens.
+023. CATEGORY 24 — Land Use Planning: survey research of mixed-use zoning interventions in university campuses using resilience as the primary evaluation lens.
+024. CATEGORY 25 — Land Use Planning: case study comparison of mixed-use zoning interventions in rural service areas using usability as the primary evaluation lens.
+025. CATEGORY 26 — Land Use Planning: statistical modeling of mixed-use zoning interventions in low-income neighborhoods using governance quality as the primary evaluation lens.
+026. CATEGORY 27 — Land Use Planning: network analysis of mixed-use zoning interventions in post-pandemic public institutions using accuracy as the primary evaluation lens.
+027. CATEGORY 28 — Land Use Planning: content analysis of mixed-use zoning interventions in rapidly growing suburbs using accessibility as the primary evaluation lens.
+028. CATEGORY 29 — Land Use Planning: simulation modeling of mixed-use zoning interventions in historic city centers using resilience as the primary evaluation lens.
+029. CATEGORY 30 — Land Use Planning: interview-based inquiry of mixed-use zoning interventions in cross-border regions using usability as the primary evaluation lens.
+030. CATEGORY 31 — Land Use Planning: policy evaluation of mixed-use zoning interventions in climate-vulnerable districts using governance quality as the primary evaluation lens.
+031. CATEGORY 32 — Land Use Planning: mixed-methods design of mixed-use zoning interventions in Indonesian secondary cities using accuracy as the primary evaluation lens.
+032. CATEGORY 33 — Land Use Planning: GIS/spatial analysis of mixed-use zoning interventions in coastal metropolitan regions using accessibility as the primary evaluation lens.
+033. CATEGORY 34 — Land Use Planning: survey research of mixed-use zoning interventions in university campuses using resilience as the primary evaluation lens.
+034. CATEGORY 35 — Land Use Planning: case study comparison of mixed-use zoning interventions in rural service areas using usability as the primary evaluation lens.
+035. CATEGORY 36 — Land Use Planning: statistical modeling of mixed-use zoning interventions in low-income neighborhoods using governance quality as the primary evaluation lens.
+036. CATEGORY 37 — Land Use Planning: network analysis of mixed-use zoning interventions in post-pandemic public institutions using accuracy as the primary evaluation lens.
+037. CATEGORY 38 — Land Use Planning: content analysis of mixed-use zoning interventions in rapidly growing suburbs using accessibility as the primary evaluation lens.
+038. CATEGORY 39 — Land Use Planning: simulation modeling of mixed-use zoning interventions in historic city centers using resilience as the primary evaluation lens.
+039. CATEGORY 40 — Land Use Planning: interview-based inquiry of mixed-use zoning interventions in cross-border regions using usability as the primary evaluation lens.
+040. CATEGORY 41 — Land Use Planning: policy evaluation of mixed-use zoning interventions in climate-vulnerable districts using governance quality as the primary evaluation lens.
+041. CATEGORY 42 — Land Use Planning: mixed-methods design of mixed-use zoning interventions in Indonesian secondary cities using accuracy as the primary evaluation lens.
+042. CATEGORY 43 — Land Use Planning: GIS/spatial analysis of mixed-use zoning interventions in coastal metropolitan regions using accessibility as the primary evaluation lens.
+043. CATEGORY 44 — Land Use Planning: survey research of mixed-use zoning interventions in university campuses using resilience as the primary evaluation lens.
+044. CATEGORY 45 — Land Use Planning: case study comparison of mixed-use zoning interventions in rural service areas using usability as the primary evaluation lens.
+045. CATEGORY 46 — Land Use Planning: statistical modeling of mixed-use zoning interventions in low-income neighborhoods using governance quality as the primary evaluation lens.
+046. CATEGORY 47 — Land Use Planning: network analysis of mixed-use zoning interventions in post-pandemic public institutions using accuracy as the primary evaluation lens.
+047. CATEGORY 48 — Land Use Planning: content analysis of mixed-use zoning interventions in rapidly growing suburbs using accessibility as the primary evaluation lens.
+048. CATEGORY 49 — Land Use Planning: simulation modeling of mixed-use zoning interventions in historic city centers using resilience as the primary evaluation lens.
+049. CATEGORY 50 — Land Use Planning: interview-based inquiry of mixed-use zoning interventions in cross-border regions using usability as the primary evaluation lens.
+050. CATEGORY 51 — Land Use Planning: policy evaluation of mixed-use zoning interventions in climate-vulnerable districts using governance quality as the primary evaluation lens.
+
+CATEGORY 2 — Transportation Planning
+051. CATEGORY 53 — Transportation Planning: GIS/spatial analysis of bus corridor interventions in Indonesian secondary cities using equity as the primary evaluation lens.
+052. CATEGORY 54 — Transportation Planning: survey research of bus corridor interventions in coastal metropolitan regions using efficiency as the primary evaluation lens.
+053. CATEGORY 55 — Transportation Planning: case study comparison of bus corridor interventions in university campuses using adoption as the primary evaluation lens.
+054. CATEGORY 56 — Transportation Planning: statistical modeling of bus corridor interventions in rural service areas using sustainability as the primary evaluation lens.
+055. CATEGORY 57 — Transportation Planning: network analysis of bus corridor interventions in low-income neighborhoods using social impact as the primary evaluation lens.
+056. CATEGORY 58 — Transportation Planning: content analysis of bus corridor interventions in post-pandemic public institutions using equity as the primary evaluation lens.
+057. CATEGORY 59 — Transportation Planning: simulation modeling of bus corridor interventions in rapidly growing suburbs using efficiency as the primary evaluation lens.
+058. CATEGORY 60 — Transportation Planning: interview-based inquiry of bus corridor interventions in historic city centers using adoption as the primary evaluation lens.
+059. CATEGORY 61 — Transportation Planning: policy evaluation of bus corridor interventions in cross-border regions using sustainability as the primary evaluation lens.
+060. CATEGORY 62 — Transportation Planning: mixed-methods design of bus corridor interventions in climate-vulnerable districts using social impact as the primary evaluation lens.
+061. CATEGORY 63 — Transportation Planning: GIS/spatial analysis of bus corridor interventions in Indonesian secondary cities using equity as the primary evaluation lens.
+062. CATEGORY 64 — Transportation Planning: survey research of bus corridor interventions in coastal metropolitan regions using efficiency as the primary evaluation lens.
+063. CATEGORY 65 — Transportation Planning: case study comparison of bus corridor interventions in university campuses using adoption as the primary evaluation lens.
+064. CATEGORY 66 — Transportation Planning: statistical modeling of bus corridor interventions in rural service areas using sustainability as the primary evaluation lens.
+065. CATEGORY 67 — Transportation Planning: network analysis of bus corridor interventions in low-income neighborhoods using social impact as the primary evaluation lens.
+066. CATEGORY 68 — Transportation Planning: content analysis of bus corridor interventions in post-pandemic public institutions using equity as the primary evaluation lens.
+067. CATEGORY 69 — Transportation Planning: simulation modeling of bus corridor interventions in rapidly growing suburbs using efficiency as the primary evaluation lens.
+068. CATEGORY 70 — Transportation Planning: interview-based inquiry of bus corridor interventions in historic city centers using adoption as the primary evaluation lens.
+069. CATEGORY 71 — Transportation Planning: policy evaluation of bus corridor interventions in cross-border regions using sustainability as the primary evaluation lens.
+070. CATEGORY 72 — Transportation Planning: mixed-methods design of bus corridor interventions in climate-vulnerable districts using social impact as the primary evaluation lens.
+071. CATEGORY 73 — Transportation Planning: GIS/spatial analysis of bus corridor interventions in Indonesian secondary cities using equity as the primary evaluation lens.
+072. CATEGORY 74 — Transportation Planning: survey research of bus corridor interventions in coastal metropolitan regions using efficiency as the primary evaluation lens.
+073. CATEGORY 75 — Transportation Planning: case study comparison of bus corridor interventions in university campuses using adoption as the primary evaluation lens.
+074. CATEGORY 76 — Transportation Planning: statistical modeling of bus corridor interventions in rural service areas using sustainability as the primary evaluation lens.
+075. CATEGORY 77 — Transportation Planning: network analysis of bus corridor interventions in low-income neighborhoods using social impact as the primary evaluation lens.
+076. CATEGORY 78 — Transportation Planning: content analysis of bus corridor interventions in post-pandemic public institutions using equity as the primary evaluation lens.
+077. CATEGORY 79 — Transportation Planning: simulation modeling of bus corridor interventions in rapidly growing suburbs using efficiency as the primary evaluation lens.
+078. CATEGORY 80 — Transportation Planning: interview-based inquiry of bus corridor interventions in historic city centers using adoption as the primary evaluation lens.
+079. CATEGORY 81 — Transportation Planning: policy evaluation of bus corridor interventions in cross-border regions using sustainability as the primary evaluation lens.
+080. CATEGORY 82 — Transportation Planning: mixed-methods design of bus corridor interventions in climate-vulnerable districts using social impact as the primary evaluation lens.
+081. CATEGORY 83 — Transportation Planning: GIS/spatial analysis of bus corridor interventions in Indonesian secondary cities using equity as the primary evaluation lens.
+082. CATEGORY 84 — Transportation Planning: survey research of bus corridor interventions in coastal metropolitan regions using efficiency as the primary evaluation lens.
+083. CATEGORY 85 — Transportation Planning: case study comparison of bus corridor interventions in university campuses using adoption as the primary evaluation lens.
+084. CATEGORY 86 — Transportation Planning: statistical modeling of bus corridor interventions in rural service areas using sustainability as the primary evaluation lens.
+085. CATEGORY 87 — Transportation Planning: network analysis of bus corridor interventions in low-income neighborhoods using social impact as the primary evaluation lens.
+086. CATEGORY 88 — Transportation Planning: content analysis of bus corridor interventions in post-pandemic public institutions using equity as the primary evaluation lens.
+087. CATEGORY 89 — Transportation Planning: simulation modeling of bus corridor interventions in rapidly growing suburbs using efficiency as the primary evaluation lens.
+088. CATEGORY 90 — Transportation Planning: interview-based inquiry of bus corridor interventions in historic city centers using adoption as the primary evaluation lens.
+089. CATEGORY 91 — Transportation Planning: policy evaluation of bus corridor interventions in cross-border regions using sustainability as the primary evaluation lens.
+090. CATEGORY 92 — Transportation Planning: mixed-methods design of bus corridor interventions in climate-vulnerable districts using social impact as the primary evaluation lens.
+091. CATEGORY 93 — Transportation Planning: GIS/spatial analysis of bus corridor interventions in Indonesian secondary cities using equity as the primary evaluation lens.
+092. CATEGORY 94 — Transportation Planning: survey research of bus corridor interventions in coastal metropolitan regions using efficiency as the primary evaluation lens.
+093. CATEGORY 95 — Transportation Planning: case study comparison of bus corridor interventions in university campuses using adoption as the primary evaluation lens.
+094. CATEGORY 96 — Transportation Planning: statistical modeling of bus corridor interventions in rural service areas using sustainability as the primary evaluation lens.
+095. CATEGORY 97 — Transportation Planning: network analysis of bus corridor interventions in low-income neighborhoods using social impact as the primary evaluation lens.
+096. CATEGORY 98 — Transportation Planning: content analysis of bus corridor interventions in post-pandemic public institutions using equity as the primary evaluation lens.
+097. CATEGORY 99 — Transportation Planning: simulation modeling of bus corridor interventions in rapidly growing suburbs using efficiency as the primary evaluation lens.
+098. CATEGORY 100 — Transportation Planning: interview-based inquiry of bus corridor interventions in historic city centers using adoption as the primary evaluation lens.
+099. CATEGORY 101 — Transportation Planning: policy evaluation of bus corridor interventions in cross-border regions using sustainability as the primary evaluation lens.
+100. CATEGORY 102 — Transportation Planning: mixed-methods design of bus corridor interventions in climate-vulnerable districts using social impact as the primary evaluation lens.
+
+CATEGORY 3 — Housing and Neighborhoods
+101. CATEGORY 104 — Housing and Neighborhoods: survey research of affordable housing interventions in Indonesian secondary cities using accessibility as the primary evaluation lens.
+102. CATEGORY 105 — Housing and Neighborhoods: case study comparison of affordable housing interventions in coastal metropolitan regions using resilience as the primary evaluation lens.
+103. CATEGORY 106 — Housing and Neighborhoods: statistical modeling of affordable housing interventions in university campuses using usability as the primary evaluation lens.
+104. CATEGORY 107 — Housing and Neighborhoods: network analysis of affordable housing interventions in rural service areas using governance quality as the primary evaluation lens.
+105. CATEGORY 108 — Housing and Neighborhoods: content analysis of affordable housing interventions in low-income neighborhoods using accuracy as the primary evaluation lens.
+106. CATEGORY 109 — Housing and Neighborhoods: simulation modeling of affordable housing interventions in post-pandemic public institutions using accessibility as the primary evaluation lens.
+107. CATEGORY 110 — Housing and Neighborhoods: interview-based inquiry of affordable housing interventions in rapidly growing suburbs using resilience as the primary evaluation lens.
+108. CATEGORY 111 — Housing and Neighborhoods: policy evaluation of affordable housing interventions in historic city centers using usability as the primary evaluation lens.
+109. CATEGORY 112 — Housing and Neighborhoods: mixed-methods design of affordable housing interventions in cross-border regions using governance quality as the primary evaluation lens.
+110. CATEGORY 113 — Housing and Neighborhoods: GIS/spatial analysis of affordable housing interventions in climate-vulnerable districts using accuracy as the primary evaluation lens.
+111. CATEGORY 114 — Housing and Neighborhoods: survey research of affordable housing interventions in Indonesian secondary cities using accessibility as the primary evaluation lens.
+112. CATEGORY 115 — Housing and Neighborhoods: case study comparison of affordable housing interventions in coastal metropolitan regions using resilience as the primary evaluation lens.
+113. CATEGORY 116 — Housing and Neighborhoods: statistical modeling of affordable housing interventions in university campuses using usability as the primary evaluation lens.
+114. CATEGORY 117 — Housing and Neighborhoods: network analysis of affordable housing interventions in rural service areas using governance quality as the primary evaluation lens.
+115. CATEGORY 118 — Housing and Neighborhoods: content analysis of affordable housing interventions in low-income neighborhoods using accuracy as the primary evaluation lens.
+116. CATEGORY 119 — Housing and Neighborhoods: simulation modeling of affordable housing interventions in post-pandemic public institutions using accessibility as the primary evaluation lens.
+117. CATEGORY 120 — Housing and Neighborhoods: interview-based inquiry of affordable housing interventions in rapidly growing suburbs using resilience as the primary evaluation lens.
+118. CATEGORY 121 — Housing and Neighborhoods: policy evaluation of affordable housing interventions in historic city centers using usability as the primary evaluation lens.
+119. CATEGORY 122 — Housing and Neighborhoods: mixed-methods design of affordable housing interventions in cross-border regions using governance quality as the primary evaluation lens.
+120. CATEGORY 123 — Housing and Neighborhoods: GIS/spatial analysis of affordable housing interventions in climate-vulnerable districts using accuracy as the primary evaluation lens.
+121. CATEGORY 124 — Housing and Neighborhoods: survey research of affordable housing interventions in Indonesian secondary cities using accessibility as the primary evaluation lens.
+122. CATEGORY 125 — Housing and Neighborhoods: case study comparison of affordable housing interventions in coastal metropolitan regions using resilience as the primary evaluation lens.
+123. CATEGORY 126 — Housing and Neighborhoods: statistical modeling of affordable housing interventions in university campuses using usability as the primary evaluation lens.
+124. CATEGORY 127 — Housing and Neighborhoods: network analysis of affordable housing interventions in rural service areas using governance quality as the primary evaluation lens.
+125. CATEGORY 128 — Housing and Neighborhoods: content analysis of affordable housing interventions in low-income neighborhoods using accuracy as the primary evaluation lens.
+126. CATEGORY 129 — Housing and Neighborhoods: simulation modeling of affordable housing interventions in post-pandemic public institutions using accessibility as the primary evaluation lens.
+127. CATEGORY 130 — Housing and Neighborhoods: interview-based inquiry of affordable housing interventions in rapidly growing suburbs using resilience as the primary evaluation lens.
+128. CATEGORY 131 — Housing and Neighborhoods: policy evaluation of affordable housing interventions in historic city centers using usability as the primary evaluation lens.
+129. CATEGORY 132 — Housing and Neighborhoods: mixed-methods design of affordable housing interventions in cross-border regions using governance quality as the primary evaluation lens.
+130. CATEGORY 133 — Housing and Neighborhoods: GIS/spatial analysis of affordable housing interventions in climate-vulnerable districts using accuracy as the primary evaluation lens.
+131. CATEGORY 134 — Housing and Neighborhoods: survey research of affordable housing interventions in Indonesian secondary cities using accessibility as the primary evaluation lens.
+132. CATEGORY 135 — Housing and Neighborhoods: case study comparison of affordable housing interventions in coastal metropolitan regions using resilience as the primary evaluation lens.
+133. CATEGORY 136 — Housing and Neighborhoods: statistical modeling of affordable housing interventions in university campuses using usability as the primary evaluation lens.
+134. CATEGORY 137 — Housing and Neighborhoods: network analysis of affordable housing interventions in rural service areas using governance quality as the primary evaluation lens.
+135. CATEGORY 138 — Housing and Neighborhoods: content analysis of affordable housing interventions in low-income neighborhoods using accuracy as the primary evaluation lens.
+136. CATEGORY 139 — Housing and Neighborhoods: simulation modeling of affordable housing interventions in post-pandemic public institutions using accessibility as the primary evaluation lens.
+137. CATEGORY 140 — Housing and Neighborhoods: interview-based inquiry of affordable housing interventions in rapidly growing suburbs using resilience as the primary evaluation lens.
+138. CATEGORY 141 — Housing and Neighborhoods: policy evaluation of affordable housing interventions in historic city centers using usability as the primary evaluation lens.
+139. CATEGORY 142 — Housing and Neighborhoods: mixed-methods design of affordable housing interventions in cross-border regions using governance quality as the primary evaluation lens.
+140. CATEGORY 143 — Housing and Neighborhoods: GIS/spatial analysis of affordable housing interventions in climate-vulnerable districts using accuracy as the primary evaluation lens.
+141. CATEGORY 144 — Housing and Neighborhoods: survey research of affordable housing interventions in Indonesian secondary cities using accessibility as the primary evaluation lens.
+142. CATEGORY 145 — Housing and Neighborhoods: case study comparison of affordable housing interventions in coastal metropolitan regions using resilience as the primary evaluation lens.
+143. CATEGORY 146 — Housing and Neighborhoods: statistical modeling of affordable housing interventions in university campuses using usability as the primary evaluation lens.
+144. CATEGORY 147 — Housing and Neighborhoods: network analysis of affordable housing interventions in rural service areas using governance quality as the primary evaluation lens.
+145. CATEGORY 148 — Housing and Neighborhoods: content analysis of affordable housing interventions in low-income neighborhoods using accuracy as the primary evaluation lens.
+146. CATEGORY 149 — Housing and Neighborhoods: simulation modeling of affordable housing interventions in post-pandemic public institutions using accessibility as the primary evaluation lens.
+147. CATEGORY 150 — Housing and Neighborhoods: interview-based inquiry of affordable housing interventions in rapidly growing suburbs using resilience as the primary evaluation lens.
+148. CATEGORY 151 — Housing and Neighborhoods: policy evaluation of affordable housing interventions in historic city centers using usability as the primary evaluation lens.
+149. CATEGORY 152 — Housing and Neighborhoods: mixed-methods design of affordable housing interventions in cross-border regions using governance quality as the primary evaluation lens.
+150. CATEGORY 153 — Housing and Neighborhoods: GIS/spatial analysis of affordable housing interventions in climate-vulnerable districts using accuracy as the primary evaluation lens.
+
+CATEGORY 4 — Public Space Design
+151. CATEGORY 155 — Public Space Design: case study comparison of street plaza interventions in Indonesian secondary cities using efficiency as the primary evaluation lens.
+152. CATEGORY 156 — Public Space Design: statistical modeling of street plaza interventions in coastal metropolitan regions using adoption as the primary evaluation lens.
+153. CATEGORY 157 — Public Space Design: network analysis of street plaza interventions in university campuses using sustainability as the primary evaluation lens.
+154. CATEGORY 158 — Public Space Design: content analysis of street plaza interventions in rural service areas using social impact as the primary evaluation lens.
+155. CATEGORY 159 — Public Space Design: simulation modeling of street plaza interventions in low-income neighborhoods using equity as the primary evaluation lens.
+156. CATEGORY 160 — Public Space Design: interview-based inquiry of street plaza interventions in post-pandemic public institutions using efficiency as the primary evaluation lens.
+157. CATEGORY 161 — Public Space Design: policy evaluation of street plaza interventions in rapidly growing suburbs using adoption as the primary evaluation lens.
+158. CATEGORY 162 — Public Space Design: mixed-methods design of street plaza interventions in historic city centers using sustainability as the primary evaluation lens.
+159. CATEGORY 163 — Public Space Design: GIS/spatial analysis of street plaza interventions in cross-border regions using social impact as the primary evaluation lens.
+160. CATEGORY 164 — Public Space Design: survey research of street plaza interventions in climate-vulnerable districts using equity as the primary evaluation lens.
+161. CATEGORY 165 — Public Space Design: case study comparison of street plaza interventions in Indonesian secondary cities using efficiency as the primary evaluation lens.
+162. CATEGORY 166 — Public Space Design: statistical modeling of street plaza interventions in coastal metropolitan regions using adoption as the primary evaluation lens.
+163. CATEGORY 167 — Public Space Design: network analysis of street plaza interventions in university campuses using sustainability as the primary evaluation lens.
+164. CATEGORY 168 — Public Space Design: content analysis of street plaza interventions in rural service areas using social impact as the primary evaluation lens.
+165. CATEGORY 169 — Public Space Design: simulation modeling of street plaza interventions in low-income neighborhoods using equity as the primary evaluation lens.
+166. CATEGORY 170 — Public Space Design: interview-based inquiry of street plaza interventions in post-pandemic public institutions using efficiency as the primary evaluation lens.
+167. CATEGORY 171 — Public Space Design: policy evaluation of street plaza interventions in rapidly growing suburbs using adoption as the primary evaluation lens.
+168. CATEGORY 172 — Public Space Design: mixed-methods design of street plaza interventions in historic city centers using sustainability as the primary evaluation lens.
+169. CATEGORY 173 — Public Space Design: GIS/spatial analysis of street plaza interventions in cross-border regions using social impact as the primary evaluation lens.
+170. CATEGORY 174 — Public Space Design: survey research of street plaza interventions in climate-vulnerable districts using equity as the primary evaluation lens.
+171. CATEGORY 175 — Public Space Design: case study comparison of street plaza interventions in Indonesian secondary cities using efficiency as the primary evaluation lens.
+172. CATEGORY 176 — Public Space Design: statistical modeling of street plaza interventions in coastal metropolitan regions using adoption as the primary evaluation lens.
+173. CATEGORY 177 — Public Space Design: network analysis of street plaza interventions in university campuses using sustainability as the primary evaluation lens.
+174. CATEGORY 178 — Public Space Design: content analysis of street plaza interventions in rural service areas using social impact as the primary evaluation lens.
+175. CATEGORY 179 — Public Space Design: simulation modeling of street plaza interventions in low-income neighborhoods using equity as the primary evaluation lens.
+176. CATEGORY 180 — Public Space Design: interview-based inquiry of street plaza interventions in post-pandemic public institutions using efficiency as the primary evaluation lens.
+177. CATEGORY 181 — Public Space Design: policy evaluation of street plaza interventions in rapidly growing suburbs using adoption as the primary evaluation lens.
+178. CATEGORY 182 — Public Space Design: mixed-methods design of street plaza interventions in historic city centers using sustainability as the primary evaluation lens.
+179. CATEGORY 183 — Public Space Design: GIS/spatial analysis of street plaza interventions in cross-border regions using social impact as the primary evaluation lens.
+180. CATEGORY 184 — Public Space Design: survey research of street plaza interventions in climate-vulnerable districts using equity as the primary evaluation lens.
+181. CATEGORY 185 — Public Space Design: case study comparison of street plaza interventions in Indonesian secondary cities using efficiency as the primary evaluation lens.
+182. CATEGORY 186 — Public Space Design: statistical modeling of street plaza interventions in coastal metropolitan regions using adoption as the primary evaluation lens.
+183. CATEGORY 187 — Public Space Design: network analysis of street plaza interventions in university campuses using sustainability as the primary evaluation lens.
+184. CATEGORY 188 — Public Space Design: content analysis of street plaza interventions in rural service areas using social impact as the primary evaluation lens.
+185. CATEGORY 189 — Public Space Design: simulation modeling of street plaza interventions in low-income neighborhoods using equity as the primary evaluation lens.
+186. CATEGORY 190 — Public Space Design: interview-based inquiry of street plaza interventions in post-pandemic public institutions using efficiency as the primary evaluation lens.
+187. CATEGORY 191 — Public Space Design: policy evaluation of street plaza interventions in rapidly growing suburbs using adoption as the primary evaluation lens.
+188. CATEGORY 192 — Public Space Design: mixed-methods design of street plaza interventions in historic city centers using sustainability as the primary evaluation lens.
+189. CATEGORY 193 — Public Space Design: GIS/spatial analysis of street plaza interventions in cross-border regions using social impact as the primary evaluation lens.
+190. CATEGORY 194 — Public Space Design: survey research of street plaza interventions in climate-vulnerable districts using equity as the primary evaluation lens.
+191. CATEGORY 195 — Public Space Design: case study comparison of street plaza interventions in Indonesian secondary cities using efficiency as the primary evaluation lens.
+192. CATEGORY 196 — Public Space Design: statistical modeling of street plaza interventions in coastal metropolitan regions using adoption as the primary evaluation lens.
+193. CATEGORY 197 — Public Space Design: network analysis of street plaza interventions in university campuses using sustainability as the primary evaluation lens.
+194. CATEGORY 198 — Public Space Design: content analysis of street plaza interventions in rural service areas using social impact as the primary evaluation lens.
+195. CATEGORY 199 — Public Space Design: simulation modeling of street plaza interventions in low-income neighborhoods using equity as the primary evaluation lens.
+196. CATEGORY 200 — Public Space Design: interview-based inquiry of street plaza interventions in post-pandemic public institutions using efficiency as the primary evaluation lens.
+197. CATEGORY 201 — Public Space Design: policy evaluation of street plaza interventions in rapidly growing suburbs using adoption as the primary evaluation lens.
+198. CATEGORY 202 — Public Space Design: mixed-methods design of street plaza interventions in historic city centers using sustainability as the primary evaluation lens.
+199. CATEGORY 203 — Public Space Design: GIS/spatial analysis of street plaza interventions in cross-border regions using social impact as the primary evaluation lens.
+200. CATEGORY 204 — Public Space Design: survey research of street plaza interventions in climate-vulnerable districts using equity as the primary evaluation lens.
+
+CATEGORY 5 — Environmental Planning
+201. CATEGORY 206 — Environmental Planning: statistical modeling of green corridor interventions in Indonesian secondary cities using resilience as the primary evaluation lens.
+202. CATEGORY 207 — Environmental Planning: network analysis of green corridor interventions in coastal metropolitan regions using usability as the primary evaluation lens.
+203. CATEGORY 208 — Environmental Planning: content analysis of green corridor interventions in university campuses using governance quality as the primary evaluation lens.
+204. CATEGORY 209 — Environmental Planning: simulation modeling of green corridor interventions in rural service areas using accuracy as the primary evaluation lens.
+205. CATEGORY 210 — Environmental Planning: interview-based inquiry of green corridor interventions in low-income neighborhoods using accessibility as the primary evaluation lens.
+206. CATEGORY 211 — Environmental Planning: policy evaluation of green corridor interventions in post-pandemic public institutions using resilience as the primary evaluation lens.
+207. CATEGORY 212 — Environmental Planning: mixed-methods design of green corridor interventions in rapidly growing suburbs using usability as the primary evaluation lens.
+208. CATEGORY 213 — Environmental Planning: GIS/spatial analysis of green corridor interventions in historic city centers using governance quality as the primary evaluation lens.
+209. CATEGORY 214 — Environmental Planning: survey research of green corridor interventions in cross-border regions using accuracy as the primary evaluation lens.
+210. CATEGORY 215 — Environmental Planning: case study comparison of green corridor interventions in climate-vulnerable districts using accessibility as the primary evaluation lens.
+211. CATEGORY 216 — Environmental Planning: statistical modeling of green corridor interventions in Indonesian secondary cities using resilience as the primary evaluation lens.
+212. CATEGORY 217 — Environmental Planning: network analysis of green corridor interventions in coastal metropolitan regions using usability as the primary evaluation lens.
+213. CATEGORY 218 — Environmental Planning: content analysis of green corridor interventions in university campuses using governance quality as the primary evaluation lens.
+214. CATEGORY 219 — Environmental Planning: simulation modeling of green corridor interventions in rural service areas using accuracy as the primary evaluation lens.
+215. CATEGORY 220 — Environmental Planning: interview-based inquiry of green corridor interventions in low-income neighborhoods using accessibility as the primary evaluation lens.
+216. CATEGORY 221 — Environmental Planning: policy evaluation of green corridor interventions in post-pandemic public institutions using resilience as the primary evaluation lens.
+217. CATEGORY 222 — Environmental Planning: mixed-methods design of green corridor interventions in rapidly growing suburbs using usability as the primary evaluation lens.
+218. CATEGORY 223 — Environmental Planning: GIS/spatial analysis of green corridor interventions in historic city centers using governance quality as the primary evaluation lens.
+219. CATEGORY 224 — Environmental Planning: survey research of green corridor interventions in cross-border regions using accuracy as the primary evaluation lens.
+220. CATEGORY 225 — Environmental Planning: case study comparison of green corridor interventions in climate-vulnerable districts using accessibility as the primary evaluation lens.
+221. CATEGORY 226 — Environmental Planning: statistical modeling of green corridor interventions in Indonesian secondary cities using resilience as the primary evaluation lens.
+222. CATEGORY 227 — Environmental Planning: network analysis of green corridor interventions in coastal metropolitan regions using usability as the primary evaluation lens.
+223. CATEGORY 228 — Environmental Planning: content analysis of green corridor interventions in university campuses using governance quality as the primary evaluation lens.
+224. CATEGORY 229 — Environmental Planning: simulation modeling of green corridor interventions in rural service areas using accuracy as the primary evaluation lens.
+225. CATEGORY 230 — Environmental Planning: interview-based inquiry of green corridor interventions in low-income neighborhoods using accessibility as the primary evaluation lens.
+226. CATEGORY 231 — Environmental Planning: policy evaluation of green corridor interventions in post-pandemic public institutions using resilience as the primary evaluation lens.
+227. CATEGORY 232 — Environmental Planning: mixed-methods design of green corridor interventions in rapidly growing suburbs using usability as the primary evaluation lens.
+228. CATEGORY 233 — Environmental Planning: GIS/spatial analysis of green corridor interventions in historic city centers using governance quality as the primary evaluation lens.
+229. CATEGORY 234 — Environmental Planning: survey research of green corridor interventions in cross-border regions using accuracy as the primary evaluation lens.
+230. CATEGORY 235 — Environmental Planning: case study comparison of green corridor interventions in climate-vulnerable districts using accessibility as the primary evaluation lens.
+231. CATEGORY 236 — Environmental Planning: statistical modeling of green corridor interventions in Indonesian secondary cities using resilience as the primary evaluation lens.
+232. CATEGORY 237 — Environmental Planning: network analysis of green corridor interventions in coastal metropolitan regions using usability as the primary evaluation lens.
+233. CATEGORY 238 — Environmental Planning: content analysis of green corridor interventions in university campuses using governance quality as the primary evaluation lens.
+234. CATEGORY 239 — Environmental Planning: simulation modeling of green corridor interventions in rural service areas using accuracy as the primary evaluation lens.
+235. CATEGORY 240 — Environmental Planning: interview-based inquiry of green corridor interventions in low-income neighborhoods using accessibility as the primary evaluation lens.
+236. CATEGORY 241 — Environmental Planning: policy evaluation of green corridor interventions in post-pandemic public institutions using resilience as the primary evaluation lens.
+237. CATEGORY 242 — Environmental Planning: mixed-methods design of green corridor interventions in rapidly growing suburbs using usability as the primary evaluation lens.
+238. CATEGORY 243 — Environmental Planning: GIS/spatial analysis of green corridor interventions in historic city centers using governance quality as the primary evaluation lens.
+239. CATEGORY 244 — Environmental Planning: survey research of green corridor interventions in cross-border regions using accuracy as the primary evaluation lens.
+240. CATEGORY 245 — Environmental Planning: case study comparison of green corridor interventions in climate-vulnerable districts using accessibility as the primary evaluation lens.
+241. CATEGORY 246 — Environmental Planning: statistical modeling of green corridor interventions in Indonesian secondary cities using resilience as the primary evaluation lens.
+242. CATEGORY 247 — Environmental Planning: network analysis of green corridor interventions in coastal metropolitan regions using usability as the primary evaluation lens.
+243. CATEGORY 248 — Environmental Planning: content analysis of green corridor interventions in university campuses using governance quality as the primary evaluation lens.
+244. CATEGORY 249 — Environmental Planning: simulation modeling of green corridor interventions in rural service areas using accuracy as the primary evaluation lens.
+245. CATEGORY 250 — Environmental Planning: interview-based inquiry of green corridor interventions in low-income neighborhoods using accessibility as the primary evaluation lens.
+246. CATEGORY 251 — Environmental Planning: policy evaluation of green corridor interventions in post-pandemic public institutions using resilience as the primary evaluation lens.
+247. CATEGORY 252 — Environmental Planning: mixed-methods design of green corridor interventions in rapidly growing suburbs using usability as the primary evaluation lens.
+248. CATEGORY 253 — Environmental Planning: GIS/spatial analysis of green corridor interventions in historic city centers using governance quality as the primary evaluation lens.
+249. CATEGORY 254 — Environmental Planning: survey research of green corridor interventions in cross-border regions using accuracy as the primary evaluation lens.
+250. CATEGORY 255 — Environmental Planning: case study comparison of green corridor interventions in climate-vulnerable districts using accessibility as the primary evaluation lens.
+
+CATEGORY 6 — Regional Planning
+251. CATEGORY 257 — Regional Planning: network analysis of metropolitan growth interventions in Indonesian secondary cities using adoption as the primary evaluation lens.
+252. CATEGORY 258 — Regional Planning: content analysis of metropolitan growth interventions in coastal metropolitan regions using sustainability as the primary evaluation lens.
+253. CATEGORY 259 — Regional Planning: simulation modeling of metropolitan growth interventions in university campuses using social impact as the primary evaluation lens.
+254. CATEGORY 260 — Regional Planning: interview-based inquiry of metropolitan growth interventions in rural service areas using equity as the primary evaluation lens.
+255. CATEGORY 261 — Regional Planning: policy evaluation of metropolitan growth interventions in low-income neighborhoods using efficiency as the primary evaluation lens.
+256. CATEGORY 262 — Regional Planning: mixed-methods design of metropolitan growth interventions in post-pandemic public institutions using adoption as the primary evaluation lens.
+257. CATEGORY 263 — Regional Planning: GIS/spatial analysis of metropolitan growth interventions in rapidly growing suburbs using sustainability as the primary evaluation lens.
+258. CATEGORY 264 — Regional Planning: survey research of metropolitan growth interventions in historic city centers using social impact as the primary evaluation lens.
+259. CATEGORY 265 — Regional Planning: case study comparison of metropolitan growth interventions in cross-border regions using equity as the primary evaluation lens.
+260. CATEGORY 266 — Regional Planning: statistical modeling of metropolitan growth interventions in climate-vulnerable districts using efficiency as the primary evaluation lens.
+261. CATEGORY 267 — Regional Planning: network analysis of metropolitan growth interventions in Indonesian secondary cities using adoption as the primary evaluation lens.
+262. CATEGORY 268 — Regional Planning: content analysis of metropolitan growth interventions in coastal metropolitan regions using sustainability as the primary evaluation lens.
+263. CATEGORY 269 — Regional Planning: simulation modeling of metropolitan growth interventions in university campuses using social impact as the primary evaluation lens.
+264. CATEGORY 270 — Regional Planning: interview-based inquiry of metropolitan growth interventions in rural service areas using equity as the primary evaluation lens.
+265. CATEGORY 271 — Regional Planning: policy evaluation of metropolitan growth interventions in low-income neighborhoods using efficiency as the primary evaluation lens.
+266. CATEGORY 272 — Regional Planning: mixed-methods design of metropolitan growth interventions in post-pandemic public institutions using adoption as the primary evaluation lens.
+267. CATEGORY 273 — Regional Planning: GIS/spatial analysis of metropolitan growth interventions in rapidly growing suburbs using sustainability as the primary evaluation lens.
+268. CATEGORY 274 — Regional Planning: survey research of metropolitan growth interventions in historic city centers using social impact as the primary evaluation lens.
+269. CATEGORY 275 — Regional Planning: case study comparison of metropolitan growth interventions in cross-border regions using equity as the primary evaluation lens.
+270. CATEGORY 276 — Regional Planning: statistical modeling of metropolitan growth interventions in climate-vulnerable districts using efficiency as the primary evaluation lens.
+271. CATEGORY 277 — Regional Planning: network analysis of metropolitan growth interventions in Indonesian secondary cities using adoption as the primary evaluation lens.
+272. CATEGORY 278 — Regional Planning: content analysis of metropolitan growth interventions in coastal metropolitan regions using sustainability as the primary evaluation lens.
+273. CATEGORY 279 — Regional Planning: simulation modeling of metropolitan growth interventions in university campuses using social impact as the primary evaluation lens.
+274. CATEGORY 280 — Regional Planning: interview-based inquiry of metropolitan growth interventions in rural service areas using equity as the primary evaluation lens.
+275. CATEGORY 281 — Regional Planning: policy evaluation of metropolitan growth interventions in low-income neighborhoods using efficiency as the primary evaluation lens.
+276. CATEGORY 282 — Regional Planning: mixed-methods design of metropolitan growth interventions in post-pandemic public institutions using adoption as the primary evaluation lens.
+277. CATEGORY 283 — Regional Planning: GIS/spatial analysis of metropolitan growth interventions in rapidly growing suburbs using sustainability as the primary evaluation lens.
+278. CATEGORY 284 — Regional Planning: survey research of metropolitan growth interventions in historic city centers using social impact as the primary evaluation lens.
+279. CATEGORY 285 — Regional Planning: case study comparison of metropolitan growth interventions in cross-border regions using equity as the primary evaluation lens.
+280. CATEGORY 286 — Regional Planning: statistical modeling of metropolitan growth interventions in climate-vulnerable districts using efficiency as the primary evaluation lens.
+281. CATEGORY 287 — Regional Planning: network analysis of metropolitan growth interventions in Indonesian secondary cities using adoption as the primary evaluation lens.
+282. CATEGORY 288 — Regional Planning: content analysis of metropolitan growth interventions in coastal metropolitan regions using sustainability as the primary evaluation lens.
+283. CATEGORY 289 — Regional Planning: simulation modeling of metropolitan growth interventions in university campuses using social impact as the primary evaluation lens.
+284. CATEGORY 290 — Regional Planning: interview-based inquiry of metropolitan growth interventions in rural service areas using equity as the primary evaluation lens.
+285. CATEGORY 291 — Regional Planning: policy evaluation of metropolitan growth interventions in low-income neighborhoods using efficiency as the primary evaluation lens.
+286. CATEGORY 292 — Regional Planning: mixed-methods design of metropolitan growth interventions in post-pandemic public institutions using adoption as the primary evaluation lens.
+287. CATEGORY 293 — Regional Planning: GIS/spatial analysis of metropolitan growth interventions in rapidly growing suburbs using sustainability as the primary evaluation lens.
+288. CATEGORY 294 — Regional Planning: survey research of metropolitan growth interventions in historic city centers using social impact as the primary evaluation lens.
+289. CATEGORY 295 — Regional Planning: case study comparison of metropolitan growth interventions in cross-border regions using equity as the primary evaluation lens.
+290. CATEGORY 296 — Regional Planning: statistical modeling of metropolitan growth interventions in climate-vulnerable districts using efficiency as the primary evaluation lens.
+291. CATEGORY 297 — Regional Planning: network analysis of metropolitan growth interventions in Indonesian secondary cities using adoption as the primary evaluation lens.
+292. CATEGORY 298 — Regional Planning: content analysis of metropolitan growth interventions in coastal metropolitan regions using sustainability as the primary evaluation lens.
+293. CATEGORY 299 — Regional Planning: simulation modeling of metropolitan growth interventions in university campuses using social impact as the primary evaluation lens.
+294. CATEGORY 300 — Regional Planning: interview-based inquiry of metropolitan growth interventions in rural service areas using equity as the primary evaluation lens.
+295. CATEGORY 301 — Regional Planning: policy evaluation of metropolitan growth interventions in low-income neighborhoods using efficiency as the primary evaluation lens.
+296. CATEGORY 302 — Regional Planning: mixed-methods design of metropolitan growth interventions in post-pandemic public institutions using adoption as the primary evaluation lens.
+297. CATEGORY 303 — Regional Planning: GIS/spatial analysis of metropolitan growth interventions in rapidly growing suburbs using sustainability as the primary evaluation lens.
+298. CATEGORY 304 — Regional Planning: survey research of metropolitan growth interventions in historic city centers using social impact as the primary evaluation lens.
+299. CATEGORY 305 — Regional Planning: case study comparison of metropolitan growth interventions in cross-border regions using equity as the primary evaluation lens.
+300. CATEGORY 306 — Regional Planning: statistical modeling of metropolitan growth interventions in climate-vulnerable districts using efficiency as the primary evaluation lens.
+
+CATEGORY 7 — Participatory Planning
+301. CATEGORY 308 — Participatory Planning: content analysis of community workshop interventions in Indonesian secondary cities using usability as the primary evaluation lens.
+302. CATEGORY 309 — Participatory Planning: simulation modeling of community workshop interventions in coastal metropolitan regions using governance quality as the primary evaluation lens.
+303. CATEGORY 310 — Participatory Planning: interview-based inquiry of community workshop interventions in university campuses using accuracy as the primary evaluation lens.
+304. CATEGORY 311 — Participatory Planning: policy evaluation of community workshop interventions in rural service areas using accessibility as the primary evaluation lens.
+305. CATEGORY 312 — Participatory Planning: mixed-methods design of community workshop interventions in low-income neighborhoods using resilience as the primary evaluation lens.
+306. CATEGORY 313 — Participatory Planning: GIS/spatial analysis of community workshop interventions in post-pandemic public institutions using usability as the primary evaluation lens.
+307. CATEGORY 314 — Participatory Planning: survey research of community workshop interventions in rapidly growing suburbs using governance quality as the primary evaluation lens.
+308. CATEGORY 315 — Participatory Planning: case study comparison of community workshop interventions in historic city centers using accuracy as the primary evaluation lens.
+309. CATEGORY 316 — Participatory Planning: statistical modeling of community workshop interventions in cross-border regions using accessibility as the primary evaluation lens.
+310. CATEGORY 317 — Participatory Planning: network analysis of community workshop interventions in climate-vulnerable districts using resilience as the primary evaluation lens.
+311. CATEGORY 318 — Participatory Planning: content analysis of community workshop interventions in Indonesian secondary cities using usability as the primary evaluation lens.
+312. CATEGORY 319 — Participatory Planning: simulation modeling of community workshop interventions in coastal metropolitan regions using governance quality as the primary evaluation lens.
+313. CATEGORY 320 — Participatory Planning: interview-based inquiry of community workshop interventions in university campuses using accuracy as the primary evaluation lens.
+314. CATEGORY 321 — Participatory Planning: policy evaluation of community workshop interventions in rural service areas using accessibility as the primary evaluation lens.
+315. CATEGORY 322 — Participatory Planning: mixed-methods design of community workshop interventions in low-income neighborhoods using resilience as the primary evaluation lens.
+316. CATEGORY 323 — Participatory Planning: GIS/spatial analysis of community workshop interventions in post-pandemic public institutions using usability as the primary evaluation lens.
+317. CATEGORY 324 — Participatory Planning: survey research of community workshop interventions in rapidly growing suburbs using governance quality as the primary evaluation lens.
+318. CATEGORY 325 — Participatory Planning: case study comparison of community workshop interventions in historic city centers using accuracy as the primary evaluation lens.
+319. CATEGORY 326 — Participatory Planning: statistical modeling of community workshop interventions in cross-border regions using accessibility as the primary evaluation lens.
+320. CATEGORY 327 — Participatory Planning: network analysis of community workshop interventions in climate-vulnerable districts using resilience as the primary evaluation lens.
+321. CATEGORY 328 — Participatory Planning: content analysis of community workshop interventions in Indonesian secondary cities using usability as the primary evaluation lens.
+322. CATEGORY 329 — Participatory Planning: simulation modeling of community workshop interventions in coastal metropolitan regions using governance quality as the primary evaluation lens.
+323. CATEGORY 330 — Participatory Planning: interview-based inquiry of community workshop interventions in university campuses using accuracy as the primary evaluation lens.
+324. CATEGORY 331 — Participatory Planning: policy evaluation of community workshop interventions in rural service areas using accessibility as the primary evaluation lens.
+325. CATEGORY 332 — Participatory Planning: mixed-methods design of community workshop interventions in low-income neighborhoods using resilience as the primary evaluation lens.
+326. CATEGORY 333 — Participatory Planning: GIS/spatial analysis of community workshop interventions in post-pandemic public institutions using usability as the primary evaluation lens.
+327. CATEGORY 334 — Participatory Planning: survey research of community workshop interventions in rapidly growing suburbs using governance quality as the primary evaluation lens.
+328. CATEGORY 335 — Participatory Planning: case study comparison of community workshop interventions in historic city centers using accuracy as the primary evaluation lens.
+329. CATEGORY 336 — Participatory Planning: statistical modeling of community workshop interventions in cross-border regions using accessibility as the primary evaluation lens.
+330. CATEGORY 337 — Participatory Planning: network analysis of community workshop interventions in climate-vulnerable districts using resilience as the primary evaluation lens.
+331. CATEGORY 338 — Participatory Planning: content analysis of community workshop interventions in Indonesian secondary cities using usability as the primary evaluation lens.
+332. CATEGORY 339 — Participatory Planning: simulation modeling of community workshop interventions in coastal metropolitan regions using governance quality as the primary evaluation lens.
+333. CATEGORY 340 — Participatory Planning: interview-based inquiry of community workshop interventions in university campuses using accuracy as the primary evaluation lens.
+334. CATEGORY 341 — Participatory Planning: policy evaluation of community workshop interventions in rural service areas using accessibility as the primary evaluation lens.
+335. CATEGORY 342 — Participatory Planning: mixed-methods design of community workshop interventions in low-income neighborhoods using resilience as the primary evaluation lens.
+336. CATEGORY 343 — Participatory Planning: GIS/spatial analysis of community workshop interventions in post-pandemic public institutions using usability as the primary evaluation lens.
+337. CATEGORY 344 — Participatory Planning: survey research of community workshop interventions in rapidly growing suburbs using governance quality as the primary evaluation lens.
+338. CATEGORY 345 — Participatory Planning: case study comparison of community workshop interventions in historic city centers using accuracy as the primary evaluation lens.
+339. CATEGORY 346 — Participatory Planning: statistical modeling of community workshop interventions in cross-border regions using accessibility as the primary evaluation lens.
+340. CATEGORY 347 — Participatory Planning: network analysis of community workshop interventions in climate-vulnerable districts using resilience as the primary evaluation lens.
+341. CATEGORY 348 — Participatory Planning: content analysis of community workshop interventions in Indonesian secondary cities using usability as the primary evaluation lens.
+342. CATEGORY 349 — Participatory Planning: simulation modeling of community workshop interventions in coastal metropolitan regions using governance quality as the primary evaluation lens.
+343. CATEGORY 350 — Participatory Planning: interview-based inquiry of community workshop interventions in university campuses using accuracy as the primary evaluation lens.
+344. CATEGORY 351 — Participatory Planning: policy evaluation of community workshop interventions in rural service areas using accessibility as the primary evaluation lens.
+345. CATEGORY 352 — Participatory Planning: mixed-methods design of community workshop interventions in low-income neighborhoods using resilience as the primary evaluation lens.
+346. CATEGORY 353 — Participatory Planning: GIS/spatial analysis of community workshop interventions in post-pandemic public institutions using usability as the primary evaluation lens.
+347. CATEGORY 354 — Participatory Planning: survey research of community workshop interventions in rapidly growing suburbs using governance quality as the primary evaluation lens.
+348. CATEGORY 355 — Participatory Planning: case study comparison of community workshop interventions in historic city centers using accuracy as the primary evaluation lens.
+349. CATEGORY 356 — Participatory Planning: statistical modeling of community workshop interventions in cross-border regions using accessibility as the primary evaluation lens.
+350. CATEGORY 357 — Participatory Planning: network analysis of community workshop interventions in climate-vulnerable districts using resilience as the primary evaluation lens.
+
+CATEGORY 8 — Urban Governance
+351. CATEGORY 359 — Urban Governance: simulation modeling of planning regulation interventions in Indonesian secondary cities using sustainability as the primary evaluation lens.
+352. CATEGORY 360 — Urban Governance: interview-based inquiry of planning regulation interventions in coastal metropolitan regions using social impact as the primary evaluation lens.
+353. CATEGORY 361 — Urban Governance: policy evaluation of planning regulation interventions in university campuses using equity as the primary evaluation lens.
+354. CATEGORY 362 — Urban Governance: mixed-methods design of planning regulation interventions in rural service areas using efficiency as the primary evaluation lens.
+355. CATEGORY 363 — Urban Governance: GIS/spatial analysis of planning regulation interventions in low-income neighborhoods using adoption as the primary evaluation lens.
+356. CATEGORY 364 — Urban Governance: survey research of planning regulation interventions in post-pandemic public institutions using sustainability as the primary evaluation lens.
+357. CATEGORY 365 — Urban Governance: case study comparison of planning regulation interventions in rapidly growing suburbs using social impact as the primary evaluation lens.
+358. CATEGORY 366 — Urban Governance: statistical modeling of planning regulation interventions in historic city centers using equity as the primary evaluation lens.
+359. CATEGORY 367 — Urban Governance: network analysis of planning regulation interventions in cross-border regions using efficiency as the primary evaluation lens.
+360. CATEGORY 368 — Urban Governance: content analysis of planning regulation interventions in climate-vulnerable districts using adoption as the primary evaluation lens.
+361. CATEGORY 369 — Urban Governance: simulation modeling of planning regulation interventions in Indonesian secondary cities using sustainability as the primary evaluation lens.
+362. CATEGORY 370 — Urban Governance: interview-based inquiry of planning regulation interventions in coastal metropolitan regions using social impact as the primary evaluation lens.
+363. CATEGORY 371 — Urban Governance: policy evaluation of planning regulation interventions in university campuses using equity as the primary evaluation lens.
+364. CATEGORY 372 — Urban Governance: mixed-methods design of planning regulation interventions in rural service areas using efficiency as the primary evaluation lens.
+365. CATEGORY 373 — Urban Governance: GIS/spatial analysis of planning regulation interventions in low-income neighborhoods using adoption as the primary evaluation lens.
+366. CATEGORY 374 — Urban Governance: survey research of planning regulation interventions in post-pandemic public institutions using sustainability as the primary evaluation lens.
+367. CATEGORY 375 — Urban Governance: case study comparison of planning regulation interventions in rapidly growing suburbs using social impact as the primary evaluation lens.
+368. CATEGORY 376 — Urban Governance: statistical modeling of planning regulation interventions in historic city centers using equity as the primary evaluation lens.
+369. CATEGORY 377 — Urban Governance: network analysis of planning regulation interventions in cross-border regions using efficiency as the primary evaluation lens.
+370. CATEGORY 378 — Urban Governance: content analysis of planning regulation interventions in climate-vulnerable districts using adoption as the primary evaluation lens.
+371. CATEGORY 379 — Urban Governance: simulation modeling of planning regulation interventions in Indonesian secondary cities using sustainability as the primary evaluation lens.
+372. CATEGORY 380 — Urban Governance: interview-based inquiry of planning regulation interventions in coastal metropolitan regions using social impact as the primary evaluation lens.
+373. CATEGORY 381 — Urban Governance: policy evaluation of planning regulation interventions in university campuses using equity as the primary evaluation lens.
+374. CATEGORY 382 — Urban Governance: mixed-methods design of planning regulation interventions in rural service areas using efficiency as the primary evaluation lens.
+375. CATEGORY 383 — Urban Governance: GIS/spatial analysis of planning regulation interventions in low-income neighborhoods using adoption as the primary evaluation lens.
+376. CATEGORY 384 — Urban Governance: survey research of planning regulation interventions in post-pandemic public institutions using sustainability as the primary evaluation lens.
+377. CATEGORY 385 — Urban Governance: case study comparison of planning regulation interventions in rapidly growing suburbs using social impact as the primary evaluation lens.
+378. CATEGORY 386 — Urban Governance: statistical modeling of planning regulation interventions in historic city centers using equity as the primary evaluation lens.
+379. CATEGORY 387 — Urban Governance: network analysis of planning regulation interventions in cross-border regions using efficiency as the primary evaluation lens.
+380. CATEGORY 388 — Urban Governance: content analysis of planning regulation interventions in climate-vulnerable districts using adoption as the primary evaluation lens.
+381. CATEGORY 389 — Urban Governance: simulation modeling of planning regulation interventions in Indonesian secondary cities using sustainability as the primary evaluation lens.
+382. CATEGORY 390 — Urban Governance: interview-based inquiry of planning regulation interventions in coastal metropolitan regions using social impact as the primary evaluation lens.
+383. CATEGORY 391 — Urban Governance: policy evaluation of planning regulation interventions in university campuses using equity as the primary evaluation lens.
+384. CATEGORY 392 — Urban Governance: mixed-methods design of planning regulation interventions in rural service areas using efficiency as the primary evaluation lens.
+385. CATEGORY 393 — Urban Governance: GIS/spatial analysis of planning regulation interventions in low-income neighborhoods using adoption as the primary evaluation lens.
+386. CATEGORY 394 — Urban Governance: survey research of planning regulation interventions in post-pandemic public institutions using sustainability as the primary evaluation lens.
+387. CATEGORY 395 — Urban Governance: case study comparison of planning regulation interventions in rapidly growing suburbs using social impact as the primary evaluation lens.
+388. CATEGORY 396 — Urban Governance: statistical modeling of planning regulation interventions in historic city centers using equity as the primary evaluation lens.
+389. CATEGORY 397 — Urban Governance: network analysis of planning regulation interventions in cross-border regions using efficiency as the primary evaluation lens.
+390. CATEGORY 398 — Urban Governance: content analysis of planning regulation interventions in climate-vulnerable districts using adoption as the primary evaluation lens.
+391. CATEGORY 399 — Urban Governance: simulation modeling of planning regulation interventions in Indonesian secondary cities using sustainability as the primary evaluation lens.
+392. CATEGORY 400 — Urban Governance: interview-based inquiry of planning regulation interventions in coastal metropolitan regions using social impact as the primary evaluation lens.
+393. CATEGORY 401 — Urban Governance: policy evaluation of planning regulation interventions in university campuses using equity as the primary evaluation lens.
+394. CATEGORY 402 — Urban Governance: mixed-methods design of planning regulation interventions in rural service areas using efficiency as the primary evaluation lens.
+395. CATEGORY 403 — Urban Governance: GIS/spatial analysis of planning regulation interventions in low-income neighborhoods using adoption as the primary evaluation lens.
+396. CATEGORY 404 — Urban Governance: survey research of planning regulation interventions in post-pandemic public institutions using sustainability as the primary evaluation lens.
+397. CATEGORY 405 — Urban Governance: case study comparison of planning regulation interventions in rapidly growing suburbs using social impact as the primary evaluation lens.
+398. CATEGORY 406 — Urban Governance: statistical modeling of planning regulation interventions in historic city centers using equity as the primary evaluation lens.
+399. CATEGORY 407 — Urban Governance: network analysis of planning regulation interventions in cross-border regions using efficiency as the primary evaluation lens.
+400. CATEGORY 408 — Urban Governance: content analysis of planning regulation interventions in climate-vulnerable districts using adoption as the primary evaluation lens.
+
+CATEGORY 9 — Infrastructure Planning
+401. CATEGORY 410 — Infrastructure Planning: interview-based inquiry of stormwater infrastructure interventions in Indonesian secondary cities using governance quality as the primary evaluation lens.
+402. CATEGORY 411 — Infrastructure Planning: policy evaluation of stormwater infrastructure interventions in coastal metropolitan regions using accuracy as the primary evaluation lens.
+403. CATEGORY 412 — Infrastructure Planning: mixed-methods design of stormwater infrastructure interventions in university campuses using accessibility as the primary evaluation lens.
+404. CATEGORY 413 — Infrastructure Planning: GIS/spatial analysis of stormwater infrastructure interventions in rural service areas using resilience as the primary evaluation lens.
+405. CATEGORY 414 — Infrastructure Planning: survey research of stormwater infrastructure interventions in low-income neighborhoods using usability as the primary evaluation lens.
+406. CATEGORY 415 — Infrastructure Planning: case study comparison of stormwater infrastructure interventions in post-pandemic public institutions using governance quality as the primary evaluation lens.
+407. CATEGORY 416 — Infrastructure Planning: statistical modeling of stormwater infrastructure interventions in rapidly growing suburbs using accuracy as the primary evaluation lens.
+408. CATEGORY 417 — Infrastructure Planning: network analysis of stormwater infrastructure interventions in historic city centers using accessibility as the primary evaluation lens.
+409. CATEGORY 418 — Infrastructure Planning: content analysis of stormwater infrastructure interventions in cross-border regions using resilience as the primary evaluation lens.
+410. CATEGORY 419 — Infrastructure Planning: simulation modeling of stormwater infrastructure interventions in climate-vulnerable districts using usability as the primary evaluation lens.
+411. CATEGORY 420 — Infrastructure Planning: interview-based inquiry of stormwater infrastructure interventions in Indonesian secondary cities using governance quality as the primary evaluation lens.
+412. CATEGORY 421 — Infrastructure Planning: policy evaluation of stormwater infrastructure interventions in coastal metropolitan regions using accuracy as the primary evaluation lens.
+413. CATEGORY 422 — Infrastructure Planning: mixed-methods design of stormwater infrastructure interventions in university campuses using accessibility as the primary evaluation lens.
+414. CATEGORY 423 — Infrastructure Planning: GIS/spatial analysis of stormwater infrastructure interventions in rural service areas using resilience as the primary evaluation lens.
+415. CATEGORY 424 — Infrastructure Planning: survey research of stormwater infrastructure interventions in low-income neighborhoods using usability as the primary evaluation lens.
+416. CATEGORY 425 — Infrastructure Planning: case study comparison of stormwater infrastructure interventions in post-pandemic public institutions using governance quality as the primary evaluation lens.
+417. CATEGORY 426 — Infrastructure Planning: statistical modeling of stormwater infrastructure interventions in rapidly growing suburbs using accuracy as the primary evaluation lens.
+418. CATEGORY 427 — Infrastructure Planning: network analysis of stormwater infrastructure interventions in historic city centers using accessibility as the primary evaluation lens.
+419. CATEGORY 428 — Infrastructure Planning: content analysis of stormwater infrastructure interventions in cross-border regions using resilience as the primary evaluation lens.
+420. CATEGORY 429 — Infrastructure Planning: simulation modeling of stormwater infrastructure interventions in climate-vulnerable districts using usability as the primary evaluation lens.
+421. CATEGORY 430 — Infrastructure Planning: interview-based inquiry of stormwater infrastructure interventions in Indonesian secondary cities using governance quality as the primary evaluation lens.
+422. CATEGORY 431 — Infrastructure Planning: policy evaluation of stormwater infrastructure interventions in coastal metropolitan regions using accuracy as the primary evaluation lens.
+423. CATEGORY 432 — Infrastructure Planning: mixed-methods design of stormwater infrastructure interventions in university campuses using accessibility as the primary evaluation lens.
+424. CATEGORY 433 — Infrastructure Planning: GIS/spatial analysis of stormwater infrastructure interventions in rural service areas using resilience as the primary evaluation lens.
+425. CATEGORY 434 — Infrastructure Planning: survey research of stormwater infrastructure interventions in low-income neighborhoods using usability as the primary evaluation lens.
+426. CATEGORY 435 — Infrastructure Planning: case study comparison of stormwater infrastructure interventions in post-pandemic public institutions using governance quality as the primary evaluation lens.
+427. CATEGORY 436 — Infrastructure Planning: statistical modeling of stormwater infrastructure interventions in rapidly growing suburbs using accuracy as the primary evaluation lens.
+428. CATEGORY 437 — Infrastructure Planning: network analysis of stormwater infrastructure interventions in historic city centers using accessibility as the primary evaluation lens.
+429. CATEGORY 438 — Infrastructure Planning: content analysis of stormwater infrastructure interventions in cross-border regions using resilience as the primary evaluation lens.
+430. CATEGORY 439 — Infrastructure Planning: simulation modeling of stormwater infrastructure interventions in climate-vulnerable districts using usability as the primary evaluation lens.
+431. CATEGORY 440 — Infrastructure Planning: interview-based inquiry of stormwater infrastructure interventions in Indonesian secondary cities using governance quality as the primary evaluation lens.
+432. CATEGORY 441 — Infrastructure Planning: policy evaluation of stormwater infrastructure interventions in coastal metropolitan regions using accuracy as the primary evaluation lens.
+433. CATEGORY 442 — Infrastructure Planning: mixed-methods design of stormwater infrastructure interventions in university campuses using accessibility as the primary evaluation lens.
+434. CATEGORY 443 — Infrastructure Planning: GIS/spatial analysis of stormwater infrastructure interventions in rural service areas using resilience as the primary evaluation lens.
+435. CATEGORY 444 — Infrastructure Planning: survey research of stormwater infrastructure interventions in low-income neighborhoods using usability as the primary evaluation lens.
+436. CATEGORY 445 — Infrastructure Planning: case study comparison of stormwater infrastructure interventions in post-pandemic public institutions using governance quality as the primary evaluation lens.
+437. CATEGORY 446 — Infrastructure Planning: statistical modeling of stormwater infrastructure interventions in rapidly growing suburbs using accuracy as the primary evaluation lens.
+438. CATEGORY 447 — Infrastructure Planning: network analysis of stormwater infrastructure interventions in historic city centers using accessibility as the primary evaluation lens.
+439. CATEGORY 448 — Infrastructure Planning: content analysis of stormwater infrastructure interventions in cross-border regions using resilience as the primary evaluation lens.
+440. CATEGORY 449 — Infrastructure Planning: simulation modeling of stormwater infrastructure interventions in climate-vulnerable districts using usability as the primary evaluation lens.
+441. CATEGORY 450 — Infrastructure Planning: interview-based inquiry of stormwater infrastructure interventions in Indonesian secondary cities using governance quality as the primary evaluation lens.
+442. CATEGORY 451 — Infrastructure Planning: policy evaluation of stormwater infrastructure interventions in coastal metropolitan regions using accuracy as the primary evaluation lens.
+443. CATEGORY 452 — Infrastructure Planning: mixed-methods design of stormwater infrastructure interventions in university campuses using accessibility as the primary evaluation lens.
+444. CATEGORY 453 — Infrastructure Planning: GIS/spatial analysis of stormwater infrastructure interventions in rural service areas using resilience as the primary evaluation lens.
+445. CATEGORY 454 — Infrastructure Planning: survey research of stormwater infrastructure interventions in low-income neighborhoods using usability as the primary evaluation lens.
+446. CATEGORY 455 — Infrastructure Planning: case study comparison of stormwater infrastructure interventions in post-pandemic public institutions using governance quality as the primary evaluation lens.
+447. CATEGORY 456 — Infrastructure Planning: statistical modeling of stormwater infrastructure interventions in rapidly growing suburbs using accuracy as the primary evaluation lens.
+448. CATEGORY 457 — Infrastructure Planning: network analysis of stormwater infrastructure interventions in historic city centers using accessibility as the primary evaluation lens.
+449. CATEGORY 458 — Infrastructure Planning: content analysis of stormwater infrastructure interventions in cross-border regions using resilience as the primary evaluation lens.
+450. CATEGORY 459 — Infrastructure Planning: simulation modeling of stormwater infrastructure interventions in climate-vulnerable districts using usability as the primary evaluation lens.
+
+CATEGORY 10 — Urban Resilience
+451. CATEGORY 461 — Urban Resilience: policy evaluation of coastal adaptation interventions in Indonesian secondary cities using social impact as the primary evaluation lens.
+452. CATEGORY 462 — Urban Resilience: mixed-methods design of coastal adaptation interventions in coastal metropolitan regions using equity as the primary evaluation lens.
+453. CATEGORY 463 — Urban Resilience: GIS/spatial analysis of coastal adaptation interventions in university campuses using efficiency as the primary evaluation lens.
+454. CATEGORY 464 — Urban Resilience: survey research of coastal adaptation interventions in rural service areas using adoption as the primary evaluation lens.
+455. CATEGORY 465 — Urban Resilience: case study comparison of coastal adaptation interventions in low-income neighborhoods using sustainability as the primary evaluation lens.
+456. CATEGORY 466 — Urban Resilience: statistical modeling of coastal adaptation interventions in post-pandemic public institutions using social impact as the primary evaluation lens.
+457. CATEGORY 467 — Urban Resilience: network analysis of coastal adaptation interventions in rapidly growing suburbs using equity as the primary evaluation lens.
+458. CATEGORY 468 — Urban Resilience: content analysis of coastal adaptation interventions in historic city centers using efficiency as the primary evaluation lens.
+459. CATEGORY 469 — Urban Resilience: simulation modeling of coastal adaptation interventions in cross-border regions using adoption as the primary evaluation lens.
+460. CATEGORY 470 — Urban Resilience: interview-based inquiry of coastal adaptation interventions in climate-vulnerable districts using sustainability as the primary evaluation lens.
+461. CATEGORY 471 — Urban Resilience: policy evaluation of coastal adaptation interventions in Indonesian secondary cities using social impact as the primary evaluation lens.
+462. CATEGORY 472 — Urban Resilience: mixed-methods design of coastal adaptation interventions in coastal metropolitan regions using equity as the primary evaluation lens.
+463. CATEGORY 473 — Urban Resilience: GIS/spatial analysis of coastal adaptation interventions in university campuses using efficiency as the primary evaluation lens.
+464. CATEGORY 474 — Urban Resilience: survey research of coastal adaptation interventions in rural service areas using adoption as the primary evaluation lens.
+465. CATEGORY 475 — Urban Resilience: case study comparison of coastal adaptation interventions in low-income neighborhoods using sustainability as the primary evaluation lens.
+466. CATEGORY 476 — Urban Resilience: statistical modeling of coastal adaptation interventions in post-pandemic public institutions using social impact as the primary evaluation lens.
+467. CATEGORY 477 — Urban Resilience: network analysis of coastal adaptation interventions in rapidly growing suburbs using equity as the primary evaluation lens.
+468. CATEGORY 478 — Urban Resilience: content analysis of coastal adaptation interventions in historic city centers using efficiency as the primary evaluation lens.
+469. CATEGORY 479 — Urban Resilience: simulation modeling of coastal adaptation interventions in cross-border regions using adoption as the primary evaluation lens.
+470. CATEGORY 480 — Urban Resilience: interview-based inquiry of coastal adaptation interventions in climate-vulnerable districts using sustainability as the primary evaluation lens.
+471. CATEGORY 481 — Urban Resilience: policy evaluation of coastal adaptation interventions in Indonesian secondary cities using social impact as the primary evaluation lens.
+472. CATEGORY 482 — Urban Resilience: mixed-methods design of coastal adaptation interventions in coastal metropolitan regions using equity as the primary evaluation lens.
+473. CATEGORY 483 — Urban Resilience: GIS/spatial analysis of coastal adaptation interventions in university campuses using efficiency as the primary evaluation lens.
+474. CATEGORY 484 — Urban Resilience: survey research of coastal adaptation interventions in rural service areas using adoption as the primary evaluation lens.
+475. CATEGORY 485 — Urban Resilience: case study comparison of coastal adaptation interventions in low-income neighborhoods using sustainability as the primary evaluation lens.
+476. CATEGORY 486 — Urban Resilience: statistical modeling of coastal adaptation interventions in post-pandemic public institutions using social impact as the primary evaluation lens.
+477. CATEGORY 487 — Urban Resilience: network analysis of coastal adaptation interventions in rapidly growing suburbs using equity as the primary evaluation lens.
+478. CATEGORY 488 — Urban Resilience: content analysis of coastal adaptation interventions in historic city centers using efficiency as the primary evaluation lens.
+479. CATEGORY 489 — Urban Resilience: simulation modeling of coastal adaptation interventions in cross-border regions using adoption as the primary evaluation lens.
+480. CATEGORY 490 — Urban Resilience: interview-based inquiry of coastal adaptation interventions in climate-vulnerable districts using sustainability as the primary evaluation lens.
+481. CATEGORY 491 — Urban Resilience: policy evaluation of coastal adaptation interventions in Indonesian secondary cities using social impact as the primary evaluation lens.
+482. CATEGORY 492 — Urban Resilience: mixed-methods design of coastal adaptation interventions in coastal metropolitan regions using equity as the primary evaluation lens.
+483. CATEGORY 493 — Urban Resilience: GIS/spatial analysis of coastal adaptation interventions in university campuses using efficiency as the primary evaluation lens.
+484. CATEGORY 494 — Urban Resilience: survey research of coastal adaptation interventions in rural service areas using adoption as the primary evaluation lens.
+485. CATEGORY 495 — Urban Resilience: case study comparison of coastal adaptation interventions in low-income neighborhoods using sustainability as the primary evaluation lens.
+486. CATEGORY 496 — Urban Resilience: statistical modeling of coastal adaptation interventions in post-pandemic public institutions using social impact as the primary evaluation lens.
+487. CATEGORY 497 — Urban Resilience: network analysis of coastal adaptation interventions in rapidly growing suburbs using equity as the primary evaluation lens.
+488. CATEGORY 498 — Urban Resilience: content analysis of coastal adaptation interventions in historic city centers using efficiency as the primary evaluation lens.
+489. CATEGORY 499 — Urban Resilience: simulation modeling of coastal adaptation interventions in cross-border regions using adoption as the primary evaluation lens.
+490. CATEGORY 500 — Urban Resilience: interview-based inquiry of coastal adaptation interventions in climate-vulnerable districts using sustainability as the primary evaluation lens.
+491. CATEGORY 501 — Urban Resilience: policy evaluation of coastal adaptation interventions in Indonesian secondary cities using social impact as the primary evaluation lens.
+492. CATEGORY 502 — Urban Resilience: mixed-methods design of coastal adaptation interventions in coastal metropolitan regions using equity as the primary evaluation lens.
+493. CATEGORY 503 — Urban Resilience: GIS/spatial analysis of coastal adaptation interventions in university campuses using efficiency as the primary evaluation lens.
+494. CATEGORY 504 — Urban Resilience: survey research of coastal adaptation interventions in rural service areas using adoption as the primary evaluation lens.
+495. CATEGORY 505 — Urban Resilience: case study comparison of coastal adaptation interventions in low-income neighborhoods using sustainability as the primary evaluation lens.
+496. CATEGORY 506 — Urban Resilience: statistical modeling of coastal adaptation interventions in post-pandemic public institutions using social impact as the primary evaluation lens.
+497. CATEGORY 507 — Urban Resilience: network analysis of coastal adaptation interventions in rapidly growing suburbs using equity as the primary evaluation lens.
+498. CATEGORY 508 — Urban Resilience: content analysis of coastal adaptation interventions in historic city centers using efficiency as the primary evaluation lens.
+499. CATEGORY 509 — Urban Resilience: simulation modeling of coastal adaptation interventions in cross-border regions using adoption as the primary evaluation lens.
+500. CATEGORY 510 — Urban Resilience: interview-based inquiry of coastal adaptation interventions in climate-vulnerable districts using sustainability as the primary evaluation lens.

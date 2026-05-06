@@ -1,12 +1,670 @@
 ================================================================================
-TOPIC GUIDE — Psychology
+TOPIC GUIDE — Psikologi (Psychology)
 ================================================================================
 FIELD: Psychology / Social Sciences
 DEFAULT CITATION STYLE: APA
+SUBDISCIPLINE: cognitive psychology, social psychology, developmental psychology, personality, health psychology, organizational psychology, psychometrics, emotion, behavior change, applied psychology
 
-METHODOLOGY: experimental design, survey/questionnaire, structural equation modeling,
-  factor analysis, regression, meta-analysis, cognitive assessment, behavioral study
-EQUATIONS: Cronbach's α, Cohen's d, Pearson r, regression equation y = β₀ + β₁x
-FIGURES: research model diagram, bar chart of means, SEM path diagram, correlation matrix
-TABLES: descriptive statistics, ANOVA results, factor loadings, comparison with norms
-VENUES: Psychological Science, J. Experimental Psychology, J. Personality Social Psychology
+COMMON REFERENCE VENUES:
+  Psychological Science, Journal of Experimental Psychology, Journal of Personality and Social Psychology, Developmental Psychology, Journal of Applied Psychology, Psychological Bulletin
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature related to the user's topic
+   - Reference recent works (2020-2025) that establish what is known
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame the gap as a researchable question with measurable outcomes
+   - Ensure the gap targets Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine the user's idea into a publishable research title
+   - The title must be specific, include method and application domain
+   - Target journals listed in COMMON REFERENCE VENUES below
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Use cutting-edge methods appropriate to the subdiscipline
+   - Include complete research procedures and protocols
+   - Specify all tools, software, instruments, and configurations
+   - Detail sample size calculations, validation strategy, and reproducibility measures
+
+4. ESTIMATED DATA & RESULTS:
+   - Provide realistic estimated data tables (10-30 data points)
+   - Include statistical measures: mean, std, 95% CI, effect sizes
+   - Performance/outcome metrics appropriate to the field
+   - Comparison with control groups or baseline conditions
+   - All numbers must be realistic, internally consistent, and domain-appropriate
+   - Data must support the research conclusions logically
+
+5. MATHEMATICAL FORMULAS:
+   - Include 5-10 relevant formulas with full variable definitions
+   - Statistical tests, effect size calculations, measurement scales
+   - Connect formulas to the methodology and results
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - Minimum 25-30 references organized thematically
+   - Structure: (a) foundational theories, (b) recent advances 2020-2025, (c) limitations
+   - Each subsection MUST end with: "However, no study has addressed..."
+   - Use synthesis paragraphs, not citation lists
+   - Include Indonesian/Southeast Asian context where relevant
+
+7. COMPLETE PAPER STRUCTURE:
+   - Title, Abstract (200-250 words), Keywords (5-7)
+   - Introduction (1500-2000 words)
+   - Literature Review (2000-3000 words)
+   - Methodology (2000-3000 words with formulas)
+   - Results & Discussion (2000-3000 words with tables and figure descriptions)
+   - Conclusion (500-800 words)
+   - References (30+ entries, 60%+ from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+================================================================================
+DOMAIN-SPECIFIC GUIDANCE
+================================================================================
+
+ABSTRACT CHARACTERISTICS:
+  150-250 words. State the phenomenon, population, setting, theory, data, method, key result, implication, and citation conventions. Use APA consistently and report ethical safeguards where human participants, vulnerable groups, legal materials, or sensitive records are involved.
+
+INTRODUCTION ELEMENTS:
+  - Establish the field context, urgency, and social or institutional relevance.
+  - Define the core problem and affected population, doctrine, service setting, or behavior.
+  - Identify the empirical, theoretical, methodological, or policy gap.
+  - State research questions, hypotheses, doctrinal questions, or evaluation objectives.
+  - Clarify contribution to theory, practice, policy, rights, equity, or institutional design.
+
+LITERATURE REVIEW:
+  Common section name: "Literature Review" / "Theoretical Framework"
+  - Foundational theories, doctrines, practice frameworks, and contemporary debates.
+  - Prior empirical findings, doctrinal authorities, policy reports, and systematic reviews.
+  - Measurement, validity, interpretation, causality, ethics, and context-specific debates.
+  - Comparative, regional, historical, digital, and interdisciplinary scholarship.
+  - Clear synthesis leading to the research gap and analytical framework.
+
+METHODOLOGY:
+  Common section name: "Methods" / "Methodology"
+  - Designs: qualitative, quantitative, mixed-method, comparative, evaluative, or review-based.
+  - Data: participants, surveys, interviews, archives, administrative records, or digital traces.
+  - Instruments: validated scales, interview guides, codebooks, observation rubrics, or extraction forms.
+  - Analysis: thematic coding, regression, SEM, case comparison, content analysis, or program evaluation.
+  - Quality: reliability, validity, reflexivity, triangulation, consent, confidentiality, and reproducibility.
+
+EQUATIONS AND FORMULAS:
+  Cronbach alpha, Cohen d, Pearson correlation, ANOVA F-test, regression coefficients, SEM path coefficients, CFA factor loadings
+
+TYPICAL FIGURES:
+  - Conceptual or theoretical framework diagram
+  - Trend, comparison, or effect-size visualization
+  - Process, pathway, institutional, or logic-model diagram
+  - Thematic, network, or comparative case map
+
+TYPICAL TABLES:
+  - Sample, case, document, or participant profile
+  - Coding framework, doctrine matrix, or theme table
+  - Statistical, evaluation, or comparative results table
+  - Limitation, validity, risk, ethics, or reform matrix
+
+RESULTS & DISCUSSION:
+  - Present patterns, mechanisms, interpretations, model estimates, or program outcomes.
+  - Compare findings with theory, prior studies, policy benchmarks, or practice standards.
+  - Discuss equity, rights, ethics, cultural context, institutional feasibility, and unintended consequences.
+  - Separate descriptive evidence, causal claims, normative argument, and reform recommendations.
+  Tables: demographics, case matrix, model estimates, theme matrix, policy comparison, outcome indicators.
+  Figures: conceptual framework, process flow, trend chart, network diagram, logic model.
+
+CONCLUSION CHARACTERISTICS:
+  - Answer the research question directly and field-specifically.
+  - State theoretical, empirical, policy, or practice contribution.
+  - Note limits in sampling, measurement, causality, positionality, or source availability.
+  - Recommend practice, policy, institutional, or research actions.
+  - Propose longitudinal, comparative, participatory, replication, or implementation research.
+
+DOMAIN VOCABULARY:
+  cognition, affect, behavior, motivation, self-regulation, attachment, social identity, executive function, bias, resilience, wellbeing, validity, reliability
+
+METHODOLOGY KEYWORDS:
+  experimental design, survey, Cronbach alpha, Cohen d, Pearson correlation, ANOVA, regression, mediation, moderation, SEM, CFA, EFA, meta-analysis
+
+================================================================================
+RESEARCH TOPICS — 500 TOPICS IN 10 CATEGORIES
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 1: COGNITION, ATTENTION, AND DECISION-MAKING (001–050)
+────────────────────────────────────────────────────────────────────────────────
+001. Cognition, Attention, and Decision-Making: survey study in Indonesia examining institutional barriers, access, subgroup differences, evidence quality, and actionable implications
+002. Cognition, Attention, and Decision-Making: semi-structured interview study in rural districts examining policy implementation, wellbeing, subgroup differences, evidence quality, and actionable implications
+003. Cognition, Attention, and Decision-Making: mixed-method sequential explanatory study in university populations examining lived experience, resilience, subgroup differences, evidence quality, and actionable implications
+004. Cognition, Attention, and Decision-Making: longitudinal panel study in online communities examining measurement validity, institutional change, subgroup differences, evidence quality, and actionable implications
+005. Cognition, Attention, and Decision-Making: comparative case-study study in low-income households examining regional variation, participation, subgroup differences, evidence quality, and actionable implications
+006. Cognition, Attention, and Decision-Making: court or document content-analysis study in Indonesia examining digital mediation, trust, subgroup differences, evidence quality, and actionable implications
+007. Cognition, Attention, and Decision-Making: ethnographic fieldwork study in rural districts examining family dynamics, service uptake, subgroup differences, evidence quality, and actionable implications
+008. Cognition, Attention, and Decision-Making: policy-analysis study in university populations examining workplace practices, equity, subgroup differences, evidence quality, and actionable implications
+009. Cognition, Attention, and Decision-Making: bibliometric review study in online communities examining legal consciousness, compliance, subgroup differences, evidence quality, and actionable implications
+010. Cognition, Attention, and Decision-Making: quasi-experimental evaluation study in low-income households examining service delivery, identity formation, subgroup differences, evidence quality, and actionable implications
+011. Cognition, Attention, and Decision-Making: survey study in Indonesia examining media framing, access, subgroup differences, evidence quality, and actionable implications
+012. Cognition, Attention, and Decision-Making: semi-structured interview study in rural districts examining education pathways, wellbeing, subgroup differences, evidence quality, and actionable implications
+013. Cognition, Attention, and Decision-Making: mixed-method sequential explanatory study in university populations examining health outcomes, resilience, subgroup differences, evidence quality, and actionable implications
+014. Cognition, Attention, and Decision-Making: longitudinal panel study in online communities examining economic insecurity, institutional change, subgroup differences, evidence quality, and actionable implications
+015. Cognition, Attention, and Decision-Making: comparative case-study study in low-income households examining community networks, participation, subgroup differences, evidence quality, and actionable implications
+016. Cognition, Attention, and Decision-Making: court or document content-analysis study in Indonesia examining leadership pipelines, trust, subgroup differences, evidence quality, and actionable implications
+017. Cognition, Attention, and Decision-Making: ethnographic fieldwork study in rural districts examining risk perception, service uptake, subgroup differences, evidence quality, and actionable implications
+018. Cognition, Attention, and Decision-Making: policy-analysis study in university populations examining identity negotiation, equity, subgroup differences, evidence quality, and actionable implications
+019. Cognition, Attention, and Decision-Making: bibliometric review study in online communities examining resource allocation, compliance, subgroup differences, evidence quality, and actionable implications
+020. Cognition, Attention, and Decision-Making: quasi-experimental evaluation study in low-income households examining public trust, identity formation, subgroup differences, evidence quality, and actionable implications
+021. Cognition, Attention, and Decision-Making: survey study in Indonesia examining procedural fairness, access, subgroup differences, evidence quality, and actionable implications
+022. Cognition, Attention, and Decision-Making: semi-structured interview study in rural districts examining cultural norms, wellbeing, subgroup differences, evidence quality, and actionable implications
+023. Cognition, Attention, and Decision-Making: mixed-method sequential explanatory study in university populations examining professional ethics, resilience, subgroup differences, evidence quality, and actionable implications
+024. Cognition, Attention, and Decision-Making: longitudinal panel study in online communities examining intervention fidelity, institutional change, subgroup differences, evidence quality, and actionable implications
+025. Cognition, Attention, and Decision-Making: comparative case-study study in low-income households examining historical change, participation, subgroup differences, evidence quality, and actionable implications
+026. Cognition, Attention, and Decision-Making: court or document content-analysis study in Indonesia examining comparative governance, trust, subgroup differences, evidence quality, and actionable implications
+027. Cognition, Attention, and Decision-Making: ethnographic fieldwork study in rural districts examining data protection, service uptake, subgroup differences, evidence quality, and actionable implications
+028. Cognition, Attention, and Decision-Making: policy-analysis study in university populations examining stigma processes, equity, subgroup differences, evidence quality, and actionable implications
+029. Cognition, Attention, and Decision-Making: bibliometric review study in online communities examining participatory design, compliance, subgroup differences, evidence quality, and actionable implications
+030. Cognition, Attention, and Decision-Making: quasi-experimental evaluation study in low-income households examining accountability mechanisms, identity formation, subgroup differences, evidence quality, and actionable implications
+031. Cognition, Attention, and Decision-Making: survey study in Indonesia examining access to remedies, access, subgroup differences, evidence quality, and actionable implications
+032. Cognition, Attention, and Decision-Making: semi-structured interview study in rural districts examining care burdens, wellbeing, subgroup differences, evidence quality, and actionable implications
+033. Cognition, Attention, and Decision-Making: mixed-method sequential explanatory study in university populations examining social capital, resilience, subgroup differences, evidence quality, and actionable implications
+034. Cognition, Attention, and Decision-Making: longitudinal panel study in online communities examining organizational climate, institutional change, subgroup differences, evidence quality, and actionable implications
+035. Cognition, Attention, and Decision-Making: comparative case-study study in low-income households examining algorithmic sorting, participation, subgroup differences, evidence quality, and actionable implications
+036. Cognition, Attention, and Decision-Making: court or document content-analysis study in Indonesia examining cross-generational effects, trust, subgroup differences, evidence quality, and actionable implications
+037. Cognition, Attention, and Decision-Making: ethnographic fieldwork study in rural districts examining implementation gaps, service uptake, subgroup differences, evidence quality, and actionable implications
+038. Cognition, Attention, and Decision-Making: policy-analysis study in university populations examining rural-urban differences, equity, subgroup differences, evidence quality, and actionable implications
+039. Cognition, Attention, and Decision-Making: bibliometric review study in online communities examining minority inclusion, compliance, subgroup differences, evidence quality, and actionable implications
+040. Cognition, Attention, and Decision-Making: quasi-experimental evaluation study in low-income households examining crisis response, identity formation, subgroup differences, evidence quality, and actionable implications
+041. Cognition, Attention, and Decision-Making: survey study in Indonesia examining informal institutions, access, subgroup differences, evidence quality, and actionable implications
+042. Cognition, Attention, and Decision-Making: semi-structured interview study in rural districts examining advocacy strategies, wellbeing, subgroup differences, evidence quality, and actionable implications
+043. Cognition, Attention, and Decision-Making: mixed-method sequential explanatory study in university populations examining cost consequences, resilience, subgroup differences, evidence quality, and actionable implications
+044. Cognition, Attention, and Decision-Making: longitudinal panel study in online communities examining norm diffusion, institutional change, subgroup differences, evidence quality, and actionable implications
+045. Cognition, Attention, and Decision-Making: comparative case-study study in low-income households examining rights claiming, participation, subgroup differences, evidence quality, and actionable implications
+046. Cognition, Attention, and Decision-Making: court or document content-analysis study in Indonesia examining behavioral adaptation, trust, subgroup differences, evidence quality, and actionable implications
+047. Cognition, Attention, and Decision-Making: ethnographic fieldwork study in rural districts examining resilience pathways, service uptake, subgroup differences, evidence quality, and actionable implications
+048. Cognition, Attention, and Decision-Making: policy-analysis study in university populations examining power asymmetry, equity, subgroup differences, evidence quality, and actionable implications
+049. Cognition, Attention, and Decision-Making: bibliometric review study in online communities examining outcome sustainability, compliance, subgroup differences, evidence quality, and actionable implications
+050. Cognition, Attention, and Decision-Making: quasi-experimental evaluation study in low-income households examining reform feasibility, identity formation, subgroup differences, evidence quality, and actionable implications
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 2: EMOTION, STRESS, AND WELLBEING (051–100)
+────────────────────────────────────────────────────────────────────────────────
+051. Emotion, Stress, and Wellbeing: semi-structured interview study in Southeast Asian cities examining institutional barriers, equity, subgroup differences, evidence quality, and actionable implications
+052. Emotion, Stress, and Wellbeing: mixed-method sequential explanatory study in urban neighborhoods examining policy implementation, compliance, subgroup differences, evidence quality, and actionable implications
+053. Emotion, Stress, and Wellbeing: longitudinal panel study in workplace settings examining lived experience, identity formation, subgroup differences, evidence quality, and actionable implications
+054. Emotion, Stress, and Wellbeing: comparative case-study study in public institutions examining measurement validity, access, subgroup differences, evidence quality, and actionable implications
+055. Emotion, Stress, and Wellbeing: court or document content-analysis study in cross-national datasets examining regional variation, wellbeing, subgroup differences, evidence quality, and actionable implications
+056. Emotion, Stress, and Wellbeing: ethnographic fieldwork study in Southeast Asian cities examining digital mediation, resilience, subgroup differences, evidence quality, and actionable implications
+057. Emotion, Stress, and Wellbeing: policy-analysis study in urban neighborhoods examining family dynamics, institutional change, subgroup differences, evidence quality, and actionable implications
+058. Emotion, Stress, and Wellbeing: bibliometric review study in workplace settings examining workplace practices, participation, subgroup differences, evidence quality, and actionable implications
+059. Emotion, Stress, and Wellbeing: quasi-experimental evaluation study in public institutions examining legal consciousness, trust, subgroup differences, evidence quality, and actionable implications
+060. Emotion, Stress, and Wellbeing: survey study in cross-national datasets examining service delivery, service uptake, subgroup differences, evidence quality, and actionable implications
+061. Emotion, Stress, and Wellbeing: semi-structured interview study in Southeast Asian cities examining media framing, equity, subgroup differences, evidence quality, and actionable implications
+062. Emotion, Stress, and Wellbeing: mixed-method sequential explanatory study in urban neighborhoods examining education pathways, compliance, subgroup differences, evidence quality, and actionable implications
+063. Emotion, Stress, and Wellbeing: longitudinal panel study in workplace settings examining health outcomes, identity formation, subgroup differences, evidence quality, and actionable implications
+064. Emotion, Stress, and Wellbeing: comparative case-study study in public institutions examining economic insecurity, access, subgroup differences, evidence quality, and actionable implications
+065. Emotion, Stress, and Wellbeing: court or document content-analysis study in cross-national datasets examining community networks, wellbeing, subgroup differences, evidence quality, and actionable implications
+066. Emotion, Stress, and Wellbeing: ethnographic fieldwork study in Southeast Asian cities examining leadership pipelines, resilience, subgroup differences, evidence quality, and actionable implications
+067. Emotion, Stress, and Wellbeing: policy-analysis study in urban neighborhoods examining risk perception, institutional change, subgroup differences, evidence quality, and actionable implications
+068. Emotion, Stress, and Wellbeing: bibliometric review study in workplace settings examining identity negotiation, participation, subgroup differences, evidence quality, and actionable implications
+069. Emotion, Stress, and Wellbeing: quasi-experimental evaluation study in public institutions examining resource allocation, trust, subgroup differences, evidence quality, and actionable implications
+070. Emotion, Stress, and Wellbeing: survey study in cross-national datasets examining public trust, service uptake, subgroup differences, evidence quality, and actionable implications
+071. Emotion, Stress, and Wellbeing: semi-structured interview study in Southeast Asian cities examining procedural fairness, equity, subgroup differences, evidence quality, and actionable implications
+072. Emotion, Stress, and Wellbeing: mixed-method sequential explanatory study in urban neighborhoods examining cultural norms, compliance, subgroup differences, evidence quality, and actionable implications
+073. Emotion, Stress, and Wellbeing: longitudinal panel study in workplace settings examining professional ethics, identity formation, subgroup differences, evidence quality, and actionable implications
+074. Emotion, Stress, and Wellbeing: comparative case-study study in public institutions examining intervention fidelity, access, subgroup differences, evidence quality, and actionable implications
+075. Emotion, Stress, and Wellbeing: court or document content-analysis study in cross-national datasets examining historical change, wellbeing, subgroup differences, evidence quality, and actionable implications
+076. Emotion, Stress, and Wellbeing: ethnographic fieldwork study in Southeast Asian cities examining comparative governance, resilience, subgroup differences, evidence quality, and actionable implications
+077. Emotion, Stress, and Wellbeing: policy-analysis study in urban neighborhoods examining data protection, institutional change, subgroup differences, evidence quality, and actionable implications
+078. Emotion, Stress, and Wellbeing: bibliometric review study in workplace settings examining stigma processes, participation, subgroup differences, evidence quality, and actionable implications
+079. Emotion, Stress, and Wellbeing: quasi-experimental evaluation study in public institutions examining participatory design, trust, subgroup differences, evidence quality, and actionable implications
+080. Emotion, Stress, and Wellbeing: survey study in cross-national datasets examining accountability mechanisms, service uptake, subgroup differences, evidence quality, and actionable implications
+081. Emotion, Stress, and Wellbeing: semi-structured interview study in Southeast Asian cities examining access to remedies, equity, subgroup differences, evidence quality, and actionable implications
+082. Emotion, Stress, and Wellbeing: mixed-method sequential explanatory study in urban neighborhoods examining care burdens, compliance, subgroup differences, evidence quality, and actionable implications
+083. Emotion, Stress, and Wellbeing: longitudinal panel study in workplace settings examining social capital, identity formation, subgroup differences, evidence quality, and actionable implications
+084. Emotion, Stress, and Wellbeing: comparative case-study study in public institutions examining organizational climate, access, subgroup differences, evidence quality, and actionable implications
+085. Emotion, Stress, and Wellbeing: court or document content-analysis study in cross-national datasets examining algorithmic sorting, wellbeing, subgroup differences, evidence quality, and actionable implications
+086. Emotion, Stress, and Wellbeing: ethnographic fieldwork study in Southeast Asian cities examining cross-generational effects, resilience, subgroup differences, evidence quality, and actionable implications
+087. Emotion, Stress, and Wellbeing: policy-analysis study in urban neighborhoods examining implementation gaps, institutional change, subgroup differences, evidence quality, and actionable implications
+088. Emotion, Stress, and Wellbeing: bibliometric review study in workplace settings examining rural-urban differences, participation, subgroup differences, evidence quality, and actionable implications
+089. Emotion, Stress, and Wellbeing: quasi-experimental evaluation study in public institutions examining minority inclusion, trust, subgroup differences, evidence quality, and actionable implications
+090. Emotion, Stress, and Wellbeing: survey study in cross-national datasets examining crisis response, service uptake, subgroup differences, evidence quality, and actionable implications
+091. Emotion, Stress, and Wellbeing: semi-structured interview study in Southeast Asian cities examining informal institutions, equity, subgroup differences, evidence quality, and actionable implications
+092. Emotion, Stress, and Wellbeing: mixed-method sequential explanatory study in urban neighborhoods examining advocacy strategies, compliance, subgroup differences, evidence quality, and actionable implications
+093. Emotion, Stress, and Wellbeing: longitudinal panel study in workplace settings examining cost consequences, identity formation, subgroup differences, evidence quality, and actionable implications
+094. Emotion, Stress, and Wellbeing: comparative case-study study in public institutions examining norm diffusion, access, subgroup differences, evidence quality, and actionable implications
+095. Emotion, Stress, and Wellbeing: court or document content-analysis study in cross-national datasets examining rights claiming, wellbeing, subgroup differences, evidence quality, and actionable implications
+096. Emotion, Stress, and Wellbeing: ethnographic fieldwork study in Southeast Asian cities examining behavioral adaptation, resilience, subgroup differences, evidence quality, and actionable implications
+097. Emotion, Stress, and Wellbeing: policy-analysis study in urban neighborhoods examining resilience pathways, institutional change, subgroup differences, evidence quality, and actionable implications
+098. Emotion, Stress, and Wellbeing: bibliometric review study in workplace settings examining power asymmetry, participation, subgroup differences, evidence quality, and actionable implications
+099. Emotion, Stress, and Wellbeing: quasi-experimental evaluation study in public institutions examining outcome sustainability, trust, subgroup differences, evidence quality, and actionable implications
+100. Emotion, Stress, and Wellbeing: survey study in cross-national datasets examining reform feasibility, service uptake, subgroup differences, evidence quality, and actionable implications
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 3: SOCIAL INFLUENCE AND INTERGROUP PROCESSES (101–150)
+────────────────────────────────────────────────────────────────────────────────
+101. Social Influence and Intergroup Processes: mixed-method sequential explanatory study in rural districts examining institutional barriers, participation, subgroup differences, evidence quality, and actionable implications
+102. Social Influence and Intergroup Processes: longitudinal panel study in university populations examining policy implementation, trust, subgroup differences, evidence quality, and actionable implications
+103. Social Influence and Intergroup Processes: comparative case-study study in online communities examining lived experience, service uptake, subgroup differences, evidence quality, and actionable implications
+104. Social Influence and Intergroup Processes: court or document content-analysis study in low-income households examining measurement validity, equity, subgroup differences, evidence quality, and actionable implications
+105. Social Influence and Intergroup Processes: ethnographic fieldwork study in Indonesia examining regional variation, compliance, subgroup differences, evidence quality, and actionable implications
+106. Social Influence and Intergroup Processes: policy-analysis study in rural districts examining digital mediation, identity formation, subgroup differences, evidence quality, and actionable implications
+107. Social Influence and Intergroup Processes: bibliometric review study in university populations examining family dynamics, access, subgroup differences, evidence quality, and actionable implications
+108. Social Influence and Intergroup Processes: quasi-experimental evaluation study in online communities examining workplace practices, wellbeing, subgroup differences, evidence quality, and actionable implications
+109. Social Influence and Intergroup Processes: survey study in low-income households examining legal consciousness, resilience, subgroup differences, evidence quality, and actionable implications
+110. Social Influence and Intergroup Processes: semi-structured interview study in Indonesia examining service delivery, institutional change, subgroup differences, evidence quality, and actionable implications
+111. Social Influence and Intergroup Processes: mixed-method sequential explanatory study in rural districts examining media framing, participation, subgroup differences, evidence quality, and actionable implications
+112. Social Influence and Intergroup Processes: longitudinal panel study in university populations examining education pathways, trust, subgroup differences, evidence quality, and actionable implications
+113. Social Influence and Intergroup Processes: comparative case-study study in online communities examining health outcomes, service uptake, subgroup differences, evidence quality, and actionable implications
+114. Social Influence and Intergroup Processes: court or document content-analysis study in low-income households examining economic insecurity, equity, subgroup differences, evidence quality, and actionable implications
+115. Social Influence and Intergroup Processes: ethnographic fieldwork study in Indonesia examining community networks, compliance, subgroup differences, evidence quality, and actionable implications
+116. Social Influence and Intergroup Processes: policy-analysis study in rural districts examining leadership pipelines, identity formation, subgroup differences, evidence quality, and actionable implications
+117. Social Influence and Intergroup Processes: bibliometric review study in university populations examining risk perception, access, subgroup differences, evidence quality, and actionable implications
+118. Social Influence and Intergroup Processes: quasi-experimental evaluation study in online communities examining identity negotiation, wellbeing, subgroup differences, evidence quality, and actionable implications
+119. Social Influence and Intergroup Processes: survey study in low-income households examining resource allocation, resilience, subgroup differences, evidence quality, and actionable implications
+120. Social Influence and Intergroup Processes: semi-structured interview study in Indonesia examining public trust, institutional change, subgroup differences, evidence quality, and actionable implications
+121. Social Influence and Intergroup Processes: mixed-method sequential explanatory study in rural districts examining procedural fairness, participation, subgroup differences, evidence quality, and actionable implications
+122. Social Influence and Intergroup Processes: longitudinal panel study in university populations examining cultural norms, trust, subgroup differences, evidence quality, and actionable implications
+123. Social Influence and Intergroup Processes: comparative case-study study in online communities examining professional ethics, service uptake, subgroup differences, evidence quality, and actionable implications
+124. Social Influence and Intergroup Processes: court or document content-analysis study in low-income households examining intervention fidelity, equity, subgroup differences, evidence quality, and actionable implications
+125. Social Influence and Intergroup Processes: ethnographic fieldwork study in Indonesia examining historical change, compliance, subgroup differences, evidence quality, and actionable implications
+126. Social Influence and Intergroup Processes: policy-analysis study in rural districts examining comparative governance, identity formation, subgroup differences, evidence quality, and actionable implications
+127. Social Influence and Intergroup Processes: bibliometric review study in university populations examining data protection, access, subgroup differences, evidence quality, and actionable implications
+128. Social Influence and Intergroup Processes: quasi-experimental evaluation study in online communities examining stigma processes, wellbeing, subgroup differences, evidence quality, and actionable implications
+129. Social Influence and Intergroup Processes: survey study in low-income households examining participatory design, resilience, subgroup differences, evidence quality, and actionable implications
+130. Social Influence and Intergroup Processes: semi-structured interview study in Indonesia examining accountability mechanisms, institutional change, subgroup differences, evidence quality, and actionable implications
+131. Social Influence and Intergroup Processes: mixed-method sequential explanatory study in rural districts examining access to remedies, participation, subgroup differences, evidence quality, and actionable implications
+132. Social Influence and Intergroup Processes: longitudinal panel study in university populations examining care burdens, trust, subgroup differences, evidence quality, and actionable implications
+133. Social Influence and Intergroup Processes: comparative case-study study in online communities examining social capital, service uptake, subgroup differences, evidence quality, and actionable implications
+134. Social Influence and Intergroup Processes: court or document content-analysis study in low-income households examining organizational climate, equity, subgroup differences, evidence quality, and actionable implications
+135. Social Influence and Intergroup Processes: ethnographic fieldwork study in Indonesia examining algorithmic sorting, compliance, subgroup differences, evidence quality, and actionable implications
+136. Social Influence and Intergroup Processes: policy-analysis study in rural districts examining cross-generational effects, identity formation, subgroup differences, evidence quality, and actionable implications
+137. Social Influence and Intergroup Processes: bibliometric review study in university populations examining implementation gaps, access, subgroup differences, evidence quality, and actionable implications
+138. Social Influence and Intergroup Processes: quasi-experimental evaluation study in online communities examining rural-urban differences, wellbeing, subgroup differences, evidence quality, and actionable implications
+139. Social Influence and Intergroup Processes: survey study in low-income households examining minority inclusion, resilience, subgroup differences, evidence quality, and actionable implications
+140. Social Influence and Intergroup Processes: semi-structured interview study in Indonesia examining crisis response, institutional change, subgroup differences, evidence quality, and actionable implications
+141. Social Influence and Intergroup Processes: mixed-method sequential explanatory study in rural districts examining informal institutions, participation, subgroup differences, evidence quality, and actionable implications
+142. Social Influence and Intergroup Processes: longitudinal panel study in university populations examining advocacy strategies, trust, subgroup differences, evidence quality, and actionable implications
+143. Social Influence and Intergroup Processes: comparative case-study study in online communities examining cost consequences, service uptake, subgroup differences, evidence quality, and actionable implications
+144. Social Influence and Intergroup Processes: court or document content-analysis study in low-income households examining norm diffusion, equity, subgroup differences, evidence quality, and actionable implications
+145. Social Influence and Intergroup Processes: ethnographic fieldwork study in Indonesia examining rights claiming, compliance, subgroup differences, evidence quality, and actionable implications
+146. Social Influence and Intergroup Processes: policy-analysis study in rural districts examining behavioral adaptation, identity formation, subgroup differences, evidence quality, and actionable implications
+147. Social Influence and Intergroup Processes: bibliometric review study in university populations examining resilience pathways, access, subgroup differences, evidence quality, and actionable implications
+148. Social Influence and Intergroup Processes: quasi-experimental evaluation study in online communities examining power asymmetry, wellbeing, subgroup differences, evidence quality, and actionable implications
+149. Social Influence and Intergroup Processes: survey study in low-income households examining outcome sustainability, resilience, subgroup differences, evidence quality, and actionable implications
+150. Social Influence and Intergroup Processes: semi-structured interview study in Indonesia examining reform feasibility, institutional change, subgroup differences, evidence quality, and actionable implications
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 4: DEVELOPMENT ACROSS THE LIFESPAN (151–200)
+────────────────────────────────────────────────────────────────────────────────
+151. Development Across the Lifespan: longitudinal panel study in urban neighborhoods examining institutional barriers, wellbeing, subgroup differences, evidence quality, and actionable implications
+152. Development Across the Lifespan: comparative case-study study in workplace settings examining policy implementation, resilience, subgroup differences, evidence quality, and actionable implications
+153. Development Across the Lifespan: court or document content-analysis study in public institutions examining lived experience, institutional change, subgroup differences, evidence quality, and actionable implications
+154. Development Across the Lifespan: ethnographic fieldwork study in cross-national datasets examining measurement validity, participation, subgroup differences, evidence quality, and actionable implications
+155. Development Across the Lifespan: policy-analysis study in Southeast Asian cities examining regional variation, trust, subgroup differences, evidence quality, and actionable implications
+156. Development Across the Lifespan: bibliometric review study in urban neighborhoods examining digital mediation, service uptake, subgroup differences, evidence quality, and actionable implications
+157. Development Across the Lifespan: quasi-experimental evaluation study in workplace settings examining family dynamics, equity, subgroup differences, evidence quality, and actionable implications
+158. Development Across the Lifespan: survey study in public institutions examining workplace practices, compliance, subgroup differences, evidence quality, and actionable implications
+159. Development Across the Lifespan: semi-structured interview study in cross-national datasets examining legal consciousness, identity formation, subgroup differences, evidence quality, and actionable implications
+160. Development Across the Lifespan: mixed-method sequential explanatory study in Southeast Asian cities examining service delivery, access, subgroup differences, evidence quality, and actionable implications
+161. Development Across the Lifespan: longitudinal panel study in urban neighborhoods examining media framing, wellbeing, subgroup differences, evidence quality, and actionable implications
+162. Development Across the Lifespan: comparative case-study study in workplace settings examining education pathways, resilience, subgroup differences, evidence quality, and actionable implications
+163. Development Across the Lifespan: court or document content-analysis study in public institutions examining health outcomes, institutional change, subgroup differences, evidence quality, and actionable implications
+164. Development Across the Lifespan: ethnographic fieldwork study in cross-national datasets examining economic insecurity, participation, subgroup differences, evidence quality, and actionable implications
+165. Development Across the Lifespan: policy-analysis study in Southeast Asian cities examining community networks, trust, subgroup differences, evidence quality, and actionable implications
+166. Development Across the Lifespan: bibliometric review study in urban neighborhoods examining leadership pipelines, service uptake, subgroup differences, evidence quality, and actionable implications
+167. Development Across the Lifespan: quasi-experimental evaluation study in workplace settings examining risk perception, equity, subgroup differences, evidence quality, and actionable implications
+168. Development Across the Lifespan: survey study in public institutions examining identity negotiation, compliance, subgroup differences, evidence quality, and actionable implications
+169. Development Across the Lifespan: semi-structured interview study in cross-national datasets examining resource allocation, identity formation, subgroup differences, evidence quality, and actionable implications
+170. Development Across the Lifespan: mixed-method sequential explanatory study in Southeast Asian cities examining public trust, access, subgroup differences, evidence quality, and actionable implications
+171. Development Across the Lifespan: longitudinal panel study in urban neighborhoods examining procedural fairness, wellbeing, subgroup differences, evidence quality, and actionable implications
+172. Development Across the Lifespan: comparative case-study study in workplace settings examining cultural norms, resilience, subgroup differences, evidence quality, and actionable implications
+173. Development Across the Lifespan: court or document content-analysis study in public institutions examining professional ethics, institutional change, subgroup differences, evidence quality, and actionable implications
+174. Development Across the Lifespan: ethnographic fieldwork study in cross-national datasets examining intervention fidelity, participation, subgroup differences, evidence quality, and actionable implications
+175. Development Across the Lifespan: policy-analysis study in Southeast Asian cities examining historical change, trust, subgroup differences, evidence quality, and actionable implications
+176. Development Across the Lifespan: bibliometric review study in urban neighborhoods examining comparative governance, service uptake, subgroup differences, evidence quality, and actionable implications
+177. Development Across the Lifespan: quasi-experimental evaluation study in workplace settings examining data protection, equity, subgroup differences, evidence quality, and actionable implications
+178. Development Across the Lifespan: survey study in public institutions examining stigma processes, compliance, subgroup differences, evidence quality, and actionable implications
+179. Development Across the Lifespan: semi-structured interview study in cross-national datasets examining participatory design, identity formation, subgroup differences, evidence quality, and actionable implications
+180. Development Across the Lifespan: mixed-method sequential explanatory study in Southeast Asian cities examining accountability mechanisms, access, subgroup differences, evidence quality, and actionable implications
+181. Development Across the Lifespan: longitudinal panel study in urban neighborhoods examining access to remedies, wellbeing, subgroup differences, evidence quality, and actionable implications
+182. Development Across the Lifespan: comparative case-study study in workplace settings examining care burdens, resilience, subgroup differences, evidence quality, and actionable implications
+183. Development Across the Lifespan: court or document content-analysis study in public institutions examining social capital, institutional change, subgroup differences, evidence quality, and actionable implications
+184. Development Across the Lifespan: ethnographic fieldwork study in cross-national datasets examining organizational climate, participation, subgroup differences, evidence quality, and actionable implications
+185. Development Across the Lifespan: policy-analysis study in Southeast Asian cities examining algorithmic sorting, trust, subgroup differences, evidence quality, and actionable implications
+186. Development Across the Lifespan: bibliometric review study in urban neighborhoods examining cross-generational effects, service uptake, subgroup differences, evidence quality, and actionable implications
+187. Development Across the Lifespan: quasi-experimental evaluation study in workplace settings examining implementation gaps, equity, subgroup differences, evidence quality, and actionable implications
+188. Development Across the Lifespan: survey study in public institutions examining rural-urban differences, compliance, subgroup differences, evidence quality, and actionable implications
+189. Development Across the Lifespan: semi-structured interview study in cross-national datasets examining minority inclusion, identity formation, subgroup differences, evidence quality, and actionable implications
+190. Development Across the Lifespan: mixed-method sequential explanatory study in Southeast Asian cities examining crisis response, access, subgroup differences, evidence quality, and actionable implications
+191. Development Across the Lifespan: longitudinal panel study in urban neighborhoods examining informal institutions, wellbeing, subgroup differences, evidence quality, and actionable implications
+192. Development Across the Lifespan: comparative case-study study in workplace settings examining advocacy strategies, resilience, subgroup differences, evidence quality, and actionable implications
+193. Development Across the Lifespan: court or document content-analysis study in public institutions examining cost consequences, institutional change, subgroup differences, evidence quality, and actionable implications
+194. Development Across the Lifespan: ethnographic fieldwork study in cross-national datasets examining norm diffusion, participation, subgroup differences, evidence quality, and actionable implications
+195. Development Across the Lifespan: policy-analysis study in Southeast Asian cities examining rights claiming, trust, subgroup differences, evidence quality, and actionable implications
+196. Development Across the Lifespan: bibliometric review study in urban neighborhoods examining behavioral adaptation, service uptake, subgroup differences, evidence quality, and actionable implications
+197. Development Across the Lifespan: quasi-experimental evaluation study in workplace settings examining resilience pathways, equity, subgroup differences, evidence quality, and actionable implications
+198. Development Across the Lifespan: survey study in public institutions examining power asymmetry, compliance, subgroup differences, evidence quality, and actionable implications
+199. Development Across the Lifespan: semi-structured interview study in cross-national datasets examining outcome sustainability, identity formation, subgroup differences, evidence quality, and actionable implications
+200. Development Across the Lifespan: mixed-method sequential explanatory study in Southeast Asian cities examining reform feasibility, access, subgroup differences, evidence quality, and actionable implications
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 5: PERSONALITY, IDENTITY, AND INDIVIDUAL DIFFERENCES (201–250)
+────────────────────────────────────────────────────────────────────────────────
+201. Personality, Identity, and Individual Differences: comparative case-study study in university populations examining institutional barriers, compliance, subgroup differences, evidence quality, and actionable implications
+202. Personality, Identity, and Individual Differences: court or document content-analysis study in online communities examining policy implementation, identity formation, subgroup differences, evidence quality, and actionable implications
+203. Personality, Identity, and Individual Differences: ethnographic fieldwork study in low-income households examining lived experience, access, subgroup differences, evidence quality, and actionable implications
+204. Personality, Identity, and Individual Differences: policy-analysis study in Indonesia examining measurement validity, wellbeing, subgroup differences, evidence quality, and actionable implications
+205. Personality, Identity, and Individual Differences: bibliometric review study in rural districts examining regional variation, resilience, subgroup differences, evidence quality, and actionable implications
+206. Personality, Identity, and Individual Differences: quasi-experimental evaluation study in university populations examining digital mediation, institutional change, subgroup differences, evidence quality, and actionable implications
+207. Personality, Identity, and Individual Differences: survey study in online communities examining family dynamics, participation, subgroup differences, evidence quality, and actionable implications
+208. Personality, Identity, and Individual Differences: semi-structured interview study in low-income households examining workplace practices, trust, subgroup differences, evidence quality, and actionable implications
+209. Personality, Identity, and Individual Differences: mixed-method sequential explanatory study in Indonesia examining legal consciousness, service uptake, subgroup differences, evidence quality, and actionable implications
+210. Personality, Identity, and Individual Differences: longitudinal panel study in rural districts examining service delivery, equity, subgroup differences, evidence quality, and actionable implications
+211. Personality, Identity, and Individual Differences: comparative case-study study in university populations examining media framing, compliance, subgroup differences, evidence quality, and actionable implications
+212. Personality, Identity, and Individual Differences: court or document content-analysis study in online communities examining education pathways, identity formation, subgroup differences, evidence quality, and actionable implications
+213. Personality, Identity, and Individual Differences: ethnographic fieldwork study in low-income households examining health outcomes, access, subgroup differences, evidence quality, and actionable implications
+214. Personality, Identity, and Individual Differences: policy-analysis study in Indonesia examining economic insecurity, wellbeing, subgroup differences, evidence quality, and actionable implications
+215. Personality, Identity, and Individual Differences: bibliometric review study in rural districts examining community networks, resilience, subgroup differences, evidence quality, and actionable implications
+216. Personality, Identity, and Individual Differences: quasi-experimental evaluation study in university populations examining leadership pipelines, institutional change, subgroup differences, evidence quality, and actionable implications
+217. Personality, Identity, and Individual Differences: survey study in online communities examining risk perception, participation, subgroup differences, evidence quality, and actionable implications
+218. Personality, Identity, and Individual Differences: semi-structured interview study in low-income households examining identity negotiation, trust, subgroup differences, evidence quality, and actionable implications
+219. Personality, Identity, and Individual Differences: mixed-method sequential explanatory study in Indonesia examining resource allocation, service uptake, subgroup differences, evidence quality, and actionable implications
+220. Personality, Identity, and Individual Differences: longitudinal panel study in rural districts examining public trust, equity, subgroup differences, evidence quality, and actionable implications
+221. Personality, Identity, and Individual Differences: comparative case-study study in university populations examining procedural fairness, compliance, subgroup differences, evidence quality, and actionable implications
+222. Personality, Identity, and Individual Differences: court or document content-analysis study in online communities examining cultural norms, identity formation, subgroup differences, evidence quality, and actionable implications
+223. Personality, Identity, and Individual Differences: ethnographic fieldwork study in low-income households examining professional ethics, access, subgroup differences, evidence quality, and actionable implications
+224. Personality, Identity, and Individual Differences: policy-analysis study in Indonesia examining intervention fidelity, wellbeing, subgroup differences, evidence quality, and actionable implications
+225. Personality, Identity, and Individual Differences: bibliometric review study in rural districts examining historical change, resilience, subgroup differences, evidence quality, and actionable implications
+226. Personality, Identity, and Individual Differences: quasi-experimental evaluation study in university populations examining comparative governance, institutional change, subgroup differences, evidence quality, and actionable implications
+227. Personality, Identity, and Individual Differences: survey study in online communities examining data protection, participation, subgroup differences, evidence quality, and actionable implications
+228. Personality, Identity, and Individual Differences: semi-structured interview study in low-income households examining stigma processes, trust, subgroup differences, evidence quality, and actionable implications
+229. Personality, Identity, and Individual Differences: mixed-method sequential explanatory study in Indonesia examining participatory design, service uptake, subgroup differences, evidence quality, and actionable implications
+230. Personality, Identity, and Individual Differences: longitudinal panel study in rural districts examining accountability mechanisms, equity, subgroup differences, evidence quality, and actionable implications
+231. Personality, Identity, and Individual Differences: comparative case-study study in university populations examining access to remedies, compliance, subgroup differences, evidence quality, and actionable implications
+232. Personality, Identity, and Individual Differences: court or document content-analysis study in online communities examining care burdens, identity formation, subgroup differences, evidence quality, and actionable implications
+233. Personality, Identity, and Individual Differences: ethnographic fieldwork study in low-income households examining social capital, access, subgroup differences, evidence quality, and actionable implications
+234. Personality, Identity, and Individual Differences: policy-analysis study in Indonesia examining organizational climate, wellbeing, subgroup differences, evidence quality, and actionable implications
+235. Personality, Identity, and Individual Differences: bibliometric review study in rural districts examining algorithmic sorting, resilience, subgroup differences, evidence quality, and actionable implications
+236. Personality, Identity, and Individual Differences: quasi-experimental evaluation study in university populations examining cross-generational effects, institutional change, subgroup differences, evidence quality, and actionable implications
+237. Personality, Identity, and Individual Differences: survey study in online communities examining implementation gaps, participation, subgroup differences, evidence quality, and actionable implications
+238. Personality, Identity, and Individual Differences: semi-structured interview study in low-income households examining rural-urban differences, trust, subgroup differences, evidence quality, and actionable implications
+239. Personality, Identity, and Individual Differences: mixed-method sequential explanatory study in Indonesia examining minority inclusion, service uptake, subgroup differences, evidence quality, and actionable implications
+240. Personality, Identity, and Individual Differences: longitudinal panel study in rural districts examining crisis response, equity, subgroup differences, evidence quality, and actionable implications
+241. Personality, Identity, and Individual Differences: comparative case-study study in university populations examining informal institutions, compliance, subgroup differences, evidence quality, and actionable implications
+242. Personality, Identity, and Individual Differences: court or document content-analysis study in online communities examining advocacy strategies, identity formation, subgroup differences, evidence quality, and actionable implications
+243. Personality, Identity, and Individual Differences: ethnographic fieldwork study in low-income households examining cost consequences, access, subgroup differences, evidence quality, and actionable implications
+244. Personality, Identity, and Individual Differences: policy-analysis study in Indonesia examining norm diffusion, wellbeing, subgroup differences, evidence quality, and actionable implications
+245. Personality, Identity, and Individual Differences: bibliometric review study in rural districts examining rights claiming, resilience, subgroup differences, evidence quality, and actionable implications
+246. Personality, Identity, and Individual Differences: quasi-experimental evaluation study in university populations examining behavioral adaptation, institutional change, subgroup differences, evidence quality, and actionable implications
+247. Personality, Identity, and Individual Differences: survey study in online communities examining resilience pathways, participation, subgroup differences, evidence quality, and actionable implications
+248. Personality, Identity, and Individual Differences: semi-structured interview study in low-income households examining power asymmetry, trust, subgroup differences, evidence quality, and actionable implications
+249. Personality, Identity, and Individual Differences: mixed-method sequential explanatory study in Indonesia examining outcome sustainability, service uptake, subgroup differences, evidence quality, and actionable implications
+250. Personality, Identity, and Individual Differences: longitudinal panel study in rural districts examining reform feasibility, equity, subgroup differences, evidence quality, and actionable implications
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 6: HEALTH BEHAVIOR AND CLINICAL-RELEVANT PROCESSES (251–300)
+────────────────────────────────────────────────────────────────────────────────
+251. Health Behavior and Clinical-Relevant Processes: court or document content-analysis study in workplace settings examining institutional barriers, trust, subgroup differences, evidence quality, and actionable implications
+252. Health Behavior and Clinical-Relevant Processes: ethnographic fieldwork study in public institutions examining policy implementation, service uptake, subgroup differences, evidence quality, and actionable implications
+253. Health Behavior and Clinical-Relevant Processes: policy-analysis study in cross-national datasets examining lived experience, equity, subgroup differences, evidence quality, and actionable implications
+254. Health Behavior and Clinical-Relevant Processes: bibliometric review study in Southeast Asian cities examining measurement validity, compliance, subgroup differences, evidence quality, and actionable implications
+255. Health Behavior and Clinical-Relevant Processes: quasi-experimental evaluation study in urban neighborhoods examining regional variation, identity formation, subgroup differences, evidence quality, and actionable implications
+256. Health Behavior and Clinical-Relevant Processes: survey study in workplace settings examining digital mediation, access, subgroup differences, evidence quality, and actionable implications
+257. Health Behavior and Clinical-Relevant Processes: semi-structured interview study in public institutions examining family dynamics, wellbeing, subgroup differences, evidence quality, and actionable implications
+258. Health Behavior and Clinical-Relevant Processes: mixed-method sequential explanatory study in cross-national datasets examining workplace practices, resilience, subgroup differences, evidence quality, and actionable implications
+259. Health Behavior and Clinical-Relevant Processes: longitudinal panel study in Southeast Asian cities examining legal consciousness, institutional change, subgroup differences, evidence quality, and actionable implications
+260. Health Behavior and Clinical-Relevant Processes: comparative case-study study in urban neighborhoods examining service delivery, participation, subgroup differences, evidence quality, and actionable implications
+261. Health Behavior and Clinical-Relevant Processes: court or document content-analysis study in workplace settings examining media framing, trust, subgroup differences, evidence quality, and actionable implications
+262. Health Behavior and Clinical-Relevant Processes: ethnographic fieldwork study in public institutions examining education pathways, service uptake, subgroup differences, evidence quality, and actionable implications
+263. Health Behavior and Clinical-Relevant Processes: policy-analysis study in cross-national datasets examining health outcomes, equity, subgroup differences, evidence quality, and actionable implications
+264. Health Behavior and Clinical-Relevant Processes: bibliometric review study in Southeast Asian cities examining economic insecurity, compliance, subgroup differences, evidence quality, and actionable implications
+265. Health Behavior and Clinical-Relevant Processes: quasi-experimental evaluation study in urban neighborhoods examining community networks, identity formation, subgroup differences, evidence quality, and actionable implications
+266. Health Behavior and Clinical-Relevant Processes: survey study in workplace settings examining leadership pipelines, access, subgroup differences, evidence quality, and actionable implications
+267. Health Behavior and Clinical-Relevant Processes: semi-structured interview study in public institutions examining risk perception, wellbeing, subgroup differences, evidence quality, and actionable implications
+268. Health Behavior and Clinical-Relevant Processes: mixed-method sequential explanatory study in cross-national datasets examining identity negotiation, resilience, subgroup differences, evidence quality, and actionable implications
+269. Health Behavior and Clinical-Relevant Processes: longitudinal panel study in Southeast Asian cities examining resource allocation, institutional change, subgroup differences, evidence quality, and actionable implications
+270. Health Behavior and Clinical-Relevant Processes: comparative case-study study in urban neighborhoods examining public trust, participation, subgroup differences, evidence quality, and actionable implications
+271. Health Behavior and Clinical-Relevant Processes: court or document content-analysis study in workplace settings examining procedural fairness, trust, subgroup differences, evidence quality, and actionable implications
+272. Health Behavior and Clinical-Relevant Processes: ethnographic fieldwork study in public institutions examining cultural norms, service uptake, subgroup differences, evidence quality, and actionable implications
+273. Health Behavior and Clinical-Relevant Processes: policy-analysis study in cross-national datasets examining professional ethics, equity, subgroup differences, evidence quality, and actionable implications
+274. Health Behavior and Clinical-Relevant Processes: bibliometric review study in Southeast Asian cities examining intervention fidelity, compliance, subgroup differences, evidence quality, and actionable implications
+275. Health Behavior and Clinical-Relevant Processes: quasi-experimental evaluation study in urban neighborhoods examining historical change, identity formation, subgroup differences, evidence quality, and actionable implications
+276. Health Behavior and Clinical-Relevant Processes: survey study in workplace settings examining comparative governance, access, subgroup differences, evidence quality, and actionable implications
+277. Health Behavior and Clinical-Relevant Processes: semi-structured interview study in public institutions examining data protection, wellbeing, subgroup differences, evidence quality, and actionable implications
+278. Health Behavior and Clinical-Relevant Processes: mixed-method sequential explanatory study in cross-national datasets examining stigma processes, resilience, subgroup differences, evidence quality, and actionable implications
+279. Health Behavior and Clinical-Relevant Processes: longitudinal panel study in Southeast Asian cities examining participatory design, institutional change, subgroup differences, evidence quality, and actionable implications
+280. Health Behavior and Clinical-Relevant Processes: comparative case-study study in urban neighborhoods examining accountability mechanisms, participation, subgroup differences, evidence quality, and actionable implications
+281. Health Behavior and Clinical-Relevant Processes: court or document content-analysis study in workplace settings examining access to remedies, trust, subgroup differences, evidence quality, and actionable implications
+282. Health Behavior and Clinical-Relevant Processes: ethnographic fieldwork study in public institutions examining care burdens, service uptake, subgroup differences, evidence quality, and actionable implications
+283. Health Behavior and Clinical-Relevant Processes: policy-analysis study in cross-national datasets examining social capital, equity, subgroup differences, evidence quality, and actionable implications
+284. Health Behavior and Clinical-Relevant Processes: bibliometric review study in Southeast Asian cities examining organizational climate, compliance, subgroup differences, evidence quality, and actionable implications
+285. Health Behavior and Clinical-Relevant Processes: quasi-experimental evaluation study in urban neighborhoods examining algorithmic sorting, identity formation, subgroup differences, evidence quality, and actionable implications
+286. Health Behavior and Clinical-Relevant Processes: survey study in workplace settings examining cross-generational effects, access, subgroup differences, evidence quality, and actionable implications
+287. Health Behavior and Clinical-Relevant Processes: semi-structured interview study in public institutions examining implementation gaps, wellbeing, subgroup differences, evidence quality, and actionable implications
+288. Health Behavior and Clinical-Relevant Processes: mixed-method sequential explanatory study in cross-national datasets examining rural-urban differences, resilience, subgroup differences, evidence quality, and actionable implications
+289. Health Behavior and Clinical-Relevant Processes: longitudinal panel study in Southeast Asian cities examining minority inclusion, institutional change, subgroup differences, evidence quality, and actionable implications
+290. Health Behavior and Clinical-Relevant Processes: comparative case-study study in urban neighborhoods examining crisis response, participation, subgroup differences, evidence quality, and actionable implications
+291. Health Behavior and Clinical-Relevant Processes: court or document content-analysis study in workplace settings examining informal institutions, trust, subgroup differences, evidence quality, and actionable implications
+292. Health Behavior and Clinical-Relevant Processes: ethnographic fieldwork study in public institutions examining advocacy strategies, service uptake, subgroup differences, evidence quality, and actionable implications
+293. Health Behavior and Clinical-Relevant Processes: policy-analysis study in cross-national datasets examining cost consequences, equity, subgroup differences, evidence quality, and actionable implications
+294. Health Behavior and Clinical-Relevant Processes: bibliometric review study in Southeast Asian cities examining norm diffusion, compliance, subgroup differences, evidence quality, and actionable implications
+295. Health Behavior and Clinical-Relevant Processes: quasi-experimental evaluation study in urban neighborhoods examining rights claiming, identity formation, subgroup differences, evidence quality, and actionable implications
+296. Health Behavior and Clinical-Relevant Processes: survey study in workplace settings examining behavioral adaptation, access, subgroup differences, evidence quality, and actionable implications
+297. Health Behavior and Clinical-Relevant Processes: semi-structured interview study in public institutions examining resilience pathways, wellbeing, subgroup differences, evidence quality, and actionable implications
+298. Health Behavior and Clinical-Relevant Processes: mixed-method sequential explanatory study in cross-national datasets examining power asymmetry, resilience, subgroup differences, evidence quality, and actionable implications
+299. Health Behavior and Clinical-Relevant Processes: longitudinal panel study in Southeast Asian cities examining outcome sustainability, institutional change, subgroup differences, evidence quality, and actionable implications
+300. Health Behavior and Clinical-Relevant Processes: comparative case-study study in urban neighborhoods examining reform feasibility, participation, subgroup differences, evidence quality, and actionable implications
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 7: LEARNING, MEMORY, AND EDUCATIONAL CONTEXTS (301–350)
+────────────────────────────────────────────────────────────────────────────────
+301. Learning, Memory, and Educational Contexts: ethnographic fieldwork study in online communities examining institutional barriers, resilience, subgroup differences, evidence quality, and actionable implications
+302. Learning, Memory, and Educational Contexts: policy-analysis study in low-income households examining policy implementation, institutional change, subgroup differences, evidence quality, and actionable implications
+303. Learning, Memory, and Educational Contexts: bibliometric review study in Indonesia examining lived experience, participation, subgroup differences, evidence quality, and actionable implications
+304. Learning, Memory, and Educational Contexts: quasi-experimental evaluation study in rural districts examining measurement validity, trust, subgroup differences, evidence quality, and actionable implications
+305. Learning, Memory, and Educational Contexts: survey study in university populations examining regional variation, service uptake, subgroup differences, evidence quality, and actionable implications
+306. Learning, Memory, and Educational Contexts: semi-structured interview study in online communities examining digital mediation, equity, subgroup differences, evidence quality, and actionable implications
+307. Learning, Memory, and Educational Contexts: mixed-method sequential explanatory study in low-income households examining family dynamics, compliance, subgroup differences, evidence quality, and actionable implications
+308. Learning, Memory, and Educational Contexts: longitudinal panel study in Indonesia examining workplace practices, identity formation, subgroup differences, evidence quality, and actionable implications
+309. Learning, Memory, and Educational Contexts: comparative case-study study in rural districts examining legal consciousness, access, subgroup differences, evidence quality, and actionable implications
+310. Learning, Memory, and Educational Contexts: court or document content-analysis study in university populations examining service delivery, wellbeing, subgroup differences, evidence quality, and actionable implications
+311. Learning, Memory, and Educational Contexts: ethnographic fieldwork study in online communities examining media framing, resilience, subgroup differences, evidence quality, and actionable implications
+312. Learning, Memory, and Educational Contexts: policy-analysis study in low-income households examining education pathways, institutional change, subgroup differences, evidence quality, and actionable implications
+313. Learning, Memory, and Educational Contexts: bibliometric review study in Indonesia examining health outcomes, participation, subgroup differences, evidence quality, and actionable implications
+314. Learning, Memory, and Educational Contexts: quasi-experimental evaluation study in rural districts examining economic insecurity, trust, subgroup differences, evidence quality, and actionable implications
+315. Learning, Memory, and Educational Contexts: survey study in university populations examining community networks, service uptake, subgroup differences, evidence quality, and actionable implications
+316. Learning, Memory, and Educational Contexts: semi-structured interview study in online communities examining leadership pipelines, equity, subgroup differences, evidence quality, and actionable implications
+317. Learning, Memory, and Educational Contexts: mixed-method sequential explanatory study in low-income households examining risk perception, compliance, subgroup differences, evidence quality, and actionable implications
+318. Learning, Memory, and Educational Contexts: longitudinal panel study in Indonesia examining identity negotiation, identity formation, subgroup differences, evidence quality, and actionable implications
+319. Learning, Memory, and Educational Contexts: comparative case-study study in rural districts examining resource allocation, access, subgroup differences, evidence quality, and actionable implications
+320. Learning, Memory, and Educational Contexts: court or document content-analysis study in university populations examining public trust, wellbeing, subgroup differences, evidence quality, and actionable implications
+321. Learning, Memory, and Educational Contexts: ethnographic fieldwork study in online communities examining procedural fairness, resilience, subgroup differences, evidence quality, and actionable implications
+322. Learning, Memory, and Educational Contexts: policy-analysis study in low-income households examining cultural norms, institutional change, subgroup differences, evidence quality, and actionable implications
+323. Learning, Memory, and Educational Contexts: bibliometric review study in Indonesia examining professional ethics, participation, subgroup differences, evidence quality, and actionable implications
+324. Learning, Memory, and Educational Contexts: quasi-experimental evaluation study in rural districts examining intervention fidelity, trust, subgroup differences, evidence quality, and actionable implications
+325. Learning, Memory, and Educational Contexts: survey study in university populations examining historical change, service uptake, subgroup differences, evidence quality, and actionable implications
+326. Learning, Memory, and Educational Contexts: semi-structured interview study in online communities examining comparative governance, equity, subgroup differences, evidence quality, and actionable implications
+327. Learning, Memory, and Educational Contexts: mixed-method sequential explanatory study in low-income households examining data protection, compliance, subgroup differences, evidence quality, and actionable implications
+328. Learning, Memory, and Educational Contexts: longitudinal panel study in Indonesia examining stigma processes, identity formation, subgroup differences, evidence quality, and actionable implications
+329. Learning, Memory, and Educational Contexts: comparative case-study study in rural districts examining participatory design, access, subgroup differences, evidence quality, and actionable implications
+330. Learning, Memory, and Educational Contexts: court or document content-analysis study in university populations examining accountability mechanisms, wellbeing, subgroup differences, evidence quality, and actionable implications
+331. Learning, Memory, and Educational Contexts: ethnographic fieldwork study in online communities examining access to remedies, resilience, subgroup differences, evidence quality, and actionable implications
+332. Learning, Memory, and Educational Contexts: policy-analysis study in low-income households examining care burdens, institutional change, subgroup differences, evidence quality, and actionable implications
+333. Learning, Memory, and Educational Contexts: bibliometric review study in Indonesia examining social capital, participation, subgroup differences, evidence quality, and actionable implications
+334. Learning, Memory, and Educational Contexts: quasi-experimental evaluation study in rural districts examining organizational climate, trust, subgroup differences, evidence quality, and actionable implications
+335. Learning, Memory, and Educational Contexts: survey study in university populations examining algorithmic sorting, service uptake, subgroup differences, evidence quality, and actionable implications
+336. Learning, Memory, and Educational Contexts: semi-structured interview study in online communities examining cross-generational effects, equity, subgroup differences, evidence quality, and actionable implications
+337. Learning, Memory, and Educational Contexts: mixed-method sequential explanatory study in low-income households examining implementation gaps, compliance, subgroup differences, evidence quality, and actionable implications
+338. Learning, Memory, and Educational Contexts: longitudinal panel study in Indonesia examining rural-urban differences, identity formation, subgroup differences, evidence quality, and actionable implications
+339. Learning, Memory, and Educational Contexts: comparative case-study study in rural districts examining minority inclusion, access, subgroup differences, evidence quality, and actionable implications
+340. Learning, Memory, and Educational Contexts: court or document content-analysis study in university populations examining crisis response, wellbeing, subgroup differences, evidence quality, and actionable implications
+341. Learning, Memory, and Educational Contexts: ethnographic fieldwork study in online communities examining informal institutions, resilience, subgroup differences, evidence quality, and actionable implications
+342. Learning, Memory, and Educational Contexts: policy-analysis study in low-income households examining advocacy strategies, institutional change, subgroup differences, evidence quality, and actionable implications
+343. Learning, Memory, and Educational Contexts: bibliometric review study in Indonesia examining cost consequences, participation, subgroup differences, evidence quality, and actionable implications
+344. Learning, Memory, and Educational Contexts: quasi-experimental evaluation study in rural districts examining norm diffusion, trust, subgroup differences, evidence quality, and actionable implications
+345. Learning, Memory, and Educational Contexts: survey study in university populations examining rights claiming, service uptake, subgroup differences, evidence quality, and actionable implications
+346. Learning, Memory, and Educational Contexts: semi-structured interview study in online communities examining behavioral adaptation, equity, subgroup differences, evidence quality, and actionable implications
+347. Learning, Memory, and Educational Contexts: mixed-method sequential explanatory study in low-income households examining resilience pathways, compliance, subgroup differences, evidence quality, and actionable implications
+348. Learning, Memory, and Educational Contexts: longitudinal panel study in Indonesia examining power asymmetry, identity formation, subgroup differences, evidence quality, and actionable implications
+349. Learning, Memory, and Educational Contexts: comparative case-study study in rural districts examining outcome sustainability, access, subgroup differences, evidence quality, and actionable implications
+350. Learning, Memory, and Educational Contexts: court or document content-analysis study in university populations examining reform feasibility, wellbeing, subgroup differences, evidence quality, and actionable implications
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 8: WORK, ORGANIZATION, AND CONSUMER BEHAVIOR (351–400)
+────────────────────────────────────────────────────────────────────────────────
+351. Work, Organization, and Consumer Behavior: policy-analysis study in public institutions examining institutional barriers, identity formation, subgroup differences, evidence quality, and actionable implications
+352. Work, Organization, and Consumer Behavior: bibliometric review study in cross-national datasets examining policy implementation, access, subgroup differences, evidence quality, and actionable implications
+353. Work, Organization, and Consumer Behavior: quasi-experimental evaluation study in Southeast Asian cities examining lived experience, wellbeing, subgroup differences, evidence quality, and actionable implications
+354. Work, Organization, and Consumer Behavior: survey study in urban neighborhoods examining measurement validity, resilience, subgroup differences, evidence quality, and actionable implications
+355. Work, Organization, and Consumer Behavior: semi-structured interview study in workplace settings examining regional variation, institutional change, subgroup differences, evidence quality, and actionable implications
+356. Work, Organization, and Consumer Behavior: mixed-method sequential explanatory study in public institutions examining digital mediation, participation, subgroup differences, evidence quality, and actionable implications
+357. Work, Organization, and Consumer Behavior: longitudinal panel study in cross-national datasets examining family dynamics, trust, subgroup differences, evidence quality, and actionable implications
+358. Work, Organization, and Consumer Behavior: comparative case-study study in Southeast Asian cities examining workplace practices, service uptake, subgroup differences, evidence quality, and actionable implications
+359. Work, Organization, and Consumer Behavior: court or document content-analysis study in urban neighborhoods examining legal consciousness, equity, subgroup differences, evidence quality, and actionable implications
+360. Work, Organization, and Consumer Behavior: ethnographic fieldwork study in workplace settings examining service delivery, compliance, subgroup differences, evidence quality, and actionable implications
+361. Work, Organization, and Consumer Behavior: policy-analysis study in public institutions examining media framing, identity formation, subgroup differences, evidence quality, and actionable implications
+362. Work, Organization, and Consumer Behavior: bibliometric review study in cross-national datasets examining education pathways, access, subgroup differences, evidence quality, and actionable implications
+363. Work, Organization, and Consumer Behavior: quasi-experimental evaluation study in Southeast Asian cities examining health outcomes, wellbeing, subgroup differences, evidence quality, and actionable implications
+364. Work, Organization, and Consumer Behavior: survey study in urban neighborhoods examining economic insecurity, resilience, subgroup differences, evidence quality, and actionable implications
+365. Work, Organization, and Consumer Behavior: semi-structured interview study in workplace settings examining community networks, institutional change, subgroup differences, evidence quality, and actionable implications
+366. Work, Organization, and Consumer Behavior: mixed-method sequential explanatory study in public institutions examining leadership pipelines, participation, subgroup differences, evidence quality, and actionable implications
+367. Work, Organization, and Consumer Behavior: longitudinal panel study in cross-national datasets examining risk perception, trust, subgroup differences, evidence quality, and actionable implications
+368. Work, Organization, and Consumer Behavior: comparative case-study study in Southeast Asian cities examining identity negotiation, service uptake, subgroup differences, evidence quality, and actionable implications
+369. Work, Organization, and Consumer Behavior: court or document content-analysis study in urban neighborhoods examining resource allocation, equity, subgroup differences, evidence quality, and actionable implications
+370. Work, Organization, and Consumer Behavior: ethnographic fieldwork study in workplace settings examining public trust, compliance, subgroup differences, evidence quality, and actionable implications
+371. Work, Organization, and Consumer Behavior: policy-analysis study in public institutions examining procedural fairness, identity formation, subgroup differences, evidence quality, and actionable implications
+372. Work, Organization, and Consumer Behavior: bibliometric review study in cross-national datasets examining cultural norms, access, subgroup differences, evidence quality, and actionable implications
+373. Work, Organization, and Consumer Behavior: quasi-experimental evaluation study in Southeast Asian cities examining professional ethics, wellbeing, subgroup differences, evidence quality, and actionable implications
+374. Work, Organization, and Consumer Behavior: survey study in urban neighborhoods examining intervention fidelity, resilience, subgroup differences, evidence quality, and actionable implications
+375. Work, Organization, and Consumer Behavior: semi-structured interview study in workplace settings examining historical change, institutional change, subgroup differences, evidence quality, and actionable implications
+376. Work, Organization, and Consumer Behavior: mixed-method sequential explanatory study in public institutions examining comparative governance, participation, subgroup differences, evidence quality, and actionable implications
+377. Work, Organization, and Consumer Behavior: longitudinal panel study in cross-national datasets examining data protection, trust, subgroup differences, evidence quality, and actionable implications
+378. Work, Organization, and Consumer Behavior: comparative case-study study in Southeast Asian cities examining stigma processes, service uptake, subgroup differences, evidence quality, and actionable implications
+379. Work, Organization, and Consumer Behavior: court or document content-analysis study in urban neighborhoods examining participatory design, equity, subgroup differences, evidence quality, and actionable implications
+380. Work, Organization, and Consumer Behavior: ethnographic fieldwork study in workplace settings examining accountability mechanisms, compliance, subgroup differences, evidence quality, and actionable implications
+381. Work, Organization, and Consumer Behavior: policy-analysis study in public institutions examining access to remedies, identity formation, subgroup differences, evidence quality, and actionable implications
+382. Work, Organization, and Consumer Behavior: bibliometric review study in cross-national datasets examining care burdens, access, subgroup differences, evidence quality, and actionable implications
+383. Work, Organization, and Consumer Behavior: quasi-experimental evaluation study in Southeast Asian cities examining social capital, wellbeing, subgroup differences, evidence quality, and actionable implications
+384. Work, Organization, and Consumer Behavior: survey study in urban neighborhoods examining organizational climate, resilience, subgroup differences, evidence quality, and actionable implications
+385. Work, Organization, and Consumer Behavior: semi-structured interview study in workplace settings examining algorithmic sorting, institutional change, subgroup differences, evidence quality, and actionable implications
+386. Work, Organization, and Consumer Behavior: mixed-method sequential explanatory study in public institutions examining cross-generational effects, participation, subgroup differences, evidence quality, and actionable implications
+387. Work, Organization, and Consumer Behavior: longitudinal panel study in cross-national datasets examining implementation gaps, trust, subgroup differences, evidence quality, and actionable implications
+388. Work, Organization, and Consumer Behavior: comparative case-study study in Southeast Asian cities examining rural-urban differences, service uptake, subgroup differences, evidence quality, and actionable implications
+389. Work, Organization, and Consumer Behavior: court or document content-analysis study in urban neighborhoods examining minority inclusion, equity, subgroup differences, evidence quality, and actionable implications
+390. Work, Organization, and Consumer Behavior: ethnographic fieldwork study in workplace settings examining crisis response, compliance, subgroup differences, evidence quality, and actionable implications
+391. Work, Organization, and Consumer Behavior: policy-analysis study in public institutions examining informal institutions, identity formation, subgroup differences, evidence quality, and actionable implications
+392. Work, Organization, and Consumer Behavior: bibliometric review study in cross-national datasets examining advocacy strategies, access, subgroup differences, evidence quality, and actionable implications
+393. Work, Organization, and Consumer Behavior: quasi-experimental evaluation study in Southeast Asian cities examining cost consequences, wellbeing, subgroup differences, evidence quality, and actionable implications
+394. Work, Organization, and Consumer Behavior: survey study in urban neighborhoods examining norm diffusion, resilience, subgroup differences, evidence quality, and actionable implications
+395. Work, Organization, and Consumer Behavior: semi-structured interview study in workplace settings examining rights claiming, institutional change, subgroup differences, evidence quality, and actionable implications
+396. Work, Organization, and Consumer Behavior: mixed-method sequential explanatory study in public institutions examining behavioral adaptation, participation, subgroup differences, evidence quality, and actionable implications
+397. Work, Organization, and Consumer Behavior: longitudinal panel study in cross-national datasets examining resilience pathways, trust, subgroup differences, evidence quality, and actionable implications
+398. Work, Organization, and Consumer Behavior: comparative case-study study in Southeast Asian cities examining power asymmetry, service uptake, subgroup differences, evidence quality, and actionable implications
+399. Work, Organization, and Consumer Behavior: court or document content-analysis study in urban neighborhoods examining outcome sustainability, equity, subgroup differences, evidence quality, and actionable implications
+400. Work, Organization, and Consumer Behavior: ethnographic fieldwork study in workplace settings examining reform feasibility, compliance, subgroup differences, evidence quality, and actionable implications
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 9: PSYCHOMETRICS, MEASUREMENT, AND METHODS (401–450)
+────────────────────────────────────────────────────────────────────────────────
+401. Psychometrics, Measurement, and Methods: bibliometric review study in low-income households examining institutional barriers, service uptake, subgroup differences, evidence quality, and actionable implications
+402. Psychometrics, Measurement, and Methods: quasi-experimental evaluation study in Indonesia examining policy implementation, equity, subgroup differences, evidence quality, and actionable implications
+403. Psychometrics, Measurement, and Methods: survey study in rural districts examining lived experience, compliance, subgroup differences, evidence quality, and actionable implications
+404. Psychometrics, Measurement, and Methods: semi-structured interview study in university populations examining measurement validity, identity formation, subgroup differences, evidence quality, and actionable implications
+405. Psychometrics, Measurement, and Methods: mixed-method sequential explanatory study in online communities examining regional variation, access, subgroup differences, evidence quality, and actionable implications
+406. Psychometrics, Measurement, and Methods: longitudinal panel study in low-income households examining digital mediation, wellbeing, subgroup differences, evidence quality, and actionable implications
+407. Psychometrics, Measurement, and Methods: comparative case-study study in Indonesia examining family dynamics, resilience, subgroup differences, evidence quality, and actionable implications
+408. Psychometrics, Measurement, and Methods: court or document content-analysis study in rural districts examining workplace practices, institutional change, subgroup differences, evidence quality, and actionable implications
+409. Psychometrics, Measurement, and Methods: ethnographic fieldwork study in university populations examining legal consciousness, participation, subgroup differences, evidence quality, and actionable implications
+410. Psychometrics, Measurement, and Methods: policy-analysis study in online communities examining service delivery, trust, subgroup differences, evidence quality, and actionable implications
+411. Psychometrics, Measurement, and Methods: bibliometric review study in low-income households examining media framing, service uptake, subgroup differences, evidence quality, and actionable implications
+412. Psychometrics, Measurement, and Methods: quasi-experimental evaluation study in Indonesia examining education pathways, equity, subgroup differences, evidence quality, and actionable implications
+413. Psychometrics, Measurement, and Methods: survey study in rural districts examining health outcomes, compliance, subgroup differences, evidence quality, and actionable implications
+414. Psychometrics, Measurement, and Methods: semi-structured interview study in university populations examining economic insecurity, identity formation, subgroup differences, evidence quality, and actionable implications
+415. Psychometrics, Measurement, and Methods: mixed-method sequential explanatory study in online communities examining community networks, access, subgroup differences, evidence quality, and actionable implications
+416. Psychometrics, Measurement, and Methods: longitudinal panel study in low-income households examining leadership pipelines, wellbeing, subgroup differences, evidence quality, and actionable implications
+417. Psychometrics, Measurement, and Methods: comparative case-study study in Indonesia examining risk perception, resilience, subgroup differences, evidence quality, and actionable implications
+418. Psychometrics, Measurement, and Methods: court or document content-analysis study in rural districts examining identity negotiation, institutional change, subgroup differences, evidence quality, and actionable implications
+419. Psychometrics, Measurement, and Methods: ethnographic fieldwork study in university populations examining resource allocation, participation, subgroup differences, evidence quality, and actionable implications
+420. Psychometrics, Measurement, and Methods: policy-analysis study in online communities examining public trust, trust, subgroup differences, evidence quality, and actionable implications
+421. Psychometrics, Measurement, and Methods: bibliometric review study in low-income households examining procedural fairness, service uptake, subgroup differences, evidence quality, and actionable implications
+422. Psychometrics, Measurement, and Methods: quasi-experimental evaluation study in Indonesia examining cultural norms, equity, subgroup differences, evidence quality, and actionable implications
+423. Psychometrics, Measurement, and Methods: survey study in rural districts examining professional ethics, compliance, subgroup differences, evidence quality, and actionable implications
+424. Psychometrics, Measurement, and Methods: semi-structured interview study in university populations examining intervention fidelity, identity formation, subgroup differences, evidence quality, and actionable implications
+425. Psychometrics, Measurement, and Methods: mixed-method sequential explanatory study in online communities examining historical change, access, subgroup differences, evidence quality, and actionable implications
+426. Psychometrics, Measurement, and Methods: longitudinal panel study in low-income households examining comparative governance, wellbeing, subgroup differences, evidence quality, and actionable implications
+427. Psychometrics, Measurement, and Methods: comparative case-study study in Indonesia examining data protection, resilience, subgroup differences, evidence quality, and actionable implications
+428. Psychometrics, Measurement, and Methods: court or document content-analysis study in rural districts examining stigma processes, institutional change, subgroup differences, evidence quality, and actionable implications
+429. Psychometrics, Measurement, and Methods: ethnographic fieldwork study in university populations examining participatory design, participation, subgroup differences, evidence quality, and actionable implications
+430. Psychometrics, Measurement, and Methods: policy-analysis study in online communities examining accountability mechanisms, trust, subgroup differences, evidence quality, and actionable implications
+431. Psychometrics, Measurement, and Methods: bibliometric review study in low-income households examining access to remedies, service uptake, subgroup differences, evidence quality, and actionable implications
+432. Psychometrics, Measurement, and Methods: quasi-experimental evaluation study in Indonesia examining care burdens, equity, subgroup differences, evidence quality, and actionable implications
+433. Psychometrics, Measurement, and Methods: survey study in rural districts examining social capital, compliance, subgroup differences, evidence quality, and actionable implications
+434. Psychometrics, Measurement, and Methods: semi-structured interview study in university populations examining organizational climate, identity formation, subgroup differences, evidence quality, and actionable implications
+435. Psychometrics, Measurement, and Methods: mixed-method sequential explanatory study in online communities examining algorithmic sorting, access, subgroup differences, evidence quality, and actionable implications
+436. Psychometrics, Measurement, and Methods: longitudinal panel study in low-income households examining cross-generational effects, wellbeing, subgroup differences, evidence quality, and actionable implications
+437. Psychometrics, Measurement, and Methods: comparative case-study study in Indonesia examining implementation gaps, resilience, subgroup differences, evidence quality, and actionable implications
+438. Psychometrics, Measurement, and Methods: court or document content-analysis study in rural districts examining rural-urban differences, institutional change, subgroup differences, evidence quality, and actionable implications
+439. Psychometrics, Measurement, and Methods: ethnographic fieldwork study in university populations examining minority inclusion, participation, subgroup differences, evidence quality, and actionable implications
+440. Psychometrics, Measurement, and Methods: policy-analysis study in online communities examining crisis response, trust, subgroup differences, evidence quality, and actionable implications
+441. Psychometrics, Measurement, and Methods: bibliometric review study in low-income households examining informal institutions, service uptake, subgroup differences, evidence quality, and actionable implications
+442. Psychometrics, Measurement, and Methods: quasi-experimental evaluation study in Indonesia examining advocacy strategies, equity, subgroup differences, evidence quality, and actionable implications
+443. Psychometrics, Measurement, and Methods: survey study in rural districts examining cost consequences, compliance, subgroup differences, evidence quality, and actionable implications
+444. Psychometrics, Measurement, and Methods: semi-structured interview study in university populations examining norm diffusion, identity formation, subgroup differences, evidence quality, and actionable implications
+445. Psychometrics, Measurement, and Methods: mixed-method sequential explanatory study in online communities examining rights claiming, access, subgroup differences, evidence quality, and actionable implications
+446. Psychometrics, Measurement, and Methods: longitudinal panel study in low-income households examining behavioral adaptation, wellbeing, subgroup differences, evidence quality, and actionable implications
+447. Psychometrics, Measurement, and Methods: comparative case-study study in Indonesia examining resilience pathways, resilience, subgroup differences, evidence quality, and actionable implications
+448. Psychometrics, Measurement, and Methods: court or document content-analysis study in rural districts examining power asymmetry, institutional change, subgroup differences, evidence quality, and actionable implications
+449. Psychometrics, Measurement, and Methods: ethnographic fieldwork study in university populations examining outcome sustainability, participation, subgroup differences, evidence quality, and actionable implications
+450. Psychometrics, Measurement, and Methods: policy-analysis study in online communities examining reform feasibility, trust, subgroup differences, evidence quality, and actionable implications
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 1: COGNITION, ATTENTION, AND DECISION-MAKING (001–050)
+────────────────────────────────────────────────────────────────────────────────
+451. Digital Behavior, Media, and Technology: quasi-experimental evaluation study in cross-national datasets examining institutional barriers, institutional change, subgroup differences, evidence quality, and actionable implications
+452. Digital Behavior, Media, and Technology: survey study in Southeast Asian cities examining policy implementation, participation, subgroup differences, evidence quality, and actionable implications
+453. Digital Behavior, Media, and Technology: semi-structured interview study in urban neighborhoods examining lived experience, trust, subgroup differences, evidence quality, and actionable implications
+454. Digital Behavior, Media, and Technology: mixed-method sequential explanatory study in workplace settings examining measurement validity, service uptake, subgroup differences, evidence quality, and actionable implications
+455. Digital Behavior, Media, and Technology: longitudinal panel study in public institutions examining regional variation, equity, subgroup differences, evidence quality, and actionable implications
+456. Digital Behavior, Media, and Technology: comparative case-study study in cross-national datasets examining digital mediation, compliance, subgroup differences, evidence quality, and actionable implications
+457. Digital Behavior, Media, and Technology: court or document content-analysis study in Southeast Asian cities examining family dynamics, identity formation, subgroup differences, evidence quality, and actionable implications
+458. Digital Behavior, Media, and Technology: ethnographic fieldwork study in urban neighborhoods examining workplace practices, access, subgroup differences, evidence quality, and actionable implications
+459. Digital Behavior, Media, and Technology: policy-analysis study in workplace settings examining legal consciousness, wellbeing, subgroup differences, evidence quality, and actionable implications
+460. Digital Behavior, Media, and Technology: bibliometric review study in public institutions examining service delivery, resilience, subgroup differences, evidence quality, and actionable implications
+461. Digital Behavior, Media, and Technology: quasi-experimental evaluation study in cross-national datasets examining media framing, institutional change, subgroup differences, evidence quality, and actionable implications
+462. Digital Behavior, Media, and Technology: survey study in Southeast Asian cities examining education pathways, participation, subgroup differences, evidence quality, and actionable implications
+463. Digital Behavior, Media, and Technology: semi-structured interview study in urban neighborhoods examining health outcomes, trust, subgroup differences, evidence quality, and actionable implications
+464. Digital Behavior, Media, and Technology: mixed-method sequential explanatory study in workplace settings examining economic insecurity, service uptake, subgroup differences, evidence quality, and actionable implications
+465. Digital Behavior, Media, and Technology: longitudinal panel study in public institutions examining community networks, equity, subgroup differences, evidence quality, and actionable implications
+466. Digital Behavior, Media, and Technology: comparative case-study study in cross-national datasets examining leadership pipelines, compliance, subgroup differences, evidence quality, and actionable implications
+467. Digital Behavior, Media, and Technology: court or document content-analysis study in Southeast Asian cities examining risk perception, identity formation, subgroup differences, evidence quality, and actionable implications
+468. Digital Behavior, Media, and Technology: ethnographic fieldwork study in urban neighborhoods examining identity negotiation, access, subgroup differences, evidence quality, and actionable implications
+469. Digital Behavior, Media, and Technology: policy-analysis study in workplace settings examining resource allocation, wellbeing, subgroup differences, evidence quality, and actionable implications
+470. Digital Behavior, Media, and Technology: bibliometric review study in public institutions examining public trust, resilience, subgroup differences, evidence quality, and actionable implications
+471. Digital Behavior, Media, and Technology: quasi-experimental evaluation study in cross-national datasets examining procedural fairness, institutional change, subgroup differences, evidence quality, and actionable implications
+472. Digital Behavior, Media, and Technology: survey study in Southeast Asian cities examining cultural norms, participation, subgroup differences, evidence quality, and actionable implications
+473. Digital Behavior, Media, and Technology: semi-structured interview study in urban neighborhoods examining professional ethics, trust, subgroup differences, evidence quality, and actionable implications
+474. Digital Behavior, Media, and Technology: mixed-method sequential explanatory study in workplace settings examining intervention fidelity, service uptake, subgroup differences, evidence quality, and actionable implications
+475. Digital Behavior, Media, and Technology: longitudinal panel study in public institutions examining historical change, equity, subgroup differences, evidence quality, and actionable implications
+476. Digital Behavior, Media, and Technology: comparative case-study study in cross-national datasets examining comparative governance, compliance, subgroup differences, evidence quality, and actionable implications
+477. Digital Behavior, Media, and Technology: court or document content-analysis study in Southeast Asian cities examining data protection, identity formation, subgroup differences, evidence quality, and actionable implications
+478. Digital Behavior, Media, and Technology: ethnographic fieldwork study in urban neighborhoods examining stigma processes, access, subgroup differences, evidence quality, and actionable implications
+479. Digital Behavior, Media, and Technology: policy-analysis study in workplace settings examining participatory design, wellbeing, subgroup differences, evidence quality, and actionable implications
+480. Digital Behavior, Media, and Technology: bibliometric review study in public institutions examining accountability mechanisms, resilience, subgroup differences, evidence quality, and actionable implications
+481. Digital Behavior, Media, and Technology: quasi-experimental evaluation study in cross-national datasets examining access to remedies, institutional change, subgroup differences, evidence quality, and actionable implications
+482. Digital Behavior, Media, and Technology: survey study in Southeast Asian cities examining care burdens, participation, subgroup differences, evidence quality, and actionable implications
+483. Digital Behavior, Media, and Technology: semi-structured interview study in urban neighborhoods examining social capital, trust, subgroup differences, evidence quality, and actionable implications
+484. Digital Behavior, Media, and Technology: mixed-method sequential explanatory study in workplace settings examining organizational climate, service uptake, subgroup differences, evidence quality, and actionable implications
+485. Digital Behavior, Media, and Technology: longitudinal panel study in public institutions examining algorithmic sorting, equity, subgroup differences, evidence quality, and actionable implications
+486. Digital Behavior, Media, and Technology: comparative case-study study in cross-national datasets examining cross-generational effects, compliance, subgroup differences, evidence quality, and actionable implications
+487. Digital Behavior, Media, and Technology: court or document content-analysis study in Southeast Asian cities examining implementation gaps, identity formation, subgroup differences, evidence quality, and actionable implications
+488. Digital Behavior, Media, and Technology: ethnographic fieldwork study in urban neighborhoods examining rural-urban differences, access, subgroup differences, evidence quality, and actionable implications
+489. Digital Behavior, Media, and Technology: policy-analysis study in workplace settings examining minority inclusion, wellbeing, subgroup differences, evidence quality, and actionable implications
+490. Digital Behavior, Media, and Technology: bibliometric review study in public institutions examining crisis response, resilience, subgroup differences, evidence quality, and actionable implications
+491. Digital Behavior, Media, and Technology: quasi-experimental evaluation study in cross-national datasets examining informal institutions, institutional change, subgroup differences, evidence quality, and actionable implications
+492. Digital Behavior, Media, and Technology: survey study in Southeast Asian cities examining advocacy strategies, participation, subgroup differences, evidence quality, and actionable implications
+493. Digital Behavior, Media, and Technology: semi-structured interview study in urban neighborhoods examining cost consequences, trust, subgroup differences, evidence quality, and actionable implications
+494. Digital Behavior, Media, and Technology: mixed-method sequential explanatory study in workplace settings examining norm diffusion, service uptake, subgroup differences, evidence quality, and actionable implications
+495. Digital Behavior, Media, and Technology: longitudinal panel study in public institutions examining rights claiming, equity, subgroup differences, evidence quality, and actionable implications
+496. Digital Behavior, Media, and Technology: comparative case-study study in cross-national datasets examining behavioral adaptation, compliance, subgroup differences, evidence quality, and actionable implications
+497. Digital Behavior, Media, and Technology: court or document content-analysis study in Southeast Asian cities examining resilience pathways, identity formation, subgroup differences, evidence quality, and actionable implications
+498. Digital Behavior, Media, and Technology: ethnographic fieldwork study in urban neighborhoods examining power asymmetry, access, subgroup differences, evidence quality, and actionable implications
+499. Digital Behavior, Media, and Technology: policy-analysis study in workplace settings examining outcome sustainability, wellbeing, subgroup differences, evidence quality, and actionable implications
+500. Digital Behavior, Media, and Technology: bibliometric review study in public institutions examining reform feasibility, resilience, subgroup differences, evidence quality, and actionable implications

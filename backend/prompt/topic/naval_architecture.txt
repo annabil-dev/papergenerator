@@ -1,0 +1,707 @@
+================================================================================
+TOPIC GUIDE — Naval Architecture & Marine Engineering (Teknik Perkapalan)
+================================================================================
+FIELD: Naval Architecture & Marine Engineering
+DEFAULT CITATION STYLE: IEEE
+SUBDISCIPLINE: Ship Hydrodynamics, Marine Structural Engineering, Ship Stability & Seakeeping, Marine Propulsion Systems, Ship Production Technology, Offshore Engineering, Green Ship Technology, Autonomous Maritime Systems
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title (specific, with method and domain)
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Computational Fluid Dynamics (CFD) using ANSYS Fluent, OpenFOAM, STAR-CCM+
+   - Finite Element Analysis (FEA) using ANSYS Structural, ABAQUS
+   - Ship resistance prediction using Holtrop-Mennen method and CFD validation
+   - Seakeeping analysis using strip theory and 3D panel methods
+   - MAXSURF suite for hull design and hydrostatic analysis
+   - Stability analysis based on IMO criteria (IS Code 2008)
+   - Digital twin technology for ship structural health monitoring
+   - Machine learning for ship performance prediction
+   - Reynolds-Averaged Navier-Stokes (RANS) simulation for propeller design
+   - Smoothed Particle Hydrodynamics (SPH) for slamming and sloshing
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics with statistical measures
+   - Comparison with baselines
+   - All numbers realistic and internally consistent
+
+5. MATHEMATICAL FORMULAS:
+   - 5-10 relevant formulas with variable definitions
+   - Froude number: Fr = V/sqrt(gL)
+   - Reynolds number: Re = VL/v
+   - Total resistance: Rt = 0.5*rho*V^2*S*Ct
+   - Displacement: Delta = rho*nabla*g
+   - Metacentric height: GM = KB + BM - KG
+   - Euler beam equation: EI(d4w/dx4) = q(x)
+   - Added mass coefficient: Ca = ma/(rho*nabla)
+   - Propeller thrust: T = Kt*rho*n^2*D^4
+   - Wake fraction: w = 1 - Va/Vs
+   - Hull efficiency: etaH = (1-t)/(1-w)
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian maritime context
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords, Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+--- DOMAIN-SPECIFIC SECTIONS ---
+
+ABSTRACT CHARACTERISTICS:
+- State vessel type and principal dimensions
+- Specify analysis method (CFD, FEA, experimental)
+- Include key quantitative results (resistance, stress, stability parameters)
+- Mention operational conditions (speed, sea state, loading)
+- Highlight design improvement or optimization achieved
+
+INTRODUCTION ELEMENTS:
+- Indonesia as largest archipelagic state with 17,000+ islands
+- Critical role of maritime transport for inter-island connectivity
+- Indonesian shipbuilding industry development (PT PAL, Damen Schelde)
+- National maritime policy (Poros Maritim Dunia)
+- Traditional boat heritage (Pinisi, Phinisi) and modernization needs
+- Classification society requirements (BKI - Biro Klasifikasi Indonesia)
+
+LITERATURE REVIEW TOPICS:
+- Ship hull form optimization and resistance reduction
+- Structural integrity and fatigue life assessment
+- Stability criteria and intact/damage stability
+- Propulsion system efficiency and cavitation
+- Green shipping technologies and emission reduction
+- Autonomous ship systems and navigation
+- Shipyard production optimization
+- Offshore structure design for Indonesian waters
+
+METHODOLOGY DETAILS:
+- Hull form generation and parametric modeling
+- Mesh generation and convergence study for CFD/FEA
+- Boundary conditions and turbulence model selection
+- Model test procedures (towing tank, wind tunnel)
+- Sea trial data acquisition and analysis
+- Structural load calculation (DNV, BKI rules)
+- Stability calculation procedures (GZ curve, dynamic stability)
+- Propeller design using lifting line/surface theory
+
+EQUATIONS:
+- Fr = V/sqrt(gL) (Froude number)
+- Re = VL/v (Reynolds number)
+- Rt = Rf + Rr + Ra (total resistance components)
+- Ct = Cf + Cr + Ca (total resistance coefficient)
+- GM = KB + BM - KG (metacentric height)
+- GZ = GM*sin(phi) (righting lever, small angles)
+- sigma = M*y/I (bending stress)
+- T = Kt*rho*n^2*D^4 (propeller thrust)
+- Q = Kq*rho*n^2*D^5 (propeller torque)
+- eta0 = (Kt/Kq)*(J/2*pi) (open water efficiency)
+
+FIGURES:
+- Hull form lines plan (body plan, waterlines, buttocks)
+- CFD pressure distribution contours
+- Wave pattern visualization around hull
+- FEA stress distribution plots
+- GZ curve (righting arm vs heel angle)
+- Resistance-speed curves
+- Propeller performance curves (Kt, Kq, eta vs J)
+- General arrangement drawing
+- Midship section structural drawing
+- Mesh quality visualization
+
+TABLES:
+- Principal dimensions and hydrostatic particulars
+- Resistance components at various speeds
+- Stability criteria compliance check (IMO IS Code)
+- Structural scantling comparison with rules
+- Propeller design parameters
+- CFD mesh convergence study results
+- Comparison of numerical vs experimental results
+- Weight distribution and loading conditions
+
+RESULTS & DISCUSSION:
+- Resistance prediction and comparison with empirical methods
+- Structural stress analysis and safety factor evaluation
+- Stability performance under various loading conditions
+- Propulsion efficiency and cavitation assessment
+- Comparison with similar vessel types
+- Design optimization improvements quantified
+- Operational recommendations
+- Classification society compliance verification
+
+CONCLUSION:
+- Summary of design/analysis findings
+- Quantified improvements over baseline
+- Compliance with regulations and standards
+- Practical recommendations for shipyard/operator
+- Future research directions
+
+REFERENCE VENUES:
+- Ocean Engineering
+- Applied Ocean Research
+- Journal of Marine Science and Technology
+- Ships and Offshore Structures
+- Marine Structures
+- Journal of Ship Research
+- International Shipbuilding Progress
+- Journal of Fluids and Structures
+- Brodogradnja (Shipbuilding)
+- Journal of Ship Production and Design
+- Kapal: Jurnal Ilmu Pengetahuan dan Teknologi Kelautan (UNDIP)
+- Wave: Jurnal Ilmiah Teknologi Maritim (ITS)
+
+DOMAIN VOCABULARY:
+- Kapal (ship), lambung (hull), lunas (keel), haluan (bow), buritan (stern)
+- Hambatan kapal (ship resistance), propulsi (propulsion), baling-baling (propeller)
+- Stabilitas (stability), oleng (rolling), angguk (pitching), angkat (heaving)
+- Galangan kapal (shipyard), dok (dock), peluncuran (launching)
+- Konstruksi (construction), pelat (plate), profil (stiffener), gading (frame)
+- Sarat (draft), displasemen (displacement), tonase (tonnage)
+- Klasifikasi (classification), sertifikasi (certification), survei (survey)
+- Pinisi (traditional Bugis sailing vessel), kapal perintis (pioneer ship)
+- Pelayaran (shipping), navigasi (navigation), keselamatan (safety)
+- Anjungan lepas pantai (offshore platform), FPSO, jacket structure
+
+METHODOLOGY KEYWORDS:
+- RANS (Reynolds-Averaged Navier-Stokes), LES (Large Eddy Simulation)
+- VOF (Volume of Fluid), free surface modeling
+- k-epsilon turbulence model, k-omega SST model
+- Holtrop-Mennen method, Guldhammer-Harvald method
+- Strip theory, 3D panel method (WAMIT, AQWA)
+- Morison equation, diffraction theory
+- Finite Element Method (FEM), boundary element method
+- Design of Experiments (DOE), response surface methodology
+- NSGA-II multi-objective optimization
+- AIS data analysis, ship performance monitoring
+
+--- RESEARCH TOPIC BANK (500 TOPICS) ---
+
+=== CATEGORY 1: Ship Hydrodynamics & Resistance (001-050) ===
+001. CFD optimization of bulbous bow design for Indonesian inter-island cargo vessel
+002. Hull form optimization of catamaran ferry for shallow water routes in Kalimantan rivers
+003. Resistance prediction of trimaran hull configuration for fast patrol boat using OpenFOAM
+004. Effect of hull fouling on resistance increase of Indonesian commercial fleet using CFD
+005. Wave-making resistance reduction through stern flap optimization on Ro-Ro ferry
+006. Hydrodynamic performance comparison of monohull vs catamaran for 500 GT passenger vessel
+007. Air lubrication system effectiveness for resistance reduction on bulk carrier in tropical waters
+008. Stepped hull design optimization for high-speed craft operating in Indonesian archipelago
+009. Shallow water effects on ship resistance for vessels operating in Mahakam River delta
+010. Hull-propeller-rudder interaction analysis using RANS-CFD for container feeder ship
+011. Interceptor plate optimization for trim correction on fast displacement hull
+012. Resistance characteristics of Pinisi hull form using computational and experimental methods
+013. Squat prediction for large vessels in confined Indonesian port channels using CFD
+014. Wave resistance reduction through hull form modification of 1200 TEU container ship
+015. Hydrodynamic analysis of planing hull with spray rail for Indonesian Navy patrol boat
+016. Added resistance in waves prediction for bulk carrier on Java-Sulawesi route
+017. Transom stern optimization for resistance reduction on offshore supply vessel
+018. CFD analysis of ship-to-ship interaction during lightering operation in Indonesian waters
+019. Ducktail stern extension effect on resistance of Panamax bulk carrier
+020. Numerical investigation of air cavity system for friction reduction on tanker hull
+021. Resistance prediction of SWATH vessel for oceanographic research in Indonesian seas
+022. Hull vane retrofit analysis for fuel saving on Indonesian Ro-Pax ferry
+023. Bow shape optimization for added resistance reduction in head seas on container ship
+024. Hydrodynamic performance of asymmetric catamaran hull for river transport in Sumatra
+025. CFD validation of Holtrop-Mennen method for Indonesian-built general cargo vessels
+026. Resistance characteristics of semi-displacement hull for 40-knot fast ferry
+027. Waterjet inlet duct optimization for high-speed craft using RANS simulation
+028. Ship resistance prediction using machine learning trained on Indonesian vessel database
+029. Bilge keel effect on resistance and roll damping trade-off analysis using CFD
+030. Hydrodynamic optimization of tunnel stern for shallow draft vessel in Barito River
+031. Trim optimization for minimum resistance on loaded bulk carrier using CFD parametric study
+032. Resistance analysis of wave-piercing catamaran for inter-island fast ferry service
+033. Numerical study of bank effects on ship maneuvering in narrow Indonesian straits
+034. Hull pressure distribution analysis of planing craft at various deadrise angles
+035. Drag reduction through riblet surface application on ship hull using LES simulation
+036. Resistance prediction of pentamaran hull for high-speed sealift vessel
+037. CFD analysis of bow thruster tunnel effect on ship resistance during transit
+038. Hydrodynamic design of river-sea going vessel for Indonesian coastal shipping
+039. Stern wedge optimization for resistance reduction on fishing vessel hull form
+040. Wave pattern analysis of fast displacement catamaran using Kelvin wave theory and CFD
+041. Resistance characteristics of hard-chine vs round-bilge hull for 20m patrol boat
+042. Numerical investigation of hull-appendage interaction on submarine hull form
+043. Ship resistance in following seas and its effect on speed loss for container vessel
+044. Optimization of demi-hull separation for minimum resistance catamaran ferry
+045. CFD study of moonpool resistance on drillship operating in Makassar Strait
+046. Hydrodynamic analysis of foil-assisted catamaran for fuel-efficient inter-island transport
+047. Resistance prediction of ice-strengthened hull for polar research vessel design
+048. Numerical study of ship resistance in muddy seabed conditions of Mahakam Delta
+049. Hull form optimization of LNG carrier for Indonesian domestic gas distribution
+050. Transom immersion ratio effect on resistance of semi-displacement patrol vessel
+
+=== CATEGORY 2: Structural Design & FEA (051-100) ===
+051. Fatigue life assessment of ship hull structure under Indonesian sea state conditions using spectral method
+052. Ultimate strength analysis of corroded ship hull girder using nonlinear FEA
+053. Structural optimization of catamaran cross-deck structure for weight reduction
+054. Composite material application for superstructure of Indonesian Navy fast patrol boat
+055. Crack propagation analysis in ship hull plating using extended finite element method (XFEM)
+056. Structural response of Ro-Ro ferry ramp door under operational wave loading
+057. Buckling analysis of ship hull stiffened panels under combined loading using FEA
+058. Vibration analysis of ship engine foundation using finite element method
+059. Ice load structural assessment for Indonesian polar research vessel design
+060. Whipping and springing response of container ship in Indonesian sea conditions
+061. Structural design optimization of aluminum high-speed craft for Indonesian Navy
+062. Residual strength assessment of ship hull with grounding damage using FEA
+063. Fatigue crack initiation in welded ship structural details under variable amplitude loading
+064. Structural analysis of FPSO hull conversion for Natuna Sea gas field
+065. Sandwich panel application for lightweight ship deck structure design
+066. Ship hull girder ultimate strength under combined vertical and horizontal bending
+067. Structural integrity assessment of aging Indonesian inter-island fleet using FEA
+068. Impact analysis of ship collision on double hull tanker structure
+069. Optimization of longitudinal stiffener spacing for minimum weight ship hull design
+070. Thermal stress analysis of LNG cargo tank support structure
+071. Structural response of ship hull to underwater explosion loading using LS-DYNA
+072. Fatigue assessment of ship propeller shaft bracket using multiaxial fatigue criteria
+073. Composite patch repair effectiveness for cracked ship hull plating
+074. Structural analysis of jack-up platform leg during transit in Indonesian waters
+075. Hull girder reliability analysis of bulk carrier under corrosion wastage
+076. Vibration-induced fatigue of ship piping system using FEA and operational data
+077. Structural design of moonpool for research vessel operating in deep Indonesian waters
+078. Slamming load assessment on bow flare of container ship using CFD-FEA coupling
+079. Optimization of web frame design for double hull tanker using genetic algorithm
+080. Structural analysis of ship launching cradle for side launching at Indonesian shipyard
+081. Residual stress effect on fatigue life of ship hull butt-welded joints
+082. Structural assessment of ship hull after fire damage using nonlinear FEA
+083. Lightweight structural design of electric ferry for short-route Indonesian service
+084. Hull monitoring system design for structural health assessment of bulk carrier
+085. Structural analysis of submarine pressure hull under deep diving conditions
+086. Fatigue life extension of ship structural details through post-weld treatment
+087. Structural response of container ship hatch cover under green water loading
+088. FEA-based structural optimization of offshore crane pedestal on supply vessel
+089. Impact resistance of ship side structure with different stiffener configurations
+090. Structural analysis of traditional Pinisi hull using modern FEA approach
+091. Hydroelastic analysis of large container ship in oblique sea conditions
+092. Structural design of LNG fuel tank support for dual-fuel vessel conversion
+093. Corrosion-fatigue interaction modeling for ship hull structural assessment
+094. Structural optimization of bulkhead design for tanker cargo hold
+095. Dynamic response analysis of ship hull structure under propeller-induced vibration
+096. Structural assessment of ship-shaped FPSO under squall conditions in Makassar Strait
+097. Lightweight design of naval vessel superstructure using topology optimization
+098. Structural analysis of stern tube bearing arrangement for large propeller shaft
+099. Hull structural monitoring data analysis using machine learning for damage detection
+100. Structural design of helideck for offshore support vessel operating in Indonesian waters
+
+=== CATEGORY 3: Ship Stability & Seakeeping (101-150) ===
+101. Parametric rolling prediction for container ship on Java-Australia route using nonlinear simulation
+102. Damage stability assessment of Indonesian Ro-Pax ferry under flooding scenarios
+103. Intact stability evaluation of traditional Pinisi sailing vessel using modern criteria
+104. Dynamic stability analysis of fishing vessel in beam seas typical of Java Sea
+105. Second generation intact stability criteria application for Indonesian inter-island vessels
+106. Seakeeping performance comparison of monohull vs catamaran ferry for Merak-Bakauheni route
+107. Broaching prediction for high-speed craft in following seas using 6-DOF simulation
+108. Stability assessment of livestock carrier under free surface effect of liquid cargo
+109. Roll damping prediction of bilge keel using CFD for passenger vessel
+110. Probabilistic damage stability assessment of cruise ship for Indonesian waters operation
+111. Motion sickness incidence prediction for passenger ferry on rough sea routes
+112. Stability of semi-submersible platform during towing to Indonesian offshore field
+113. Dead ship stability assessment of tanker under wind and wave in Lombok Strait
+114. Seakeeping optimization of patrol boat hull form for Indonesian eastern waters
+115. Stability analysis of container ship under parametric excitation in head seas
+116. Green water loading prediction on deck of FPSO in Natuna Sea conditions
+117. Roll stabilization system design for research vessel operating in Southern Ocean
+118. Stability assessment of barge during heavy lift operation in Indonesian port
+119. Seakeeping analysis of wave energy converter device for Indonesian sea conditions
+120. Stability of jack-up platform during installation in soft soil of Java Sea
+121. Motion response analysis of LNG-FSRU in side-by-side configuration
+122. Stability assessment of submarine during surfacing maneuver in shallow water
+123. Seakeeping performance of trimaran hull for fast ferry in Indonesian sea states
+124. Capsizing risk assessment of small fishing boats in Indonesian waters using Monte Carlo
+125. Stability of floating dock during docking operation at Indonesian shipyard
+126. Wave-induced motion prediction for offshore crane operation planning
+127. Stability assessment of car carrier under wind loading in Makassar Strait
+128. Seakeeping analysis of autonomous surface vessel for hydrographic survey
+129. Stability of bulk carrier during cargo loading/unloading sequence optimization
+130. Roll motion prediction of FPSO with spread mooring in squall conditions
+131. Stability assessment of naval vessel after weapon firing recoil effect
+132. Seakeeping performance of SWATH vessel for pilot boat service in rough ports
+133. Dynamic stability of container ship with deck cargo in quartering seas
+134. Stability analysis of floating crane during heavy lift in offshore environment
+135. Motion response of ship-shaped FLNG in beam sea conditions of Masela Block
+136. Stability assessment of passenger vessel during emergency evacuation scenario
+137. Seakeeping optimization of offshore supply vessel for year-round operation
+138. Stability of semi-submersible during ballast transfer operation
+139. Roll prediction of Ro-Ro vessel with vehicle deck partially loaded
+140. Stability assessment of traditional wooden cargo vessel (kapal kayu) modernization
+141. Seakeeping analysis of unmanned surface vehicle for maritime surveillance
+142. Stability of floating solar panel platform in Indonesian coastal waters
+143. Motion response of drillship in current and wave conditions of Makassar Strait
+144. Stability assessment of LNG bunker barge for ship-to-ship transfer
+145. Seakeeping performance of hydrofoil-assisted catamaran in moderate sea states
+146. Stability of offshore wind turbine installation vessel during blade lifting
+147. Roll damping assessment of anti-rolling tank for passenger ferry
+148. Stability analysis of aquaculture support vessel in exposed offshore location
+149. Seakeeping comparison of deep-V vs round-bilge hull for 30m patrol boat
+150. Stability assessment of modular floating structure for Indonesian coastal development
+
+=== CATEGORY 4: Marine Propulsion Systems (151-200) ===
+151. Cavitation analysis of marine propeller for container feeder ship using RANS-CFD
+152. Design optimization of controllable pitch propeller for Indonesian Navy corvette
+153. Performance prediction of contra-rotating propeller system for energy-efficient bulk carrier
+154. Podded propulsion system analysis for cruise ship maneuvering in Indonesian ports
+155. Waterjet propulsion design optimization for 35-knot fast ferry
+156. Propeller-induced hull pressure fluctuation analysis for passenger vessel comfort
+157. Energy saving device (pre-swirl stator) design for tanker using CFD
+158. Ducted propeller performance analysis for tugboat operating in strong current
+159. Hybrid propulsion system design for offshore supply vessel with dynamic positioning
+160. Propeller cavitation erosion prediction using bubble dynamics simulation
+161. Wake-adapted propeller design for twin-screw passenger ferry
+162. Rim-driven thruster design for autonomous underwater vehicle
+163. Propeller ventilation analysis during ship motion in rough seas
+164. LNG dual-fuel engine performance optimization for Indonesian domestic shipping
+165. Azimuth thruster interaction analysis for dynamic positioning system
+166. Propeller noise prediction using FW-H acoustic analogy method
+167. Electric propulsion system design for short-route Indonesian ferry
+168. Propeller-rudder interaction optimization for improved maneuvering performance
+169. Waste heat recovery system design for marine diesel engine on cargo vessel
+170. Surface-piercing propeller performance analysis for high-speed craft
+171. Propeller design for shallow draft vessel operating in Indonesian rivers
+172. Fuel cell hybrid propulsion feasibility for Indonesian island hopping vessel
+173. Propeller tip vortex cavitation suppression using modified blade geometry
+174. Marine gas turbine combined cycle optimization for naval vessel
+175. Propeller performance degradation due to biofouling in tropical waters
+176. Wind-assisted propulsion (rotor sail) feasibility for Indonesian bulk carrier route
+177. Propeller blade stress analysis under ice milling conditions for polar vessel
+178. Battery-electric propulsion system sizing for harbor tugboat
+179. Propeller scale effects correction for model test to full scale prediction
+180. Ammonia-fueled engine feasibility study for Indonesian deep-sea shipping
+181. Propeller-hull vortex interaction analysis using LES for twin-screw vessel
+182. Solar-electric hybrid propulsion for small passenger boat in Indonesian tourism
+183. Propeller design optimization using genetic algorithm and CFD evaluation
+184. Methanol dual-fuel conversion feasibility for existing Indonesian cargo fleet
+185. Propeller singing phenomenon analysis and mitigation through blade modification
+186. Hydrogen fuel cell propulsion system design for research vessel
+187. Propeller performance in off-design conditions during ship acceleration
+188. Exhaust gas scrubber system design for Indonesian coal carrier fleet
+189. Propeller cavitation inception prediction using RANS-based sheet cavitation model
+190. Wind-solar hybrid propulsion system for traditional Pinisi cargo vessel modernization
+191. Propeller blade root fillet optimization for stress reduction using FEA
+192. LNG boil-off gas utilization as fuel for LNG carrier propulsion
+193. Propeller-appendage interaction for energy saving on single-screw bulk carrier
+194. Superconducting electric motor application for submarine propulsion system
+195. Propeller performance prediction using artificial neural network trained on open water data
+196. Biofuel (palm oil methyl ester) compatibility assessment for marine diesel engines
+197. Propeller design for bollard pull optimization of harbor tugboat
+198. Combined diesel-electric and gas turbine (CODLAG) system for Indonesian frigate
+199. Propeller cavitation tunnel test correlation with CFD for Indonesian-designed propeller
+200. Shore power connection system design for emission reduction in Indonesian ports
+
+=== CATEGORY 5: Ship Production & Manufacturing (201-250) ===
+201. Block division optimization for construction of 17,500 DWT bulk carrier at Indonesian shipyard
+202. Welding distortion prediction and mitigation in ship panel fabrication using FEA
+203. Production scheduling optimization for multi-project shipyard using genetic algorithm
+204. Accuracy control system implementation for hull construction at medium-scale Indonesian shipyard
+205. Robotic welding application feasibility for ship panel line production
+206. Lean manufacturing implementation in Indonesian shipyard for productivity improvement
+207. Ship launching analysis for side launching method at river-based shipyard
+208. Modular construction approach for series production of inter-island cargo vessel
+209. Cutting plan optimization for ship steel plates using nesting algorithm
+210. Shipyard facility layout optimization for improved material flow efficiency
+211. Digital shipyard concept implementation using BIM for Indonesian naval shipbuilding
+212. Welding sequence optimization to minimize residual stress in ship block assembly
+213. Production cost estimation model for Indonesian-built vessels using parametric method
+214. Outfitting strategy optimization for concurrent construction at Indonesian shipyard
+215. Quality management system improvement for ship construction using Six Sigma
+216. Ship conversion project planning optimization for FPSO at Indonesian shipyard
+217. Automated plate forming process development for complex hull curvature
+218. Supply chain management optimization for ship material procurement in Indonesia
+219. Shipyard crane utilization optimization using discrete event simulation
+220. Green shipyard concept implementation for environmental compliance in Indonesia
+221. Ship repair scheduling optimization for dry dock utilization at Indonesian shipyard
+222. Virtual reality application for ship design review and production planning
+223. Workforce skill development program design for Indonesian shipyard modernization
+224. Ship block erection sequence optimization using network analysis method
+225. Paint shop ventilation system design for VOC emission control at shipyard
+226. Production simulation of ship assembly process using discrete event modeling
+227. Shipyard capacity planning for Indonesian Navy fleet modernization program
+228. Augmented reality application for pipe fitting in ship outfitting process
+229. Ship steel material waste reduction through improved cutting technology
+230. Shipyard safety management system improvement using risk-based approach
+231. Production planning for parallel construction of multiple vessel types
+232. Ship launching stress analysis for longitudinal launching on slipway
+233. Shipyard energy efficiency improvement through process optimization
+234. Digital twin application for ship production monitoring and control
+235. Shipyard productivity benchmarking of Indonesian yards against regional competitors
+236. Automated inspection system for ship hull weld quality assessment
+237. Ship block transportation and handling optimization within shipyard
+238. Shipyard investment planning for capacity expansion to build larger vessels
+239. Production technology selection for aluminum high-speed craft construction
+240. Shipyard environmental impact assessment and mitigation strategy
+241. Ship outfitting work package optimization for zone-based construction
+242. Additive manufacturing application for marine spare parts production
+243. Shipyard project risk management framework for complex vessel construction
+244. Production efficiency improvement through design for manufacturing principles
+245. Ship hull coating application process optimization for quality and productivity
+246. Shipyard information system development for integrated production management
+247. Modular accommodation unit construction for offshore vessel at Indonesian yard
+248. Ship production learning curve analysis for series vessel construction
+249. Shipyard dry dock scheduling optimization under uncertainty using stochastic model
+250. Industry 4.0 implementation roadmap for Indonesian shipbuilding industry
+
+=== CATEGORY 6: Offshore Structures & Platforms (251-300) ===
+251. Fatigue assessment of jacket platform in Natuna Sea under combined wave and current loading
+252. Mooring system design optimization for FPSO in squall-prone Makassar Strait
+253. Structural integrity assessment of aging fixed platform for life extension in Java Sea
+254. Dynamic response analysis of tension leg platform for deep water Masela Block
+255. Vortex-induced vibration analysis of marine riser in strong current conditions
+256. Jack-up platform site-specific assessment for Indonesian soft clay seabed
+257. FPSO hull structural assessment under green water loading in tropical squall
+258. Subsea pipeline free span analysis for uneven seabed in Makassar Strait
+259. Floating offshore wind turbine mooring design for Indonesian deep water sites
+260. Corrosion protection system design for offshore platform in tropical marine environment
+261. Decommissioning engineering assessment for end-of-life platforms in Java Sea
+262. Spar platform motion response analysis for Indonesian deep water development
+263. Offshore platform topside weight optimization using structural topology method
+264. Pipeline on-bottom stability analysis for wave and current in shallow Java Sea
+265. Floating LNG (FLNG) motion response and operability assessment for Masela Block
+266. Jacket platform pile driving analysis for Indonesian calcareous soil conditions
+267. Offshore crane dynamic analysis during heavy lift in wave conditions
+268. Subsea manifold structural design for deep water gas field development
+269. Fixed platform reassessment for increased topside loading using pushover analysis
+270. Flexible riser configuration optimization for FPSO in deep water
+271. Offshore wind turbine foundation design for shallow water Indonesian sites
+272. Platform removal engineering using reverse installation method
+273. Subsea pipeline expansion analysis for high temperature high pressure conditions
+274. Semi-submersible platform stability during drilling operation in deep water
+275. Offshore platform fire and explosion risk assessment using CFD
+276. Catenary anchor leg mooring (CALM) buoy design for offshore loading terminal
+277. Subsea pipeline route selection optimization considering seabed hazards
+278. Floating solar platform structural design for Indonesian offshore application
+279. Offshore platform helicopter deck structural assessment under emergency landing
+280. Jacket platform seismic assessment for Indonesian earthquake-prone regions
+281. FPSO turret mooring system design for weathervaning in variable current
+282. Offshore pipeline cathodic protection system design for Indonesian waters
+283. Floating breakwater design for coastal protection using decommissioned platform
+284. Subsea Christmas tree structural analysis under installation and operational loads
+285. Offshore platform conductor fatigue assessment under wave and vortex loading
+286. Tension leg platform tendon design for ultra-deep water application
+287. Offshore wind turbine monopile design for Indonesian seabed conditions
+288. Platform bridge structural analysis under blast loading scenario
+289. Subsea pipeline repair clamp design and structural verification
+290. Floating production system comparison (FPSO vs TLP vs Spar) for Indonesian fields
+291. Offshore platform living quarter structural design for blast and fire resistance
+292. Marine growth effect on hydrodynamic loading of offshore platform members
+293. Subsea pipeline landfall design for Indonesian coastal conditions
+294. Offshore platform flare tower structural assessment under wind and thermal loading
+295. Floating dock structural design for offshore platform module fabrication
+296. Offshore pipeline crossing design and protection structure analysis
+297. Platform jacket leg flooding detection and structural impact assessment
+298. Subsea pipeline trenching and backfilling analysis for protection design
+299. Offshore platform crane pedestal fatigue assessment under operational loading
+300. Decommissioning waste management strategy for Indonesian offshore platforms
+
+=== CATEGORY 7: Green Ship Technology & Emissions (301-350) ===
+301. EEDI compliance assessment and improvement strategy for Indonesian new-build vessels
+302. Carbon capture system feasibility for marine diesel engine on bulk carrier
+303. Wind-assisted propulsion retrofit analysis for Indonesian coal carrier fleet
+304. LNG fuel system design for dual-fuel conversion of inter-island cargo vessel
+305. Ship energy efficiency operational indicator (EEOI) monitoring for Indonesian fleet
+306. Exhaust gas recirculation (EGR) system optimization for NOx reduction on marine engine
+307. Solar panel integration on passenger ferry for auxiliary power generation
+308. Ballast water treatment system selection for Indonesian international shipping fleet
+309. Ship speed optimization for fuel consumption reduction on fixed schedule routes
+310. Alternative fuel (methanol/ammonia) infrastructure planning for Indonesian ports
+311. Hull air lubrication system design for friction reduction on large tanker
+312. Waste heat recovery organic Rankine cycle design for marine diesel engine
+313. Ship trim optimization system using real-time draft sensors for fuel saving
+314. Selective catalytic reduction (SCR) system design for SOx/NOx compliance
+315. Battery hybrid propulsion system for short-sea shipping in Indonesian archipelago
+316. Ship hull coating selection for biofouling prevention and fuel efficiency
+317. Carbon intensity indicator (CII) improvement strategy for Indonesian bulk carrier fleet
+318. Shore power infrastructure design for emission reduction in Tanjung Priok port
+319. Voyage optimization using weather routing for fuel saving on international routes
+320. Green hydrogen production and bunkering feasibility for Indonesian maritime sector
+321. Ship recycling facility design compliant with Hong Kong Convention for Indonesia
+322. Flettner rotor sail performance prediction for Indonesian trade wind routes
+323. Biofuel (B30 palm biodiesel) long-term performance on marine diesel engine
+324. Energy management system design for hybrid electric vessel
+325. Ship operational carbon footprint assessment for Indonesian domestic shipping
+326. Exhaust gas cleaning system (scrubber) performance in tropical water conditions
+327. Wind turbine installation vessel design with zero-emission propulsion concept
+328. Ship lifecycle assessment comparing conventional vs alternative fuel vessels
+329. Port emission inventory and dispersion modeling for Indonesian major ports
+330. Green corridor feasibility study for Jakarta-Surabaya shipping route
+331. Kite-assisted propulsion system analysis for Indonesian cargo vessel routes
+332. Marine diesel engine conversion to dual-fuel (diesel-natural gas) operation
+333. Ship energy audit methodology development for Indonesian domestic fleet
+334. Cold ironing system design for cruise ships visiting Indonesian ports
+335. Fuel cell auxiliary power unit design for hotel load on passenger vessel
+336. Ship propeller boss cap fin design for energy saving using CFD
+337. Carbon offset mechanism design for Indonesian maritime transport sector
+338. Waste-to-energy system design for cruise ship waste management
+339. Ship slow steaming impact analysis on Indonesian supply chain logistics
+340. Green ship certification framework development for Indonesian classification society
+341. Photovoltaic-battery system optimization for electric boat in Indonesian tourism
+342. Marine engine after-treatment system for Tier III NOx compliance
+343. Ship energy flow analysis and waste heat mapping for efficiency improvement
+344. Sustainable ship recycling process design for Indonesian ship breaking industry
+345. Wind-solar hybrid power system for navigation aids in remote Indonesian waters
+346. Ship emission monitoring system using drone-based remote sensing
+347. Green port concept implementation strategy for Indonesian port authorities
+348. Alternative marine fuel supply chain analysis for Indonesian archipelago
+349. Ship underwater hull cleaning robot design for performance maintenance
+350. Net-zero emission vessel concept design for Indonesian short-sea shipping
+
+=== CATEGORY 8: Autonomous & Smart Ships (351-400) ===
+351. Autonomous navigation system design for inter-island cargo vessel in Indonesian waters
+352. Collision avoidance algorithm development for autonomous ship in congested Indonesian straits
+353. Digital twin framework for real-time ship structural health monitoring
+354. Machine learning-based ship performance prediction using operational data
+355. Remote monitoring and control system design for unmanned cargo vessel
+356. Autonomous berthing system development for ferry terminal operation
+357. Ship cybersecurity framework for autonomous vessel communication systems
+358. Sensor fusion architecture for autonomous ship situational awareness
+359. Path planning algorithm for autonomous vessel in Indonesian archipelagic waters
+360. Predictive maintenance system for marine diesel engine using vibration analysis and AI
+361. Autonomous underwater vehicle (AUV) design for hull inspection at Indonesian ports
+362. Ship bridge automation system for reduced manning operation
+363. Machine learning-based weather routing optimization for fuel efficiency
+364. Autonomous tugboat system design for port operation assistance
+365. Digital twin-based ship machinery condition monitoring system
+366. Computer vision system for maritime object detection in tropical conditions
+367. Autonomous ship regulatory framework analysis for Indonesian maritime law
+368. Ship-to-shore communication system design for autonomous vessel operation
+369. Reinforcement learning for autonomous ship maneuvering in confined waters
+370. Smart ship energy management system using IoT and machine learning
+371. Autonomous survey vessel design for hydrographic mapping of Indonesian waters
+372. Ship traffic prediction using AIS data and deep learning for collision avoidance
+373. Remote engine room monitoring system for unmanned machinery space
+374. Autonomous mooring system design for offshore loading/unloading operation
+375. Digital twin for ship voyage performance optimization and fuel prediction
+376. Autonomous fire detection and suppression system for unmanned vessel
+377. Machine learning-based ship fuel consumption prediction under varying conditions
+378. Autonomous navigation in GNSS-denied environment using visual SLAM
+379. Smart ballast water management system using real-time water quality monitoring
+380. Autonomous ship fleet management system for Indonesian logistics optimization
+381. LiDAR-based obstacle detection system for autonomous vessel in coastal waters
+382. Predictive analytics for ship machinery failure using operational data mining
+383. Autonomous cargo handling system design for container feeder vessel
+384. Ship digital twin validation using sea trial data from Indonesian vessel
+385. Autonomous vessel traffic management system for busy Indonesian port approaches
+386. Machine learning for ship hull fouling prediction based on operational profile
+387. Remote pilotage system design for autonomous ship port entry
+388. Smart corrosion monitoring system for ship hull using IoT sensors
+389. Autonomous ship emergency response system design and simulation
+390. Digital twin-based ship stability monitoring for real-time safety assessment
+391. Autonomous drone system for ship-to-shore cargo delivery in remote islands
+392. Machine learning-based ship motion prediction for offshore operation planning
+393. Autonomous vessel design for marine debris collection in Indonesian waters
+394. Ship performance digital twin using physics-informed neural network
+395. Autonomous navigation system testing framework for Indonesian maritime conditions
+396. Smart ship waste management system using IoT monitoring and optimization
+397. Autonomous underwater inspection system for offshore platform in Indonesian waters
+398. Machine learning for ship arrival time prediction at Indonesian ports
+399. Autonomous vessel communication protocol design for maritime IoT network
+400. Digital shipyard concept using autonomous guided vehicles for material transport
+
+=== CATEGORY 9: Small Craft & Traditional Boats (401-450) ===
+401. Hydrodynamic analysis and modernization of traditional Pinisi hull form using CFD
+402. Structural assessment of traditional wooden boat construction using FEA
+403. Stability improvement of traditional fishing boat (perahu) for safety enhancement
+404. Solar-electric propulsion system design for traditional tourist boat in Bali
+405. Hull form optimization of fiberglass fishing boat for Indonesian artisanal fishery
+406. Traditional boat building technique documentation and engineering analysis
+407. Catamaran fishing vessel design for improved stability in eastern Indonesian waters
+408. Composite material application for traditional boat modernization
+409. Small craft resistance prediction using simplified CFD for local boat builders
+410. Outrigger canoe (jukung) hydrodynamic analysis and performance improvement
+411. Safety equipment standardization for Indonesian small fishing vessels
+412. Electric outboard motor conversion feasibility for small fishing boats
+413. Traditional Phinisi sailing rig aerodynamic analysis using CFD
+414. Small passenger boat design for river transport in Papua
+415. Fishing boat hull form database development for Indonesian vessel types
+416. Stability criteria development for Indonesian small fishing vessels under 24m
+417. Fiberglass boat construction quality improvement for Indonesian boat builders
+418. Small craft design for seaweed farming support in eastern Indonesia
+419. Traditional boat preservation through digital documentation and 3D scanning
+420. Inflatable rescue boat design for Indonesian search and rescue operations
+421. Small ferry design for short crossing routes in Indonesian lake transport
+422. Fishing vessel fuel efficiency improvement through hull form modification
+423. Traditional wooden boat structural reinforcement using modern composite overlay
+424. Small craft navigation system design for Indonesian fishermen safety
+425. Aquaculture support vessel design for offshore fish cage operations
+426. Traditional boat building material (teak, ironwood) mechanical property characterization
+427. Small patrol boat design for maritime security in Indonesian border waters
+428. Fishing vessel stability accident investigation and prevention measures
+429. Solar-powered autonomous boat design for water quality monitoring in Indonesian rivers
+430. Small craft production standardization for Indonesian fiberglass boat industry
+431. Traditional sailing vessel route optimization using weather data analysis
+432. Dive boat design optimization for Indonesian marine tourism industry
+433. Small cargo vessel design for logistics to remote Indonesian islands
+434. Fishing boat deck machinery arrangement optimization for safety and efficiency
+435. Traditional boat museum vessel preservation engineering assessment
+436. Small craft fire safety system design for passenger boats
+437. Fishing vessel fish hold insulation design for tropical climate conditions
+438. Traditional Sandeq racing boat hydrodynamic performance analysis
+439. Small vessel monitoring system using AIS and IoT for fleet management
+440. Fishing boat engine room ventilation design for tropical operation
+441. Traditional boat sail material comparison (woven vs synthetic) performance analysis
+442. Small craft mooring system design for exposed Indonesian anchorages
+443. Fishing vessel stability booklet development for Indonesian small-scale fishery
+444. Electric water taxi design for urban waterway transport in Indonesian cities
+445. Traditional boat hull repair technique assessment using modern NDT methods
+446. Small craft wave impact structural design for rough sea operation
+447. Fishing vessel catch handling system design for quality preservation
+448. Traditional Lambo cargo vessel modernization for continued commercial operation
+449. Small craft propulsion system comparison for Indonesian shallow water operation
+450. Fishing boat crew accommodation improvement for extended voyage operations
+
+=== CATEGORY 10: Maritime Safety & Regulations (451-500) ===
+451. Fire safety assessment of Indonesian Ro-Pax ferry using evacuation simulation
+452. Collision risk assessment in Malacca Strait using AIS data analysis
+453. Structural fire protection design for passenger vessel accommodation spaces
+454. Maritime accident investigation analysis of Indonesian ferry casualties
+455. Life-saving appliance arrangement optimization for large passenger vessel
+456. Ship evacuation modeling for Indonesian inter-island ferry scenarios
+457. Maritime safety culture assessment in Indonesian shipping companies
+458. Flooding detection and progressive flooding simulation for damaged vessel
+459. Ship structural fire integrity assessment using thermal-structural FEA
+460. Maritime traffic separation scheme effectiveness analysis for Indonesian straits
+461. Passenger vessel emergency response procedure optimization using simulation
+462. Ship grounding risk assessment for Indonesian shallow water routes
+463. Fire detection and suppression system design for vehicle deck of Ro-Ro ferry
+464. Maritime safety inspection framework improvement for Indonesian flag vessels
+465. Ship stability failure accident reconstruction using numerical simulation
+466. Crew resource management effectiveness in Indonesian maritime operations
+467. Ship security assessment and plan development for Indonesian port facilities
+468. Lifeboat launching simulation under adverse weather conditions
+469. Maritime accident database development for Indonesian waters risk analysis
+470. Ship structural failure investigation methodology for Indonesian maritime authority
+471. Passenger mustering and evacuation time analysis for Indonesian ferry design
+472. Maritime domain awareness system design for Indonesian archipelagic waters
+473. Ship fire risk assessment using fault tree and event tree analysis
+474. Indonesian maritime regulation harmonization with international conventions
+475. Ship collision damage extent prediction using simplified analytical method
+476. Maritime safety training effectiveness assessment for Indonesian seafarers
+477. Vessel traffic service (VTS) coverage optimization for Indonesian port approaches
+478. Ship intact stability failure mode identification and prevention measures
+479. Maritime search and rescue resource allocation optimization for Indonesian waters
+480. Ship structural inspection planning using risk-based methodology
+481. Passenger ferry weatherdeck safety assessment under tropical storm conditions
+482. Maritime accident causation analysis using human factors framework
+483. Ship fire suppression system performance assessment for engine room protection
+484. Indonesian cabotage policy impact on maritime safety standards
+485. Ship collision avoidance decision support system for bridge officers
+486. Maritime safety management system audit framework for Indonesian operators
+487. Liferaft deployment and survival analysis for Indonesian tropical sea conditions
+488. Ship structural failure early warning system using strain monitoring
+489. Maritime accident reporting system improvement for Indonesian maritime authority
+490. Ship flooding emergency response decision support using real-time simulation
+491. Passenger vessel accessibility design for disabled persons on Indonesian ferries
+492. Maritime piracy risk assessment and countermeasures for Indonesian waters
+493. Ship fire investigation using CFD smoke and heat propagation modeling
+494. Indonesian ship classification society (BKI) rule development for novel vessel types
+495. Ship collision energy absorption analysis for crashworthy hull design
+496. Maritime safety equipment maintenance optimization using reliability analysis
+497. Vessel traffic flow simulation for port capacity and safety assessment
+498. Ship damage stability regulation compliance for Indonesian domestic fleet
+499. Maritime emergency communication system design for Indonesian remote waters
+500. Integrated maritime safety assessment framework for Indonesian shipping industry

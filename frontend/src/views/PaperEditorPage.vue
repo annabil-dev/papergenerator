@@ -95,14 +95,14 @@
 
           <!-- PDF upload -->
           <div class="mb-3">
-            <label class="text-xs text-gray-500 mb-1 block">Reference PDFs/DOCX (optional, max 5 files × 5000 words)</label>
+            <label class="text-xs text-gray-500 mb-1 block">Reference PDFs/DOCX/DOC (optional, max 5 files × 5000 words)</label>
             <div
               @dragover.prevent
               @drop.prevent="handlePdfDrop"
               class="border-2 border-dashed border-gray-200 rounded-lg px-3 py-3 text-center hover:border-purple-300 hover:bg-purple-50/30 transition-colors cursor-pointer"
               @click="pdfInput?.click()">
-              <span class="text-xs text-gray-400">Drag &amp; drop PDFs/DOCX here, or <span class="text-purple-600 font-medium">click to select</span></span>
-              <input type="file" accept=".pdf,.docx" multiple ref="pdfInput"
+              <span class="text-xs text-gray-400">Drag &amp; drop PDFs/DOCX/DOC here, or <span class="text-purple-600 font-medium">click to select</span></span>
+              <input type="file" accept=".pdf,.docx,.doc" multiple ref="pdfInput"
                 @change="onPdfChange"
                 class="hidden" />
             </div>
@@ -494,11 +494,11 @@ function onPdfChange(e) {
 }
 
 function addPdfFiles(files) {
-  const pdfs = files.filter(f => f.type === 'application/pdf' || f.name.endsWith('.pdf') || f.name.endsWith('.docx'))
+  const pdfs = files.filter(f => f.type === 'application/pdf' || f.name.endsWith('.pdf') || f.name.endsWith('.docx') || f.name.endsWith('.doc'))
   const combined = [...pdfFiles.value, ...pdfs].slice(0, 5)
   pdfFiles.value = combined
   if (files.length !== pdfs.length) {
-    pdfWarnings.value = ['Only PDF and DOCX files are accepted.']
+    pdfWarnings.value = ['Only PDF, DOCX, and DOC files are accepted.']
   } else if (combined.length === 5 && (pdfFiles.value.length + pdfs.length) > 5) {
     pdfWarnings.value = ['Max 5 files allowed. Extra files were ignored.']
   } else {

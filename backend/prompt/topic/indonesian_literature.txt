@@ -1,0 +1,640 @@
+================================================================================
+TOPIC GUIDE — Sastra Indonesia (Indonesian Literature)
+================================================================================
+FIELD: Humanities / Indonesian Literature
+DEFAULT CITATION STYLE: APA / MLA
+SUBDISCIPLINE: Modern Indonesian Prose, Indonesian Poetry & Poetics, Drama & Performance, Postcolonial Studies, Feminist Literary Criticism, Regional Literature & Local Wisdom, Digital Literature, Comparative Literature
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title (specific, with method and domain)
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Hermeneutics (Gadamer, Ricoeur)
+   - Semiotics (Peirce triadic model, Barthes mythologies)
+   - Discourse analysis (Fairclough Critical Discourse Analysis)
+   - Narratology (Genette focalization, temporality, voice)
+   - Postcolonial theory (Bhabha hybridity, Spivak subaltern)
+   - Feminist literary criticism (Showalter gynocriticism, Cixous ecriture feminine)
+   - New historicism (Greenblatt cultural poetics)
+   - Digital humanities (distant reading, computational text analysis)
+   - Corpus stylistics (keyword analysis, concordance, collocations)
+   - Reception theory (Jauss horizon of expectations, Iser implied reader)
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics (thematic frequency, semiotic sign distribution, narrative structure mapping)
+   - All data realistic and internally consistent
+
+5. MATHEMATICAL FORMULAS (where applicable):
+   - Corpus linguistics: frequency, TF-IDF, collocational strength (MI score, t-score, log-likelihood)
+   - Readability: Flesch-Kincaid, Gunning Fog
+   - Inter-rater reliability: Cohen's kappa, Krippendorff's alpha
+   - Sentiment analysis: polarity scores, valence distribution
+   - Network analysis: centrality measures for character networks
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian/Asian context prioritized
+   - Include seminal Indonesian literary scholars (Teeuw, Damono, Faruk, Mahayana)
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords, Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+ABSTRACT CHARACTERISTICS:
+  200-250 words. State the literary problem, textual corpus, theoretical framework,
+  analytical method, principal findings, contribution to Indonesian literary studies,
+  limitation, and implication for future scholarship.
+
+INTRODUCTION ELEMENTS:
+  - Define the literary phenomenon or textual problem and its cultural significance.
+  - Situate within Indonesian literary history and contemporary discourse.
+  - Position against current scholarship and critical debates.
+  - State research gap, research questions, objectives, and expected contribution.
+
+LITERATURE REVIEW:
+  Common section name: "Kajian Pustaka" / "Tinjauan Teoretis" / "Theoretical Framework"
+  - Core literary theories and critical frameworks.
+  - Recent scholarship on Indonesian literature (2020-2025).
+  - Textual precedents and intertextual connections.
+  - Gaps in existing critical readings and opportunities for new interpretation.
+
+METHODOLOGY:
+  Common section name: "Metode Penelitian" / "Research Design"
+  - Design: qualitative, hermeneutic, semiotic, discourse-analytic, or mixed methods.
+  - Data: textual corpus, sampling criteria, edition selection, and ethical considerations.
+  - Analysis: coding scheme, theoretical lens application, triangulation strategy.
+  - Metrics: inter-rater reliability, thematic saturation, analytical rigor indicators.
+
+TYPICAL RESULTS & DISCUSSION:
+  - Present findings by research question or thematic cluster.
+  - Compare interpretations with prior critical readings.
+  - Discuss ambiguity, alternative readings, and contextual factors.
+  - Tables: thematic distribution, semiotic sign inventory, narrative structure mapping.
+  - Figures: conceptual framework, thematic network, character relationship diagram.
+
+TYPICAL FIGURES:
+  - Theoretical framework diagram.
+  - Thematic network visualization.
+  - Narrative structure timeline.
+  - Semiotic sign classification chart.
+  - Character relationship network.
+
+TYPICAL TABLES:
+  - Textual corpus summary: title | author | year | genre | edition | pages.
+  - Thematic coding: theme | frequency | textual evidence | interpretation.
+  - Semiotic analysis: sign | object | interpretant | meaning layer.
+  - Narrative structure: element | chapter/section | function | significance.
+
+CONCLUSION CHARACTERISTICS:
+  - Answer research questions with specific textual evidence.
+  - State theoretical and interpretive contributions.
+  - Acknowledge limitations in scope, corpus selection, and generalizability.
+  - Recommend future research directions with specific texts or approaches.
+
+COMMON REFERENCE VENUES:
+  Jurnal Poetika, Atavisme, Jentera, Metasastra, Litera, Diksi, Widyaparwa,
+  Jurnal Ilmiah Kebudayaan Sintesis, International Journal of Literary Humanities,
+  Journal of Southeast Asian Studies, Indonesia and the Malay World, Bijdragen tot
+  de Taal- Land- en Volkenkunde, Wacana: Journal of the Humanities of Indonesia
+
+DOMAIN VOCABULARY:
+  Hermeneutika, Semiotika, Naratologi, Poskolonial, Feminisme Sastra, Intertekstualitas,
+  Stilistika, Resepsi Sastra, Sosiologi Sastra, Ekokritik, Sastra Bandingan,
+  Sastra Siber, Sastra Lisan, Lokalitas, Hibriditas Budaya
+
+METHODOLOGY KEYWORDS:
+  hermeneutic interpretation, semiotic analysis, critical discourse analysis, narratological mapping, postcolonial reading, feminist close reading, new historicist contextualization, digital text mining, corpus stylistic analysis, reception study, intertextual analysis, thematic coding, structural analysis
+
+RESEARCH TOPIC BANK (500 TOPICS)
+
+CATEGORY 1 — Modern Indonesian Novel & Prose (001-050)
+001. Hermeneutic analysis of trauma representation in post-1998 reformasi novels by Indonesian women writers using Ricoeur's narrative identity framework.
+002. Semiotic reading of spatial symbolism in Eka Kurniawan's magical realist prose using Barthes' five codes methodology.
+003. Critical discourse analysis of power relations in Pramoedya Ananta Toer's Buru Quartet examining subaltern voice construction.
+004. Narratological study of temporal disruption in Leila S. Chudori's Pulang using Genette's anachrony typology.
+005. Postcolonial analysis of hybrid identity construction in Indonesian diaspora novels (2020-2025) through Bhabha's third space theory.
+006. Feminist literary criticism of female agency in Ayu Utami's Saman and Larung using Cixous' ecriture feminine framework.
+007. New historicist reading of economic discourse in Indonesian novels set during the 1997 Asian financial crisis.
+008. Digital humanities approach to stylistic evolution in Indonesian prose fiction from 1920-2020 using computational stylometry.
+009. Corpus stylistic analysis of metaphor patterns in contemporary Indonesian urban fiction (2020-2025).
+010. Reception theory study of reader responses to controversial Indonesian novels using Jauss' horizon of expectations.
+011. Hermeneutic interpretation of religious pluralism representation in post-New Order Indonesian novels.
+012. Semiotic analysis of food symbolism as cultural identity marker in Indonesian culinary fiction.
+013. Critical discourse analysis of environmental narratives in Indonesian eco-fiction using Fairclough's three-dimensional model.
+014. Narratological examination of unreliable narration in Indonesian psychological novels (2020-2025).
+015. Postcolonial reading of language politics in code-switching patterns within Indonesian multilingual novels.
+016. Feminist analysis of motherhood narratives in contemporary Indonesian women's fiction using Kristeva's maternal theory.
+017. New historicist study of pandemic representation in Indonesian fiction written during and after COVID-19.
+018. Computational analysis of sentiment patterns in Indonesian bestseller novels using NLP-based distant reading.
+019. Corpus-based study of lexical richness and complexity in award-winning vs. popular Indonesian novels.
+020. Reader-response analysis of Indonesian young readers' engagement with translated vs. local literary fiction.
+021. Hermeneutic study of mysticism and spirituality in Javanese-influenced Indonesian prose narratives.
+022. Semiotic interpretation of color symbolism in Indonesian gothic fiction using Peirce's triadic model.
+023. Discourse analysis of masculinity construction in Indonesian male-authored contemporary fiction.
+024. Narratological mapping of polyphonic voices in Indonesian historical novels about the 1965 tragedy.
+025. Postcolonial examination of Orientalist tropes in Indonesian novels written for international audiences.
+026. Feminist reading of domestic space as site of resistance in Indonesian women's short stories (2020-2025).
+027. New historicist analysis of labor and class consciousness in Indonesian proletarian literature revival.
+028. Digital text mining of thematic clusters in Indonesian online serial fiction platforms (Wattpad, NovelMe).
+029. Stylistic analysis of stream-of-consciousness technique in experimental Indonesian prose.
+030. Reception study of Indonesian literary prize juries' evaluative criteria and canon formation processes.
+031. Hermeneutic analysis of death and mourning rituals in Indonesian multi-ethnic funeral narratives.
+032. Semiotic reading of urban landscape as text in Jakarta-set Indonesian novels using Lefebvre's spatial theory.
+033. Critical discourse analysis of disability representation in Indonesian contemporary fiction.
+034. Narratological study of embedded narratives and frame stories in Indonesian metafictional novels.
+035. Postcolonial analysis of translation politics in Indonesian novels rendered into English for global markets.
+036. Feminist examination of sexual violence narratives in Indonesian #MeToo-era fiction.
+037. New historicist reading of educational discourse in Indonesian bildungsroman novels across decades.
+038. Computational network analysis of character relationships in Indonesian family saga novels.
+039. Corpus linguistic study of dialogue authenticity in Indonesian sociolect representation in fiction.
+040. Reception analysis of Indonesian readers' responses to AI-generated literary texts vs. human-authored works.
+041. Hermeneutic interpretation of water symbolism in Indonesian maritime fiction from archipelagic perspectives.
+042. Semiotic analysis of silence and absence as narrative devices in Indonesian minimalist prose.
+043. Discourse analysis of indigenous knowledge systems represented in Indonesian ethnographic fiction.
+044. Narratological examination of second-person narration in experimental Indonesian short stories.
+045. Postcolonial reading of nostalgia and memory politics in Indonesian novels about Dutch colonial era.
+046. Feminist analysis of female friendship and solidarity narratives in Indonesian contemporary women's fiction.
+047. New historicist study of technological anxiety in Indonesian science fiction and speculative prose.
+048. Digital humanities mapping of literary geography in Indonesian novels using GIS visualization.
+049. Stylistic comparison of Indonesian literary translations from different source languages (English, Japanese, Arabic).
+050. Reader reception study of Indonesian graphic novels and their literary legitimacy in academic discourse.
+
+CATEGORY 2 — Indonesian Poetry & Poetics (051-100)
+051. Hermeneutic analysis of existential themes in Sapardi Djoko Damono's later poetry collections (2015-2025).
+052. Semiotic reading of natural imagery in Joko Pinurbo's urban poetry using Riffaterre's semiotics of poetry.
+053. Critical discourse analysis of political resistance in Indonesian poetry during the 2019-2024 political period.
+054. Narratological study of voice and persona construction in contemporary Indonesian confessional poetry.
+055. Postcolonial analysis of linguistic decolonization in Indonesian poets writing in regional languages.
+056. Feminist reading of body politics in Indonesian women's poetry anthologies (2020-2025).
+057. New historicist examination of poetry's role in Indonesian social movements and street protests.
+058. Computational analysis of prosodic patterns and rhythm in modern Indonesian free verse.
+059. Corpus stylistic study of metaphor evolution in Indonesian poetry from Pujangga Baru to contemporary era.
+060. Reception theory analysis of poetry reading events and audience engagement in Indonesian literary festivals.
+061. Hermeneutic interpretation of Islamic mystical (Sufi) elements in contemporary Indonesian religious poetry.
+062. Semiotic analysis of visual poetry and concrete poetry experiments in Indonesian digital platforms.
+063. Discourse analysis of ecological consciousness in Indonesian ecopoetry using ecocritical frameworks.
+064. Prosodic analysis of sound symbolism and phonaesthesia in Chairil Anwar's poetry.
+065. Postcolonial reading of translation strategies in rendering Indonesian poetry into English.
+066. Feminist analysis of silence and voice in Indonesian women poets' responses to patriarchal traditions.
+067. New historicist study of poetry as witness literature in Indonesian post-conflict regions (Aceh, Papua).
+068. Digital humanities approach to mapping intertextual networks among Indonesian poets using citation analysis.
+069. Corpus-based study of lexical innovation and neologism in contemporary Indonesian experimental poetry.
+070. Reader-response study of Indonesian university students' interpretation of ambiguous poetic texts.
+071. Hermeneutic analysis of home and displacement in Indonesian migrant worker poetry.
+072. Semiotic reading of death imagery in Indonesian elegiac poetry traditions across ethnic groups.
+073. Critical discourse analysis of gender performativity in Indonesian spoken word and slam poetry.
+074. Comparative prosodic analysis of Indonesian pantun adaptations in contemporary poetry.
+075. Postcolonial examination of world literature positioning of Indonesian poetry in global anthologies.
+076. Feminist reading of maternal grief and loss in Indonesian women's poetry using affect theory.
+077. New historicist analysis of poetry censorship and self-censorship during Indonesian New Order period.
+078. Computational sentiment analysis of emotional trajectories in Indonesian poetry collections.
+079. Stylistic analysis of code-mixing in bilingual Indonesian-English poetry by diaspora poets.
+080. Reception study of social media poetry (Instagram, Twitter) and its impact on Indonesian literary culture.
+081. Hermeneutic interpretation of time and memory in Indonesian prose poetry (puisi esai) genre.
+082. Semiotic analysis of musical elements and song-poetry intersections in Indonesian literary tradition.
+083. Discourse analysis of mental health narratives in Indonesian youth poetry communities online.
+084. Narratological study of storytelling techniques in Indonesian narrative poetry (puisi naratif).
+085. Postcolonial reading of indigenous oral poetry traditions and their written transformations.
+086. Feminist analysis of reproductive rights discourse in Indonesian women's protest poetry.
+087. New historicist examination of poetry's commodification in Indonesian publishing industry.
+088. Digital text analysis of thematic shifts in Indonesian poetry before and after COVID-19 pandemic.
+089. Corpus linguistic comparison of vocabulary density in Indonesian poetry vs. prose fiction.
+090. Reception analysis of Indonesian poetry translation reception in international literary magazines.
+091. Hermeneutic study of philosophical concepts in Indonesian intellectual poetry (puisi pemikiran).
+092. Semiotic reading of architectural and spatial metaphors in Indonesian urban poetry.
+093. Critical discourse analysis of class consciousness in Indonesian working-class poetry movements.
+094. Comparative analysis of haiku adaptation and transformation in Indonesian poetic practice.
+095. Postcolonial examination of Malay-Indonesian poetic continuities and ruptures across national borders.
+096. Feminist reading of aging and female embodiment in senior Indonesian women poets' works.
+097. New historicist study of poetry and nation-building discourse in early Indonesian independence era.
+098. Computational analysis of imagery patterns using word embedding models on Indonesian poetry corpus.
+099. Stylistic study of punctuation as meaning-making device in Indonesian experimental poetry.
+100. Reader reception of AI-generated Indonesian poetry and implications for literary authenticity debates.
+
+CATEGORY 3 — Drama & Performance Studies (101-150)
+101. Hermeneutic analysis of ritual elements in contemporary Indonesian theater productions (2020-2025).
+102. Semiotic reading of stage space and set design as meaning system in Indonesian experimental theater.
+103. Critical discourse analysis of political satire in Indonesian stand-up comedy as performance text.
+104. Narratological study of dramatic structure in Indonesian one-act plays by emerging playwrights.
+105. Postcolonial analysis of traditional performance adaptation in modern Indonesian theater (ketoprak, lenong).
+106. Feminist reading of female characters in Indonesian dramatic texts by male vs. female playwrights.
+107. New historicist examination of theater censorship and resistance during Indonesian authoritarian periods.
+108. Digital humanities approach to archiving and analyzing Indonesian performance documentation.
+109. Corpus-based study of stage directions and their semiotic functions in Indonesian published plays.
+110. Reception theory analysis of audience responses to Indonesian immersive theater experiences.
+111. Hermeneutic interpretation of absurdist elements in Indonesian contemporary drama.
+112. Semiotic analysis of mask symbolism in Indonesian traditional and contemporary performance.
+113. Discourse analysis of identity negotiation in Indonesian community-based theater projects.
+114. Performance analysis of body language and gesture systems in Indonesian physical theater.
+115. Postcolonial reading of intercultural theater collaborations between Indonesian and Western companies.
+116. Feminist analysis of gender subversion in Indonesian drag performance and theater.
+117. New historicist study of Indonesian theater's response to natural disasters and collective trauma.
+118. Digital performance analysis of Indonesian virtual theater during and after COVID-19 pandemic.
+119. Comparative study of dramatic monologue techniques in Indonesian solo performance traditions.
+120. Reception study of Indonesian theater festival audiences' aesthetic preferences and expectations.
+121. Hermeneutic analysis of silence and pause as dramatic devices in Indonesian minimalist theater.
+122. Semiotic reading of lighting design as narrative element in Indonesian contemporary productions.
+123. Critical discourse analysis of social class representation in Indonesian television drama scripts.
+124. Narratological examination of non-linear storytelling in Indonesian experimental theater.
+125. Postcolonial analysis of Shakespearean adaptation in Indonesian cultural contexts.
+126. Feminist reading of domestic violence themes in Indonesian social realist drama.
+127. New historicist study of propaganda theater during Indonesian revolution and early independence.
+128. Computational analysis of dialogue patterns and turn-taking in Indonesian dramatic texts.
+129. Stylistic comparison of dramatic language in Indonesian realist vs. expressionist plays.
+130. Reception analysis of Indonesian children's theater and its educational impact assessment.
+131. Hermeneutic interpretation of mythological retelling in contemporary Indonesian dance-drama.
+132. Semiotic analysis of costume and makeup as character signification in Indonesian wayang orang.
+133. Discourse analysis of environmental themes in Indonesian site-specific performance art.
+134. Performance studies analysis of Indonesian street theater as political activism tool.
+135. Postcolonial reading of language choice (Indonesian vs. regional) in Indonesian theatrical productions.
+136. Feminist analysis of women directors' artistic vision in Indonesian contemporary theater scene.
+137. New historicist examination of Indonesian radio drama as literary and cultural artifact.
+138. Digital documentation and analysis of endangered Indonesian traditional performance forms.
+139. Comparative study of Indonesian and Southeast Asian contemporary theater aesthetics.
+140. Reception study of Indonesian diaspora theater productions and transnational identity performance.
+141. Hermeneutic analysis of dream sequences and surrealist elements in Indonesian dramatic writing.
+142. Semiotic reading of sound design and music as meaning-making in Indonesian theater.
+143. Critical discourse analysis of disability representation in Indonesian dramatic texts and productions.
+144. Narratological study of audience participation structures in Indonesian interactive theater.
+145. Postcolonial analysis of tourism performance and cultural commodification in Balinese theater.
+146. Feminist reading of queer identity performance in Indonesian underground theater scene.
+147. New historicist study of Indonesian playwright biographies as cultural history documents.
+148. Computational network analysis of Indonesian theater community collaborations and influence patterns.
+149. Stylistic analysis of poetic language in Indonesian verse drama traditions.
+150. Reception study of Indonesian film adaptations of literary dramatic works.
+
+CATEGORY 4 — Postcolonial & National Identity (151-200)
+151. Postcolonial analysis of Dutch colonial legacy in contemporary Indonesian literary imagination.
+152. Hermeneutic study of national identity construction in Indonesian independence-era literature.
+153. Semiotic reading of flag, anthem, and national symbol representation in Indonesian patriotic literature.
+154. Critical discourse analysis of Pancasila ideology in Indonesian state-sponsored literary works.
+155. Narratological examination of counter-narratives to official Indonesian national history in fiction.
+156. Postcolonial reading of Japanese occupation representation in Indonesian literary memory.
+157. Feminist analysis of women's roles in national identity narratives in Indonesian literature.
+158. New historicist study of Balai Pustaka publishing house and colonial literary gatekeeping.
+159. Digital humanities mapping of colonial-era Indonesian literary networks and circulation patterns.
+160. Corpus-based analysis of nationalist vocabulary evolution in Indonesian literature (1920-2020).
+161. Hermeneutic interpretation of border and boundary metaphors in Indonesian national identity literature.
+162. Semiotic analysis of the "Indonesian" body in postcolonial literary representation.
+163. Discourse analysis of ethnic identity and national belonging in Indonesian minority literature.
+164. Narratological study of collective memory construction in Indonesian 1965 tragedy literature.
+165. Postcolonial examination of neo-colonial economic themes in contemporary Indonesian fiction.
+166. Feminist reading of nation-as-mother metaphor in Indonesian nationalist literary discourse.
+167. New historicist analysis of literary responses to Indonesian regional separatist movements.
+168. Computational text analysis of sentiment toward colonial past in Indonesian historical novels.
+169. Comparative postcolonial study of Indonesian and Malaysian literary decolonization strategies.
+170. Reception study of Indonesian postcolonial literature in former colonizer (Dutch) academic contexts.
+171. Hermeneutic analysis of cosmopolitanism vs. nationalism tension in Indonesian contemporary literature.
+172. Semiotic reading of map and territory imagery in Indonesian geopolitical fiction.
+173. Critical discourse analysis of military representation in Indonesian New Order-era literature.
+174. Narratological examination of testimonial literature from Indonesian political prisoners.
+175. Postcolonial analysis of English language use in Indonesian literary texts as cultural negotiation.
+176. Feminist reading of comfort women narratives in Indonesian-Japanese postcolonial literature.
+177. New historicist study of Indonesian literary responses to the 1998 May riots.
+178. Digital analysis of online literary activism and national identity discourse in Indonesian social media.
+179. Corpus linguistic study of "Indonesia" as concept in literary texts across historical periods.
+180. Reception analysis of Indonesian national literature curriculum and student identity formation.
+181. Hermeneutic interpretation of exile and return narratives in Indonesian political literature.
+182. Semiotic analysis of monument and memorial representation in Indonesian commemorative literature.
+183. Discourse analysis of indigenous rights and sovereignty in Indonesian Papuan literature.
+184. Narratological study of generational trauma transmission in Indonesian family narratives.
+185. Postcolonial reading of development discourse in Indonesian literature about modernization.
+186. Feminist analysis of nationalist feminism vs. transnational feminism in Indonesian women's writing.
+187. New historicist examination of Indonesian literary prizes as national canon-making instruments.
+188. Computational analysis of national identity keywords in Indonesian literary criticism discourse.
+189. Comparative study of postcolonial identity in Indonesian and Philippine anglophone literature.
+190. Reception study of Indonesian literature's representation at international book fairs and festivals.
+191. Hermeneutic analysis of Bhinneka Tunggal Ika (Unity in Diversity) in Indonesian multicultural fiction.
+192. Semiotic reading of traditional textile (batik, tenun) symbolism in Indonesian identity literature.
+193. Critical discourse analysis of radicalism and extremism narratives in Indonesian counter-terrorism fiction.
+194. Narratological examination of oral history integration in Indonesian documentary fiction.
+195. Postcolonial analysis of tourism discourse and cultural authenticity in Indonesian travel writing.
+196. Feminist reading of women's participation in Indonesian literary nationalism movements.
+197. New historicist study of Indonesian literature during Guided Democracy period (1959-1965).
+198. Digital humanities analysis of Indonesian literary diaspora networks and transnational publishing.
+199. Corpus-based study of ideological vocabulary in Indonesian literary manifestos across eras.
+200. Reception analysis of Indonesian national identity literature among Generation Z readers.
+
+CATEGORY 5 — Gender & Feminist Literary Studies (201-250)
+201. Feminist analysis of female sexual autonomy in Indonesian contemporary women's fiction (2020-2025).
+202. Hermeneutic study of feminine writing (ecriture feminine) characteristics in Indonesian women's prose.
+203. Semiotic reading of female body representation in Indonesian literary texts across decades.
+204. Critical discourse analysis of patriarchal language patterns in Indonesian canonical male-authored texts.
+205. Narratological examination of female focalization and voice in Indonesian women's autobiographical fiction.
+206. Postcolonial feminist reading of double colonization in Indonesian women's historical novels.
+207. Intersectional analysis of race, class, and gender in Indonesian Chinese-descent women's writing.
+208. New historicist study of Indonesian women's literary organizations and feminist publishing history.
+209. Digital humanities approach to mapping Indonesian women writers' publication networks (1900-2025).
+210. Corpus stylistic comparison of gendered language use in Indonesian male vs. female-authored fiction.
+211. Hermeneutic interpretation of domestic labor and care work in Indonesian women's short stories.
+212. Semiotic analysis of wedding and marriage symbolism in Indonesian feminist fiction.
+213. Discourse analysis of reproductive rights narratives in Indonesian women's literary texts.
+214. Narratological study of mother-daughter relationships in Indonesian multigenerational women's novels.
+215. Postcolonial feminist examination of veiling and unveiling in Indonesian Muslim women's literature.
+216. Queer reading of homosocial bonds and lesbian desire in Indonesian women's fiction.
+217. New historicist analysis of Indonesian women writers' responses to New Order gender ideology.
+218. Computational analysis of emotional expression patterns in Indonesian women's vs. men's poetry.
+219. Comparative feminist study of Indonesian and South Asian women's postcolonial fiction.
+220. Reception study of Indonesian feminist literature among male readers and critics.
+221. Hermeneutic analysis of widowhood and single motherhood narratives in Indonesian fiction.
+222. Semiotic reading of kitchen and domestic space as feminist symbol in Indonesian women's writing.
+223. Critical discourse analysis of beauty standards and body image in Indonesian popular women's fiction.
+224. Narratological examination of trauma and healing narratives in Indonesian women's survivor literature.
+225. Postcolonial feminist analysis of Indonesian women's travel writing and mobility narratives.
+226. Masculinity studies reading of toxic masculinity representation in Indonesian contemporary fiction.
+227. New historicist study of Indonesian women's literary salons and intellectual communities.
+228. Digital analysis of Indonesian women writers' social media presence and literary activism.
+229. Corpus-based study of agency verbs and passive constructions in Indonesian gendered narratives.
+230. Reception analysis of Indonesian feminist literature in translation and international feminist discourse.
+231. Hermeneutic interpretation of menstruation and female biological experience in Indonesian literature.
+232. Semiotic analysis of hair symbolism and female identity in Indonesian literary texts.
+233. Discourse analysis of economic independence narratives in Indonesian women's entrepreneurship fiction.
+234. Narratological study of silence and silencing in Indonesian women's testimonial literature.
+235. Postcolonial feminist reading of Indonesian women domestic workers in literary representation.
+236. Ecofeminist analysis of nature-woman connection in Indonesian environmental women's writing.
+237. New historicist examination of polygamy debate in Indonesian women's literary responses.
+238. Computational sentiment analysis of gender-based violence narratives in Indonesian fiction.
+239. Comparative study of feminist literary criticism approaches in Indonesian vs. Western academic contexts.
+240. Reception study of Indonesian young women readers' engagement with feminist literary texts.
+241. Hermeneutic analysis of female friendship and sisterhood in Indonesian women's collective narratives.
+242. Semiotic reading of color and clothing as gender performance in Indonesian literary texts.
+243. Critical discourse analysis of online harassment narratives in Indonesian women's digital literature.
+244. Narratological examination of non-linear time in Indonesian women's memory narratives.
+245. Postcolonial feminist analysis of Indonesian women's resistance literature during occupation periods.
+246. Transgender and non-binary representation in contemporary Indonesian literary fiction.
+247. New historicist study of Indonesian women's magazines as literary platforms (1950-2000).
+248. Computational analysis of female character agency scores across Indonesian novel corpus.
+249. Comparative study of Indonesian and Middle Eastern women's veiling narratives in fiction.
+250. Reception analysis of Indonesian feminist literary criticism's impact on publishing industry practices.
+
+CATEGORY 6 — Regional Literature & Local Wisdom (251-300)
+251. Hermeneutic analysis of local wisdom (kearifan lokal) in Javanese-language contemporary literature.
+252. Semiotic reading of traditional house symbolism in Minangkabau literary texts.
+253. Critical discourse analysis of center-periphery power dynamics in Indonesian regional literature.
+254. Narratological study of oral storytelling structures preserved in written Balinese literature.
+255. Postcolonial reading of cultural resistance in Papuan literary expressions and poetry.
+256. Feminist analysis of matrilineal values in Minangkabau women's literary production.
+257. New historicist examination of regional literary magazines and local publishing ecosystems.
+258. Digital humanities mapping of Indonesian regional literary production centers and networks.
+259. Corpus-based study of regional language elements in Indonesian national literature.
+260. Reception study of regional literature readership patterns and cultural identity formation.
+261. Hermeneutic interpretation of rice cultivation rituals in Sundanese literary traditions.
+262. Semiotic analysis of textile motifs as narrative elements in Eastern Indonesian literature.
+263. Discourse analysis of maritime culture in Bugis-Makassar literary traditions.
+264. Narratological examination of cyclical time concepts in Balinese literary narratives.
+265. Postcolonial reading of Acehnese literature as resistance narrative against centralization.
+266. Feminist analysis of Batak women's voices in contemporary Toba Batak literary production.
+267. New historicist study of Malay literary traditions in Riau and their national significance.
+268. Computational analysis of dialectal features in Indonesian regional literary texts.
+269. Comparative study of flood mythology across Indonesian regional literary traditions.
+270. Reception analysis of translated regional literature among non-native readers.
+271. Hermeneutic study of ancestor worship themes in Torajan literary expressions.
+272. Semiotic reading of forest and mountain symbolism in Dayak literary traditions.
+273. Critical discourse analysis of urbanization impact narratives in regional Indonesian literature.
+274. Narratological study of trickster figures across Indonesian regional folklore traditions.
+275. Postcolonial examination of Dutch missionary influence on Eastern Indonesian literary development.
+276. Feminist reading of bride price (mahar) narratives in Eastern Indonesian women's literature.
+277. New historicist analysis of regional literary festivals and cultural revitalization movements.
+278. Digital archiving and textual analysis of endangered Indonesian oral literary traditions.
+279. Corpus linguistic study of code-switching between regional and national language in literature.
+280. Reception study of Indonesian regional literature in national school curricula.
+281. Hermeneutic analysis of volcanic landscape as existential metaphor in Javanese literature.
+282. Semiotic reading of traditional weapon symbolism in Madurese literary texts.
+283. Discourse analysis of transmigration experiences in Indonesian regional literature.
+284. Narratological examination of dream narratives in Malay-Indonesian shamanic literary traditions.
+285. Postcolonial reading of Melanesian identity in West Papuan literary production.
+286. Feminist analysis of weaving as women's knowledge system in Flores literary traditions.
+287. New historicist study of Balai Pustaka's role in standardizing regional literary forms.
+288. Computational text analysis of thematic differences between island-based regional literatures.
+289. Comparative study of creation myths in Austronesian literary traditions across Indonesia.
+290. Reception analysis of regional literature adaptations in Indonesian film and television.
+291. Hermeneutic interpretation of sea and fishing metaphors in Maluku literary traditions.
+292. Semiotic analysis of traditional dance descriptions as literary ekphrasis in regional texts.
+293. Critical discourse analysis of indigenous land rights in Kalimantan literary narratives.
+294. Narratological study of genealogical narratives in Nias literary traditions.
+295. Postcolonial reading of Chinese-Indonesian literary production in regional contexts.
+296. Feminist analysis of female ritual specialists in Javanese literary representations.
+297. New historicist examination of colonial-era regional language newspapers as literary venues.
+298. Digital humanities network analysis of regional literary community connections across Indonesia.
+299. Corpus-based study of honorific systems in Javanese literary language evolution.
+300. Reception study of regional folklore retellings in contemporary Indonesian children's literature.
+
+CATEGORY 7 — Digital Literature & New Media (301-350)
+301. Hermeneutic analysis of hypertext narrative structures in Indonesian digital fiction experiments.
+302. Semiotic reading of emoji and visual elements as literary devices in Indonesian social media poetry.
+303. Critical discourse analysis of online literary communities and power dynamics in Indonesian digital spaces.
+304. Narratological study of interactive fiction and reader-as-author in Indonesian digital platforms.
+305. Postcolonial reading of digital divide and literary access in Indonesian online literature.
+306. Feminist analysis of women's self-representation in Indonesian autobiographical blogs and vlogs.
+307. New historicist examination of Indonesian literature's transition from print to digital (2000-2025).
+308. Computational analysis of reading patterns and engagement metrics in Indonesian online fiction platforms.
+309. Corpus-based study of linguistic features distinguishing Indonesian digital vs. print literature.
+310. Reception study of Indonesian Wattpad readers' literary preferences and community practices.
+311. Hermeneutic interpretation of virtual identity construction in Indonesian cyberpunk fiction.
+312. Semiotic analysis of meme culture as literary expression in Indonesian digital spaces.
+313. Discourse analysis of fan fiction communities and transformative works in Indonesian fandom.
+314. Narratological examination of serialization strategies in Indonesian web novel platforms.
+315. Postcolonial reading of global platform dominance and Indonesian digital literary sovereignty.
+316. Feminist analysis of online harassment narratives in Indonesian women's digital writing.
+317. New historicist study of Indonesian literary blogs and their role in democratizing publishing.
+318. Machine learning classification of genre and quality in Indonesian online fiction corpus.
+319. Stylistic analysis of Twitter fiction (cerpen Twitter) as emerging Indonesian literary form.
+320. Reception study of audiobook and podcast adaptations of Indonesian literary works.
+321. Hermeneutic analysis of algorithmic curation's impact on Indonesian literary discovery and reading.
+322. Semiotic reading of book cover design evolution in Indonesian digital publishing era.
+323. Critical discourse analysis of literary gatekeeping in Indonesian online review platforms.
+324. Narratological study of transmedia storytelling in Indonesian literary franchises.
+325. Postcolonial examination of English-Indonesian code-switching in digital literary production.
+326. Feminist reading of digital self-publishing as empowerment for Indonesian women writers.
+327. New historicist analysis of Indonesian e-book market development and literary culture shifts.
+328. Computational topic modeling of Indonesian online fiction trends (2020-2025).
+329. Corpus linguistic comparison of sentence length and complexity in digital vs. traditional Indonesian fiction.
+330. Reception analysis of Indonesian literary NFTs and blockchain-based publishing experiments.
+331. Hermeneutic study of loneliness and connection themes in Indonesian social media literature.
+332. Semiotic analysis of Instagram poetry aesthetics and visual-textual relationships in Indonesian context.
+333. Discourse analysis of mental health narratives in Indonesian online literary communities.
+334. Narratological examination of choose-your-own-adventure formats in Indonesian digital fiction.
+335. Postcolonial reading of AI-generated Indonesian literature and questions of cultural authenticity.
+336. Feminist analysis of body positivity narratives in Indonesian digital literary spaces.
+337. New historicist study of Indonesian online literary prizes and digital canon formation.
+338. Sentiment analysis of reader comments as literary criticism in Indonesian online platforms.
+339. Stylistic study of multimodal storytelling in Indonesian webtoon adaptations of literary works.
+340. Reception study of Indonesian literature consumption patterns across different digital platforms.
+341. Hermeneutic analysis of nostalgia for analog reading in Indonesian digital-age literature.
+342. Semiotic reading of notification and interface metaphors in Indonesian techno-literary fiction.
+343. Critical discourse analysis of copyright and plagiarism debates in Indonesian online literary spaces.
+344. Narratological study of collaborative writing practices in Indonesian online fiction communities.
+345. Postcolonial examination of translation algorithms and Indonesian literary text transformation.
+346. Feminist reading of anonymous writing and identity freedom in Indonesian digital literature.
+347. New historicist analysis of Indonesian literary podcasts as new critical discourse platforms.
+348. Computational analysis of narrative complexity evolution in Indonesian serial web fiction.
+349. Corpus-based study of reader interaction patterns in Indonesian comment-driven fiction.
+350. Reception analysis of VR and immersive literary experiences in Indonesian experimental art.
+
+CATEGORY 8 — Comparative Literature (351-400)
+351. Comparative analysis of magical realism in Eka Kurniawan and Gabriel Garcia Marquez using postcolonial framework.
+352. Hermeneutic comparison of exile narratives in Indonesian and Palestinian literary traditions.
+353. Semiotic reading of river symbolism in Indonesian and Indian postcolonial novels.
+354. Critical discourse analysis comparing censorship responses in Indonesian and Chinese contemporary literature.
+355. Narratological comparison of family saga structures in Indonesian and Nigerian novels.
+356. Postcolonial comparative study of Indonesian and Philippine literary responses to American imperialism.
+357. Feminist comparative reading of women's liberation narratives in Indonesian and Egyptian fiction.
+358. New historicist comparison of literary nationalism in Indonesian and Indian independence movements.
+359. Digital humanities approach to mapping influence networks between Indonesian and world literature.
+360. Corpus stylistic comparison of Indonesian translations from English, Japanese, and Arabic sources.
+361. Hermeneutic comparative study of Sufi mysticism in Indonesian and Persian literary traditions.
+362. Semiotic comparison of food narratives in Indonesian and Japanese literary cultures.
+363. Discourse analysis comparing environmental literature in Indonesian and Brazilian Amazonian contexts.
+364. Narratological comparison of oral-to-written transitions in Indonesian and African literary traditions.
+365. Postcolonial comparative reading of Dutch colonial literature and Indonesian counter-narratives.
+366. Feminist comparison of domestic worker narratives in Indonesian and Filipino women's fiction.
+367. New historicist comparative study of literary magazines in Indonesia and India (1920-1960).
+368. Computational stylometric comparison of Indonesian and Malay literary language divergence.
+369. Comparative study of detective fiction conventions in Indonesian and Japanese mystery novels.
+370. Reception comparison of Indonesian literature in Dutch vs. English translation markets.
+371. Hermeneutic comparison of tsunami literature in Indonesian and Japanese literary responses.
+372. Semiotic reading of island metaphors in Indonesian and Caribbean postcolonial literature.
+373. Critical discourse analysis comparing political prison literature in Indonesia and South Korea.
+374. Narratological comparison of bildungsroman conventions in Indonesian and German literary traditions.
+375. Postcolonial comparative study of creole/pidgin literary expression in Indonesian and Caribbean contexts.
+376. Feminist comparison of polygamy narratives in Indonesian and West African women's fiction.
+377. New historicist comparative analysis of proletarian literature movements in Indonesia and Japan.
+378. Computational comparison of sentiment patterns in Indonesian and Thai contemporary fiction.
+379. Comparative study of graphic novel traditions in Indonesian and French bande dessinee.
+380. Reception comparison of Indonesian and Korean literature in global translation markets.
+381. Hermeneutic comparison of volcanic disaster narratives in Indonesian and Japanese literature.
+382. Semiotic reading of textile and weaving metaphors in Indonesian and Andean literary traditions.
+383. Discourse analysis comparing diaspora identity in Indonesian and Vietnamese exile literature.
+384. Narratological comparison of ghost story conventions in Indonesian and Thai horror fiction.
+385. Postcolonial comparative study of rubber plantation narratives in Indonesian and Malaysian literature.
+386. Feminist comparison of arranged marriage narratives in Indonesian and South Asian fiction.
+387. New historicist comparative study of literary censorship in Indonesia and Soviet-era Russia.
+388. Computational intertextuality detection between Indonesian novels and their world literature influences.
+389. Comparative study of children's literature development in Indonesia and neighboring ASEAN nations.
+390. Reception comparison of Indonesian literature at Frankfurt and London book fairs.
+391. Hermeneutic comparison of forest symbolism in Indonesian and Scandinavian literary traditions.
+392. Semiotic reading of mask imagery in Indonesian and West African literary cultures.
+393. Critical discourse analysis comparing indigenous rights literature in Indonesia and Australia.
+394. Narratological comparison of war narrative techniques in Indonesian and Vietnamese fiction.
+395. Postcolonial comparative study of missionary literature about Indonesia and the Pacific Islands.
+396. Feminist comparison of witch/dukun figures in Indonesian and Latin American women's writing.
+397. New historicist comparative analysis of literary translation policies in Indonesia and South Korea.
+398. Computational comparison of narrative structure complexity in Indonesian and Turkish novels.
+399. Comparative study of literary adaptation practices in Indonesian and Bollywood film industries.
+400. Reception comparison of Indonesian and African literature in European academic curricula.
+
+CATEGORY 9 — Literary Criticism & Theory (401-450)
+401. Hermeneutic meta-analysis of Indonesian literary criticism methodologies (2000-2025).
+402. Semiotic study of Indonesian literary criticism's own sign systems and rhetorical strategies.
+403. Critical discourse analysis of power dynamics in Indonesian academic literary criticism institutions.
+404. Narratological examination of how Indonesian critics construct literary history narratives.
+405. Postcolonial analysis of Western theory application and adaptation in Indonesian literary studies.
+406. Feminist critique of gender bias in Indonesian literary canon formation and criticism.
+407. New historicist study of Indonesian literary criticism during political transitions (1965, 1998, 2014).
+408. Digital humanities analysis of citation networks in Indonesian literary scholarship.
+409. Corpus-based study of critical vocabulary evolution in Indonesian literary reviews (1950-2025).
+410. Reception study of Indonesian literary theory textbooks and their pedagogical impact.
+411. Hermeneutic analysis of the "sastra kontekstual" debate and its theoretical implications.
+412. Semiotic reading of book review conventions in Indonesian literary journalism.
+413. Discourse analysis of the "sastra wangi" controversy and gendered literary evaluation.
+414. Theoretical examination of ecocriticism's applicability to Indonesian literary contexts.
+415. Postcolonial critique of Orientalist frameworks in Western scholarship on Indonesian literature.
+416. Feminist theoretical analysis of Indonesian women's literary criticism as counter-discourse.
+417. New historicist examination of Lekra vs. Manikebu debate's lasting impact on Indonesian literary theory.
+418. Computational bibliometric analysis of Indonesian literary studies publication trends.
+419. Comparative theoretical study of Indonesian and postcolonial literary criticism frameworks.
+420. Reception analysis of translated Western literary theory in Indonesian academic contexts.
+421. Hermeneutic study of A. Teeuw's contribution to Indonesian literary criticism methodology.
+422. Semiotic analysis of literary prize discourse as evaluative criticism in Indonesia.
+423. Critical discourse analysis of online literary criticism and democratization of Indonesian literary judgment.
+424. Theoretical examination of affect theory's potential for Indonesian literary analysis.
+425. Postcolonial critique of "world literature" category and Indonesian literature's positioning.
+426. Feminist theoretical analysis of care ethics as framework for Indonesian literary criticism.
+427. New historicist study of Indonesian literary criticism's relationship with state cultural policy.
+428. Computational analysis of topic evolution in Indonesian literary criticism journals (2000-2025).
+429. Theoretical examination of posthumanism and its applicability to Indonesian literary studies.
+430. Reception study of Indonesian literary criticism's impact on creative writing practices.
+431. Hermeneutic analysis of Sapardi Djoko Damono's literary criticism methodology and legacy.
+432. Semiotic study of paratext (covers, blurbs, introductions) in Indonesian literary publishing.
+433. Discourse analysis of generational conflict in Indonesian literary criticism communities.
+434. Theoretical examination of spatial literary criticism for Indonesian archipelagic literature.
+435. Postcolonial analysis of translation theory development in Indonesian literary studies.
+436. Feminist critique of "universal" aesthetic standards in Indonesian literary evaluation.
+437. New historicist study of literary criticism columns in Indonesian newspapers (1950-2000).
+438. Computational sentiment analysis of Indonesian literary reviews across different platforms.
+439. Theoretical study of digital humanities methods' adoption in Indonesian literary scholarship.
+440. Reception analysis of Indonesian literary criticism in international Southeast Asian studies.
+441. Hermeneutic examination of Faruk's sociological approach to Indonesian literary criticism.
+442. Semiotic analysis of literary anthology curation as critical practice in Indonesia.
+443. Discourse analysis of plagiarism and originality debates in Indonesian literary criticism.
+444. Theoretical examination of trauma theory application in Indonesian post-violence literary studies.
+445. Postcolonial critique of comparative literature frameworks for Indonesian literary analysis.
+446. Feminist theoretical study of intersectionality in Indonesian literary criticism practice.
+447. New historicist analysis of Indonesian literary criticism's response to globalization.
+448. Computational network analysis of Indonesian literary critics' influence and citation patterns.
+449. Theoretical examination of reader-response criticism in Indonesian educational contexts.
+450. Reception study of Indonesian literary theory production vs. consumption in academic settings.
+
+CATEGORY 10 — Children's & Young Adult Literature (451-500)
+451. Hermeneutic analysis of moral education themes in Indonesian children's picture books (2020-2025).
+452. Semiotic reading of illustration-text relationships in Indonesian children's literature.
+453. Critical discourse analysis of gender role representation in Indonesian children's fiction.
+454. Narratological study of narrative voice and child focalization in Indonesian YA novels.
+455. Postcolonial analysis of cultural diversity representation in Indonesian children's literature.
+456. Feminist reading of girl protagonist agency in Indonesian young adult fiction.
+457. New historicist examination of Indonesian children's literature development from colonial to present era.
+458. Digital humanities analysis of Indonesian children's e-book market and reading patterns.
+459. Corpus-based study of vocabulary complexity and readability in Indonesian children's literature.
+460. Reception study of Indonesian children's reading preferences and literary engagement.
+461. Hermeneutic interpretation of environmental awareness themes in Indonesian children's eco-literature.
+462. Semiotic analysis of animal characters as cultural symbols in Indonesian children's fables.
+463. Discourse analysis of disability and inclusion narratives in Indonesian children's books.
+464. Narratological examination of adventure story structures in Indonesian children's fiction.
+465. Postcolonial reading of folklore adaptation strategies in modern Indonesian children's literature.
+466. Feminist analysis of princess and heroine archetypes in Indonesian children's fairy tales.
+467. New historicist study of Indonesian children's literature during New Order propaganda era.
+468. Computational readability analysis of Indonesian children's literature across age categories.
+469. Comparative study of Indonesian and international children's literature translation practices.
+470. Reception analysis of Indonesian parents' selection criteria for children's literary materials.
+471. Hermeneutic study of death and loss themes in Indonesian children's and YA literature.
+472. Semiotic reading of color psychology in Indonesian children's book illustration.
+473. Critical discourse analysis of religious values in Indonesian Islamic children's literature.
+474. Narratological study of time-travel and fantasy world-building in Indonesian YA fiction.
+475. Postcolonial analysis of indigenous story preservation through Indonesian children's literature.
+476. Feminist reading of tomboy characters and gender non-conformity in Indonesian children's fiction.
+477. New historicist examination of Indonesian children's literary prizes and quality standards.
+478. Digital analysis of Indonesian children's literature on YouTube and audiobook platforms.
+479. Corpus linguistic study of dialogue patterns in Indonesian children's vs. adult fiction.
+480. Reception study of Indonesian children's responses to multicultural representation in books.
+481. Hermeneutic analysis of friendship and social skills themes in Indonesian early reader books.
+482. Semiotic reading of school and classroom settings as symbolic spaces in Indonesian YA novels.
+483. Discourse analysis of bullying and peer conflict narratives in Indonesian young adult fiction.
+484. Narratological examination of diary and epistolary formats in Indonesian YA literature.
+485. Postcolonial reading of global vs. local identity tension in Indonesian YA fiction.
+486. Feminist analysis of body image and self-acceptance themes in Indonesian teen literature.
+487. New historicist study of Indonesian children's literature censorship and content regulation.
+488. Computational analysis of emotional vocabulary in Indonesian children's literature across decades.
+489. Comparative study of Indonesian and Japanese children's literature exchange and mutual influence.
+490. Reception analysis of Indonesian children's literature in school library circulation data.
+491. Hermeneutic interpretation of technology and screen time themes in Indonesian children's fiction.
+492. Semiotic analysis of food and eating scenes as cultural education in Indonesian children's books.
+493. Critical discourse analysis of socioeconomic class representation in Indonesian children's literature.
+494. Narratological study of unreliable child narrators in Indonesian young adult psychological fiction.
+495. Postcolonial reading of language choice (Indonesian vs. English) in Indonesian children's publishing.
+496. Feminist analysis of mother figures and maternal narratives in Indonesian children's literature.
+497. New historicist examination of Indonesian children's comics (komik anak) as literary form.
+498. Digital text mining of thematic trends in Indonesian children's literature publishing (2015-2025).
+499. Corpus-based study of sentence complexity progression in Indonesian graded reader series.
+500. Reception study of Indonesian young adult readers' transition to adult literary fiction.

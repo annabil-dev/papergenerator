@@ -1,0 +1,704 @@
+================================================================================
+TOPIC GUIDE — Capture Fisheries (Perikanan Tangkap)
+================================================================================
+FIELD: Fisheries Science
+DEFAULT CITATION STYLE: APA
+SUBDISCIPLINE: Fishing Technology, Fish Stock Assessment, Fishing Vessel Engineering, Fisheries Management, Marine Remote Sensing, Bycatch Reduction, Small-Scale Fisheries, Pelagic Fisheries, Post-Harvest at Sea, Climate Adaptation in Fisheries
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title (specific, with method and domain)
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Hydroacoustic fish stock assessment (split-beam, multibeam sonar)
+   - Electronic Monitoring Systems (EMS) with AI-based species recognition
+   - Vessel Monitoring System (VMS) and Automatic Identification System (AIS) analytics
+   - Computational Fluid Dynamics (CFD) for gear hydrodynamics
+   - eDNA metabarcoding for biodiversity assessment
+   - Machine learning for CPUE prediction and stock modeling
+   - Satellite-derived oceanographic data (SST, chlorophyll-a, SSH)
+   - Finite Element Analysis (FEA) for fishing gear structural optimization
+   - Drone-based aerial surveys for fish school detection
+   - Biotelemetry and acoustic tagging for fish movement tracking
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics with statistical measures
+   - Comparison with baselines
+   - All numbers realistic and internally consistent
+
+5. MATHEMATICAL FORMULAS:
+   - 5-10 relevant formulas with variable definitions
+   - Schaefer surplus production model
+   - Von Bertalanffy growth function
+   - Catch Per Unit Effort (CPUE) calculations
+   - Gear selectivity (logistic selection curve)
+   - Maximum Sustainable Yield (MSY) estimation
+   - Drag force equations for fishing gear
+   - Swept area method for stock estimation
+   - Mortality rates (Z, M, F) calculations
+   - Beverton-Holt yield-per-recruit model
+   - Length-weight relationship (W = aL^b)
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian maritime context
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords, Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+--- DOMAIN-SPECIFIC SECTIONS ---
+
+ABSTRACT CHARACTERISTICS:
+- State fishing method or gear type studied
+- Specify study location (WPP zone, Indonesian waters)
+- Include key quantitative findings (catch rates, selectivity, efficiency)
+- Mention species targeted
+- Highlight practical implications for fisheries management
+
+INTRODUCTION ELEMENTS:
+- Indonesian capture fisheries production statistics (BPS/KKP data)
+- Global context of fishing pressure and sustainability
+- Specific WPP (Wilayah Pengelolaan Perikanan) zone characteristics
+- Current challenges (overfishing, IUU fishing, bycatch)
+- Technological gaps in Indonesian fishing fleet
+- Policy framework (PERMENKP regulations)
+
+LITERATURE REVIEW TOPICS:
+- Historical development of fishing technology in Indonesia
+- Stock status of target species in Indonesian waters
+- Comparative fishing gear efficiency studies
+- Environmental impact of fishing operations
+- Socioeconomic aspects of fishing communities
+- International best practices and their applicability to Indonesia
+- Recent advances in fishing technology (2020-2025)
+
+METHODOLOGY DETAILS:
+- Experimental fishing trials (comparative fishing, parallel haul, alternate haul)
+- Sampling design (spatial, temporal stratification)
+- Gear specifications (mesh size, hook size, material, dimensions)
+- Data collection protocols (catch composition, length-frequency, CPUE)
+- Statistical analysis (GLM, GAM, ANOVA, multivariate analysis)
+- GIS and remote sensing data processing
+- Hydroacoustic survey protocols (transect design, calibration)
+
+EQUATIONS:
+- CPUE = C/f (catch per unit effort)
+- L(t) = L∞[1 - e^(-K(t-t₀))] (Von Bertalanffy)
+- MSY = rK/4 (Schaefer model)
+- S(L) = 1/[1 + e^(-b(L-L₅₀))] (selectivity curve)
+- F_D = 0.5 × C_D × ρ × A × V² (drag force)
+- Z = M + F (total mortality)
+- M = e^(0.6543 - 0.279ln(L∞) + 0.6543ln(K) + 0.4634ln(T)) (Pauly's M)
+- B = CPUE × q⁻¹ (biomass estimation)
+- Y/R = F × e^(-M(tc-tr)) × Σ[Uₙ × e^(-nK(tc-t₀))/(F+M+nK)] (Beverton-Holt)
+- W = aL^b (length-weight relationship)
+
+FIGURES:
+- Map of study area with fishing ground locations
+- Fishing gear technical drawings with dimensions
+- Catch composition pie charts
+- Length-frequency histograms
+- CPUE temporal trends
+- Selectivity curves
+- Oceanographic parameter maps (SST, chlorophyll-a)
+- VMS/AIS vessel track plots
+- Stock-recruitment relationships
+- Yield-per-recruit curves
+
+TABLES:
+- Catch composition by species (weight, number, percentage)
+- CPUE by season/location/gear type
+- Length-frequency distribution data
+- Fishing gear specifications comparison
+- Cost-benefit analysis of fishing operations
+- Environmental parameters at fishing grounds
+- Statistical test results (ANOVA, regression)
+- Stock assessment parameter estimates
+
+RESULTS & DISCUSSION:
+- Catch composition analysis with dominant species identification
+- CPUE comparison across treatments/seasons/locations
+- Gear selectivity analysis with L₅₀ and selection range
+- Environmental correlations with catch rates
+- Economic viability assessment
+- Comparison with previous studies in similar waters
+- Management implications and recommendations
+- Limitations and future research directions
+
+CONCLUSION:
+- Summary of key quantitative findings
+- Practical recommendations for fishers and managers
+- Policy implications for Indonesian fisheries governance
+- Contribution to sustainable fisheries development
+
+REFERENCE VENUES:
+- Fisheries Research
+- ICES Journal of Marine Science
+- Marine Policy
+- Fish and Fisheries
+- Canadian Journal of Fisheries and Aquatic Sciences
+- Reviews in Fish Biology and Fisheries
+- Ocean & Coastal Management
+- Jurnal Penelitian Perikanan Indonesia
+- Marine Fisheries (IPB)
+- BAWAL (KKP)
+- Fisheries Science
+- Aquatic Living Resources
+
+DOMAIN VOCABULARY:
+- Alat tangkap (fishing gear), pukat (trawl/seine), jaring (net), pancing (hook and line)
+- Hasil tangkapan (catch), hasil tangkapan sampingan (bycatch)
+- Daerah penangkapan ikan (fishing ground), rumpon (FAD)
+- Kapal penangkap ikan (fishing vessel), GT (Gross Tonnage)
+- Musim penangkapan (fishing season), trip penangkapan (fishing trip)
+- Selektivitas (selectivity), mesh size, hook size
+- Stok ikan (fish stock), biomassa (biomass), rekrutmen (recruitment)
+- WPP (Wilayah Pengelolaan Perikanan), ZEEI (Zona Ekonomi Eksklusif Indonesia)
+- Nelayan (fisher), juragan (boat owner), ABK (crew)
+- Overfishing, IUU fishing, Maximum Sustainable Yield
+
+METHODOLOGY KEYWORDS:
+- Experimental fishing, comparative fishing, swept area
+- Hydroacoustic survey, echo integration, target strength
+- VMS analysis, AIS data mining, spatial analysis
+- CFD simulation, FEA modeling, gear optimization
+- Length-based stock assessment, cohort analysis
+- Surplus production model, age-structured model
+- GLM, GAM, PERMANOVA, nMDS, PCA
+- Remote sensing, GIS, spatial interpolation
+- eDNA, metabarcoding, species identification
+- Electronic monitoring, camera-based observation
+
+--- RESEARCH TOPIC BANK (500 TOPICS) ---
+
+=== CATEGORY 1: Fishing Gear Technology & Innovation (001-050) ===
+001. Hydrodynamic optimization of bottom trawl doors using CFD simulation in Arafura Sea fishing grounds
+002. Development of biodegradable gillnet materials for sustainable fishing in Karimunjawa waters
+003. LED light attraction system optimization for purse seine operations targeting skipjack tuna in WPP 713
+004. Smart hook-and-line system with automated jigging for deep-sea snapper in Makassar Strait
+005. Comparative efficiency of circle hooks vs J-hooks for yellowfin tuna longline in Indian Ocean WPP 573
+006. Design and testing of collapsible fish traps for reef fish in Spermonde Archipelago
+007. Acoustic deterrent devices integration in gillnets to reduce dolphin bycatch in Bali Strait
+008. Optimization of FAD (rumpon) design using oceanographic modeling in Flores Sea
+009. Development of electric pulse trawl alternative for shrimp fisheries in Cilacap waters
+010. Performance evaluation of Danish seine with modified ground gear in Java Sea soft-bottom habitats
+011. IoT-enabled smart fishing net with real-time catch monitoring for small pelagic fisheries
+012. Kite-assisted fishing gear for fuel-efficient surface longlining in eastern Indonesian waters
+013. Modified turtle excluder device (TED) design for Indonesian shrimp trawl fisheries
+014. Fiber-reinforced polymer fishing traps as alternative to wire mesh in coral reef areas
+015. Automated squid jigging machine optimization for Cephalopod fisheries in Maluku waters
+016. Solar-powered LED underwater lamp system for bagan (lift net) fisheries in Muncar
+017. Development of escape panels in mini trawl for juvenile fish conservation in North Java Sea
+018. Drone-deployed surface longline system for tuna fishing in remote WPP 717 waters
+019. Electrified hook system for shark deterrence in tuna longline operations
+020. Modular trap design for blue swimming crab fisheries in Betahwalang, Demak
+021. Artificial bait development from fishery waste for handline tuna fishing
+022. Gill net mesh size optimization for Indian mackerel in Sunda Strait using selectivity modeling
+023. Underwater camera-integrated fish trap for species-selective harvesting in Raja Ampat
+024. Hydraulic hauler system design for small-scale purse seine vessels (<30 GT) in Indonesia
+025. Light-emitting diode (LED) wavelength optimization for squid attraction in Karimata Strait
+026. Development of semi-pelagic trawl for demersal-pelagic transition zone fishing in Natuna Sea
+027. Biodegradable escape cord mechanism for ghost fishing prevention in lobster traps
+028. Comparative study of natural vs synthetic fiber drift gillnets for tuna in WPP 572
+029. Automated longline baiting system for small-scale tuna vessels in Bitung
+030. Modified Danish seine with reduced bottom contact for habitat-friendly fishing in Sape Strait
+031. Piezoelectric energy harvesting from fishing gear motion for powering onboard sensors
+032. 3D-printed fishing lure optimization for trolling yellowfin tuna in Banda Sea
+033. Smart buoy system with GPS tracking for drift gillnet monitoring in Indonesian waters
+034. Development of low-opening bottom trawl for flatfish targeting in Arafura Sea
+035. Bioluminescent lure technology for deep-sea fish attraction in Makassar Strait
+036. Foldable fish aggregating device for nomadic fishing operations in Sulawesi Sea
+037. Carbon fiber reinforced fishing rod design for handline tuna fisheries
+038. Automated pot hauling system for deep-water crab fisheries in Kai Islands
+039. Multi-frequency acoustic fish herding system for purse seine operations
+040. Development of jellyfish excluder device for coastal gillnet fisheries in North Java
+041. Hybrid solar-diesel powered fishing light system for bagan operations
+042. Optimized hook timer release mechanism for deep-set longline in WPP 718
+043. Weedless hook design for bottom fishing in seagrass-adjacent areas of Wakatobi
+044. Pressure-sensitive release mechanism for deep-water fish trap bycatch reduction
+045. Drone-based fish school detection system for artisanal purse seine fisheries
+046. Modified trammel net design for selective shrimp capture in Segara Anakan lagoon
+047. Electromagnetic field generator for shark bycatch reduction in pelagic longline
+048. Retractable cod-end mesh system for real-time selectivity adjustment in trawl fisheries
+049. Bamboo-composite fish trap development for eco-friendly reef fisheries in Togean Islands
+050. AI-powered automatic hook size selector based on target species prediction
+
+=== CATEGORY 2: Fish Stock Assessment & Population Dynamics (051-100) ===
+051. Length-based Bayesian biomass estimation of skipjack tuna in WPP 713 using LBSPR method
+052. Multi-species stock assessment of demersal fish community in Arafura Sea using surplus production model
+053. Population dynamics of blue swimming crab (Portunus pelagicus) in Java Sea using per-recruit analysis
+054. eDNA metabarcoding for biodiversity assessment of reef fish assemblages in Banda Sea
+055. Acoustic biomass estimation of small pelagic fish in Bali Strait using split-beam echosounder
+056. Age and growth of yellowfin tuna (Thunnus albacares) in eastern Indian Ocean using otolith microchemistry
+057. Stock-recruitment relationship of Indian mackerel (Rastrelliger kanagurta) in Java Sea
+058. Spatial distribution modeling of demersal fish stocks in Natuna Sea using hydroacoustic data
+059. Population genetics of giant trevally (Caranx ignobilis) across Indonesian archipelago using microsatellites
+060. Bayesian state-space stock assessment model for Indonesian tuna fisheries in WPP 573
+061. Length-frequency analysis of threadfin bream (Nemipterus spp.) in Makassar Strait
+062. Spawning potential ratio estimation for grouper species in Karimunjawa Marine National Park
+063. Multi-model ensemble approach for skipjack tuna stock projection in Western Pacific
+064. Larval dispersal connectivity modeling for snapper populations across Indonesian seas
+065. Catch curve analysis and mortality estimation of anchovy in Bali Strait purse seine fishery
+066. Deep-water shrimp stock assessment in Kai-Aru waters using swept area method
+067. Population structure of narrow-barred Spanish mackerel using whole-genome sequencing in Flores Sea
+068. Surplus production model with environmental covariates for sardine in Bali Strait
+069. Reproductive biology and spawning seasonality of flying fish in Makassar Strait
+070. Close-kin mark-recapture for southern bluefin tuna abundance estimation in Indian Ocean
+071. Ecosystem-based multi-species virtual population analysis in Java Sea demersal fishery
+072. Growth parameter estimation of mud crab (Scylla serrata) in mangrove areas of Mahakam Delta
+073. Stock delineation of bigeye tuna using otolith shape analysis in Indonesian waters
+074. Data-limited stock assessment of ornamental reef fish in Bali using length-only methods
+075. Spatial-temporal CPUE standardization for tuna longline in WPP 572 using delta-GLM
+076. Population viability analysis of Napoleon wrasse in Raja Ampat under harvest scenarios
+077. Acoustic target strength measurement of tropical demersal fish species in Indonesian waters
+078. Integrated stock assessment of lobster (Panulirus spp.) in southern Java using multiple data sources
+079. Genetic effective population size estimation for coral trout in Coral Triangle
+080. Mark-recapture study of whale shark aggregation in Cenderawasih Bay
+081. Multivariate analysis of demersal fish community structure changes in North Java Sea (2000-2025)
+082. Egg production method for anchovy biomass estimation in eastern Sunda Strait
+083. Climate-driven recruitment variability of Indian mackerel in Java Sea using ENSO indices
+084. Deep learning-based fish species identification from underwater video for stock monitoring
+085. Trophic modeling (Ecopath with Ecosim) of Arafura Sea ecosystem under fishing pressure
+086. Otolith chemistry-based stock discrimination of red snapper in eastern Indonesian waters
+087. Spawning aggregation mapping of grouper species using fishers' knowledge in Anambas Islands
+088. Size-structured population model for blue swimming crab with sex-specific parameters
+089. Hydroacoustic survey design optimization for small pelagic fish in Makassar Strait
+090. Genetic diversity assessment of sea cucumber populations in Seribu Islands post-moratorium
+091. Bayesian surplus production model in continuous time (SPiCT) for tuna in WPP 714
+092. Larval fish assemblage as indicator of spawning habitat in Karimata Strait
+093. Movement patterns of tagged yellowfin tuna in Banda Sea using pop-up satellite tags
+094. Stock assessment of flying squid (Sthenoteuthis oualaniensis) in eastern Indian Ocean
+095. Environmental DNA for detecting endangered sawfish presence in Kalimantan river systems
+096. Density-dependent growth modeling of milkfish in Bali Strait using length-at-age data
+097. Fishery-independent survey design for monitoring reef fish biomass in Wakatobi
+098. Population connectivity of spiny lobster between Indonesian and Australian waters
+099. Real-time biomass estimation using fishing vessel echosounder data in Java Sea
+100. Climate envelope modeling for predicting fish distribution shifts in Indonesian waters
+
+=== CATEGORY 3: Fishing Vessel Design & Engineering (101-150) ===
+101. Hull form optimization of 30 GT purse seine vessel for fuel efficiency in Indonesian waters using CFD
+102. Stability analysis of traditional outrigger fishing boats (jukung) under wave loading in Bali Strait
+103. Hybrid diesel-electric propulsion system design for 50 GT longline vessel in Bitung
+104. Structural analysis of fiberglass fishing vessel hull using finite element method for WPP 718 conditions
+105. Solar panel integration on fishing vessel superstructure for auxiliary power in small-scale fisheries
+106. Seakeeping performance evaluation of catamaran fishing vessel for eastern Indonesian waters
+107. Retrofitting traditional wooden fishing boats with modern fish hold refrigeration systems
+108. Computational fluid dynamics analysis of bulbous bow design for 100 GT tuna longliner
+109. Vibration analysis and reduction strategies for fishing vessel engine rooms
+110. Design of multipurpose fishing vessel for seasonal gear switching in Flores Sea
+111. Lightweight composite material application for fishing vessel construction in Indonesian shipyards
+112. Ballast system optimization for purse seine vessels during net hauling operations
+113. Wind-assisted propulsion (rigid sail) feasibility for Indonesian fishing vessels
+114. Ergonomic deck layout design for handline tuna fishing vessels in Larantuka
+115. Anti-fouling coating performance comparison for fishing vessel hulls in tropical waters
+116. Noise and vibration reduction in fishing vessel engine rooms for crew comfort
+117. Autonomous navigation system development for small fishing vessels in congested Indonesian ports
+118. Fish hold insulation optimization using polyurethane foam for tropical fishing operations
+119. Resistance and powering prediction for traditional pinisi-hull fishing vessels
+120. Roll damping system design for fishing vessels operating in rough Banda Sea conditions
+121. LNG-fueled fishing vessel feasibility study for Indonesian deep-sea tuna fleet
+122. Structural fatigue analysis of fishing vessel hull in wave-induced loading conditions
+123. Design of portable fish finder mounting system for artisanal fishing canoes
+124. Propeller design optimization for shallow-draft fishing vessels in coastal Indonesian waters
+125. Emergency life-saving equipment layout optimization for Indonesian fishing vessels
+126. Corrosion protection system comparison for steel fishing vessels in tropical marine environment
+127. Deck machinery arrangement optimization for multi-gear fishing vessels
+128. Waste heat recovery system from main engine for fish processing onboard
+129. Trim optimization system for fuel-efficient fishing vessel operation
+130. Fire safety system design for wooden fishing vessels in Indonesian fleet
+131. Hydroelastic analysis of fishing vessel hull-wave interaction in monsoon conditions
+132. Design of modular fish storage system for multi-day fishing trips in remote waters
+133. Electric outboard motor feasibility for small-scale coastal fishing boats
+134. Fishing vessel stability criteria development specific to Indonesian vessel types
+135. Bow thruster installation design for improved maneuverability during purse seine setting
+136. Underwater hull cleaning robot design for fishing vessel maintenance
+137. Green ship concept application for new-build Indonesian fishing vessels
+138. Dynamic positioning system adaptation for fishing vessels during stationary operations
+139. Aluminum alloy fishing vessel design for high-speed transit to distant fishing grounds
+140. Bilge water treatment system design meeting MARPOL standards for fishing vessels
+141. Fishing vessel monitoring system integration (VMS, AIS, CCTV) architecture design
+142. Rudder design optimization for improved course-keeping in following seas
+143. Crew accommodation improvement design for long-voyage tuna fishing vessels
+144. Fishing vessel power management system with load balancing for multiple consumers
+145. Ice-making plant integration design for onboard ice production in tropical conditions
+146. Fishing vessel dry-docking interval optimization based on hull fouling rate in Indonesian waters
+147. Cathodic protection system design for fishing vessel hull and propeller
+148. Fishing vessel communication system upgrade design for remote ocean operations
+149. Anchor handling system design for fishing vessels operating as temporary FAD platforms
+150. Exhaust gas emission reduction system for fishing vessel diesel engines
+
+=== CATEGORY 4: Fisheries Management & Policy (151-200) ===
+151. Effectiveness of harvest control rules for skipjack tuna management in WPP 713
+152. Co-management model evaluation for small-scale fisheries in Pantar Strait, NTT
+153. Economic impact assessment of fishing moratorium policy in Natuna Sea
+154. Rights-based fisheries management implementation challenges in Indonesian tuna fisheries
+155. Marine Protected Area effectiveness for fish stock recovery in Karimunjawa
+156. Illegal, Unreported, and Unregulated (IUU) fishing detection using satellite AIS data in Indonesian EEZ
+157. Fisher compliance behavior analysis with fishing regulations in North Java Sea
+158. Ecosystem approach to fisheries management (EAFM) implementation in WPP 711
+159. Fishing capacity assessment and fleet reduction strategy for Java Sea demersal fishery
+160. Traditional fisheries management (sasi) effectiveness in Maluku waters
+161. Bioeconomic modeling of blue swimming crab fishery under different management scenarios
+162. Stakeholder conflict resolution in overlapping fishing grounds between provinces
+163. Fishing license allocation optimization using multi-criteria decision analysis
+164. Impact of fuel subsidy policy on fishing effort and stock sustainability
+165. Community-based surveillance system for combating IUU fishing in border waters
+166. Traceability system implementation for Indonesian tuna supply chain compliance
+167. Gender mainstreaming in fisheries policy: women's roles in Indonesian fishing communities
+168. Adaptive management framework for data-poor fisheries in eastern Indonesia
+169. Economic valuation of ecosystem services from sustainable fisheries management
+170. Fishing gear conflict resolution mechanism between purse seine and handline fishers
+171. Performance evaluation of fisheries management areas (WPP) governance structure
+172. Subsidized fishing input program impact on fishing effort in overcapitalized fisheries
+173. Marine spatial planning integration with fisheries management in Coral Triangle
+174. Fisher welfare index development for measuring policy impact on fishing communities
+175. Catch documentation scheme effectiveness for preventing IUU fish trade
+176. Seasonal closure policy optimization for spawning protection of reef fish
+177. Small-scale fisheries registration system development using mobile technology
+178. Transboundary fisheries management cooperation between Indonesia and neighboring countries
+179. Fishing port development impact on local fisheries economy and fish distribution
+180. Climate change adaptation policy framework for Indonesian capture fisheries
+181. Electronic catch reporting system adoption barriers among small-scale fishers
+182. Maximum Economic Yield vs Maximum Sustainable Yield management targets comparison
+183. Fisher cooperative (KUB) effectiveness in improving bargaining power and income
+184. Buyback program design for reducing excess fishing capacity in Java Sea
+185. Observer program implementation challenges on Indonesian commercial fishing vessels
+186. Indigenous fishing rights recognition in modern fisheries governance framework
+187. Fishing tourism (pancing wisata) regulation development for sustainable dual-use
+188. Post-harvest loss reduction policy for small-scale fisheries value chain
+189. Fisheries data collection system improvement using electronic logbook technology
+190. Impact of port state measures on IUU fishing deterrence in Indonesian ports
+191. Precautionary approach application in data-limited Indonesian fisheries management
+192. Fisher social protection program (asuransi nelayan) coverage and effectiveness
+193. Fishing ground zoning conflict between traditional and commercial fishing operations
+194. Reference point estimation for Indonesian fisheries management decision-making
+195. Decentralization impact on fisheries governance at provincial and district levels
+196. Market-based instruments for fisheries management (ITQ feasibility) in Indonesia
+197. Fishing vessel registration and licensing system digitalization impact assessment
+198. Bycatch management policy development for Indonesian trawl and longline fisheries
+199. Fisher migration patterns and their implications for local fisheries management
+200. Blue economy policy integration with capture fisheries development strategy
+
+=== CATEGORY 5: Remote Sensing & GIS for Fisheries (201-250) ===
+201. Machine learning-based fishing ground prediction using multi-sensor satellite data in WPP 713
+202. Chlorophyll-a front detection for pelagic fish aggregation mapping in Makassar Strait
+203. Thermal front identification using MODIS SST for skipjack tuna habitat in Banda Sea
+204. GIS-based fishing ground suitability mapping for demersal fish in Arafura Sea
+205. SAR satellite imagery for illegal fishing vessel detection in Indonesian EEZ
+206. Ocean color remote sensing for harmful algal bloom early warning in fishing areas
+207. Satellite altimetry-derived mesoscale eddy tracking for tuna fishing ground prediction
+208. UAV-based aerial survey for fish school detection in shallow coastal waters of Lombok
+209. Time-series analysis of fishing effort distribution using nighttime light satellite data
+210. Habitat suitability index modeling for yellowfin tuna using ensemble satellite products
+211. VMS data analysis for fishing pattern identification and effort estimation in Java Sea
+212. Google Earth Engine-based long-term fishing ground change detection in Indonesian waters
+213. Synthetic Aperture Radar for sea surface roughness mapping related to fish aggregation
+214. Multi-temporal satellite analysis of upwelling dynamics and sardine distribution in Bali Strait
+215. Deep learning classification of fishing activities from AIS trajectory data
+216. Coral reef habitat mapping using Sentinel-2 for reef fish stock assessment support
+217. Ocean current modeling integration with satellite data for larval dispersal prediction
+218. Satellite-based sea surface salinity mapping for fish distribution in river plume areas
+219. GIS-based marine spatial conflict analysis between fishing and shipping lanes
+220. VIIRS nighttime boat detection for monitoring fishing fleet distribution in Indonesian waters
+221. Mangrove extent change detection and its correlation with coastal fish production
+222. Satellite-derived primary productivity estimation for carrying capacity assessment
+223. Fishing vessel trajectory clustering using machine learning on VMS data
+224. Bathymetric mapping using satellite-derived bathymetry for fishing ground characterization
+225. Real-time ocean forecast integration with fishing ground advisory system
+226. Landsat time-series analysis of coastal habitat change impact on nearshore fisheries
+227. Satellite-based wind field analysis for fishing vessel safety advisory system
+228. GIS-based cumulative impact assessment of fishing pressure on marine ecosystems
+229. Hyperspectral remote sensing for water quality monitoring in fishing port areas
+230. Machine learning fusion of satellite oceanographic variables for CPUE prediction
+231. Spatial autocorrelation analysis of fish catch distribution using GIS in North Java Sea
+232. Sentinel-1 SAR for oil spill detection near fishing grounds in Makassar Strait
+233. WebGIS development for real-time fishing ground information dissemination to fishers
+234. Satellite tracking of drifting FADs and their influence on tuna aggregation patterns
+235. GIS-based vulnerability mapping of fishing communities to climate change impacts
+236. Remote sensing of sea surface temperature variability during ENSO and IOD events
+237. Spatial analysis of fishing port catchment areas and market accessibility
+238. UAV-based fish biomass estimation in shallow reef environments using photogrammetry
+239. Satellite-based monitoring of marine protected area compliance by fishing vessels
+240. GIS modeling of optimal fishing port locations based on fishing ground proximity
+241. Cloud computing platform for processing large-scale fisheries satellite data
+242. Radar altimeter-derived sea level anomaly for predicting fish migration routes
+243. Spatial-temporal hotspot analysis of fishing accidents using GIS
+244. Remote sensing of turbidity plumes and their effect on coastal fish distribution
+245. Integration of indigenous knowledge with GIS for traditional fishing ground mapping
+246. Satellite-based estimation of mixed layer depth for tuna vertical distribution prediction
+247. GIS-based network analysis of fish supply chain from landing sites to markets
+248. Multi-source data fusion for comprehensive fishing ground characterization
+249. Satellite monitoring of seasonal upwelling intensity and its fisheries implications
+250. Development of mobile GIS application for participatory fishing ground mapping
+
+=== CATEGORY 6: Bycatch Reduction & Selective Fishing (251-300) ===
+251. Turtle excluder device (TED) performance evaluation in Arafura Sea shrimp trawl fishery
+252. Circle hook effectiveness for reducing sea turtle bycatch in Indonesian tuna longline
+253. Bycatch reduction device (BRD) design for juvenile fish exclusion in mini trawl fisheries
+254. Acoustic pingers for marine mammal bycatch mitigation in drift gillnet fisheries
+255. Selectivity of different mesh sizes in trammel nets for blue swimming crab in Cirebon
+256. LED light deterrent system for seabird bycatch reduction in longline fisheries
+257. Species-specific escape panel design for non-target fish in trap fisheries
+258. Hook size and type optimization for target species selectivity in handline fisheries
+259. Shark bycatch reduction using electropositive metals in pelagic longline
+260. Time-area closure optimization for bycatch-prone species protection in Java Sea
+261. Modified trawl codend design for improved size selectivity of shrimp in Cilacap
+262. Bycatch composition analysis and reduction strategies in purse seine FAD fisheries
+263. Weak hook technology for releasing large marine animals from tuna longline
+264. Gillnet visibility enhancement using barium sulfate for elasmobranch bycatch reduction
+265. Juvenile fish escapement through square mesh panels in bottom trawl codend
+266. Deep-set longline technique for reducing shark and turtle interactions
+267. Bycatch monitoring using electronic monitoring systems on Indonesian fishing vessels
+268. Sorting grid design for species separation in multi-species trawl fisheries
+269. Temporal fishing pattern adjustment for bycatch avoidance based on species behavior
+270. Biodegradable panel in ghost fishing gear for automatic bycatch release
+271. Hook depth optimization in tuna longline for target species selectivity
+272. Bycatch valuation and utilization strategies for Indonesian trawl fisheries
+273. Real-time bycatch reporting system using onboard cameras and AI classification
+274. Modified purse seine design with dolphin escape panel for tuna-dolphin association fishing
+275. Selectivity of different hook materials (stainless vs carbon steel) for demersal longline
+276. Bycatch reduction in squid jig fisheries through light intensity management
+277. Excluder device for jellyfish bycatch reduction in coastal gillnet fisheries
+278. Size-selective harvesting of spiny lobster using escape gap optimization in traps
+279. Seabird scaring line (tori line) design optimization for Indonesian longline vessels
+280. Bycatch of endangered species assessment in Indonesian small-scale fisheries
+281. Magnetic deterrent effectiveness for shark bycatch reduction in bottom longline
+282. Net illumination using LED lights for bycatch reduction in coastal gillnets
+283. Catch comparison method for evaluating bycatch reduction device performance
+284. Seasonal bycatch patterns and mitigation strategies in Bali Strait purse seine
+285. T90 mesh orientation in trawl codend for improved selectivity of round fish
+286. Bycatch reduction through real-time spatial management using VMS data
+287. Hook shape optimization using 3D printing for species-selective fishing
+288. Cetacean bycatch risk assessment in Indonesian gillnet fisheries using spatial modeling
+289. Economic analysis of bycatch reduction device adoption by Indonesian fishers
+290. Underwater LED color spectrum optimization for species-selective attraction
+291. Bycatch fate assessment (survival rates) for discarded species in trawl fisheries
+292. Community-based bycatch monitoring program development for small-scale fisheries
+293. Artificial intelligence for real-time bycatch species identification on fishing vessels
+294. Modified fish trap entrance design for size-selective capture of target species
+295. Bycatch reduction in anchovy purse seine through operational timing optimization
+296. Shark fin trade regulation impact on shark bycatch handling practices
+297. Escape ring size optimization for octopus pot fisheries in eastern Indonesia
+298. Multi-criteria analysis for prioritizing bycatch reduction measures in Indonesian fisheries
+299. Bycatch interaction mapping between fishing gear types in shared fishing grounds
+300. Incentive-based bycatch reduction program design for Indonesian commercial fisheries
+
+=== CATEGORY 7: Small-Scale & Artisanal Fisheries (301-350) ===
+301. Livelihood diversification strategies for small-scale fishers during monsoon season in Pandeglang
+302. Traditional ecological knowledge integration in fisheries management of Bajo communities
+303. Mobile phone-based fish marketing platform impact on fisher income in remote islands
+304. Microfinance accessibility and its effect on fishing technology adoption in coastal villages
+305. Women's role in post-harvest fish processing and marketing in Javanese fishing communities
+306. Climate change vulnerability assessment of artisanal fishing communities in NTT
+307. Solar-powered ice production for small-scale fisheries cold chain in Maluku
+308. Fishing cooperative (KUB) governance model comparison across Indonesian provinces
+309. Traditional fishing calendar (pranata mangsa) accuracy under changing climate conditions
+310. Small-scale fisher migration patterns and territorial conflicts in Sulawesi waters
+311. Financial literacy program impact on fishing household economic resilience
+312. Artisanal fish trap innovation using local materials in Togean Islands
+313. Social network analysis of fish trading relationships in small-scale fisheries
+314. Payment for ecosystem services scheme for small-scale fishers in MPA buffer zones
+315. Youth engagement strategies in small-scale fisheries for generational sustainability
+316. Fuel efficiency improvement technologies for small-scale fishing boats (<10 GT)
+317. Traditional sasi system revitalization for community-based fisheries management in Maluku
+318. Small-scale fisher access to weather information and its impact on safety at sea
+319. Post-harvest loss assessment in artisanal fisheries supply chain in eastern Indonesia
+320. Participatory stock assessment methods for data-poor small-scale fisheries
+321. Fishing household food security analysis during closed fishing seasons
+322. Small-scale fisheries contribution to national fish production: underreporting assessment
+323. Traditional boat-building knowledge preservation and modernization in Sulawesi
+324. Impact of coastal tourism development on artisanal fishing access rights
+325. Small-scale fisher health and occupational safety assessment in Indonesian fisheries
+326. Community fish landing center development impact on fish quality and price
+327. Gleaning fisheries (collecting shellfish) contribution to coastal household nutrition
+328. Small-scale fisher adaptation to declining fish stocks through gear diversification
+329. Mobile fish auction system development for remote fishing communities
+330. Traditional fishing ground tenure system (hak ulayat laut) legal recognition
+331. Small-scale fisheries value chain analysis for high-value species (lobster, grouper)
+332. Fisher insurance (asuransi nelayan) uptake barriers and program improvement
+333. Artisanal fisheries interaction with industrial fishing in shared waters
+334. Small-scale fisher debt bondage (ijon) system and alternative financing models
+335. Community-based fish stock enhancement through habitat restoration in coastal areas
+336. Small-scale fisheries data collection improvement using smartphone applications
+337. Traditional fish preservation methods (pengasapan, penggaraman) quality improvement
+338. Fishing community resilience assessment after natural disasters (tsunami, earthquake)
+339. Small-scale fisher participation in marine spatial planning processes
+340. Alternative livelihood development (seaweed farming, fish culture) for fishing households
+341. Small-scale fisheries governance under village law (UU Desa) framework
+342. Fisher knowledge documentation for fish behavior and seasonal patterns
+343. Impact of port infrastructure development on small-scale fisher displacement
+344. Community-based monitoring, control, and surveillance (MCS) for local waters
+345. Small-scale fisher access to formal banking and financial services
+346. Traditional navigation knowledge of Indonesian fishers in the digital age
+347. Fishing community social capital and its role in collective action for management
+348. Small-scale fisheries contribution to Sustainable Development Goals in Indonesia
+349. Impact of COVID-19 pandemic on small-scale fishing livelihoods and recovery strategies
+350. Intergenerational knowledge transfer in artisanal fishing communities of eastern Indonesia
+
+=== CATEGORY 8: Deep-Sea & Pelagic Fisheries (351-400) ===
+351. Vertical distribution of bigeye tuna in relation to dissolved oxygen minimum layer in Indian Ocean
+352. Deep-sea red snapper (Etelis spp.) population assessment in Savu Sea using drop camera
+353. Mesopelagic fish biomass estimation using multifrequency acoustics in Banda Sea
+354. Deep-water shrimp (Aristaeomorpha foliacea) fishery potential in southern Java slope
+355. Pelagic longline catch composition analysis at different depth strata in WPP 573
+356. Deep-sea crab (Chaceon spp.) resource survey in Makassar Strait continental slope
+357. Tuna vertical movement patterns in relation to thermocline depth in Flores Sea
+358. Deep-water snapper fishery development potential in unexploited seamounts of WPP 718
+359. Pelagic ecosystem structure analysis using trophic markers in eastern Indian Ocean
+360. Deep-sea coral distribution mapping and fisheries interaction in Sulawesi Sea
+361. Swordfish (Xiphias gladius) habitat preference modeling in Indonesian Indian Ocean
+362. Deep-water fish community structure on continental slope of Arafura Sea
+363. Pelagic shark diversity and abundance assessment using pelagic longline data
+364. Seamount-associated fish aggregation patterns in Nusa Tenggara waters
+365. Deep-sea squid (Ommastrephidae) resource potential in eastern Indonesian waters
+366. Albacore tuna migration patterns through Indonesian waters using archival tags
+367. Deep-water grouper (Epinephelus spp.) stock assessment in Timor Sea slope
+368. Pelagic fish larvae distribution in relation to oceanographic features in Makassar Strait
+369. Deep-sea fish bioluminescence patterns and their ecological significance in Banda Sea
+370. Skipjack tuna school behavior analysis using purse seine sonar data in WPP 714
+371. Deep-water lobster (Metanephrops spp.) fishery exploration in southern Java trench
+372. Pelagic food web structure using stable isotope analysis in Coral Triangle waters
+373. Deep-sea fish otolith chemistry for age validation in tropical waters
+374. Tuna-dolphin association dynamics in eastern Indonesian purse seine fisheries
+375. Mesopelagic resource potential assessment for fishmeal alternative in Indonesian waters
+376. Deep-water hagfish resource survey and fishery potential in Sulawesi Sea
+377. Pelagic billfish (marlin, sailfish) population trends in Indonesian longline fisheries
+378. Deep-sea hydrothermal vent fish communities in Sangihe volcanic arc
+379. Large pelagic fish movement corridors identification using electronic tagging in Indonesian seas
+380. Deep-water octopus diversity and distribution on Indonesian continental margins
+381. Pelagic shark nursery area identification in Indonesian waters using satellite tracking
+382. Deep-sea fish biodiversity assessment using baited remote underwater video (BRUV)
+383. Tuna spawning habitat characterization in Banda Sea using larval surveys
+384. Deep-water precious coral survey and sustainable harvest potential in Makassar Strait
+385. Pelagic ecosystem response to Indian Ocean Dipole events in Indonesian waters
+386. Deep-sea fish parasite diversity as indicator of trophic ecology in Banda Sea
+387. Yellowfin tuna post-release survival in Indonesian purse seine fishery
+388. Deep-water sponge grounds mapping and fisheries impact assessment in Arafura Sea
+389. Pelagic fish aggregation at ocean fronts detected by satellite in Flores Sea
+390. Deep-sea scavenger community assessment using baited traps in Java Trench
+391. Tuna catch forecasting using ocean-atmosphere coupled model predictions
+392. Deep-water fish stock connectivity between Indonesian and Philippine waters
+393. Pelagic longline gear configuration optimization for target depth in Indian Ocean
+394. Deep-sea fish reproductive biology and spawning seasonality in tropical waters
+395. Whale shark interaction with purse seine fisheries in Cenderawasih Bay
+396. Deep-water fish community response to bottom longline fishing pressure
+397. Pelagic ecosystem carrying capacity estimation for tuna in WPP 572-573
+398. Deep-sea fish species discovery potential in unexplored Indonesian trenches
+399. Large pelagic fish market chain analysis from landing to export in Benoa port
+400. Deep-water fishery resource mapping using research vessel multibeam data
+
+=== CATEGORY 9: Post-Harvest Handling at Sea (401-450) ===
+401. Onboard slurry ice system optimization for maintaining tuna sashimi quality grade
+402. Modified atmosphere storage design for fish hold in small-scale fishing vessels
+403. Solar-powered refrigeration system performance for fish preservation on artisanal boats
+404. Rapid quality assessment of fish freshness using portable NIR spectroscopy at sea
+405. Iki-jime technique effectiveness for stress reduction and quality improvement in tuna
+406. Insulated fish container design optimization for tropical fishing operations
+407. Onboard fish bleeding and gutting protocol impact on shelf life extension
+408. Phase change material (PCM) application for temperature maintenance in fish holds
+409. Histamine formation prevention through rapid chilling protocols on purse seine vessels
+410. Portable ATP bioluminescence meter for real-time fish freshness monitoring at sea
+411. Fish hold sanitation protocols and their impact on microbial contamination reduction
+412. Comparison of ice types (block, flake, tube) for fish preservation efficiency at sea
+413. Onboard fish grading system development using computer vision for tuna quality
+414. Seawater refrigeration system design for live fish transport on fishing vessels
+415. Temperature abuse monitoring using IoT sensors in fish holds during fishing trips
+416. Onboard vacuum packaging system for high-value fish species preservation
+417. Fish hold design optimization for uniform temperature distribution using CFD
+418. Enzymatic quality indicators monitoring for fish freshness during extended fishing trips
+419. Portable ozone generator application for fish hold disinfection on fishing vessels
+420. Live fish holding system design for grouper transport from remote fishing grounds
+421. Onboard fish meal processing from bycatch for value addition at sea
+422. Electrolyzed water application for fish surface decontamination on fishing vessels
+423. Smart fish hold monitoring system with automated temperature and humidity control
+424. Comparison of fish preservation methods (ice, RSW, CSW) for different species
+425. Onboard tuna loin processing feasibility for small-scale longline vessels
+426. Nano-ice technology application for extended fish freshness maintenance at sea
+427. Fish hold loading pattern optimization for minimizing physical damage to catch
+428. Portable colorimeter-based freshness assessment tool for fishers
+429. Onboard smoking system design for value-added fish processing at sea
+430. Antimicrobial ice development using natural preservatives for fish preservation
+431. Real-time fish quality tracking system from catch to landing using blockchain
+432. Onboard fish oil extraction system from processing waste
+433. Thermal insulation material comparison for fish hold construction in tropical conditions
+434. Fish rigor mortis management through pre-rigor handling techniques at sea
+435. Solar ice-making machine design for fishing vessels in remote areas
+436. Onboard water quality management for live crustacean holding systems
+437. Fish hold drainage system design for preventing cross-contamination
+438. Portable fish quality grading app using smartphone camera and AI
+439. Comparison of stunning methods for humane fish killing and quality preservation
+440. Onboard fish drying system using solar energy for small pelagic species
+441. Temperature mapping of fish holds during loading and unloading operations
+442. Edible coating application for fish preservation during transport at sea
+443. Onboard wastewater treatment system for fish processing effluent
+444. Fish hold atmosphere monitoring (CO2, NH3) for quality deterioration early warning
+445. Portable refractometer-based salt content monitoring for brined fish at sea
+446. Onboard fish silage production system from processing waste
+447. Insulated container design for motorcycle-based fish transport from landing sites
+448. Fish quality deterioration modeling under tropical temperature abuse conditions
+449. Onboard UV-C disinfection system for fish contact surfaces
+450. Cost-benefit analysis of onboard quality improvement investments for small-scale fishers
+
+=== CATEGORY 10: Climate Change & Fisheries Adaptation (451-500) ===
+451. Sea surface temperature trend analysis and its impact on skipjack tuna distribution in WPP 713
+452. Ocean acidification effects on commercially important shellfish in Indonesian waters
+453. Climate-driven shifts in fish species composition in Java Sea over two decades
+454. Coral bleaching impact on reef fish abundance and fisheries productivity in Spermonde
+455. ENSO-induced variability in sardine catch and recruitment in Bali Strait
+456. Sea level rise vulnerability assessment for coastal fishing communities in northern Java
+457. Climate change impact on monsoon patterns and fishing season predictability
+458. Carbon footprint assessment of Indonesian capture fisheries operations
+459. Mangrove loss impact on coastal fish nursery function under climate change scenarios
+460. Fisher perception and adaptation strategies to changing ocean conditions in NTT
+461. Climate-induced range shifts of commercially important fish species in Indonesian waters
+462. Extreme weather event frequency increase and fishing safety implications
+463. Ocean warming impact on fish growth rates and maximum body size in tropical waters
+464. Climate change vulnerability index for Indonesian fishing communities by province
+465. Dissolved oxygen decline (deoxygenation) effects on demersal fish habitat in Java Sea
+466. Seasonal forecasting application for climate-adaptive fisheries management
+467. Blue carbon potential of fishing ground conservation in Indonesian seagrass meadows
+468. Climate change impact on tuna migration timing and fishing season in eastern Indonesia
+469. Coastal erosion impact on fishing port infrastructure and adaptation strategies
+470. Marine heatwave effects on fish distribution and catch composition in Coral Triangle
+471. Climate-smart fisheries management framework development for Indonesian waters
+472. Ocean current pattern changes and their impact on larval dispersal and recruitment
+473. Fuel consumption increase due to longer fishing trips under climate change scenarios
+474. Climate change impact on harmful algal bloom frequency in Indonesian fishing areas
+475. Adaptive capacity assessment of fishing households to climate variability
+476. Sea surface temperature threshold identification for fish aggregation disruption
+477. Climate change impact on deep-water fish community structure in Indonesian slope waters
+478. Insurance mechanism development for climate-related fishing income losses
+479. Ecosystem-based adaptation strategies for climate-vulnerable fisheries
+480. Climate change impact on fish reproductive timing and spawning success
+481. Carbon sequestration potential of sustainable fishing practices in Indonesian waters
+482. Climate-driven changes in ocean productivity and fish carrying capacity
+483. Fisher livelihood diversification as climate change adaptation in island communities
+484. Ocean warming impact on fishing gear performance and selectivity
+485. Climate change scenario modeling for Indonesian fisheries production projections (2030-2050)
+486. Coral reef fisheries resilience assessment under combined climate and fishing pressure
+487. Climate-induced conflict over shifting fishing grounds between communities
+488. Green fishing technology adoption for reducing fisheries carbon emissions
+489. Climate change impact on post-harvest fish quality deterioration rates
+490. Seasonal climate forecast integration into fisheries advisory systems
+491. Marine protected area network design for climate change resilience in Coral Triangle
+492. Climate change impact on small pelagic fish phenology in Indonesian waters
+493. Renewable energy transition in fishing fleet for climate change mitigation
+494. Ocean acidification impact on calcifying organisms in Indonesian fisheries food web
+495. Climate-adaptive fishing port design for sea level rise and storm surge
+496. Socioeconomic modeling of climate change impacts on fishing community welfare
+497. Climate change impact on transboundary fish stock distribution and management
+498. Nature-based solutions for climate adaptation in coastal fishing communities
+499. Climate change impact on traditional fishing knowledge validity and adaptation
+500. Integrated climate-fisheries modeling for policy decision support in Indonesian waters

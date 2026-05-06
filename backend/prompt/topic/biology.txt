@@ -1,9 +1,62 @@
 ================================================================================
-TOPIC GUIDE — Biology (General)
+TOPIC GUIDE — Biologi (Biology)
 ================================================================================
 FIELD: Natural Sciences / Biology
 DEFAULT CITATION STYLE: APA
 SUBDISCIPLINE: Biologi Umum, Biologi Sel, Ekologi, Evolusi, Fisiologi, Biologi Molekuler Dasar
+
+COMMON REFERENCE VENUES:
+  PLoS ONE, Biology Letters (Royal Society), Journal of Experimental Biology,
+  Ecology and Evolution, BMC Biology, Molecular Biology and Evolution,
+  Biotropia (SEAMEO BIOTROP), Berita Biologi (LIPI/BRIN)
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals (PLoS ONE, BMC Biology, Ecology and Evolution)
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title (specific, with method and domain)
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Use cutting-edge methods: single-cell RNA-seq, CRISPR screening, environmental DNA (eDNA), metagenomics, spatial transcriptomics, long-read sequencing (Nanopore/PacBio), machine learning for species identification, drone-based ecological surveys, metabolomics
+   - Include complete protocols with reagent details
+   - Specify instruments and software versions
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Include: gene expression fold changes, diversity indices, survival rates, growth parameters, enzyme activities
+   - Statistical measures: mean±SD, 95% CI, p-values, effect sizes
+   - Comparison with controls/baseline
+   - All numbers biologically plausible and internally consistent
+
+5. MATHEMATICAL FORMULAS:
+   - Shannon diversity H' = -Σ(pi × ln(pi))
+   - Simpson's D = 1 - Σ(pi²)
+   - Species richness estimators (Chao1, ACE)
+   - Gene expression: 2^(-ΔΔCt)
+   - Growth rate: μ = ln(N2/N1)/(t2-t1)
+   - Michaelis-Menten: v = Vmax[S]/(Km+[S])
+   - Population growth: dN/dt = rN(1-N/K)
+   - Each formula with full variable definitions
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Include Indonesian biodiversity context (megadiversity, endemic species, tropical ecosystems)
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords, Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+================================================================================
+DOMAIN-SPECIFIC GUIDANCE
+================================================================================
 
 ABSTRACT CHARACTERISTICS:
   150–250 words. Reports: biological organism/system studied, hypothesis, experimental design,
@@ -36,14 +89,14 @@ METHODOLOGY:
   - Phylogenetics: MEGA software; multiple alignment (MUSCLE/CLUSTALW); ML/neighbor-joining tree; bootstrap 1000.
   - Statistical: ANOVA, t-test; non-parametric (Kruskal-Wallis); SPSS/R.
 
-TYPICAL RESULTS & DISCUSSION:
-  - Cell viability: MTT IC50 5–50 µM for cytotoxic agent.
-  - Gene expression: 2^-ΔΔCt = 2–5 fold up/down regulation; reference gene GAPDH/β-actin.
-  - Histopathology: cell density, pathological changes described qualitatively.
-  - Diversity indices: Shannon H' = 1.5–3.5 for moderately diverse community.
-  - Body weight: treated group -10 to -20% vs. control (toxicity indicator).
-  Tables: treatment comparison, diversity index table, PCR primer list.
-  Figures: bar chart gene expression, phylogenetic tree, histopathology micrograph.
+EQUATIONS AND FORMULAS:
+  - Shannon diversity: H' = -Σ(pi × ln(pi))
+  - Simpson's index: D = 1 - Σ(pi²)
+  - Gene expression: 2^(-ΔΔCt)
+  - Growth rate: μ = ln(N2/N1)/(t2-t1)
+  - Michaelis-Menten: v = Vmax[S]/(Km+[S])
+  - Population growth: dN/dt = rN(1-N/K)
+  - Species richness estimators: Chao1, ACE
 
 TYPICAL FIGURES:
   - Bar chart: gene expression (fold change ± SEM).
@@ -57,16 +110,20 @@ TYPICAL TABLES:
   - Diversity indices by site: site | S | N | H' | D | J'.
   - Treatment comparison: treatment | mean ± SD | ANOVA F | p | notation.
 
+RESULTS & DISCUSSION:
+  - Cell viability: MTT IC50 5–50 µM for cytotoxic agent.
+  - Gene expression: 2^-ΔΔCt = 2–5 fold up/down regulation; reference gene GAPDH/β-actin.
+  - Histopathology: cell density, pathological changes described qualitatively.
+  - Diversity indices: Shannon H' = 1.5–3.5 for moderately diverse community.
+  - Body weight: treated group -10 to -20% vs. control (toxicity indicator).
+  Tables: treatment comparison, diversity index table, PCR primer list.
+  Figures: bar chart gene expression, phylogenetic tree, histopathology micrograph.
+
 CONCLUSION CHARACTERISTICS:
   - Biological hypothesis supported/rejected with mechanistic explanation.
   - Conservation/medical/agricultural implications.
   - Limitations: model organism generalizability, sample size, controlled conditions.
   - Future: in vivo validation, mechanistic pathway elucidation, larger ecological survey.
-
-COMMON REFERENCE VENUES:
-  PLoS ONE, Biology Letters (Royal Society), Journal of Experimental Biology,
-  Ecology and Evolution, BMC Biology, Molecular Biology and Evolution,
-  Biotropia (SEAMEO BIOTROP), Berita Biologi (LIPI/BRIN)
 
 DOMAIN VOCABULARY:
   cell cycle, apoptosis, caspase, RT-qPCR, 2^-ΔΔCt, GAPDH, Western blot,
@@ -77,3 +134,547 @@ METHODOLOGY KEYWORDS:
   RT-qPCR (2^-ΔΔCt), MTT viability assay, Western blot, H&E histopathology,
   phylogenetic analysis (MEGA software), Shannon diversity index, quadrat/transect sampling,
   ANOVA + DMRT, IACUC animal ethics
+
+================================================================================
+RESEARCH TOPICS — 500 TOPICS IN 10 CATEGORIES
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 1: CELL & MOLECULAR BIOLOGY (001–050)
+────────────────────────────────────────────────────────────────────────────────
+001. Single-cell RNA-seq profiling of tumor microenvironment heterogeneity in Indonesian nasopharyngeal carcinoma patients
+002. CRISPR-Cas9 knockout screening of autophagy regulators in hepatocellular carcinoma cell lines
+003. Spatial transcriptomics mapping of wound healing progression in human skin organoids
+004. Mitochondrial dynamics and fission-fusion balance in palmitic acid-induced lipotoxicity of pancreatic beta cells
+005. Exosome-mediated intercellular communication between adipose tissue macrophages and hepatocytes in metabolic syndrome
+006. Live-cell imaging of endoplasmic reticulum stress response in neurons exposed to Indonesian herbal compound extracts
+007. Nanopore sequencing of full-length mRNA isoforms during epithelial-mesenchymal transition in breast cancer
+008. Mechanotransduction signaling through YAP/TAZ in mesenchymal stem cells on tunable hydrogel substrates
+009. CRISPR interference (CRISPRi) dissection of long non-coding RNA functions in erythropoiesis
+010. Super-resolution microscopy of nuclear pore complex remodeling during viral infection
+011. Single-cell ATAC-seq analysis of chromatin accessibility changes in aging Indonesian population blood cells
+012. Optogenetic control of calcium signaling in cardiomyocytes derived from induced pluripotent stem cells
+013. Metabolomics profiling of ferroptosis markers in drug-resistant ovarian cancer cell lines
+014. CRISPR base editing correction of beta-thalassemia mutations prevalent in Southeast Asian populations
+015. Proximity labeling (BioID) identification of protein interactomes at mitotic spindle poles
+016. Single-molecule fluorescence tracking of mRNA transport in neuronal dendrites
+017. Organoid-on-chip modeling of gut-liver axis communication in non-alcoholic fatty liver disease
+018. Phase separation dynamics of stress granule formation under heat shock in tropical organism cell lines
+019. CRISPR activation (CRISPRa) screening for senescence bypass genes in human fibroblasts
+020. Cryo-electron tomography of mitochondria-ER contact sites in calcium signaling
+021. Multi-omics integration of proteomics and phosphoproteomics in TNF-alpha signaling networks
+022. Microfluidic single-cell secretome analysis of tumor-infiltrating lymphocytes from Indonesian cancer patients
+023. CRISPR-mediated lineage tracing of neural crest cell migration in zebrafish embryos
+024. Expansion microscopy visualization of synaptic architecture in hippocampal neurons
+025. Ribosome profiling of translational regulation during dengue virus infection in human monocytes
+026. Single-cell multi-omics (CITE-seq) characterization of immune cell populations in Indonesian tuberculosis patients
+027. Nanobody-based live imaging of endosomal trafficking in polarized epithelial cells
+028. CRISPR screen for synthetic lethal interactions with KRAS mutations in pancreatic ductal adenocarcinoma
+029. Spatial metabolomics of lipid droplet accumulation in steatotic hepatocytes using MALDI-MSI
+030. Induced pluripotent stem cell modeling of cardiomyopathy mutations found in Indonesian families
+031. Single-cell trajectory analysis of macrophage polarization in wound healing models
+032. CRISPR-Cas13 knockdown of circular RNAs in glioblastoma stem cells
+033. Atomic force microscopy of cell membrane mechanics during malaria parasite invasion
+034. Proteogenomics of novel micropeptides translated from lncRNAs in human cardiac tissue
+035. Mitophagy flux measurement using mito-Keima in neurons treated with Indonesian medicinal plant compounds
+036. Single-nucleus RNA-seq of human adipose tissue depots in metabolic syndrome patients
+037. CRISPR prime editing of sickle cell disease mutations in patient-derived hematopoietic stem cells
+038. Lattice light-sheet microscopy of organelle interactions during cell division
+039. Phosphoproteomics of insulin signaling pathway in skeletal muscle cells from type 2 diabetes patients
+040. Engineered extracellular vesicles for targeted delivery of siRNA to hepatocellular carcinoma
+041. Single-cell epigenomics of DNA methylation heterogeneity in colorectal cancer progression
+042. CRISPR-based gene drive modeling in Aedes aegypti cell lines for dengue vector control
+043. Correlative light-electron microscopy of autophagosome-lysosome fusion in nutrient-deprived cells
+044. Glycoproteomics of cell surface markers in circulating tumor cells from Indonesian breast cancer patients
+045. Optogenetic manipulation of Wnt signaling gradients in intestinal organoid patterning
+046. Single-cell proteomics (SCoPE-MS) of rare circulating endothelial progenitor cells
+047. CRISPR-mediated epigenome editing of tumor suppressor promoters in cervical cancer cell lines
+048. Volumetric electron microscopy reconstruction of dendritic spine morphology in learning and memory
+049. Metabolic flux analysis using 13C-labeled glucose in cancer cells under hypoxic conditions
+050. Bioorthogonal chemistry labeling of newly synthesized proteins during neuronal activity
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 2: GENETICS & GENOMICS (051–100)
+────────────────────────────────────────────────────────────────────────────────
+051. Whole-genome sequencing of Indonesian ethnic populations for pharmacogenomics variant discovery
+052. CRISPR-Cas9 functional genomics of drought-responsive genes in Indonesian upland rice varieties
+053. Long-read sequencing (PacBio HiFi) of structural variants in Indonesian breast cancer genomes
+054. Genome-wide association study of dengue hemorrhagic fever susceptibility in Javanese population
+055. Nanopore adaptive sampling for targeted sequencing of cancer gene panels in resource-limited settings
+056. Epigenome-wide association study of DNA methylation changes in Indonesian smokers
+057. CRISPR base editing of CYP2D6 variants affecting drug metabolism in Southeast Asian populations
+058. Single-cell whole-genome sequencing of clonal evolution in acute myeloid leukemia
+059. Comparative genomics of Mycobacterium tuberculosis lineages circulating in Indonesian archipelago
+060. Telomere-to-telomere assembly of Indonesian local rice cultivar genomes using ultra-long reads
+061. RNA-seq analysis of alternative splicing patterns in heat-stressed Indonesian coffee (Coffea canephora) varieties
+062. Genome-wide CRISPR screen for host factors required by chikungunya virus replication
+063. Population genomics of Komodo dragon (Varanus komodoensis) for conservation genetic management
+064. Methylation-sensitive nanopore sequencing of imprinting disorders in Indonesian pediatric patients
+065. Pan-genome construction of Indonesian Salmonella typhi isolates using short and long-read hybrid assembly
+066. Transcriptome-wide m6A epitranscriptomics in dengue virus-infected human endothelial cells
+067. GWAS meta-analysis of type 2 diabetes risk loci specific to Austronesian populations
+068. CRISPR-Cas12a diagnostics development for rapid detection of drug-resistant tuberculosis
+069. Whole-exome sequencing of hereditary hearing loss in consanguineous Indonesian families
+070. Spatial genomics of tumor heterogeneity in Indonesian hepatocellular carcinoma using Visium platform
+071. Long non-coding RNA discovery and functional annotation in Indonesian teak (Tectona grandis) wood formation
+072. Mitochondrial genome phylogeography of Indonesian Macaca fascicularis populations across Wallace Line
+073. CRISPR interference library screening of essential genes in Plasmodium falciparum
+074. Polygenic risk score development for coronary artery disease in multi-ethnic Indonesian cohort
+075. Chromatin conformation capture (Hi-C) analysis of 3D genome organization in rice grain filling
+076. Metagenome-assembled genomes from Indonesian peatland soil microbial communities
+077. Single-cell genotype-phenotype mapping of drug resistance in Mycobacterium tuberculosis
+078. Genome editing of allergen genes in Indonesian soybean varieties using CRISPR-Cas9
+079. Copy number variation analysis in Indonesian children with autism spectrum disorder
+080. Oxford Nanopore direct RNA sequencing of poly(A) tail dynamics during mRNA decay
+081. Comparative transcriptomics of venom gland expression in Indonesian pit viper species complex
+082. CRISPR-mediated gene tagging for endogenous protein visualization in Drosophila melanogaster
+083. Reduced representation bisulfite sequencing of epigenetic adaptation in transplanted coral fragments
+084. Genome-wide identification of microRNA targets in Indonesian black rice anthocyanin biosynthesis
+085. Haplotype-resolved genome assembly of Indonesian wild banana (Musa acuminata) subspecies
+086. Functional genomics of antibiotic resistance plasmids in Indonesian hospital-acquired Klebsiella pneumoniae
+087. Single-cell TCR sequencing of T cell clonality in Indonesian COVID-19 convalescent patients
+088. CRISPR activation screen for genes enhancing natural killer cell cytotoxicity against tumor cells
+089. Paleogenomics of ancient DNA from Indonesian Homo floresiensis-associated cave sediments
+090. Transcriptome atlas of Indonesian medicinal plant Andrographis paniculata across developmental stages
+091. Genome-wide off-target analysis of CRISPR guides designed for Indonesian rice improvement
+092. Chromatin immunoprecipitation sequencing (ChIP-seq) of histone modifications in oil palm fruit ripening
+093. Population structure and admixture analysis of Eastern Indonesian populations using genome-wide SNP arrays
+094. Long-read isoform sequencing (Iso-Seq) of full-length transcripts in Indonesian clove (Syzygium aromaticum)
+095. CRISPR-Cas13 based SHERLOCK diagnostics for avian influenza surveillance in Indonesian poultry
+096. Genome-wide DNA methylation profiling of mangrove adaptation to salinity stress
+097. Exome sequencing of rare genetic disorders in isolated Indonesian island populations
+098. Transposable element landscape analysis in Indonesian wild rice (Oryza rufipogon) populations
+099. Single-cell multiome (RNA+ATAC) analysis of human liver cell atlas from Indonesian donors
+100. Functional characterization of novel antimicrobial peptide genes from Indonesian horseshoe crab genome
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 3: ECOLOGY & CONSERVATION BIOLOGY (101–150)
+────────────────────────────────────────────────────────────────────────────────
+101. Environmental DNA metabarcoding for fish diversity assessment in Mahakam River delta ecosystem
+102. Drone-based LiDAR mapping of forest canopy structure in Kalimantan peat swamp forests
+103. Camera trap network analysis of mammal community dynamics in fragmented Sumatran rainforest
+104. Acoustic monitoring and machine learning classification of bird vocalizations in Sulawesi endemic bird areas
+105. Metabarcoding of soil invertebrate communities along deforestation gradients in Papua highlands
+106. Satellite telemetry tracking of sea turtle migration corridors through Indonesian archipelago waters
+107. eDNA-based monitoring of critically endangered Javan rhinoceros (Rhinoceros sondaicus) in Ujung Kulon
+108. Pollinator network analysis using DNA metabarcoding of pollen loads in Sumatran agroforestry systems
+109. Thermal drone surveys of orangutan nest density in Leuser Ecosystem post-fire landscapes
+110. Stable isotope analysis of trophic relationships in Togean Islands coral reef fish assemblages
+111. Landscape genetics of Sumatran tiger (Panthera tigris sumatrae) connectivity across oil palm matrices
+112. Automated species identification using deep learning on camera trap images from Gunung Halimun
+113. Microplastic contamination assessment in Indonesian mangrove sediments using Raman spectroscopy
+114. Functional trait-based analysis of tree community assembly in restored Indonesian peatlands
+115. Bioacoustic monitoring of cetacean diversity in Banda Sea using passive acoustic recorders
+116. eDNA metabarcoding of amphibian diversity in Sulawesi montane streams across elevation gradients
+117. Movement ecology of Javan hawk-eagle (Nisaetus bartelsi) using GPS-GSM telemetry in fragmented habitat
+118. Soil metagenomics of mycorrhizal networks in dipterocarp forest restoration sites in Borneo
+119. Population viability analysis of Bali starling (Leucopsar rothschildi) under climate change scenarios
+120. Remote sensing phenology tracking of mangrove leaf flush patterns across Indonesian coastlines
+121. Diet analysis of Sulawesi bear cuscus (Ailurops ursinus) using fecal DNA metabarcoding
+122. Coral reef resilience assessment using Structure-from-Motion photogrammetry in Wakatobi Marine Park
+123. Seed dispersal network disruption by defaunation in Kalimantan logged forests
+124. eDNA detection of invasive species in Indonesian freshwater lakes and reservoirs
+125. Occupancy modeling of Sunda pangolin (Manis javanica) in West Java fragmented landscapes
+126. Carbon flux measurement in restored Indonesian mangrove ecosystems using eddy covariance towers
+127. Genetic rescue planning for isolated Sumatran elephant populations using landscape genomics
+128. Arthropod diversity assessment on Indonesian cacao agroforestry using malaise trap metabarcoding
+129. Spatial prioritization of marine protected areas using Marxan with connectivity in Coral Triangle
+130. Microbiome-mediated nutrient cycling in Indonesian tropical peatland restoration chronosequence
+131. Population genomics of Indonesian helmeted hornbill (Rhinoplax vigil) for anti-trafficking forensics
+132. Drone-based multispectral monitoring of seagrass health in Derawan Islands marine ecosystem
+133. Trophic cascade effects of apex predator loss in Komodo National Park terrestrial food webs
+134. Climate envelope modeling of endemic bird species range shifts in Wallacean biodiversity hotspot
+135. eDNA temporal monitoring of fish spawning aggregations in Indonesian marine protected areas
+136. Functional diversity of dung beetle communities across land-use intensification in Sumatra
+137. Connectivity analysis of marine larval dispersal using biophysical modeling in Lesser Sunda Islands
+138. Rewilding effectiveness assessment using camera traps and eDNA in degraded Javanese forests
+139. Pollination service valuation in Indonesian coffee agroforestry using exclusion experiments and network analysis
+140. Spatial ecology of reintroduced Javan gibbon (Hylobates moloch) using GPS collars in Mount Gede
+141. Metagenomic assessment of antibiotic resistance genes in Indonesian urban river ecosystems
+142. Island biogeography of reptile communities across Indonesian small islands using eDNA surveys
+143. Fire regime analysis and post-fire succession monitoring in East Kalimantan using Sentinel-2 time series
+144. Acoustic complexity indices as biodiversity indicators in Indonesian tropical rainforest fragments
+145. Population genetics of whale sharks (Rhincodon typus) in Cenderawasih Bay using photo-ID and microsatellites
+146. Ecosystem service mapping of Indonesian urban green spaces using i-Tree and remote sensing
+147. eDNA-based early detection system for harmful algal blooms in Indonesian aquaculture zones
+148. Seed bank viability assessment in degraded Indonesian peatlands using germination trials and metagenomics
+149. Multi-taxa biodiversity rapid assessment of Aru Islands using integrated eDNA and bioacoustics
+150. Climate change vulnerability assessment of Indonesian endemic primates using species distribution models
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 4: MICROBIOLOGY & VIROLOGY (151–200)
+────────────────────────────────────────────────────────────────────────────────
+151. Metagenomics of antibiotic resistance genes in Indonesian hospital wastewater treatment systems
+152. CRISPR-based diagnostics for rapid detection of carbapenem-resistant Enterobacteriaceae in clinical settings
+153. Viral metagenomics of bat guano from Indonesian limestone caves for novel coronavirus surveillance
+154. Single-cell transcriptomics of macrophage response to Mycobacterium tuberculosis Beijing lineage strains
+155. Nanopore sequencing of dengue virus quasispecies evolution during sequential infections in Indonesian patients
+156. Soil microbiome functional profiling in Indonesian volcanic soil chronosequence using shotgun metagenomics
+157. Phage therapy development against multidrug-resistant Acinetobacter baumannii from Indonesian ICU isolates
+158. Metabolomics of secondary metabolite production in Indonesian marine Streptomyces under co-culture conditions
+159. CRISPR-Cas13 based multiplexed detection of respiratory viruses in Indonesian clinical samples
+160. Gut microbiome composition and metabolic function in Indonesian children with stunting
+161. Whole-genome sequencing epidemiology of Salmonella typhi outbreak tracking in Indonesian urban areas
+162. Biofilm formation mechanisms in Pseudomonas aeruginosa isolates from Indonesian cystic fibrosis patients
+163. Metatranscriptomics of active microbial communities in Indonesian hot spring geothermal environments
+164. Antiviral compound screening from Indonesian marine sponge-associated fungi against SARS-CoV-2
+165. Nanopore real-time sequencing for point-of-care tuberculosis drug resistance profiling
+166. Microbiome-gut-brain axis investigation in Indonesian populations with major depressive disorder
+167. Genomic epidemiology of avian influenza H5N1 evolution in Indonesian poultry farms using MinION
+168. Antimicrobial peptide discovery from Indonesian komodo dragon (Varanus komodoensis) blood leukocytes
+169. Virome characterization of Indonesian mosquito populations using viral metagenomics
+170. Probiotic strain genomics and functional characterization from Indonesian traditional fermented foods
+171. CRISPR-based gene drive modeling for Wolbachia-mediated dengue vector population suppression
+172. Deep sequencing of HIV-1 drug resistance mutations in Indonesian treatment-experienced patients
+173. Rhizosphere microbiome engineering for enhanced phosphate solubilization in Indonesian volcanic soils
+174. Metaproteomics of microbial communities in Indonesian palm oil mill effluent treatment ponds
+175. Bacteriophage genomics and host range determination for Indonesian aquaculture pathogen Vibrio harveyi
+176. Single-cell bacterial transcriptomics of persister cell formation in antibiotic-treated biofilms
+177. Fungal endophyte metagenomics of Indonesian medicinal plants for bioactive compound discovery
+178. Wastewater-based epidemiology using metagenomics for SARS-CoV-2 variant surveillance in Indonesian cities
+179. Quorum sensing inhibitor screening from Indonesian coral reef bacteria against Vibrio cholerae
+180. Nanopore metagenomics of tick-borne pathogen diversity in Indonesian wildlife-livestock interfaces
+181. Synthetic biology engineering of Indonesian Bacillus subtilis for industrial enzyme production
+182. Viral discovery in Indonesian fruit bats using unbiased next-generation sequencing approaches
+183. Microbiome transplant effects on antibiotic-associated diarrhea in Indonesian hospital patients
+184. Genomic characterization of novel bacteriophages infecting Indonesian rice bacterial leaf blight pathogen
+185. Metabolic modeling of syntrophic interactions in Indonesian anaerobic digester microbial communities
+186. CRISPR-Cas12a detection system for leptospirosis diagnosis in Indonesian flood-prone areas
+187. Resistome profiling of Indonesian aquaculture sediments using functional metagenomics
+188. Mycobiome diversity in Indonesian traditional fermentation starters (ragi) using ITS amplicon sequencing
+189. Longitudinal virome dynamics in Indonesian dengue-endemic communities using metagenomic surveillance
+190. Biocontrol potential of Indonesian volcanic soil Trichoderma isolates characterized by whole-genome sequencing
+191. Single-cell infection biology of Plasmodium vivax in Indonesian patient-derived reticulocytes
+192. Marine sediment metagenomics for novel antibiotic biosynthetic gene cluster discovery in Raja Ampat
+193. Gut microbiome restoration dynamics after antibiotic treatment in Indonesian pediatric populations
+194. Genomic surveillance of antimicrobial resistance in Indonesian livestock using Oxford Nanopore
+195. Extremophile enzyme discovery from Indonesian deep-sea hydrothermal vent metagenomes
+196. CRISPR-based antiviral strategy development against Indonesian circulating JEV genotypes
+197. Microplastic-associated biofilm (plastisphere) metagenomics in Indonesian coastal waters
+198. Prophage induction and horizontal gene transfer in Indonesian clinical Staphylococcus aureus isolates
+199. Soil virus metagenomics in Indonesian tropical peatland fire-affected areas
+200. Synthetic microbial consortium design for bioremediation of Indonesian tin mining wastewater
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 5: PLANT BIOLOGY & BOTANY (201–250)
+────────────────────────────────────────────────────────────────────────────────
+201. Spatial transcriptomics of oil palm (Elaeis guineensis) fruit mesocarp during lipid accumulation
+202. CRISPR-Cas9 editing of flowering time genes in Indonesian tropical orchid (Phalaenopsis amabilis)
+203. Single-cell RNA-seq of root tip cell types in Indonesian mangrove (Rhizophora mucronata) under salinity
+204. Metabolomics profiling of bioactive compounds in Indonesian Curcuma species across developmental stages
+205. Nanopore direct RNA sequencing of epitranscriptomic modifications in heat-stressed rice (Oryza sativa)
+206. Drone-based hyperspectral imaging for early detection of blast disease in Indonesian rice paddies
+207. Genome-wide identification of NBS-LRR resistance genes in Indonesian wild banana germplasm
+208. Phytohormone signaling network analysis during fruit ripening in Indonesian tropical fruits (durian, mangosteen)
+209. CRISPR-mediated enhancement of artemisinin production in Indonesian Artemisia annua varieties
+210. Root microbiome and mycorrhizal network mapping in Indonesian dipterocarp forest seedlings
+211. Comparative chloroplast genomics of Indonesian Rafflesia species for phylogenetic resolution
+212. Single-cell transcriptomics of cambium differentiation in Indonesian teak (Tectona grandis) wood formation
+213. Metabolomics of allelopathic compounds in Indonesian invasive plant Chromolaena odorata
+214. CRISPR base editing for herbicide tolerance in Indonesian local soybean (Glycine max) cultivars
+215. Spatial metabolomics of alkaloid distribution in Indonesian Cinchona (quinine) bark tissues using DESI-MSI
+216. Transcriptome analysis of shade adaptation mechanisms in Indonesian understory medicinal plants
+217. Genome assembly and annotation of Indonesian endemic pitcher plant (Nepenthes) species
+218. Phytoremediation potential assessment of Indonesian native plants for heavy metal contaminated mining soils
+219. Single-cell atlas of Indonesian rice grain development from fertilization to maturity
+220. Volatile organic compound profiling of Indonesian aromatic rice varieties using GC-MS metabolomics
+221. CRISPR-Cas12a editing of starch biosynthesis genes in Indonesian cassava (Manihot esculenta) varieties
+222. Epigenomic landscape of somaclonal variation in Indonesian oil palm tissue culture
+223. Transcriptomic response of Indonesian seagrass (Enhalus acoroides) to ocean acidification
+224. Machine learning-based plant disease detection from drone imagery in Indonesian cacao plantations
+225. Genome-wide association mapping of drought tolerance traits in Indonesian upland rice panel
+226. Metabolomics of flavonoid biosynthesis in Indonesian tempeh-grade soybean varieties
+227. CRISPR interference of lignin biosynthesis genes for improved Indonesian sugarcane bagasse digestibility
+228. Pollen transcriptomics of self-incompatibility mechanisms in Indonesian wild Citrus species
+229. Spatial proteomics of latex biosynthesis in Indonesian rubber tree (Hevea brasiliensis) bark
+230. eDNA metabarcoding of epiphytic plant communities in Indonesian montane cloud forests
+231. Genome editing of caffeine biosynthesis pathway in Indonesian Robusta coffee for decaf varieties
+232. Transcriptome analysis of mycorrhizal colonization in Indonesian sandalwood (Santalum album) roots
+233. Metabolomics-guided bioprospecting of Indonesian marine macroalgae for cosmeceutical compounds
+234. CRISPR-mediated virus resistance engineering in Indonesian chili pepper (Capsicum annuum) against geminivirus
+235. Single-cell transcriptomics of nitrogen-fixing nodule development in Indonesian legume crops
+236. Comparative genomics of Indonesian wild and cultivated nutmeg (Myristica fragrans) populations
+237. Phytochemical metabolomics of Indonesian Garcinia species for xanthone diversity characterization
+238. Drone-based thermal imaging for water stress detection in Indonesian oil palm plantations
+239. Genome-wide identification of WRKY transcription factors in Indonesian black rice stress responses
+240. Spatial transcriptomics of resin canal development in Indonesian Agathis (damar) trees
+241. CRISPR activation of silent biosynthetic gene clusters in Indonesian medicinal plant cell cultures
+242. Metagenomics of phyllosphere microbial communities on Indonesian tropical fruit surfaces
+243. Transcriptomic atlas of Indonesian vanilla (Vanilla planifolia) pod development and flavor compound synthesis
+244. Metabolomics of secondary metabolite variation in Indonesian kratom (Mitragyna speciosa) populations
+245. Genome assembly of Indonesian giant corpse flower (Amorphophallus titanum) using long-read sequencing
+246. CRISPR-mediated improvement of photosynthetic efficiency in Indonesian C3 crop species
+247. Root exudate metabolomics of Indonesian rice varieties under phosphorus deficiency stress
+248. Transcriptome analysis of latex allergen expression in Indonesian rubber tree clonal varieties
+249. Spatial metabolomics of essential oil gland development in Indonesian patchouli (Pogostemon cablin)
+250. Genome-wide characterization of transposable elements in Indonesian wild sugarcane (Saccharum spontaneum)
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 6: ANIMAL PHYSIOLOGY & ZOOLOGY (251–300)
+────────────────────────────────────────────────────────────────────────────────
+251. Single-cell RNA-seq of immune cell populations in Indonesian Komodo dragon blood for antimicrobial peptide discovery
+252. Telemetry-based movement ecology of Sumatran rhinoceros in Way Kambas National Park
+253. Transcriptomics of venom gland expression plasticity in Indonesian king cobra (Ophiophagus hannah)
+254. Metabolomics of hibernation-like torpor in Indonesian cave-dwelling bats (Hipposideros spp.)
+255. CRISPR-Cas9 functional analysis of pigmentation genes in Indonesian ornamental fish (Betta splendens)
+256. Drone-based population census of Indonesian proboscis monkey (Nasalis larvatus) in Kalimantan wetlands
+257. Gut microbiome-host co-evolution analysis in Indonesian endemic Sulawesi macaque species
+258. Spatial transcriptomics of regenerating fin tissue in Indonesian zebrafish (Danio rerio) wild populations
+259. Acoustic telemetry tracking of reef manta ray (Mobula alfredi) movements in Komodo waters
+260. Proteomics of silk gland secretion in Indonesian wild silkworm (Attacus atlas) for biomaterial development
+261. Thermal physiology and climate vulnerability assessment of Indonesian montane bird species
+262. Single-cell transcriptomics of Indonesian horseshoe crab (Tachypleus gigas) hemocyte immune responses
+263. GPS-accelerometer analysis of flight energetics in Indonesian hornbill species across fragmented landscapes
+264. Metabolomics of stress biomarkers in captive vs. wild Indonesian orangutan (Pongo pygmaeus) populations
+265. CRISPR-mediated gene function analysis in Indonesian giant freshwater prawn (Macrobrachium rosenbergii)
+266. Neurogenomics of spatial memory in Indonesian Clark's nutcracker equivalent seed-caching birds
+267. Ecophysiology of thermoregulation in Indonesian sea turtle hatchlings under warming beach temperatures
+268. Transcriptome analysis of Indonesian mud crab (Scylla serrata) molting cycle for aquaculture optimization
+269. Biotelemetry of diving physiology in Indonesian sperm whales (Physeter macrocephalus) in Banda Sea
+270. Venom proteomics and antivenom development for Indonesian box jellyfish (Chironex spp.) envenomation
+271. Single-cell atlas of Indonesian coral trout (Plectropomus leopardus) gill responses to hypoxia
+272. Machine learning behavioral classification from accelerometer data on Indonesian sea eagles
+273. Reproductive endocrinology of captive breeding programs for Indonesian Sumatran tiger
+274. Transcriptomics of color change mechanisms in Indonesian cuttlefish (Sepia spp.) chromatophores
+275. Metabolomics of Indonesian stingless bee (Tetragonula spp.) honey for authentication and bioactivity
+276. CRISPR functional genomics of disease resistance genes in Indonesian shrimp (Litopenaeus vannamei)
+277. Acoustic communication analysis of Indonesian gibbons using machine learning spectrogram classification
+278. Physiological adaptation transcriptomics of Indonesian highland vs. lowland chicken breeds
+279. Satellite tracking of post-nesting migration routes of Indonesian leatherback sea turtles
+280. Proteomics of Indonesian scorpion venom for novel ion channel modulator discovery
+281. Thermal tolerance plasticity in Indonesian reef fish under simulated marine heatwave conditions
+282. Single-cell transcriptomics of Indonesian python (Python reticulatus) heart regeneration capacity
+283. Microbiome-immune system interactions in Indonesian Komodo dragon saliva antimicrobial function
+284. Telomere dynamics and aging in long-lived Indonesian parrot species (Cacatua spp.)
+285. Transcriptomics of Indonesian freshwater eel (Anguilla bicolor) gonadal maturation for aquaculture
+286. Metabolomics of pheromone communication in Indonesian rhinoceros beetle (Oryctes rhinoceros)
+287. CRISPR-based sex determination gene analysis in Indonesian grouper for monosex aquaculture
+288. Ecophysiology of Indonesian flying fox (Pteropus vampyrus) thermoregulation during roost selection
+289. Neurophysiology of electroreception in Indonesian freshwater electric eel relatives (Gymnotiformes)
+290. Proteomics of Indonesian cone snail (Conus spp.) venom conotoxins for pain therapeutics
+291. Acoustic monitoring of Indonesian elephant communication and stress vocalization patterns
+292. Transcriptomics of Indonesian giant clam (Tridacna gigas) photosymbiosis under bleaching stress
+293. Metabolomics of Indonesian civet (Paradoxurus hermaphroditus) coffee bean fermentation in digestive tract
+294. Single-cell immune profiling of Indonesian water buffalo resistance to Fasciola hepatica infection
+295. GPS tracking of seed dispersal by Indonesian hornbills in fragmented Kalimantan forests
+296. Physiological genomics of altitude adaptation in Indonesian highland rat (Rattus spp.) populations
+297. Venom transcriptomics of Indonesian centipede (Scolopendra subspinipes) for bioactive peptide discovery
+298. Thermal imaging assessment of Indonesian elephant health in captive and wild populations
+299. Transcriptomics of Indonesian pearl oyster (Pinctada maxima) nacre biomineralization
+300. Metabolomics of Indonesian firefly (Pteroptyx spp.) bioluminescence biochemistry
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 7: MARINE & AQUATIC BIOLOGY (301–350)
+────────────────────────────────────────────────────────────────────────────────
+301. Spatial transcriptomics of coral-algal symbiosis breakdown under thermal stress in Raja Ampat reefs
+302. eDNA metabarcoding of deep-sea biodiversity in Indonesian oceanic trenches (Banda Trench)
+303. Metagenomics of coral holobiont microbiome shifts during bleaching events in Bunaken Marine Park
+304. Nanopore sequencing of harmful algal bloom species composition in Indonesian aquaculture zones
+305. Drone-based coral reef mapping and health assessment using multispectral imaging in Wakatobi
+306. Metabolomics of marine natural products from Indonesian nudibranch-associated microorganisms
+307. Single-cell transcriptomics of Indonesian giant clam (Tridacna) photosymbiotic cell populations
+308. Ocean acidification effects on calcification transcriptomics in Indonesian reef-building corals
+309. eDNA temporal monitoring of whale shark aggregation patterns in Cenderawasih Bay
+310. Metagenomics of Indonesian mangrove sediment blue carbon microbial communities
+311. Spatial ecology of manta ray cleaning station use in Komodo National Park using acoustic telemetry
+312. Transcriptomics of thermal tolerance in Indonesian reef fish across latitudinal temperature gradients
+313. Marine microplastic ingestion assessment in Indonesian commercial fish species using spectroscopy
+314. eDNA-based monitoring of marine mammal diversity in Savu Sea cetacean corridor
+315. Coral recruitment dynamics on artificial reef structures monitored by photogrammetry in Gili Islands
+316. Metagenomics of antibiotic resistance in Indonesian shrimp pond sediment microbiomes
+317. Hydrodynamic modeling of larval connectivity between Indonesian marine protected areas
+318. Transcriptomics of Indonesian sea cucumber (Holothuria scabra) regeneration for aquaculture
+319. Stable isotope analysis of food web structure in Indonesian seagrass meadow ecosystems
+320. eDNA metabarcoding of cryptic reef fish diversity in Indonesian mesophotic coral ecosystems
+321. Ocean current-driven population genomics of Indonesian blue swimming crab (Portunus pelagicus)
+322. Metabolomics of Indonesian marine sponge (Xestospongia spp.) bioactive compound seasonal variation
+323. Acoustic telemetry network for shark movement ecology in Bird's Head Seascape marine reserves
+324. Transcriptomics of Indonesian abalone (Haliotis asinina) immune response to Vibrio infection
+325. Remote sensing of Indonesian coral reef bleaching using Sentinel-2 satellite time series analysis
+326. Metagenomics of nitrogen cycling in Indonesian seagrass rhizosphere microbial communities
+327. Population genetics of Indonesian seahorse (Hippocampus spp.) for sustainable trade management
+328. Metabolomics of Indonesian red algae (Gracilaria spp.) agar quality under different cultivation conditions
+329. eDNA-based fish stock assessment in Indonesian small-scale fisheries management areas
+330. Transcriptomics of Indonesian pearl oyster biomineralization under ocean warming scenarios
+331. Microbiome engineering for disease resistance in Indonesian marine shrimp hatcheries
+332. Drone-based dugong population survey and seagrass habitat mapping in Indonesian waters
+333. Genomics of coral thermal adaptation in Indonesian reefs across natural temperature gradients
+334. Metabolomics of Indonesian marine cyanobacteria for novel cytotoxic compound discovery
+335. Acoustic monitoring of Indonesian coral reef soundscapes as ecosystem health indicators
+336. eDNA metabarcoding of zooplankton community composition in Indonesian upwelling zones
+337. Transcriptomics of salinity adaptation in Indonesian milkfish (Chanos chanos) gill epithelium
+338. Marine spatial planning optimization using biodiversity eDNA data in Lesser Sunda seascape
+339. Metagenomics of Indonesian deep-sea cold seep chemosynthetic microbial communities
+340. Population genomics of Indonesian Napoleon wrasse (Cheilinus undulatus) for CITES enforcement
+341. Metabolomics of Indonesian brown algae (Sargassum spp.) fucoidan bioactivity characterization
+342. Satellite tracking of juvenile green sea turtle dispersal from Indonesian nesting beaches
+343. Transcriptomics of Indonesian mud crab larval development for hatchery optimization
+344. eDNA surveillance of invasive lionfish spread in Indonesian coral reef ecosystems
+345. Coral microbiome transplantation for enhanced thermal tolerance in Indonesian reef restoration
+346. Metagenomics of Indonesian submarine volcanic vent microbial communities for extremozyme discovery
+347. Acoustic deterrent effectiveness for marine mammal bycatch reduction in Indonesian fisheries
+348. Transcriptomics of Indonesian seaweed (Kappaphycus alvarezii) carrageenan biosynthesis optimization
+349. eDNA-based biodiversity assessment of Indonesian anchialine cave ecosystems in karst coastlines
+350. Metabolomics of Indonesian marine Actinobacteria for novel antibiotic compound screening
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 8: EVOLUTIONARY BIOLOGY & SYSTEMATICS (351–400)
+────────────────────────────────────────────────────────────────────────────────
+351. Phylogenomics of Wallace Line biogeography using ultraconserved elements in Indonesian bird radiations
+352. Molecular clock dating of Sulawesi endemic mammal diversification using whole-genome alignments
+353. Comparative genomics of convergent evolution in Indonesian cave-adapted fish (Oryzias) populations
+354. Ancient DNA analysis of Holocene megafauna extinction patterns in Indonesian cave deposits
+355. Phylogeography of Indonesian freshwater crabs across tectonic plate boundaries using RADseq
+356. Adaptive radiation genomics of Sulawesi silversides (Telmatherina) in Malili lake system
+357. Molecular systematics of Indonesian Begonia species complex using target capture sequencing
+358. Hybridization genomics at secondary contact zones between Bornean and Sumatran orangutan populations
+359. Phylogenomics of Indonesian Rafflesia parasitic plant evolution using horizontal gene transfer analysis
+360. Speciation genomics of Indonesian white-eye (Zosterops) birds across island archipelago
+361. Molecular dating of Indonesian coral reef fish diversification in relation to Pleistocene sea level changes
+362. Comparative venom evolution transcriptomics across Indonesian pit viper (Trimeresurus) species radiation
+363. Phylogeography of Indonesian flying foxes (Pteropus) using whole mitochondrial genome sequencing
+364. Genomic basis of mimicry evolution in Indonesian butterfly (Papilio) species complex
+365. Ancient environmental DNA from Indonesian lake sediment cores for Quaternary biodiversity reconstruction
+366. Phylogenomics of Indonesian orchid (Dendrobium) mega-radiation using genome skimming
+367. Adaptive introgression analysis between Indonesian wild and cultivated rice populations
+368. Molecular systematics of Indonesian land snail (Amphidromus) color polymorphism evolution
+369. Phylogeography of Indonesian monitor lizards (Varanus) across biogeographic barriers
+370. Genomic basis of island dwarfism in Indonesian Flores elephant (Stegodon) using paleogenomics
+371. Coevolution genomics of Indonesian fig-fig wasp mutualism using comparative phylogenomics
+372. Molecular clock calibration of Indonesian freshwater fish diversification using geological events
+373. Phylogenomics of Indonesian pitcher plant (Nepenthes) adaptive radiation using whole-genome data
+374. Speciation-with-gene-flow analysis in Indonesian paradise bird (Paradisaea) contact zones
+375. Comparative genomics of Indonesian cave-adapted invertebrate troglomorphic trait evolution
+376. Phylogeography of Indonesian mangrove species across Sunda and Sahul shelf boundaries
+377. Molecular systematics of Indonesian treeshrews (Tupaia) using ultraconserved elements
+378. Genomic architecture of reproductive isolation in Indonesian Sulawesi macaque hybrid zones
+379. Ancient DNA metabarcoding of Indonesian archaeological site faunal assemblages
+380. Phylogenomics of Indonesian freshwater shrimp (Caridina) adaptive radiation in Sulawesi lakes
+381. Molecular evolution of Indonesian snake venom three-finger toxin gene family diversification
+382. Biogeographic genomics of Indonesian Wallacean butterfly communities using population-level sampling
+383. Phylogeography of Indonesian pangolin (Manis javanica) populations for forensic species identification
+384. Comparative transcriptomics of bioluminescence evolution in Indonesian deep-sea organisms
+385. Molecular systematics of Indonesian fern (Cyathea) tree fern diversification across Malesia
+386. Genomic basis of altitude adaptation in Indonesian montane bird (Sericornis) populations
+387. Phylogenomics of Indonesian sea snake (Hydrophis) rapid marine radiation
+388. Cospeciation analysis of Indonesian bird lice using cophylogenetic methods
+389. Ancient DNA from Indonesian subfossil lemur-like primates for primate evolution studies
+390. Molecular dating of Indonesian dipterocarp forest assembly using chloroplast phylogenomics
+391. Speciation genomics of Indonesian rice fish (Oryzias) across Sulawesi lake systems
+392. Comparative genomics of Indonesian deep-sea fish adaptation to extreme pressure environments
+393. Phylogeography of Indonesian coconut crab (Birgus latro) across Indo-Pacific island chains
+394. Molecular evolution of Indonesian coral symbiodiniaceae across thermal gradient environments
+395. Phylogenomics of Indonesian moss (Sphagnum) peatland species using target enrichment sequencing
+396. Genomic basis of wing pattern diversification in Indonesian birdwing butterflies (Ornithoptera)
+397. Molecular systematics of Indonesian freshwater mussels (Unionida) using anchored hybrid enrichment
+398. Phylogeography of Indonesian civets (Viverridae) across Sundaland biogeographic history
+399. Comparative genomics of Indonesian electric ray (Torpedo) electrogenesis organ evolution
+400. Ancient sedimentary DNA reconstruction of Indonesian Pleistocene savanna-forest transitions
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 9: BIOTECHNOLOGY & APPLIED BIOLOGY (401–450)
+────────────────────────────────────────────────────────────────────────────────
+401. CRISPR-Cas9 engineering of Indonesian microalgae (Nannochloropsis) for enhanced biodiesel lipid production
+402. Metabolic engineering of Indonesian Saccharomyces cerevisiae strains for bioethanol from palm oil waste
+403. Nanopore-based biosensor development for rapid aflatoxin detection in Indonesian agricultural products
+404. Synthetic biology design of Indonesian Bacillus thuringiensis for improved biopesticide toxin specificity
+405. Tissue engineering of Indonesian fish collagen scaffolds for wound healing biomaterial applications
+406. CRISPR-mediated enhancement of carotenoid production in Indonesian sweet potato (Ipomoea batatas) varieties
+407. Enzyme engineering of Indonesian thermophilic lipase for biodiesel transesterification optimization
+408. Bioprocess optimization of Indonesian tempeh fermentation using metabolomics-guided strain improvement
+409. Nanomaterial-based drug delivery systems using Indonesian chitosan from shrimp waste valorization
+410. Synthetic microbial consortium engineering for Indonesian palm oil mill effluent biotreatment
+411. CRISPR-Cas12a point-of-care diagnostics for white spot syndrome virus in Indonesian shrimp farms
+412. Metabolic engineering of Indonesian Aspergillus niger for enhanced citric acid production from cassava waste
+413. Bioelectrochemical system design using Indonesian mangrove sediment microbiomes for electricity generation
+414. Recombinant protein expression optimization in Indonesian Pichia pastoris for industrial enzyme production
+415. CRISPR-mediated allergen reduction in Indonesian peanut (Arachis hypogaea) cultivars
+416. Bioplastic production from Indonesian seaweed polysaccharides using engineered bacterial strains
+417. Immobilized enzyme reactor design for continuous biodiesel production from Indonesian palm fatty acid distillate
+418. Synthetic biology chassis development from Indonesian extremophilic bacteria for industrial applications
+419. Biofortification of Indonesian rice varieties with iron and zinc using CRISPR-mediated gene stacking
+420. Microfluidic organ-on-chip development for Indonesian traditional medicine toxicity screening
+421. CRISPR-based gene drive development for controlling Indonesian invasive apple snail (Pomacea canaliculata)
+422. Metabolic engineering of Indonesian Corynebacterium glutamicum for L-lysine overproduction from molasses
+423. Biosensor array development for real-time monitoring of Indonesian aquaculture water quality parameters
+424. Recombinant spider silk protein production in Indonesian transgenic silkworm (Bombyx mori) for biomaterials
+425. CRISPR-mediated improvement of Indonesian soybean nodulation efficiency for nitrogen fixation enhancement
+426. Biohydrogen production optimization from Indonesian agricultural waste using dark fermentation metagenomics
+427. Enzyme cascade design for Indonesian lignocellulosic biomass saccharification using directed evolution
+428. Synthetic biology engineering of Indonesian cyanobacteria for direct photosynthetic isoprene production
+429. CRISPR-Cas9 development of disease-resistant Indonesian catfish (Clarias gariepinus) for aquaculture
+430. Biorefinery process integration for Indonesian oil palm empty fruit bunch valorization
+431. Aptamer-based biosensor development for Indonesian food safety monitoring of heavy metals
+432. Metabolic engineering of Indonesian Yarrowia lipolytica for omega-3 fatty acid production
+433. CRISPR-mediated enhancement of Indonesian vanilla (Vanilla planifolia) vanillin biosynthesis
+434. Biocement production using Indonesian ureolytic bacteria for sustainable construction materials
+435. Recombinant vaccine development against Indonesian white spot syndrome virus using baculovirus expression
+436. Synthetic gene circuit design for Indonesian bioremediation bacteria with kill-switch safety mechanisms
+437. CRISPR-based rapid genotyping platform for Indonesian rice variety authentication and IP protection
+438. Bioprocess scale-up of Indonesian red yeast (Monascus purpureus) for natural food colorant production
+439. Enzyme immobilization on Indonesian volcanic ash nanoparticles for industrial biocatalysis applications
+440. Metabolic engineering of Indonesian Clostridium acetobutylicum for enhanced butanol production from sago waste
+441. Stem cell therapy development using Indonesian Wharton jelly mesenchymal stem cells for cartilage repair
+442. CRISPR-mediated improvement of Indonesian black soldier fly (Hermetia illucens) for waste bioconversion
+443. Biosurfactant production optimization from Indonesian Pseudomonas for enhanced oil recovery applications
+444. Recombinant phytase expression in Indonesian transgenic maize for improved phosphorus utilization
+445. Synthetic biology design of Indonesian Escherichia coli for polyhydroxyalkanoate bioplastic production
+446. CRISPR-based development of low-phytic acid Indonesian mung bean (Vigna radiata) varieties
+447. Biofilm reactor engineering for continuous bioethanol production from Indonesian sugarcane bagasse
+448. Metabolic engineering of Indonesian Streptomyces for enhanced antibiotic production using CRISPR-Cas9
+449. Nanocellulose extraction and functionalization from Indonesian oil palm empty fruit bunch for biomedical use
+450. Synthetic microbial community design for Indonesian aquaculture probiotic formulation optimization
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 10: BIOINFORMATICS & COMPUTATIONAL BIOLOGY (451–500)
+────────────────────────────────────────────────────────────────────────────────
+451. Machine learning prediction of protein-ligand binding affinity for Indonesian medicinal plant compounds
+452. Deep learning-based species identification from camera trap images in Indonesian tropical forests
+453. Genome-scale metabolic modeling of Indonesian industrial microorganisms for flux balance analysis
+454. Convolutional neural network classification of Indonesian coral reef health from underwater imagery
+455. Phylogenomic pipeline development for resolving Indonesian mega-diverse insect order relationships
+456. AlphaFold2 structure prediction of novel antimicrobial peptides from Indonesian marine organisms
+457. Single-cell RNA-seq computational pipeline for Indonesian cancer patient tumor heterogeneity analysis
+458. Machine learning prediction of antimicrobial resistance from Indonesian pathogen whole-genome sequences
+459. Ecological niche modeling of Indonesian endemic species under CMIP6 climate change scenarios
+460. Graph neural network analysis of protein-protein interaction networks in Indonesian disease cohorts
+461. Metagenomic binning algorithm optimization for Indonesian tropical soil microbial community assembly
+462. Deep learning-based automated identification of Indonesian plankton from flow cytometry imaging
+463. Structural bioinformatics of Indonesian snake venom toxins for antivenom rational design
+464. Machine learning integration of multi-omics data for Indonesian rice yield prediction under stress
+465. Phylogeographic modeling of Indonesian species dispersal across biogeographic barriers using ABC methods
+466. Natural language processing of Indonesian biodiversity literature for automated species occurrence extraction
+467. Molecular dynamics simulation of Indonesian thermophilic enzyme stability for industrial applications
+468. Deep learning segmentation of Indonesian histopathology slides for automated cancer grading
+469. Comparative genomics pipeline for pan-genome analysis of Indonesian crop pathogen populations
+470. Machine learning-based prediction of Indonesian coral bleaching events from oceanographic data
+471. Network pharmacology analysis of Indonesian traditional medicine (jamu) multi-target mechanisms
+472. Bioinformatics workflow for Indonesian eDNA metabarcoding data processing and species assignment
+473. Protein engineering using directed evolution algorithms for Indonesian industrial enzyme optimization
+474. Deep learning acoustic species identification for Indonesian bioacoustic monitoring networks
+475. Genome-wide epistasis detection in Indonesian rice GWAS data using machine learning approaches
+476. Molecular docking and dynamics of Indonesian marine natural products against SARS-CoV-2 targets
+477. Single-cell trajectory inference algorithms for Indonesian stem cell differentiation studies
+478. Machine learning prediction of Indonesian aquaculture disease outbreaks from environmental sensor data
+479. Phylogenetic network analysis of reticulate evolution in Indonesian plant species complexes
+480. Deep learning protein function prediction for uncharacterized genes in Indonesian crop genomes
+481. Spatial transcriptomics deconvolution algorithms for Indonesian coral tissue cell type mapping
+482. Machine learning optimization of Indonesian CRISPR guide RNA design for tropical crop editing
+483. Ecological network analysis of Indonesian pollinator-plant interaction stability under perturbation
+484. Structural bioinformatics pipeline for Indonesian conotoxin peptide classification and drug target prediction
+485. Bayesian phylogenetic inference of Indonesian Rafflesia species relationships using genome-scale data
+486. Machine learning-based virtual screening of Indonesian natural product libraries for kinase inhibitors
+487. Computational modeling of Indonesian coral reef ecosystem dynamics under multiple stressor scenarios
+488. Deep learning variant calling optimization for Indonesian population whole-genome sequencing data
+489. Metabolic network reconstruction of Indonesian extremophilic archaea from metagenome-assembled genomes
+490. Machine learning prediction of Indonesian protein allergenicity from sequence and structural features
+491. Bioinformatics pipeline for Indonesian ancient DNA authentication and contamination assessment
+492. Deep learning-based drug-target interaction prediction for Indonesian herbal medicine compounds
+493. Computational fluid dynamics modeling of Indonesian fish farm hydrodynamics for aquaculture optimization
+494. Machine learning classification of Indonesian bat echolocation calls for automated biodiversity surveys
+495. Genome graph construction for Indonesian rice pan-genome structural variant representation
+496. Deep learning image analysis of Indonesian microplastic particles from environmental samples
+497. Computational prediction of Indonesian CRISPR-Cas system diversity from metagenomic datasets
+498. Machine learning-based Indonesian mangrove biomass estimation from satellite remote sensing data
+499. Bioinformatics characterization of Indonesian gut virome diversity using viral metagenomics pipelines
+500. Integrative multi-omics network analysis of Indonesian traditional medicine mechanisms of action

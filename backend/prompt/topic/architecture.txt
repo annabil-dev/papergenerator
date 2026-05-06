@@ -5,8 +5,66 @@ FIELD: Architecture / Built Environment
 DEFAULT CITATION STYLE: APA or Chicago
 SUBDISCIPLINE: Arsitektur, Desain Urban, Konservasi Bangunan, Arsitektur Vernakular, Bangunan Hijau
 
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals (Building and Environment, Energy and Buildings, Frontiers of Architectural Research)
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title
+   - Ensure novelty by combining: new computational method + local context, performance evaluation + vernacular typology, digital tool + tropical climate
+   - Indonesian context: tropical climate design, Indonesian vernacular architecture (Joglo, Rumah Gadang, Rumah Tongkonan), green building (Greenship), Indonesian heritage buildings
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Parametric design (Grasshopper/Rhino, algorithmic design)
+   - BIM (Revit, ArchiCAD, IFC interoperability)
+   - Computational design (genetic algorithm optimization, machine learning for design)
+   - Environmental simulation (EnergyPlus, Ecotect, IES VE, DesignBuilder)
+   - Post-occupancy evaluation (POE with IoT sensors, real-time monitoring)
+   - Space syntax (DepthMapX, visibility graph analysis)
+   - Bioclimatic design (passive cooling, natural ventilation CFD simulation)
+   - Digital fabrication (robotic fabrication, CNC, 3D printing in construction)
+   - Daylighting simulation (Radiance, DIVA, Climate Studio)
+   - CFD analysis (ANSYS Fluent, OpenFOAM for wind/ventilation studies)
+   - GIS-based urban analysis (QGIS, ArcGIS for urban morphology)
+   - Photogrammetry and 3D scanning for heritage documentation
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics: thermal comfort (PMV/PPD), energy consumption (kWh/m2/year), daylighting (lux, DF%), ventilation rate (ACH), spatial integration values
+   - Statistical measures: mean +/- SD, correlation coefficients, regression analysis
+   - All numbers realistic and internally consistent
+   - Reference ranges: PMV comfort -0.5 to +0.5, PPD <10%, BEI office 150-250 kWh/m2/year, DF 2-5% for offices
+
+5. MATHEMATICAL FORMULAS:
+   - Thermal comfort PMV: PMV = f(M, clo, ta, tr, va, pa) [Fanger's model]
+   - Predicted Percentage Dissatisfied: PPD = 100 - 95 * exp(-0.03353*PMV^4 - 0.2179*PMV^2)
+   - Daylighting factor: DF = (Ei/Eo) x 100% where Ei = indoor illuminance, Eo = outdoor illuminance
+   - Overall Thermal Transfer Value: OTTV = 15(1-WWR)*Uw*TDeq + 6(WWR)*Uf*DT + (WWR)*SC*SF
+   - U-value: U = 1 / (Rsi + sum(d/k) + Rso)
+   - Building Energy Index: BEI = total energy consumption (kWh) / gross floor area (m2) / year
+   - Ventilation rate: Q = Cd * A * sqrt(2*g*h*DT/To) [stack ventilation]
+   - Solar Heat Gain Coefficient: SHGC = (transmitted solar + inward re-radiated) / incident solar
+   - Space syntax integration: I = 1 / RA where RA = 2(MD-1)/(k-2)
+   - Wind pressure coefficient: Cp = (Px - Po) / (0.5 * rho * Vref^2)
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian context: reference SNI standards, Greenship rating, Indonesian climate data (BMKG)
+   - Gap identification tied to methodology or building type not yet studied in tropical context
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords (5-7), Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
 ABSTRACT CHARACTERISTICS:
-  150–250 words. Reports: building type or urban area studied, design approach or
+  150-250 words. Reports: building type or urban area studied, design approach or
   analytical method (space syntax, post-occupancy evaluation, BIM, thermal simulation),
   key findings (spatial performance, thermal comfort PMV/PPD, structural efficiency,
   cultural significance), and implications for architectural practice.
@@ -32,18 +90,18 @@ METHODOLOGY:
   Common section name: "Research Method" / "Design Method"
   - Qualitative: architectural documentation (measured drawing, photography), case study analysis.
   - Space syntax: DepthMapX software; integration, connectivity, intelligibility analysis.
-  - POE (Post-Occupancy Evaluation): user satisfaction survey (n=30–100), observation.
+  - POE (Post-Occupancy Evaluation): user satisfaction survey (n=30-100), observation.
   - BIM: 3D parametric model (Revit/Grasshopper); clash detection, quantity take-off.
   - Thermal simulation: EnergyPlus, IES VE, Design Builder; EPW weather file; PMV/PPD.
   - Material testing: compression strength, thermal conductivity, moisture absorption.
   - Computational design: parametric (Grasshopper + Ladybug Tools), genetic algorithm optimization.
 
 TYPICAL RESULTS & DISCUSSION:
-  - Space syntax: mean integration value (HH) 0.8–1.5; high-activity spaces >1.2.
-  - Thermal comfort: PMV optimal = 0 ± 0.5; PPD <10% for comfortable zone.
-  - Energy consumption: reference building 150–250 kWh/m²/year; green design 80–120 kWh/m²/year.
-  - User satisfaction (POE): mean score 3.5–4.5/5.0 (mostly satisfied).
-  - BIM clash detection: typically 50–200 clashes detected in model coordination.
+  - Space syntax: mean integration value (HH) 0.8-1.5; high-activity spaces >1.2.
+  - Thermal comfort: PMV optimal = 0 +/- 0.5; PPD <10% for comfortable zone.
+  - Energy consumption: reference building 150-250 kWh/m2/year; green design 80-120 kWh/m2/year.
+  - User satisfaction (POE): mean score 3.5-4.5/5.0 (mostly satisfied).
+  - BIM clash detection: typically 50-200 clashes detected in model coordination.
   Tables: space syntax metrics, thermal comfort data, energy simulation results.
   Figures: space syntax axial/visibility map, thermal comfort contour, energy profile chart.
 
@@ -56,7 +114,7 @@ TYPICAL FIGURES:
 
 TYPICAL TABLES:
   - Space syntax metrics: space | integration | connectivity | depth | intelligibility.
-  - Thermal simulation: zone | PMV | PPD% | mean radiant T (°C) | cooling load kW.
+  - Thermal simulation: zone | PMV | PPD% | mean radiant T (C) | cooling load kW.
   - User satisfaction: aspect | mean score | SD | rating.
 
 CONCLUSION CHARACTERISTICS:
@@ -81,3 +139,527 @@ METHODOLOGY KEYWORDS:
   space syntax (DepthMapX), post-occupancy evaluation (survey), BIM parametric modeling,
   thermal simulation (EnergyPlus/IES VE), daylighting simulation (Radiance/Dialux),
   POE questionnaire, measured drawing, material testing
+
+================================================================================
+RESEARCH TOPIC BANK (500 TOPICS)
+================================================================================
+
+--- SUSTAINABLE & GREEN ARCHITECTURE (001-050) ---
+001. Evaluation of Greenship rating system effectiveness on energy performance of office buildings in Jakarta
+002. Comparative analysis of passive cooling strategies for tropical high-rise residential buildings
+003. Effect of green roof systems on indoor thermal comfort in Indonesian tropical climate
+004. Life cycle assessment of bamboo vs conventional materials for sustainable housing in Java
+005. Optimization of building envelope design for net-zero energy buildings in tropical Indonesia
+006. Effect of vertical garden systems on urban heat island mitigation in Surabaya
+007. Comparative evaluation of natural ventilation strategies in green-certified vs conventional offices
+008. Performance assessment of rainwater harvesting systems in Indonesian green buildings
+009. Effect of photovoltaic facade integration on building energy performance in tropical climate
+010. Evaluation of embodied carbon in Indonesian construction materials: comparative study
+011. Optimization of shading device design for energy efficiency in tropical office buildings
+012. Effect of cross-ventilation design on thermal comfort in low-cost housing in Indonesia
+013. Comparative analysis of green building certification systems: LEED vs Greenship for tropical context
+014. Performance evaluation of earth-sheltered architecture for thermal regulation in tropical climate
+015. Effect of building orientation on energy consumption in tropical residential buildings
+016. Evaluation of recycled material usage in sustainable construction practices in Indonesia
+017. Optimization of window-to-wall ratio for daylighting and thermal performance in tropical offices
+018. Effect of cool roof materials on indoor temperature reduction in Indonesian housing
+019. Comparative analysis of insulation materials for tropical building envelopes: thermal and economic assessment
+020. Performance evaluation of solar chimney for natural ventilation enhancement in tropical buildings
+021. Effect of courtyard design on microclimate and thermal comfort in tropical housing clusters
+022. Evaluation of greywater recycling systems in Indonesian green residential developments
+023. Optimization of double-skin facade design for tropical high-rise buildings using CFD
+024. Effect of landscape design on outdoor thermal comfort in tropical urban spaces
+025. Comparative analysis of energy-efficient HVAC systems for tropical commercial buildings
+026. Performance evaluation of phase change materials for passive cooling in Indonesian buildings
+027. Effect of building massing on wind flow and natural ventilation potential in tropical housing
+028. Evaluation of sustainable timber certification impact on Indonesian construction industry
+029. Optimization of atrium design for daylighting and stack ventilation in tropical buildings
+030. Effect of permeable paving on stormwater management in Indonesian urban developments
+031. Comparative analysis of bioclimatic design principles in contemporary Indonesian architecture
+032. Performance evaluation of radiant cooling systems in tropical humid climate
+033. Effect of vegetation buffer on noise reduction and air quality in urban Indonesian buildings
+034. Evaluation of waste management strategies in green building construction in Indonesia
+035. Optimization of natural lighting design to reduce artificial lighting energy in tropical schools
+036. Effect of thermal mass on indoor temperature fluctuation in tropical residential buildings
+037. Comparative analysis of renewable energy integration strategies for Indonesian green buildings
+038. Performance evaluation of evaporative cooling systems in semi-arid regions of Eastern Indonesia
+039. Effect of green building design on occupant productivity and well-being: POE study
+040. Evaluation of carbon footprint reduction strategies in Indonesian high-rise construction
+041. Optimization of building form for minimum solar heat gain in tropical urban context
+042. Effect of adaptive thermal comfort model application on HVAC energy savings in Indonesia
+043. Comparative analysis of sustainable drainage systems (SuDS) for Indonesian urban developments
+044. Performance evaluation of wind catchers adapted for tropical Indonesian climate
+045. Effect of material selection on indoor air quality in green-certified Indonesian buildings
+046. Evaluation of energy audit findings in existing Indonesian commercial buildings
+047. Optimization of mixed-mode ventilation strategy for tropical educational buildings
+048. Effect of urban density on building energy performance in Indonesian cities
+049. Comparative analysis of green building incentive policies across Indonesian municipalities
+050. Performance evaluation of net-zero water strategies for Indonesian resort architecture
+
+--- TROPICAL ARCHITECTURE & CLIMATE DESIGN (051-100) ---
+051. Thermal performance evaluation of traditional Javanese Joglo house using EnergyPlus simulation
+052. Effect of roof geometry on natural ventilation in tropical residential buildings: CFD analysis
+053. Comparative analysis of ventilation strategies in Malay traditional vs contemporary houses
+054. Optimization of overhang depth for solar shading in tropical facade design
+055. Effect of building material thermal properties on indoor comfort in tropical humid climate
+056. Evaluation of stack ventilation effectiveness in multi-story tropical buildings
+057. Comparative analysis of adaptive comfort models for naturally ventilated buildings in Indonesia
+058. Performance of double-roof system on heat gain reduction in tropical housing
+059. Effect of vegetation integration on building surface temperature in tropical urban context
+060. Optimization of fenestration design for thermal and visual comfort in tropical classrooms
+061. Effect of air gap in cavity wall on thermal performance in tropical climate
+062. Evaluation of night ventilation cooling potential in Indonesian tropical buildings
+063. Comparative analysis of roof materials on indoor thermal environment in tropical housing
+064. Performance of wind-driven ventilation in high-density tropical housing developments
+065. Effect of floor-to-ceiling height on thermal stratification in naturally ventilated tropical rooms
+066. Optimization of louver design for rain protection and ventilation in tropical facades
+067. Effect of urban canyon geometry on outdoor thermal comfort in tropical Indonesian cities
+068. Evaluation of thermal comfort in naturally ventilated tropical shopping malls
+069. Comparative analysis of ceiling fan effectiveness vs air conditioning in tropical offices
+070. Performance of earth tube cooling system in tropical Indonesian climate
+071. Effect of glazing type on solar heat gain and daylighting in tropical buildings
+072. Optimization of building spacing for wind flow in tropical housing clusters
+073. Effect of wall color and reflectance on indoor temperature in tropical buildings
+074. Evaluation of thermal performance of compressed earth block construction in tropical Indonesia
+075. Comparative analysis of tropical climate design strategies across Indonesian climate zones
+076. Performance of ventilated facade system on thermal load reduction in tropical high-rise
+077. Effect of landscape microclimate on building energy demand in tropical urban areas
+078. Optimization of skylight design for daylighting without overheating in tropical buildings
+079. Effect of humidity control strategies on thermal comfort in tropical naturally ventilated buildings
+080. Evaluation of thermal bridging in tropical building envelope details
+081. Comparative analysis of passive cooling techniques for tropical healthcare facilities
+082. Performance of solar reflective coating on roof thermal performance in tropical climate
+083. Effect of internal heat gains on cooling load in tropical office buildings
+084. Optimization of corridor and void design for air movement in tropical apartments
+085. Effect of monsoon wind patterns on natural ventilation design in Indonesian coastal buildings
+086. Evaluation of thermal comfort in underground architecture in tropical climate
+087. Comparative analysis of traditional cooling strategies in Indonesian archipelago dwellings
+088. Performance of bamboo construction on thermal regulation in tropical residential buildings
+089. Effect of building porosity on wind-induced ventilation in tropical urban blocks
+090. Optimization of roof ventilation gap for heat dissipation in tropical metal roof buildings
+091. Effect of tropical rain on facade performance and indoor moisture levels
+092. Evaluation of thermal comfort in open-plan tropical office with mixed-mode cooling
+093. Comparative analysis of OTTV compliance strategies for tropical commercial buildings
+094. Performance of bio-composite wall panels on thermal insulation in tropical climate
+095. Effect of street orientation on pedestrian thermal comfort in tropical Indonesian cities
+096. Optimization of building depth for natural ventilation and daylighting in tropical housing
+097. Effect of elevated floor design on moisture control and ventilation in tropical buildings
+098. Evaluation of thermal performance of interlocking brick construction in Indonesian housing
+099. Comparative analysis of tropical design guidelines across Southeast Asian countries
+100. Performance of hybrid ventilation system combining stack and wind effects in tropical buildings
+
+--- URBAN DESIGN & PUBLIC SPACE (101-150) ---
+101. Space syntax analysis of pedestrian movement patterns in traditional Indonesian market (pasar)
+102. Effect of urban green infrastructure on microclimate in Indonesian city centers
+103. Comparative evaluation of walkability indices in Indonesian vs international urban contexts
+104. Influence of street furniture design on public space usage in tropical urban areas
+105. Effect of transit-oriented development on urban spatial structure in Jakarta
+106. Evaluation of child-friendly city design principles in Indonesian urban neighborhoods
+107. Comparative analysis of public space quality in heritage vs modern districts
+108. Performance of urban farming integration in Indonesian residential neighborhood design
+109. Effect of mixed-use development on pedestrian activity and social interaction
+110. Evaluation of inclusive design principles in Indonesian public transportation hubs
+111. Comparative analysis of urban park design for thermal comfort in tropical cities
+112. Influence of building setback regulations on street-level wind comfort
+113. Effect of waterfront development on urban connectivity and public access
+114. Evaluation of night-time urban design and safety perception in Indonesian cities
+115. Comparative analysis of kampung improvement programs on spatial quality
+116. Performance of permeable urban design on flood mitigation in Indonesian cities
+117. Effect of street vendor accommodation design on urban spatial order
+118. Evaluation of cycling infrastructure design for tropical Indonesian cities
+119. Comparative analysis of urban morphology and energy consumption patterns
+120. Influence of cultural activities on public space vitality in Indonesian heritage cities
+121. Effect of high-rise development on wind environment at pedestrian level: CFD study
+122. Evaluation of urban design guidelines for earthquake-prone Indonesian cities
+123. Comparative analysis of traditional vs modern neighborhood spatial patterns using space syntax
+124. Performance of urban tree canopy on pedestrian thermal comfort in tropical streets
+125. Effect of gated community design on urban connectivity and social segregation
+126. Evaluation of smart city infrastructure integration in Indonesian urban design
+127. Comparative analysis of riverfront revitalization strategies in Indonesian cities
+128. Influence of mosque and religious building placement on neighborhood spatial structure
+129. Effect of informal settlement upgrading on spatial accessibility and connectivity
+130. Evaluation of pedestrian bridge design for accessibility in Indonesian urban areas
+131. Comparative analysis of urban void utilization strategies in dense Indonesian cities
+132. Performance of bioretention systems in urban landscape design for tropical climate
+133. Effect of commercial strip development on traffic and pedestrian safety
+134. Evaluation of universal design implementation in Indonesian public buildings
+135. Comparative analysis of urban resilience strategies for coastal Indonesian cities
+136. Influence of traditional spatial hierarchy on contemporary Indonesian urban planning
+137. Effect of urban infill development on neighborhood character and livability
+138. Evaluation of public space programming for social cohesion in diverse communities
+139. Comparative analysis of parking design strategies and their impact on urban quality
+140. Performance of urban greenway networks on ecological connectivity in Indonesian cities
+141. Effect of building height regulations on skyline and urban identity
+142. Evaluation of tactical urbanism interventions in Indonesian city revitalization
+143. Comparative analysis of new town development patterns in Indonesian metropolitan areas
+144. Influence of digital technology on public space usage patterns: post-pandemic study
+145. Effect of urban agriculture design on food security and community building
+146. Evaluation of age-friendly urban design in Indonesian residential neighborhoods
+147. Comparative analysis of urban drainage design integration with public space
+148. Performance of shading structures on outdoor thermal comfort in tropical plazas
+149. Effect of urban renewal on displacement and gentrification in Indonesian kampungs
+150. Evaluation of wayfinding design systems in Indonesian transportation interchanges
+
+--- HERITAGE CONSERVATION & ADAPTIVE REUSE (151-200) ---
+151. Documentation and conservation strategy for Javanese Joglo houses using 3D photogrammetry
+152. Adaptive reuse of colonial Dutch buildings for contemporary functions in Semarang
+153. Effect of conservation interventions on structural integrity of traditional timber buildings
+154. Evaluation of authenticity criteria application in Indonesian heritage building restoration
+155. Comparative analysis of adaptive reuse strategies for industrial heritage in Indonesian cities
+156. Performance assessment of traditional building materials in heritage conservation context
+157. Effect of tourism development on heritage building preservation in Yogyakarta
+158. Evaluation of digital documentation methods for intangible heritage of Indonesian architecture
+159. Comparative analysis of heritage management frameworks: Indonesian vs international approaches
+160. Influence of community participation on heritage conservation outcomes in Indonesian villages
+161. Effect of climate change on deterioration of heritage buildings in tropical Indonesia
+162. Evaluation of compatible materials for restoration of colonial-era buildings
+163. Comparative analysis of heritage impact assessment methods for urban development projects
+164. Performance of traditional lime mortar vs modern cement in heritage building repair
+165. Effect of adaptive reuse on cultural significance retention: case study analysis
+166. Evaluation of BIM application for heritage building information management (HBIM)
+167. Comparative analysis of heritage building energy retrofit strategies in tropical climate
+168. Influence of local regulations on heritage conservation practice in Indonesian cities
+169. Effect of seismic retrofitting on architectural character of heritage buildings
+170. Evaluation of traditional Minangkabau Rumah Gadang construction techniques and conservation
+171. Comparative analysis of heritage tourism management in Indonesian UNESCO World Heritage Sites
+172. Performance of non-destructive testing methods for heritage building structural assessment
+173. Effect of urbanization pressure on heritage building survival in Indonesian city centers
+174. Evaluation of vernacular building typology documentation in Eastern Indonesian islands
+175. Comparative analysis of conservation philosophy: restoration vs preservation in Indonesian context
+176. Influence of economic factors on heritage building maintenance in Indonesian communities
+177. Effect of fire protection systems on heritage building character preservation
+178. Evaluation of traditional Torajan Tongkonan house conservation challenges and strategies
+179. Comparative analysis of heritage area revitalization approaches in Indonesian historic cities
+180. Performance of traditional roofing materials (sirap, ijuk) in heritage building conservation
+181. Effect of modern infrastructure insertion on heritage district spatial character
+182. Evaluation of augmented reality application for heritage building interpretation
+183. Comparative analysis of funding mechanisms for heritage conservation in Indonesia
+184. Influence of colonial architectural heritage on contemporary Indonesian architectural identity
+185. Effect of environmental pollution on stone deterioration in Indonesian temple heritage
+186. Evaluation of traditional Balinese compound (natah) spatial organization and conservation
+187. Comparative analysis of heritage building structural assessment methods: visual vs instrumental
+188. Performance of consolidation treatments on deteriorated traditional timber structures
+189. Effect of land value increase on heritage building demolition risk in urban areas
+190. Evaluation of intangible cultural heritage integration in architectural conservation practice
+191. Comparative analysis of heritage building adaptive reuse for creative economy spaces
+192. Influence of disaster risk on heritage building conservation planning in Indonesia
+193. Effect of vegetation management on heritage building envelope preservation
+194. Evaluation of traditional Chinese shophouse (ruko) conservation in Indonesian cities
+195. Comparative analysis of heritage interpretation strategies for educational purposes
+196. Performance of monitoring systems for structural health of heritage buildings
+197. Effect of accessibility requirements on heritage building conservation design
+198. Evaluation of traditional Dayak longhouse (lamin) documentation and preservation
+199. Comparative analysis of heritage building material testing protocols
+200. Influence of stakeholder conflicts on heritage conservation decision-making in Indonesia
+
+--- HOUSING & RESIDENTIAL DESIGN (201-250) ---
+201. Post-occupancy evaluation of low-cost housing thermal comfort in Indonesian tropical climate
+202. Effect of spatial layout on natural ventilation performance in Indonesian social housing
+203. Comparative analysis of modular vs conventional construction for affordable housing
+204. Influence of cultural values on spatial organization in contemporary Indonesian houses
+205. Effect of vertical housing design on community interaction and social cohesion
+206. Evaluation of incremental housing design strategies for low-income Indonesian families
+207. Comparative analysis of housing typologies and energy consumption patterns in Indonesian cities
+208. Performance of prefabricated construction systems for mass housing in Indonesia
+209. Effect of shared spaces design on neighborhood social capital in housing clusters
+210. Evaluation of universal design implementation in Indonesian residential buildings
+211. Comparative analysis of housing satisfaction in landed vs high-rise residential developments
+212. Influence of home-based enterprise on residential spatial transformation in kampungs
+213. Effect of balcony design on thermal comfort and livability in tropical apartments
+214. Evaluation of co-housing design principles for Indonesian urban context
+215. Comparative analysis of housing density and quality of life indicators
+216. Performance of passive design strategies in Indonesian government housing programs (FLPP)
+217. Effect of interior courtyard on daylighting and ventilation in row housing
+218. Evaluation of elderly-friendly housing design in Indonesian residential developments
+219. Comparative analysis of housing construction waste reduction strategies
+220. Influence of feng shui and local beliefs on Indonesian Chinese residential design
+221. Effect of rooftop garden on thermal performance of top-floor apartments in tropical climate
+222. Evaluation of smart home technology adoption in Indonesian residential buildings
+223. Comparative analysis of housing affordability and design quality trade-offs
+224. Performance of natural materials (bamboo, rammed earth) in contemporary Indonesian housing
+225. Effect of neighborhood design on children's outdoor play behavior
+226. Evaluation of post-disaster temporary housing design for Indonesian earthquake zones
+227. Comparative analysis of housing cluster design and microclimate performance
+228. Influence of privacy gradient on spatial satisfaction in Indonesian multi-family housing
+229. Effect of flexible floor plan design on long-term housing adaptability
+230. Evaluation of student housing design for thermal comfort and study productivity
+231. Comparative analysis of housing renovation patterns in Indonesian urban kampungs
+232. Performance of green roof systems on top-floor thermal comfort in tropical apartments
+233. Effect of window design on cross-ventilation effectiveness in single-loaded corridor apartments
+234. Evaluation of aging-in-place design features in Indonesian residential architecture
+235. Comparative analysis of housing delivery systems and spatial quality outcomes
+236. Influence of work-from-home trends on residential space requirements post-pandemic
+237. Effect of communal space design on social interaction in vertical housing
+238. Evaluation of biophilic design principles in Indonesian residential architecture
+239. Comparative analysis of housing satisfaction between self-built vs developer-built homes
+240. Performance of rainwater harvesting integration in Indonesian residential design
+241. Effect of street-level design on sense of community in housing neighborhoods
+242. Evaluation of disaster-resilient housing design for Indonesian flood-prone areas
+243. Comparative analysis of traditional vs modern spatial organization in Indonesian houses
+244. Influence of economic status on housing spatial transformation over time
+245. Effect of vegetation integration on indoor air quality in tropical residential buildings
+246. Evaluation of tiny house design principles for Indonesian urban land constraints
+247. Comparative analysis of housing policy impact on architectural quality in Indonesian cities
+248. Performance of cross-laminated timber (CLT) for mid-rise housing in tropical climate
+249. Effect of acoustic design on residential satisfaction in high-density housing
+250. Evaluation of net-zero energy housing design feasibility in Indonesian tropical context
+
+--- DIGITAL DESIGN & COMPUTATIONAL ARCHITECTURE (251-300) ---
+251. Application of genetic algorithm optimization for building form generation in tropical climate
+252. Comparative evaluation of parametric design tools for facade shading optimization
+253. Effect of machine learning on prediction of building energy performance
+254. Development of computational design workflow for climate-responsive architecture in Indonesia
+255. Comparative analysis of BIM maturity levels in Indonesian architectural practice
+256. Performance of generative adversarial networks (GAN) for architectural floor plan generation
+257. Effect of parametric facade design on daylighting and energy performance
+258. Evaluation of digital twin technology for building performance monitoring
+259. Comparative analysis of 3D printing materials for architectural model fabrication
+260. Influence of algorithmic design on structural efficiency of free-form architecture
+261. Effect of virtual reality on architectural design review and client communication
+262. Evaluation of robotic fabrication potential for Indonesian construction industry
+263. Comparative analysis of BIM collaboration platforms for Indonesian architectural firms
+264. Performance of topology optimization for structural design in architecture
+265. Effect of augmented reality on construction site management and quality control
+266. Evaluation of AI-assisted design tools for early-stage architectural concept generation
+267. Comparative analysis of point cloud processing methods for heritage building documentation
+268. Influence of computational fluid dynamics on natural ventilation design optimization
+269. Effect of parametric environmental analysis on design decision-making process
+270. Evaluation of blockchain technology for BIM-based construction project management
+271. Comparative analysis of digital fabrication techniques for architectural components
+272. Performance of neural network models for predicting thermal comfort in buildings
+273. Effect of immersive VR environment on spatial perception in architectural design
+274. Evaluation of drone photogrammetry for large-scale architectural documentation
+275. Comparative analysis of cloud-based vs local BIM implementation in Indonesian firms
+276. Influence of IoT sensors on real-time building performance optimization
+277. Effect of generative design on material efficiency in architectural structures
+278. Evaluation of mixed reality (MR) for on-site construction visualization
+279. Comparative analysis of parametric design approaches for responsive building skins
+280. Performance of deep learning for automated building footprint extraction from satellite imagery
+281. Effect of computational design on construction cost optimization
+282. Evaluation of 4D BIM for construction scheduling in Indonesian building projects
+283. Comparative analysis of simulation-driven design vs intuition-based design outcomes
+284. Influence of digital tools on collaborative design process in architecture
+285. Effect of shape grammar on generation of culturally-responsive architectural forms
+286. Evaluation of CNC fabrication for customized architectural elements in Indonesia
+287. Comparative analysis of energy modeling software accuracy for tropical buildings
+288. Performance of reinforcement learning for building energy management optimization
+289. Effect of parametric structural analysis on material reduction in long-span structures
+290. Evaluation of photogrammetric survey accuracy for architectural measured drawings
+291. Comparative analysis of BIM-based quantity take-off vs traditional methods
+292. Influence of computational tools on design creativity and innovation
+293. Effect of agent-based modeling on pedestrian flow simulation in building design
+294. Evaluation of 3D-printed concrete potential for Indonesian construction applications
+295. Comparative analysis of scan-to-BIM workflows for existing building documentation
+296. Performance of multi-objective optimization for sustainable building design
+297. Effect of digital twin on facility management efficiency in Indonesian buildings
+298. Evaluation of procedural modeling for urban-scale architectural visualization
+299. Comparative analysis of VR vs physical model for design evaluation effectiveness
+300. Influence of parametric design on fabrication complexity and construction feasibility
+
+--- BUILDING PERFORMANCE & SIMULATION (301-350) ---
+301. Validation of EnergyPlus simulation model for tropical office building in Jakarta
+302. Effect of climate change scenarios on building cooling load projections in Indonesia
+303. Comparative analysis of daylighting simulation tools accuracy for tropical buildings
+304. Performance evaluation of natural ventilation using CFD in Indonesian school buildings
+305. Effect of occupant behavior modeling on building energy simulation accuracy
+306. Evaluation of building energy benchmarking for Indonesian commercial buildings
+307. Comparative analysis of HVAC system configurations for tropical office energy efficiency
+308. Performance of Radiance simulation for daylighting design in tropical classrooms
+309. Effect of urban heat island on building energy demand in Indonesian cities
+310. Evaluation of building performance gap between design prediction and actual operation
+311. Comparative analysis of thermal comfort prediction models for Indonesian buildings
+312. Performance of wind-driven rain simulation for tropical building facade design
+313. Effect of building automation systems on energy savings in Indonesian commercial buildings
+314. Evaluation of acoustic performance simulation for open-plan tropical offices
+315. Comparative analysis of life cycle energy assessment methods for Indonesian buildings
+316. Performance of coupled thermal-airflow simulation for naturally ventilated buildings
+317. Effect of solar panel integration on roof thermal performance: simulation study
+318. Evaluation of indoor environmental quality monitoring systems in Indonesian green buildings
+319. Comparative analysis of building energy codes compliance in Indonesian cities
+320. Performance of multi-zone thermal simulation for traditional Indonesian house typologies
+321. Effect of glazing properties on visual comfort and glare in tropical offices
+322. Evaluation of embodied energy calculation methods for Indonesian construction materials
+323. Comparative analysis of natural vs mechanical ventilation energy performance in tropical hospitals
+324. Performance of moisture simulation for building envelope design in humid tropical climate
+325. Effect of lighting control strategies on energy savings in Indonesian office buildings
+326. Evaluation of thermal bridging impact on overall building energy performance
+327. Comparative analysis of building performance simulation vs post-occupancy measurement
+328. Performance of urban microclimate simulation for outdoor comfort design
+329. Effect of building information modeling on energy analysis workflow efficiency
+330. Evaluation of renewable energy potential assessment for Indonesian building integration
+331. Comparative analysis of cooling load calculation methods for tropical buildings
+332. Performance of computational fluid dynamics for smoke control design in Indonesian buildings
+333. Effect of envelope thermal performance on peak cooling demand in tropical offices
+334. Evaluation of daylight autonomy metrics for tropical building design assessment
+335. Comparative analysis of building energy management systems for Indonesian facilities
+336. Performance of whole-building simulation for retrofit decision-making in existing buildings
+337. Effect of climate data source on simulation accuracy for Indonesian locations
+338. Evaluation of thermal comfort field measurement protocols for tropical buildings
+339. Comparative analysis of building performance indicators for tropical sustainability assessment
+340. Performance of parametric simulation for early-stage design optimization
+341. Effect of shading device geometry on annual energy performance: parametric study
+342. Evaluation of indoor air quality simulation for naturally ventilated tropical buildings
+343. Comparative analysis of building energy labeling systems applicability for Indonesia
+344. Performance of co-simulation approach for HVAC and building thermal interaction
+345. Effect of thermal zoning strategy on simulation accuracy for large buildings
+346. Evaluation of fault detection and diagnostics for building HVAC systems in Indonesia
+347. Comparative analysis of weather file generation methods for Indonesian locations
+348. Performance of stochastic occupancy modeling on building energy prediction
+349. Effect of facade orientation on annual energy balance in tropical high-rise buildings
+350. Evaluation of building performance certification impact on property value in Indonesia
+
+--- INTERIOR ARCHITECTURE & SPACE PLANNING (351-400) ---
+351. Effect of biophilic design elements on occupant well-being in Indonesian office interiors
+352. Comparative analysis of open-plan vs cellular office layout on productivity and satisfaction
+353. Influence of color scheme on thermal perception in tropical interior spaces
+354. Effect of natural material usage on indoor air quality in Indonesian residential interiors
+355. Evaluation of wayfinding design effectiveness in Indonesian hospital interiors
+356. Comparative analysis of co-working space design for creative industry in Indonesian cities
+357. Performance of acoustic design strategies in open-plan tropical office environments
+358. Effect of lighting design on circadian rhythm and productivity in Indonesian offices
+359. Evaluation of universal design principles in Indonesian shopping mall interiors
+360. Comparative analysis of restaurant interior design on dining experience and behavior
+361. Influence of cultural symbolism on interior design of Indonesian luxury hotels
+362. Effect of flexible furniture systems on space utilization in Indonesian educational facilities
+363. Evaluation of sensory design approach for autism-friendly spaces in Indonesian schools
+364. Comparative analysis of retail interior design strategies on consumer behavior
+365. Performance of indoor plants on air purification and thermal comfort in tropical interiors
+366. Effect of ceiling height on spatial perception and comfort in Indonesian residential interiors
+367. Evaluation of ergonomic workspace design in Indonesian home office environments
+368. Comparative analysis of healthcare interior design on patient recovery outcomes
+369. Influence of traditional Indonesian ornament application in contemporary interior design
+370. Effect of material texture on tactile experience and spatial quality in interiors
+371. Evaluation of adaptive interior design for multi-generational Indonesian households
+372. Comparative analysis of museum exhibition design approaches in Indonesian cultural institutions
+373. Performance of sound masking systems in Indonesian open-plan office environments
+374. Effect of interior greenery on stress reduction in Indonesian hospital waiting areas
+375. Evaluation of inclusive bathroom design for elderly and disabled users in Indonesia
+376. Comparative analysis of classroom interior design on student engagement and learning
+377. Influence of Islamic design principles on mosque interior architecture in Indonesia
+378. Effect of smart lighting systems on energy savings and comfort in office interiors
+379. Evaluation of children's space design in Indonesian public libraries
+380. Comparative analysis of hotel lobby design on guest first impression and satisfaction
+381. Performance of natural ventilation integration in interior space planning for tropical buildings
+382. Effect of partition design on privacy and collaboration in co-working spaces
+383. Evaluation of kitchen design ergonomics in Indonesian social housing
+384. Comparative analysis of interior finishing materials on indoor environmental quality
+385. Influence of Javanese spatial philosophy on contemporary Indonesian interior design
+386. Effect of view access and window proximity on occupant satisfaction in offices
+387. Evaluation of fire safety design integration in Indonesian high-rise interior planning
+388. Comparative analysis of elderly care facility design in Indonesian cultural context
+389. Performance of daylighting integration strategies in deep-plan Indonesian office interiors
+390. Effect of interior layout on social interaction patterns in Indonesian student dormitories
+391. Evaluation of sustainable interior material selection for Indonesian green building certification
+392. Comparative analysis of worship space design across Indonesian religious buildings
+393. Influence of post-pandemic design on Indonesian office interior reconfiguration
+394. Effect of art installation on spatial experience in Indonesian public building interiors
+395. Evaluation of thermal comfort in naturally ventilated Indonesian restaurant interiors
+396. Comparative analysis of interior design education curriculum in Indonesian universities
+397. Performance of modular interior systems for adaptable Indonesian healthcare facilities
+398. Effect of interior courtyard on daylighting distribution in deep-plan tropical buildings
+399. Evaluation of heritage interior conservation approaches in Indonesian colonial buildings
+400. Comparative analysis of interior design trends and cultural identity in Indonesian hospitality
+
+--- DISASTER-RESILIENT ARCHITECTURE (401-450) ---
+401. Evaluation of earthquake-resistant design implementation in Indonesian low-cost housing
+402. Effect of building configuration on seismic vulnerability in Indonesian urban areas
+403. Comparative analysis of tsunami evacuation building design standards in Indonesian coastal cities
+404. Performance of bamboo-reinforced concrete for earthquake-resistant construction in Indonesia
+405. Effect of soft-story retrofitting strategies on seismic performance of Indonesian buildings
+406. Evaluation of flood-resilient housing design for Indonesian riverbank communities
+407. Comparative analysis of disaster shelter design for Indonesian earthquake and tsunami zones
+408. Performance of base isolation systems for heritage building seismic protection
+409. Effect of building material selection on fire resistance in Indonesian dense settlements
+410. Evaluation of landslide-resilient architecture for Indonesian hillside communities
+411. Comparative analysis of post-disaster reconstruction approaches in Indonesian communities
+412. Performance of elevated housing design for flood-prone areas in Indonesian cities
+413. Effect of urban planning on disaster risk reduction in Indonesian coastal cities
+414. Evaluation of community-based disaster-resilient housing design programs
+415. Comparative analysis of building code compliance and earthquake damage correlation
+416. Performance of confined masonry construction for seismic resistance in Indonesian housing
+417. Effect of roof-to-wall connection design on wind resistance in Indonesian buildings
+418. Evaluation of volcanic hazard-resilient architecture for communities near active volcanoes
+419. Comparative analysis of disaster recovery housing: temporary vs permanent solutions
+420. Performance of fiber-reinforced polymer retrofitting for seismic strengthening
+421. Effect of building density on fire spread risk in Indonesian urban kampungs
+422. Evaluation of multi-hazard resilient design for Indonesian island communities
+423. Comparative analysis of traditional vs modern construction seismic performance in Indonesia
+424. Performance of geosynthetic-reinforced soil structures for landslide mitigation
+425. Effect of evacuation route design on tsunami evacuation time: simulation study
+426. Evaluation of school building seismic safety in Indonesian earthquake-prone regions
+427. Comparative analysis of disaster-resilient infrastructure design standards across Indonesian regions
+428. Performance of lightweight steel frame construction for earthquake resistance in Indonesia
+429. Effect of green infrastructure on urban flood resilience in Indonesian cities
+430. Evaluation of hospital building resilience to earthquake and functional continuity
+431. Comparative analysis of vernacular construction earthquake resistance across Indonesian regions
+432. Performance of interlocking block construction for earthquake-resistant affordable housing
+433. Effect of site selection criteria on natural hazard exposure of Indonesian buildings
+434. Evaluation of climate change adaptation strategies for Indonesian coastal architecture
+435. Comparative analysis of disaster risk assessment methods for Indonesian built environment
+436. Performance of reinforced concrete frame vs shear wall system in seismic zones
+437. Effect of building age on seismic vulnerability in Indonesian urban areas
+438. Evaluation of fire escape design adequacy in Indonesian high-rise residential buildings
+439. Comparative analysis of post-earthquake building assessment methods in Indonesia
+440. Performance of disaster-resilient school design for Indonesian earthquake-prone areas
+441. Effect of mangrove restoration on coastal building protection from storm surge
+442. Evaluation of emergency shelter design for Indonesian volcanic eruption displacement
+443. Comparative analysis of building insurance and disaster-resilient design incentives
+444. Performance of seismic isolation for critical facility protection in Indonesia
+445. Effect of urban morphology on earthquake damage distribution patterns
+446. Evaluation of community resilience hub design for Indonesian disaster-prone areas
+447. Comparative analysis of rapid visual screening methods for seismic vulnerability
+448. Performance of disaster-resilient material innovations for Indonesian construction
+449. Effect of early warning system integration on evacuation building design
+450. Evaluation of build-back-better principles implementation in Indonesian post-disaster reconstruction
+
+--- ARCHITECTURE THEORY & CRITICISM (451-500) ---
+451. Critical analysis of critical regionalism application in contemporary Indonesian architecture
+452. Influence of globalization on architectural identity in Indonesian metropolitan cities
+453. Comparative analysis of phenomenological approach in Indonesian architectural design education
+454. Effect of postmodern theory on Indonesian public building design language
+455. Evaluation of genius loci concept interpretation in contemporary Indonesian architecture
+456. Comparative analysis of architectural criticism methodologies in Indonesian academic discourse
+457. Influence of deconstructivism on Indonesian contemporary architectural practice
+458. Effect of sustainability discourse on architectural design philosophy in Indonesia
+459. Evaluation of biophilic design theory application in Indonesian healthcare architecture
+460. Comparative analysis of participatory design approaches in Indonesian community architecture
+461. Influence of Islamic architectural theory on contemporary mosque design in Indonesia
+462. Effect of colonial architectural legacy on post-independence Indonesian architectural identity
+463. Evaluation of place-making theory in Indonesian new town development
+464. Comparative analysis of architectural education paradigms across Indonesian universities
+465. Influence of technology on architectural design process transformation in Indonesia
+466. Effect of neoliberal urbanism on architectural production in Indonesian cities
+467. Evaluation of feminist perspective in Indonesian architectural space design
+468. Comparative analysis of vernacular architecture theory and contemporary design practice
+469. Influence of Nusantara capital city (IKN) on Indonesian architectural discourse
+470. Effect of social media on architectural aesthetics and public taste in Indonesia
+471. Evaluation of resilience theory application in Indonesian architectural design
+472. Comparative analysis of biomimicry principles in Indonesian architectural innovation
+473. Influence of Buddhist and Hindu cosmology on Indonesian temple architecture interpretation
+474. Effect of minimalism philosophy on contemporary Indonesian residential architecture
+475. Evaluation of adaptive architecture theory for climate-responsive design in tropics
+476. Comparative analysis of architectural research methodologies in Indonesian doctoral programs
+477. Influence of local wisdom (kearifan lokal) on sustainable architectural design theory
+478. Effect of digital culture on spatial experience and architectural meaning
+479. Evaluation of post-pandemic architectural theory on space and social distancing
+480. Comparative analysis of architectural phenomenology in tropical vs temperate contexts
+481. Influence of political ideology on monumental architecture in Indonesian history
+482. Effect of creative economy on architectural space production in Indonesian cities
+483. Evaluation of transdisciplinary approach in Indonesian architectural research
+484. Comparative analysis of architectural ethics in heritage conservation practice
+485. Influence of climate emergency discourse on Indonesian architectural education reform
+486. Effect of indigenous knowledge systems on contemporary Indonesian architectural theory
+487. Evaluation of sensory architecture theory for inclusive design in Indonesia
+488. Comparative analysis of utopian vs pragmatic approaches in Indonesian housing design
+489. Influence of maritime culture on coastal architectural identity in Indonesian archipelago
+490. Effect of artificial intelligence on architectural creativity and design authorship
+491. Evaluation of circular economy principles in Indonesian architectural material practice
+492. Comparative analysis of architectural competition outcomes and built reality in Indonesia
+493. Influence of Javanese cosmology (kejawen) on spatial organization in architecture
+494. Effect of tourism commodification on authenticity of Indonesian vernacular architecture
+495. Evaluation of regenerative design theory beyond sustainability in Indonesian context
+496. Comparative analysis of architectural representation methods and design communication
+497. Influence of pandemic on rethinking public space theory in Indonesian cities
+498. Effect of demographic change on architectural typology evolution in Indonesia
+499. Evaluation of decolonizing architecture theory in Indonesian post-colonial context
+500. Comparative analysis of future scenarios for Indonesian architectural practice and education

@@ -1,0 +1,705 @@
+================================================================================
+TOPIC GUIDE — Informatics / Computer Science (Comprehensive)
+================================================================================
+FIELD: Informatics / Computer Science
+DEFAULT CITATION STYLE: IEEE
+SUBDISCIPLINE: Artificial Intelligence, Machine Learning, Software Engineering, Computer Networks,
+  Distributed Systems, Cybersecurity, Privacy, Data Science, Big Data, Information Systems,
+  Digital Transformation, Human-Computer Interaction, UX Design, Natural Language Processing,
+  Computer Vision, Multimedia Computing, IoT, Edge Computing, Embedded Systems
+
+COMMON REFERENCE VENUES:
+  IEEE Transactions on Software Engineering, IEEE Transactions on Pattern Analysis and Machine Intelligence,
+  ACM Computing Surveys, IEEE Transactions on Knowledge and Data Engineering, Information Sciences,
+  Expert Systems with Applications, Journal of Systems and Software, Computers & Security,
+  IEEE Internet of Things Journal, ACM Transactions on Information Systems, International Journal of
+  Human-Computer Studies, Computational Linguistics, IEEE Transactions on Multimedia,
+  Future Generation Computer Systems, Journal of Network and Computer Applications,
+  Knowledge-Based Systems, Applied Soft Computing, IEEE Access, Sensors (MDPI),
+  Journal of Big Data, Decision Support Systems, Computers in Industry
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature related to the user's topic
+   - Reference recent works (2020-2025) that establish what is known
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame the gap as a researchable question with measurable outcomes
+   - Ensure the gap targets Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine the user's idea into a publishable research title
+   - The title must be specific, include method and application domain
+   - Target journals listed in COMMON REFERENCE VENUES above
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Use cutting-edge methods appropriate to the subdiscipline
+   - Include complete algorithmic steps or research procedures
+   - Specify all tools, software, versions, and configurations
+   - Detail parameters, validation strategy, and reproducibility measures
+
+4. ESTIMATED DATA & RESULTS:
+   - Provide realistic estimated data tables (10-30 data points)
+   - Include statistical measures: mean, std, 95% CI
+   - Performance metrics appropriate to the method
+   - Comparison with 3-5 baseline/state-of-the-art methods
+   - All numbers must be realistic, internally consistent, and domain-appropriate
+   - Data must support the research conclusions logically
+
+5. MATHEMATICAL FORMULAS:
+   - Include 5-10 relevant formulas with full variable definitions
+   - Show derivations or justifications where appropriate
+   - Connect formulas to the methodology and results
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - Minimum 25-30 references organized thematically
+   - Structure: (a) foundational theories, (b) recent advances 2020-2025, (c) limitations
+   - Each subsection MUST end with: "However, no study has addressed..."
+   - Use synthesis paragraphs, not citation lists
+   - Include Indonesian/Southeast Asian context where relevant
+
+7. COMPLETE PAPER STRUCTURE:
+   - Title, Abstract (200-250 words), Keywords (5-7)
+   - Introduction (1500-2000 words)
+   - Literature Review (2000-3000 words)
+   - Methodology (2000-3000 words with formulas and pseudocode)
+   - Results & Discussion (2000-3000 words with tables and figure descriptions)
+   - Conclusion (500-800 words)
+   - References (30+ entries, 60%+ from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+================================================================================
+DOMAIN-SPECIFIC GUIDANCE
+================================================================================
+
+ABSTRACT CHARACTERISTICS:
+  200–250 words. Must include: (1) problem statement with real-world context,
+  (2) proposed method/framework with key innovation, (3) dataset/experimental setup summary,
+  (4) quantitative results with specific metrics (accuracy, F1, latency, throughput, etc.),
+  (5) comparison against baselines showing improvement percentage,
+  (6) practical implications for Indonesian/Southeast Asian context.
+
+INTRODUCTION ELEMENTS:
+  - Real-world problem context with statistics (Indonesian digital economy, e-government, etc.)
+  - Current state of the art and its limitations (cite 2020-2025 works)
+  - Clear research gap statement: "Despite advances in X, no study has addressed Y in the context of Z"
+  - Research objectives (2-3 specific, measurable objectives)
+  - Research contributions (3-4 bullet points of novel contributions)
+  - Paper organization paragraph
+
+LITERATURE REVIEW:
+  Common section name: "Related Work" / "Literature Review"
+  Structure:
+  - 2.1 Foundational Concepts (seminal works, key definitions, theoretical frameworks)
+  - 2.2 Recent Advances (2020-2025) (state-of-the-art methods, architectures, frameworks)
+  - 2.3 Domain-Specific Applications (Indonesian/ASEAN context, local datasets, regulations)
+  - 2.4 Research Gap Analysis (synthesis table comparing existing works on 5-7 criteria)
+  Each subsection MUST end with explicit gap statement.
+  Include a comparison table: Author | Year | Method | Dataset | Limitation
+
+METHODOLOGY:
+  Common section name: "Methodology" / "Proposed Method" / "Research Design"
+  - 3.1 Research Framework (flowchart description, overall architecture)
+  - 3.2 Dataset/Data Collection (source, size, preprocessing, ethical considerations)
+  - 3.3 Proposed Method (detailed algorithm, pseudocode, mathematical formulation)
+  - 3.4 Implementation Details (hardware, software stack with versions, hyperparameters)
+  - 3.5 Evaluation Metrics (formulas for each metric, justification for metric selection)
+  - 3.6 Experimental Setup (baselines, ablation study design, statistical tests)
+
+EQUATIONS AND FORMULAS:
+  Include 5-10 equations covering:
+  - Core algorithm formulation (e.g., loss function, optimization objective)
+  - Evaluation metrics (precision, recall, F1, AUC, RMSE, etc.)
+  - Statistical tests (t-test, Wilcoxon, McNemar's test)
+  - Domain-specific formulas (information entropy, network throughput, response time)
+  All variables must be defined immediately after the equation.
+
+TYPICAL FIGURES:
+  - System architecture diagram
+  - Flowchart of proposed methodology
+  - Training/validation curves (loss, accuracy over epochs)
+  - Confusion matrix heatmap
+  - Bar/line chart comparing methods on multiple metrics
+  - Grad-CAM/SHAP/attention visualization (for ML papers)
+  - Network topology diagram (for networking papers)
+  - UML diagrams (for software engineering papers)
+
+TYPICAL TABLES:
+  - Literature comparison: Author | Year | Method | Dataset | Key Metric | Limitation
+  - Dataset statistics: Class | Samples | Train | Val | Test
+  - Hyperparameter settings: Parameter | Value | Search Range
+  - Results comparison: Method | Metric1 | Metric2 | Metric3 | Time
+  - Ablation study: Configuration | Component Added/Removed | Metric Change
+  - Statistical significance: Comparison | p-value | Effect Size | Significant?
+
+RESULTS & DISCUSSION:
+  - Present results in tables with bold best values
+  - Statistical significance testing (p < 0.05)
+  - Ablation study showing contribution of each component
+  - Comparison with 3-5 baselines/SOTA methods
+  - Error analysis with examples
+  - Computational complexity analysis (time, memory)
+  - Discussion of why proposed method works (connect to theory)
+  - Limitations of current study
+
+CONCLUSION CHARACTERISTICS:
+  - Restate research objectives and how each was achieved
+  - Summarize key findings with specific numbers
+  - Highlight novel contributions
+  - Discuss practical implications for Indonesian context
+  - State limitations honestly
+  - Propose 3-4 specific future research directions
+  - Final statement on broader impact
+
+DOMAIN VOCABULARY:
+  deep learning, transformer, attention mechanism, federated learning, edge computing,
+  microservices, DevOps, CI/CD, zero-trust architecture, differential privacy,
+  knowledge graph, graph neural network, large language model, prompt engineering,
+  digital twin, explainable AI, AutoML, MLOps, data pipeline, API gateway,
+  containerization, Kubernetes, blockchain, smart contract, reinforcement learning,
+  generative adversarial network, diffusion model, few-shot learning, meta-learning
+
+================================================================================
+RESEARCH TOPICS — 500 TOPICS IN 10 CATEGORIES
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 1: AI & MACHINE LEARNING (001–050)
+────────────────────────────────────────────────────────────────────────────────
+001. Explainable AI framework for credit scoring in Indonesian fintech using SHAP and LIME with fairness constraints
+002. Federated learning for hospital data collaboration in Indonesian healthcare without violating patient privacy regulations
+003. Transformer-based model for Bahasa Indonesia sentiment analysis on social media with aspect-level granularity
+004. AutoML pipeline optimization for small and medium enterprise predictive analytics in Indonesian e-commerce
+005. Graph neural network for fraud detection in Indonesian digital payment systems with temporal transaction patterns
+006. Few-shot learning approach for rare disease classification from Indonesian medical imaging datasets
+007. Reinforcement learning-based traffic signal optimization for congested intersections in Jakarta metropolitan area
+008. Multi-task learning framework for simultaneous crop disease detection and severity estimation in Indonesian agriculture
+009. Continual learning system for evolving malware detection in Indonesian banking cybersecurity infrastructure
+010. Diffusion model for synthetic medical image generation to address data scarcity in Indonesian radiology departments
+011. Meta-learning approach for cross-domain sentiment transfer between Indonesian e-commerce platforms
+012. Neural architecture search for lightweight models deployable on Indonesian rural healthcare edge devices
+013. Ensemble deep learning with uncertainty quantification for earthquake magnitude prediction in Indonesian seismic zones
+014. Knowledge distillation framework for compressing large language models for Bahasa Indonesia text processing
+015. Attention-based multi-modal fusion for Indonesian fake news detection combining text, image, and metadata
+016. Self-supervised learning for unlabeled Indonesian satellite imagery classification in deforestation monitoring
+017. Bayesian optimization for hyperparameter tuning in Indonesian stock market prediction models
+018. Causal inference framework for evaluating Indonesian government policy impact using machine learning
+019. Active learning strategy for efficient annotation of Indonesian legal document classification datasets
+020. Adversarial robustness evaluation of deep learning models for Indonesian autonomous vehicle perception
+021. Transfer learning from multilingual models to low-resource Indonesian regional language processing
+022. Physics-informed neural network for flood prediction in Indonesian river basin systems
+023. Generative adversarial network for data augmentation in Indonesian palm oil quality classification
+024. Contrastive learning for unsupervised feature extraction from Indonesian e-commerce product images
+025. Multi-agent reinforcement learning for cooperative drone delivery routing in Indonesian archipelago logistics
+026. Explainable recommendation system for Indonesian halal product certification using knowledge graphs
+027. Temporal graph neural network for dynamic social influence prediction in Indonesian political discourse
+028. Federated transfer learning for cross-hospital disease prediction with heterogeneous Indonesian medical records
+029. Neuro-symbolic AI for Indonesian legal reasoning and case law recommendation systems
+030. Quantum-inspired machine learning for portfolio optimization in Indonesian capital market
+031. Vision transformer with local attention for batik pattern classification and cultural heritage preservation
+032. Deep reinforcement learning for energy-efficient resource allocation in Indonesian data centers
+033. Curriculum learning strategy for progressive training of Indonesian speech recognition models
+034. Mixture of experts architecture for multi-domain Indonesian text classification at scale
+035. Graph attention network for academic paper recommendation in Indonesian research repositories
+036. Prompt engineering optimization for large language models in Indonesian educational content generation
+037. Variational autoencoder for anomaly detection in Indonesian manufacturing quality control systems
+038. Multi-objective evolutionary optimization for Indonesian smart grid energy distribution scheduling
+039. Capsule network with dynamic routing for Indonesian herbal medicine leaf classification
+040. Siamese network for one-shot signature verification in Indonesian banking document processing
+041. Spiking neural network for energy-efficient gesture recognition on Indonesian wearable health devices
+042. Hierarchical attention network for Indonesian legal judgment prediction from case documents
+043. Gaussian process regression for air quality index prediction in Indonesian industrial cities
+044. Wasserstein GAN for realistic Indonesian traffic scenario generation in autonomous driving simulation
+045. Neural ordinary differential equation for continuous-time modeling of Indonesian disease spread dynamics
+046. Slot attention mechanism for compositional scene understanding in Indonesian autonomous warehouse robots
+047. Differentiable architecture search for efficient Indonesian language model on mobile devices
+048. Prototype network for few-shot classification of Indonesian endangered species from camera trap images
+049. Normalizing flow model for density estimation in Indonesian financial transaction anomaly detection
+050. Transformer-based time series forecasting for Indonesian electricity demand with weather integration
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 2: SOFTWARE ENGINEERING & SYSTEMS (051–100)
+────────────────────────────────────────────────────────────────────────────────
+051. Microservices architecture optimization for Indonesian government e-service platforms using domain-driven design
+052. Technical debt prediction model for Indonesian software development teams using code metrics and ML
+053. Automated code review system for Indonesian open-source projects using large language models
+054. DevOps maturity assessment framework for Indonesian fintech startups with continuous deployment metrics
+055. Software reliability prediction for Indonesian banking core systems using deep learning on defect history
+056. Container orchestration optimization for Indonesian cloud-native applications using Kubernetes autoscaling
+057. API gateway design patterns for Indonesian super-app ecosystems with rate limiting and circuit breaking
+058. Continuous integration pipeline optimization for Indonesian agile teams using build failure prediction
+059. Model-driven engineering approach for Indonesian e-government service integration across provinces
+060. Software architecture recovery from legacy Indonesian banking systems using static and dynamic analysis
+061. Test case prioritization using reinforcement learning for Indonesian mobile application regression testing
+062. Code smell detection in Indonesian developer repositories using graph neural networks on AST
+063. Serverless computing cost optimization for Indonesian startup workloads with cold start mitigation
+064. Requirements traceability framework for Indonesian healthcare information system compliance with regulations
+065. Automated bug localization in Indonesian e-commerce platforms using information retrieval and deep learning
+066. Software process improvement framework for Indonesian IT companies transitioning to agile at scale
+067. Green software engineering metrics for measuring carbon footprint of Indonesian cloud applications
+068. Low-code platform evaluation framework for Indonesian SME digital transformation initiatives
+069. Chaos engineering practices for resilience testing of Indonesian digital banking microservices
+070. Software supply chain security analysis for Indonesian government open-source software dependencies
+071. Event-driven architecture design for real-time Indonesian stock trading platform with CQRS pattern
+072. Automated refactoring recommendation for Indonesian legacy Java enterprise applications using LLM
+073. Performance testing framework for Indonesian ride-hailing applications under peak load conditions
+074. Software product line engineering for Indonesian multi-tenant SaaS educational platforms
+075. Blockchain-based smart contract verification for Indonesian land registry digital transformation
+076. Progressive web application architecture for Indonesian rural areas with intermittent connectivity
+077. Mutation testing effectiveness evaluation for Indonesian mobile banking application test suites
+078. Software effort estimation using ensemble methods for Indonesian government IT procurement projects
+079. Feature flag management system for Indonesian e-commerce A/B testing at scale
+080. Monolith to microservices migration strategy for Indonesian state-owned enterprise legacy systems
+081. Infrastructure as code security scanning for Indonesian cloud deployments using policy-as-code
+082. Real-time data pipeline architecture for Indonesian logistics tracking using Apache Kafka and Flink
+083. Cross-platform mobile development framework comparison for Indonesian super-app feature delivery
+084. Software architecture decision documentation using architectural knowledge management for Indonesian teams
+085. Automated API testing generation for Indonesian open banking compliance using specification mining
+086. Site reliability engineering practices adoption in Indonesian unicorn technology companies
+087. Database migration strategy for Indonesian e-government systems moving from Oracle to PostgreSQL
+088. Observability platform design for Indonesian distributed microservices using OpenTelemetry
+089. Software quality assurance automation for Indonesian healthcare apps meeting BPJS integration standards
+090. Multi-cloud deployment optimization for Indonesian enterprise applications with data sovereignty constraints
+091. Technical interview assessment platform design for Indonesian tech talent evaluation using AI
+092. Software maintenance prediction model for Indonesian university information systems using change history
+093. Agile-at-scale framework adaptation for Indonesian government digital transformation programs
+094. Continuous delivery maturity model for Indonesian banking sector with regulatory compliance gates
+095. Software architecture fitness function design for Indonesian e-commerce platform evolution
+096. Automated documentation generation for Indonesian REST APIs using NLP and code analysis
+097. Service mesh implementation for Indonesian fintech microservices with mTLS and traffic management
+098. Software bill of materials management for Indonesian critical infrastructure applications
+099. Edge-cloud hybrid architecture for Indonesian smart city applications with latency constraints
+100. Digital twin software architecture for Indonesian manufacturing plant monitoring and simulation
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 3: COMPUTER NETWORKS & DISTRIBUTED SYSTEMS (101–150)
+────────────────────────────────────────────────────────────────────────────────
+101. Software-defined networking optimization for Indonesian campus networks using deep reinforcement learning
+102. 5G network slicing resource allocation for Indonesian mobile operators with QoS guarantees
+103. Delay-tolerant networking protocol for Indonesian remote island communication infrastructure
+104. Content delivery network optimization for Indonesian video streaming services using edge caching
+105. Blockchain consensus mechanism comparison for Indonesian supply chain traceability networks
+106. Peer-to-peer overlay network design for Indonesian disaster communication resilience
+107. Network function virtualization orchestration for Indonesian telecom operators using AI-driven placement
+108. Quality of service optimization for Indonesian telemedicine video conferencing over 4G/5G networks
+109. Distributed ledger technology for Indonesian inter-bank settlement with Byzantine fault tolerance
+110. Mobile ad-hoc network routing protocol for Indonesian search and rescue operations in disaster zones
+111. Network traffic classification using deep learning for Indonesian ISP bandwidth management
+112. Fog computing task offloading optimization for Indonesian smart agriculture sensor networks
+113. Software-defined WAN optimization for Indonesian enterprise multi-branch office connectivity
+114. Named data networking architecture for Indonesian content distribution in archipelago topology
+115. Network intrusion detection using federated learning across Indonesian government agency networks
+116. Load balancing algorithm for Indonesian cloud data centers using ant colony optimization
+117. Vehicular ad-hoc network protocol for Indonesian toll road cooperative awareness messaging
+118. Network slice admission control for Indonesian 5G using deep reinforcement learning
+119. Distributed hash table optimization for Indonesian peer-to-peer file sharing with NAT traversal
+120. TCP congestion control adaptation for Indonesian satellite internet links with high latency
+121. Intent-based networking framework for Indonesian enterprise network automation and self-healing
+122. Multi-path TCP optimization for Indonesian mobile users with WiFi and cellular bonding
+123. Network digital twin for Indonesian telecom infrastructure planning and failure simulation
+124. Programmable data plane using P4 for Indonesian ISP traffic engineering and monitoring
+125. Underwater acoustic network protocol for Indonesian marine monitoring sensor deployment
+126. LoRaWAN network planning optimization for Indonesian rural IoT coverage maximization
+127. Network anomaly detection using graph neural networks for Indonesian critical infrastructure protection
+128. Satellite-terrestrial integrated network handover for Indonesian maritime communication continuity
+129. Information-centric networking for Indonesian disaster relief content distribution efficiency
+130. Network energy efficiency optimization for Indonesian green data center operations using SDN
+131. Distributed consensus protocol for Indonesian e-voting system with verifiable computation
+132. Optical network resource allocation for Indonesian backbone infrastructure using machine learning
+133. Mesh networking protocol for Indonesian urban last-mile connectivity in dense environments
+134. Network telemetry analytics platform for Indonesian ISP using streaming data processing
+135. Cross-layer optimization for Indonesian underwater IoT sensor networks with energy harvesting
+136. Kubernetes cluster networking optimization for Indonesian multi-region cloud deployments
+137. WiFi 6E channel allocation for Indonesian dense apartment building environments
+138. Network coding for reliable multicast in Indonesian educational content distribution networks
+139. Zero-touch network provisioning for Indonesian enterprise SD-WAN branch deployments
+140. Quantum key distribution network design for Indonesian government secure communication backbone
+141. Mobile edge computing server placement optimization for Indonesian urban 5G networks
+142. Network slicing security isolation verification for Indonesian multi-tenant 5G infrastructure
+143. Delay-aware routing optimization for Indonesian real-time gaming traffic over ISP networks
+144. Distributed storage system design for Indonesian government data with geo-redundancy requirements
+145. Network function chaining optimization for Indonesian virtual CPE service delivery
+146. Cognitive radio spectrum sensing for Indonesian TV white space utilization in rural areas
+147. Blockchain-based DNS security for Indonesian domain name resolution with DNSSEC enhancement
+148. Multi-access edge computing collaboration for Indonesian autonomous vehicle communication
+149. Network performance prediction using LSTM for Indonesian ISP capacity planning
+150. Resilient overlay network design for Indonesian critical government communication during disasters
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 4: CYBERSECURITY & PRIVACY (151–200)
+────────────────────────────────────────────────────────────────────────────────
+151. Zero-trust architecture implementation framework for Indonesian government agency networks with RBAC
+152. Ransomware detection using behavioral analysis and machine learning for Indonesian SME endpoints
+153. Privacy-preserving data analytics framework for Indonesian health records using differential privacy
+154. Phishing detection system for Indonesian banking customers using NLP and URL feature analysis
+155. Blockchain-based digital identity management for Indonesian citizens aligned with national ID system
+156. Intrusion detection system for Indonesian industrial control systems using deep learning on network flows
+157. Homomorphic encryption implementation for secure computation on Indonesian financial data
+158. Social engineering attack simulation and awareness training platform for Indonesian organizations
+159. Android malware detection for Indonesian mobile banking apps using static and dynamic analysis
+160. Data loss prevention framework for Indonesian enterprises complying with PDP Law (UU PDP)
+161. Secure multi-party computation for Indonesian inter-agency data sharing without raw data exposure
+162. IoT botnet detection in Indonesian smart home networks using network traffic fingerprinting
+163. Digital forensics framework for Indonesian cybercrime investigation with chain of custody compliance
+164. Adversarial machine learning defense for Indonesian autonomous vehicle perception systems
+165. Privacy impact assessment automation for Indonesian fintech applications under data protection law
+166. Threat intelligence sharing platform for Indonesian banking sector using STIX/TAXII standards
+167. Vulnerability assessment automation for Indonesian e-government web applications using AI-guided fuzzing
+168. Secure federated learning protocol for Indonesian hospital collaboration with Byzantine resilience
+169. Deepfake detection system for Indonesian political content verification during elections
+170. Cloud security posture management for Indonesian multi-cloud enterprise deployments
+171. Biometric authentication liveness detection for Indonesian digital banking onboarding processes
+172. Network forensics tool for Indonesian ISP compliance with lawful interception regulations
+173. Supply chain attack detection for Indonesian software repositories using provenance verification
+174. Encrypted traffic classification for Indonesian network monitoring without privacy violation
+175. Cyber threat hunting framework for Indonesian critical infrastructure using MITRE ATT&CK
+176. Secure software development lifecycle integration for Indonesian agile development teams
+177. Post-quantum cryptography migration strategy for Indonesian government communication systems
+178. Insider threat detection using user behavior analytics in Indonesian corporate environments
+179. Privacy-preserving contact tracing system for Indonesian pandemic response using Bluetooth LE
+180. Security orchestration and automated response (SOAR) for Indonesian SOC operations
+181. Firmware vulnerability analysis for Indonesian IoT devices using symbolic execution
+182. Decentralized identity verification for Indonesian cross-border e-commerce transactions
+183. Machine learning-based DDoS mitigation for Indonesian government websites during peak events
+184. Secure code review automation for Indonesian banking application development pipelines
+185. Data anonymization framework for Indonesian open government data publication
+186. Cyber range design for Indonesian military and government cybersecurity training exercises
+187. API security testing framework for Indonesian open banking ecosystem compliance
+188. Steganography detection in Indonesian social media images using deep learning classifiers
+189. Security information and event management optimization for Indonesian enterprise log analysis
+190. Attribute-based encryption for fine-grained access control in Indonesian cloud health records
+191. Automotive cybersecurity framework for Indonesian connected vehicle ecosystem protection
+192. Quantum-resistant digital signature scheme for Indonesian electronic document authentication
+193. Deception technology deployment strategy for Indonesian financial institution threat detection
+194. Privacy-preserving machine learning for Indonesian credit scoring without exposing personal data
+195. Cyber insurance risk assessment model for Indonesian enterprises using attack graph analysis
+196. Secure boot and attestation framework for Indonesian government IoT device fleet management
+197. Dark web monitoring system for Indonesian data breach detection and early warning
+198. Container security scanning and runtime protection for Indonesian cloud-native applications
+199. Digital watermarking for Indonesian intellectual property protection in online marketplaces
+200. Incident response automation for Indonesian CSIRT using playbook-driven orchestration
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 5: DATA SCIENCE & BIG DATA (201–250)
+────────────────────────────────────────────────────────────────────────────────
+201. Real-time big data analytics platform for Indonesian e-commerce transaction fraud detection using Spark Streaming
+202. Predictive maintenance model for Indonesian manufacturing equipment using sensor data and XGBoost
+203. Customer churn prediction for Indonesian telecommunications using gradient boosting with SHAP explanations
+204. Geospatial big data analysis for Indonesian urban sprawl prediction using satellite imagery and clustering
+205. Social media analytics for Indonesian public opinion mining during presidential elections using topic modeling
+206. Time series forecasting for Indonesian rupiah exchange rate using hybrid ARIMA-LSTM with attention
+207. Recommendation system for Indonesian online marketplace using collaborative filtering with implicit feedback
+208. Data lake architecture design for Indonesian government open data integration across ministries
+209. Anomaly detection in Indonesian power grid sensor data using isolation forest and autoencoders
+210. Natural disaster damage assessment using Indonesian social media big data and geolocation analysis
+211. Healthcare data warehouse design for Indonesian national health insurance (BPJS) claims analytics
+212. Supply chain demand forecasting for Indonesian FMCG companies using Prophet and external features
+213. Credit risk modeling for Indonesian peer-to-peer lending using alternative data and ensemble methods
+214. Real-time traffic flow prediction for Indonesian metropolitan areas using spatiotemporal graph networks
+215. Customer segmentation for Indonesian Islamic banking using RFM analysis and K-means clustering
+216. Streaming data processing architecture for Indonesian ride-hailing surge pricing using Apache Flink
+217. Sentiment-driven stock prediction for Indonesian market using financial news NLP and LSTM
+218. Data quality assessment framework for Indonesian government statistical data repositories
+219. Predictive policing model for Indonesian urban crime hotspot identification using spatial analysis
+220. Energy consumption forecasting for Indonesian buildings using smart meter data and deep learning
+221. Indonesian tourism demand prediction using Google Trends data and machine learning regression
+222. Data governance framework for Indonesian state-owned enterprises with data catalog implementation
+223. Fake review detection in Indonesian e-commerce platforms using linguistic features and graph analysis
+224. Air quality prediction for Indonesian cities using multi-source data fusion and gradient boosting
+225. Student performance prediction in Indonesian universities using learning analytics and early warning
+226. Indonesian agricultural commodity price prediction using weather data and ensemble machine learning
+227. Network traffic big data analysis for Indonesian ISP capacity planning using time series decomposition
+228. Data mesh architecture implementation for Indonesian digital banking with domain-oriented ownership
+229. Indonesian COVID-19 spread prediction using mobility data and compartmental-ML hybrid models
+230. Clickstream analysis for Indonesian e-learning platform engagement optimization using sequential patterns
+231. Indonesian food delivery demand prediction using spatial-temporal features and LightGBM
+232. Data pipeline orchestration for Indonesian fintech regulatory reporting using Apache Airflow
+233. Indonesian social vulnerability index construction using big data and principal component analysis
+234. Real-time Indonesian stock market microstructure analysis using high-frequency trading data
+235. Waste generation prediction for Indonesian cities using demographic and economic indicators
+236. Indonesian health facility accessibility analysis using geospatial big data and network analysis
+237. Batch and stream processing lambda architecture for Indonesian toll road traffic analytics
+238. Indonesian startup ecosystem analysis using web scraping and network science approaches
+239. Flood risk prediction for Indonesian river basins using hydrological data and random forest
+240. Indonesian e-commerce product categorization using multimodal data and transfer learning
+241. Data lineage tracking system for Indonesian enterprise data warehouse with impact analysis
+242. Indonesian labor market skill gap analysis using job posting big data and NLP
+243. Renewable energy output prediction for Indonesian solar farms using weather data and deep learning
+244. Indonesian digital financial inclusion analysis using mobile money transaction big data
+245. Data anonymization impact assessment on Indonesian health analytics model performance
+246. Indonesian fisheries catch prediction using oceanographic data and spatiotemporal modeling
+247. Real-time Indonesian social media crisis detection using streaming NLP and anomaly detection
+248. Indonesian property price prediction using hedonic modeling with geospatial features and XGBoost
+249. Data observability platform for Indonesian enterprise data pipelines with automated quality monitoring
+250. Indonesian palm oil supply chain traceability using big data analytics and satellite monitoring
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 6: INFORMATION SYSTEMS & DIGITAL TRANSFORMATION (251–300)
+────────────────────────────────────────────────────────────────────────────────
+251. Digital transformation maturity model for Indonesian local government public services
+252. Enterprise architecture framework for Indonesian state-owned enterprise digital modernization using TOGAF
+253. Technology acceptance model for Indonesian SME adoption of cloud-based ERP systems
+254. Business process mining for Indonesian hospital patient flow optimization using event logs
+255. Digital twin implementation framework for Indonesian port logistics operations management
+256. IT governance framework for Indonesian universities using COBIT 2019 with balanced scorecard
+257. Knowledge management system design for Indonesian research institutions using semantic web technologies
+258. E-government service quality assessment for Indonesian provincial online public services using DeLone-McLean
+259. Blockchain-based supply chain management for Indonesian halal food certification traceability
+260. Business intelligence dashboard design for Indonesian SME financial performance monitoring
+261. Change management framework for Indonesian banking digital transformation initiatives
+262. Customer relationship management system evaluation for Indonesian telecommunications using TAM-UTAUT
+263. Digital payment ecosystem analysis for Indonesian unbanked population financial inclusion
+264. Enterprise resource planning critical success factors for Indonesian manufacturing companies
+265. Health information system interoperability framework for Indonesian hospital network integration
+266. IT service management optimization for Indonesian government data centers using ITIL 4
+267. Digital literacy assessment framework for Indonesian civil servants in e-government adoption
+268. Process automation using RPA for Indonesian insurance claims processing workflow optimization
+269. Information security governance framework for Indonesian financial institutions using ISO 27001
+270. Smart village information system design for Indonesian rural community empowerment programs
+271. Digital supply chain resilience framework for Indonesian automotive industry post-pandemic
+272. Open government data platform design for Indonesian transparency and public participation
+273. IT project success factors for Indonesian government agencies using structural equation modeling
+274. Telemedicine information system adoption in Indonesian rural healthcare using UTAUT2 framework
+275. Digital marketing analytics platform for Indonesian tourism destination management organizations
+276. Enterprise social media adoption impact on Indonesian organizational knowledge sharing
+277. Warehouse management system optimization for Indonesian e-commerce fulfillment centers
+278. Digital transformation strategy for Indonesian traditional market modernization using design thinking
+279. Learning management system effectiveness evaluation for Indonesian higher education blended learning
+280. IT investment evaluation framework for Indonesian SOE using real options and balanced scorecard
+281. Citizen participation platform design for Indonesian urban development planning using e-deliberation
+282. Supply chain information system integration for Indonesian pharmaceutical distribution networks
+283. Digital maturity assessment for Indonesian banking sector using multi-criteria decision analysis
+284. Geographic information system for Indonesian disaster risk management and evacuation planning
+285. Business process reengineering for Indonesian tax administration digital transformation
+286. Cloud ERP migration framework for Indonesian medium enterprises with change management
+287. Smart campus information system architecture for Indonesian university resource optimization
+288. Digital twin for Indonesian water distribution network monitoring and leak detection
+289. Fintech adoption factors among Indonesian micro-enterprises using extended TAM model
+290. Hospital information system usability evaluation for Indonesian public hospitals using SUS and heuristics
+291. Digital government interoperability framework for Indonesian cross-ministry data exchange
+292. Sustainable IT framework for Indonesian organizations measuring environmental impact of digitalization
+293. Agricultural information system for Indonesian smallholder farmers with mobile-first design
+294. IT risk management framework for Indonesian peer-to-peer lending platforms using ISO 31000
+295. Digital workplace transformation impact on Indonesian employee productivity and well-being
+296. Smart tourism information system for Indonesian cultural heritage site visitor management
+297. Procurement information system optimization for Indonesian government e-procurement transparency
+298. Digital health ecosystem framework for Indonesian maternal and child health monitoring
+299. Business continuity management system for Indonesian financial institutions using ISO 22301
+300. Open innovation platform design for Indonesian university-industry collaboration in R&D
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 7: HUMAN-COMPUTER INTERACTION & UX (301–350)
+────────────────────────────────────────────────────────────────────────────────
+301. Usability evaluation of Indonesian government mobile applications using eye-tracking and think-aloud
+302. Inclusive design framework for Indonesian elderly users accessing digital health services
+303. Gamification design for Indonesian online learning platforms using self-determination theory
+304. Voice user interface design for Indonesian regional language speakers interacting with smart assistants
+305. Accessibility audit framework for Indonesian e-commerce websites for visually impaired users
+306. User experience evaluation of Indonesian digital banking apps using UEQ and SUS instruments
+307. Persuasive technology design for Indonesian youth financial literacy mobile applications
+308. Augmented reality interface design for Indonesian cultural heritage museum visitor engagement
+309. Chatbot conversational design for Indonesian customer service using pragmatic analysis
+310. Dark pattern identification and impact assessment in Indonesian e-commerce mobile applications
+311. Cross-cultural UX design adaptation for Indonesian localization of global SaaS products
+312. Gesture-based interaction design for Indonesian sign language recognition assistive technology
+313. Information architecture optimization for Indonesian government portal using card sorting and tree testing
+314. Emotional design evaluation of Indonesian health tracking apps using physiological measures
+315. Collaborative design tool for Indonesian remote software development teams using distributed cognition
+316. Adaptive user interface for Indonesian e-learning based on learning style and cognitive load
+317. Trust design patterns for Indonesian peer-to-peer marketplace platforms using social proof
+318. Wearable device interaction design for Indonesian factory workers in manufacturing environments
+319. Notification design optimization for Indonesian mobile apps using attention management theory
+320. Universal design framework for Indonesian public transportation information systems
+321. Conversational AI design for Indonesian agricultural extension services using farmer-centered approach
+322. Data visualization dashboard design for Indonesian government decision makers using cognitive fit theory
+323. Onboarding UX design for Indonesian digital wallet applications targeting first-time users
+324. Haptic feedback design for Indonesian visually impaired users navigating mobile interfaces
+325. Co-design methodology for Indonesian community health information systems with rural stakeholders
+326. Micro-interaction design patterns for Indonesian food delivery application engagement
+327. Privacy UX design for Indonesian social media users with informed consent interfaces
+328. Multi-modal interaction design for Indonesian smart home systems for elderly care
+329. Cognitive walkthrough evaluation of Indonesian tax filing online system for citizen compliance
+330. Design system creation for Indonesian government digital services ensuring consistency across agencies
+331. User research methodology adaptation for Indonesian low-literacy populations in rural areas
+332. Affective computing interface for Indonesian mental health chatbot with emotion recognition
+333. Progressive disclosure design for Indonesian complex financial product comparison platforms
+334. Tangible user interface design for Indonesian early childhood STEM education tools
+335. Contextual inquiry study of Indonesian ojek (motorcycle taxi) driver app usage patterns
+336. Accessibility evaluation of Indonesian MOOC platforms for deaf and hard-of-hearing students
+337. Participatory design of Indonesian village fund management system with community stakeholders
+338. Biometric UX evaluation for Indonesian mobile banking authentication user experience
+339. Information foraging behavior analysis of Indonesian academic researchers using digital libraries
+340. Responsive design optimization for Indonesian government services across device diversity
+341. Ethical AI interface design for Indonesian automated decision systems with explanation features
+342. Wayfinding interface design for Indonesian large hospital complexes using indoor navigation
+343. Social presence design in Indonesian virtual classroom platforms for student engagement
+344. Error recovery design patterns for Indonesian mobile payment applications in low connectivity
+345. Design thinking workshop methodology for Indonesian startup product development teams
+346. Neuroergonomic evaluation of Indonesian air traffic control interface cognitive workload
+347. Child-centered design for Indonesian educational game applications using developmental psychology
+348. Service design blueprint for Indonesian integrated public transportation ticketing experience
+349. Voice interaction design for Indonesian smart agriculture advisory system for illiterate farmers
+350. Sustainability-oriented UX design for Indonesian e-commerce reducing overconsumption behavior
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 8: NATURAL LANGUAGE PROCESSING (351–400)
+────────────────────────────────────────────────────────────────────────────────
+351. Large language model fine-tuning for Bahasa Indonesia legal document summarization with domain adaptation
+352. Named entity recognition for Indonesian medical records using BiLSTM-CRF with clinical embeddings
+353. Machine translation quality improvement for Indonesian-Javanese language pair using back-translation augmentation
+354. Hate speech detection in Indonesian social media using multi-label classification with contextual embeddings
+355. Question answering system for Indonesian government regulations using retrieval-augmented generation
+356. Text simplification for Indonesian health information targeting low-literacy populations
+357. Stance detection in Indonesian political discourse using transformer models with discourse features
+358. Automatic essay scoring for Indonesian language examinations using BERT-based regression
+359. Code-switching detection and language identification in Indonesian-English social media text
+360. Keyphrase extraction from Indonesian scientific articles using graph-based ranking with BERT embeddings
+361. Dialogue system for Indonesian customer service using task-oriented approach with slot filling
+362. Rumor verification in Indonesian news using evidence retrieval and natural language inference
+363. Indonesian text-to-speech synthesis using end-to-end model with prosody control for regional accents
+364. Abstractive summarization of Indonesian news articles using pre-trained sequence-to-sequence models
+365. Emotion detection in Indonesian text using multi-dimensional emotion model beyond basic sentiment
+366. Coreference resolution for Indonesian text using end-to-end neural approach with mention detection
+367. Indonesian plagiarism detection using semantic similarity with cross-lingual embedding alignment
+368. Aspect-based opinion mining for Indonesian hotel reviews using dependency parsing and BERT
+369. Automatic Bahasa Indonesia grammar error correction using sequence-to-sequence with copy mechanism
+370. Relation extraction from Indonesian biomedical literature using distant supervision and transformers
+371. Indonesian fake news detection using linguistic features, source credibility, and propagation patterns
+372. Multimodal sentiment analysis for Indonesian YouTube content combining audio, visual, and text
+373. Low-resource Indonesian regional language processing using multilingual transfer from mBERT
+374. Document-level sentiment analysis for Indonesian annual reports using hierarchical attention networks
+375. Indonesian speech recognition for Sundanese-accented speakers using accent adaptation techniques
+376. Topic modeling for Indonesian parliamentary debate transcripts using neural topic models
+377. Sarcasm detection in Indonesian tweets using pragmatic features and contrastive learning
+378. Indonesian legal case similarity matching using semantic embeddings for judicial decision support
+379. Automatic generation of Indonesian product descriptions using controlled text generation with attributes
+380. Offensive language detection in Indonesian online gaming chat using character-level models
+381. Indonesian clinical note de-identification using sequence labeling with privacy-preserving constraints
+382. Cross-lingual transfer for Indonesian event extraction from news using zero-shot approaches
+383. Conversational recommendation for Indonesian e-commerce using knowledge-grounded dialogue generation
+384. Indonesian sign language to text translation using video understanding and sequence modeling
+385. Readability assessment for Indonesian textbooks using linguistic complexity features and neural models
+386. Multi-document summarization for Indonesian court decisions using extractive-abstractive hybrid approach
+387. Indonesian chatbot for mental health support using empathetic response generation with safety filters
+388. Temporal information extraction from Indonesian news for event timeline construction
+389. Indonesian scientific paper citation intent classification using section-aware contextual features
+390. Semantic role labeling for Indonesian sentences using cross-lingual transfer from English resources
+391. Indonesian recipe generation from ingredient lists using constrained text generation with nutritional awareness
+392. Misinformation detection in Indonesian WhatsApp messages using forwarded message analysis
+393. Indonesian poetry generation using fine-tuned language models with stylistic control mechanisms
+394. Biomedical entity linking for Indonesian clinical text to SNOMED-CT terminology
+395. Indonesian news headline generation using abstractive methods with factual consistency checking
+396. Argument mining in Indonesian online debate forums using discourse structure analysis
+397. Indonesian automatic speech recognition for elderly speakers with age-adapted acoustic models
+398. Knowledge graph construction from Indonesian Wikipedia using open information extraction
+399. Indonesian text style transfer for formal-informal conversion using unsupervised approaches
+400. Multilinguality-aware language model pre-training for Indonesian and its regional languages
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 9: COMPUTER VISION & MULTIMEDIA (401–450)
+────────────────────────────────────────────────────────────────────────────────
+401. Object detection for Indonesian traffic sign recognition using YOLOv8 with domain-specific augmentation
+402. Satellite image segmentation for Indonesian deforestation monitoring using U-Net with attention gates
+403. Face recognition system for Indonesian national ID verification with anti-spoofing liveness detection
+404. Medical image classification for Indonesian tuberculosis X-ray screening using vision transformers
+405. Video surveillance anomaly detection for Indonesian public spaces using spatiotemporal autoencoders
+406. Document image analysis for Indonesian historical manuscript digitization using OCR with noise handling
+407. Pose estimation for Indonesian traditional dance movement analysis using MediaPipe and LSTM
+408. Underwater image enhancement for Indonesian coral reef monitoring using generative adversarial networks
+409. Agricultural crop disease detection from Indonesian drone imagery using lightweight CNN models
+410. Scene text recognition for Indonesian street signs using attention-based encoder-decoder networks
+411. Image super-resolution for Indonesian satellite imagery using diffusion models for urban planning
+412. Deepfake detection for Indonesian political video content using frequency domain analysis
+413. 3D reconstruction of Indonesian cultural heritage sites using multi-view stereo and neural radiance fields
+414. Palm oil fruit ripeness classification using hyperspectral imaging and deep learning for Indonesian plantations
+415. Pedestrian detection for Indonesian urban autonomous vehicles handling occlusion and crowd density
+416. Indonesian batik pattern generation using style transfer and conditional diffusion models
+417. Retinal disease detection from Indonesian ophthalmology datasets using multi-task learning
+418. Action recognition in Indonesian factory environments for worker safety monitoring using 3D CNNs
+419. Image forgery detection for Indonesian digital evidence authentication using error level analysis and CNN
+420. Semantic segmentation of Indonesian urban landscapes from drone imagery for city planning
+421. Visual question answering for Indonesian educational content using multimodal transformers
+422. Indonesian license plate recognition under challenging conditions using attention-based OCR
+423. Food image recognition for Indonesian cuisine calorie estimation using fine-grained classification
+424. Change detection in Indonesian coastal areas using bi-temporal satellite images and siamese networks
+425. Gesture recognition for Indonesian sign language interpretation using hand pose estimation
+426. Image captioning for Indonesian cultural images using cross-lingual vision-language models
+427. Quality inspection of Indonesian textile products using defect detection with few-shot learning
+428. Video summarization for Indonesian news broadcasts using keyframe extraction and scene analysis
+429. Medical image segmentation for Indonesian brain tumor MRI using 3D U-Net with boundary loss
+430. Indonesian wildlife species identification from camera trap images using fine-grained recognition
+431. Crowd counting in Indonesian public events using density map estimation with perspective correction
+432. Image-based Indonesian plant species identification using hierarchical classification with botanical features
+433. Visual SLAM for Indonesian indoor robot navigation in dynamic environments
+434. Indonesian road damage detection from dashcam video using real-time instance segmentation
+435. Multimodal emotion recognition from Indonesian video content using facial expression and speech
+436. Optical character recognition for Indonesian handwritten Jawi script using transformer-based models
+437. Image retrieval for Indonesian e-commerce products using contrastive learning with hard negatives
+438. Indonesian mangrove health assessment using multispectral drone imagery and semantic segmentation
+439. Real-time Indonesian fire and smoke detection using lightweight models for early warning systems
+440. 3D object detection for Indonesian warehouse automation using point cloud processing
+441. Indonesian skin disease classification using dermoscopic images with class imbalance handling
+442. Video-based Indonesian traffic flow estimation using multi-object tracking and counting
+443. Image generation for Indonesian fashion design using conditional GANs with style attributes
+444. Indonesian archaeological artifact classification using 3D scanning and deep learning
+445. Visual grounding for Indonesian language referring expressions in images using cross-modal attention
+446. Indonesian flood extent mapping using SAR satellite imagery and deep learning segmentation
+447. Panoramic image stitching for Indonesian real estate virtual tours using feature matching optimization
+448. Indonesian food freshness detection using computer vision and spectral analysis for markets
+449. Multi-label scene classification for Indonesian tourism images using vision transformers
+450. Indonesian shadow puppet (wayang) character recognition using shape analysis and deep learning
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 10: IoT, EDGE COMPUTING & EMBEDDED SYSTEMS (451–500)
+────────────────────────────────────────────────────────────────────────────────
+451. Edge AI inference optimization for Indonesian smart agriculture sensors using model quantization and pruning
+452. IoT-based water quality monitoring system for Indonesian rivers using LoRaWAN and machine learning
+453. Embedded deep learning for Indonesian palm oil fresh fruit bunch grading on FPGA
+454. Smart home energy management system for Indonesian households using IoT and reinforcement learning
+455. Edge computing task scheduling for Indonesian smart city applications using multi-objective optimization
+456. IoT-based structural health monitoring for Indonesian bridges using vibration sensors and anomaly detection
+457. Wearable IoT device for Indonesian elderly fall detection using accelerometer and edge inference
+458. Smart irrigation system for Indonesian rice paddies using soil moisture IoT and weather prediction
+459. Edge-cloud collaborative inference for Indonesian autonomous drone navigation with latency constraints
+460. IoT security framework for Indonesian smart building systems using lightweight cryptography
+461. Embedded vision system for Indonesian traffic violation detection at intersections using edge AI
+462. Digital twin IoT platform for Indonesian aquaculture pond monitoring and feeding optimization
+463. Low-power wide-area network comparison for Indonesian rural IoT deployment (LoRa vs NB-IoT vs Sigfox)
+464. Edge computing for Indonesian real-time air quality monitoring with distributed sensor fusion
+465. IoT-based smart parking system for Indonesian urban areas using ultrasonic sensors and mobile app
+466. Embedded system design for Indonesian volcanic activity monitoring with seismic sensor arrays
+467. Fog computing architecture for Indonesian healthcare IoT with patient data privacy preservation
+468. Smart waste management system for Indonesian cities using IoT fill-level sensors and route optimization
+469. Edge AI for Indonesian retail store customer behavior analysis using privacy-preserving video analytics
+470. IoT-based precision agriculture for Indonesian coffee plantations using microclimate monitoring
+471. Embedded real-time operating system optimization for Indonesian industrial automation controllers
+472. Smart grid IoT architecture for Indonesian renewable energy microgrid management and monitoring
+473. Edge computing for Indonesian autonomous vehicle V2X communication with ultra-low latency
+474. IoT-based flood early warning system for Indonesian river basins using water level sensors
+475. Embedded machine learning for Indonesian food quality inspection on production line conveyors
+476. Smart building IoT system for Indonesian office energy optimization using occupancy detection
+477. Edge federated learning for Indonesian distributed IoT devices with communication efficiency
+478. IoT-based cold chain monitoring for Indonesian vaccine distribution temperature compliance
+479. Embedded computer vision for Indonesian unmanned aerial vehicle obstacle avoidance
+480. Smart transportation IoT for Indonesian bus rapid transit passenger counting and prediction
+481. Edge computing resource allocation for Indonesian mobile augmented reality applications
+482. IoT sensor network for Indonesian forest fire detection using temperature and smoke sensors
+483. Embedded speech recognition for Indonesian voice-controlled assistive devices for disabled users
+484. Smart aquaculture IoT for Indonesian shrimp farming water quality and disease prediction
+485. Edge AI for Indonesian manufacturing predictive maintenance using vibration analysis on MCU
+486. IoT-based landslide early warning system for Indonesian mountainous regions using tilt sensors
+487. Embedded system for Indonesian electric vehicle battery management with state-of-health estimation
+488. Smart campus IoT for Indonesian university classroom occupancy and HVAC optimization
+489. Edge computing for Indonesian telemedicine with real-time vital sign processing and alerting
+490. IoT-based Indonesian heritage building environmental monitoring for preservation management
+491. Embedded deep learning for Indonesian underwater robot coral reef health classification
+492. Smart logistics IoT for Indonesian last-mile delivery tracking with geofencing and ETA prediction
+493. Edge AI inference on Indonesian agricultural robots for real-time weed detection and removal
+494. IoT-based Indonesian earthquake early warning using MEMS accelerometer mesh network
+495. Embedded system for Indonesian solar panel maximum power point tracking using neural network
+496. Smart fishery IoT for Indonesian offshore cage monitoring with satellite backhaul communication
+497. Edge computing for Indonesian crowd monitoring at religious events using distributed camera networks
+498. IoT-based Indonesian peatland fire prevention using soil moisture and temperature sensor networks
+499. Embedded TinyML for Indonesian wearable health monitoring with on-device arrhythmia detection
+500. Smart port IoT system for Indonesian container terminal automation with digital twin integration

@@ -5,8 +5,60 @@ FIELD: Engineering / Electrical
 DEFAULT CITATION STYLE: IEEE
 SUBDISCIPLINE: Teknik Elektro, Sistem Tenaga, Elektronika Daya, Mesin Listrik, Sistem Kontrol, Instrumentasi
 
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Power system simulation (ETAP, DIgSILENT PowerFactory, PSS/E)
+   - Signal processing (MATLAB/Simulink, LabVIEW)
+   - FPGA implementation (Xilinx Vivado, Intel Quartus)
+   - Machine learning for fault detection (CNN, LSTM, random forest, XGBoost)
+   - IoT-based monitoring (ESP32, LoRa, MQTT protocol)
+   - Renewable energy integration (HOMER Pro, PVsyst, OpenDSS)
+   - Power electronics design (PSIM, PLECS, LTspice)
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics: efficiency (%), THD (%), power factor, voltage regulation (%), settling time (ms), accuracy (%), RMSE, SNR (dB)
+   - Statistical measures: mean, standard deviation, confidence intervals
+   - All numbers realistic and internally consistent
+
+5. MATHEMATICAL FORMULAS:
+   - Ohm's law: V = IR
+   - Power: P = VI cos(phi)
+   - Three-phase power: P = sqrt(3) x VL x IL x cos(phi)
+   - Transformer ratio: V1/V2 = N1/N2
+   - Maxwell's equations: curl(E) = -dB/dt; curl(H) = J + dD/dt
+   - Fourier transform: X(f) = integral x(t)e^(-j2*pi*f*t)dt
+   - Transfer function: H(s) = Y(s)/X(s)
+   - Nyquist criterion: N = Z - P
+   - THD calculation: THD = sqrt(sum(Vn^2))/V1 x 100%
+   - PID controller: u(t) = Kp*e(t) + Ki*integral(e(t))dt + Kd*de(t)/dt
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian context: PLN grid challenges, rural electrification, Indonesian renewable energy targets (23% by 2025), EV adoption policy, tropical climate effects
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords (5-7), Introduction (1500-2000 words),
+   Literature Review (2000-3000 words), Methodology (2000-3000 words),
+   Results & Discussion (2000-3000 words), Conclusion (500-800 words),
+   References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
 ABSTRACT CHARACTERISTICS:
-  150–250 words. Reports: electrical system or device studied (power system,
+  150-250 words. Reports: electrical system or device studied (power system,
   motor drive, converter, sensor instrumentation), analysis/design method (simulation MATLAB/Simulink,
   PSIM, hardware prototype), key metrics (efficiency %, THD %, voltage regulation %,
   power factor, settling time ms, RMSE), and system performance evaluation.
@@ -32,16 +84,16 @@ METHODOLOGY:
   - Hardware prototype: PCB design (Altium/KiCad), component selection, MCU/DSP (STM32, TMS320F28335).
   - Control implementation: digital control (sampling rate, z-domain discretization); PWM generation.
   - Measurement: oscilloscope (Tektronix/Rigol), power analyzer (Yokogawa), spectrum analyzer.
-  - Performance metrics: efficiency η = Pout/Pin × 100%; THD = √(ΣVn²)/V1 × 100%; power factor PF = P/S.
+  - Performance metrics: efficiency n = Pout/Pin x 100%; THD = sqrt(sum(Vn^2))/V1 x 100%; power factor PF = P/S.
   - Stability analysis: eigenvalue, Bode/Nyquist plot; step response (rise time, settling time, overshoot).
 
 TYPICAL RESULTS & DISCUSSION:
-  - DC-DC converter efficiency: boost converter 90–97% at rated load.
+  - DC-DC converter efficiency: boost converter 90-97% at rated load.
   - THD: inverter output <5% (IEEE 519 compliance) with LCL filter.
-  - Power factor: PFC circuit >0.99 (vs. uncompensated 0.65–0.80).
-  - Voltage regulation: ±1–5% with closed-loop PID control.
+  - Power factor: PFC circuit >0.99 (vs. uncompensated 0.65-0.80).
+  - Voltage regulation: +/-1-5% with closed-loop PID control.
   - Motor drive: speed tracking error <2% with FOC; torque ripple <5%.
-  - Settling time (step response): PID 50–200ms; MPC 20–80ms.
+  - Settling time (step response): PID 50-200ms; MPC 20-80ms.
   Tables: performance comparison (topologies/controllers), harmonic spectrum, efficiency vs. load.
   Figures: simulation waveform, efficiency curve, Bode plot, hardware experimental result.
 
@@ -78,3 +130,527 @@ METHODOLOGY KEYWORDS:
   MATLAB/Simulink simulation (SimPowerSystems), PSIM power electronics simulation,
   PID/FOC/MPC control design, PWM generation (STM32/TMS320), THD measurement (FFT),
   hardware prototype validation, efficiency curve measurement, Bode/Nyquist stability analysis
+
+================================================================================
+RESEARCH TOPIC BANK (500 TOPICS)
+================================================================================
+
+--- CATEGORY 1: POWER SYSTEMS & SMART GRID (001-050) ---
+001. Optimal placement of distributed generation in PLN distribution network using PSO algorithm
+002. Power flow analysis of Sulawesi interconnection system using Newton-Raphson method in ETAP
+003. Fault analysis and protection coordination of 150 kV Java-Bali transmission system
+004. Voltage stability assessment of Indonesian power grid with high renewable energy penetration
+005. Load forecasting for PLN Java-Bali system using LSTM deep learning approach
+006. Optimal capacitor placement for power loss reduction in Indonesian rural distribution feeder
+007. Harmonic analysis and mitigation in industrial area connected to PLN 20 kV network
+008. Reliability assessment of Indonesian island power system with renewable energy integration
+009. Short-circuit analysis and relay coordination for 500 kV extra-high voltage transmission
+010. Power quality monitoring system for PLN distribution network using IoT-based sensors
+011. Transient stability analysis of Java-Bali system during large generator outage
+012. Optimal reconfiguration of radial distribution network for loss minimization using genetic algorithm
+013. Impact assessment of rooftop solar PV on voltage profile of PLN low-voltage network
+014. State estimation of Indonesian transmission system using weighted least squares method
+015. Economic dispatch optimization of Java-Bali thermal power plants considering emission
+016. Fault location detection in underground cable using traveling wave method
+017. Power system stabilizer (PSS) tuning for Indonesian generator using particle swarm optimization
+018. Assessment of hosting capacity for distributed solar PV in urban distribution network
+019. Contingency analysis of Sumatra transmission system for N-1 security criterion
+020. Smart meter data analytics for non-technical loss detection in PLN distribution
+021. Frequency regulation of isolated microgrid in Indonesian remote island
+022. Coordination of overcurrent and distance relay for 150 kV ring network
+023. Voltage regulation using on-load tap changer with renewable energy variability
+024. Power system resilience assessment against natural disasters in Indonesian archipelago
+025. Demand response program design for industrial customers in Indonesian electricity market
+026. Arc flash hazard analysis in medium-voltage switchgear of Indonesian industrial plant
+027. Grounding system design optimization for 500 kV substation in high-resistivity soil
+028. Power loss analysis of aging distribution transformer in tropical climate condition
+029. Wide-area monitoring system design for Indonesian interconnected power grid
+030. Cybersecurity risk assessment of SCADA system in Indonesian power utility
+031. Optimal energy storage placement for peak shaving in PLN distribution network
+032. Lightning protection system design for transmission tower in high-keraunic Indonesian region
+033. Load balancing optimization for three-phase distribution network in residential area
+034. Ferroresonance analysis in voltage transformer of Indonesian distribution system
+035. Integration of battery energy storage for frequency support in Sulawesi grid
+036. Power quality assessment of electric arc furnace impact on PLN industrial feeder
+037. Optimal sizing of static VAR compensator for voltage support in weak grid
+038. Fault ride-through capability assessment of wind farm connected to Indonesian grid
+039. Distribution automation scheme design for self-healing network in Indonesian smart city
+040. Electromagnetic transient analysis of switching surge in GIS substation
+041. Optimal placement of phasor measurement unit (PMU) for Indonesian transmission observability
+042. Stochastic power flow analysis considering uncertainty of solar and wind generation
+043. Protection blinding assessment due to inverter-based resource in distribution network
+044. Insulation coordination study for 500 kV transmission line in tropical environment
+045. Multi-objective optimization of distributed energy resource in Indonesian industrial estate
+046. Adaptive protection scheme for microgrid with multiple distributed generation sources
+047. Power system inertia assessment with increasing renewable energy share in Indonesian grid
+048. Harmonic resonance analysis of cable-dominated urban distribution network
+049. Optimal scheduling of pumped hydro storage for peak demand management
+050. Digital twin development for real-time monitoring of Indonesian transmission substation
+
+--- CATEGORY 2: CONTROL SYSTEMS & AUTOMATION (051-100) ---
+051. Design of model predictive control for temperature regulation in palm oil refinery
+052. Fuzzy logic controller for automatic voltage regulator of synchronous generator
+053. PID controller tuning using Ziegler-Nichols and genetic algorithm for water level control
+054. Sliding mode control for speed regulation of induction motor drive
+055. Development of SCADA system for monitoring Indonesian mini-hydro power plant
+056. Adaptive control for robotic arm in palm oil fruit harvesting application
+057. Neural network-based inverse control for nonlinear pH neutralization process
+058. Design of cascade control system for boiler drum level in steam power plant
+059. Fuzzy-PID hybrid controller for position control of pneumatic actuator
+060. Model predictive control for energy-efficient HVAC system in tropical building
+061. Robust H-infinity control design for uncertain plant in Indonesian geothermal system
+062. PLC-based automation system for batik dyeing process with color consistency control
+063. Backstepping control for quadrotor UAV for agricultural spraying application
+064. Design of Smith predictor for dead-time compensation in chemical process control
+065. Fractional-order PID controller for DC motor speed control with load disturbance
+066. Development of DCS architecture for Indonesian cement plant automation
+067. Optimal LQR control for active suspension system of Indonesian public bus
+068. Fuzzy logic control for traffic signal optimization in Indonesian urban intersection
+069. Nonlinear model predictive control for batch reactor temperature profile tracking
+070. Design of anti-windup PID controller for flow control valve in oil pipeline
+071. Reinforcement learning-based control for autonomous navigation of delivery robot
+072. Gain scheduling control for variable-speed wind turbine in Indonesian coastal area
+073. Development of PLC-SCADA system for automated palm oil mill operation
+074. Iterative learning control for repetitive motion of industrial robot in manufacturing
+075. Design of observer-based fault-tolerant control for sensor failure in power plant
+076. Fuzzy sliding mode control for active power filter in industrial application
+077. Development of digital twin for predictive control of wastewater treatment plant
+078. Optimal control of multi-agent system for cooperative load transport robot
+079. Design of event-triggered control for networked control system with communication delay
+080. Adaptive neuro-fuzzy inference system (ANFIS) for prediction of solar irradiance
+081. Robust control design for grid-connected inverter under weak grid condition
+082. Development of safety instrumented system (SIS) for Indonesian LNG plant
+083. Model reference adaptive control for PMSM drive with parameter variation
+084. Design of decentralized control for multi-area power system frequency regulation
+085. Fuzzy logic-based energy management system for hybrid renewable energy microgrid
+086. Development of motion control system for CNC machine in Indonesian SME
+087. Optimal preview control for semi-active suspension of high-speed train
+088. Design of repetitive control for grid-connected inverter harmonic compensation
+089. Neural network predictive control for cement kiln temperature optimization
+090. Development of automated quality inspection system using machine vision for manufacturing
+091. Sliding mode observer for sensorless control of BLDC motor
+092. Design of multi-loop control for distillation column in petrochemical plant
+093. Fuzzy cognitive map-based control for complex industrial process
+094. Development of remote monitoring and control system for distributed solar PV plant
+095. Adaptive control for flexible link robot manipulator with vibration suppression
+096. Design of internal model control for stable and integrating processes
+097. Deep reinforcement learning for optimal control of building energy system
+098. Development of batch control system (ISA-88) for pharmaceutical manufacturing
+099. Robust control of grid-forming inverter for islanded microgrid operation
+100. Design of coordinated control for multi-terminal HVDC system
+
+--- CATEGORY 3: TELECOMMUNICATIONS & SIGNAL PROCESSING (101-150) ---
+101. Design of MIMO antenna for 5G sub-6 GHz application in Indonesian urban environment
+102. Performance analysis of LoRa communication for IoT-based flood monitoring in Jakarta
+103. Digital signal processing for noise cancellation in Indonesian underwater acoustic communication
+104. Design of bandpass filter for Indonesian TV white space cognitive radio
+105. Performance evaluation of NOMA technique for 5G network in dense urban scenario
+106. Development of speech recognition system for Indonesian language using deep learning
+107. Channel estimation for OFDM system in tropical multipath fading environment
+108. Design of reconfigurable antenna for cognitive radio in Indonesian spectrum allocation
+109. Performance analysis of free-space optical communication in tropical atmospheric condition
+110. Development of digital watermarking for copyright protection of Indonesian batik pattern
+111. Beamforming design for massive MIMO base station in Indonesian 5G deployment
+112. Performance evaluation of LPWAN technologies (LoRa vs NB-IoT) for smart agriculture
+113. Adaptive equalization for underwater acoustic communication in Indonesian shallow water
+114. Design of frequency selective surface for 5G signal enhancement in building
+115. Performance analysis of cooperative communication for rural connectivity in Eastern Indonesia
+116. Development of automatic modulation classification using convolutional neural network
+117. PAPR reduction technique for OFDM system using selected mapping method
+118. Design of wearable antenna for body area network in tropical climate
+119. Performance evaluation of visible light communication for indoor positioning system
+120. Development of Indonesian sign language recognition using EMG signal processing
+121. Spectrum sensing algorithm for cognitive radio in Indonesian TV band
+122. Design of dual-band antenna for WiFi 6E and 5G coexistence
+123. Performance analysis of satellite communication link budget for Indonesian maritime
+124. Development of acoustic event detection system for environmental monitoring
+125. Channel modeling for vehicle-to-vehicle communication in Indonesian highway scenario
+126. Design of metamaterial absorber for electromagnetic interference shielding
+127. Performance evaluation of edge computing for latency-critical IoT application
+128. Development of radar signal processing for weather monitoring in Indonesian archipelago
+129. Interference management in heterogeneous network for Indonesian 5G deployment
+130. Design of phased array antenna for satellite ground station in equatorial region
+131. Performance analysis of full-duplex relay for coverage extension in rural area
+132. Development of vibration-based structural health monitoring using signal processing
+133. Resource allocation optimization for device-to-device communication in 5G network
+134. Design of substrate integrated waveguide filter for millimeter-wave application
+135. Performance evaluation of polar codes for ultra-reliable low-latency communication
+136. Development of EEG signal processing for brain-computer interface application
+137. Multi-user MIMO precoding design for indoor visible light communication
+138. Design of circularly polarized antenna for GPS/BeiDou receiver
+139. Performance analysis of reconfigurable intelligent surface for indoor coverage enhancement
+140. Development of acoustic source localization for underwater surveillance system
+141. Deep learning-based channel estimation for massive MIMO in time-varying channel
+142. Design of bandpass filter using coupled resonator for 5G mid-band
+143. Performance evaluation of non-terrestrial network for Indonesian remote island connectivity
+144. Development of gesture recognition using radar micro-Doppler signal processing
+145. Hybrid beamforming design for millimeter-wave communication in Indonesian 5G
+146. Design of electromagnetic bandgap structure for mutual coupling reduction in array antenna
+147. Performance analysis of integrated access and backhaul for 5G small cell
+148. Development of power line communication for smart meter in Indonesian distribution network
+149. Compressive sensing-based spectrum monitoring for Indonesian radio frequency management
+150. Design of flexible antenna for wearable IoT device in tropical environment
+
+--- CATEGORY 4: POWER ELECTRONICS & DRIVES (151-200) ---
+151. Design of high-efficiency bidirectional DC-DC converter for battery energy storage system
+152. Development of single-phase grid-connected inverter with LCL filter for rooftop solar PV
+153. Design of interleaved boost converter for fuel cell electric vehicle application
+154. Development of three-level NPC inverter for medium-voltage motor drive
+155. Design of resonant LLC converter for EV onboard charger with wide voltage range
+156. Development of active power filter for harmonic compensation in PLN industrial feeder
+157. Design of dual active bridge converter for solid-state transformer application
+158. Development of matrix converter for direct AC-AC conversion in wind energy system
+159. Design of GaN-based totem-pole PFC for high-efficiency server power supply
+160. Development of modular multilevel converter for HVDC transmission system
+161. Design of current-fed push-pull converter for solar PV microinverter
+162. Development of Z-source inverter for single-stage PV grid-connected system
+163. Design of phase-shifted full-bridge converter for telecom rectifier application
+164. Development of Vienna rectifier for three-phase unity power factor charging station
+165. Design of switched capacitor converter for LED driver with dimming control
+166. Development of cascaded H-bridge inverter for static compensator (STATCOM)
+167. Design of flyback converter with active clamp for auxiliary power supply
+168. Development of five-level inverter topology for reduced THD in motor drive
+169. Design of SiC-based boost converter for high-temperature geothermal application
+170. Development of quasi-Z-source inverter for photovoltaic water pumping system
+171. Design of isolated Cuk converter for bipolar DC microgrid application
+172. Development of hybrid modulation strategy for multilevel inverter THD reduction
+173. Design of wireless power transfer system for underwater sensor charging
+174. Development of four-switch buck-boost converter for MPPT in partial shading
+175. Design of soft-switching full-bridge inverter for induction heating application
+176. Development of impedance source network for single-stage PV inverter
+177. Design of multi-port converter for hybrid energy storage (battery + supercapacitor)
+178. Development of predictive current control for grid-connected inverter
+179. Design of high step-up DC-DC converter for fuel cell distributed generation
+180. Development of space vector PWM for three-level inverter in motor drive
+181. Design of bidirectional charger for vehicle-to-grid (V2G) application in Indonesia
+182. Development of current source inverter for medium-voltage variable speed drive
+183. Design of coupled inductor high gain converter for renewable energy application
+184. Development of selective harmonic elimination PWM for cascaded inverter
+185. Design of three-phase rectifier with power factor correction for EV fast charger
+186. Development of digital control implementation on FPGA for power converter
+187. Design of resonant converter for contactless EV charging with misalignment tolerance
+188. Development of common-mode voltage reduction technique for motor drive inverter
+189. Design of multi-input converter for hybrid PV-wind-battery system
+190. Development of model predictive control for power converter in microgrid
+191. Design of high-frequency transformer for solid-state transformer application
+192. Development of dead-time compensation technique for voltage source inverter
+193. Design of single-inductor multiple-output converter for portable device
+194. Development of grid-forming inverter control for 100% renewable microgrid
+195. Design of active front-end rectifier for regenerative motor drive
+196. Development of thermal management system for high-power density converter
+197. Design of EMI filter for power electronic converter in Indonesian grid compliance
+198. Development of fault-tolerant inverter topology for critical load application
+199. Design of power electronic interface for superconducting magnetic energy storage
+200. Development of wide-bandgap device-based converter for tropical high-temperature operation
+
+--- CATEGORY 5: RENEWABLE ENERGY & MICROGRIDS (201-250) ---
+201. Optimal sizing of hybrid PV-wind-battery microgrid for Indonesian remote island using HOMER
+202. MPPT algorithm comparison (P&O, INC, PSO) for partial shading condition in tropical climate
+203. Design of grid-connected solar PV system for Indonesian net metering scheme
+204. Techno-economic analysis of floating solar PV on Indonesian reservoir
+205. Development of small-scale wind turbine for low wind speed Indonesian coastal area
+206. Optimal energy management for campus microgrid with PV and battery storage
+207. Performance analysis of bifacial solar PV module in Indonesian equatorial location
+208. Design of hybrid microgrid for fish cold storage in Indonesian fishing village
+209. MPPT using artificial neural network for rapidly changing irradiance condition
+210. Techno-economic analysis of agrivoltaic system for rice paddy in Indonesia
+211. Development of pico-hydro turbine generator for mountainous rural village electrification
+212. Optimal dispatch of microgrid with PV, diesel, and battery using dynamic programming
+213. Performance degradation analysis of solar PV module in tropical humid climate
+214. Design of DC microgrid for telecom tower with solar PV and battery backup
+215. Development of vertical axis wind turbine for urban rooftop in Indonesian city
+216. Optimal tilt angle determination for solar PV installation across Indonesian latitude
+217. Techno-economic analysis of community-scale biogas power plant from cattle waste
+218. Development of wave energy converter for Indonesian southern coast
+219. Power quality analysis of grid-connected PV system with high penetration level
+220. Design of standalone PV system for rural health clinic in Eastern Indonesia
+221. Performance comparison of string vs. microinverter for rooftop PV in partial shading
+222. Techno-economic analysis of green hydrogen from solar PV for Indonesian industry
+223. Development of tidal current turbine for narrow strait in Indonesian archipelago
+224. Optimal battery sizing for PV-battery system with time-of-use tariff
+225. Performance analysis of concentrated solar power feasibility in Eastern Indonesia
+226. Design of hybrid PV-diesel microgrid with load management for mining operation
+227. Development of ocean thermal energy conversion (OTEC) for tropical Indonesian waters
+228. Optimal placement of PV and storage in distribution network for voltage support
+229. Techno-economic analysis of offshore wind farm in Indonesian southern waters
+230. Development of run-of-river micro-hydro with variable speed generator control
+231. Performance analysis of solar PV cleaning robot for dusty industrial environment
+232. Design of islanded microgrid with droop control for Indonesian remote community
+233. Techno-economic analysis of solar-powered desalination for Indonesian small island
+234. Development of hybrid PV-wind forecasting using ensemble machine learning
+235. Optimal energy management of microgrid with electric vehicle charging station
+236. Performance analysis of perovskite solar cell stability in tropical humidity
+237. Design of power conditioning system for grid-connected micro-hydro power plant
+238. Techno-economic analysis of rooftop PV for Indonesian commercial building
+239. Development of maximum power extraction from ocean wave using linear generator
+240. Optimal scheduling of battery storage for renewable energy time-shifting
+241. Performance analysis of solar PV system with different mounting structures in tropical wind
+242. Design of hybrid renewable energy system for Indonesian border island
+243. Techno-economic analysis of biomass gasification power plant from palm waste
+244. Development of smart inverter function for voltage regulation in high-PV network
+245. Optimal configuration of microgrid for Indonesian industrial estate with renewable target
+246. Performance analysis of solar tracker vs fixed mount in equatorial Indonesia
+247. Design of power management system for multi-source renewable energy microgrid
+248. Techno-economic analysis of pumped hydro storage for renewable integration in Sulawesi
+249. Development of predictive maintenance for wind turbine using vibration analysis
+250. Optimal planning of renewable energy microgrid for Indonesian new capital city (IKN)
+
+--- CATEGORY 6: EMBEDDED SYSTEMS & IoT (251-300) ---
+251. Development of IoT-based smart energy meter with real-time monitoring for PLN customers
+252. Design of ESP32-based environmental monitoring system for Indonesian peatland fire detection
+253. Development of LoRa-based water level monitoring for flood early warning system
+254. Design of FPGA-based digital controller for power converter with fast response
+255. Development of IoT-based transformer health monitoring using dissolved gas analysis
+256. Design of embedded system for real-time power quality analyzer using STM32
+257. Development of smart irrigation system using soil moisture sensor and fuzzy logic
+258. Design of FPGA-based MPPT controller for solar PV with fast tracking
+259. Development of IoT-based air quality monitoring network for Indonesian industrial city
+260. Design of embedded motor protection relay using microcontroller
+261. Development of smart home energy management system with IoT and machine learning
+262. Design of FPGA-based space vector PWM generator for three-phase inverter
+263. Development of IoT-based fish pond monitoring with automatic feeding system
+264. Design of embedded system for battery management system of electric vehicle
+265. Development of LoRaWAN-based smart street lighting control for energy saving
+266. Design of FPGA-based digital lock-in amplifier for sensor signal processing
+267. Development of IoT-based greenhouse monitoring and control for tropical agriculture
+268. Design of embedded fault recorder for distribution network protection analysis
+269. Development of smart parking system using ultrasonic sensor and IoT platform
+270. Design of FPGA-based real-time harmonic analyzer for power quality monitoring
+271. Development of IoT-based cold chain monitoring for vaccine distribution in Indonesia
+272. Design of embedded system for solar PV monitoring with fault detection
+273. Development of smart waste bin monitoring using IoT for Indonesian smart city
+274. Design of FPGA-based digital control for active power filter
+275. Development of IoT-based structural health monitoring for Indonesian bridge infrastructure
+276. Design of embedded system for automatic transfer switch with power quality sensing
+277. Development of precision agriculture system using drone and IoT sensor network
+278. Design of FPGA-based protection relay with adaptive setting for microgrid
+279. Development of IoT-based energy audit system for Indonesian industrial building
+280. Design of embedded system for electric vehicle charging station management
+281. Development of smart water meter with leak detection using IoT technology
+282. Design of FPGA-based signal generator for power system testing
+283. Development of IoT-based landslide early warning system for Indonesian mountainous area
+284. Design of embedded system for solar-powered water purification with remote monitoring
+285. Development of asset tracking system using GPS and LoRa for logistics
+286. Design of FPGA-based controller for multilevel inverter with reduced computation
+287. Development of IoT-based poultry farm monitoring with environmental control
+288. Design of embedded system for portable power analyzer with data logging
+289. Development of smart building management system using BACnet and IoT integration
+290. Design of FPGA-based digital twin for real-time power system simulation
+291. Development of IoT-based mangrove ecosystem monitoring in Indonesian coastal area
+292. Design of embedded system for automatic voltage regulator of small generator
+293. Development of smart traffic monitoring using computer vision and edge computing
+294. Design of FPGA-based high-speed data acquisition for power transient recording
+295. Development of IoT-based palm oil plantation monitoring with yield prediction
+296. Design of embedded system for portable solar PV I-V curve tracer
+297. Development of underwater IoT sensor network for coral reef monitoring
+298. Design of FPGA-based custom processor for neural network inference in edge device
+299. Development of IoT-based earthquake early warning system for Indonesian seismic zone
+300. Design of embedded system for smart prepaid energy meter with tamper detection
+
+--- CATEGORY 7: ELECTROMAGNETIC & ANTENNA DESIGN (301-350) ---
+301. Design of microstrip patch antenna for Indonesian 5G n78 band (3.5 GHz)
+302. Electromagnetic compatibility analysis of electric vehicle charging in residential area
+303. Design of Vivaldi antenna for ground penetrating radar in Indonesian soil survey
+304. Electromagnetic shielding effectiveness of conductive textile for wearable application
+305. Design of slot antenna array for weather radar in Indonesian meteorological station
+306. Electromagnetic interference analysis of solar PV inverter on communication system
+307. Design of dielectric resonator antenna for millimeter-wave 5G indoor application
+308. Electromagnetic field exposure assessment near Indonesian cellular base station
+309. Design of horn antenna for satellite communication ground station in equatorial region
+310. Electromagnetic analysis of wireless power transfer for underwater sensor node
+311. Design of fractal antenna for multiband operation in Indonesian frequency allocation
+312. Electromagnetic compatibility design of PCB layout for power electronic converter
+313. Design of Yagi-Uda antenna for VHF communication in Indonesian maritime
+314. Electromagnetic simulation of lightning strike on wind turbine blade
+315. Design of cavity-backed slot antenna for airborne radar application
+316. Electromagnetic analysis of induction heating coil for palm oil processing
+317. Design of printed dipole antenna for RFID reader in warehouse management
+318. Electromagnetic field mapping of Indonesian high-voltage transmission corridor
+319. Design of helical antenna for satellite telemetry in low earth orbit
+320. Electromagnetic compatibility testing of Indonesian electric motorcycle
+321. Design of bow-tie antenna for ultra-wideband imaging application
+322. Electromagnetic analysis of transformer core loss under harmonic excitation
+323. Design of conformal antenna for UAV communication in agricultural application
+324. Electromagnetic shielding design for sensitive instrumentation in industrial environment
+325. Design of leaky-wave antenna for automotive radar at 77 GHz
+326. Electromagnetic thermal analysis of high-current busbar in switchgear
+327. Design of textile antenna integrated into safety vest for construction worker
+328. Electromagnetic analysis of partial discharge in high-voltage cable insulation
+329. Design of reflectarray antenna for Ku-band satellite communication
+330. Electromagnetic compatibility of grid-connected inverter with Indonesian EMC standard
+331. Design of implantable antenna for biomedical telemetry in ISM band
+332. Electromagnetic analysis of eddy current loss in permanent magnet motor
+333. Design of log-periodic antenna for spectrum monitoring in Indonesian frequency band
+334. Electromagnetic field simulation of MRI RF coil for medical imaging
+335. Design of antenna-in-package for 5G mmWave module
+336. Electromagnetic analysis of crosstalk in multi-conductor cable for industrial control
+337. Design of circularly polarized array antenna for CubeSat communication
+338. Electromagnetic compatibility assessment of Indonesian electric vehicle charging infrastructure
+339. Design of metamaterial-inspired antenna for miniaturized IoT sensor node
+340. Electromagnetic analysis of skin effect in high-frequency transformer winding
+341. Design of dual-polarized antenna for Indonesian weather radar upgrade
+342. Electromagnetic interference mitigation in solar PV system near airport
+343. Design of reconfigurable antenna using PIN diode for cognitive radio
+344. Electromagnetic analysis of magnetic field from undersea power cable
+345. Design of antenna for through-wall radar for search and rescue application
+346. Electromagnetic compatibility of power line communication with radio services
+347. Design of lens antenna for point-to-point backhaul in Indonesian 5G network
+348. Electromagnetic analysis of ferrite core inductor for EMI filter design
+349. Design of on-body antenna for health monitoring wearable device
+350. Electromagnetic simulation of lightning protection for Indonesian solar PV farm
+
+--- CATEGORY 8: INSTRUMENTATION & MEASUREMENT (351-400) ---
+351. Development of low-cost power quality analyzer for Indonesian SME industry
+352. Design of current sensor using Rogowski coil for non-invasive measurement
+353. Development of partial discharge measurement system for transformer condition monitoring
+354. Design of precision temperature measurement system for geothermal well monitoring
+355. Development of dissolved gas analysis sensor for online transformer monitoring
+356. Design of vibration measurement system for rotating machine predictive maintenance
+357. Development of smart sensor for real-time water quality monitoring in river
+358. Design of high-voltage divider for impulse voltage measurement in testing laboratory
+359. Development of fiber optic sensor for temperature monitoring of power cable
+360. Design of energy harvesting system for self-powered wireless sensor node
+361. Development of ultrasonic flow meter for palm oil pipeline measurement
+362. Design of impedance measurement system for battery state-of-health estimation
+363. Development of infrared thermography system for electrical equipment hotspot detection
+364. Design of capacitive sensor for non-contact voltage detection in distribution line
+365. Development of phasor measurement unit (PMU) prototype for distribution network
+366. Design of strain gauge measurement system for transmission tower structural monitoring
+367. Development of gas sensor array with pattern recognition for transformer fault diagnosis
+368. Design of precision current measurement using Hall effect sensor with compensation
+369. Development of acoustic emission sensor for partial discharge localization in switchgear
+370. Design of solar irradiance measurement station for PV resource assessment in Indonesia
+371. Development of power line sag measurement using image processing technique
+372. Design of insulation resistance measurement system for motor winding diagnosis
+373. Development of smart metering infrastructure with power quality measurement capability
+374. Design of torque measurement system for electric motor testing laboratory
+375. Development of lightning detection and location system for Indonesian region
+376. Design of electromagnetic field measurement probe for EMC compliance testing
+377. Development of battery impedance spectroscopy system for EV battery diagnosis
+378. Design of high-frequency current probe for switching loss measurement
+379. Development of drone-based inspection system for transmission line using LiDAR
+380. Design of power factor measurement system with harmonic decomposition
+381. Development of corrosion monitoring sensor for grounding system in tropical soil
+382. Design of optical current transformer for high-voltage measurement
+383. Development of IoT-based vibration monitoring for early fault detection in motor
+384. Design of calorimetric measurement system for power loss in magnetic material
+385. Development of synchrophasor-based oscillation monitoring for Indonesian power grid
+386. Design of wideband voltage sensor for power electronic converter measurement
+387. Development of thermal imaging system for solar PV hotspot detection
+388. Design of digital multimeter with true-RMS measurement for distorted waveform
+389. Development of cable fault location system using time-domain reflectometry
+390. Design of power quality recorder with event classification using machine learning
+391. Development of humidity and temperature monitoring for transformer oil degradation
+392. Design of high-precision weighing system for industrial batching process
+393. Development of non-intrusive load monitoring for residential energy disaggregation
+394. Design of electromagnetic flowmeter for conductive fluid measurement
+395. Development of condition monitoring system for circuit breaker using timing analysis
+396. Design of laser-based distance measurement for overhead line clearance monitoring
+397. Development of smart sensor for soil resistivity measurement in grounding design
+398. Design of data acquisition system for power system transient recording
+399. Development of machine vision system for insulator defect detection on transmission line
+400. Design of wireless sensor network for substation environmental monitoring
+
+--- CATEGORY 9: ELECTRIC VEHICLES & ENERGY STORAGE (401-450) ---
+401. Design of battery management system for lithium-ion battery in Indonesian electric motorcycle
+402. Development of regenerative braking system for electric bus in urban traffic condition
+403. Optimal sizing of battery pack for electric delivery vehicle in Indonesian logistics
+404. Design of onboard charger with power factor correction for electric car
+405. Development of battery swapping station design for electric motorcycle fleet
+406. Thermal management system design for EV battery in tropical Indonesian climate
+407. Optimal placement of EV charging station in Indonesian urban area using GIS
+408. Design of wireless charging system for electric bus at bus stop
+409. Development of state-of-charge estimation using extended Kalman filter for EV battery
+410. Impact analysis of EV charging load on PLN distribution network
+411. Design of bidirectional charger for vehicle-to-home (V2H) application
+412. Development of supercapacitor-battery hybrid energy storage for electric bus
+413. Optimal charging strategy for EV battery longevity in tropical temperature
+414. Design of solar-powered EV charging station for Indonesian highway rest area
+415. Development of battery second-life application for stationary energy storage
+416. Techno-economic analysis of electric motorcycle adoption in Indonesian urban transportation
+417. Design of switched reluctance motor drive for low-cost electric vehicle
+418. Development of fast charging algorithm for lithium iron phosphate battery
+419. Optimal energy management for plug-in hybrid electric vehicle in Indonesian driving cycle
+420. Design of integrated motor-inverter for compact electric vehicle powertrain
+421. Development of battery aging model for tropical climate operating condition
+422. Impact assessment of mass EV adoption on Indonesian power grid infrastructure
+423. Design of inductive power transfer for automatic guided vehicle in warehouse
+424. Development of fuel cell-battery hybrid system for electric delivery truck
+425. Optimal route planning for electric vehicle considering charging station availability
+426. Design of modular battery pack with fault isolation for electric bus
+427. Development of vehicle-to-grid (V2G) aggregation strategy for grid frequency support
+428. Techno-economic analysis of battery energy storage for peak shaving in Indonesian industry
+429. Design of ultra-fast charger (350 kW) power electronic architecture
+430. Development of lithium-ion battery recycling process monitoring system
+431. Optimal sizing of PV-battery system for EV charging in Indonesian office building
+432. Design of axial flux motor for in-wheel drive electric motorcycle
+433. Development of cloud-based battery health monitoring for EV fleet management
+434. Impact analysis of EV charging harmonics on distribution transformer lifetime
+435. Design of three-phase isolated charger for electric bus depot charging
+436. Development of predictive energy management for hybrid electric vehicle using AI
+437. Optimal design of DC fast charging network for Indonesian toll road corridor
+438. Design of cooling system for high-power EV charger in tropical environment
+439. Development of state-of-health estimation using machine learning for battery pack
+440. Techno-economic analysis of electric ferry for Indonesian inter-island transportation
+441. Design of power electronic traction drive for Indonesian light rail transit
+442. Development of battery thermal runaway detection and prevention system
+443. Optimal scheduling of EV fleet charging for minimum electricity cost
+444. Design of compact DC-DC converter for 48V mild hybrid vehicle
+445. Development of smart charging system with renewable energy priority for EV
+446. Impact analysis of EV adoption on Indonesian petroleum demand forecast
+447. Design of energy recovery system from elevator using supercapacitor storage
+448. Development of digital twin for EV battery degradation prediction
+449. Optimal design of battery-supercapacitor hybrid for regenerative braking energy capture
+450. Techno-economic analysis of electric three-wheeler (bajaj) conversion in Indonesian city
+
+--- CATEGORY 10: AI & MACHINE LEARNING IN ELECTRICAL SYSTEMS (451-500) ---
+451. Deep learning-based fault classification in Indonesian power distribution network
+452. Machine learning for short-term load forecasting of PLN Java-Bali system
+453. CNN-based visual inspection of transmission line insulator defect
+454. LSTM neural network for solar irradiance prediction in tropical climate
+455. Random forest-based power transformer fault diagnosis using dissolved gas analysis
+456. Deep reinforcement learning for optimal energy management in microgrid
+457. Machine learning-based non-intrusive load monitoring for residential energy audit
+458. GAN-based synthetic data generation for power system fault training dataset
+459. XGBoost-based prediction of distribution transformer remaining useful life
+460. Neural network-based MPPT for photovoltaic system under partial shading
+461. Transfer learning for motor fault detection with limited training data
+462. Machine learning-based optimal power flow for real-time grid operation
+463. CNN-LSTM hybrid model for power quality disturbance classification
+464. Federated learning for privacy-preserving smart meter data analytics
+465. Support vector machine for islanding detection in grid-connected PV system
+466. Deep learning-based state estimation for unobservable distribution network
+467. Reinforcement learning for adaptive protection relay setting in microgrid
+468. Machine learning-based wind power forecasting for Indonesian wind farm
+469. Autoencoder-based anomaly detection for cybersecurity in SCADA system
+470. Neural network-based harmonic estimation for active power filter control
+471. Random forest for prediction of power line vegetation encroachment
+472. Deep learning-based partial discharge pattern recognition in GIS
+473. Machine learning optimization of PID controller parameters for motor drive
+474. LSTM-based battery state-of-health prediction for electric vehicle
+475. Convolutional neural network for solar panel defect detection using drone image
+476. Gradient boosting for electricity theft detection in Indonesian distribution network
+477. Deep learning-based weather-adaptive solar PV output forecasting
+478. Machine learning for optimal scheduling of battery energy storage system
+479. Neural network-based speed estimation for sensorless motor control
+480. Ensemble learning for multi-step ahead wind speed prediction
+481. Deep learning-based image recognition for automatic meter reading
+482. Machine learning for predictive maintenance of Indonesian power plant turbine
+483. Recurrent neural network for voltage stability margin prediction
+484. AI-based energy trading optimization for prosumer in Indonesian microgrid
+485. Machine learning-based cable fault type classification using TDR signal
+486. Deep learning for real-time transient stability assessment of power system
+487. Neural network-based design optimization of electromagnetic device
+488. Machine learning for demand response potential estimation in Indonesian commercial building
+489. CNN-based recognition of power quality events from voltage waveform
+490. AI-optimized placement of EV charging infrastructure in Indonesian city
+491. Deep learning-based load disaggregation for industrial energy management
+492. Machine learning for aging prediction of photovoltaic module in tropical climate
+493. Transformer neural network for sequence-to-sequence power system forecasting
+494. AI-based fault location in Indonesian underground cable network
+495. Machine learning-based coordination of distributed energy resources
+496. Deep learning for automatic classification of lightning waveform data
+497. Neural architecture search for optimal power electronics control design
+498. Machine learning-based dynamic line rating for Indonesian transmission system
+499. AI-optimized design of renewable energy microgrid for Indonesian new capital (IKN)
+500. Deep learning-based digital twin for real-time Indonesian power grid monitoring

@@ -1,0 +1,640 @@
+================================================================================
+TOPIC GUIDE — Bahasa Asing Terapan (Applied Foreign Languages)
+================================================================================
+FIELD: Humanities / Applied Linguistics
+DEFAULT CITATION STYLE: APA / MLA
+SUBDISCIPLINE: English for Specific Purposes, Translation & Interpreting, Business Communication, Tourism Language, Technology-Enhanced Language Learning, Multilingual Communication, Language Testing & Assessment, Applied Linguistics & Pedagogy
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title (specific, with method and domain)
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Needs analysis (target situation, present situation, learning situation)
+   - ESP/EAP methodology (genre analysis, move analysis, corpus-based)
+   - Task-based language teaching (TBLT design, implementation, assessment)
+   - Content and Language Integrated Learning (CLIL frameworks)
+   - Corpus-based materials development (DDL, concordancing)
+   - Technology-enhanced language learning (TELL, CALL, MALL, AI-assisted)
+   - Pragmatics research (speech acts, politeness, intercultural pragmatics)
+   - Genre analysis (Swales move analysis, systemic functional linguistics)
+   - Mixed methods research (sequential, convergent, embedded designs)
+   - Design-based research (iterative cycles, educational technology)
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics (proficiency scores, needs analysis results, task completion rates, learner satisfaction)
+   - All data realistic and internally consistent
+
+5. MATHEMATICAL FORMULAS (where applicable):
+   - Corpus linguistics: frequency, TF-IDF, collocational strength (MI score, t-score, log-likelihood)
+   - Readability: Flesch-Kincaid, Gunning Fog
+   - Inter-rater reliability: Cohen's kappa, Krippendorff's alpha
+   - Test statistics: item difficulty, discrimination index, reliability (KR-20, Cronbach's alpha)
+   - Effect size: Cohen's d, eta-squared, odds ratio
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian/Asian context prioritized
+   - Include ESP/EAP scholars (Dudley-Evans, Hyland, Swales) and ASEAN context researchers
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords, Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+ABSTRACT CHARACTERISTICS:
+  200-250 words. State the applied linguistics problem, learner/professional context,
+  theoretical framework, methodology, principal findings, contribution to applied
+  language studies, limitation, and implication for practice.
+
+INTRODUCTION ELEMENTS:
+  - Define the language use problem in professional/academic/vocational context.
+  - Situate within Indonesian multilingual landscape and ASEAN communication needs.
+  - Position against current scholarship in applied linguistics and ESP/EAP.
+  - State research gap, research questions, objectives, and expected contribution.
+
+LITERATURE REVIEW:
+  Common section name: "Kajian Pustaka" / "Literature Review" / "Theoretical Framework"
+  - Core theories in applied linguistics, ESP, and language pedagogy.
+  - Recent empirical findings on language for specific purposes in Indonesian context.
+  - CEFR framework, TOEFL/IELTS benchmarks, and professional language standards.
+  - Gaps in existing research on Indonesian applied foreign language contexts.
+
+METHODOLOGY:
+  Common section name: "Metode Penelitian" / "Research Methods"
+  - Design: needs analysis, experimental, action research, design-based, or mixed methods.
+  - Participants: Indonesian learners/professionals (institution type, proficiency level).
+  - Instruments: needs analysis questionnaires, proficiency tests, task-based assessments, interviews.
+  - Analysis: statistical tests, genre/move analysis, thematic coding, corpus analysis.
+
+TYPICAL RESULTS & DISCUSSION:
+  - Present findings by research question with quantitative and qualitative evidence.
+  - Compare with prior studies on ESP/EAP in similar contexts.
+  - Discuss pedagogical implications, materials design recommendations, and policy suggestions.
+  - Tables: needs analysis results, test scores, genre move frequency, learner performance.
+  - Figures: needs analysis priority charts, proficiency distribution, task completion rates.
+
+TYPICAL FIGURES:
+  - Research design flowchart.
+  - Needs analysis priority ranking chart.
+  - Genre move structure diagram.
+  - Proficiency level distribution.
+  - Technology integration framework.
+
+TYPICAL TABLES:
+  - Participant demographics: institution | program | level | L1 | proficiency.
+  - Needs analysis: skill/function | importance | frequency | difficulty | priority.
+  - Genre analysis: move | step | frequency | obligatory/optional | example.
+  - Assessment results: component | pre-test | post-test | gain | effect size.
+
+CONCLUSION CHARACTERISTICS:
+  - Answer research questions with specific data-supported claims.
+  - State pedagogical, curricular, and policy contributions.
+  - Acknowledge limitations in sample, context, and generalizability.
+  - Recommend future research with specific populations, settings, or interventions.
+
+COMMON REFERENCE VENUES:
+  English for Specific Purposes, Journal of English for Academic Purposes, System,
+  TESOL Quarterly, Applied Linguistics, Language Teaching Research, Computer Assisted
+  Language Learning, ReCALL, Indonesian Journal of Applied Linguistics, TEFLIN Journal,
+  Journal of Asia TEFL, RELC Journal, Asian EFL Journal
+
+DOMAIN VOCABULARY:
+  ESP, EAP, EOP, EGAP, ESAP, needs analysis, genre analysis, move analysis,
+  task-based, CLIL, CALL, MALL, TELL, corpus-based, DDL, pragmatic competence,
+  intercultural communication, multilingualism, language policy, assessment literacy
+
+METHODOLOGY KEYWORDS:
+  needs analysis, genre-based approach, task-based design, corpus-based materials development, action research, design-based research, experimental design, mixed methods, survey research, case study, ethnographic observation, discourse analysis, conversation analysis, think-aloud protocol
+
+RESEARCH TOPIC BANK (500 TOPICS)
+
+CATEGORY 1 — English for Specific Purposes (001-050)
+001. Needs analysis of English for nursing professionals at Indonesian hospitals serving international patients.
+002. Genre analysis of Indonesian engineering research article introductions using Swales' CARS model.
+003. Corpus-based study of English medical terminology usage in Indonesian healthcare communication.
+004. ESP course design for Indonesian maritime cadets based on target situation needs analysis.
+005. Move analysis of English business proposal writing by Indonesian corporate professionals.
+006. Needs assessment of English for Indonesian customs and immigration officers at international airports.
+007. Genre-based approach to teaching English research article writing for Indonesian graduate students.
+008. Corpus-based materials development for English in Indonesian banking and finance sector.
+009. ESP curriculum evaluation for English in Indonesian information technology programs.
+010. Needs analysis of English for Indonesian diplomats and foreign affairs professionals.
+011. Genre analysis of English patient information leaflets in Indonesian hospital contexts.
+012. Corpus-based study of English aviation communication for Indonesian pilot training programs.
+013. ESP materials design for English in Indonesian halal food industry certification processes.
+014. Move analysis of English grant proposal writing by Indonesian academic researchers.
+015. Needs assessment of English for Indonesian e-commerce professionals in cross-border trade.
+016. Genre-based teaching of English laboratory reports for Indonesian science students.
+017. Corpus-based analysis of English legal language in Indonesian international trade agreements.
+018. ESP course design for English in Indonesian renewable energy sector professionals.
+019. Move analysis of English job application letters by Indonesian fresh graduates.
+020. Needs analysis of English for Indonesian creative industry professionals (design, media, advertising).
+021. Genre analysis of English environmental impact assessment reports in Indonesian mining context.
+022. Corpus-based materials for English in Indonesian pharmaceutical industry regulatory communication.
+023. ESP curriculum design for English in Indonesian digital startup ecosystem.
+024. Move analysis of English conference presentation abstracts by Indonesian researchers.
+025. Needs assessment of English for Indonesian agricultural export professionals.
+026. Genre-based approach to English technical manual writing for Indonesian manufacturing.
+027. Corpus-based study of English in Indonesian sports journalism and broadcasting.
+028. ESP materials development for English in Indonesian Islamic banking and finance.
+029. Move analysis of English product description writing for Indonesian e-commerce platforms.
+030. Needs analysis of English for Indonesian public health professionals in pandemic communication.
+031. Genre analysis of English sustainability reports by Indonesian corporations.
+032. Corpus-based materials for English in Indonesian automotive industry supply chain communication.
+033. ESP course evaluation for English in Indonesian hospitality management programs.
+034. Move analysis of English press releases by Indonesian government agencies.
+035. Needs assessment of English for Indonesian cybersecurity professionals.
+036. Genre-based teaching of English case study writing for Indonesian business students.
+037. Corpus-based analysis of English in Indonesian fashion and textile industry communication.
+038. ESP materials design for English in Indonesian geothermal energy sector.
+039. Move analysis of English policy brief writing by Indonesian think tank researchers.
+040. Needs analysis of English for Indonesian logistics and supply chain professionals.
+041. Genre analysis of English audit reports in Indonesian accounting firms.
+042. Corpus-based study of English in Indonesian telecommunications industry documentation.
+043. ESP curriculum design for English in Indonesian marine and fisheries sector.
+044. Move analysis of English investor relations communication by Indonesian listed companies.
+045. Needs assessment of English for Indonesian disaster management professionals.
+046. Genre-based approach to English white paper writing for Indonesian technology companies.
+047. Corpus-based materials for English in Indonesian palm oil industry sustainability communication.
+048. ESP course design for English in Indonesian space and satellite technology sector.
+049. Move analysis of English crowdfunding campaign descriptions by Indonesian social entrepreneurs.
+050. Needs analysis of English for Indonesian artificial intelligence and data science professionals.
+
+CATEGORY 2 — Translation & Interpreting Practice (051-100)
+051. Needs analysis of translation competence for Indonesian government document translators.
+052. Quality assessment of English-Indonesian translation in pharmaceutical product information leaflets.
+053. Translation strategies for culture-specific items in Indonesian tourism promotional materials.
+054. Interpreter training needs for Indonesian courtroom interpreting in international cases.
+055. Machine translation post-editing (MTPE) competence development for Indonesian translation students.
+056. Translation of English financial reports into Indonesian: terminology standardization challenges.
+057. Community interpreting service quality for migrant workers in Indonesian consular services abroad.
+058. Corpus-based study of translation shifts in English-Indonesian news translation.
+059. Translation technology (CAT tools) adoption and proficiency among Indonesian professional translators.
+060. Quality assessment of English-Indonesian subtitle translation on streaming platforms.
+061. Translation of English academic abstracts into Indonesian: genre convention adaptation.
+062. Interpreter role perception in Indonesian healthcare settings for foreign patient communication.
+063. Machine translation evaluation for English-Indonesian in e-commerce product descriptions.
+064. Translation of English legal contracts into Indonesian: equivalence and clarity challenges.
+065. Conference interpreting training curriculum design for English-Indonesian at Indonesian universities.
+066. Corpus-based study of explicitation in English-to-Indonesian literary translation.
+067. Translation of English technical standards (ISO) into Indonesian: terminology management.
+068. Remote simultaneous interpreting (RSI) challenges for English-Indonesian in post-pandemic conferences.
+069. Translation quality assessment of English-Indonesian in international organization documents (UN, ASEAN).
+070. Sight translation training effectiveness for English-Indonesian interpreter candidates.
+071. Translation of English marketing materials into Indonesian: transcreation and localization strategies.
+072. Interpreter ethics and neutrality in Indonesian immigration and asylum contexts.
+073. Machine translation literacy among Indonesian translation students: critical evaluation skills.
+074. Translation of English environmental policy documents into Indonesian for public communication.
+075. Consecutive interpreting note-taking strategies for English-Indonesian language pair.
+076. Corpus-based analysis of translator's voice in English-Indonesian non-fiction translation.
+077. Translation of English children's literature into Indonesian: cultural adaptation strategies.
+078. Telephone interpreting service quality assessment for English-Indonesian in business contexts.
+079. Translation of English social media content into Indonesian: platform-specific challenges.
+080. Interpreter training for English-Indonesian in mental health and counseling settings.
+081. Machine translation and human translation comparison for English-Indonesian academic texts.
+082. Translation of English patent documents into Indonesian: technical terminology challenges.
+083. Community interpreting needs assessment for English-Indonesian in Indonesian tourist destinations.
+084. Corpus-based study of modality translation from English to Indonesian in news discourse.
+085. Translation of English game localization into Indonesian: cultural and linguistic adaptation.
+086. Interpreter competence assessment framework for English-Indonesian professional certification.
+087. Machine translation error typology for English-Indonesian in different text genres.
+088. Translation of English health promotion materials into Indonesian: readability and cultural appropriateness.
+089. Whispered interpreting techniques for English-Indonesian in diplomatic and business settings.
+090. Corpus-based study of cohesion maintenance in English-to-Indonesian translation.
+091. Translation of English AI and technology terminology into Indonesian: neologism creation strategies.
+092. Interpreter training for English-Indonesian in educational settings (parent-teacher, academic).
+093. Machine translation customization for English-Indonesian in specific industry domains.
+094. Translation of English human rights documents into Indonesian: ideological and terminological challenges.
+095. Relay interpreting challenges in multilingual ASEAN meetings involving Indonesian interpreters.
+096. Corpus-based study of translation universals in English-Indonesian parallel corpus.
+097. Translation of English podcast and audio content into Indonesian: multimodal challenges.
+098. Interpreter well-being and burnout in high-stress English-Indonesian interpreting assignments.
+099. Machine translation integration in Indonesian translation agency workflows: productivity study.
+100. Translation of English climate change communication into Indonesian for public awareness campaigns.
+
+CATEGORY 3 — Business Communication (101-150)
+101. Needs analysis of English business communication skills for Indonesian multinational company employees.
+102. Genre analysis of English business emails written by Indonesian professionals: move structure study.
+103. Cross-cultural pragmatic study of English negotiation strategies used by Indonesian business professionals.
+104. Corpus-based analysis of English meeting discourse in Indonesian multinational company settings.
+105. Task-based course design for English business presentation skills at Indonesian corporations.
+106. Discourse analysis of English-Indonesian code-switching in Indonesian startup company communication.
+107. Needs assessment of Mandarin business communication for Indonesian professionals in Chinese companies.
+108. Genre analysis of English corporate annual reports by Indonesian publicly listed companies.
+109. Pragmatic study of English complaint and response strategies in Indonesian customer service.
+110. Corpus-based materials development for English in Indonesian export-import business communication.
+111. TBLT implementation for English business writing skills at Indonesian vocational universities.
+112. Discourse analysis of English video conference communication by Indonesian remote workers.
+113. Needs analysis of Korean business communication for Indonesian workers in Korean companies.
+114. Genre analysis of English LinkedIn profiles and professional networking by Indonesian professionals.
+115. Cross-cultural study of English small talk and rapport building by Indonesian business professionals.
+116. Corpus-based analysis of English in Indonesian business news and financial journalism.
+117. Task-based assessment design for English business communication at Indonesian polytechnics.
+118. Discourse analysis of English-Indonesian bilingual business communication in ASEAN contexts.
+119. Needs assessment of Arabic business communication for Indonesian professionals in Middle Eastern trade.
+120. Genre analysis of English business case study writing by Indonesian MBA students.
+121. Pragmatic study of English persuasion strategies in Indonesian sales and marketing communication.
+122. Corpus-based materials for English in Indonesian digital marketing and social media business.
+123. CLIL approach to teaching English through business content at Indonesian universities.
+124. Discourse analysis of English crisis communication by Indonesian companies during controversies.
+125. Needs analysis of Japanese business communication for Indonesian professionals in Japanese companies.
+126. Genre analysis of English memoranda and internal communication in Indonesian organizations.
+127. Cross-cultural pragmatic study of English feedback and criticism delivery by Indonesian managers.
+128. Corpus-based analysis of English in Indonesian franchise and licensing agreement communication.
+129. Task-based course design for English customer relationship management communication in Indonesia.
+130. Discourse analysis of English in Indonesian co-working space and entrepreneurship community communication.
+131. Needs assessment of French business communication for Indonesian professionals in francophone trade.
+132. Genre analysis of English tender and procurement documents in Indonesian government projects.
+133. Pragmatic study of English apology strategies in Indonesian business service recovery.
+134. Corpus-based materials for English in Indonesian fintech and digital payment industry communication.
+135. TBLT implementation for English cross-cultural negotiation skills at Indonesian business schools.
+136. Discourse analysis of English in Indonesian social enterprise and impact business communication.
+137. Needs analysis of German business communication for Indonesian professionals in German companies.
+138. Genre analysis of English business plan writing by Indonesian entrepreneurship students.
+139. Cross-cultural study of English humor and relationship building in Indonesian business contexts.
+140. Corpus-based analysis of English in Indonesian halal industry international business communication.
+141. Task-based assessment of English business communication competence for Indonesian job seekers.
+142. Discourse analysis of English in Indonesian family business succession and governance communication.
+143. Needs assessment of Spanish business communication for Indonesian professionals in Latin American trade.
+144. Genre analysis of English corporate social responsibility communication by Indonesian companies.
+145. Pragmatic study of English request strategies in Indonesian workplace hierarchical communication.
+146. Corpus-based materials for English in Indonesian creative economy business communication.
+147. CLIL approach to English business ethics education at Indonesian universities.
+148. Discourse analysis of English in Indonesian business incubator and accelerator program communication.
+149. Needs analysis of multilingual business communication competence for Indonesian ASEAN professionals.
+150. Genre analysis of English investor pitch deck presentations by Indonesian startup founders.
+
+CATEGORY 4 — Tourism & Hospitality Language (151-200)
+151. Needs analysis of English communication skills for Indonesian hotel front office staff.
+152. Genre analysis of English tourism promotional brochures for Indonesian destinations.
+153. Corpus-based study of English in Indonesian online travel agency (OTA) platform communication.
+154. ESP course design for English in Indonesian ecotourism guide training programs.
+155. Discourse analysis of English tour guide narratives at Indonesian UNESCO World Heritage sites.
+156. Needs assessment of Mandarin communication skills for Indonesian tourism workers serving Chinese tourists.
+157. Genre analysis of English hotel guest review responses by Indonesian hospitality professionals.
+158. Corpus-based materials development for English in Indonesian cruise ship crew training.
+159. Task-based course design for English in Indonesian airport ground handling services.
+160. Discourse analysis of English-Indonesian multilingual signage in Indonesian tourist destinations.
+161. Needs analysis of Japanese communication skills for Indonesian tourism workers in Bali.
+162. Genre analysis of English food and beverage menu descriptions in Indonesian fine dining.
+163. Corpus-based study of English in Indonesian travel blog and vlog content creation.
+164. ESP materials design for English in Indonesian medical tourism communication.
+165. Discourse analysis of English complaint handling in Indonesian hotel customer service.
+166. Needs assessment of Korean communication skills for Indonesian tourism workers serving Korean tourists.
+167. Genre analysis of English spa and wellness service descriptions in Indonesian tourism.
+168. Corpus-based materials for English in Indonesian adventure tourism safety communication.
+169. Task-based assessment of English communication for Indonesian tourism vocational students.
+170. Discourse analysis of English cultural interpretation in Indonesian heritage tourism narration.
+171. Needs analysis of Arabic communication skills for Indonesian Hajj and Umrah travel agents.
+172. Genre analysis of English destination marketing organization (DMO) website content in Indonesia.
+173. Corpus-based study of English in Indonesian MICE (meetings, incentives, conferences, exhibitions) industry.
+174. ESP course design for English in Indonesian culinary tourism communication.
+175. Discourse analysis of English sustainability communication in Indonesian eco-lodge marketing.
+176. Needs assessment of French communication skills for Indonesian tourism workers in luxury hospitality.
+177. Genre analysis of English travel insurance and terms of service in Indonesian tourism.
+178. Corpus-based materials for English in Indonesian diving and marine tourism communication.
+179. Task-based course design for English in Indonesian village tourism (desa wisata) guide training.
+180. Discourse analysis of English in Indonesian halal tourism marketing and communication.
+181. Needs analysis of Russian communication skills for Indonesian tourism workers in Bali.
+182. Genre analysis of English tourism crisis communication during natural disasters in Indonesia.
+183. Corpus-based study of English in Indonesian wellness and retreat tourism marketing.
+184. ESP materials design for English in Indonesian cultural tourism event management.
+185. Discourse analysis of English storytelling techniques in Indonesian heritage site interpretation.
+186. Needs assessment of German communication skills for Indonesian tourism workers serving European tourists.
+187. Genre analysis of English sustainable tourism certification communication in Indonesian context.
+188. Corpus-based materials for English in Indonesian wildlife and nature tourism communication.
+189. Task-based assessment of multilingual communication for Indonesian tourism diploma students.
+190. Discourse analysis of English in Indonesian digital nomad and remote work tourism communication.
+191. Needs analysis of Mandarin communication for Indonesian tourism workers in Labuan Bajo.
+192. Genre analysis of English tourism complaint letters and responses in Indonesian hospitality.
+193. Corpus-based study of English in Indonesian agritourism and farm stay communication.
+194. ESP course design for English in Indonesian sports and adventure tourism guide training.
+195. Discourse analysis of English accessibility communication in Indonesian inclusive tourism.
+196. Needs assessment of multilingual skills for Indonesian tourism workers in super priority destinations.
+197. Genre analysis of English tourism influencer content about Indonesian destinations.
+198. Corpus-based materials for English in Indonesian geopark and geological tourism communication.
+199. Task-based course design for English in Indonesian creative tourism workshop facilitation.
+200. Discourse analysis of English in Indonesian luxury tourism and high-end hospitality communication.
+
+CATEGORY 5 — Technology in Language Learning (201-250)
+201. Effectiveness of AI chatbots (ChatGPT, Gemini) for English writing feedback in Indonesian university contexts.
+202. Mobile-assisted language learning (MALL) app evaluation for English vocabulary in Indonesian EFL settings.
+203. Virtual reality (VR) immersion effectiveness for English speaking practice among Indonesian learners.
+204. Gamification design principles for English grammar learning applications in Indonesian contexts.
+205. Adaptive learning system effectiveness for personalized English instruction at Indonesian universities.
+206. Social media-based language learning activities for English pragmatic competence in Indonesian EFL.
+207. Automated writing evaluation (AWE) tool accuracy for Indonesian learners' English essays.
+208. Augmented reality (AR) application design for English vocabulary learning in Indonesian classrooms.
+209. Learning management system (LMS) effectiveness for blended English courses at Indonesian universities.
+210. Speech recognition technology accuracy for Indonesian-accented English pronunciation assessment.
+211. AI-powered grammar checker effectiveness for Indonesian learners' English academic writing.
+212. Video conferencing platform features for synchronous English speaking practice in Indonesian contexts.
+213. Digital storytelling tools for English narrative writing development among Indonesian students.
+214. Corpus-based data-driven learning (DDL) platform design for English collocations in Indonesian EFL.
+215. Podcast-based extensive listening program effectiveness for English listening skills in Indonesia.
+216. AI tutoring system design for TOEFL/IELTS preparation for Indonesian test-takers.
+217. Digital portfolio platform implementation for English writing assessment at Indonesian universities.
+218. Machine translation as pedagogical tool for English-Indonesian contrastive awareness development.
+219. Online collaborative writing tools (Google Docs, Notion) for English academic writing in Indonesia.
+220. Spaced repetition system (SRS) optimization for English academic vocabulary in Indonesian contexts.
+221. AI-generated feedback vs. teacher feedback effectiveness for English writing in Indonesian universities.
+222. Digital game-based learning for English business communication at Indonesian vocational schools.
+223. Text-to-speech technology for English pronunciation modeling in Indonesian self-study contexts.
+224. Learning analytics dashboard design for English language program management in Indonesia.
+225. Chatbot-mediated task-based interaction for English speaking practice in Indonesian EFL settings.
+226. Digital mind mapping tools for English reading comprehension strategy training in Indonesia.
+227. AI-powered plagiarism detection tool effectiveness for Indonesian English academic writing.
+228. Virtual exchange platform design for intercultural English communication between Indonesian and international students.
+229. Automated speech recognition for English oral presentation assessment at Indonesian universities.
+230. Digital flashcard application effectiveness for English-Indonesian translation pair learning.
+231. AI writing assistant (Grammarly, QuillBot) impact on Indonesian learners' English writing autonomy.
+232. Online peer review platform design for English academic writing at Indonesian graduate programs.
+233. Voice-based AI assistant effectiveness for English conversation practice in Indonesian home settings.
+234. Digital corpus tool training for Indonesian English teachers' materials development.
+235. Immersive 360-degree video for English situational language learning in Indonesian tourism programs.
+236. AI-based reading level assessment tool calibration for Indonesian English learners.
+237. Social robot interaction for English speaking practice in Indonesian elementary school contexts.
+238. Digital badge and micro-credential system for English language competence in Indonesian workplaces.
+239. Natural language processing tool for automated English essay scoring in Indonesian university exams.
+240. Mixed reality (MR) application for English for specific purposes training in Indonesian vocational contexts.
+241. AI-powered content recommendation system for English extensive reading in Indonesian university libraries.
+242. Digital simulation platform for English business negotiation practice at Indonesian business schools.
+243. Automated pronunciation training system effectiveness for Indonesian English teacher candidates.
+244. Blockchain-based English language credential verification system for Indonesian job markets.
+245. AI-generated English learning materials quality assessment for Indonesian EFL contexts.
+246. Wearable technology application for English vocabulary learning in Indonesian daily contexts.
+247. Digital twin technology for English language classroom simulation in Indonesian teacher training.
+248. AI-based English language needs analysis tool for Indonesian corporate training programs.
+249. Metaverse platform potential for English immersive learning experiences in Indonesian education.
+250. Edge AI application for offline English language learning in Indonesian rural areas.
+
+CATEGORY 6 — Multilingual Communication (251-300)
+251. Multilingual language policy analysis in Indonesian higher education institutions.
+252. Code-switching patterns in Indonesian-English-regional language trilingual academic discourse.
+253. Translanguaging practices in Indonesian multilingual classroom settings.
+254. Multilingual identity construction among Indonesian students studying multiple foreign languages.
+255. Language choice and domain analysis in Indonesian multilingual professional workplaces.
+256. Multilingual literacy development in Indonesian children from diverse linguistic backgrounds.
+257. Language maintenance and shift patterns in Indonesian heritage language communities.
+258. Multilingual communication strategies in Indonesian international school settings.
+259. Code-mixing in Indonesian social media discourse: patterns and pragmatic functions.
+260. Multilingual competence assessment frameworks for Indonesian polyglot professionals.
+261. Language attitudes toward English, Mandarin, and Arabic among Indonesian university students.
+262. Translanguaging pedagogy implementation in Indonesian foreign language classrooms.
+263. Multilingual signage and linguistic landscape analysis in Indonesian urban commercial areas.
+264. Language brokering experiences of multilingual Indonesian children in family contexts.
+265. Multilingual communication challenges in Indonesian healthcare settings with diverse patient populations.
+266. Code-switching as identity marker in Indonesian youth multilingual online communication.
+267. Multilingual education policy implementation in Indonesian border regions.
+268. Language choice in Indonesian religious discourse across multilingual communities.
+269. Multilingual communication strategies in Indonesian diplomatic and international relations contexts.
+270. Translanguaging in Indonesian creative writing and literary production.
+271. Multilingual competence requirements for Indonesian ASEAN professional mobility.
+272. Code-switching patterns in Indonesian broadcast media and entertainment.
+273. Multilingual family language policy in Indonesian interethnic and international marriages.
+274. Language revitalization efforts for endangered Indonesian regional languages through education.
+275. Multilingual communication in Indonesian e-commerce and digital marketplace platforms.
+276. Translanguaging practices in Indonesian content and language integrated learning (CLIL) programs.
+277. Multilingual literacy practices in Indonesian pesantren (Islamic boarding school) education.
+278. Language ideology and multilingual identity in Indonesian Chinese-descent communities.
+279. Multilingual communication challenges in Indonesian disaster response and humanitarian contexts.
+280. Code-switching in Indonesian academic conference presentations and discussions.
+281. Multilingual language planning for Indonesian special economic zones and industrial areas.
+282. Translanguaging in Indonesian sign language and spoken language bilingual education.
+283. Multilingual communication strategies in Indonesian interfaith dialogue contexts.
+284. Language choice and power dynamics in Indonesian multilingual courtroom proceedings.
+285. Multilingual digital literacy development for Indonesian students in globalized education.
+286. Code-switching patterns in Indonesian-Arabic bilingual religious education discourse.
+287. Multilingual communication in Indonesian traditional market and bazaar interactions.
+288. Translanguaging practices in Indonesian migrant worker communities abroad.
+289. Multilingual competence development in Indonesian tourism vocational education.
+290. Language attitudes and motivation for learning multiple foreign languages in Indonesian universities.
+291. Multilingual communication challenges in Indonesian multinational company team collaboration.
+292. Code-switching in Indonesian-Japanese bilingual communication in Japanese companies.
+293. Multilingual education challenges in Indonesian Papua and eastern regions.
+294. Translanguaging in Indonesian online learning platforms and MOOCs.
+295. Multilingual communication strategies in Indonesian airport and transportation hubs.
+296. Language policy and multilingual practices in Indonesian creative industry workplaces.
+297. Multilingual competence assessment for Indonesian civil servant recruitment.
+298. Code-switching patterns in Indonesian-Korean bilingual K-pop fan community discourse.
+299. Multilingual communication in Indonesian international trade fair and exhibition contexts.
+300. Translanguaging pedagogy for Indonesian students learning third and fourth languages.
+
+CATEGORY 7 — Language Testing & Assessment (301-350)
+301. Validity study of English proficiency tests used for Indonesian university admission.
+302. Washback effects of TOEFL iBT preparation on Indonesian learners' English communicative competence.
+303. Development and validation of English for academic purposes placement test for Indonesian universities.
+304. Diagnostic assessment design for identifying Indonesian learners' English writing weaknesses.
+305. Fairness analysis of international English proficiency tests for Indonesian test-takers.
+306. Portfolio assessment implementation for English speaking skills at Indonesian vocational schools.
+307. Computer-adaptive testing (CAT) development for English proficiency in Indonesian contexts.
+308. Washback effects of IELTS preparation on Indonesian learners' academic English skills.
+309. Development of English for specific purposes assessment for Indonesian nursing graduates.
+310. Rater training effectiveness for English speaking assessment at Indonesian language centers.
+311. Validity study of workplace English assessment tools used by Indonesian companies.
+312. Dynamic assessment approach for English reading comprehension in Indonesian EFL contexts.
+313. Development of English digital literacy assessment for Indonesian university students.
+314. Test anxiety and its impact on English proficiency test performance among Indonesian students.
+315. Automated scoring system validation for English essays by Indonesian learners.
+316. Self-assessment accuracy for English proficiency among Indonesian university students.
+317. Development of English intercultural communicative competence assessment for Indonesian contexts.
+318. Washback effects of national English examination on Indonesian high school teaching practices.
+319. Peer assessment reliability and validity for English oral presentations in Indonesian universities.
+320. Development of English for tourism assessment aligned with Indonesian vocational competency standards.
+321. Fairness analysis of English language requirements for Indonesian scholarship applications.
+322. Formative assessment practices for English writing in Indonesian university contexts.
+323. Development of multilingual communication competence assessment for Indonesian ASEAN professionals.
+324. Test-taking strategy use and its relationship to English test performance in Indonesian contexts.
+325. Automated speech scoring system validation for Indonesian-accented English.
+326. Self-regulated learning assessment in English language courses at Indonesian universities.
+327. Development of English for academic publishing readiness assessment for Indonesian researchers.
+328. Washback effects of English proficiency requirements on Indonesian graduate student motivation.
+329. Alternative assessment design for English communication in Indonesian inclusive education settings.
+330. Development of English pragmatic competence assessment for Indonesian business professionals.
+331. Validity study of English translation competence assessment for Indonesian translator certification.
+332. Classroom-based assessment literacy among Indonesian English teachers: survey study.
+333. Development of English for medical purposes assessment for Indonesian healthcare workers.
+334. Impact of test format (paper vs. computer) on Indonesian learners' English test performance.
+335. Automated feedback system effectiveness for English grammar assessment in Indonesian contexts.
+336. Development of English critical thinking assessment integrated with language proficiency.
+337. Fairness analysis of English language requirements for Indonesian professional licensing exams.
+338. Gamified assessment design for English vocabulary knowledge in Indonesian EFL contexts.
+339. Development of English for legal purposes assessment for Indonesian law graduates.
+340. Rater cognition study in English writing assessment at Indonesian universities.
+341. Validity study of English language portfolio assessment for Indonesian teacher certification.
+342. Diagnostic assessment of English academic vocabulary knowledge among Indonesian graduate students.
+343. Development of English for engineering assessment aligned with Indonesian industry standards.
+344. Impact of assessment feedback type on Indonesian learners' English writing improvement.
+345. Automated essay scoring calibration for Indonesian English learner writing characteristics.
+346. Development of English intercultural sensitivity assessment for Indonesian study abroad candidates.
+347. Washback effects of English exit exam on Indonesian university curriculum and instruction.
+348. Performance-based assessment design for English in Indonesian hospitality vocational programs.
+349. Development of English digital communication competence assessment for Indonesian professionals.
+350. Validity and reliability study of locally-developed English proficiency tests at Indonesian universities.
+
+CATEGORY 8 — Intercultural Communication (351-400)
+351. Intercultural communicative competence development in Indonesian English language education programs.
+352. Cross-cultural pragmatic study of Indonesian and Western academic email communication norms.
+353. Intercultural sensitivity development through English literature-based instruction in Indonesian universities.
+354. Cultural identity negotiation in Indonesian students' English academic writing.
+355. Cross-cultural study of directness and indirectness in Indonesian and Australian business communication.
+356. Intercultural communication challenges for Indonesian students in international university programs.
+357. Cultural adaptation of English communication training materials for Indonesian corporate contexts.
+358. Cross-cultural pragmatic analysis of Indonesian and American compliment response strategies.
+359. Intercultural competence assessment in Indonesian English teacher education programs.
+360. Cultural stereotyping and its impact on Indonesian learners' English communication confidence.
+361. Cross-cultural study of Indonesian and British politeness strategies in service encounters.
+362. Intercultural communication training design for Indonesian professionals in multinational companies.
+363. Cultural values influence on Indonesian learners' English argumentative writing style.
+364. Cross-cultural pragmatic study of Indonesian and Japanese business meeting communication.
+365. Intercultural sensitivity development through virtual exchange programs at Indonesian universities.
+366. Cultural identity and language choice in Indonesian diaspora community communication.
+367. Cross-cultural study of Indonesian and Korean workplace communication norms and expectations.
+368. Intercultural communication challenges in Indonesian-led ASEAN multilateral meetings.
+369. Cultural adaptation strategies in English textbooks used in Indonesian EFL contexts.
+370. Cross-cultural pragmatic analysis of Indonesian and Middle Eastern business negotiation styles.
+371. Intercultural competence development through study abroad preparation programs in Indonesia.
+372. Cultural influence on Indonesian learners' English oral presentation delivery style.
+373. Cross-cultural study of Indonesian and Chinese business relationship building communication.
+374. Intercultural communication training needs for Indonesian healthcare workers serving foreign patients.
+375. Cultural values and their reflection in Indonesian learners' English narrative writing.
+376. Cross-cultural pragmatic study of Indonesian and German directness in professional feedback.
+377. Intercultural sensitivity measurement among Indonesian English language teacher candidates.
+378. Cultural adaptation challenges in English-medium instruction at Indonesian universities.
+379. Cross-cultural study of Indonesian and Indian English communication in IT outsourcing contexts.
+380. Intercultural communication competence in Indonesian tourism English education programs.
+381. Cultural identity expression in Indonesian students' English social media communication.
+382. Cross-cultural pragmatic analysis of Indonesian and Thai ASEAN diplomatic communication.
+383. Intercultural training design for Indonesian workers preparing for overseas employment.
+384. Cultural influence on Indonesian learners' English academic citation and attribution practices.
+385. Cross-cultural study of Indonesian and American conflict resolution communication styles.
+386. Intercultural communication challenges in Indonesian international school parent communities.
+387. Cultural adaptation of English assessment tasks for Indonesian multicultural student populations.
+388. Cross-cultural pragmatic study of Indonesian and French business entertainment communication.
+389. Intercultural competence development through English-medium content courses at Indonesian universities.
+390. Cultural stereotypes in English language textbooks used in Indonesian secondary schools.
+391. Cross-cultural study of Indonesian and Singaporean English workplace communication norms.
+392. Intercultural communication training for Indonesian peacekeeping forces in UN missions.
+393. Cultural influence on Indonesian learners' English humor comprehension and production.
+394. Cross-cultural pragmatic analysis of Indonesian and Arab business hospitality communication.
+395. Intercultural sensitivity development through community service learning in Indonesian English programs.
+396. Cultural identity and code-switching in Indonesian international students' English communication.
+397. Cross-cultural study of Indonesian and Vietnamese business communication in ASEAN trade contexts.
+398. Intercultural communication challenges for Indonesian English teachers in international school settings.
+399. Cultural adaptation of English public speaking training for Indonesian cultural communication norms.
+400. Cross-cultural pragmatic study of Indonesian and Nigerian English communication in trade contexts.
+
+CATEGORY 9 — Language for Professional Purposes (401-450)
+401. English for academic publishing: needs analysis of Indonesian researchers across disciplines.
+402. Genre analysis of English research article discussion sections by Indonesian scholars.
+403. English for international conference participation: communication needs of Indonesian academics.
+404. Corpus-based study of hedging language in Indonesian researchers' English academic writing.
+405. English for grant writing: needs assessment of Indonesian early-career researchers.
+406. Genre analysis of English thesis/dissertation abstracts by Indonesian graduate students.
+407. English for academic peer review: discourse analysis of Indonesian reviewers' feedback language.
+408. Corpus-based materials for English academic presentation skills for Indonesian researchers.
+409. English for journal correspondence: communication needs of Indonesian authors with editors.
+410. Genre analysis of English literature review sections by Indonesian doctoral students.
+411. English for professional networking: communication needs of Indonesian academics at conferences.
+412. Corpus-based study of metadiscourse in Indonesian researchers' English journal articles.
+413. English for research collaboration: communication challenges in Indonesian international research teams.
+414. Genre analysis of English research methodology sections by Indonesian social science researchers.
+415. English for academic supervision: communication patterns between Indonesian supervisors and international students.
+416. Corpus-based materials for English data commentary writing for Indonesian researchers.
+417. English for intellectual property: communication needs of Indonesian patent applicants.
+418. Genre analysis of English research poster presentations by Indonesian graduate students.
+419. English for academic administration: communication needs of Indonesian university international offices.
+420. Corpus-based study of citation practices in Indonesian researchers' English academic writing.
+421. English for medical professionals: communication needs of Indonesian doctors in telemedicine.
+422. Genre analysis of English clinical case reports by Indonesian medical researchers.
+423. English for legal professionals: communication needs of Indonesian lawyers in international arbitration.
+424. Corpus-based materials for English contract drafting for Indonesian legal practitioners.
+425. English for engineering professionals: communication needs in Indonesian infrastructure projects.
+426. Genre analysis of English technical reports by Indonesian civil engineering professionals.
+427. English for financial professionals: communication needs of Indonesian analysts in global markets.
+428. Corpus-based study of English in Indonesian central bank monetary policy communication.
+429. English for IT professionals: communication needs of Indonesian software developers in global teams.
+430. Genre analysis of English software documentation by Indonesian technology companies.
+431. English for aviation professionals: communication needs beyond radiotelephony for Indonesian pilots.
+432. Corpus-based materials for English safety communication in Indonesian mining operations.
+433. English for maritime professionals: communication needs of Indonesian ship officers.
+434. Genre analysis of English voyage reports and maritime communication by Indonesian seafarers.
+435. English for agricultural professionals: communication needs in Indonesian agricultural export.
+436. Corpus-based study of English in Indonesian agricultural research publication patterns.
+437. English for environmental professionals: communication needs in Indonesian conservation projects.
+438. Genre analysis of English environmental assessment reports by Indonesian consultants.
+439. English for journalism professionals: communication needs of Indonesian international correspondents.
+440. Corpus-based materials for English news writing for Indonesian journalists in English-language media.
+441. English for diplomatic professionals: communication needs of Indonesian foreign service officers.
+442. Genre analysis of English diplomatic notes and correspondence by Indonesian missions.
+443. English for military professionals: communication needs in Indonesian international peacekeeping.
+444. Corpus-based study of English in Indonesian defense cooperation communication.
+445. English for religious professionals: communication needs of Indonesian interfaith dialogue participants.
+446. Genre analysis of English religious academic writing by Indonesian Islamic studies scholars.
+447. English for sports professionals: communication needs of Indonesian athletes in international competition.
+448. Corpus-based materials for English sports commentary and journalism in Indonesian media.
+449. English for creative professionals: communication needs of Indonesian artists in international markets.
+450. Genre analysis of English artist statements and exhibition texts by Indonesian visual artists.
+
+CATEGORY 10 — Applied Linguistics & Pedagogy (451-500)
+451. Action research on communicative language teaching implementation in Indonesian rural English classrooms.
+452. Task-based language teaching effectiveness for English speaking skills at Indonesian vocational schools.
+453. Genre-based pedagogy for English academic writing at Indonesian universities: longitudinal study.
+454. Content and language integrated learning (CLIL) implementation challenges in Indonesian secondary schools.
+455. Extensive reading program effectiveness for English reading fluency in Indonesian EFL contexts.
+456. Process writing approach implementation for English composition at Indonesian universities.
+457. Cooperative learning strategies for English speaking development in Indonesian large classes.
+458. Focus on form instruction effectiveness for English grammar in Indonesian communicative classrooms.
+459. Project-based learning for English communication skills at Indonesian polytechnics.
+460. Lexical approach implementation for English vocabulary development in Indonesian EFL settings.
+461. Differentiated instruction strategies for mixed-proficiency English classes in Indonesian schools.
+462. Scaffolding techniques for English academic writing support at Indonesian universities.
+463. Inquiry-based learning for English critical reading skills in Indonesian higher education.
+464. Multimodal literacy pedagogy for English communication in Indonesian digital-age classrooms.
+465. Reflective teaching practices among Indonesian English teachers: action research study.
+466. Translanguaging pedagogy for English learning in Indonesian multilingual classroom contexts.
+467. Feedback literacy development among Indonesian English learners in writing courses.
+468. Learner autonomy promotion strategies in Indonesian English language programs.
+469. Intercultural communicative competence integration in Indonesian English curriculum design.
+470. Assessment for learning practices in Indonesian English language classrooms.
+471. Teacher cognition and beliefs about English language teaching in Indonesian contexts.
+472. Materials development principles for Indonesian English textbooks: local and global balance.
+473. Motivation strategies for English learning in Indonesian rural and underserved communities.
+474. Critical thinking integration in Indonesian English language education programs.
+475. Professional development needs of Indonesian English teachers in digital pedagogy.
+476. Inclusive pedagogy for English language learners with disabilities in Indonesian schools.
+477. English medium instruction (EMI) challenges and strategies at Indonesian universities.
+478. Curriculum innovation for English in Indonesian vocational education: industry alignment study.
+479. Teacher identity and professional agency of Indonesian English teachers in curriculum reform.
+480. Language learning strategy instruction effectiveness for Indonesian English learners.
+481. Ecological approach to English language teaching in Indonesian multilingual educational contexts.
+482. Critical pedagogy implementation in Indonesian English language education.
+483. Narrative inquiry into Indonesian English teachers' professional development experiences.
+484. Corpus-informed pedagogy for English grammar teaching in Indonesian university contexts.
+485. Positive psychology interventions for English language learning motivation in Indonesian settings.
+486. Design thinking approach to English language curriculum innovation in Indonesian institutions.
+487. Mentoring and coaching models for Indonesian novice English teachers' professional growth.
+488. Decolonizing English language teaching practices in Indonesian educational contexts.
+489. Sustainable development goals integration in Indonesian English language education materials.
+490. Action research on pronunciation teaching approaches for Indonesian English teacher candidates.
+491. Complexity theory application to understanding English language development in Indonesian learners.
+492. Critical language awareness development in Indonesian English teacher education programs.
+493. Flipped learning model effectiveness for English grammar instruction at Indonesian universities.
+494. Culturally responsive teaching practices in Indonesian English language classrooms.
+495. Teacher research engagement and its impact on Indonesian English teaching quality.
+496. Multiliteracies pedagogy for English communication in Indonesian higher education.
+497. Formative assessment integration in Indonesian English language teaching practice.
+498. Community of practice development among Indonesian English teachers for professional learning.
+499. Evidence-based practice adoption in Indonesian English language teaching: barriers and enablers.
+500. Future-ready English language education design for Indonesian students in the AI era.

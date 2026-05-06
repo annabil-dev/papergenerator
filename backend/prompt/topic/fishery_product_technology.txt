@@ -1,0 +1,708 @@
+================================================================================
+TOPIC GUIDE — Fishery Product Technology (Teknologi Hasil Perikanan)
+================================================================================
+FIELD: Food Science & Technology / Fishery Products
+DEFAULT CITATION STYLE: APA
+SUBDISCIPLINE: Fish Processing, Seafood Quality & Safety, Marine Bioactive Compounds, Fishery Waste Valorization, Packaging Technology, Functional Foods, Fermented Products, Cold Chain Management, Sensory Science, Novel Processing
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title (specific, with method and domain)
+
+3. LATEST METHODOLOGY (2022-2025):
+   - High-pressure processing (HPP) for seafood preservation
+   - Pulsed electric field (PEF) for extraction and preservation
+   - Supercritical CO2 extraction of marine bioactives
+   - UHPLC-MS/MS for contaminant and bioactive analysis
+   - Hyperspectral imaging for quality assessment
+   - Nano-encapsulation of marine bioactive compounds
+   - 3D food printing using fish-based materials
+   - Blockchain-based traceability systems
+   - Machine learning for quality prediction and process optimization
+   - Metabolomics for authenticity and freshness profiling
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics with statistical measures
+   - Comparison with baselines
+   - All numbers realistic and internally consistent
+
+5. MATHEMATICAL FORMULAS:
+   - 5-10 relevant formulas with variable definitions
+   - Arrhenius equation for shelf life prediction
+   - Water activity (aw) calculations
+   - First-order kinetic degradation models
+   - Fick's law of diffusion for mass transfer
+   - Protein solubility and denaturation kinetics
+   - Texture profile analysis parameters
+   - Color difference (Delta E) calculations
+   - Extraction yield optimization (RSM equations)
+   - Microbial growth prediction (Gompertz model)
+   - Packaging permeability calculations
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian maritime context
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords, Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+--- DOMAIN-SPECIFIC SECTIONS ---
+
+ABSTRACT CHARACTERISTICS:
+- State raw material species and source location
+- Specify processing method or technology applied
+- Include key quality parameters measured
+- Mention optimization conditions or best treatment
+- Highlight practical application or commercial potential
+
+INTRODUCTION ELEMENTS:
+- Indonesian fishery production statistics and utilization rates
+- Current challenges in fishery product processing industry
+- Post-harvest losses in Indonesian fisheries supply chain
+- Value-added product development opportunities
+- Food safety concerns and regulatory framework (BPOM, SNI)
+- Global market demands and quality standards
+
+LITERATURE REVIEW TOPICS:
+- Fish and seafood composition and nutritional value
+- Processing technology advances for fishery products
+- Quality deterioration mechanisms in seafood
+- Bioactive compound extraction from marine sources
+- Waste utilization and circular economy in fisheries
+- Food safety hazards in fishery products
+- Packaging innovations for seafood preservation
+
+METHODOLOGY DETAILS:
+- Raw material preparation and characterization
+- Processing parameter optimization (RSM, factorial design)
+- Proximate analysis (moisture, protein, fat, ash)
+- Quality analysis (pH, TVB-N, TMA, peroxide value, TBA)
+- Microbiological analysis (TPC, coliform, pathogen detection)
+- Instrumental analysis (texture, color, rheology)
+- Sensory evaluation (hedonic, descriptive, ranking)
+- Statistical analysis (ANOVA, RSM, PCA)
+
+EQUATIONS:
+- k = A × e^(-Ea/RT) (Arrhenius equation)
+- aw = p/p0 (water activity)
+- C(t) = C0 × e^(-kt) (first-order kinetics)
+- J = -D × (dC/dx) (Fick's first law)
+- Delta E = sqrt((DL*)^2 + (Da*)^2 + (Db*)^2) (color difference)
+- Y = b0 + Sum(bi×xi) + Sum(bii×xi^2) + Sum(bij×xi×xj) (RSM model)
+- log N(t) = A + C × exp(-exp(B(t-M))) (Gompertz growth model)
+- Q10 = (k2/k1)^(10/(T2-T1)) (temperature coefficient)
+- WVP = (WVTR × L) / Delta p (water vapor permeability)
+- % Yield = (mass product / mass raw material) × 100
+
+FIGURES:
+- Process flow diagram
+- Response surface plots (3D and contour)
+- SEM/TEM micrographs of product structure
+- FTIR spectra comparison
+- Chromatograms (HPLC, GC-MS)
+- Texture profile analysis curves
+- Microbial growth curves
+- Color photographs of products
+- DSC thermograms
+- Particle size distribution curves
+
+TABLES:
+- Proximate composition of raw material and products
+- Quality parameters across treatments
+- ANOVA results for experimental design
+- Optimization conditions and predicted vs actual values
+- Microbial counts during storage
+- Sensory evaluation scores
+- Amino acid/fatty acid profiles
+- Mineral content comparison
+- Shelf life prediction data
+- Cost analysis of processing
+
+RESULTS & DISCUSSION:
+- Raw material characterization
+- Processing parameter effects on quality
+- Optimization results and validation
+- Storage stability evaluation
+- Comparison with commercial products or standards
+- Nutritional value assessment
+- Safety evaluation (contaminants, pathogens)
+- Economic feasibility discussion
+- Scale-up considerations
+
+CONCLUSION:
+- Optimal processing conditions identified
+- Key quality improvements achieved
+- Practical recommendations for industry
+- Contribution to fishery product development in Indonesia
+
+REFERENCE VENUES:
+- Food Chemistry
+- LWT - Food Science and Technology
+- Journal of Food Engineering
+- Food Research International
+- Journal of Food Science
+- Food Control
+- Innovative Food Science & Emerging Technologies
+- Journal of the Science of Food and Agriculture
+- Food Hydrocolloids
+- Jurnal Pengolahan Hasil Perikanan Indonesia (JPHPI)
+- Jurnal Pascapanen dan Bioteknologi Kelautan dan Perikanan
+- International Journal of Food Science and Technology
+
+DOMAIN VOCABULARY:
+- Pengolahan ikan (fish processing), pengawetan (preservation)
+- Mutu (quality), kesegaran (freshness), keamanan pangan (food safety)
+- Surimi, kamaboko, bakso ikan (fish ball), kerupuk ikan (fish crackers)
+- Pengasapan (smoking), pengeringan (drying), penggaraman (salting)
+- Fermentasi (fermentation), pindang, terasi, bekasam, rusip
+- Gelatin, kolagen (collagen), kitosan (chitosan), karaginan (carrageenan)
+- Limbah perikanan (fishery waste), tepung ikan (fish meal)
+- Rantai dingin (cold chain), HACCP, GMP, SNI
+- Umami, flavor, tekstur (texture), warna (color), aroma
+- Nilai tambah (value added), diversifikasi produk (product diversification)
+
+METHODOLOGY KEYWORDS:
+- Response Surface Methodology (RSM), Box-Behnken, Central Composite Design
+- Proximate analysis, Kjeldahl, Soxhlet, gravimetric
+- TVB-N, TMA-N, peroxide value, TBARS, free fatty acid
+- Total Plate Count (TPC), Most Probable Number (MPN)
+- Texture Profile Analysis (TPA), rheometry
+- HPLC, GC-MS, LC-MS/MS, FTIR, XRD
+- SEM, TEM, DSC, TGA
+- Sensory evaluation (hedonic, QDA, triangle test)
+- Accelerated shelf life testing (ASLT)
+- High-pressure processing, pulsed electric field, ultrasound
+
+--- RESEARCH TOPIC BANK (500 TOPICS) ---
+
+=== CATEGORY 1: Fish Processing & Preservation (001-050) ===
+001. Optimization of liquid smoke concentration and immersion time for skipjack tuna preservation
+002. High-pressure processing effects on quality and shelf life of raw tuna loin for sashimi market
+003. Superchilling technology application for extending shelf life of Indonesian shrimp products
+004. Ozone treatment optimization for microbial reduction in fresh milkfish (Chanos chanos)
+005. Ultrasound-assisted brining for uniform salt distribution in smoked catfish production
+006. Vacuum impregnation of natural antioxidants for quality improvement of dried anchovy
+007. Pulsed electric field pre-treatment effects on drying kinetics of squid (Loligo spp.)
+008. Optimization of hot smoking parameters for mackerel using response surface methodology
+009. Hurdle technology combination for ambient-stable fish products in Indonesian market
+010. Infrared drying optimization for producing high-quality dried shrimp from Penaeus monodon
+011. Cold plasma treatment for surface decontamination of fresh fish fillets
+012. Osmotic dehydration of tilapia fillet using natural humectants for intermediate moisture product
+013. Microwave-vacuum drying of seaweed (Eucheuma cottonii) for quality preservation
+014. Edible coating application using chitosan-based films on fresh grouper fillets
+015. Retort pouch processing optimization for ready-to-eat rendang ikan (fish rendang)
+016. Freeze-drying parameter optimization for instant fish porridge development
+017. Sous vide processing of Indonesian milkfish (bandeng) for premium product development
+018. Natural preservative combination (nisin, chitosan) for fresh fish shelf life extension
+019. Radio frequency heating for rapid thawing of frozen tuna blocks without quality loss
+020. Modified atmosphere packaging optimization for fresh red snapper fillets
+021. Enzymatic tenderization of tough fish species using bromelain from Indonesian pineapple
+022. Solar tunnel dryer design optimization for small-scale fish drying in coastal communities
+023. Electrolyzed water application for fish processing plant sanitation improvement
+024. Smoke-flavored fish product development using encapsulated liquid smoke
+025. Cryogenic freezing vs air blast freezing quality comparison for Indonesian shrimp
+026. Ohmic heating application for rapid and uniform cooking of fish products
+027. Natural antimicrobial packaging for extending shelf life of smoked fish products
+028. Optimization of fish ball (bakso ikan) formulation using different fish species blends
+029. Pulsed UV light treatment for surface pasteurization of ready-to-eat fish products
+030. Traditional pindang processing standardization for consistent quality production
+031. Supercritical CO2 extraction of off-flavors from muddy-tasting freshwater fish
+032. Enzyme-assisted deboning technology for small pelagic fish processing
+033. Irradiation dose optimization for pathogen elimination in frozen shrimp products
+034. Acoustic drying technology for energy-efficient fish product dehydration
+035. Combination of natural antioxidants for preventing lipid oxidation in dried fish
+036. High-pressure homogenization for fish protein isolate production from underutilized species
+037. Extrusion cooking optimization for fish-based snack development from surimi waste
+038. Electrostatic smoking technology for reduced PAH content in smoked fish
+039. Canning process optimization for sardine in various sauce formulations
+040. Microencapsulation of fish oil for fortification of Indonesian traditional foods
+041. Freeze concentration technology for fish sauce production improvement
+042. Pulsed electric field-assisted extraction of proteins from fish processing waste
+043. Hybrid drying (solar-electric) system for consistent quality dried fish production
+044. Active packaging with oxygen scavengers for frozen fish product quality maintenance
+045. Enzymatic hydrolysis optimization for fish protein concentrate from tuna dark meat
+046. Cold smoking parameter optimization for Indonesian salmon-like products from milkfish
+047. Ultrasound-assisted marination for flavor enhancement of fish products
+048. Spray drying optimization for fish protein powder from anchovy processing waste
+049. Biopreservation using lactic acid bacteria for fresh fish shelf life extension
+050. 3D printing of fish-based products for novel food texture development
+
+=== CATEGORY 2: Seafood Quality & Safety (051-100) ===
+051. Histamine formation kinetics in skipjack tuna under tropical temperature abuse conditions
+052. Heavy metal (Hg, Pb, Cd) contamination assessment in seafood from Jakarta Bay markets
+053. Rapid detection of formaldehyde adulteration in Indonesian dried fish using biosensors
+054. Vibrio parahaemolyticus prevalence and virulence genes in Indonesian shrimp products
+055. Microplastic contamination in commercially sold shellfish from Indonesian wet markets
+056. Antibiotic residue screening in farmed shrimp from Indonesian aquaculture using LC-MS/MS
+057. Freshness grading of tuna using electronic nose and machine learning classification
+058. Allergen detection and labeling compliance in Indonesian processed seafood products
+059. Listeria monocytogenes risk assessment in ready-to-eat smoked fish products
+060. Authenticity testing of high-value fish species using DNA barcoding in Indonesian markets
+061. Cadmium bioaccumulation in squid from Indonesian waters and health risk assessment
+062. Rapid freshness assessment of shrimp using hyperspectral imaging technology
+063. Norovirus contamination risk in Indonesian oyster harvesting areas
+064. Biogenic amine formation during traditional fish fermentation (bekasam, rusip)
+065. Parasitic hazard assessment (Anisakis) in Indonesian marine fish for raw consumption
+066. Aflatoxin contamination in dried fish products from traditional markets
+067. Real-time PCR method development for seafood species identification in processed products
+068. Polycyclic aromatic hydrocarbon levels in traditionally smoked fish from Java
+069. Salmonella prevalence and antimicrobial resistance in Indonesian seafood supply chain
+070. Volatile compound profiling for freshness assessment of tropical fish species
+071. Melamine contamination screening in fish feed and farmed fish products
+072. HACCP implementation effectiveness in Indonesian small-scale fish processing units
+073. Dioxin and PCB levels in Indonesian marine fish and dietary exposure assessment
+074. Smartphone-based colorimetric sensor for rapid fish freshness detection
+075. Ciguatera fish poisoning risk mapping for Indonesian reef fish consumption
+076. Traceability system development for Indonesian tuna supply chain using blockchain
+077. Tetrodotoxin distribution in Indonesian pufferfish species and food safety implications
+078. Shelf life prediction modeling for chilled fish products under fluctuating temperatures
+079. Microbiological quality assessment of sushi and sashimi in Indonesian restaurants
+080. Arsenic speciation in Indonesian seaweed products and health risk evaluation
+081. Rapid detection of sulfite residues in Indonesian shrimp using electrochemical sensors
+082. Food fraud vulnerability assessment in Indonesian seafood export supply chain
+083. Vibrio vulnificus risk assessment in raw oyster consumption in Indonesian coastal areas
+084. Quality index method (QIM) development for Indonesian commercial fish species
+085. Persistent organic pollutant levels in Indonesian fish oil supplements
+086. Near-infrared spectroscopy for non-destructive quality assessment of frozen fish
+087. Staphylococcus aureus contamination in hand-processed fish products
+088. Multi-residue pesticide analysis in Indonesian farmed fish using QuEChERS-GC-MS
+089. Biotoxin monitoring in Indonesian shellfish harvesting areas
+090. Impedance-based rapid method for microbial quality assessment of fish products
+091. Mercury methylation in fish processing and its implications for consumer safety
+092. Intelligent packaging indicators for real-time fish freshness monitoring
+093. Clostridium botulinum risk in Indonesian vacuum-packed smoked fish
+094. Nanomaterial-based sensors for simultaneous detection of multiple seafood contaminants
+095. Histamine risk management in Indonesian tuna processing for export compliance
+096. Water activity and pH interaction effects on pathogen survival in dried fish
+097. Seafood mislabeling prevalence in Indonesian online fish markets
+098. Rapid ATP bioluminescence method validation for seafood processing hygiene monitoring
+099. Chemical hazard profiling of Indonesian traditional fermented fish products
+100. Digital twin development for seafood quality prediction in cold chain logistics
+
+=== CATEGORY 3: Marine Bioactive Compounds (101-150) ===
+101. Collagen extraction optimization from yellowfin tuna skin using deep eutectic solvents
+102. Antioxidant peptide identification from Indonesian shrimp head protein hydrolysate
+103. Fucoidan extraction from Sargassum polycystum and its immunomodulatory activity
+104. Omega-3 fatty acid concentration from Indonesian sardine oil using molecular distillation
+105. Chitosan nanoparticle preparation from Indonesian shrimp shell waste for drug delivery
+106. Astaxanthin extraction from shrimp processing waste using supercritical CO2
+107. Bioactive peptides from tuna dark meat hydrolysate with ACE-inhibitory activity
+108. Carrageenan extraction optimization from Indonesian Eucheuma denticulatum
+109. Fish collagen peptide characterization for anti-aging cosmeceutical applications
+110. Calcium supplement development from milkfish (Chanos chanos) bone hydroxyapatite
+111. Gelatin extraction and characterization from Indonesian catfish skin for halal applications
+112. Squid ink melanin extraction and its antioxidant and antimicrobial properties
+113. Chondroitin sulfate isolation from Indonesian shark cartilage waste
+114. Marine-derived hyaluronic acid from fish eyeball for cosmetic formulation
+115. Bioactive lipid extraction from Indonesian sea cucumber (Holothuria scabra)
+116. Fish scale-derived collagen for wound healing hydrogel development
+117. Phycocyanin extraction from Spirulina cultivated in Indonesian coastal ponds
+118. Tuna blood protein hydrolysate with iron-binding capacity for anemia supplement
+119. Squalene extraction from Indonesian deep-sea shark liver oil
+120. Glucosamine production from Indonesian crab shell waste using enzymatic hydrolysis
+121. Marine-derived ceramides from sea cucumber for skin barrier repair formulation
+122. Fish bone calcium citrate malate preparation for enhanced bioavailability
+123. Bioactive compounds from Indonesian mangrove fruit for functional food development
+124. Protein hydrolysate from catfish frame waste with antidiabetic activity
+125. Agar extraction optimization from Indonesian Gracilaria verrucosa
+126. Fish oil microencapsulation using Indonesian seaweed-based wall materials
+127. Bioactive peptides from fermented fish (bekasam) with antihypertensive properties
+128. Chitin nanofiber preparation from squid pen for biomedical applications
+129. Marine collagen-hydroxyapatite composite from fish waste for bone scaffold
+130. Carotenoid extraction from Indonesian red snapper processing waste
+131. Bioactive polysaccharides from Indonesian sea cucumber body wall
+132. Fish protein concentrate from anchovy for protein fortification of local foods
+133. Omega-3 enriched fish oil nanoemulsion for enhanced oral bioavailability
+134. Bioactive compounds from seaweed Caulerpa racemosa (sea grape) cultivation in Indonesia
+135. Gelatin-chitosan blend film from Indonesian fish waste for edible packaging
+136. Marine-derived sulfated polysaccharides for anticoagulant activity
+137. Fish waste-derived peptides for metal chelation and mineral absorption enhancement
+138. Bioactive lipids from Indonesian flying fish roe for nutraceutical development
+139. Collagen hydrolysate from tilapia scale for joint health supplement
+140. Marine-derived prebiotics from seaweed oligosaccharides for gut health
+141. Fish skin gelatin-based nanoparticles for bioactive compound encapsulation
+142. Bioactive compounds from Indonesian horseshoe crab for biomedical applications
+143. Enzymatic production of fish protein hydrolysate with bitter taste reduction
+144. Marine-derived calcium from cuttlefish bone for food fortification
+145. Bioactive peptides from Indonesian milkfish processing waste
+146. Seaweed-derived alginate oligosaccharides with prebiotic activity
+147. Fish oil deodorization using molecular distillation for supplement production
+148. Marine-derived tyrosinase inhibitors from Indonesian sponge extracts
+149. Bioactive compounds from sea urchin gonads for functional food development
+150. Fish waste-derived hydroxyapatite nanoparticles for water purification
+
+=== CATEGORY 4: Fishery Waste Valorization (151-200) ===
+151. Fish scale bioplastic development as alternative to petroleum-based packaging
+152. Biogas production from fish processing wastewater using anaerobic digestion
+153. Fish bone calcium fortification of traditional Indonesian crackers (kerupuk)
+154. Enzymatic hydrolysis of shrimp head waste for chitin recovery and protein extraction
+155. Fish skin leather production from Indonesian catfish for fashion industry
+156. Biochar production from fish processing waste for soil amendment
+157. Silage production from fish viscera waste for aquaculture feed ingredient
+158. Fish scale-derived hydroxyapatite for heavy metal adsorption in wastewater
+159. Compost production from fish processing solid waste for organic farming
+160. Fish oil recovery from tuna canning wastewater using membrane technology
+161. Biodiesel production from fish processing waste fat using enzymatic transesterification
+162. Fish bone meal optimization as phosphorus fertilizer for Indonesian agriculture
+163. Collagen extraction from fish skin waste for cosmetic industry applications
+164. Bioactive peptide production from fish frame waste using commercial proteases
+165. Fish waste-derived activated carbon for water treatment applications
+166. Chitin-chitosan production from crab processing waste in Indonesian seafood industry
+167. Fish processing wastewater treatment using microalgae for biomass production
+168. Gelatin production from Indonesian fish skin waste for pharmaceutical capsules
+169. Fish waste composting optimization using effective microorganisms (EM4)
+170. Protein recovery from surimi wash water using membrane filtration
+171. Fish scale keratin extraction for hair care product development
+172. Bioethanol production from seaweed processing waste
+173. Fish viscera enzyme extraction for industrial protease production
+174. Calcium lactate production from fish bone waste using lactic acid fermentation
+175. Fish waste-derived fish sauce (kecap ikan) production optimization
+176. Shrimp shell waste conversion to glucosamine supplement
+177. Fish processing sludge utilization as organic fertilizer for mangrove restoration
+178. Squid pen chitosan production for agricultural biostimulant applications
+179. Fish blood meal production for high-protein animal feed ingredient
+180. Seaweed processing waste utilization for bioactive compound extraction
+181. Fish waste-derived peptone for microbial culture media production
+182. Crab shell waste conversion to calcium oxide for water treatment
+183. Fish liver oil extraction and purification for vitamin A/D supplement
+184. Shrimp head carotenoid extraction for natural food colorant production
+185. Fish waste fermentation for organic acid production
+186. Mussel shell waste utilization as calcium carbonate for construction materials
+187. Fish processing wastewater protein recovery using electrocoagulation
+188. Seaweed waste biorefinery for multiple product streams
+189. Fish scale gelatin production for confectionery industry (halal alternative)
+190. Tuna blood waste processing for iron-rich food supplement
+191. Fish waste-derived amino acid fertilizer for hydroponic systems
+192. Cuttlebone waste utilization for calcium supplement and 3D printing scaffold
+193. Fish processing waste life cycle assessment for circular economy optimization
+194. Shrimp shell waste-derived carbon dots for fluorescent biosensor applications
+195. Fish waste protein hydrolysate as plant growth biostimulant
+196. Oyster shell waste conversion to calcium hydroxide for water pH adjustment
+197. Fish viscera lipid extraction for biodiesel and omega-3 co-production
+198. Seaweed processing waste as substrate for mushroom cultivation
+199. Fish waste-derived nitrogen fertilizer for sustainable agriculture
+200. Integrated biorefinery design for zero-waste fish processing facility
+
+=== CATEGORY 5: Packaging & Shelf-Life Extension (201-250) ===
+201. Chitosan-based active packaging film with incorporated fish oil for seafood preservation
+202. Seaweed-derived biodegradable packaging for fresh fish products
+203. Intelligent pH-sensitive indicator film for real-time fish freshness monitoring
+204. Nano-zinc oxide incorporation in packaging film for antimicrobial seafood packaging
+205. Modified atmosphere packaging optimization for Indonesian blue swimming crab
+206. Edible coating from fish gelatin-essential oil combination for shrimp preservation
+207. Vacuum skin packaging technology for premium Indonesian fish fillet products
+208. Time-temperature indicator development for cold chain monitoring of seafood
+209. Carrageenan-based edible film with natural antioxidants for smoked fish wrapping
+210. Active packaging with green tea extract for lipid oxidation prevention in dried fish
+211. Biodegradable tray development from fish scale bioplastic for seafood display
+212. Antimicrobial packaging using chitosan nanofiber coating for fresh fish
+213. Shelf life extension of traditional pindang using retortable pouch packaging
+214. Cellulose nanocrystal reinforced bioplastic from seaweed for seafood packaging
+215. Oxygen scavenger sachet optimization for frozen shrimp package headspace
+216. Alginate-based coating with probiotics for biopreservation of fresh fish
+217. Smart label development using anthocyanin indicator for fish spoilage detection
+218. Multilayer biodegradable film from fish protein-seaweed blend for packaging
+219. Essential oil-loaded nanoemulsion coating for extending fish fillet shelf life
+220. Compostable packaging material from Indonesian seaweed for seafood industry
+221. Active ice development with incorporated antimicrobials for fish preservation
+222. Starch-chitosan composite film for moisture barrier in dried seafood packaging
+223. Controlled release packaging of natural preservatives for smoked fish products
+224. UV-blocking packaging film from fish collagen for light-sensitive seafood
+225. Antimicrobial packaging pad with silver nanoparticles for fresh fish tray
+226. Biodegradable shrink film from PLA-seaweed blend for frozen seafood
+227. Humidity-responsive smart packaging for optimal moisture control in dried fish
+228. Edible sachet development for seasoning delivery in instant fish soup products
+229. Nano-clay reinforced bioplastic packaging for improved barrier properties
+230. Active packaging with encapsulated essential oils for ready-to-eat seafood
+231. Shelf life modeling of packaged fish products under variable temperature conditions
+232. Biodegradable foam tray from fish waste protein for seafood retail display
+233. Antimicrobial label with controlled release for fish package headspace treatment
+234. Seaweed-based water-soluble packaging for single-use fish seasoning sachets
+235. Photocatalytic packaging film for ethylene removal in live seafood transport
+236. Gelatin-based oxygen barrier coating for flexible seafood packaging
+237. Smart packaging with RFID-integrated freshness sensor for seafood logistics
+238. Biodegradable net packaging from seaweed fiber for shellfish retail
+239. Active packaging with iron-based oxygen absorber for dried fish products
+240. Edible film from surimi waste protein for individual fish portion wrapping
+241. Antimicrobial packaging using bacteriocin-producing bacteria immobilization
+242. Shelf life prediction model development for MAP-packaged Indonesian fish species
+243. Bio-based adhesive from fish collagen for sustainable seafood packaging assembly
+244. Intelligent packaging with colorimetric array sensor for multi-analyte fish quality
+245. Compostable insulated box from seaweed-starch foam for seafood delivery
+246. Active packaging with antioxidant migration modeling for fish oil products
+247. Biodegradable band/seal from chitosan for tamper-evident seafood packaging
+248. Nano-encapsulated nisin in packaging film for Listeria control in smoked fish
+249. Life cycle assessment of biodegradable vs conventional seafood packaging
+250. Smart packaging ecosystem development for Indonesian seafood export industry
+
+=== CATEGORY 6: Functional Foods from Marine Sources (251-300) ===
+251. Omega-3 fortified fish ball development for Indonesian school feeding program
+252. Calcium-enriched fish crackers (kerupuk) from milkfish bone powder for osteoporosis prevention
+253. Seaweed-based dietary fiber supplement for metabolic syndrome management
+254. DHA-rich fish oil gummy for children's cognitive development
+255. Collagen peptide-enriched beverage from tuna skin for skin health
+256. Probiotic fish sausage development using Lactobacillus from fermented fish
+257. Iron-fortified fish protein hydrolysate for anemia prevention in coastal communities
+258. Antioxidant-rich seaweed snack development for Indonesian health food market
+259. Fish protein-based meal replacement for elderly nutrition support
+260. Glucosamine-chondroitin supplement from Indonesian shrimp and shark waste
+261. Omega-3 enriched instant noodle development using microencapsulated fish oil
+262. Seaweed jelly with prebiotic properties for digestive health
+263. High-protein fish powder for stunting prevention in Indonesian children
+264. Astaxanthin-enriched functional drink from shrimp waste extract
+265. Low-sodium fish sauce development for hypertension-friendly seasoning
+266. Calcium-fortified fish tofu for lactose-intolerant population
+267. Marine collagen beauty drink formulation with vitamin C synergy
+268. Iodine-rich seaweed salt development for thyroid health in inland communities
+269. Fish protein bar development for sports nutrition from tuna waste
+270. Fucoidan-enriched functional food for immune system support
+271. Omega-3 fortified traditional fish product (pempek) for heart health
+272. Seaweed-based low-calorie noodle for diabetes-friendly diet
+273. Fish bone calcium-fortified bread for school children nutrition
+274. Marine peptide-enriched yogurt for blood pressure management
+275. Chitosan-based fat blocker supplement from shrimp shell waste
+276. DHA-enriched infant cereal using Indonesian fish oil
+277. Seaweed-fish protein composite for complete amino acid profile food
+278. Antidiabetic functional food from sea cucumber extract incorporation
+279. Fish collagen-infused cosmetic food (beauty food) product development
+280. Marine mineral complex supplement from deep-sea fish bone
+281. Omega-3 enriched mayonnaise using Indonesian fish oil for daily intake
+282. Seaweed-based meat analog for plant-based seafood alternative
+283. Fish protein hydrolysate sports drink for muscle recovery
+284. Carrageenan-based low-fat dessert with marine bioactive fortification
+285. Zinc-rich oyster extract supplement for immune function enhancement
+286. Fish oil-fortified cooking oil for daily omega-3 intake improvement
+287. Seaweed fiber-enriched rice analog for glycemic index reduction
+288. Marine phospholipid supplement from fish roe for brain health
+289. Calcium-iron co-fortified fish product for dual deficiency prevention
+290. Spirulina-fish protein blend for complete nutrition supplement
+291. Taurine-rich squid extract functional drink for cardiovascular health
+292. Seaweed polyphenol-enriched tea for antioxidant supplementation
+293. Fish protein-based enteral nutrition formula for hospital patients
+294. Marine-derived vitamin D3 supplement from fish liver oil
+295. Functional fish jerky with added probiotics for gut health
+296. Seaweed-based prebiotic fiber for infant formula supplementation
+297. Fish waste-derived mineral supplement for pregnant women
+298. Marine omega-3 enriched margarine for daily dietary improvement
+299. Bioactive peptide-enriched fish soup for elderly sarcopenia prevention
+300. Comprehensive marine functional food product line development strategy
+
+=== CATEGORY 7: Fermented Fishery Products (301-350) ===
+301. Starter culture development for standardized bekasam production from freshwater fish
+302. Biogenic amine reduction strategies in Indonesian fish sauce (kecap ikan) fermentation
+303. Terasi (shrimp paste) fermentation optimization using defined microbial consortia
+304. Probiotic potential assessment of lactic acid bacteria from traditional rusip fermentation
+305. Volatile flavor compound profiling of Indonesian fermented fish products using GC-MS
+306. Accelerated fish sauce production using koji (Aspergillus oryzae) enzyme technology
+307. Histamine control during anchovy fish sauce fermentation through temperature management
+308. Microbial community dynamics during traditional peda (fermented fish) production
+309. Antioxidant activity development during fermentation of Indonesian shrimp paste
+310. Standardization of rusip production from anchovy for commercial scale-up
+311. Bioactive peptide generation during controlled fermentation of fish protein
+312. Safety assessment of traditional fermented fish products from Indonesian markets
+313. Flavor enhancement of fish sauce using Maillard reaction product addition
+314. Lactic acid bacteria diversity in Indonesian traditional fermented seafood products
+315. Accelerated terasi production using enzyme-assisted fermentation technology
+316. Umami compound quantification in Indonesian fermented fish products
+317. Probiotic fish product development using autochthonous LAB from bekasam
+318. Mycotoxin risk assessment in mold-fermented fish products
+319. Fermented fish collagen production for enhanced bioavailability
+320. Traditional cincalok (fermented shrimp) standardization for food safety compliance
+321. Bacteriocin production by LAB isolated from Indonesian fermented fish
+322. Controlled fermentation of fish viscera for high-quality fish sauce production
+323. Volatile sulfur compound formation during shrimp paste fermentation
+324. Nutritional value changes during fermentation of Indonesian freshwater fish products
+325. Halophilic bacteria role in traditional fish sauce fermentation process
+326. Fermented seaweed product development with probiotic properties
+327. Biogenic amine degrading bacteria application in fermented fish safety improvement
+328. Traditional wadi (fermented fish) production optimization from Kalimantan
+329. Enzyme activity profiling during different stages of fish sauce fermentation
+330. Fermented fish bone calcium bioavailability enhancement through lactic acid production
+331. Solid-state fermentation of fish waste for animal feed protein enrichment
+332. Color development mechanism during terasi fermentation using melanoidin analysis
+333. Controlled fermentation for consistent quality Indonesian fish paste production
+334. Antihypertensive peptide generation during fish protein fermentation
+335. Fermentation temperature optimization for biogenic amine minimization in fish sauce
+336. Traditional tuak ikan fermentation documentation and modernization in Papua
+337. Koji-based rapid fermentation of fish waste for umami seasoning production
+338. Microbial safety improvement of traditional fermented fish through hurdle technology
+339. Fermented fish product shelf life extension using natural preservatives
+340. Proteolytic enzyme activity optimization during fish sauce fermentation
+341. Fermented seaweed-fish blend product for novel umami seasoning development
+342. Gamma-aminobutyric acid (GABA) production during fish fermentation
+343. Traditional bakasang (fermented fish viscera) characterization from Maluku
+344. Fermented fish protein hydrolysate for flavor enhancer production
+345. Lactic acid fermentation of fish for safe ready-to-eat product development
+346. Fermented fish waste as biofertilizer for organic agriculture
+347. Aroma compound development during Indonesian dried fermented fish production
+348. Fermented fish collagen peptide with enhanced antioxidant activity
+349. Quality standardization framework for Indonesian traditional fermented fish products
+350. Metagenomics analysis of microbial ecosystems in Indonesian fermented seafood
+
+=== CATEGORY 8: Cold Chain & Logistics (351-400) ===
+351. IoT-based temperature monitoring system for Indonesian seafood cold chain
+352. Cold chain break impact on histamine formation in tuna distribution network
+353. Solar-powered cold storage design for remote fishing communities in eastern Indonesia
+354. Last-mile delivery optimization for fresh fish e-commerce in Indonesian cities
+355. Ice requirement calculation model for different fish species and ambient temperatures
+356. Cold chain infrastructure gap analysis for Indonesian seafood export supply chain
+357. Phase change material application for passive cooling in fish transport containers
+358. Temperature mapping of Indonesian fish distribution from landing to retail
+359. Blockchain-based cold chain traceability for Indonesian shrimp export
+360. Energy-efficient refrigeration system design for Indonesian fish processing plants
+361. Cold chain logistics optimization for live fish transport in Indonesian archipelago
+362. Portable cold storage unit design for motorcycle-based fish delivery
+363. Temperature abuse frequency and duration analysis in Indonesian wet markets
+364. Insulated fish box design optimization for inter-island fish transport
+365. Cold chain cost-benefit analysis for small-scale Indonesian fish traders
+366. Real-time quality prediction model based on temperature history data
+367. Refrigerated seawater system optimization for fishing vessel fish holds
+368. Cold chain training program effectiveness for Indonesian fish handlers
+369. Multi-temperature zone cold storage design for diverse seafood products
+370. Carbon footprint assessment of Indonesian seafood cold chain operations
+371. Ice plant capacity planning model for Indonesian fishing ports
+372. Cold chain failure mode analysis and risk mitigation strategies
+373. Eutectic plate cooling system for fish transport in tropical conditions
+374. Digital twin development for cold chain performance optimization
+375. Cold chain quality assurance protocol development for Indonesian seafood
+376. Vacuum cooling application for rapid temperature reduction of bulk fish
+377. Cold chain infrastructure investment prioritization for Indonesian fishing ports
+378. Temperature-time tolerance determination for Indonesian commercial fish species
+379. Modular cold room design for scalable fish storage in growing markets
+380. Cold chain data analytics for predictive maintenance of refrigeration equipment
+381. Cryogenic cooling application for ultra-rapid freezing of premium seafood
+382. Cold chain performance benchmarking across Indonesian seafood supply chains
+383. Solar-ice hybrid cooling system for off-grid fish preservation
+384. Cold chain monitoring compliance system for Indonesian seafood exporters
+385. Thermal packaging design optimization for air-freight seafood shipments
+386. Cold chain energy management system for Indonesian fish processing facilities
+387. Ice slurry production and application for rapid fish chilling at landing sites
+388. Cold chain risk assessment framework for Indonesian seafood food safety
+389. Refrigerant transition strategy for Indonesian seafood cold chain (HFC phase-down)
+390. Cold chain sharing economy model for small-scale fish traders
+391. Temperature-controlled container optimization for Indonesian inter-island fish trade
+392. Cold chain automation and robotics for Indonesian fish processing plants
+393. Seasonal cold chain demand forecasting for Indonesian fishing industry
+394. Cold chain waste reduction through improved temperature management
+395. Portable fish quality testing integration with cold chain monitoring systems
+396. Cold chain financing model for Indonesian small-scale fisheries sector
+397. Renewable energy integration in Indonesian seafood cold chain infrastructure
+398. Cold chain standard operating procedure development for Indonesian fish markets
+399. Smart cold chain platform development for Indonesian seafood industry digitalization
+400. Cold chain resilience assessment for climate change adaptation in Indonesian fisheries
+
+=== CATEGORY 9: Sensory Evaluation & Consumer Studies (401-450) ===
+401. Consumer acceptance of seaweed-fortified fish products in Indonesian urban markets
+402. Sensory profiling of Indonesian smoked fish varieties using descriptive analysis
+403. Willingness to pay for eco-labeled sustainable seafood in Indonesian consumers
+404. Trained panel development for fish freshness assessment in Indonesian laboratories
+405. Consumer perception of fish collagen beauty products in Indonesian market
+406. Sensory quality mapping of traditional fish products across Indonesian regions
+407. Purchase intention for omega-3 fortified fish products among Indonesian mothers
+408. Temporal dominance of sensations (TDS) analysis of Indonesian fish crackers
+409. Consumer attitude toward novel fish-based functional foods in Indonesia
+410. Sensory shelf life determination of packaged Indonesian smoked fish products
+411. Cross-cultural comparison of seafood preference between Indonesian ethnic groups
+412. Check-all-that-apply (CATA) analysis of Indonesian fish sauce attributes
+413. Consumer acceptance of fish protein-fortified complementary food for infants
+414. Sensory optimization of fish ball formulation using mixture design
+415. Indonesian consumer perception of farmed vs wild-caught fish products
+416. Rapid sensory profiling methods comparison for fish product development
+417. Consumer willingness to pay for traceability-verified Indonesian seafood
+418. Sensory evaluation of plant-based seafood alternatives in Indonesian market
+419. Emotional response profiling of Indonesian traditional fermented fish products
+420. Consumer segmentation based on seafood consumption patterns in Indonesian cities
+421. Sensory quality correlation with instrumental measurements in fish products
+422. Indonesian millennial consumer attitude toward sustainable seafood choices
+423. Penalty analysis for identifying key drivers of fish product liking
+424. Consumer acceptance of insect-fish protein blend products in Indonesia
+425. Sensory benchmarking of Indonesian fish sauce against international brands
+426. Online consumer review analysis for Indonesian seafood product improvement
+427. Sensory evaluation of reduced-salt fish products for health-conscious consumers
+428. Consumer trust in seafood safety labeling and certification in Indonesia
+429. Projective mapping of Indonesian dried fish product sensory space
+430. Consumer response to clean-label fish products without artificial additives
+431. Sensory quality changes during storage of Indonesian traditional fish products
+432. Consumer acceptance of 3D-printed fish products in Indonesian food service
+433. Napping method application for rapid sensory characterization of fish products
+434. Indonesian consumer knowledge and perception of seafood allergens
+435. Sensory-instrumental correlation for texture of Indonesian fish gel products
+436. Consumer preference for packaging design of premium Indonesian seafood
+437. Flash profiling of novel seaweed-based snack products for Indonesian market
+438. Consumer behavior analysis for online seafood purchasing in Indonesian e-commerce
+439. Sensory evaluation of fish products with natural vs artificial colorants
+440. Indonesian consumer acceptance of underutilized fish species products
+441. Rate-all-that-apply (RATA) method for fish product attribute intensity profiling
+442. Consumer perception of halal certification for fish gelatin products
+443. Sensory quality optimization of fish protein bar for Indonesian fitness market
+444. Consumer willingness to pay for plastic-free seafood packaging
+445. Descriptive sensory analysis of Indonesian seaweed products for export market
+446. Consumer acceptance testing of calcium-fortified fish products for children
+447. Sensory evaluation methodology standardization for Indonesian fishery products
+448. Consumer attitude toward fish waste-derived food ingredients
+449. Ideal profile method application for Indonesian fish sauce reformulation
+450. Market research for marine-based functional food product launch in Indonesia
+
+=== CATEGORY 10: Novel Processing Technologies (451-500) ===
+451. High-pressure processing optimization for raw tuna preservation maintaining sashimi quality
+452. Pulsed electric field-assisted extraction of collagen from Indonesian fish skin
+453. Ultrasound-assisted enzymatic hydrolysis of shrimp waste for bioactive peptide production
+454. Cold plasma treatment for microbial inactivation on fresh fish surfaces
+455. Supercritical CO2 extraction of omega-3 from Indonesian tuna by-products
+456. Ohmic heating for rapid and uniform cooking of surimi-based products
+457. Microwave-assisted extraction of carrageenan from Indonesian red seaweed
+458. High-pressure homogenization for fish protein nanoparticle production
+459. Pulsed UV light treatment for surface decontamination of ready-to-eat seafood
+460. Electrohydrodynamic drying of fish products for improved quality retention
+461. Supercritical fluid chromatography for marine lipid fractionation
+462. Ultrasound-assisted osmotic dehydration of fish fillets for quality improvement
+463. Dense phase CO2 pasteurization of fish-based beverages
+464. Radiofrequency heating for rapid thawing of frozen seafood blocks
+465. Membrane technology for fish protein recovery from processing wastewater
+466. Pulsed electric field for improved freezing-thawing quality of fish muscle
+467. Infrared heating combined with hot air for energy-efficient fish drying
+468. High-pressure processing effects on allergenicity of shrimp proteins
+469. Ultrasound-assisted brining for reduced sodium fish product development
+470. Cold plasma-activated water for fish processing plant sanitation
+471. Supercritical CO2 drying of fish collagen aerogel for biomedical applications
+472. Electrospinning of fish protein nanofibers for active packaging development
+473. Pulsed electric field pre-treatment for improved fish smoking efficiency
+474. High-intensity focused ultrasound for non-thermal fish product pasteurization
+475. Microfluidics-based encapsulation of fish oil for controlled release applications
+476. Ohmic heating-assisted extraction of gelatin from fish skin waste
+477. Atmospheric pressure plasma jet for fish fillet surface treatment
+478. Supercritical antisolvent process for fish oil nanoparticle production
+479. Ultrasound-assisted freeze-drying of fish products for quality improvement
+480. Pulsed light technology for extending shelf life of fresh fish fillets
+481. High-pressure processing for inactivation of parasites in raw fish for sushi
+482. Electrospun chitosan nanofiber membrane for fish oil purification
+483. Cold plasma treatment for degradation of histamine in fish products
+484. Supercritical CO2 impregnation of natural preservatives into fish packaging
+485. Ultrasound-assisted marination for enhanced flavor penetration in fish products
+486. Pulsed electric field for selective extraction of marine bioactive compounds
+487. High-pressure processing combined with natural antimicrobials for synergistic preservation
+488. Microwave-vacuum drying optimization for high-quality fish powder production
+489. Electrohydrodynamic atomization for fish oil microencapsulation
+490. Dense phase CO2 for decontamination of spices used in fish processing
+491. Ultrasound-assisted enzymatic extraction of fish bone calcium
+492. Pulsed electric field for cell disintegration in microalgae harvesting
+493. High-pressure processing for texture modification of surimi gel products
+494. Cold plasma-generated ozone for fish processing water treatment
+495. Supercritical fluid extraction of astaxanthin from Indonesian shrimp waste
+496. Ultrasound-assisted production of fish protein-polysaccharide conjugates
+497. Pulsed electric field for improved dehydration of Indonesian seaweed products
+498. High-pressure processing for shelf-stable Indonesian fish sauce production
+499. Novel non-thermal processing combination for maximum fish product safety
+500. Industry 4.0 integration in Indonesian fish processing: AI, IoT, and robotics convergence

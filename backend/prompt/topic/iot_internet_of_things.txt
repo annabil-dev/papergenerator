@@ -1,12 +1,11 @@
 ================================================================================
-TOPIC GUIDE — Iot Internet Of Things
+TOPIC GUIDE — IoT Internet of Things (Alias)
 ================================================================================
-FIELD: Engineering / Computer Science
+FIELD: Computer Science / Engineering
 DEFAULT CITATION STYLE: IEEE
+SUBDISCIPLINE: Alias only; active IoT coverage is maintained in iot_systems.txt.
 
-METHODOLOGY: MQTT, CoAP, HTTP/REST, edge computing, cloud integration, sensor fusion,
-  Node-RED, energy harvesting, wireless protocols (WiFi/BLE/LoRa/Zigbee)
-EQUATIONS: RSSI, SNR, throughput η, energy consumption E = P·t, latency
-FIGURES: IoT architecture diagram, dashboard screenshot, network topology, power curve
-TABLES: protocol comparison (BLE/LoRa/WiFi), sensor specs, latency measurement
-VENUES: IEEE Internet Things J., IEEE Trans. Ind. Inform., IEEE Sensors J., Sensors (MDPI)
+ALIAS NOTICE:
+  This file is intentionally kept as a short alias to prevent two active IoT topic guides.
+  Use iot_systems.txt for Internet of Things, embedded IoT, sensors, wireless connectivity,
+  edge analytics, IoT security, digital twins, and smart environments.

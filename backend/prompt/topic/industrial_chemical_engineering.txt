@@ -1,0 +1,712 @@
+================================================================================
+TOPIC GUIDE — Industrial Chemical Engineering Technology (Teknologi Rekayasa Kimia Industri)
+================================================================================
+FIELD: Industrial Chemical Engineering Technology
+DEFAULT CITATION STYLE: APA
+SUBDISCIPLINE: Chemical Process Design & Simulation, Reaction Engineering & Catalysis, Separation & Purification Technology, Polymer & Materials Processing, Environmental & Green Chemistry, Food & Pharmaceutical Processing, Energy & Fuel Technology, Bioprocess & Biochemical Engineering
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title (specific, with method and domain)
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Process simulation using Aspen Plus, Aspen HYSYS, SuperPro Designer
+   - Experiment design using Response Surface Methodology (RSM) and Taguchi method
+   - Reaction kinetics determination and modeling
+   - Mass and heat transfer analysis with computational methods
+   - Process optimization using genetic algorithm and multi-objective methods
+   - Pilot plant scale-up methodology and dimensional analysis
+   - Computational Fluid Dynamics (CFD) for reactor and equipment design
+   - Life Cycle Assessment (LCA) for environmental impact evaluation
+   - Machine learning for process prediction and optimization
+   - Green chemistry metrics and atom economy analysis
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics with statistical measures
+   - Comparison with baselines
+   - All numbers realistic and internally consistent
+
+5. MATHEMATICAL FORMULAS:
+   - 5-10 relevant formulas with variable definitions
+   - Reaction rate: r = k[A]^n[B]^m
+   - Arrhenius equation: k = A*exp(-Ea/RT)
+   - Mass balance: sum(F_in) = sum(F_out) + accumulation
+   - Heat transfer: Q = U*A*LMTD
+   - Bernoulli equation: P1/rho + v1^2/2 + gz1 = P2/rho + v2^2/2 + gz2
+   - Reynolds number: Re = rho*v*D/mu
+   - Nusselt correlation: Nu = C*Re^a*Pr^b
+   - Yield: Y = (moles product)/(moles reactant consumed) * 100%
+   - Selectivity: S = (moles desired product)/(moles all products) * 100%
+   - Conversion: X = (C_A0 - C_A)/C_A0
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian context
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords, Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+--- DOMAIN-SPECIFIC SECTIONS ---
+
+ABSTRACT CHARACTERISTICS:
+- State raw material/feedstock and target product
+- Specify process conditions (temperature, pressure, catalyst, time)
+- Include key performance metrics (yield, conversion, selectivity, purity)
+- Mention optimization method and optimal conditions found
+- Highlight industrial applicability and scale-up potential
+
+INTRODUCTION ELEMENTS:
+- Indonesia's abundant natural resources as chemical feedstock
+- Palm oil industry as major chemical raw material source
+- Indonesian petrochemical and oleochemical industry landscape
+- Government policy on downstream processing and value addition
+- Need for green and sustainable chemical processes
+- Indonesian industrial chemical technology development priorities
+- Local raw materials: cassava, coconut, sugarcane, natural gas, coal
+
+LITERATURE REVIEW TOPICS:
+- Chemical process intensification and optimization
+- Catalytic reaction engineering and catalyst development
+- Separation technology advancement (membrane, adsorption, extraction)
+- Polymer processing and composite material development
+- Green chemistry and sustainable process design
+- Food and pharmaceutical process technology
+- Energy conversion and fuel production technology
+- Bioprocess engineering and fermentation technology
+
+METHODOLOGY DETAILS:
+- Raw material characterization and analysis
+- Experimental setup and reactor configuration
+- Process variable selection and experimental design
+- Analytical methods (GC, HPLC, FTIR, XRD, SEM, BET)
+- Process simulation model development and validation
+- Statistical analysis and optimization procedure
+- Scale-up calculation and pilot plant design
+- Economic feasibility and techno-economic analysis
+
+EQUATIONS:
+- r = k*C_A^n*C_B^m (reaction rate law)
+- k = A*exp(-Ea/(R*T)) (Arrhenius equation)
+- tau = V/Q (residence time)
+- X_A = (F_A0 - F_A)/F_A0 (conversion)
+- Q = U*A*delta_T_lm (heat exchanger duty)
+- N_Re = rho*v*D/mu (Reynolds number)
+- Sh = k_c*D/D_AB (Sherwood number for mass transfer)
+- eta = r_observed/r_intrinsic (effectiveness factor)
+- BET: 1/(V*(P0/P - 1)) = (C-1)/(V_m*C) * P/P0 + 1/(V_m*C)
+- E-factor = mass waste/mass product (environmental factor)
+
+FIGURES:
+- Process flow diagram (PFD) and P&ID
+- Reactor configuration schematic
+- Response surface plots (3D and contour)
+- Kinetic model fitting curves
+- Product characterization spectra (FTIR, XRD, GC)
+- SEM/TEM micrographs of materials
+- Temperature and concentration profiles
+- Optimization convergence plots
+- Scale-up comparison charts
+- Economic analysis breakdown
+
+TABLES:
+- Raw material composition and properties
+- Experimental design matrix and results
+- ANOVA table for statistical significance
+- Optimal conditions and predicted vs actual values
+- Kinetic parameters (rate constants, activation energy)
+- Product quality specifications and compliance
+- Mass and energy balance summary
+- Economic analysis (CAPEX, OPEX, ROI)
+- Comparison with literature values
+- Scale-up parameters and dimensionless numbers
+
+RESULTS & DISCUSSION:
+- Effect of process variables on response
+- Statistical model adequacy and significance
+- Optimal conditions and validation
+- Kinetic model fitting and parameter estimation
+- Product characterization and quality assessment
+- Comparison with conventional methods
+- Scale-up feasibility assessment
+- Economic viability analysis
+- Environmental impact consideration
+
+CONCLUSION:
+- Summary of optimal conditions and performance
+- Key findings on process mechanism
+- Industrial applicability assessment
+- Economic feasibility statement
+- Recommendations for scale-up
+- Future research directions
+
+REFERENCE VENUES:
+- Chemical Engineering Journal
+- Industrial & Engineering Chemistry Research
+- Journal of Chemical Technology and Biotechnology
+- Separation and Purification Technology
+- Biochemical Engineering Journal
+- Process Biochemistry
+- Fuel
+- Bioresource Technology
+- Journal of Cleaner Production
+- Green Chemistry
+- Jurnal Teknik Kimia Indonesia
+- Reaktor (UNDIP Chemical Engineering Journal)
+
+DOMAIN VOCABULARY:
+- Proses kimia (chemical process), reaktor (reactor), katalis (catalyst)
+- Konversi (conversion), selektivitas (selectivity), hasil (yield)
+- Distilasi (distillation), ekstraksi (extraction), adsorpsi (adsorption)
+- Perpindahan panas (heat transfer), perpindahan massa (mass transfer)
+- Kinetika reaksi (reaction kinetics), termodinamika (thermodynamics)
+- Polimerisasi (polymerization), fermentasi (fermentation)
+- Bahan baku (raw material), produk (product), limbah (waste)
+- Skala laboratorium (lab scale), skala pilot (pilot scale), skala industri (industrial scale)
+- Optimasi proses (process optimization), simulasi (simulation)
+- Kelapa sawit (palm oil), singkong (cassava), kelapa (coconut), tebu (sugarcane)
+
+METHODOLOGY KEYWORDS:
+- RSM (Response Surface Methodology), CCD (Central Composite Design)
+- Taguchi method, Box-Behnken Design, factorial design
+- Aspen Plus, Aspen HYSYS, COMSOL Multiphysics
+- GC-MS, HPLC, FTIR, XRD, SEM-EDX, BET, TGA-DSC
+- ANOVA, regression analysis, lack-of-fit test
+- Batch reactor, CSTR, PFR, packed bed reactor
+- Membrane separation, liquid-liquid extraction, crystallization
+- Techno-economic analysis (TEA), life cycle assessment (LCA)
+- Design of Experiments (DOE), optimization algorithm
+- Scale-up criteria, similarity principles, dimensional analysis
+
+--- RESEARCH TOPIC BANK (500 TOPICS) ---
+
+=== CATEGORY 1: Chemical Process Design & Simulation (001-050) ===
+001. Aspen Plus simulation and optimization of biodiesel production from Indonesian palm oil
+002. Process intensification of oleochemical production using reactive distillation simulation
+003. Heat integration optimization for Indonesian palm oil refinery using pinch analysis
+004. Process simulation of bioethanol production from Indonesian cassava using Aspen HYSYS
+005. Techno-economic analysis of green hydrogen production from Indonesian geothermal energy
+006. Process design and simulation of activated carbon production from Indonesian coconut shell
+007. Dynamic simulation of Indonesian natural gas processing plant for operational optimization
+008. Process intensification of fatty acid methyl ester production using membrane reactor simulation
+009. Aspen Plus modeling of syngas production from Indonesian coal gasification
+010. Process simulation and optimization of Indonesian crude palm oil refinery
+011. Techno-economic assessment of bio-succinic acid production from Indonesian sugarcane molasses
+012. Process design for Indonesian natural rubber processing plant modernization
+013. Simulation-based optimization of Indonesian LNG regasification terminal operation
+014. Process intensification of glycerol purification from Indonesian biodiesel byproduct
+015. Aspen HYSYS simulation of Indonesian petroleum refinery crude distillation unit
+016. Process design and simulation of nanocellulose production from Indonesian oil palm empty fruit bunch
+017. Techno-economic analysis of Indonesian palm kernel oil fractionation process
+018. Process simulation of Indonesian cocoa butter extraction and refining
+019. Dynamic simulation of Indonesian ammonia-urea fertilizer plant for energy optimization
+020. Process design for Indonesian seaweed-based bioplastic production facility
+021. Aspen Plus simulation of Indonesian palm oil mill effluent treatment and biogas recovery
+022. Process intensification of Indonesian essential oil extraction using microwave-assisted method
+023. Simulation-based design of Indonesian coconut oil virgin cold-press processing plant
+024. Techno-economic analysis of Indonesian rice husk silica production process
+025. Process simulation of Indonesian natural gas sweetening using amine absorption
+026. Process design for Indonesian cassava starch modification plant
+027. Aspen HYSYS modeling of Indonesian offshore gas processing platform
+028. Process intensification of Indonesian palm stearin hydrogenation using continuous flow reactor
+029. Simulation-based optimization of Indonesian sugar mill crystallization process
+030. Techno-economic assessment of Indonesian patchouli oil distillation process improvement
+031. Process design and simulation of Indonesian palm-based surfactant production
+032. Dynamic simulation of Indonesian cement plant waste heat recovery system
+033. Aspen Plus modeling of Indonesian biomass torrefaction for solid fuel production
+034. Process simulation of Indonesian coconut cream spray drying optimization
+035. Techno-economic analysis of Indonesian palm oil-based epoxidized oil production
+036. Process design for Indonesian sago starch biorefinery concept
+037. Simulation-based optimization of Indonesian rubber latex concentration process
+038. Process intensification of Indonesian clove oil eugenol extraction and purification
+039. Aspen HYSYS simulation of Indonesian condensate stabilization unit optimization
+040. Process design for Indonesian palm-based oleochemical integrated complex
+041. Techno-economic assessment of Indonesian biochar production from agricultural waste
+042. Process simulation of Indonesian tapioca starch wastewater treatment and recovery
+043. Dynamic simulation of Indonesian geothermal power plant silica scaling prevention
+044. Process design for Indonesian palm kernel expeller solvent extraction plant
+045. Aspen Plus modeling of Indonesian coal-to-methanol conversion process
+046. Process intensification of Indonesian vanilla extract production using supercritical CO2
+047. Simulation-based design of Indonesian palm oil-based polyol production
+048. Techno-economic analysis of Indonesian bamboo-based dissolving pulp production
+049. Process simulation of Indonesian nickel laterite hydrometallurgical processing
+050. Process design for Indonesian integrated palm oil biorefinery with zero waste concept
+
+=== CATEGORY 2: Reaction Engineering & Catalysis (051-100) ===
+051. Heterogeneous catalyst development for Indonesian palm oil transesterification to biodiesel
+052. Kinetic modeling of Indonesian coconut shell pyrolysis for biochar production
+053. Photocatalytic degradation of Indonesian textile wastewater using TiO2-based catalyst
+054. Catalyst design for selective hydrogenation of Indonesian palm olein
+055. Kinetic study of Indonesian cassava fermentation for bioethanol production
+056. Zeolite catalyst modification for Indonesian palm oil cracking to biofuel
+057. Enzymatic hydrolysis optimization of Indonesian oil palm empty fruit bunch cellulose
+058. Catalyst development for Indonesian glycerol conversion to value-added chemicals
+059. Kinetic modeling of Indonesian rubber seed oil transesterification reaction
+060. Photocatalytic hydrogen production using Indonesian natural mineral-based catalyst
+061. Catalyst design for Indonesian coal tar upgrading to transportation fuel
+062. Kinetic study of Indonesian sugarcane bagasse acid hydrolysis for sugar production
+063. Nano-catalyst development for Indonesian palm oil epoxidation reaction
+064. Enzymatic catalyst optimization for Indonesian coconut oil interesterification
+065. Kinetic modeling of Indonesian peat pyrolysis for understanding fire behavior
+066. Heterogeneous acid catalyst from Indonesian natural clay for esterification
+067. Catalyst development for Indonesian natural gas partial oxidation to syngas
+068. Kinetic study of Indonesian palm oil mill effluent anaerobic digestion
+069. Photocatalytic CO2 reduction using Indonesian volcanic mineral-modified catalyst
+070. Catalyst design for Indonesian bio-oil upgrading via hydrodeoxygenation
+071. Kinetic modeling of Indonesian durian peel activated carbon adsorption
+072. Biocatalyst immobilization for continuous Indonesian biodiesel production
+073. Catalyst development for Indonesian waste cooking oil conversion to green diesel
+074. Kinetic study of Indonesian rice husk combustion for energy recovery
+075. Nano-catalyst synthesis from Indonesian laterite for Fenton oxidation
+076. Enzymatic catalyst for Indonesian palm-based sugar ester synthesis
+077. Kinetic modeling of Indonesian biomass gasification in fluidized bed reactor
+078. Heterogeneous base catalyst from Indonesian limestone for biodiesel production
+079. Catalyst development for Indonesian crude glycerol reforming to hydrogen
+080. Kinetic study of Indonesian seaweed hydrothermal liquefaction
+081. Photocatalytic degradation of Indonesian palm oil mill effluent using visible light catalyst
+082. Catalyst design for Indonesian ethanol dehydration to ethylene
+083. Kinetic modeling of Indonesian coffee waste pyrolysis for bio-oil production
+084. Biocatalyst development for Indonesian palm-based biolubricant synthesis
+085. Catalyst from Indonesian fly ash for Fischer-Tropsch synthesis
+086. Kinetic study of Indonesian coconut husk torrefaction process
+087. Nano-catalyst for Indonesian rubber wastewater treatment via advanced oxidation
+088. Enzymatic hydrolysis of Indonesian sago pith waste for fermentable sugar
+089. Catalyst development for Indonesian methane dry reforming using CO2
+090. Kinetic modeling of Indonesian palm fiber slow pyrolysis
+091. Photocatalytic water splitting using Indonesian natural semiconductor mineral
+092. Catalyst design for Indonesian bio-glycerol etherification to fuel additive
+093. Kinetic study of Indonesian microalgae lipid extraction using green solvent
+094. Heterogeneous catalyst from Indonesian waste for plastic pyrolysis oil upgrading
+095. Catalyst development for Indonesian lignin depolymerization to aromatic chemicals
+096. Kinetic modeling of Indonesian palm shell activated carbon regeneration
+097. Biocatalyst optimization for Indonesian palm-based structured lipid production
+098. Catalyst from Indonesian red mud for catalytic wet oxidation of wastewater
+099. Kinetic study of Indonesian corn cob hydrothermal carbonization
+100. Nano-catalyst development for Indonesian used lubricating oil re-refining
+
+=== CATEGORY 3: Separation & Purification Technology (101-150) ===
+101. Membrane distillation for Indonesian seawater desalination using local materials
+102. Adsorption of heavy metals from Indonesian mining wastewater using biochar
+103. Liquid-liquid extraction optimization for Indonesian palm oil carotenoid recovery
+104. Membrane separation for Indonesian bioethanol dehydration process
+105. Ion exchange resin application for Indonesian sugar decolorization
+106. Supercritical CO2 extraction of Indonesian ginger oleoresin optimization
+107. Nanofiltration membrane for Indonesian palm oil mill effluent treatment
+108. Activated carbon from Indonesian coconut shell for gold recovery from e-waste
+109. Pervaporation membrane for Indonesian biobutanol separation from fermentation broth
+110. Crystallization optimization for Indonesian sea salt production improvement
+111. Ultrafiltration membrane for Indonesian latex serum protein recovery
+112. Adsorption of dye from Indonesian batik wastewater using modified zeolite
+113. Solvent extraction of Indonesian nickel laterite using organic acid
+114. Membrane bioreactor for Indonesian tofu wastewater treatment and reuse
+115. Chromatographic separation of Indonesian palm oil tocotrienol isomers
+116. Electrodialysis for Indonesian brackish water desalination in coastal areas
+117. Adsorption of phosphate from Indonesian aquaculture wastewater using modified biochar
+118. Microwave-assisted extraction of Indonesian turmeric curcumin optimization
+119. Forward osmosis membrane for Indonesian fruit juice concentration
+120. Activated alumina for Indonesian groundwater fluoride removal
+121. Liquid membrane extraction for Indonesian rare earth element recovery
+122. Freeze concentration for Indonesian coconut water quality improvement
+123. Adsorption of antibiotics from Indonesian hospital wastewater using MOF
+124. Ultrasound-assisted extraction of Indonesian mangosteen xanthone
+125. Ceramic membrane for Indonesian palm oil clarification process
+126. Ion exchange for Indonesian geothermal brine lithium recovery
+127. Molecularly imprinted polymer for Indonesian herbal medicine purification
+128. Spray drying optimization for Indonesian instant coffee powder production
+129. Adsorption of ammonia from Indonesian livestock wastewater using zeolite
+130. Subcritical water extraction of Indonesian rosella anthocyanin
+131. Membrane contactor for Indonesian biogas CO2 removal
+132. Activated carbon fiber for Indonesian VOC emission control
+133. Aqueous two-phase extraction for Indonesian enzyme purification
+134. Vacuum distillation for Indonesian essential oil fractionation
+135. Adsorption of arsenic from Indonesian groundwater using iron-modified biochar
+136. Enzyme-assisted extraction of Indonesian virgin coconut oil
+137. Hollow fiber membrane for Indonesian natural gas dehydration
+138. Magnetic separation for Indonesian iron sand beneficiation
+139. Deep eutectic solvent extraction for Indonesian palm oil deacidification
+140. Fluidized bed drying optimization for Indonesian paddy rice
+141. Adsorption of mercury from Indonesian artisanal gold mining wastewater
+142. Pressurized liquid extraction of Indonesian propolis bioactive compounds
+143. Electromembrane extraction for Indonesian pharmaceutical wastewater treatment
+144. Foam fractionation for Indonesian shrimp waste protein recovery
+145. Adsorption of phenol from Indonesian petroleum refinery wastewater
+146. Microwave-assisted hydrodistillation of Indonesian citronella oil
+147. Mixed matrix membrane for Indonesian CO2/CH4 separation
+148. Simulated moving bed chromatography for Indonesian sugar separation
+149. Adsorption of lead from Indonesian battery recycling wastewater
+150. Supercritical antisolvent for Indonesian herbal medicine nanoparticle formation
+
+=== CATEGORY 4: Polymer & Materials Processing (151-200) ===
+151. Bioplastic production from Indonesian cassava starch with palm oil-based plasticizer
+152. Natural fiber composite from Indonesian oil palm empty fruit bunch and recycled HDPE
+153. Biodegradable packaging film from Indonesian seaweed polysaccharide blend
+154. Rubber compound optimization for Indonesian tire manufacturing using RSM
+155. Nanocellulose extraction from Indonesian bamboo for polymer reinforcement
+156. Polyurethane foam production from Indonesian palm oil-based polyol
+157. Biocomposite development from Indonesian coconut coir fiber and PLA matrix
+158. Epoxy resin modification using Indonesian palm oil-based epoxidized oil
+159. Starch-based biodegradable plastic from Indonesian sago with nano-clay filler
+160. Natural rubber latex modification for Indonesian glove manufacturing improvement
+161. Cellulose acetate membrane from Indonesian wood pulp for water treatment
+162. Polymer blend optimization of Indonesian recycled PET and virgin material
+163. Bio-based adhesive from Indonesian palm kernel oil for plywood industry
+164. Chitosan film from Indonesian shrimp waste for food packaging application
+165. Composite material from Indonesian rice husk ash and unsaturated polyester
+166. Biodegradable mulch film from Indonesian cassava starch for agriculture
+167. Natural fiber reinforced polymer from Indonesian kenaf for automotive parts
+168. Polyhydroxyalkanoate production from Indonesian palm oil mill effluent
+169. Lignin-based carbon fiber from Indonesian oil palm biomass
+170. Polymer nanocomposite using Indonesian bentonite clay as nanofiller
+171. Bio-based polyol from Indonesian castor oil for rigid foam insulation
+172. Cellulose nanocrystal from Indonesian sugarcane bagasse for coating application
+173. Recycled plastic aggregate for Indonesian lightweight concrete production
+174. Natural rubber-based shape memory polymer for Indonesian biomedical application
+175. Starch nanoparticle from Indonesian corn for Pickering emulsion stabilization
+176. Bio-composite from Indonesian water hyacinth fiber and recycled polypropylene
+177. Palm oil-based alkyd resin for Indonesian paint and coating industry
+178. Biodegradable food container from Indonesian arecanut leaf fiber composite
+179. Polymer electrolyte membrane from Indonesian natural rubber for fuel cell
+180. Nano-silica from Indonesian geothermal sludge for rubber reinforcement
+181. Bio-based epoxy from Indonesian candlenut oil for composite matrix
+182. Cellulose hydrogel from Indonesian oil palm trunk for wound dressing
+183. Recycled tire rubber devulcanization for Indonesian rubber product reuse
+184. Natural fiber mat from Indonesian pineapple leaf for composite reinforcement
+185. Palm oil-based polyamide for Indonesian engineering plastic application
+186. Biodegradable pot from Indonesian coconut fiber and starch blend
+187. Carbon nanotube-polymer composite using Indonesian natural gas as carbon source
+188. Bio-based surfactant from Indonesian palm kernel oil for detergent
+189. Cellulose aerogel from Indonesian kapok fiber for oil spill absorption
+190. Polymer concrete from Indonesian recycled plastic for construction
+191. Natural rubber foam from Indonesian latex for mattress production
+192. Bio-composite from Indonesian durian skin fiber and biodegradable polymer
+193. Palm oil-based wax for Indonesian candle and coating application
+194. Biodegradable straw from Indonesian rice starch and PLA blend
+195. Nano-calcium carbonate from Indonesian limestone for polymer filler
+196. Bio-based plasticizer from Indonesian coconut oil for PVC modification
+197. Cellulose membrane from Indonesian cotton waste for dialysis application
+198. Recycled HDPE-wood composite from Indonesian waste for decking material
+199. Natural rubber-graphene composite for Indonesian anti-vibration mounting
+200. Bio-based polyester from Indonesian palm oil for textile fiber
+
+=== CATEGORY 5: Environmental & Green Chemistry (201-250) ===
+201. Green synthesis of silver nanoparticles using Indonesian plant extract for antibacterial
+202. Wastewater treatment of Indonesian palm oil mill effluent using constructed wetland
+203. Biochar from Indonesian rice husk for soil amendment and carbon sequestration
+204. Green solvent development from Indonesian terpene for extraction applications
+205. Electrocoagulation optimization for Indonesian textile wastewater treatment
+206. Life cycle assessment of Indonesian biodiesel production from palm oil
+207. Phytoremediation of heavy metals in Indonesian mining-contaminated soil
+208. Green synthesis of ZnO nanoparticles from Indonesian banana peel extract
+209. Anaerobic digestion of Indonesian food waste for biogas production optimization
+210. Bioremediation of Indonesian petroleum-contaminated soil using local microorganisms
+211. Green chemistry approach for Indonesian natural dye extraction and application
+212. Constructed wetland design for Indonesian domestic wastewater treatment
+213. Biosorption of heavy metals from Indonesian electroplating wastewater using algae
+214. Life cycle assessment of Indonesian paper production from oil palm biomass
+215. Composting optimization of Indonesian municipal organic waste using effective microorganisms
+216. Green synthesis of iron nanoparticles for Indonesian groundwater remediation
+217. Ozonation combined with biological treatment for Indonesian pharmaceutical wastewater
+218. Carbon footprint analysis of Indonesian palm oil supply chain
+219. Vermiculture for Indonesian organic waste processing and vermicompost production
+220. Green chemistry metrics evaluation for Indonesian oleochemical production processes
+221. Microplastic removal from Indonesian river water using coagulation-flocculation
+222. Life cycle assessment of Indonesian geothermal power plant environmental impact
+223. Bioaugmentation for Indonesian petroleum refinery wastewater treatment improvement
+224. Green solvent extraction of Indonesian herbal medicine using bio-based solvents
+225. Electro-Fenton process for Indonesian hospital wastewater treatment
+226. Carbon capture using Indonesian natural mineral-based sorbent
+227. Phycoremediation of Indonesian aquaculture wastewater using microalgae
+228. Life cycle assessment comparison of Indonesian packaging materials
+229. Biostimulation for Indonesian oil spill bioremediation in marine environment
+230. Green synthesis of catalyst from Indonesian agricultural waste for biodiesel
+231. Advanced oxidation process for Indonesian landfill leachate treatment
+232. Circular economy assessment of Indonesian palm oil industry waste streams
+233. Biofilter design for Indonesian industrial odor emission control
+234. Green chemistry approach for Indonesian batik wastewater treatment and dye recovery
+235. Membrane bioreactor for Indonesian industrial park centralized wastewater treatment
+236. Life cycle assessment of Indonesian electric vehicle battery recycling
+237. Mycoremediation of Indonesian textile dye-contaminated soil using white-rot fungi
+238. Green solvent system for Indonesian natural product extraction optimization
+239. Photocatalytic degradation of Indonesian pesticide-contaminated agricultural water
+240. Circular economy model for Indonesian coconut industry waste valorization
+241. Bioelectrochemical system for Indonesian organic wastewater treatment and energy recovery
+242. Life cycle assessment of Indonesian hydrogen production pathways comparison
+243. Bioremediation of Indonesian tin mining-affected marine sediment
+244. Green chemistry approach for Indonesian essential oil-based biopesticide production
+245. Plasma technology for Indonesian industrial VOC emission treatment
+246. Carbon neutrality pathway analysis for Indonesian chemical industry
+247. Constructed floating wetland for Indonesian urban lake water quality improvement
+248. Life cycle assessment of Indonesian bioplastic vs conventional plastic
+249. Bioaugmentation for Indonesian palm oil mill effluent treatment enhancement
+250. Green chemistry education and implementation framework for Indonesian chemical industry
+
+=== CATEGORY 6: Food & Pharmaceutical Processing (251-300) ===
+251. Spray drying optimization of Indonesian coconut milk powder using RSM
+252. Encapsulation of Indonesian turmeric curcumin using maltodextrin and gum arabic
+253. Fermentation optimization of Indonesian tempeh using response surface methodology
+254. Freeze drying of Indonesian tropical fruit for premium snack production
+255. Extraction and purification of Indonesian mangosteen pericarp xanthone
+256. Extrusion processing optimization of Indonesian rice-based snack food
+257. Nanoencapsulation of Indonesian palm oil carotenoid for bioavailability enhancement
+258. Fermentation kinetics of Indonesian kombucha from various tea substrates
+259. Supercritical CO2 extraction of Indonesian nutmeg essential oil optimization
+260. Drum drying optimization for Indonesian instant porridge from local cereals
+261. Microencapsulation of Indonesian fish oil using spray drying technique
+262. Fermentation optimization of Indonesian cocoa bean for flavor development
+263. Ultrasound-assisted extraction of Indonesian moringa leaf protein
+264. Ohmic heating for Indonesian fruit juice pasteurization optimization
+265. Encapsulation of Indonesian propolis using electrospraying technique
+266. Solid-state fermentation of Indonesian soybean for natto production optimization
+267. Supercritical fluid extraction of Indonesian clove bud oleoresin
+268. Vacuum frying optimization for Indonesian jackfruit chip production
+269. Nanoliposome preparation of Indonesian herbal medicine bioactive compounds
+270. Fermentation optimization of Indonesian palm sap for vinegar production
+271. Microwave-vacuum drying of Indonesian seaweed for food ingredient
+272. Encapsulation of Indonesian coffee aroma using complex coacervation
+273. Lactic acid fermentation of Indonesian cassava for food-grade production
+274. High-pressure processing for Indonesian fresh juice shelf-life extension
+275. Extraction optimization of Indonesian butterfly pea flower anthocyanin
+276. Fluidized bed granulation of Indonesian herbal medicine powder
+277. Enzymatic modification of Indonesian palm oil for infant formula fat
+278. Pulsed electric field for Indonesian coconut water preservation
+279. Nanoparticle preparation of Indonesian curcumin for pharmaceutical application
+280. Fermentation optimization of Indonesian rice wine (brem) quality improvement
+281. Spray freeze drying of Indonesian probiotic for enhanced viability
+282. Extraction of Indonesian red ginger oleoresin using pressurized liquid
+283. Extrusion-based 3D printing of Indonesian traditional food products
+284. Membrane filtration for Indonesian coconut water clarification and concentration
+285. Encapsulation of Indonesian palm oil vitamin E using spray drying
+286. Solid-state fermentation of Indonesian agricultural waste for enzyme production
+287. Supercritical antisolvent for Indonesian herbal extract nanoparticle formation
+288. Osmotic dehydration optimization of Indonesian mango for dried fruit production
+289. Nanofiber preparation from Indonesian chitosan for wound healing application
+290. Fermentation optimization of Indonesian tapai (fermented cassava) using starter culture
+291. Microwave-assisted extraction of Indonesian cinnamon essential oil
+292. Tablet formulation optimization of Indonesian herbal medicine using DOE
+293. Enzymatic hydrolysis of Indonesian fish waste for protein hydrolysate production
+294. Cold plasma treatment for Indonesian spice decontamination
+295. Encapsulation of Indonesian galangal extract for food preservative application
+296. Submerged fermentation of Indonesian agricultural waste for citric acid production
+297. Supercritical CO2 decaffeination of Indonesian coffee bean optimization
+298. Infrared drying optimization for Indonesian herbal tea production
+299. Nanocrystal preparation of Indonesian poorly soluble herbal compound
+300. Fermentation optimization of Indonesian coconut water kefir for functional beverage
+
+=== CATEGORY 7: Energy & Fuel Technology (301-350) ===
+301. Biodiesel production optimization from Indonesian waste cooking oil using heterogeneous catalyst
+302. Bioethanol production from Indonesian oil palm empty fruit bunch via SSF
+303. Pyrolysis oil production from Indonesian mixed plastic waste for fuel application
+304. Biogas upgrading from Indonesian palm oil mill effluent using water scrubbing
+305. Green diesel production from Indonesian palm oil via hydrodeoxygenation
+306. Biohydrogen production from Indonesian agricultural waste using dark fermentation
+307. Torrefaction of Indonesian oil palm biomass for solid fuel quality improvement
+308. Biodiesel-diesel blend performance testing for Indonesian transportation sector
+309. Syngas production from Indonesian municipal solid waste gasification
+310. Biobutanol production from Indonesian sugarcane molasses using ABE fermentation
+311. Hydrothermal liquefaction of Indonesian microalgae for bio-crude oil production
+312. Biomass briquette production from Indonesian coconut shell and sawdust blend
+313. Bio-jet fuel production from Indonesian palm oil via hydroprocessing
+314. Biogas production from co-digestion of Indonesian food waste and sewage sludge
+315. Dimethyl ether production from Indonesian natural gas via methanol synthesis
+316. Bioethanol production from Indonesian sago waste using enzymatic hydrolysis
+317. Fast pyrolysis of Indonesian rubber wood for bio-oil production optimization
+318. Biodiesel production from Indonesian Calophyllum inophyllum (nyamplung) oil
+319. Biomethane production from Indonesian landfill gas purification
+320. Bio-oil upgrading from Indonesian biomass pyrolysis using catalytic cracking
+321. Biohydrogen production from Indonesian palm oil mill effluent using photofermentation
+322. Pelletization of Indonesian agricultural residue for biomass fuel standardization
+323. Green diesel production from Indonesian rubber seed oil via catalytic deoxygenation
+324. Biogas desulfurization from Indonesian livestock waste using iron-based adsorbent
+325. Microalgae cultivation in Indonesian palm oil mill effluent for biodiesel feedstock
+326. Biomass gasification-combined cycle simulation for Indonesian power generation
+327. Biodiesel production from Indonesian fish waste oil using enzymatic catalysis
+328. Biochar-based fuel briquette from Indonesian coffee husk for clean cooking
+329. Hydrothermal carbonization of Indonesian sewage sludge for hydrochar fuel
+330. Bio-aviation fuel production from Indonesian coconut oil via catalytic cracking
+331. Biogas production from Indonesian tofu wastewater using UASB reactor
+332. Torrefied biomass co-firing with Indonesian coal for power plant application
+333. Biodiesel production from Indonesian microalgae cultivated in wastewater
+334. Syngas cleaning from Indonesian biomass gasification for engine application
+335. Bio-LPG production from Indonesian palm oil fatty acid distillate
+336. Bioethanol production from Indonesian water hyacinth using acid pretreatment
+337. Pyrolysis of Indonesian oil palm trunk for activated carbon and bio-oil
+338. Biodiesel production from Indonesian jatropha oil using supercritical methanol
+339. Biomass-to-hydrogen production from Indonesian rice straw via steam gasification
+340. Bio-crude oil from Indonesian sewage sludge hydrothermal liquefaction
+341. Biogas production from Indonesian seaweed anaerobic digestion optimization
+342. Charcoal briquette from Indonesian mangrove pruning waste for household fuel
+343. Biodiesel production from Indonesian kapok seed oil optimization
+344. Biomass integrated gasification for Indonesian rural electrification
+345. Bio-oil from Indonesian corn cob fast pyrolysis using fluidized bed reactor
+346. Biohydrogen from Indonesian cassava wastewater using immobilized bacteria
+347. Torrefaction-pelletization of Indonesian palm kernel shell for export fuel
+348. Biodiesel from Indonesian used palm cooking oil using membrane reactor
+349. Biomass co-gasification of Indonesian coal and palm waste for syngas
+350. Bio-methanol production from Indonesian biogas CO2 and renewable hydrogen
+
+=== CATEGORY 8: Process Safety & Risk Assessment (351-400) ===
+351. Quantitative risk assessment of Indonesian LPG storage terminal using bow-tie method
+352. Process hazard analysis of Indonesian palm oil refinery using HAZOP methodology
+353. Fire and explosion risk assessment of Indonesian petrochemical plant using CFD
+354. Safety integrity level determination for Indonesian chemical plant safety instrumented system
+355. Dust explosion risk assessment in Indonesian flour milling industry
+356. Layer of protection analysis for Indonesian ammonia storage facility
+357. Domino effect assessment for Indonesian industrial estate chemical facilities
+358. Human reliability analysis for Indonesian chemical plant operator error prevention
+359. Boiling liquid expanding vapor explosion (BLEVE) modeling for Indonesian LPG facility
+360. Process safety management system implementation for Indonesian chemical industry
+361. Fault tree analysis for Indonesian offshore gas processing platform safety
+362. Consequence modeling of toxic gas release from Indonesian chlor-alkali plant
+363. Safety barrier assessment for Indonesian hydrogen storage facility
+364. Risk-based inspection planning for Indonesian petroleum refinery equipment
+365. Vapor cloud explosion modeling for Indonesian natural gas processing plant
+366. Safety culture assessment in Indonesian chemical manufacturing companies
+367. Inherently safer design application for Indonesian new chemical plant
+368. Emergency response planning for Indonesian chemical industrial area
+369. Reliability analysis of Indonesian chemical plant safety relief valve system
+370. Pool fire modeling for Indonesian palm oil storage tank farm
+371. Bow-tie analysis for Indonesian ammonia refrigeration system safety
+372. Process safety indicator development for Indonesian chemical industry benchmarking
+373. Jet fire modeling for Indonesian high-pressure gas pipeline leak scenario
+374. Safety management system audit framework for Indonesian chemical facilities
+375. Runaway reaction risk assessment for Indonesian batch chemical reactor
+376. Quantitative risk assessment for Indonesian LNG receiving terminal
+377. Occupational health risk assessment for Indonesian chemical plant workers
+378. Flash fire modeling for Indonesian flammable liquid handling facility
+379. Safety instrumented system design for Indonesian exothermic reactor protection
+380. Transportation risk assessment for Indonesian hazardous chemical logistics
+381. Corrosion risk assessment for Indonesian coastal chemical plant equipment
+382. Process safety competency framework for Indonesian chemical engineers
+383. Toxic release dispersion modeling for Indonesian chemical plant emergency planning
+384. Safety barrier degradation assessment for aging Indonesian chemical facilities
+385. Explosion protection design for Indonesian grain silo and handling facility
+386. Risk assessment of Indonesian underground gas storage facility
+387. Process safety leading indicator development for Indonesian petrochemical industry
+388. Fire protection system design for Indonesian chemical warehouse
+389. Quantitative risk assessment for Indonesian hydrogen fueling station
+390. Safety case development for Indonesian major hazard chemical facility
+391. Pressure vessel integrity assessment for Indonesian aging chemical plant
+392. Risk-based land use planning around Indonesian chemical industrial zones
+393. Process safety management maturity assessment for Indonesian chemical companies
+394. Flammable atmosphere detection system design for Indonesian chemical plant
+395. Accident investigation methodology for Indonesian chemical industry incidents
+396. Safety instrumented function design for Indonesian high-pressure reactor system
+397. Environmental risk assessment for Indonesian chemical plant wastewater discharge
+398. Process safety training effectiveness evaluation for Indonesian plant operators
+399. Risk assessment of Indonesian chemical plant during earthquake scenario
+400. Safety management system integration for Indonesian multi-plant chemical complex
+
+=== CATEGORY 9: Bioprocess & Biochemical Engineering (401-450) ===
+401. Optimization of Indonesian tempeh fermentation using Rhizopus oligosporus immobilization
+402. Bioethanol production from Indonesian lignocellulosic biomass using consolidated bioprocessing
+403. Enzyme production from Indonesian agricultural waste using solid-state fermentation
+404. Lactic acid production from Indonesian cassava starch using Lactobacillus fermentation
+405. Microalgae cultivation optimization in Indonesian palm oil mill effluent
+406. Bioplastic (PHA) production from Indonesian palm oil waste using mixed culture
+407. Cellulase enzyme production from Indonesian rice straw using Trichoderma
+408. Xylitol production from Indonesian corn cob hemicellulose hydrolysate
+409. Biogas production optimization from Indonesian food waste co-digestion
+410. Lipase production from Indonesian coconut cake using Aspergillus niger
+411. Biohydrogen production from Indonesian palm oil mill effluent using anaerobic bacteria
+412. Citric acid production from Indonesian molasses using Aspergillus niger optimization
+413. Probiotic fermentation optimization for Indonesian functional food application
+414. Biosurfactant production from Indonesian palm oil waste using Bacillus subtilis
+415. Bioethanol production from Indonesian sago hampas using simultaneous saccharification
+416. Protease enzyme production from Indonesian fish waste using Bacillus licheniformis
+417. Polyhydroxybutyrate production from Indonesian crude glycerol using Cupriavidus
+418. Vinegar production optimization from Indonesian palm sap using Acetobacter
+419. Biobutanol production from Indonesian oil palm trunk juice using Clostridium
+420. Amylase production from Indonesian cassava peel using Bacillus amyloliquefaciens
+421. Single cell protein production from Indonesian palm oil mill effluent
+422. Glucoamylase production from Indonesian rice bran using Aspergillus awamori
+423. Bioethanol production from Indonesian water hyacinth using sequential fermentation
+424. Pectinase production from Indonesian coffee pulp using Aspergillus niger
+425. Bioflocculant production from Indonesian sago waste using Bacillus cereus
+426. Mannanase production from Indonesian palm kernel cake using Bacillus subtilis
+427. Biogas production from Indonesian seaweed using two-stage anaerobic digestion
+428. Xylanase production from Indonesian corn cob using Trichoderma viride
+429. Bioethanol production from Indonesian banana pseudo-stem using SSF
+430. Chitinase production from Indonesian shrimp waste using Serratia marcescens
+431. Biopolymer production from Indonesian sugarcane molasses using Leuconostoc
+432. Invertase production from Indonesian sugarcane bagasse using yeast fermentation
+433. Biohydrogen production from Indonesian tofu wastewater using dark fermentation
+434. Tannase production from Indonesian tea waste using Aspergillus niger
+435. Bioethanol production from Indonesian durian seed starch using co-culture
+436. Phytase production from Indonesian soybean meal using Aspergillus ficuum
+437. Bioplastic production from Indonesian cassava wastewater using Ralstonia eutropha
+438. Laccase production from Indonesian palm oil trunk using white-rot fungi
+439. Biogas production from Indonesian chicken manure using thermophilic digestion
+440. Inulinase production from Indonesian dahlia tuber using Aspergillus niger
+441. Bioethanol production from Indonesian coconut husk using alkaline pretreatment
+442. Keratinase production from Indonesian chicken feather waste using Bacillus
+443. Biopolymer (xanthan gum) production from Indonesian palm sugar using Xanthomonas
+444. Alpha-amylase production from Indonesian sweet potato waste using Bacillus
+445. Biohydrogen production from Indonesian rice mill wastewater using photo-fermentation
+446. Pectinase production from Indonesian citrus peel waste using solid-state fermentation
+447. Bioethanol production from Indonesian nipah palm sap using Saccharomyces
+448. Ligninase production from Indonesian oil palm empty fruit bunch using Phanerochaete
+449. Bioplastic production from Indonesian food waste volatile fatty acids
+450. Cellulase production from Indonesian sawdust using Trichoderma reesei optimization
+
+=== CATEGORY 10: Industry 4.0 & Process Digitalization (451-500) ===
+451. Digital twin development for Indonesian palm oil refinery process optimization
+452. Machine learning-based soft sensor for Indonesian chemical plant quality prediction
+453. IoT-based real-time monitoring system for Indonesian chemical reactor operation
+454. Predictive maintenance using AI for Indonesian petrochemical plant rotating equipment
+455. Process data analytics for Indonesian fertilizer plant energy optimization
+456. Artificial neural network for Indonesian biodiesel production yield prediction
+457. Cloud-based SCADA system for Indonesian distributed chemical plant monitoring
+458. Machine learning for Indonesian palm oil mill process parameter optimization
+459. Digital twin for Indonesian wastewater treatment plant operational optimization
+460. Deep learning-based fault detection for Indonesian chemical process systems
+461. IoT sensor network for Indonesian chemical storage tank level monitoring
+462. Reinforcement learning for Indonesian chemical reactor control optimization
+463. Blockchain-based supply chain traceability for Indonesian chemical products
+464. Machine learning for Indonesian natural gas pipeline leak detection
+465. Augmented reality for Indonesian chemical plant maintenance and training
+466. AI-based process optimization for Indonesian cement manufacturing
+467. Digital twin for Indonesian LNG plant performance monitoring
+468. Machine learning for Indonesian food processing quality control automation
+469. IoT-based environmental monitoring for Indonesian chemical industrial estate
+470. Deep learning for Indonesian chemical plant equipment corrosion prediction
+471. Cloud computing platform for Indonesian chemical process simulation
+472. Machine learning for Indonesian polymer production quality prediction
+473. Digital twin for Indonesian sugar mill crystallization process control
+474. AI-based energy management for Indonesian chemical plant utility system
+475. IoT-based safety monitoring for Indonesian hazardous chemical storage
+476. Machine learning for Indonesian palm oil quality prediction from process data
+477. Robotic process automation for Indonesian chemical laboratory analysis
+478. Digital twin for Indonesian biogas plant performance optimization
+479. AI-based scheduling optimization for Indonesian batch chemical production
+480. IoT sensor fusion for Indonesian chemical reactor condition monitoring
+481. Machine learning for Indonesian pharmaceutical manufacturing process optimization
+482. Digital twin for Indonesian water treatment plant chemical dosing control
+483. Deep learning for Indonesian chemical plant alarm management improvement
+484. AI-based supply chain optimization for Indonesian chemical distribution
+485. IoT-based asset tracking for Indonesian chemical plant equipment management
+486. Machine learning for Indonesian rubber processing quality prediction
+487. Digital twin for Indonesian geothermal power plant scaling prediction
+488. AI-based recipe optimization for Indonesian food manufacturing
+489. Cyber-physical system for Indonesian chemical plant safety enhancement
+490. Machine learning for Indonesian oleochemical process yield optimization
+491. Digital twin for Indonesian fertilizer plant ammonia converter monitoring
+492. AI-based demand forecasting for Indonesian chemical product planning
+493. IoT-based waste monitoring for Indonesian chemical plant environmental compliance
+494. Machine learning for Indonesian coal gasification process optimization
+495. Digital twin for Indonesian palm oil biodiesel plant lifecycle management
+496. AI-based anomaly detection for Indonesian chemical plant cybersecurity
+497. Smart manufacturing framework for Indonesian chemical industry transformation
+498. Machine learning for Indonesian essential oil distillation optimization
+499. Digital twin for Indonesian petrochemical plant turnaround planning
+500. Industry 4.0 readiness assessment framework for Indonesian chemical industry

@@ -1,0 +1,669 @@
+================================================================================
+TOPIC GUIDE — Information & Public Relations
+================================================================================
+FIELD: Communication Sciences / Public Relations
+DEFAULT CITATION STYLE: APA
+SUBDISCIPLINE: Corporate Communication, Media Relations, Crisis Communication, Digital PR, Government PR, Internal Communication, Reputation Management, Strategic Communication
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title (specific, with method and domain)
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Social media analytics, sentiment analysis, network analysis, content analysis (NVivo), survey (SEM-PLS), case study, netnography, digital ethnography, big data social listening
+   - Include tools: Brandwatch, Hootsuite Analytics, NVivo, SPSS/SmartPLS, Python (VADER/TextBlob)
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Metrics: media coverage volume, sentiment ratio, engagement rate, reach, share of voice, reputation score, crisis response time
+   - All numbers realistic and internally consistent
+
+5. MATHEMATICAL FORMULAS:
+   - Engagement rate = (likes+comments+shares)/followers × 100%
+   - Sentiment score, media value equivalent (AVE), share of voice = brand mentions/total mentions × 100%
+   - SEM path coefficients, Cronbach's alpha, AVE, composite reliability
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian media/communication context
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords, Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+ABSTRACT CHARACTERISTICS:
+  200-250 words. State the communication problem, organizational context, research gap, methodology (qualitative/quantitative/mixed), key findings (themes, statistical relationships, media metrics), and practical implications for PR practitioners.
+
+INTRODUCTION ELEMENTS:
+  - Define the communication challenge in organizational/societal context.
+  - Summarize current PR theories and practices.
+  - Identify gap: digital transformation, crisis communication, stakeholder engagement, or measurement.
+  - State research questions, objectives, and contributions.
+
+LITERATURE REVIEW:
+  - Excellence theory (Grunig & Hunt), situational crisis communication theory (SCCT - Coombs), dialogic theory, relationship management, framing theory, agenda setting
+  - Digital PR: social media strategy, influencer relations, online reputation management, content marketing
+  - Crisis communication: image repair (Benoit), crisis lifecycle, organizational resilience
+  - Government PR: public information, transparency, citizen engagement, e-government communication
+
+METHODOLOGY:
+  - Qualitative: in-depth interview, focus group, case study, discourse analysis, netnography
+  - Quantitative: survey (Likert scale), content analysis, social media metrics analysis, SEM-PLS
+  - Mixed methods: sequential explanatory, concurrent triangulation
+  - Tools: NVivo, SPSS, SmartPLS, social media analytics platforms
+
+EQUATIONS:
+  - Engagement rate = (interactions/reach) × 100%
+  - Share of voice = brand mentions / total category mentions × 100%
+  - Media value: AVE = column inches × rate card
+  - SEM: β coefficient, t-value, R², f², Q²
+  - Content analysis: inter-coder reliability (Krippendorff's alpha, Cohen's kappa)
+
+FIGURES:
+  communication model diagram, stakeholder mapping, crisis timeline, social media analytics dashboard, SEM path model, word cloud, network graph
+
+TABLES:
+  media coverage analysis, sentiment distribution, survey demographics, SEM results (path coefficients), content analysis coding scheme, crisis response comparison
+
+TYPICAL RESULTS & DISCUSSION:
+  - Thematic findings from qualitative data with supporting quotes
+  - Statistical relationships (β, p-value, R²) for quantitative studies
+  - Media metrics: coverage volume, tone, reach, engagement
+  - Comparison with theoretical frameworks
+  - Practical implications for PR practitioners
+
+TYPICAL FIGURES:
+  - Conceptual/research framework diagram
+  - SEM path model with coefficients
+  - Social media engagement trend chart
+  - Stakeholder perception mapping
+  - Crisis communication timeline
+
+TYPICAL TABLES:
+  - Respondent demographics
+  - Validity & reliability (Cronbach's α, CR, AVE)
+  - Hypothesis testing results (β, t-stat, p-value, decision)
+  - Content analysis results (category, frequency, percentage)
+  - Media coverage summary (outlet, tone, reach)
+
+CONCLUSION CHARACTERISTICS:
+  - Answer research questions directly
+  - Theoretical contribution to PR/communication theory
+  - Practical recommendations for organizations
+  - Limitations and future research directions
+
+COMMON REFERENCE VENUES:
+  Public Relations Review, Journal of Public Relations Research, Corporate Communications,
+  Journal of Communication Management, International Journal of Strategic Communication,
+  Jurnal Komunikasi (Indonesian), Asian Journal of Communication
+
+DOMAIN VOCABULARY:
+  stakeholder, reputation, crisis communication, media relations, corporate social responsibility,
+  public opinion, framing, agenda setting, two-way symmetrical, dialogic, engagement,
+  transparency, accountability, brand image, organizational communication
+
+METHODOLOGY KEYWORDS:
+  content analysis, survey research, case study, SEM-PLS, social media analytics,
+  sentiment analysis, netnography, in-depth interview, discourse analysis, mixed methods
+
+RESEARCH TOPIC BANK (500 TOPICS)
+
+================================================================================
+CATEGORY 1: CORPORATE COMMUNICATION & REPUTATION (001-050)
+================================================================================
+
+001. Pengaruh Komunikasi Korporat terhadap Reputasi Perusahaan BUMN di Era Digital: Analisis SEM-PLS pada PT Pertamina
+002. Strategi Manajemen Reputasi Online Bank BRI Melalui Media Sosial: Studi Netnografi pada Platform Twitter/X
+003. Peran Corporate Storytelling dalam Membangun Brand Image Tokopedia: Analisis Konten Multiplatform
+004. Pengaruh Transparansi Komunikasi terhadap Kepercayaan Stakeholder pada Perusahaan Tambang di Kalimantan
+005. Efektivitas Komunikasi CSR Telkomsel dalam Membentuk Persepsi Publik: Mixed Methods Approach
+006. Analisis Framing Pemberitaan Reputasi Perusahaan Startup Unicorn Indonesia di Media Online
+007. Strategi Komunikasi Korporat Gojek dalam Mengelola Isu Publik: Studi Kasus Pendekatan Dialogis
+008. Pengaruh Employee Advocacy di LinkedIn terhadap Reputasi Korporat PT Unilever Indonesia
+009. Model Komunikasi Terintegrasi dalam Membangun Reputasi Rumah Sakit Swasta di Jakarta
+010. Analisis Sentimen Publik terhadap Reputasi Perusahaan Fintech di Indonesia Menggunakan Big Data
+011. Peran Chief Communication Officer dalam Manajemen Reputasi Perusahaan Publik di BEI
+012. Strategi Komunikasi Krisis Reputasi Perusahaan E-commerce Pasca Kebocoran Data Pelanggan
+013. Pengaruh Thought Leadership CEO terhadap Reputasi Korporat: Studi pada CEO Startup Indonesia
+014. Analisis Komunikasi Nilai Perusahaan (Corporate Values) dalam Annual Report Perusahaan LQ45
+015. Efektivitas Media Relations dalam Membangun Reputasi Positif PT PLN di Tengah Isu Tarif Listrik
+016. Peran Komunikasi Korporat dalam Merger dan Akuisisi: Studi Kasus Bank Syariah Indonesia (BSI)
+017. Strategi Reputation Recovery Perusahaan Penerbangan Indonesia Pasca Insiden Keselamatan
+018. Pengaruh Visual Identity Rebranding terhadap Persepsi Stakeholder: Kasus Rebranding Telkom Indonesia
+019. Analisis Komunikasi Keberlanjutan (Sustainability Communication) Perusahaan Kelapa Sawit di Indonesia
+020. Model Pengukuran Reputasi Korporat Berbasis Media Sosial untuk Perusahaan FMCG di Indonesia
+021. Peran Komunikasi Internal dalam Membangun Employer Branding Perusahaan Teknologi di Indonesia
+022. Strategi Komunikasi Korporat dalam Menghadapi Cancel Culture: Studi Multi-Kasus di Indonesia
+023. Pengaruh Influencer Marketing terhadap Reputasi Brand Lokal Indonesia: Analisis SEM
+024. Efektivitas Podcast Korporat sebagai Alat Komunikasi Stakeholder: Studi pada Perusahaan Media
+025. Analisis Komunikasi Korporat Perusahaan Farmasi Indonesia Selama Pandemi COVID-19
+026. Peran Digital PR dalam Membangun Reputasi Universitas Swasta di Indonesia
+027. Strategi Komunikasi Perusahaan BUMN dalam Program Transformasi Digital: Studi Kasus PT Telkom
+028. Pengaruh Corporate Governance Communication terhadap Kepercayaan Investor di Pasar Modal Indonesia
+029. Model Komunikasi Stakeholder Engagement untuk Perusahaan Pertambangan di Wilayah Konflik
+030. Analisis Reputasi Online Perusahaan Asuransi Indonesia: Social Listening Approach
+031. Peran Komunikasi Korporat dalam Manajemen Perubahan Organisasi BUMN
+032. Strategi Komunikasi Brand Purpose Perusahaan Sosial (Social Enterprise) di Indonesia
+033. Pengaruh User-Generated Content terhadap Reputasi Brand Fashion Lokal di Instagram
+034. Efektivitas Virtual Press Conference dalam Membangun Relasi Media di Era Post-Pandemi
+035. Analisis Komunikasi Korporat Perusahaan Otomotif Indonesia dalam Transisi ke Kendaraan Listrik
+036. Peran Komunikasi ESG (Environmental, Social, Governance) terhadap Reputasi Perusahaan Publik
+037. Strategi Manajemen Isu Perusahaan Rokok di Indonesia: Analisis Framing dan Agenda Setting
+038. Pengaruh Komunikasi Autentik terhadap Loyalitas Pelanggan Generasi Z pada Brand Indonesia
+039. Model Komunikasi Krisis Reputasi untuk Industri Perbankan Digital di Indonesia
+040. Analisis Strategi Komunikasi Korporat Perusahaan Logistik dalam Persaingan E-commerce
+041. Peran Artificial Intelligence dalam Monitoring Reputasi Korporat: Studi pada Perusahaan Telekomunikasi
+042. Strategi Komunikasi Perusahaan Energi Terbarukan dalam Membangun Legitimasi di Indonesia
+043. Pengaruh Corporate Podcast terhadap Employee Engagement dan Reputasi Internal
+044. Efektivitas Komunikasi Korporat Berbasis Data (Data-Driven PR) pada Perusahaan Teknologi
+045. Analisis Perbandingan Strategi Komunikasi Reputasi Perusahaan Ride-Hailing: Gojek vs Grab
+046. Peran Komunikasi Korporat dalam Membangun Trust pada Platform Peer-to-Peer Lending
+047. Strategi Komunikasi Perusahaan Startup dalam Menghadapi Layoff Massal: Studi Multi-Kasus
+048. Pengaruh CEO Communication Style terhadap Reputasi Perusahaan di Media Sosial Indonesia
+049. Model Integrasi Komunikasi Online-Offline dalam Manajemen Reputasi Hotel Bintang Lima
+050. Analisis Komunikasi Korporat Perusahaan Tambang Nikel dalam Menghadapi Isu Lingkungan di Sulawesi
+
+================================================================================
+CATEGORY 2: CRISIS COMMUNICATION & MANAGEMENT (051-100)
+================================================================================
+
+051. Strategi Komunikasi Krisis BNPB dalam Penanganan Bencana Alam: Studi Kasus Gempa Cianjur 2022
+052. Analisis Respons Krisis Perusahaan Penerbangan Indonesia terhadap Insiden Keselamatan di Media Sosial
+053. Pengaruh Kecepatan Respons Krisis terhadap Pemulihan Reputasi: Studi Eksperimental pada Konsumen Indonesia
+054. Model Komunikasi Krisis Berbasis SCCT untuk Industri Makanan dan Minuman di Indonesia
+055. Efektivitas Strategi Image Repair Tokopedia Pasca Kebocoran Data: Analisis Wacana Kritis
+056. Peran Media Sosial dalam Eskalasi dan De-eskalasi Krisis Organisasi di Indonesia
+057. Strategi Komunikasi Krisis Pemerintah Daerah dalam Menghadapi Banjir Jakarta: Studi Longitudinal
+058. Analisis Framing Media terhadap Krisis Perusahaan Tambang di Indonesia: Studi Komparatif
+059. Pengaruh Spokesperson Credibility terhadap Efektivitas Komunikasi Krisis Perusahaan BUMN
+060. Model Pre-Crisis Communication untuk Industri Penerbangan di Indonesia
+061. Strategi Komunikasi Krisis Rumah Sakit dalam Menghadapi Malpraktik: Studi Multi-Kasus
+062. Analisis Sentimen Publik Selama Krisis Perusahaan di Twitter/X: Pendekatan Machine Learning
+063. Peran Empati dalam Komunikasi Krisis: Eksperimen pada Respons Krisis Perusahaan Transportasi Online
+064. Efektivitas Apologia Strategy dalam Pemulihan Citra Pejabat Publik di Indonesia
+065. Strategi Komunikasi Krisis Perusahaan Farmasi Indonesia Selama Kontroversi Vaksin
+066. Analisis Komunikasi Krisis Bank Indonesia dalam Menghadapi Isu Stabilitas Ekonomi
+067. Pengaruh Organizational Silence terhadap Persepsi Publik Selama Krisis: Studi Eksperimental
+068. Model Komunikasi Krisis untuk UMKM di Indonesia: Pendekatan Grounded Theory
+069. Strategi Komunikasi Krisis Universitas dalam Menghadapi Isu Plagiarisme dan Integritas Akademik
+070. Analisis Paracrisis di Media Sosial: Studi pada Brand Consumer Goods di Indonesia
+071. Peran Influencer dalam Komunikasi Krisis Brand: Studi Kasus Industri Kosmetik Indonesia
+072. Efektivitas Video Statement CEO dalam Komunikasi Krisis: Analisis Multimodal
+073. Strategi Komunikasi Krisis Perusahaan Fintech terhadap Isu Pinjaman Online Ilegal
+074. Analisis Komunikasi Krisis PLN dalam Menghadapi Pemadaman Listrik Massal
+075. Pengaruh Cultural Context terhadap Strategi Komunikasi Krisis di Indonesia: Cross-Cultural Study
+076. Model Resiliensi Organisasi Berbasis Komunikasi untuk Perusahaan di Zona Bencana Indonesia
+077. Strategi Komunikasi Krisis Industri Pariwisata Bali Pasca Erupsi Gunung Agung
+078. Analisis Komunikasi Krisis Perusahaan Ride-Hailing terhadap Isu Keselamatan Penumpang
+079. Peran Internal Communication dalam Crisis Preparedness Organisasi di Indonesia
+080. Efektivitas Komunikasi Krisis Berbasis WhatsApp Group pada Komunitas Terdampak Bencana
+081. Strategi Komunikasi Krisis Perusahaan Minyak dan Gas terhadap Tumpahan Minyak di Perairan Indonesia
+082. Analisis Steal Thunder Strategy dalam Komunikasi Krisis Perusahaan Indonesia
+083. Pengaruh Framing Krisis terhadap Behavioral Intention Konsumen: Studi pada Industri F&B
+084. Model Komunikasi Krisis Digital untuk Perusahaan E-commerce di Indonesia
+085. Strategi Komunikasi Krisis Kementerian Kesehatan dalam Menghadapi Hoaks Kesehatan
+086. Analisis Komunikasi Krisis Perusahaan Semen terhadap Isu Pencemaran Lingkungan di Jawa
+087. Peran Citizen Journalism dalam Membentuk Narasi Krisis Organisasi di Indonesia
+088. Efektivitas Crisis Communication Team dalam Organisasi Pemerintah di Indonesia
+089. Strategi Komunikasi Krisis Perusahaan Telekomunikasi terhadap Gangguan Jaringan Massal
+090. Analisis Post-Crisis Communication dan Organizational Learning pada Perusahaan Indonesia
+091. Pengaruh Humor dalam Komunikasi Krisis di Media Sosial: Studi Eksperimental
+092. Model Komunikasi Krisis Terintegrasi untuk Industri Perbankan Syariah di Indonesia
+093. Strategi Komunikasi Krisis Perusahaan Properti terhadap Isu Sengketa Lahan
+094. Analisis Komunikasi Krisis Perusahaan Tambang Emas terhadap Isu Kesehatan Masyarakat
+095. Peran Artificial Intelligence dalam Early Warning System Krisis Komunikasi Organisasi
+096. Efektivitas Storytelling dalam Komunikasi Krisis: Studi pada Organisasi Nonprofit Indonesia
+097. Strategi Komunikasi Krisis Perusahaan Otomotif terhadap Recall Produk di Indonesia
+098. Analisis Komunikasi Krisis Pemerintah dalam Menghadapi Demonstrasi Mahasiswa
+099. Pengaruh Transparansi Informasi terhadap Trust Recovery Pasca Krisis Perusahaan
+100. Model Komunikasi Krisis Berbasis Kearifan Lokal untuk Organisasi di Indonesia Timur
+
+================================================================================
+CATEGORY 3: DIGITAL PR & SOCIAL MEDIA (101-150)
+================================================================================
+
+101. Strategi Digital PR Perusahaan Startup Indonesia dalam Membangun Brand Awareness di TikTok
+102. Analisis Algoritma dan Engagement Rate Konten PR di Instagram: Studi pada Brand Fashion Lokal
+103. Pengaruh Influencer Micro vs Macro terhadap Efektivitas Kampanye PR di Indonesia
+104. Model Social Media Listening untuk Manajemen Isu Perusahaan FMCG di Indonesia
+105. Efektivitas LinkedIn sebagai Platform Corporate Communication untuk Perusahaan B2B di Indonesia
+106. Strategi Content Marketing Berbasis SEO untuk Digital PR Perusahaan Teknologi Indonesia
+107. Analisis Viral Marketing dalam Kampanye PR: Studi Kasus Brand Lokal di TikTok Indonesia
+108. Pengaruh Social Media Crisis terhadap Purchase Intention: Studi pada Konsumen Generasi Z
+109. Peran WhatsApp Business dalam Komunikasi Stakeholder UMKM di Indonesia
+110. Model Digital Storytelling untuk Kampanye PR Organisasi Nonprofit di Media Sosial
+111. Strategi Influencer Relations dalam Digital PR Perusahaan Kosmetik Halal Indonesia
+112. Analisis Sentimen dan Network Analysis Percakapan Brand di Twitter/X Indonesia
+113. Pengaruh User-Generated Content terhadap Brand Trust pada Platform E-commerce Indonesia
+114. Efektivitas Podcast sebagai Medium PR untuk Thought Leadership di Indonesia
+115. Strategi Digital PR dalam Membangun Online Reputation Destinasi Wisata Indonesia
+116. Analisis Engagement Pattern Konten CSR di Media Sosial Perusahaan Perbankan Indonesia
+117. Peran Chatbot AI dalam Customer Relations dan Manajemen Keluhan di Media Sosial
+118. Model Pengukuran ROI Digital PR untuk Perusahaan Startup di Indonesia
+119. Strategi Social Media Advocacy untuk Kampanye Kesehatan Publik di Indonesia
+120. Analisis Komunikasi Dialogis Brand di Instagram: Studi pada Industri Kuliner Indonesia
+121. Pengaruh Live Streaming Commerce terhadap Brand Image Perusahaan Retail Indonesia
+122. Efektivitas Meme Marketing sebagai Strategi Digital PR untuk Generasi Z di Indonesia
+123. Strategi Digital PR Perusahaan Otomotif dalam Peluncuran Produk Kendaraan Listrik
+124. Analisis Social Media Analytics untuk Optimasi Kampanye PR Perusahaan Telekomunikasi
+125. Peran Digital PR dalam Membangun Personal Branding Profesional di Indonesia
+126. Model Omnichannel Communication untuk Customer Engagement Perusahaan Retail
+127. Strategi Digital PR dalam Menghadapi Negative Review di Platform Google dan TripAdvisor
+128. Analisis Konten Video Pendek (Reels/TikTok) sebagai Alat PR Perusahaan di Indonesia
+129. Pengaruh Gamification dalam Kampanye Digital PR terhadap Engagement Audiens Muda
+130. Efektivitas Virtual Event sebagai Strategi PR di Era Post-Pandemi Indonesia
+131. Strategi Digital PR Perusahaan Healthtech dalam Membangun Kepercayaan Pengguna
+132. Analisis Algoritma YouTube dalam Distribusi Konten PR Perusahaan Media Indonesia
+133. Peran Community Management dalam Membangun Brand Loyalty di Media Sosial
+134. Model Social Media Crisis Communication untuk Industri Perbankan Digital Indonesia
+135. Strategi Digital PR Berbasis Data untuk Perusahaan Asuransi di Indonesia
+136. Analisis Influencer Fraud dan Dampaknya terhadap Kampanye PR di Indonesia
+137. Pengaruh Augmented Reality dalam Kampanye Digital PR Perusahaan Properti
+138. Efektivitas Email Marketing sebagai Alat Stakeholder Communication di Era Media Sosial
+139. Strategi Digital PR untuk Membangun Reputasi Perusahaan Edtech di Indonesia
+140. Analisis Social Commerce dan Perannya dalam Komunikasi Brand di Indonesia
+141. Peran Artificial Intelligence dalam Personalisasi Konten PR di Media Sosial
+142. Model Digital PR Terintegrasi untuk Perusahaan Logistik di Indonesia
+143. Strategi Komunikasi Digital Perusahaan Agritech dalam Menjangkau Petani Indonesia
+144. Analisis Dark Social dan Implikasinya terhadap Pengukuran Efektivitas PR Digital
+145. Pengaruh Social Proof dalam Komunikasi Digital PR terhadap Keputusan Konsumen
+146. Efektivitas Threads (Meta) sebagai Platform Baru untuk Corporate Communication di Indonesia
+147. Strategi Digital PR dalam Membangun Ekosistem Komunitas Online Brand Indonesia
+148. Analisis Perbandingan Efektivitas Paid, Earned, Shared, Owned Media dalam Digital PR
+149. Peran Digital PR dalam Mendukung IPO Perusahaan Teknologi Indonesia
+150. Model Pengukuran Digital Reputation Score untuk Perusahaan di Indonesia
+
+================================================================================
+CATEGORY 4: GOVERNMENT & POLITICAL PR (151-200)
+================================================================================
+
+151. Strategi Komunikasi Publik Pemerintah Indonesia dalam Sosialisasi IKN (Ibu Kota Nusantara)
+152. Analisis Framing Kebijakan Publik dalam Komunikasi Pemerintah di Media Sosial
+153. Pengaruh E-Government Communication terhadap Kepercayaan Masyarakat pada Pemerintah Daerah
+154. Model Komunikasi Partisipatif dalam Musyawarah Perencanaan Pembangunan (Musrenbang)
+155. Efektivitas Humas Pemerintah Daerah dalam Menangkal Hoaks: Studi Multi-Kasus di Jawa
+156. Strategi Komunikasi Politik Kepala Daerah Melalui Media Sosial: Studi Komparatif
+157. Analisis Komunikasi Kebijakan Kesehatan Pemerintah Selama Pandemi: Pendekatan Longitudinal
+158. Peran Juru Bicara Pemerintah dalam Membentuk Opini Publik di Indonesia
+159. Model Komunikasi Transparansi Anggaran Pemerintah Daerah Berbasis Digital
+160. Efektivitas Komunikasi Publik Kementerian dalam Sosialisasi Program Merdeka Belajar
+161. Strategi Humas Kepolisian RI dalam Membangun Citra Positif di Media Sosial
+162. Analisis Komunikasi Pemerintah dalam Penanganan Konflik Sosial: Studi Kasus Papua
+163. Pengaruh Political Branding terhadap Elektabilitas Calon Kepala Daerah di Indonesia
+164. Model Komunikasi Publik untuk Sosialisasi Kebijakan Omnibus Law di Indonesia
+165. Efektivitas Website Pemerintah sebagai Media Informasi Publik: Evaluasi Usability
+166. Strategi Komunikasi Diplomasi Publik Indonesia dalam Presidensi G20 dan ASEAN
+167. Analisis Komunikasi Krisis Pemerintah dalam Menghadapi Bencana: Studi BNPB
+168. Peran Media Center Pemerintah dalam Pengelolaan Informasi Publik di Era Digital
+169. Model Citizen Engagement Berbasis Media Sosial untuk Pemerintah Kota di Indonesia
+170. Efektivitas Komunikasi Publik BPJS Kesehatan dalam Sosialisasi Program JKN
+171. Strategi Komunikasi Pemerintah Desa dalam Pengelolaan Dana Desa: Studi di Jawa Tengah
+172. Analisis Propaganda dan Counter-Narrative Pemerintah terhadap Radikalisme di Media Sosial
+173. Pengaruh Government Public Relations terhadap Partisipasi Masyarakat dalam Pemilu
+174. Model Komunikasi Publik Inklusif untuk Penyandang Disabilitas di Indonesia
+175. Efektivitas Komunikasi Pemerintah dalam Program Vaksinasi Nasional: Studi Mixed Methods
+176. Strategi Humas TNI dalam Membangun Citra Profesionalisme di Era Media Sosial
+177. Analisis Komunikasi Kebijakan Lingkungan Pemerintah: Studi pada Moratorium Hutan
+178. Peran Komunikasi Publik dalam Mendukung Program Ketahanan Pangan Nasional
+179. Model Digital Government Communication untuk Smart City di Indonesia
+180. Efektivitas Komunikasi Publik Otoritas Jasa Keuangan (OJK) dalam Literasi Keuangan
+181. Strategi Komunikasi Pemerintah dalam Mengelola Isu Tenaga Kerja Asing di Indonesia
+182. Analisis Komunikasi Politik Partai di Media Sosial Menjelang Pemilu 2024
+183. Pengaruh Open Government terhadap Akuntabilitas Pemerintah Daerah di Indonesia
+184. Model Komunikasi Publik untuk Sosialisasi Kebijakan Energi Terbarukan
+185. Efektivitas Komunikasi Humas Kementerian PUPR dalam Program Infrastruktur Nasional
+186. Strategi Komunikasi Pemerintah dalam Menghadapi Isu Deforestasi di Forum Internasional
+187. Analisis Komunikasi Publik Pemerintah Provinsi DKI Jakarta dalam Penanganan Banjir
+188. Peran Komunikasi Publik dalam Mendukung Program Digitalisasi UMKM oleh Kementerian
+189. Model Komunikasi Krisis Pemerintah untuk Penanganan Pandemi Berbasis Bukti
+190. Efektivitas Komunikasi Publik Badan Pangan Nasional dalam Stabilisasi Harga Pangan
+191. Strategi Komunikasi Pemerintah dalam Sosialisasi Perpindahan ASN ke IKN
+192. Analisis Komunikasi Kebijakan Pendidikan: Studi pada Kurikulum Merdeka
+193. Pengaruh Social Media Governance terhadap Kepercayaan Publik pada Institusi Pemerintah
+194. Model Komunikasi Publik Berbasis Kearifan Lokal untuk Pemerintah Daerah di NTT
+195. Efektivitas Komunikasi Humas Kementerian Kesehatan dalam Program Stunting
+196. Strategi Komunikasi Politik Digital dalam Kampanye Pemilihan Presiden Indonesia
+197. Analisis Komunikasi Pemerintah dalam Pengelolaan Wisata Super Prioritas (DSP)
+198. Peran Humas Pemerintah dalam Membangun Nation Branding Indonesia di Kancah Global
+199. Model Komunikasi Publik untuk Sosialisasi Kebijakan Carbon Tax di Indonesia
+200. Efektivitas Komunikasi Pemerintah Daerah dalam Program Pemulihan Ekonomi Pasca-Pandemi
+
+================================================================================
+CATEGORY 5: INTERNAL COMMUNICATION & EMPLOYEE ENGAGEMENT (201-250)
+================================================================================
+
+201. Pengaruh Internal Communication terhadap Employee Engagement di Perusahaan Startup Indonesia
+202. Strategi Komunikasi Internal dalam Mendukung Hybrid Work Culture di Perusahaan Teknologi
+203. Analisis Efektivitas Intranet sebagai Media Komunikasi Internal di Perusahaan BUMN
+204. Peran Leadership Communication dalam Membangun Organizational Trust di Era Remote Work
+205. Model Komunikasi Internal untuk Manajemen Perubahan di Perusahaan Manufaktur Indonesia
+206. Pengaruh Internal Branding terhadap Employee Brand Advocacy di Perusahaan Perbankan
+207. Strategi Komunikasi Internal dalam Membangun Budaya Inovasi di Perusahaan Telekomunikasi
+208. Analisis Komunikasi Vertikal dan Horizontal dalam Organisasi Birokrasi Pemerintah Indonesia
+209. Efektivitas Town Hall Meeting Virtual dalam Meningkatkan Employee Engagement
+210. Peran Komunikasi Internal dalam Onboarding Karyawan Baru di Era Digital
+211. Model Employee Communication Satisfaction untuk Perusahaan Multinasional di Indonesia
+212. Pengaruh Komunikasi Internal terhadap Organizational Citizenship Behavior di BUMN
+213. Strategi Komunikasi Internal dalam Mengelola Keberagaman (Diversity) di Tempat Kerja
+214. Analisis Penggunaan Microsoft Teams/Slack sebagai Platform Komunikasi Internal
+215. Efektivitas Newsletter Internal Digital dalam Membangun Sense of Belonging Karyawan
+216. Peran Komunikasi Internal dalam Mendukung Program Kesehatan Mental Karyawan
+217. Model Komunikasi Internal Krisis untuk Perusahaan dengan Karyawan Tersebar di Indonesia
+218. Pengaruh Supervisor Communication terhadap Job Satisfaction di Industri Perbankan
+219. Strategi Komunikasi Internal dalam Implementasi Transformasi Digital Organisasi
+220. Analisis Grapevine Communication dan Dampaknya terhadap Iklim Organisasi
+221. Efektivitas Gamification dalam Komunikasi Internal untuk Meningkatkan Partisipasi Karyawan
+222. Peran Internal Communication dalam Membangun Safety Culture di Industri Pertambangan
+223. Model Komunikasi Internal Berbasis Mobile App untuk Karyawan Lapangan
+224. Pengaruh Komunikasi Internal terhadap Employee Retention di Industri Teknologi Indonesia
+225. Strategi Komunikasi Internal dalam Merger Perusahaan: Studi Kasus Bank Syariah Indonesia
+226. Analisis Komunikasi Internal dalam Membangun Employer Value Proposition
+227. Efektivitas Video Communication Internal dalam Organisasi dengan Multi-Generasi
+228. Peran Komunikasi Internal dalam Mendukung Program CSR Internal Perusahaan
+229. Model Two-Way Symmetrical Communication untuk Organisasi Pemerintah di Indonesia
+230. Pengaruh Communication Climate terhadap Organizational Commitment di Perusahaan Retail
+231. Strategi Komunikasi Internal dalam Mengelola Rumor dan Misinformasi Organisasi
+232. Analisis Komunikasi Internal dalam Mendukung Work-Life Balance Karyawan Milenial
+233. Efektivitas Peer-to-Peer Recognition Platform dalam Komunikasi Internal
+234. Peran Komunikasi Internal dalam Membangun Learning Organization di Perusahaan Indonesia
+235. Model Komunikasi Internal untuk Organisasi dengan Struktur Matriks
+236. Pengaruh Internal Social Media terhadap Knowledge Sharing di Perusahaan Konsultan
+237. Strategi Komunikasi Internal dalam Mendukung Program Sustainability Perusahaan
+238. Analisis Komunikasi Internal dalam Pengelolaan Konflik Antar-Departemen
+239. Efektivitas Storytelling Internal dalam Membangun Corporate Culture
+240. Peran Komunikasi Internal dalam Mendukung Agile Transformation di Perusahaan IT
+241. Model Komunikasi Internal Inklusif untuk Karyawan dengan Disabilitas
+242. Pengaruh Feedback Communication terhadap Performance Management di Perusahaan Indonesia
+243. Strategi Komunikasi Internal dalam Menghadapi Downsizing dan Restrukturisasi
+244. Analisis Komunikasi Internal dalam Membangun Psychological Safety di Tim Kerja
+245. Efektivitas Internal Podcast sebagai Media Komunikasi Karyawan di Perusahaan Besar
+246. Peran Komunikasi Internal dalam Mendukung Program Digitalisasi UMKM Binaan
+247. Model Komunikasi Internal untuk Remote Team di Perusahaan Digital Indonesia
+248. Pengaruh Transparent Communication terhadap Employee Trust Selama Krisis Organisasi
+249. Strategi Komunikasi Internal dalam Membangun Intrapreneurship di Perusahaan BUMN
+250. Analisis Komunikasi Internal dalam Mendukung Program Kesejahteraan Karyawan (Employee Wellbeing)
+
+================================================================================
+CATEGORY 6: MEDIA RELATIONS & JOURNALISM (251-300)
+================================================================================
+
+251. Strategi Media Relations Perusahaan BUMN dalam Membangun Hubungan dengan Jurnalis Digital
+252. Analisis Perubahan Praktik Media Relations di Era Jurnalisme Online di Indonesia
+253. Pengaruh Press Release Digital terhadap Media Coverage: Studi pada Media Nasional Indonesia
+254. Model Media Relations Berbasis Data untuk Perusahaan Teknologi di Indonesia
+255. Efektivitas Media Briefing Virtual dalam Membangun Relasi dengan Wartawan
+256. Peran Media Relations dalam Agenda Setting Isu Korporat di Media Indonesia
+257. Strategi Pengelolaan Hubungan dengan Jurnalis Investigasi: Studi pada Perusahaan Tambang
+258. Analisis Gatekeeping dalam Pemberitaan Korporat di Media Online Indonesia
+259. Pengaruh Newsroom Digitalization terhadap Praktik Media Relations di Indonesia
+260. Model Earned Media Strategy untuk Perusahaan Startup di Indonesia
+261. Efektivitas Media Monitoring Tools dalam Mengukur Media Coverage di Indonesia
+262. Peran Jurnalisme Data dalam Membentuk Narasi Korporat di Media Indonesia
+263. Strategi Media Relations dalam Menghadapi Jurnalisme Warga (Citizen Journalism)
+264. Analisis Hubungan PR Practitioner dan Jurnalis di Era Media Sosial Indonesia
+265. Pengaruh Native Advertising terhadap Kredibilitas Media dan Persepsi Publik
+266. Model Media Relations untuk Komunikasi Krisis di Media Televisi Indonesia
+267. Efektivitas Exclusive Interview sebagai Strategi Media Relations Perusahaan
+268. Peran Media Relations dalam Membangun Thought Leadership CEO di Media Bisnis
+269. Strategi Pengelolaan Media Relations dengan Media Komunitas dan Hiperlokal
+270. Analisis Framing Pemberitaan CSR Perusahaan di Media Cetak vs Media Online
+271. Pengaruh Influencer Relations terhadap Pergeseran Peran Media Relations Tradisional
+272. Model Integrated Media Relations (Tradisional + Digital) untuk Perusahaan di Indonesia
+273. Efektivitas Press Tour Virtual dalam Membangun Pemahaman Jurnalis tentang Perusahaan
+274. Peran Media Relations dalam Mendukung Komunikasi IPO Perusahaan di Indonesia
+275. Strategi Media Relations Perusahaan Farmasi dalam Menghadapi Isu Kesehatan Publik
+276. Analisis Perubahan Newsroom dan Implikasinya terhadap Praktik PR di Indonesia
+277. Pengaruh Kualitas Press Release terhadap Probabilitas Publikasi di Media Online
+278. Model Media Relations untuk Organisasi Nonprofit dan LSM di Indonesia
+279. Efektivitas Media Partnership dalam Kampanye Komunikasi Perusahaan
+280. Peran Media Relations dalam Membangun Narasi Positif Industri Kelapa Sawit
+281. Strategi Media Relations Perusahaan Penerbangan dalam Menghadapi Isu Keselamatan
+282. Analisis Ekonomi Politik Media dan Implikasinya terhadap Independensi Pemberitaan Korporat
+283. Pengaruh Paid Media terhadap Earned Media Coverage: Studi pada Industri FMCG
+284. Model Proactive Media Relations untuk Perusahaan di Sektor Energi Indonesia
+285. Efektivitas Fact Sheet dan Infografis dalam Mendukung Kerja Jurnalis
+286. Peran Media Relations dalam Komunikasi Merger dan Akuisisi di Indonesia
+287. Strategi Pengelolaan Media Relations di Daerah 3T (Tertinggal, Terdepan, Terluar)
+288. Analisis Hubungan Simbiosis Mutualisme PR dan Media di Indonesia
+289. Pengaruh Media Training terhadap Kualitas Spokesperson Performance
+290. Model Media Relations Berbasis Relationship Management Theory
+291. Efektivitas Embargo Strategy dalam Pengelolaan Berita Eksklusif
+292. Peran Media Relations dalam Mendukung Komunikasi Kebijakan Pemerintah
+293. Strategi Media Relations Perusahaan Olahraga dan Esports di Indonesia
+294. Analisis Pergeseran Media Landscape dan Adaptasi Strategi Media Relations
+295. Pengaruh Transparansi Informasi terhadap Kualitas Hubungan PR-Jurnalis
+296. Model Media Relations untuk Komunikasi Bencana di Indonesia
+297. Efektivitas Media Gathering dalam Membangun Hubungan Jangka Panjang dengan Wartawan
+298. Peran Media Relations dalam Membangun Reputasi Perusahaan di Media Internasional
+299. Strategi Media Relations dalam Menghadapi Disinformasi dan Fake News tentang Perusahaan
+300. Analisis Etika Media Relations dan Praktik Amplop (Envelope Journalism) di Indonesia
+
+================================================================================
+CATEGORY 7: CSR COMMUNICATION & SUSTAINABILITY (301-350)
+================================================================================
+
+301. Strategi Komunikasi CSR Perusahaan Pertambangan dalam Membangun Social License to Operate
+302. Analisis Framing Komunikasi Sustainability Report Perusahaan LQ45 di Indonesia
+303. Pengaruh CSR Communication terhadap Corporate Reputation: SEM-PLS pada Perusahaan BUMN
+304. Model Komunikasi CSR Berbasis Stakeholder Engagement untuk Industri Kelapa Sawit
+305. Efektivitas Storytelling dalam Komunikasi CSR Perusahaan Perbankan di Media Sosial
+306. Peran Komunikasi CSR dalam Membangun Brand Loyalty Konsumen Milenial Indonesia
+307. Strategi Komunikasi Program CSR Pendidikan Perusahaan Telekomunikasi di Daerah Terpencil
+308. Analisis Greenwashing dalam Komunikasi Sustainability Perusahaan di Indonesia
+309. Pengaruh CSR Communication Authenticity terhadap Consumer Trust di Indonesia
+310. Model Komunikasi CSR Terintegrasi untuk Perusahaan Energi di Indonesia
+311. Efektivitas Annual CSR Report sebagai Alat Komunikasi Stakeholder
+312. Peran Media Sosial dalam Amplifikasi Pesan CSR Perusahaan FMCG Indonesia
+313. Strategi Komunikasi Program CSR Kesehatan Perusahaan Farmasi di Indonesia
+314. Analisis Komunikasi CSR Perusahaan Rokok: Paradoks dan Persepsi Publik
+315. Pengaruh Employee Volunteering Communication terhadap Employer Branding
+316. Model Komunikasi CSR untuk Perusahaan dengan Operasi di Wilayah Konflik
+317. Efektivitas Video Dokumenter CSR dalam Membangun Empati Stakeholder
+318. Peran Komunikasi CSR dalam Mendukung Sustainable Development Goals (SDGs) di Indonesia
+319. Strategi Komunikasi Program CSR Lingkungan Perusahaan Semen di Jawa
+320. Analisis Komunikasi CSR Perusahaan Fintech dalam Program Literasi Keuangan
+321. Pengaruh Cause-Related Marketing Communication terhadap Purchase Intention di Indonesia
+322. Model Komunikasi CSR Berbasis Kearifan Lokal untuk Perusahaan di Papua
+323. Efektivitas Komunikasi CSR Perusahaan Otomotif dalam Program Keselamatan Berkendara
+324. Peran Influencer dalam Mengkomunikasikan Program CSR Perusahaan kepada Generasi Z
+325. Strategi Komunikasi CSR Perusahaan Kelapa Sawit dalam Menghadapi Kampanye Negatif Internasional
+326. Analisis Komunikasi Sustainability Perusahaan Fashion Indonesia: Fast Fashion vs Sustainable Fashion
+327. Pengaruh CSR Communication terhadap Investor Relations di Pasar Modal Indonesia
+328. Model Komunikasi CSR Digital untuk Perusahaan E-commerce di Indonesia
+329. Efektivitas Komunikasi Program CSR Pemberdayaan Perempuan oleh Perusahaan Multinasional
+330. Peran Komunikasi CSR dalam Membangun Community Relations di Sekitar Area Operasi
+331. Strategi Komunikasi CSR Perusahaan Perkebunan dalam Menghadapi Isu Deforestasi
+332. Analisis Komunikasi ESG (Environmental, Social, Governance) Perusahaan Publik di Indonesia
+333. Pengaruh Komunikasi CSR terhadap Organizational Identification Karyawan
+334. Model Komunikasi CSR Kolaboratif antara Perusahaan dan NGO di Indonesia
+335. Efektivitas Komunikasi Program CSR Disaster Relief Perusahaan di Indonesia
+336. Peran Komunikasi CSR dalam Membangun Reputasi Perusahaan di Komunitas Lokal
+337. Strategi Komunikasi CSR Perusahaan Teknologi dalam Program Digital Literacy
+338. Analisis Komunikasi CSR Perusahaan Air Minum dalam Isu Akses Air Bersih
+339. Pengaruh Transparency dalam CSR Reporting terhadap Stakeholder Trust
+340. Model Komunikasi CSR untuk Industri Pariwisata Berkelanjutan di Indonesia
+341. Efektivitas Komunikasi Program CSR Beasiswa Perusahaan terhadap Citra Korporat
+342. Peran Komunikasi CSR dalam Mendukung Ekonomi Sirkular di Indonesia
+343. Strategi Komunikasi CSR Perusahaan Listrik dalam Program Energi Terbarukan untuk Desa
+344. Analisis Komunikasi CSR Perusahaan Tambang Nikel terhadap Masyarakat Adat
+345. Pengaruh Social Media CSR Communication terhadap Brand Advocacy
+346. Model Komunikasi CSR Berbasis Shared Value untuk Perusahaan Agribisnis
+347. Efektivitas Komunikasi Program CSR Kesehatan Mental oleh Perusahaan Teknologi
+348. Peran Komunikasi CSR dalam Membangun Resiliensi Komunitas Pesisir
+349. Strategi Komunikasi CSR Perusahaan Penerbangan dalam Program Carbon Offset
+350. Analisis Komunikasi CSR Perusahaan Telekomunikasi dalam Mengatasi Digital Divide di Indonesia
+
+================================================================================
+CATEGORY 8: HEALTH & RISK COMMUNICATION (351-400)
+================================================================================
+
+351. Strategi Komunikasi Risiko Kementerian Kesehatan dalam Menghadapi Wabah Penyakit Baru
+352. Analisis Framing Komunikasi Kesehatan di Media Sosial Selama Pandemi di Indonesia
+353. Pengaruh Health Communication Campaign terhadap Perilaku Vaksinasi Masyarakat Indonesia
+354. Model Komunikasi Risiko Berbasis Komunitas untuk Daerah Rawan Bencana di Indonesia
+355. Efektivitas Komunikasi Kesehatan Berbasis Influencer dalam Kampanye Anti-Stunting
+356. Peran Komunikasi Risiko dalam Penanganan Hoaks Kesehatan di Media Sosial Indonesia
+357. Strategi Komunikasi Kesehatan Rumah Sakit dalam Membangun Patient Trust di Era Digital
+358. Analisis Komunikasi Risiko Pemerintah dalam Penanganan Polusi Udara Jakarta
+359. Pengaruh Visual Communication dalam Kampanye Kesehatan Mental di Indonesia
+360. Model Komunikasi Risiko untuk Industri Pangan dalam Menghadapi Isu Keamanan Makanan
+361. Efektivitas Telemedicine Communication dalam Meningkatkan Akses Kesehatan di Daerah Terpencil
+362. Peran Komunikasi Kesehatan dalam Program Pencegahan HIV/AIDS di Kalangan Remaja
+363. Strategi Komunikasi Risiko Perusahaan Kimia terhadap Masyarakat Sekitar Pabrik
+364. Analisis Komunikasi Kesehatan BPJS dalam Sosialisasi Program Promotif Preventif
+365. Pengaruh Narrative Health Communication terhadap Perubahan Perilaku Kesehatan
+366. Model Komunikasi Risiko Terintegrasi untuk Penanganan Bencana Vulkanik di Indonesia
+367. Efektivitas Komunikasi Kesehatan Berbasis WhatsApp untuk Ibu Hamil di Pedesaan
+368. Peran Komunikasi Risiko dalam Pengelolaan Limbah B3 di Kawasan Industri
+369. Strategi Komunikasi Kesehatan dalam Program Imunisasi Anak di Indonesia Timur
+370. Analisis Komunikasi Risiko Nuklir BATAN/BRIN kepada Masyarakat Sekitar Reaktor
+371. Pengaruh Celebrity Health Endorsement terhadap Health Literacy Masyarakat Indonesia
+372. Model Komunikasi Risiko Bencana Berbasis Teknologi Mobile untuk Masyarakat Pesisir
+373. Efektivitas Komunikasi Kesehatan Reproduksi untuk Remaja Melalui Media Sosial
+374. Peran Komunikasi Risiko dalam Penanganan Kasus Demam Berdarah di Perkotaan
+375. Strategi Komunikasi Kesehatan Mental di Tempat Kerja: Studi pada Perusahaan Indonesia
+376. Analisis Komunikasi Risiko Pangan BPOM dalam Menghadapi Isu Produk Berbahaya
+377. Pengaruh Gamification dalam Komunikasi Kesehatan untuk Meningkatkan Aktivitas Fisik
+378. Model Komunikasi Risiko untuk Penanganan Pencemaran Air di Daerah Aliran Sungai
+379. Efektivitas Komunikasi Kesehatan Berbasis Budaya Lokal untuk Masyarakat Adat
+380. Peran Komunikasi Risiko dalam Mitigasi Bencana Gempa di Zona Megathrust Indonesia
+381. Strategi Komunikasi Kesehatan dalam Program Eliminasi Tuberkulosis di Indonesia
+382. Analisis Komunikasi Risiko Perusahaan Pertambangan terhadap Kesehatan Masyarakat
+383. Pengaruh Social Media Health Influencer terhadap Keputusan Kesehatan Masyarakat
+384. Model Komunikasi Risiko Pandemi Berbasis Whole-of-Society Approach
+385. Efektivitas Komunikasi Kesehatan Gigi untuk Anak-Anak Melalui Media Edukasi Digital
+386. Peran Komunikasi Risiko dalam Penanganan Kebakaran Hutan dan Kabut Asap
+387. Strategi Komunikasi Kesehatan dalam Program Pencegahan Diabetes di Indonesia
+388. Analisis Komunikasi Risiko Industri Petrokimia terhadap Masyarakat di Kawasan Cilegon
+389. Pengaruh Infografis Kesehatan di Instagram terhadap Health Knowledge Masyarakat
+390. Model Komunikasi Risiko untuk Penanganan Banjir Rob di Kota Pesisir Indonesia
+391. Efektivitas Komunikasi Kesehatan Berbasis Podcast untuk Edukasi Kesehatan Reproduksi
+392. Peran Komunikasi Risiko dalam Pengelolaan Sampah Plastik di Perkotaan Indonesia
+393. Strategi Komunikasi Kesehatan dalam Menghadapi Resistensi Antibiotik di Indonesia
+394. Analisis Komunikasi Risiko Perusahaan Energi terhadap Isu Perubahan Iklim
+395. Pengaruh Peer Communication dalam Kampanye Anti-Narkoba untuk Remaja Indonesia
+396. Model Komunikasi Risiko Terintegrasi untuk Penanganan Tanah Longsor di Jawa
+397. Efektivitas Komunikasi Kesehatan Ibu dan Anak Melalui Posyandu Digital
+398. Peran Komunikasi Risiko dalam Penanganan Wabah PMK (Penyakit Mulut dan Kuku)
+399. Strategi Komunikasi Kesehatan dalam Program Pencegahan Kanker Serviks di Indonesia
+400. Analisis Komunikasi Risiko Pemerintah dalam Menghadapi Ancaman El Nino dan Kekeringan
+
+================================================================================
+CATEGORY 9: DESTINATION & TOURISM PR (401-450)
+================================================================================
+
+401. Strategi Komunikasi Pemasaran Destinasi Wisata Super Prioritas (DSP) Likupang
+402. Analisis Digital PR dalam Membangun Destination Image Labuan Bajo di Media Internasional
+403. Pengaruh Influencer Travel terhadap Visit Intention Wisatawan ke Destinasi Indonesia
+404. Model Komunikasi Destination Branding untuk Wisata Halal di Indonesia
+405. Efektivitas Komunikasi Pemasaran Pariwisata Berbasis User-Generated Content di Instagram
+406. Peran PR dalam Pemulihan Citra Destinasi Wisata Pasca Bencana: Studi Kasus Lombok
+407. Strategi Komunikasi Pariwisata Berkelanjutan untuk Destinasi Wisata Alam di Kalimantan
+408. Analisis Framing Destinasi Wisata Indonesia di Media Internasional
+409. Pengaruh Virtual Tourism Communication terhadap Minat Kunjungan Wisatawan
+410. Model Komunikasi Krisis Destinasi Wisata dalam Menghadapi Pandemi
+411. Efektivitas Komunikasi Pemasaran Wisata Budaya Yogyakarta di Era Digital
+412. Peran Storytelling dalam Komunikasi Destination Marketing Organization (DMO) Indonesia
+413. Strategi Komunikasi Pariwisata Desa Wisata dalam Menarik Wisatawan Domestik
+414. Analisis Komunikasi Pemasaran Wisata Medis (Medical Tourism) di Indonesia
+415. Pengaruh Social Media Marketing terhadap Destination Loyalty Wisatawan Nusantara
+416. Model Komunikasi Terintegrasi untuk Promosi Wisata Bahari Indonesia
+417. Efektivitas Komunikasi Event Tourism dalam Meningkatkan Kunjungan: Studi pada Festival Budaya
+418. Peran Komunikasi PR dalam Membangun Destination Competitiveness Bali
+419. Strategi Komunikasi Pariwisata dalam Menghadapi Overtourism di Destinasi Populer
+420. Analisis Komunikasi Pemasaran Wisata Kuliner Indonesia di Platform Digital
+421. Pengaruh Destination PR terhadap Persepsi Keamanan Wisatawan Asing di Indonesia
+422. Model Komunikasi Community-Based Tourism untuk Desa Wisata di NTT
+423. Efektivitas Komunikasi Pemasaran Wisata Religi di Indonesia: Studi Multi-Destinasi
+424. Peran Digital PR dalam Membangun Awareness Geopark UNESCO di Indonesia
+425. Strategi Komunikasi Pariwisata dalam Menghadapi Isu Lingkungan di Raja Ampat
+426. Analisis Komunikasi Pemasaran Wisata MICE (Meeting, Incentive, Convention, Exhibition) di Bali
+427. Pengaruh Travel Vlogger terhadap Destination Image dan Visit Intention
+428. Model Komunikasi Destination Recovery untuk Wisata Pasca Konflik di Maluku
+429. Efektivitas Komunikasi Pemasaran Wisata Petualangan (Adventure Tourism) di Indonesia
+430. Peran Komunikasi PR dalam Mendukung Pariwisata Inklusif untuk Penyandang Disabilitas
+431. Strategi Komunikasi Pemasaran Wisata Wellness dan Spa di Bali
+432. Analisis Komunikasi Destination Branding "Wonderful Indonesia" di Pasar Global
+433. Pengaruh Augmented Reality dalam Komunikasi Pemasaran Wisata Heritage
+434. Model Komunikasi Pariwisata Berbasis Kearifan Lokal untuk Destinasi di Papua
+435. Efektivitas Komunikasi Pemasaran Wisata Olahraga (Sport Tourism) di Indonesia
+436. Peran Media Relations dalam Membangun Citra Destinasi Wisata Baru di Indonesia
+437. Strategi Komunikasi Pariwisata dalam Menghadapi Kompetisi Regional ASEAN
+438. Analisis Komunikasi Pemasaran Wisata Edukasi untuk Keluarga di Indonesia
+439. Pengaruh Online Review dan Rating terhadap Destination Choice Wisatawan
+440. Model Komunikasi Crisis Recovery untuk Industri Pariwisata Pasca Bencana Alam
+441. Efektivitas Komunikasi Pemasaran Wisata Agro di Jawa Barat
+442. Peran Komunikasi PR dalam Mendukung Pariwisata Ramah Lingkungan (Ecotourism)
+443. Strategi Komunikasi Pemasaran Wisata Sejarah dan Warisan Budaya di Sumatera
+444. Analisis Komunikasi Destination Marketing Berbasis Big Data dan AI
+445. Pengaruh Collaborative PR antara Pemerintah dan Swasta dalam Promosi Wisata
+446. Model Komunikasi Pemasaran Wisata Nightlife dan Entertainment di Bali
+447. Efektivitas Komunikasi Pemasaran Wisata Ziarah (Pilgrimage Tourism) di Jawa
+448. Peran Digital PR dalam Membangun Destination Awareness Wisata Danau Toba
+449. Strategi Komunikasi Pariwisata dalam Menghadapi Isu Keselamatan Wisatawan
+450. Analisis Komunikasi Pemasaran Wisata Kreatif (Creative Tourism) di Bandung
+
+================================================================================
+CATEGORY 10: PR TECHNOLOGY & INNOVATION (451-500)
+================================================================================
+
+451. Pengaruh Artificial Intelligence terhadap Transformasi Praktik PR di Indonesia
+452. Analisis Penggunaan Chatbot AI dalam Customer Relations Perusahaan Telekomunikasi
+453. Model Implementasi Big Data Analytics untuk PR Measurement di Perusahaan Indonesia
+454. Strategi Penggunaan Machine Learning dalam Social Media Monitoring untuk PR
+455. Efektivitas AI-Generated Content dalam Komunikasi Korporat: Studi Eksperimental
+456. Peran Blockchain dalam Membangun Transparansi Komunikasi Organisasi
+457. Analisis Penggunaan Virtual Reality dalam Corporate Communication Event
+458. Pengaruh Marketing Automation terhadap Efisiensi Kampanye PR Digital
+459. Model Predictive Analytics untuk Crisis Early Warning System dalam PR
+460. Strategi Penggunaan Augmented Reality dalam Komunikasi Produk Perusahaan
+461. Efektivitas AI-Powered Media Monitoring dalam Mengukur Reputasi Korporat
+462. Peran Internet of Things (IoT) dalam Komunikasi Smart City di Indonesia
+463. Analisis Penggunaan Natural Language Processing untuk Sentiment Analysis PR
+464. Pengaruh Deepfake Technology terhadap Kepercayaan Publik dan Implikasi untuk PR
+465. Model Implementasi Metaverse dalam Corporate Communication dan Event PR
+466. Strategi Penggunaan Data Visualization dalam Komunikasi Stakeholder
+467. Efektivitas Programmatic PR dalam Distribusi Konten Media di Indonesia
+468. Peran Voice Search Optimization dalam Strategi Digital PR
+469. Analisis Penggunaan Drone untuk Visual Storytelling dalam Komunikasi Korporat
+470. Pengaruh 5G Technology terhadap Inovasi Komunikasi PR di Indonesia
+471. Model Implementasi Customer Data Platform untuk Personalisasi Komunikasi PR
+472. Strategi Penggunaan AI Writing Tools dalam Produksi Konten PR
+473. Efektivitas Hologram Technology dalam Press Conference dan Corporate Event
+474. Peran Robotic Process Automation dalam Operasional Departemen PR
+475. Analisis Penggunaan Geofencing dalam Kampanye PR Berbasis Lokasi
+476. Pengaruh Web3 dan Decentralized Communication terhadap Praktik PR
+477. Model Implementasi Digital Twin dalam Komunikasi Proyek Infrastruktur
+478. Strategi Penggunaan Generative AI dalam Kreasi Visual untuk PR Campaign
+479. Efektivitas Wearable Technology dalam Internal Communication
+480. Peran Edge Computing dalam Real-Time PR Analytics dan Monitoring
+481. Analisis Penggunaan Computer Vision dalam Media Monitoring Visual
+482. Pengaruh Quantum Computing terhadap Masa Depan Enkripsi Komunikasi PR
+483. Model Implementasi Conversational AI untuk Stakeholder Engagement
+484. Strategi Penggunaan Digital Humans/Avatars sebagai Brand Ambassador Virtual
+485. Efektivitas Spatial Computing dalam Immersive PR Experience
+486. Peran Low-Code/No-Code Platform dalam Demokratisasi Tools PR
+487. Analisis Penggunaan Synthetic Media dalam Komunikasi Multibahasa untuk PR
+488. Pengaruh Privacy-Enhancing Technologies terhadap Praktik Data-Driven PR
+489. Model Implementasi AI Ethics Framework dalam Komunikasi Organisasi
+490. Strategi Penggunaan Emotion AI dalam Mengukur Respons Audiens terhadap Pesan PR
+491. Efektivitas Digital Accessibility Tools dalam Komunikasi PR Inklusif
+492. Peran Cybersecurity Communication dalam Membangun Digital Trust Organisasi
+493. Analisis Penggunaan Social Listening AI untuk Trend Forecasting dalam PR
+494. Pengaruh Autonomous Content Creation terhadap Kualitas Komunikasi PR
+495. Model Implementasi Integrated Communication Technology Stack untuk PR Agency
+496. Strategi Penggunaan Biometric Feedback dalam Evaluasi Kampanye PR
+497. Efektivitas Neural Machine Translation dalam Komunikasi PR Multibahasa
+498. Peran Smart Analytics Dashboard dalam Decision-Making PR Practitioner
+499. Analisis Penggunaan Predictive AI dalam Stakeholder Behavior Modeling
+500. Model Implementasi Responsible AI dalam Praktik Public Relations di Indonesia

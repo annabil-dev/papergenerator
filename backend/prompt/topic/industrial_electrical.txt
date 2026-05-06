@@ -1,0 +1,632 @@
+================================================================================
+TOPIC GUIDE — Teknik Listrik Industri (Industrial Electrical Engineering)
+================================================================================
+FIELD: Electrical Engineering / Power Systems / Industrial Electrical
+DEFAULT CITATION STYLE: IEEE
+SUBDISCIPLINE: Power Distribution & Protection, Electric Motor & Drives, Power Electronics & Converters, Industrial Lighting & Installation, Renewable Energy Systems, Energy Efficiency & Audit, PLC & Electrical Automation, Smart Grid & Microgrid
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title (specific, with method and domain)
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Power system analysis: ETAP, DIgSILENT PowerFactory, PSS/E, SKM PowerTools
+   - Motor control design: VFD programming, soft starter selection, motor protection coordination
+   - Power electronics simulation: PSIM, PLECS, MATLAB/Simulink, LTspice
+   - Energy audit: ISO 50001, ASHRAE Level I/II/III, power quality analysis
+   - Power quality analysis: Fluke 435-II, Hioki PQ3198, harmonic analysis, IEEE 519
+   - Renewable energy integration: grid-tied inverter design, MPPT algorithms, battery management
+   - Protection relay coordination: IDMT curves, directional protection, differential protection
+   - Smart grid: AMI, demand response, distributed generation, microgrid control
+   - Digital twin: real-time power system monitoring, predictive analytics
+   - AI/ML: load forecasting, fault detection, optimal power flow
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics: voltage (V), current (A), power (kW/kVA), power factor, THD (%), efficiency (%), energy consumption (kWh), losses (kW)
+   - Comparison with baselines (before vs after improvement)
+   - All numbers realistic and internally consistent
+   - Statistical measures: mean, std deviation, confidence intervals
+
+5. MATHEMATICAL FORMULAS:
+   - Active power: P = V×I×cosφ (single-phase), P = √3×VL×IL×cosφ (three-phase)
+   - Transformer ratio: V1/V2 = N1/N2 = I2/I1
+   - Motor torque: T = (P×60)/(2πn) or T = (9550×P)/n
+   - Power factor: PF = P/S = cosφ
+   - Efficiency: η = Pout/Pin × 100%
+   - Apparent power: S = √(P² + Q²)
+   - Reactive power: Q = V×I×sinφ
+   - Voltage drop: ΔV = I×(R×cosφ + X×sinφ)×L
+   - Short circuit current: Isc = V/(√3×Z)
+   - Capacitor bank: Qc = P×(tanφ1 - tanφ2)
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian context: PLN grid, Indonesian industrial zones, rural electrification, solar/micro-hydro
+   - Include Indonesian researchers and journals where applicable
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords (5-7), Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+================================================================================
+DOMAIN-SPECIFIC CONTEXT
+================================================================================
+
+INDONESIAN CONTEXT:
+- PLN (Perusahaan Listrik Negara) grid system and distribution
+- Indonesian industrial zones (Kawasan Industri): KIIC, MM2100, Jababeka, SIER
+- Rural electrification program (rasio elektrifikasi)
+- Solar PV development in Eastern Indonesia
+- Micro-hydro power plants in Indonesian mountainous regions
+- Indonesian electrical standards: PUIL 2011, SNI
+- ESDM (Kementerian Energi dan Sumber Daya Mineral) regulations
+- Indonesian energy mix target (23% renewable by 2025)
+- PLN tariff structure and demand-side management
+- Indonesian industrial energy consumption patterns
+
+KEY JOURNALS:
+- IEEE Transactions on Power Systems
+- IEEE Transactions on Industrial Electronics
+- Electric Power Systems Research
+- International Journal of Electrical Power & Energy Systems
+- Renewable Energy
+- Energy Conversion and Management
+- Jurnal Teknik Elektro (Indonesian)
+- JNTE - Jurnal Nasional Teknik Elektro
+
+SOFTWARE & TOOLS:
+- ETAP (power system analysis, protection coordination, arc flash)
+- DIgSILENT PowerFactory (load flow, short circuit, stability)
+- MATLAB/Simulink (power electronics, control systems, renewable energy)
+- PSIM (power electronics simulation)
+- AutoCAD Electrical (electrical drawing, panel design)
+- EPLAN (electrical engineering design)
+- PVsyst (solar PV system design)
+- HOMER Pro (hybrid renewable energy optimization)
+- SKM PowerTools (power system studies)
+- Dialux (lighting design)
+
+STANDARDS & REGULATIONS:
+- PUIL 2011 (Persyaratan Umum Instalasi Listrik)
+- SNI (Standar Nasional Indonesia) for electrical equipment
+- IEC 60364 (Low-voltage electrical installations)
+- IEEE 519 (Harmonic control)
+- IEEE 1584 (Arc flash hazard calculations)
+- NFPA 70E (Electrical safety in the workplace)
+- PLN SPLN (Standar PLN) for distribution systems
+- ISO 50001 (Energy management systems)
+
+================================================================================
+RESEARCH TOPIC BANK — 500 TOPICS
+================================================================================
+
+CATEGORY 1: POWER DISTRIBUTION & PROTECTION (001-050)
+001. Optimization of medium voltage distribution network for Indonesian industrial estate expansion
+002. Coordination study of overcurrent protection relays in Indonesian manufacturing plant
+003. Analysis of voltage drop in low-voltage distribution system for Indonesian high-rise building
+004. Design of arc flash hazard mitigation system for Indonesian industrial switchgear
+005. Development of fault location algorithm for Indonesian underground cable distribution network
+006. Optimization of transformer sizing and placement for Indonesian industrial zone load growth
+007. Analysis of ground fault protection system for Indonesian ungrounded industrial networks
+008. Design of selective coordination study for Indonesian hospital critical power system
+009. Development of power system reliability assessment for Indonesian industrial estate
+010. Optimization of capacitor bank placement for Indonesian distribution network loss reduction
+011. Analysis of harmonic propagation in Indonesian industrial distribution system
+012. Design of bus differential protection scheme for Indonesian power plant switchgear
+013. Development of adaptive overcurrent protection for Indonesian distribution network with DG
+014. Optimization of cable sizing for Indonesian industrial plant power distribution
+015. Analysis of transient overvoltage in Indonesian medium voltage switching operations
+016. Design of neutral grounding system for Indonesian industrial power distribution
+017. Development of fault current limiter application for Indonesian distribution network
+018. Optimization of protection relay settings for Indonesian ring-main distribution system
+019. Analysis of power quality issues in Indonesian semiconductor manufacturing facility
+020. Design of emergency power system for Indonesian data center facility
+021. Development of load flow analysis for Indonesian industrial estate expansion planning
+022. Optimization of distribution transformer energy efficiency for Indonesian PLN network
+023. Analysis of voltage unbalance in Indonesian three-phase industrial distribution system
+024. Design of medium voltage switchgear protection for Indonesian cement plant
+025. Development of short circuit analysis for Indonesian industrial plant electrical system
+026. Optimization of power factor correction system for Indonesian manufacturing facility
+027. Analysis of ferroresonance in Indonesian medium voltage distribution transformers
+028. Design of busbar protection system for Indonesian power plant main switchboard
+029. Development of earth fault detection system for Indonesian compensated distribution network
+030. Optimization of distribution automation for Indonesian PLN smart grid implementation
+031. Analysis of voltage sag impact on Indonesian industrial process equipment
+032. Design of motor protection coordination for Indonesian petrochemical plant
+033. Development of islanding detection method for Indonesian distributed generation systems
+034. Optimization of recloser-fuse coordination for Indonesian rural distribution network
+035. Analysis of cable ampacity derating for Indonesian tropical underground installation
+036. Design of transfer switch system for Indonesian critical facility power supply
+037. Development of fault ride-through capability for Indonesian grid-connected generators
+038. Optimization of distribution network reconfiguration for Indonesian loss minimization
+039. Analysis of sympathetic tripping in Indonesian parallel transformer protection
+040. Design of zone-selective interlocking for Indonesian industrial low-voltage system
+041. Development of wide-area protection scheme for Indonesian transmission-distribution interface
+042. Optimization of surge protection system for Indonesian industrial lightning protection
+043. Analysis of inrush current impact on Indonesian transformer protection coordination
+044. Design of generator protection system for Indonesian captive power plant
+045. Development of power system grounding study for Indonesian offshore platform
+046. Optimization of feeder protection for Indonesian distribution network with solar PV
+047. Analysis of thermal overload in Indonesian industrial cable tray installations
+048. Design of differential protection for Indonesian power transformer applications
+049. Development of fault analysis methodology for Indonesian DC distribution systems
+050. Optimization of protection coordination for Indonesian industrial microgrid operation
+
+CATEGORY 2: ELECTRIC MOTOR & DRIVES (051-100)
+051. Optimization of variable frequency drive selection for Indonesian industrial pump applications
+052. Analysis of motor starting methods for Indonesian large induction motor installations
+053. Design of soft starter application for Indonesian conveyor belt drive systems
+054. Development of motor energy efficiency improvement program for Indonesian manufacturing
+055. Implementation of sensorless vector control for Indonesian industrial fan applications
+056. Analysis of motor bearing failure prediction using vibration analysis in Indonesian plants
+057. Design of regenerative drive system for Indonesian crane and hoist applications
+058. Development of motor condition monitoring system for Indonesian critical process drives
+059. Implementation of direct torque control for Indonesian industrial mixer applications
+060. Analysis of harmonic distortion from VFD operation in Indonesian industrial networks
+061. Design of multi-motor drive coordination for Indonesian conveyor system applications
+062. Development of motor protection relay optimization for Indonesian industrial installations
+063. Implementation of energy-efficient motor replacement program for Indonesian factories
+064. Analysis of motor thermal protection coordination for Indonesian cyclic duty applications
+065. Design of servo drive system for Indonesian precision positioning applications
+066. Development of motor load estimation technique for Indonesian energy audit purposes
+067. Implementation of flux-weakening control for Indonesian electric vehicle motor drives
+068. Analysis of motor cable length effect on VFD performance in Indonesian installations
+069. Design of braking system for Indonesian industrial motor drive applications
+070. Development of motor efficiency testing methodology for Indonesian IE3/IE4 compliance
+071. Implementation of predictive maintenance for Indonesian motor-driven equipment
+072. Analysis of motor voltage unbalance effect on Indonesian industrial motor performance
+073. Design of motor control center for Indonesian petrochemical plant applications
+074. Development of motor starting study for Indonesian weak grid connections
+075. Implementation of closed-loop speed control for Indonesian paper machine drives
+076. Analysis of motor insulation degradation in Indonesian tropical humid conditions
+077. Design of explosion-proof motor installation for Indonesian hazardous area applications
+078. Development of motor energy management system for Indonesian industrial facilities
+079. Implementation of synchronous reluctance motor drive for Indonesian pump applications
+080. Analysis of motor shaft current and bearing damage in VFD-fed Indonesian installations
+081. Design of motor-generator set for Indonesian uninterruptible power supply applications
+082. Development of motor rewind quality assessment for Indonesian motor repair shops
+083. Implementation of permanent magnet motor drive for Indonesian elevator applications
+084. Analysis of motor power factor improvement using VFD in Indonesian industries
+085. Design of motor protection system for Indonesian mining equipment applications
+086. Development of motor fleet management system for Indonesian large industrial plants
+087. Implementation of medium voltage drive for Indonesian large fan and compressor
+088. Analysis of motor derating for Indonesian high-altitude and high-temperature installations
+089. Design of motor soft starting scheme for Indonesian diesel generator set loading
+090. Development of motor efficiency labeling program for Indonesian market compliance
+091. Implementation of switched reluctance motor drive for Indonesian appliance applications
+092. Analysis of motor harmonic heating effect in Indonesian non-sinusoidal supply conditions
+093. Design of motor speed control system for Indonesian textile spinning applications
+094. Development of motor diagnostic system using current signature for Indonesian plants
+095. Implementation of linear motor drive for Indonesian automated material handling
+096. Analysis of motor torque pulsation in Indonesian VFD-fed pump applications
+097. Design of motor control system for Indonesian automated parking facilities
+098. Development of motor lifecycle cost analysis for Indonesian industrial procurement
+099. Implementation of motor digital twin for Indonesian predictive maintenance applications
+100. Analysis of motor electromagnetic interference in Indonesian sensitive equipment areas
+
+CATEGORY 3: POWER ELECTRONICS & CONVERTERS (101-150)
+101. Design of three-phase PWM inverter for Indonesian industrial motor drive applications
+102. Development of bidirectional DC-DC converter for Indonesian battery energy storage
+103. Implementation of active power filter for Indonesian industrial harmonic mitigation
+104. Design of solar PV grid-tied inverter for Indonesian rooftop installation
+105. Development of multilevel inverter topology for Indonesian medium voltage applications
+106. Implementation of power factor correction converter for Indonesian industrial rectifier loads
+107. Design of DC-DC boost converter for Indonesian fuel cell power conditioning
+108. Development of matrix converter for Indonesian industrial variable speed drive
+109. Implementation of static VAR compensator for Indonesian industrial reactive power control
+110. Design of uninterruptible power supply inverter for Indonesian data center applications
+111. Development of wireless power transfer system for Indonesian electric vehicle charging
+112. Implementation of active front-end rectifier for Indonesian regenerative drive systems
+113. Design of isolated DC-DC converter for Indonesian renewable energy applications
+114. Development of modular multilevel converter for Indonesian HVDC applications
+115. Implementation of dynamic voltage restorer for Indonesian sensitive load protection
+116. Design of battery charger converter for Indonesian electric motorcycle applications
+117. Development of Z-source inverter for Indonesian photovoltaic system applications
+118. Implementation of thyristor-controlled reactor for Indonesian industrial power factor control
+119. Design of resonant converter for Indonesian induction heating applications
+120. Development of dual active bridge converter for Indonesian solid-state transformer
+121. Implementation of unified power quality conditioner for Indonesian industrial applications
+122. Design of interleaved boost converter for Indonesian fuel cell vehicle applications
+123. Development of cascaded H-bridge inverter for Indonesian STATCOM applications
+124. Implementation of Vienna rectifier for Indonesian three-phase power supply applications
+125. Design of flyback converter for Indonesian LED driver applications
+126. Development of solid-state circuit breaker for Indonesian DC microgrid protection
+127. Implementation of active clamp forward converter for Indonesian telecom power supply
+128. Design of three-level NPC inverter for Indonesian solar PV central inverter
+129. Development of current-source inverter for Indonesian medium voltage motor drive
+130. Implementation of series active filter for Indonesian voltage harmonic compensation
+131. Design of LLC resonant converter for Indonesian server power supply applications
+132. Development of modular power converter for Indonesian electric ship propulsion
+133. Implementation of hybrid active filter for Indonesian industrial power quality improvement
+134. Design of push-pull converter for Indonesian off-grid solar PV system
+135. Development of five-level inverter for Indonesian grid-connected renewable energy
+136. Implementation of thyristor-based soft starter for Indonesian large motor applications
+137. Design of buck-boost converter for Indonesian battery management system
+138. Development of impedance-source converter for Indonesian distributed generation
+139. Implementation of shunt active filter for Indonesian commercial building applications
+140. Design of full-bridge converter for Indonesian welding power supply applications
+141. Development of switched capacitor converter for Indonesian voltage balancing applications
+142. Implementation of DSTATCOM for Indonesian distribution network voltage regulation
+143. Design of Cuk converter for Indonesian solar PV battery charging applications
+144. Development of nine-switch converter for Indonesian dual-motor drive applications
+145. Implementation of series-parallel resonant converter for Indonesian high-frequency applications
+146. Design of three-phase rectifier for Indonesian industrial DC bus applications
+147. Development of quasi-Z-source inverter for Indonesian single-phase grid-tied PV
+148. Implementation of active power decoupling for Indonesian single-phase inverter applications
+149. Design of GaN-based converter for Indonesian high-frequency power supply applications
+150. Development of SiC-based inverter for Indonesian electric vehicle traction drive
+
+CATEGORY 4: INDUSTRIAL LIGHTING & INSTALLATION (151-200)
+151. Design of energy-efficient LED lighting system for Indonesian manufacturing plant
+152. Development of lighting control system for Indonesian commercial building energy saving
+153. Analysis of illumination uniformity in Indonesian industrial workspace using Dialux
+154. Design of emergency lighting system for Indonesian high-rise building compliance
+155. Development of smart lighting system for Indonesian industrial warehouse automation
+156. Analysis of lighting power density optimization for Indonesian green building certification
+157. Design of hazardous area lighting installation for Indonesian petrochemical facility
+158. Development of daylight harvesting system for Indonesian tropical office buildings
+159. Analysis of LED retrofit feasibility for Indonesian industrial HID lighting replacement
+160. Design of outdoor lighting system for Indonesian industrial estate road network
+161. Development of occupancy-based lighting control for Indonesian parking garage facilities
+162. Analysis of color rendering requirements for Indonesian quality inspection workstations
+163. Design of cleanroom lighting system for Indonesian pharmaceutical manufacturing
+164. Development of circadian lighting system for Indonesian shift-work industrial facilities
+165. Analysis of lighting maintenance factor for Indonesian tropical dusty environments
+166. Design of sports lighting system for Indonesian industrial recreation facilities
+167. Development of solar-powered street lighting for Indonesian industrial estate perimeter
+168. Analysis of glare control in Indonesian industrial VDT workstation lighting
+169. Design of explosion-proof lighting for Indonesian oil and gas facility
+170. Development of IoT-based lighting monitoring for Indonesian building energy management
+171. Analysis of lighting energy audit methodology for Indonesian industrial facilities
+172. Design of task lighting system for Indonesian precision assembly workstations
+173. Development of adaptive lighting control for Indonesian tunnel and underpass
+174. Analysis of LED driver reliability in Indonesian high-temperature industrial environments
+175. Design of high-bay lighting system for Indonesian warehouse and logistics center
+176. Development of UV-C disinfection lighting for Indonesian food processing facility
+177. Analysis of lighting flicker effect on Indonesian industrial machine vision systems
+178. Design of architectural lighting for Indonesian industrial building facade
+179. Development of wireless lighting control system for Indonesian retrofit applications
+180. Analysis of lighting power quality impact on Indonesian industrial electrical system
+181. Design of crane-mounted lighting system for Indonesian shipyard operations
+182. Development of grow lighting system for Indonesian indoor vertical farming
+183. Analysis of lighting uniformity for Indonesian textile quality inspection area
+184. Design of portable lighting system for Indonesian confined space maintenance work
+185. Development of lighting simulation model for Indonesian industrial building design
+186. Analysis of LED thermal management for Indonesian high-ambient-temperature applications
+187. Design of lighting protection system for Indonesian industrial outdoor installations
+188. Development of human-centric lighting for Indonesian industrial worker well-being
+189. Analysis of lighting energy savings verification for Indonesian M&V protocol
+190. Design of lighting system for Indonesian cold storage facility operations
+191. Development of solar-battery lighting for Indonesian remote industrial site
+192. Analysis of lighting control integration with Indonesian building management system
+193. Design of underwater lighting for Indonesian aquaculture facility operations
+194. Development of lighting asset management system for Indonesian industrial facilities
+195. Analysis of lighting electromagnetic compatibility for Indonesian sensitive equipment areas
+196. Design of lighting system for Indonesian automotive paint booth applications
+197. Development of Li-Fi communication system for Indonesian industrial data transmission
+198. Analysis of lighting lifecycle cost for Indonesian industrial facility planning
+199. Design of lighting system for Indonesian mining underground operations
+200. Development of smart pole lighting for Indonesian industrial estate infrastructure
+
+CATEGORY 5: RENEWABLE ENERGY SYSTEMS (201-250)
+201. Design of grid-connected solar PV system for Indonesian industrial rooftop application
+202. Development of MPPT algorithm optimization for Indonesian partial shading conditions
+203. Analysis of solar PV system performance degradation in Indonesian tropical climate
+204. Design of hybrid solar-diesel system for Indonesian remote mining operations
+205. Development of battery energy storage sizing for Indonesian industrial peak shaving
+206. Analysis of wind energy potential assessment for Indonesian coastal industrial zones
+207. Design of micro-hydro power system for Indonesian rural industrial applications
+208. Development of biogas power generation system for Indonesian palm oil mill waste
+209. Analysis of solar PV inverter selection for Indonesian grid code compliance
+210. Design of off-grid solar PV system for Indonesian island community electrification
+211. Development of wind-solar hybrid system for Indonesian telecommunications tower
+212. Analysis of net metering implementation for Indonesian industrial solar PV systems
+213. Design of biomass gasification power system for Indonesian agricultural waste utilization
+214. Development of tidal energy conversion system for Indonesian strait locations
+215. Analysis of solar PV system shading impact in Indonesian urban industrial areas
+216. Design of small-scale wind turbine system for Indonesian rural electrification
+217. Development of wave energy converter for Indonesian southern coast applications
+218. Analysis of battery degradation in Indonesian tropical solar PV storage systems
+219. Design of solar water pumping system for Indonesian agricultural irrigation
+220. Development of geothermal binary cycle system for Indonesian low-enthalpy resources
+221. Analysis of renewable energy integration impact on Indonesian distribution network
+222. Design of floating solar PV system for Indonesian reservoir applications
+223. Development of biomass co-firing system for Indonesian coal power plant
+224. Analysis of solar PV cleaning system optimization for Indonesian dusty environments
+225. Design of community-scale biogas system for Indonesian livestock farming areas
+226. Development of solar thermal system for Indonesian industrial process heating
+227. Analysis of wind turbine foundation design for Indonesian soil conditions
+228. Design of hybrid renewable energy microgrid for Indonesian remote island
+229. Development of solar PV monitoring system for Indonesian distributed installations
+230. Analysis of renewable energy certificate system for Indonesian industrial compliance
+231. Design of agrivoltaic system for Indonesian agricultural land dual-use
+232. Development of ocean thermal energy conversion for Indonesian deep-water locations
+233. Analysis of solar PV system fire safety for Indonesian rooftop installations
+234. Design of run-of-river micro-hydro for Indonesian mountainous terrain
+235. Development of solar-powered cold storage for Indonesian agricultural post-harvest
+236. Analysis of renewable energy financing model for Indonesian industrial adoption
+237. Design of vertical axis wind turbine for Indonesian urban building integration
+238. Development of solar PV recycling system for Indonesian end-of-life panel management
+239. Analysis of grid stability impact from Indonesian large-scale solar PV farms
+240. Design of pumped hydro energy storage for Indonesian renewable energy balancing
+241. Development of solar-hydrogen production system for Indonesian green hydrogen economy
+242. Analysis of renewable energy policy impact on Indonesian industrial electricity cost
+243. Design of concentrated solar power system for Indonesian eastern region applications
+244. Development of smart inverter function for Indonesian distribution network support
+245. Analysis of renewable energy intermittency management for Indonesian grid operation
+246. Design of solar PV carport system for Indonesian commercial parking facilities
+247. Development of bioenergy with carbon capture for Indonesian palm oil industry
+248. Analysis of renewable energy auction mechanism for Indonesian power procurement
+249. Design of hybrid renewable energy system for Indonesian electric vehicle charging
+250. Development of digital twin for Indonesian solar PV plant performance optimization
+
+CATEGORY 6: ENERGY EFFICIENCY & AUDIT (251-300)
+251. Development of energy audit methodology for Indonesian manufacturing plant assessment
+252. Implementation of ISO 50001 energy management system for Indonesian industrial facility
+253. Analysis of motor system energy efficiency improvement in Indonesian cement plant
+254. Design of compressed air system optimization for Indonesian manufacturing energy saving
+255. Development of energy benchmarking system for Indonesian industrial sector comparison
+256. Implementation of power quality improvement for Indonesian industrial energy efficiency
+257. Analysis of HVAC system energy optimization for Indonesian commercial building
+258. Design of waste heat recovery system for Indonesian industrial furnace operations
+259. Development of energy monitoring and targeting system for Indonesian factory management
+260. Implementation of variable speed drive for Indonesian pump system energy saving
+261. Analysis of lighting energy efficiency improvement in Indonesian industrial facilities
+262. Design of cogeneration system for Indonesian industrial combined heat and power
+263. Development of energy performance indicator for Indonesian manufacturing process
+264. Implementation of demand-side management for Indonesian industrial peak load reduction
+265. Analysis of transformer loss reduction strategy for Indonesian distribution network
+266. Design of power factor improvement system for Indonesian industrial penalty avoidance
+267. Development of energy conservation measure prioritization for Indonesian industrial audit
+268. Implementation of steam system optimization for Indonesian food processing industry
+269. Analysis of electric motor efficiency class upgrade impact for Indonesian industry
+270. Design of building energy management system for Indonesian commercial facility
+271. Development of energy baseline establishment for Indonesian industrial M&V protocol
+272. Implementation of thermal insulation improvement for Indonesian industrial piping system
+273. Analysis of electrical distribution loss reduction in Indonesian industrial plant
+274. Design of energy-efficient cooling system for Indonesian data center facility
+275. Development of energy audit report template for Indonesian industrial compliance
+276. Implementation of fan system optimization for Indonesian industrial ventilation
+277. Analysis of boiler efficiency improvement for Indonesian industrial steam generation
+278. Design of energy recovery system for Indonesian industrial hydraulic press
+279. Development of energy management software for Indonesian multi-site industrial operation
+280. Implementation of power quality audit for Indonesian industrial harmonic assessment
+281. Analysis of refrigeration system efficiency improvement for Indonesian cold storage
+282. Design of energy-efficient motor control strategy for Indonesian conveyor systems
+283. Development of energy savings verification protocol for Indonesian industrial projects
+284. Implementation of heat pump system for Indonesian industrial process heating
+285. Analysis of electrical system loss mapping for Indonesian industrial facility
+286. Design of energy-efficient compressed air distribution for Indonesian manufacturing
+287. Development of energy awareness program for Indonesian industrial workforce
+288. Implementation of automatic power factor correction for Indonesian industrial loads
+289. Analysis of energy consumption pattern for Indonesian industrial shift operations
+290. Design of energy-efficient water pumping system for Indonesian industrial supply
+291. Development of energy performance contract model for Indonesian industrial ESCO
+292. Implementation of thermal energy storage for Indonesian industrial load shifting
+293. Analysis of energy efficiency gap in Indonesian small and medium industries
+294. Design of energy-efficient industrial ventilation system for Indonesian tropical climate
+295. Development of energy audit training program for Indonesian industrial professionals
+296. Implementation of smart metering system for Indonesian industrial energy monitoring
+297. Analysis of energy subsidy reform impact on Indonesian industrial efficiency behavior
+298. Design of energy-efficient material handling system for Indonesian warehouse operations
+299. Development of energy management maturity model for Indonesian industrial assessment
+300. Implementation of energy efficiency financing mechanism for Indonesian industrial sector
+
+CATEGORY 7: PLC & ELECTRICAL AUTOMATION (301-350)
+301. Design of PLC-based motor control center automation for Indonesian manufacturing plant
+302. Development of SCADA system for Indonesian industrial electrical distribution monitoring
+303. Implementation of PLC-based automatic transfer switch for Indonesian critical power system
+304. Design of PLC-based power factor correction controller for Indonesian industrial loads
+305. Development of PLC-based energy monitoring system for Indonesian factory management
+306. Implementation of PLC-based generator synchronization for Indonesian power plant
+307. Design of PLC-based motor protection and monitoring for Indonesian pump stations
+308. Development of PLC-based load management system for Indonesian industrial demand control
+309. Implementation of PLC-based lighting control for Indonesian industrial building automation
+310. Design of PLC-based capacitor bank switching controller for Indonesian power systems
+311. Development of PLC-based electrical safety interlock for Indonesian hazardous operations
+312. Implementation of PLC-based UPS monitoring and control for Indonesian data centers
+313. Design of PLC-based transformer monitoring system for Indonesian substation automation
+314. Development of PLC-based electrical maintenance scheduling for Indonesian industrial plants
+315. Implementation of PLC-based power quality monitoring for Indonesian sensitive equipment
+316. Design of PLC-based emergency power system control for Indonesian hospital facilities
+317. Development of PLC-based solar PV inverter control for Indonesian grid-tied systems
+318. Implementation of PLC-based battery management system for Indonesian energy storage
+319. Design of PLC-based electrical distribution automation for Indonesian industrial estate
+320. Development of PLC-based arc flash detection and protection for Indonesian switchgear
+321. Implementation of PLC-based motor soft starting sequence for Indonesian process plants
+322. Design of PLC-based electrical load shedding system for Indonesian industrial facilities
+323. Development of PLC-based power metering and billing for Indonesian industrial tenants
+324. Implementation of PLC-based generator load sharing control for Indonesian power plants
+325. Design of PLC-based electrical fault annunciation for Indonesian control room
+326. Development of PLC-based renewable energy integration control for Indonesian microgrids
+327. Implementation of PLC-based electrical preventive maintenance for Indonesian facilities
+328. Design of PLC-based motor variable speed control for Indonesian HVAC systems
+329. Development of PLC-based electrical safety monitoring for Indonesian mining operations
+330. Implementation of PLC-based power conditioning control for Indonesian sensitive loads
+331. Design of PLC-based electrical distribution switching for Indonesian substation operations
+332. Development of PLC-based energy optimization control for Indonesian building systems
+333. Implementation of PLC-based electrical testing automation for Indonesian panel manufacturers
+334. Design of PLC-based generator excitation control for Indonesian small power plants
+335. Development of PLC-based electrical asset management for Indonesian utility operations
+336. Implementation of PLC-based demand response control for Indonesian industrial participation
+337. Design of PLC-based electrical protection coordination for Indonesian industrial networks
+338. Development of PLC-based smart grid interface for Indonesian prosumer installations
+339. Implementation of PLC-based electrical commissioning automation for Indonesian projects
+340. Design of PLC-based motor drive coordination for Indonesian multi-drive systems
+341. Development of PLC-based electrical energy storage control for Indonesian peak management
+342. Implementation of PLC-based power system restoration for Indonesian blackout recovery
+343. Design of PLC-based electrical monitoring for Indonesian renewable energy plants
+344. Development of PLC-based electrical safety system for Indonesian laboratory facilities
+345. Implementation of PLC-based transformer tap changer control for Indonesian voltage regulation
+346. Design of PLC-based electrical load balancing for Indonesian three-phase systems
+347. Development of PLC-based electrical fire detection for Indonesian industrial buildings
+348. Implementation of PLC-based power quality improvement control for Indonesian industries
+349. Design of PLC-based electrical system simulation for Indonesian training applications
+350. Development of PLC-based smart electrical panel for Indonesian Industry 4.0 integration
+
+CATEGORY 8: POWER QUALITY & HARMONICS (351-400)
+351. Analysis of harmonic distortion sources in Indonesian industrial variable speed drive systems
+352. Development of active harmonic filter sizing methodology for Indonesian manufacturing plants
+353. Implementation of harmonic measurement and monitoring for Indonesian power quality assessment
+354. Design of passive harmonic filter for Indonesian industrial six-pulse rectifier loads
+355. Analysis of voltage sag characterization in Indonesian industrial distribution networks
+356. Development of power quality improvement strategy for Indonesian semiconductor facilities
+357. Implementation of harmonic mitigation using multi-pulse rectifier for Indonesian drives
+358. Design of dynamic voltage restorer for Indonesian sensitive industrial load protection
+359. Analysis of inter-harmonic generation from Indonesian industrial cycloconverter drives
+360. Development of power quality monitoring system for Indonesian industrial estate management
+361. Implementation of IEEE 519 compliance assessment for Indonesian industrial installations
+362. Design of hybrid active-passive filter for Indonesian industrial harmonic compensation
+363. Analysis of voltage flicker from Indonesian arc furnace and welding operations
+364. Development of harmonic resonance analysis for Indonesian industrial capacitor bank systems
+365. Implementation of power quality audit methodology for Indonesian industrial facilities
+366. Design of series active filter for Indonesian voltage harmonic compensation
+367. Analysis of neutral current harmonics in Indonesian commercial building installations
+368. Development of power quality benchmarking for Indonesian industrial sector comparison
+369. Implementation of harmonic-free UPS system for Indonesian critical load applications
+370. Design of tuned harmonic filter for Indonesian industrial specific harmonic orders
+371. Analysis of power quality impact from Indonesian solar PV inverter harmonics
+372. Development of real-time power quality monitoring for Indonesian smart grid applications
+373. Implementation of voltage regulation improvement for Indonesian weak distribution networks
+374. Design of active power conditioner for Indonesian industrial power quality improvement
+375. Analysis of harmonic heating effect on Indonesian industrial transformer and cable
+376. Development of power quality standard compliance framework for Indonesian industries
+377. Implementation of harmonic current injection method for Indonesian active filter control
+378. Design of power quality improvement for Indonesian hospital sensitive medical equipment
+379. Analysis of voltage unbalance impact on Indonesian industrial three-phase motor loads
+380. Development of power quality event classification using AI for Indonesian monitoring
+381. Implementation of harmonic mitigation for Indonesian LED lighting large installations
+382. Design of power quality improvement for Indonesian data center IT equipment
+383. Analysis of supraharmonic emission from Indonesian modern power electronic equipment
+384. Development of power quality cost assessment for Indonesian industrial economic impact
+385. Implementation of voltage sag mitigation using DSTATCOM for Indonesian industries
+386. Design of harmonic filter for Indonesian electric vehicle charging station
+387. Analysis of power quality interaction between Indonesian industrial and utility systems
+388. Development of power quality prediction model for Indonesian industrial load changes
+389. Implementation of harmonic sharing control for Indonesian parallel inverter systems
+390. Design of power quality improvement for Indonesian renewable energy grid connection
+391. Analysis of transient overvoltage in Indonesian industrial capacitor switching operations
+392. Development of power quality management system for Indonesian industrial facility
+393. Implementation of harmonic compensation using distributed generation for Indonesian networks
+394. Design of power quality monitoring network for Indonesian industrial estate
+395. Analysis of power quality impact from Indonesian electric arc welding operations
+396. Development of harmonic distortion prediction for Indonesian industrial system planning
+397. Implementation of voltage quality improvement for Indonesian rural distribution networks
+398. Design of power quality improvement for Indonesian marine vessel electrical system
+399. Analysis of power quality compliance testing for Indonesian electrical equipment
+400. Development of power quality digital twin for Indonesian industrial system optimization
+
+CATEGORY 9: SMART GRID & MICROGRID (401-450)
+401. Design of microgrid control system for Indonesian industrial estate islanding operation
+402. Development of demand response program for Indonesian industrial electricity consumers
+403. Implementation of advanced metering infrastructure for Indonesian industrial energy management
+404. Design of battery energy storage system for Indonesian microgrid frequency regulation
+405. Development of distributed generation management for Indonesian industrial park operation
+406. Implementation of smart inverter control for Indonesian distribution network voltage support
+407. Design of microgrid protection scheme for Indonesian islanded and grid-connected modes
+408. Development of peer-to-peer energy trading platform for Indonesian industrial prosumers
+409. Implementation of load forecasting using AI for Indonesian industrial demand prediction
+410. Design of hybrid AC-DC microgrid for Indonesian industrial and commercial applications
+411. Development of microgrid energy management system for Indonesian remote island community
+412. Implementation of vehicle-to-grid integration for Indonesian industrial parking facilities
+413. Design of community microgrid for Indonesian rural electrification program
+414. Development of optimal power flow algorithm for Indonesian distribution network with DG
+415. Implementation of fault detection and isolation for Indonesian smart distribution grid
+416. Design of energy storage dispatch strategy for Indonesian industrial peak management
+417. Development of microgrid black start capability for Indonesian critical facility resilience
+418. Implementation of distribution automation for Indonesian PLN smart grid modernization
+419. Design of DC microgrid for Indonesian data center and telecom applications
+420. Development of transactive energy framework for Indonesian distributed energy resources
+421. Implementation of microgrid stability analysis for Indonesian high-penetration renewable
+422. Design of smart charging system for Indonesian electric vehicle fleet management
+423. Development of distribution system state estimation for Indonesian smart grid monitoring
+424. Implementation of microgrid economic dispatch for Indonesian multi-source optimization
+425. Design of resilient microgrid for Indonesian disaster-prone area power supply
+426. Development of blockchain-based energy management for Indonesian community microgrid
+427. Implementation of adaptive protection for Indonesian distribution network with microgrids
+428. Design of hybrid energy storage system for Indonesian microgrid power quality
+429. Development of virtual power plant concept for Indonesian distributed energy aggregation
+430. Implementation of smart grid communication network for Indonesian distribution automation
+431. Design of microgrid controller for Indonesian hospital critical power resilience
+432. Development of distribution network planning with DG for Indonesian load growth
+433. Implementation of smart meter data analytics for Indonesian industrial energy insight
+434. Design of mobile microgrid for Indonesian disaster emergency power supply
+435. Development of microgrid sizing optimization for Indonesian remote industrial site
+436. Implementation of grid-forming inverter control for Indonesian weak grid applications
+437. Design of smart substation automation for Indonesian distribution network modernization
+438. Development of cyber-physical security for Indonesian smart grid infrastructure
+439. Implementation of microgrid power sharing control for Indonesian parallel inverter operation
+440. Design of smart grid voltage regulation for Indonesian high-PV-penetration feeder
+441. Development of distribution network fault management for Indonesian self-healing grid
+442. Implementation of microgrid transition control for Indonesian seamless mode switching
+443. Design of smart grid asset management for Indonesian distribution equipment optimization
+444. Development of microgrid ancillary service for Indonesian main grid support
+445. Implementation of smart grid data management for Indonesian utility big data analytics
+446. Design of networked microgrid for Indonesian industrial cluster energy sharing
+447. Development of distribution network hosting capacity for Indonesian renewable integration
+448. Implementation of smart grid cybersecurity for Indonesian critical infrastructure protection
+449. Design of microgrid for Indonesian electric vehicle fast charging station
+450. Development of smart grid regulatory framework for Indonesian energy transition support
+
+CATEGORY 10: ELECTRICAL SAFETY & STANDARDS (451-500)
+451. Development of arc flash hazard assessment methodology for Indonesian industrial facilities
+452. Implementation of electrical safety program for Indonesian manufacturing plant compliance
+453. Analysis of grounding system design for Indonesian industrial lightning protection
+454. Design of equipotential bonding system for Indonesian hazardous area installations
+455. Development of lockout/tagout procedure for Indonesian industrial electrical maintenance
+456. Implementation of electrical safety audit for Indonesian industrial facility assessment
+457. Analysis of touch and step voltage in Indonesian industrial grounding systems
+458. Design of electrical safety training program for Indonesian industrial workforce
+459. Development of personal protective equipment selection for Indonesian electrical workers
+460. Implementation of electrical safety management system for Indonesian industrial operations
+461. Analysis of electrical fire risk assessment for Indonesian industrial buildings
+462. Design of residual current device coordination for Indonesian industrial installations
+463. Development of electrical safety inspection checklist for Indonesian regulatory compliance
+464. Implementation of safe work procedure for Indonesian live electrical maintenance
+465. Analysis of electromagnetic field exposure in Indonesian industrial electrical environments
+466. Design of electrical safety signage system for Indonesian industrial facility
+467. Development of electrical incident investigation methodology for Indonesian industrial safety
+468. Implementation of electrical safety culture improvement for Indonesian manufacturing sector
+469. Analysis of cable fire propagation in Indonesian industrial cable tray installations
+470. Design of electrical safety interlock system for Indonesian machine guarding
+471. Development of electrical safety risk assessment for Indonesian construction site
+472. Implementation of PUIL 2011 compliance verification for Indonesian electrical installations
+473. Analysis of electrical safety in Indonesian wet and corrosive industrial environments
+474. Design of temporary electrical installation safety for Indonesian construction projects
+475. Development of electrical safety performance indicator for Indonesian industrial benchmarking
+476. Implementation of electrical safety for Indonesian rooftop solar PV maintenance
+477. Analysis of electrical hazard from Indonesian industrial battery charging operations
+478. Design of electrical safety system for Indonesian swimming pool and water park
+479. Development of electrical safety standard for Indonesian electric vehicle charging
+480. Implementation of electrical safety for Indonesian laboratory and research facilities
+481. Analysis of static electricity hazard in Indonesian flammable atmosphere environments
+482. Design of electrical safety for Indonesian medical facility critical systems
+483. Development of electrical safety competency framework for Indonesian industrial personnel
+484. Implementation of electrical safety for Indonesian telecommunications tower maintenance
+485. Analysis of electrical safety in Indonesian agricultural irrigation pump installations
+486. Design of electrical safety system for Indonesian marine vessel shore connection
+487. Development of electrical safety for Indonesian renewable energy system maintenance
+488. Implementation of electrical safety audit for Indonesian industrial estate management
+489. Analysis of electrical safety in Indonesian mining underground operations
+490. Design of electrical safety for Indonesian food processing wet area installations
+491. Development of electrical safety standard for Indonesian smart home installations
+492. Implementation of electrical safety for Indonesian industrial robot cell operations
+493. Analysis of electrical safety in Indonesian high-voltage testing laboratory
+494. Design of electrical safety for Indonesian outdoor event temporary installations
+495. Development of electrical safety management for Indonesian multi-tenant industrial building
+496. Implementation of electrical safety for Indonesian battery energy storage systems
+497. Analysis of electrical safety in Indonesian explosive dust atmosphere environments
+498. Design of electrical safety for Indonesian automated warehouse operations
+499. Development of electrical safety digital twin for Indonesian facility risk assessment
+500. Implementation of electrical safety IoT monitoring for Indonesian industrial compliance

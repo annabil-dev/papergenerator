@@ -1,12 +1,664 @@
 ================================================================================
-TOPIC GUIDE — Mathematics
+TOPIC GUIDE — Matematika (Mathematics)
 ================================================================================
 FIELD: Mathematics
 DEFAULT CITATION STYLE: APA or IEEE
+SUBDISCIPLINE: Pure mathematics, applied mathematics, numerical methods, optimization, topology, algebra, graph theory
 
-METHODOLOGY: theorem proving, numerical analysis, linear algebra, topology,
-  optimization theory, graph theory, mathematical modeling
-EQUATIONS: proofs, differential equations, matrix algebra, optimization conditions
-FIGURES: geometric visualization, graph/network diagram, numerical convergence plot
-TABLES: numerical results comparison, algorithm iteration table, error analysis
-VENUES: J. American Mathematical Society, Advances in Mathematics, SIAM Journal
+COMMON REFERENCE VENUES:
+  Journal of the American Mathematical Society, Advances in Mathematics, SIAM Journal on Numerical Analysis, Annals of Mathematics
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature related to the user's topic
+   - Reference recent works (2020-2025) that establish what is known
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame the gap as a researchable question with measurable outcomes
+   - Ensure the gap targets Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine the user's idea into a publishable research title
+   - The title must be specific, include method and application domain
+   - Target journals listed in COMMON REFERENCE VENUES below
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Use cutting-edge methods appropriate to the subdiscipline
+   - Include complete algorithmic steps or research procedures
+   - Specify all tools, software, versions, and configurations
+   - Detail parameters, validation strategy, and reproducibility measures
+
+4. ESTIMATED DATA & RESULTS:
+   - Provide realistic estimated data tables (10-30 data points)
+   - Include statistical measures: mean, std, 95% CI
+   - Performance/accuracy metrics appropriate to the method
+   - Comparison with 3-5 baseline/state-of-the-art methods
+   - All numbers must be realistic, internally consistent, and domain-appropriate
+   - Data must support the research conclusions logically
+
+5. MATHEMATICAL FORMULAS:
+   - Include 5-10 relevant formulas with full variable definitions
+   - Show derivations or justifications where appropriate
+   - Connect formulas to the methodology and results
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - Minimum 25-30 references organized thematically
+   - Structure: (a) foundational theories, (b) recent advances 2020-2025, (c) limitations
+   - Each subsection MUST end with: "However, no study has addressed..."
+   - Use synthesis paragraphs, not citation lists
+   - Include Indonesian/Southeast Asian context where relevant
+
+7. COMPLETE PAPER STRUCTURE:
+   - Title, Abstract (200-250 words), Keywords (5-7)
+   - Introduction (1500-2000 words)
+   - Literature Review (2000-3000 words)
+   - Methodology (2000-3000 words with formulas)
+   - Results & Discussion (2000-3000 words with tables and figure descriptions)
+   - Conclusion (500-800 words)
+   - References (30+ entries, 60%+ from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+================================================================================
+DOMAIN-SPECIFIC GUIDANCE
+================================================================================
+
+ABSTRACT CHARACTERISTICS:
+  150–250 words. State the problem, domain-specific gap, dataset/sample/object, method, quantitative result pattern, and significance.
+  Prefer concrete variables, measurable outcomes, uncertainty, and practical implication.
+
+INTRODUCTION ELEMENTS:
+  - Define the scientific or mathematical problem and why it matters.
+  - Summarize established theory, empirical context, and limitations of prior work.
+  - Identify a precise knowledge gap, hypothesis, theorem claim, or modeling objective.
+  - End with research questions, contributions, and paper structure.
+
+LITERATURE REVIEW:
+  Common section name: "Literature Review" / "Background" / "Related Work"
+  - Organize by concepts, methods, applications, and unresolved debates.
+  - Compare classical foundations with recent computational or empirical approaches.
+  - Highlight assumptions, datasets, instruments, proofs, or validation strategies.
+  - Close each subsection with synthesis rather than a list of citations.
+
+METHODOLOGY:
+  theorem proving, numerical analysis, linear algebra, topology, optimization theory, graph theory, mathematical modeling
+  Report design, data/source/sample, variables, instruments/software, parameters, validation, and reproducibility steps.
+  Include ethical approval, preregistration, or open-science artifacts when relevant.
+
+EQUATIONS AND FORMULAS:
+  proofs, differential equations, matrix algebra, optimization conditions, fixed point theorems, spectral decompositions
+
+TYPICAL FIGURES:
+  - Main workflow or conceptual diagram.
+  - Primary result visualization with confidence or uncertainty information.
+  - Diagnostic, residual, convergence, sensitivity, or validation plot.
+  - Comparative figure against baseline theory, model, or prior study.
+  - Geometric visualization, graph/network diagram, numerical convergence plot, phase portrait, bifurcation diagram.
+
+TYPICAL TABLES:
+  - Dataset/sample/instrument/proof-condition summary.
+  - Parameter, coefficient, theorem condition, or model specification table.
+  - Performance, uncertainty, robustness, or ablation comparison table.
+  - Numerical results comparison, algorithm iteration table, error analysis, theorem condition matrix.
+
+RESULTS & DISCUSSION:
+  - Present core estimates, proofs, simulations, experimental measurements, or classification outcomes first.
+  - Quantify uncertainty, error, sensitivity, robustness, and boundary conditions.
+  - Compare with theoretical expectations and previous literature.
+  - Discuss mechanisms, limitations, threats to validity, and external generalizability.
+
+CONCLUSION CHARACTERISTICS:
+  - Answer the research question directly.
+  - State contribution to theory, method, evidence, or application.
+  - Note limitations and responsible interpretation.
+  - Recommend concrete follow-up studies, validation, or extensions.
+
+DOMAIN VOCABULARY:
+  lemma, theorem, corollary, compactness, convergence, eigenvalue, manifold, homomorphism, convexity, stability, discretization, asymptotic bound, fixed point, invariant
+
+METHODOLOGY KEYWORDS:
+  theorem proving, numerical analysis, linear algebra, topology, optimization theory, graph theory, mathematical modeling
+
+================================================================================
+RESEARCH TOPICS — 500 TOPICS IN 10 CATEGORIES
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 1: ALGEBRA (001–050)
+────────────────────────────────────────────────────────────────────────────────
+001. systematic review of finite group classification examples in Indonesian cohorts
+002. comparative analysis of finite group classification examples using open datasets
+003. Bayesian assessment of finite group classification examples under resource-limited settings
+004. machine learning prediction of finite group classification examples with uncertainty quantification
+005. longitudinal study of finite group classification examples for policy or clinical decision support
+006. systematic review of module decomposition over PID in Indonesian cohorts
+007. comparative analysis of module decomposition over PID using open datasets
+008. Bayesian assessment of module decomposition over PID under resource-limited settings
+009. machine learning prediction of module decomposition over PID with uncertainty quantification
+010. longitudinal study of module decomposition over PID for policy or clinical decision support
+011. systematic review of Galois group computation in Indonesian cohorts
+012. comparative analysis of Galois group computation using open datasets
+013. Bayesian assessment of Galois group computation under resource-limited settings
+014. machine learning prediction of Galois group computation with uncertainty quantification
+015. longitudinal study of Galois group computation for policy or clinical decision support
+016. systematic review of ring ideal structure in Indonesian cohorts
+017. comparative analysis of ring ideal structure using open datasets
+018. Bayesian assessment of ring ideal structure under resource-limited settings
+019. machine learning prediction of ring ideal structure with uncertainty quantification
+020. longitudinal study of ring ideal structure for policy or clinical decision support
+021. systematic review of Lie algebra representations in Indonesian cohorts
+022. comparative analysis of Lie algebra representations using open datasets
+023. Bayesian assessment of Lie algebra representations under resource-limited settings
+024. machine learning prediction of Lie algebra representations with uncertainty quantification
+025. longitudinal study of Lie algebra representations for policy or clinical decision support
+026. systematic review of commutative algebra depth in Indonesian cohorts
+027. comparative analysis of commutative algebra depth using open datasets
+028. Bayesian assessment of commutative algebra depth under resource-limited settings
+029. machine learning prediction of commutative algebra depth with uncertainty quantification
+030. longitudinal study of commutative algebra depth for policy or clinical decision support
+031. systematic review of homological algebra extensions in Indonesian cohorts
+032. comparative analysis of homological algebra extensions using open datasets
+033. Bayesian assessment of homological algebra extensions under resource-limited settings
+034. machine learning prediction of homological algebra extensions with uncertainty quantification
+035. longitudinal study of homological algebra extensions for policy or clinical decision support
+036. systematic review of semigroup identities in Indonesian cohorts
+037. comparative analysis of semigroup identities using open datasets
+038. Bayesian assessment of semigroup identities under resource-limited settings
+039. machine learning prediction of semigroup identities with uncertainty quantification
+040. longitudinal study of semigroup identities for policy or clinical decision support
+041. systematic review of algebraic coding structures in Indonesian cohorts
+042. comparative analysis of algebraic coding structures using open datasets
+043. Bayesian assessment of algebraic coding structures under resource-limited settings
+044. machine learning prediction of algebraic coding structures with uncertainty quantification
+045. longitudinal study of algebraic coding structures for policy or clinical decision support
+046. systematic review of category theoretic adjunctions in Indonesian cohorts
+047. comparative analysis of category theoretic adjunctions using open datasets
+048. Bayesian assessment of category theoretic adjunctions under resource-limited settings
+049. machine learning prediction of category theoretic adjunctions with uncertainty quantification
+050. longitudinal study of category theoretic adjunctions for policy or clinical decision support
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 2: ANALYSIS (051–100)
+────────────────────────────────────────────────────────────────────────────────
+051. systematic review of Sobolev embedding applications in Indonesian cohorts
+052. comparative analysis of Sobolev embedding applications using open datasets
+053. Bayesian assessment of Sobolev embedding applications under resource-limited settings
+054. machine learning prediction of Sobolev embedding applications with uncertainty quantification
+055. longitudinal study of Sobolev embedding applications for policy or clinical decision support
+056. systematic review of Fourier series convergence in Indonesian cohorts
+057. comparative analysis of Fourier series convergence using open datasets
+058. Bayesian assessment of Fourier series convergence under resource-limited settings
+059. machine learning prediction of Fourier series convergence with uncertainty quantification
+060. longitudinal study of Fourier series convergence for policy or clinical decision support
+061. systematic review of Banach fixed point variants in Indonesian cohorts
+062. comparative analysis of Banach fixed point variants using open datasets
+063. Bayesian assessment of Banach fixed point variants under resource-limited settings
+064. machine learning prediction of Banach fixed point variants with uncertainty quantification
+065. longitudinal study of Banach fixed point variants for policy or clinical decision support
+066. systematic review of measure convergence theorems in Indonesian cohorts
+067. comparative analysis of measure convergence theorems using open datasets
+068. Bayesian assessment of measure convergence theorems under resource-limited settings
+069. machine learning prediction of measure convergence theorems with uncertainty quantification
+070. longitudinal study of measure convergence theorems for policy or clinical decision support
+071. systematic review of operator norm estimates in Indonesian cohorts
+072. comparative analysis of operator norm estimates using open datasets
+073. Bayesian assessment of operator norm estimates under resource-limited settings
+074. machine learning prediction of operator norm estimates with uncertainty quantification
+075. longitudinal study of operator norm estimates for policy or clinical decision support
+076. systematic review of harmonic function boundary behavior in Indonesian cohorts
+077. comparative analysis of harmonic function boundary behavior using open datasets
+078. Bayesian assessment of harmonic function boundary behavior under resource-limited settings
+079. machine learning prediction of harmonic function boundary behavior with uncertainty quantification
+080. longitudinal study of harmonic function boundary behavior for policy or clinical decision support
+081. systematic review of fractional calculus models in Indonesian cohorts
+082. comparative analysis of fractional calculus models using open datasets
+083. Bayesian assessment of fractional calculus models under resource-limited settings
+084. machine learning prediction of fractional calculus models with uncertainty quantification
+085. longitudinal study of fractional calculus models for policy or clinical decision support
+086. systematic review of calculus of variations minimizers in Indonesian cohorts
+087. comparative analysis of calculus of variations minimizers using open datasets
+088. Bayesian assessment of calculus of variations minimizers under resource-limited settings
+089. machine learning prediction of calculus of variations minimizers with uncertainty quantification
+090. longitudinal study of calculus of variations minimizers for policy or clinical decision support
+091. systematic review of functional inequality refinements in Indonesian cohorts
+092. comparative analysis of functional inequality refinements using open datasets
+093. Bayesian assessment of functional inequality refinements under resource-limited settings
+094. machine learning prediction of functional inequality refinements with uncertainty quantification
+095. longitudinal study of functional inequality refinements for policy or clinical decision support
+096. systematic review of distribution theory applications in Indonesian cohorts
+097. comparative analysis of distribution theory applications using open datasets
+098. Bayesian assessment of distribution theory applications under resource-limited settings
+099. machine learning prediction of distribution theory applications with uncertainty quantification
+100. longitudinal study of distribution theory applications for policy or clinical decision support
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 3: TOPOLOGY GEOMETRY (101–150)
+────────────────────────────────────────────────────────────────────────────────
+101. systematic review of persistent homology stability in Indonesian cohorts
+102. comparative analysis of persistent homology stability using open datasets
+103. Bayesian assessment of persistent homology stability under resource-limited settings
+104. machine learning prediction of persistent homology stability with uncertainty quantification
+105. longitudinal study of persistent homology stability for policy or clinical decision support
+106. systematic review of knot invariant computation in Indonesian cohorts
+107. comparative analysis of knot invariant computation using open datasets
+108. Bayesian assessment of knot invariant computation under resource-limited settings
+109. machine learning prediction of knot invariant computation with uncertainty quantification
+110. longitudinal study of knot invariant computation for policy or clinical decision support
+111. systematic review of Riemannian curvature bounds in Indonesian cohorts
+112. comparative analysis of Riemannian curvature bounds using open datasets
+113. Bayesian assessment of Riemannian curvature bounds under resource-limited settings
+114. machine learning prediction of Riemannian curvature bounds with uncertainty quantification
+115. longitudinal study of Riemannian curvature bounds for policy or clinical decision support
+116. systematic review of manifold triangulation methods in Indonesian cohorts
+117. comparative analysis of manifold triangulation methods using open datasets
+118. Bayesian assessment of manifold triangulation methods under resource-limited settings
+119. machine learning prediction of manifold triangulation methods with uncertainty quantification
+120. longitudinal study of manifold triangulation methods for policy or clinical decision support
+121. systematic review of homotopy group examples in Indonesian cohorts
+122. comparative analysis of homotopy group examples using open datasets
+123. Bayesian assessment of homotopy group examples under resource-limited settings
+124. machine learning prediction of homotopy group examples with uncertainty quantification
+125. longitudinal study of homotopy group examples for policy or clinical decision support
+126. systematic review of fiber bundle classification in Indonesian cohorts
+127. comparative analysis of fiber bundle classification using open datasets
+128. Bayesian assessment of fiber bundle classification under resource-limited settings
+129. machine learning prediction of fiber bundle classification with uncertainty quantification
+130. longitudinal study of fiber bundle classification for policy or clinical decision support
+131. systematic review of geodesic flow dynamics in Indonesian cohorts
+132. comparative analysis of geodesic flow dynamics using open datasets
+133. Bayesian assessment of geodesic flow dynamics under resource-limited settings
+134. machine learning prediction of geodesic flow dynamics with uncertainty quantification
+135. longitudinal study of geodesic flow dynamics for policy or clinical decision support
+136. systematic review of metric space compactness in Indonesian cohorts
+137. comparative analysis of metric space compactness using open datasets
+138. Bayesian assessment of metric space compactness under resource-limited settings
+139. machine learning prediction of metric space compactness with uncertainty quantification
+140. longitudinal study of metric space compactness for policy or clinical decision support
+141. systematic review of orbifold singularity models in Indonesian cohorts
+142. comparative analysis of orbifold singularity models using open datasets
+143. Bayesian assessment of orbifold singularity models under resource-limited settings
+144. machine learning prediction of orbifold singularity models with uncertainty quantification
+145. longitudinal study of orbifold singularity models for policy or clinical decision support
+146. systematic review of topological data analysis in Indonesian cohorts
+147. comparative analysis of topological data analysis using open datasets
+148. Bayesian assessment of topological data analysis under resource-limited settings
+149. machine learning prediction of topological data analysis with uncertainty quantification
+150. longitudinal study of topological data analysis for policy or clinical decision support
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 4: NUMBER THEORY (151–200)
+────────────────────────────────────────────────────────────────────────────────
+151. systematic review of prime gap estimates in Indonesian cohorts
+152. comparative analysis of prime gap estimates using open datasets
+153. Bayesian assessment of prime gap estimates under resource-limited settings
+154. machine learning prediction of prime gap estimates with uncertainty quantification
+155. longitudinal study of prime gap estimates for policy or clinical decision support
+156. systematic review of elliptic curve ranks in Indonesian cohorts
+157. comparative analysis of elliptic curve ranks using open datasets
+158. Bayesian assessment of elliptic curve ranks under resource-limited settings
+159. machine learning prediction of elliptic curve ranks with uncertainty quantification
+160. longitudinal study of elliptic curve ranks for policy or clinical decision support
+161. systematic review of modular form coefficients in Indonesian cohorts
+162. comparative analysis of modular form coefficients using open datasets
+163. Bayesian assessment of modular form coefficients under resource-limited settings
+164. machine learning prediction of modular form coefficients with uncertainty quantification
+165. longitudinal study of modular form coefficients for policy or clinical decision support
+166. systematic review of Diophantine approximation bounds in Indonesian cohorts
+167. comparative analysis of Diophantine approximation bounds using open datasets
+168. Bayesian assessment of Diophantine approximation bounds under resource-limited settings
+169. machine learning prediction of Diophantine approximation bounds with uncertainty quantification
+170. longitudinal study of Diophantine approximation bounds for policy or clinical decision support
+171. systematic review of integer partition congruences in Indonesian cohorts
+172. comparative analysis of integer partition congruences using open datasets
+173. Bayesian assessment of integer partition congruences under resource-limited settings
+174. machine learning prediction of integer partition congruences with uncertainty quantification
+175. longitudinal study of integer partition congruences for policy or clinical decision support
+176. systematic review of cryptographic prime generation in Indonesian cohorts
+177. comparative analysis of cryptographic prime generation using open datasets
+178. Bayesian assessment of cryptographic prime generation under resource-limited settings
+179. machine learning prediction of cryptographic prime generation with uncertainty quantification
+180. longitudinal study of cryptographic prime generation for policy or clinical decision support
+181. systematic review of quadratic residue patterns in Indonesian cohorts
+182. comparative analysis of quadratic residue patterns using open datasets
+183. Bayesian assessment of quadratic residue patterns under resource-limited settings
+184. machine learning prediction of quadratic residue patterns with uncertainty quantification
+185. longitudinal study of quadratic residue patterns for policy or clinical decision support
+186. systematic review of zeta function zeros in Indonesian cohorts
+187. comparative analysis of zeta function zeros using open datasets
+188. Bayesian assessment of zeta function zeros under resource-limited settings
+189. machine learning prediction of zeta function zeros with uncertainty quantification
+190. longitudinal study of zeta function zeros for policy or clinical decision support
+191. systematic review of continued fraction dynamics in Indonesian cohorts
+192. comparative analysis of continued fraction dynamics using open datasets
+193. Bayesian assessment of continued fraction dynamics under resource-limited settings
+194. machine learning prediction of continued fraction dynamics with uncertainty quantification
+195. longitudinal study of continued fraction dynamics for policy or clinical decision support
+196. systematic review of lattice point counting in Indonesian cohorts
+197. comparative analysis of lattice point counting using open datasets
+198. Bayesian assessment of lattice point counting under resource-limited settings
+199. machine learning prediction of lattice point counting with uncertainty quantification
+200. longitudinal study of lattice point counting for policy or clinical decision support
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 5: DIFFERENTIAL EQUATIONS (201–250)
+────────────────────────────────────────────────────────────────────────────────
+201. systematic review of reaction diffusion stability in Indonesian cohorts
+202. comparative analysis of reaction diffusion stability using open datasets
+203. Bayesian assessment of reaction diffusion stability under resource-limited settings
+204. machine learning prediction of reaction diffusion stability with uncertainty quantification
+205. longitudinal study of reaction diffusion stability for policy or clinical decision support
+206. systematic review of delay differential models in Indonesian cohorts
+207. comparative analysis of delay differential models using open datasets
+208. Bayesian assessment of delay differential models under resource-limited settings
+209. machine learning prediction of delay differential models with uncertainty quantification
+210. longitudinal study of delay differential models for policy or clinical decision support
+211. systematic review of Navier-Stokes toy problems in Indonesian cohorts
+212. comparative analysis of Navier-Stokes toy problems using open datasets
+213. Bayesian assessment of Navier-Stokes toy problems under resource-limited settings
+214. machine learning prediction of Navier-Stokes toy problems with uncertainty quantification
+215. longitudinal study of Navier-Stokes toy problems for policy or clinical decision support
+216. systematic review of Hamiltonian system invariants in Indonesian cohorts
+217. comparative analysis of Hamiltonian system invariants using open datasets
+218. Bayesian assessment of Hamiltonian system invariants under resource-limited settings
+219. machine learning prediction of Hamiltonian system invariants with uncertainty quantification
+220. longitudinal study of Hamiltonian system invariants for policy or clinical decision support
+221. systematic review of PDE finite element convergence in Indonesian cohorts
+222. comparative analysis of PDE finite element convergence using open datasets
+223. Bayesian assessment of PDE finite element convergence under resource-limited settings
+224. machine learning prediction of PDE finite element convergence with uncertainty quantification
+225. longitudinal study of PDE finite element convergence for policy or clinical decision support
+226. systematic review of soliton solution analysis in Indonesian cohorts
+227. comparative analysis of soliton solution analysis using open datasets
+228. Bayesian assessment of soliton solution analysis under resource-limited settings
+229. machine learning prediction of soliton solution analysis with uncertainty quantification
+230. longitudinal study of soliton solution analysis for policy or clinical decision support
+231. systematic review of stochastic differential equations in Indonesian cohorts
+232. comparative analysis of stochastic differential equations using open datasets
+233. Bayesian assessment of stochastic differential equations under resource-limited settings
+234. machine learning prediction of stochastic differential equations with uncertainty quantification
+235. longitudinal study of stochastic differential equations for policy or clinical decision support
+236. systematic review of boundary layer asymptotics in Indonesian cohorts
+237. comparative analysis of boundary layer asymptotics using open datasets
+238. Bayesian assessment of boundary layer asymptotics under resource-limited settings
+239. machine learning prediction of boundary layer asymptotics with uncertainty quantification
+240. longitudinal study of boundary layer asymptotics for policy or clinical decision support
+241. systematic review of epidemic ODE thresholds in Indonesian cohorts
+242. comparative analysis of epidemic ODE thresholds using open datasets
+243. Bayesian assessment of epidemic ODE thresholds under resource-limited settings
+244. machine learning prediction of epidemic ODE thresholds with uncertainty quantification
+245. longitudinal study of epidemic ODE thresholds for policy or clinical decision support
+246. systematic review of optimal control equations in Indonesian cohorts
+247. comparative analysis of optimal control equations using open datasets
+248. Bayesian assessment of optimal control equations under resource-limited settings
+249. machine learning prediction of optimal control equations with uncertainty quantification
+250. longitudinal study of optimal control equations for policy or clinical decision support
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 6: NUMERICAL MATHEMATICS (251–300)
+────────────────────────────────────────────────────────────────────────────────
+251. systematic review of adaptive mesh refinement in Indonesian cohorts
+252. comparative analysis of adaptive mesh refinement using open datasets
+253. Bayesian assessment of adaptive mesh refinement under resource-limited settings
+254. machine learning prediction of adaptive mesh refinement with uncertainty quantification
+255. longitudinal study of adaptive mesh refinement for policy or clinical decision support
+256. systematic review of Runge-Kutta stability in Indonesian cohorts
+257. comparative analysis of Runge-Kutta stability using open datasets
+258. Bayesian assessment of Runge-Kutta stability under resource-limited settings
+259. machine learning prediction of Runge-Kutta stability with uncertainty quantification
+260. longitudinal study of Runge-Kutta stability for policy or clinical decision support
+261. systematic review of finite volume conservation in Indonesian cohorts
+262. comparative analysis of finite volume conservation using open datasets
+263. Bayesian assessment of finite volume conservation under resource-limited settings
+264. machine learning prediction of finite volume conservation with uncertainty quantification
+265. longitudinal study of finite volume conservation for policy or clinical decision support
+266. systematic review of matrix preconditioner design in Indonesian cohorts
+267. comparative analysis of matrix preconditioner design using open datasets
+268. Bayesian assessment of matrix preconditioner design under resource-limited settings
+269. machine learning prediction of matrix preconditioner design with uncertainty quantification
+270. longitudinal study of matrix preconditioner design for policy or clinical decision support
+271. systematic review of spectral method accuracy in Indonesian cohorts
+272. comparative analysis of spectral method accuracy using open datasets
+273. Bayesian assessment of spectral method accuracy under resource-limited settings
+274. machine learning prediction of spectral method accuracy with uncertainty quantification
+275. longitudinal study of spectral method accuracy for policy or clinical decision support
+276. systematic review of Monte Carlo integration error in Indonesian cohorts
+277. comparative analysis of Monte Carlo integration error using open datasets
+278. Bayesian assessment of Monte Carlo integration error under resource-limited settings
+279. machine learning prediction of Monte Carlo integration error with uncertainty quantification
+280. longitudinal study of Monte Carlo integration error for policy or clinical decision support
+281. systematic review of iterative solver convergence in Indonesian cohorts
+282. comparative analysis of iterative solver convergence using open datasets
+283. Bayesian assessment of iterative solver convergence under resource-limited settings
+284. machine learning prediction of iterative solver convergence with uncertainty quantification
+285. longitudinal study of iterative solver convergence for policy or clinical decision support
+286. systematic review of roundoff error propagation in Indonesian cohorts
+287. comparative analysis of roundoff error propagation using open datasets
+288. Bayesian assessment of roundoff error propagation under resource-limited settings
+289. machine learning prediction of roundoff error propagation with uncertainty quantification
+290. longitudinal study of roundoff error propagation for policy or clinical decision support
+291. systematic review of multigrid performance in Indonesian cohorts
+292. comparative analysis of multigrid performance using open datasets
+293. Bayesian assessment of multigrid performance under resource-limited settings
+294. machine learning prediction of multigrid performance with uncertainty quantification
+295. longitudinal study of multigrid performance for policy or clinical decision support
+296. systematic review of automatic differentiation methods in Indonesian cohorts
+297. comparative analysis of automatic differentiation methods using open datasets
+298. Bayesian assessment of automatic differentiation methods under resource-limited settings
+299. machine learning prediction of automatic differentiation methods with uncertainty quantification
+300. longitudinal study of automatic differentiation methods for policy or clinical decision support
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 7: OPTIMIZATION (301–350)
+────────────────────────────────────────────────────────────────────────────────
+301. systematic review of convex duality applications in Indonesian cohorts
+302. comparative analysis of convex duality applications using open datasets
+303. Bayesian assessment of convex duality applications under resource-limited settings
+304. machine learning prediction of convex duality applications with uncertainty quantification
+305. longitudinal study of convex duality applications for policy or clinical decision support
+306. systematic review of integer programming relaxations in Indonesian cohorts
+307. comparative analysis of integer programming relaxations using open datasets
+308. Bayesian assessment of integer programming relaxations under resource-limited settings
+309. machine learning prediction of integer programming relaxations with uncertainty quantification
+310. longitudinal study of integer programming relaxations for policy or clinical decision support
+311. systematic review of gradient descent rates in Indonesian cohorts
+312. comparative analysis of gradient descent rates using open datasets
+313. Bayesian assessment of gradient descent rates under resource-limited settings
+314. machine learning prediction of gradient descent rates with uncertainty quantification
+315. longitudinal study of gradient descent rates for policy or clinical decision support
+316. systematic review of stochastic optimization variance in Indonesian cohorts
+317. comparative analysis of stochastic optimization variance using open datasets
+318. Bayesian assessment of stochastic optimization variance under resource-limited settings
+319. machine learning prediction of stochastic optimization variance with uncertainty quantification
+320. longitudinal study of stochastic optimization variance for policy or clinical decision support
+321. systematic review of multiobjective Pareto fronts in Indonesian cohorts
+322. comparative analysis of multiobjective Pareto fronts using open datasets
+323. Bayesian assessment of multiobjective Pareto fronts under resource-limited settings
+324. machine learning prediction of multiobjective Pareto fronts with uncertainty quantification
+325. longitudinal study of multiobjective Pareto fronts for policy or clinical decision support
+326. systematic review of semidefinite programming bounds in Indonesian cohorts
+327. comparative analysis of semidefinite programming bounds using open datasets
+328. Bayesian assessment of semidefinite programming bounds under resource-limited settings
+329. machine learning prediction of semidefinite programming bounds with uncertainty quantification
+330. longitudinal study of semidefinite programming bounds for policy or clinical decision support
+331. systematic review of sparse regularization models in Indonesian cohorts
+332. comparative analysis of sparse regularization models using open datasets
+333. Bayesian assessment of sparse regularization models under resource-limited settings
+334. machine learning prediction of sparse regularization models with uncertainty quantification
+335. longitudinal study of sparse regularization models for policy or clinical decision support
+336. systematic review of network flow optimization in Indonesian cohorts
+337. comparative analysis of network flow optimization using open datasets
+338. Bayesian assessment of network flow optimization under resource-limited settings
+339. machine learning prediction of network flow optimization with uncertainty quantification
+340. longitudinal study of network flow optimization for policy or clinical decision support
+341. systematic review of constraint qualification tests in Indonesian cohorts
+342. comparative analysis of constraint qualification tests using open datasets
+343. Bayesian assessment of constraint qualification tests under resource-limited settings
+344. machine learning prediction of constraint qualification tests with uncertainty quantification
+345. longitudinal study of constraint qualification tests for policy or clinical decision support
+346. systematic review of robust optimization uncertainty in Indonesian cohorts
+347. comparative analysis of robust optimization uncertainty using open datasets
+348. Bayesian assessment of robust optimization uncertainty under resource-limited settings
+349. machine learning prediction of robust optimization uncertainty with uncertainty quantification
+350. longitudinal study of robust optimization uncertainty for policy or clinical decision support
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 8: GRAPH THEORY (351–400)
+────────────────────────────────────────────────────────────────────────────────
+351. systematic review of graph coloring bounds in Indonesian cohorts
+352. comparative analysis of graph coloring bounds using open datasets
+353. Bayesian assessment of graph coloring bounds under resource-limited settings
+354. machine learning prediction of graph coloring bounds with uncertainty quantification
+355. longitudinal study of graph coloring bounds for policy or clinical decision support
+356. systematic review of spectral graph clustering in Indonesian cohorts
+357. comparative analysis of spectral graph clustering using open datasets
+358. Bayesian assessment of spectral graph clustering under resource-limited settings
+359. machine learning prediction of spectral graph clustering with uncertainty quantification
+360. longitudinal study of spectral graph clustering for policy or clinical decision support
+361. systematic review of random graph thresholds in Indonesian cohorts
+362. comparative analysis of random graph thresholds using open datasets
+363. Bayesian assessment of random graph thresholds under resource-limited settings
+364. machine learning prediction of random graph thresholds with uncertainty quantification
+365. longitudinal study of random graph thresholds for policy or clinical decision support
+366. systematic review of domination number algorithms in Indonesian cohorts
+367. comparative analysis of domination number algorithms using open datasets
+368. Bayesian assessment of domination number algorithms under resource-limited settings
+369. machine learning prediction of domination number algorithms with uncertainty quantification
+370. longitudinal study of domination number algorithms for policy or clinical decision support
+371. systematic review of planar graph embeddings in Indonesian cohorts
+372. comparative analysis of planar graph embeddings using open datasets
+373. Bayesian assessment of planar graph embeddings under resource-limited settings
+374. machine learning prediction of planar graph embeddings with uncertainty quantification
+375. longitudinal study of planar graph embeddings for policy or clinical decision support
+376. systematic review of community detection metrics in Indonesian cohorts
+377. comparative analysis of community detection metrics using open datasets
+378. Bayesian assessment of community detection metrics under resource-limited settings
+379. machine learning prediction of community detection metrics with uncertainty quantification
+380. longitudinal study of community detection metrics for policy or clinical decision support
+381. systematic review of matching theory applications in Indonesian cohorts
+382. comparative analysis of matching theory applications using open datasets
+383. Bayesian assessment of matching theory applications under resource-limited settings
+384. machine learning prediction of matching theory applications with uncertainty quantification
+385. longitudinal study of matching theory applications for policy or clinical decision support
+386. systematic review of network resilience measures in Indonesian cohorts
+387. comparative analysis of network resilience measures using open datasets
+388. Bayesian assessment of network resilience measures under resource-limited settings
+389. machine learning prediction of network resilience measures with uncertainty quantification
+390. longitudinal study of network resilience measures for policy or clinical decision support
+391. systematic review of hypergraph partitioning in Indonesian cohorts
+392. comparative analysis of hypergraph partitioning using open datasets
+393. Bayesian assessment of hypergraph partitioning under resource-limited settings
+394. machine learning prediction of hypergraph partitioning with uncertainty quantification
+395. longitudinal study of hypergraph partitioning for policy or clinical decision support
+396. systematic review of directed acyclic graph models in Indonesian cohorts
+397. comparative analysis of directed acyclic graph models using open datasets
+398. Bayesian assessment of directed acyclic graph models under resource-limited settings
+399. machine learning prediction of directed acyclic graph models with uncertainty quantification
+400. longitudinal study of directed acyclic graph models for policy or clinical decision support
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 9: PROBABILITY MATHEMATICS (401–450)
+────────────────────────────────────────────────────────────────────────────────
+401. systematic review of martingale stopping times in Indonesian cohorts
+402. comparative analysis of martingale stopping times using open datasets
+403. Bayesian assessment of martingale stopping times under resource-limited settings
+404. machine learning prediction of martingale stopping times with uncertainty quantification
+405. longitudinal study of martingale stopping times for policy or clinical decision support
+406. systematic review of Markov chain mixing in Indonesian cohorts
+407. comparative analysis of Markov chain mixing using open datasets
+408. Bayesian assessment of Markov chain mixing under resource-limited settings
+409. machine learning prediction of Markov chain mixing with uncertainty quantification
+410. longitudinal study of Markov chain mixing for policy or clinical decision support
+411. systematic review of random walk hitting times in Indonesian cohorts
+412. comparative analysis of random walk hitting times using open datasets
+413. Bayesian assessment of random walk hitting times under resource-limited settings
+414. machine learning prediction of random walk hitting times with uncertainty quantification
+415. longitudinal study of random walk hitting times for policy or clinical decision support
+416. systematic review of large deviation bounds in Indonesian cohorts
+417. comparative analysis of large deviation bounds using open datasets
+418. Bayesian assessment of large deviation bounds under resource-limited settings
+419. machine learning prediction of large deviation bounds with uncertainty quantification
+420. longitudinal study of large deviation bounds for policy or clinical decision support
+421. systematic review of branching process extinction in Indonesian cohorts
+422. comparative analysis of branching process extinction using open datasets
+423. Bayesian assessment of branching process extinction under resource-limited settings
+424. machine learning prediction of branching process extinction with uncertainty quantification
+425. longitudinal study of branching process extinction for policy or clinical decision support
+426. systematic review of percolation thresholds in Indonesian cohorts
+427. comparative analysis of percolation thresholds using open datasets
+428. Bayesian assessment of percolation thresholds under resource-limited settings
+429. machine learning prediction of percolation thresholds with uncertainty quantification
+430. longitudinal study of percolation thresholds for policy or clinical decision support
+431. systematic review of Brownian motion path properties in Indonesian cohorts
+432. comparative analysis of Brownian motion path properties using open datasets
+433. Bayesian assessment of Brownian motion path properties under resource-limited settings
+434. machine learning prediction of Brownian motion path properties with uncertainty quantification
+435. longitudinal study of Brownian motion path properties for policy or clinical decision support
+436. systematic review of concentration inequalities in Indonesian cohorts
+437. comparative analysis of concentration inequalities using open datasets
+438. Bayesian assessment of concentration inequalities under resource-limited settings
+439. machine learning prediction of concentration inequalities with uncertainty quantification
+440. longitudinal study of concentration inequalities for policy or clinical decision support
+441. systematic review of queueing model limits in Indonesian cohorts
+442. comparative analysis of queueing model limits using open datasets
+443. Bayesian assessment of queueing model limits under resource-limited settings
+444. machine learning prediction of queueing model limits with uncertainty quantification
+445. longitudinal study of queueing model limits for policy or clinical decision support
+446. systematic review of random matrix spectra in Indonesian cohorts
+447. comparative analysis of random matrix spectra using open datasets
+448. Bayesian assessment of random matrix spectra under resource-limited settings
+449. machine learning prediction of random matrix spectra with uncertainty quantification
+450. longitudinal study of random matrix spectra for policy or clinical decision support
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 10: MATHEMATICAL MODELING (451–500)
+────────────────────────────────────────────────────────────────────────────────
+451. systematic review of predator prey bifurcation in Indonesian cohorts
+452. comparative analysis of predator prey bifurcation using open datasets
+453. Bayesian assessment of predator prey bifurcation under resource-limited settings
+454. machine learning prediction of predator prey bifurcation with uncertainty quantification
+455. longitudinal study of predator prey bifurcation for policy or clinical decision support
+456. systematic review of traffic flow equations in Indonesian cohorts
+457. comparative analysis of traffic flow equations using open datasets
+458. Bayesian assessment of traffic flow equations under resource-limited settings
+459. machine learning prediction of traffic flow equations with uncertainty quantification
+460. longitudinal study of traffic flow equations for policy or clinical decision support
+461. systematic review of financial option PDEs in Indonesian cohorts
+462. comparative analysis of financial option PDEs using open datasets
+463. Bayesian assessment of financial option PDEs under resource-limited settings
+464. machine learning prediction of financial option PDEs with uncertainty quantification
+465. longitudinal study of financial option PDEs for policy or clinical decision support
+466. systematic review of population age structure in Indonesian cohorts
+467. comparative analysis of population age structure using open datasets
+468. Bayesian assessment of population age structure under resource-limited settings
+469. machine learning prediction of population age structure with uncertainty quantification
+470. longitudinal study of population age structure for policy or clinical decision support
+471. systematic review of climate energy balance in Indonesian cohorts
+472. comparative analysis of climate energy balance using open datasets
+473. Bayesian assessment of climate energy balance under resource-limited settings
+474. machine learning prediction of climate energy balance with uncertainty quantification
+475. longitudinal study of climate energy balance for policy or clinical decision support
+476. systematic review of tumor growth models in Indonesian cohorts
+477. comparative analysis of tumor growth models using open datasets
+478. Bayesian assessment of tumor growth models under resource-limited settings
+479. machine learning prediction of tumor growth models with uncertainty quantification
+480. longitudinal study of tumor growth models for policy or clinical decision support
+481. systematic review of supply chain dynamics in Indonesian cohorts
+482. comparative analysis of supply chain dynamics using open datasets
+483. Bayesian assessment of supply chain dynamics under resource-limited settings
+484. machine learning prediction of supply chain dynamics with uncertainty quantification
+485. longitudinal study of supply chain dynamics for policy or clinical decision support
+486. systematic review of opinion formation networks in Indonesian cohorts
+487. comparative analysis of opinion formation networks using open datasets
+488. Bayesian assessment of opinion formation networks under resource-limited settings
+489. machine learning prediction of opinion formation networks with uncertainty quantification
+490. longitudinal study of opinion formation networks for policy or clinical decision support
+491. systematic review of resource allocation models in Indonesian cohorts
+492. comparative analysis of resource allocation models using open datasets
+493. Bayesian assessment of resource allocation models under resource-limited settings
+494. machine learning prediction of resource allocation models with uncertainty quantification
+495. longitudinal study of resource allocation models for policy or clinical decision support
+496. systematic review of epidemiological metapopulations in Indonesian cohorts
+497. comparative analysis of epidemiological metapopulations using open datasets
+498. Bayesian assessment of epidemiological metapopulations under resource-limited settings
+499. machine learning prediction of epidemiological metapopulations with uncertainty quantification
+500. longitudinal study of epidemiological metapopulations for policy or clinical decision support

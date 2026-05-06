@@ -1,0 +1,616 @@
+================================================================================
+TOPIC GUIDE — Rekayasa Perancangan Mekanik (Mechanical Design Engineering)
+================================================================================
+FIELD: Mechanical Engineering / Design Engineering
+DEFAULT CITATION STYLE: IEEE
+SUBDISCIPLINE: Machine Element Design, CAD/CAE Simulation, Manufacturing Process Design, Product Development & Innovation, Mechanism & Kinematics, Thermal & Fluid System Design, Additive Manufacturing, Sustainable Design Engineering
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title (specific, with method and domain)
+
+3. LATEST METHODOLOGY (2022-2025):
+   - CAD/CAM tools: SolidWorks 2023+, CATIA V5/V6, Autodesk Fusion 360, Siemens NX
+   - FEA simulation: ANSYS Mechanical/Workbench, Abaqus, COMSOL Multiphysics
+   - Topology optimization: SIMP method, level-set method, lattice structure optimization
+   - Design for Manufacturing/Assembly (DFM/DFA): Boothroyd-Dewhurst method
+   - Fatigue analysis: stress-life (S-N), strain-life (ε-N), fracture mechanics (LEFM)
+   - Additive manufacturing design: DFAM, lattice structures, generative design
+   - GD&T: ASME Y14.5-2018 standards, tolerance stack-up analysis
+   - Multi-objective optimization: NSGA-II, MOPSO, response surface methodology
+   - Digital twin: real-time simulation, predictive modeling
+   - AI-assisted design: generative design, machine learning for design optimization
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics: stress (MPa), displacement (mm), safety factor, fatigue life (cycles), weight reduction (%), manufacturing cost
+   - Comparison with baselines (conventional vs optimized design)
+   - All numbers realistic and internally consistent
+   - Statistical measures: mean, std deviation, confidence intervals
+
+5. MATHEMATICAL FORMULAS:
+   - Normal stress: σ = F/A
+   - Strain: ε = ΔL/L
+   - Young's modulus: E = σ/ε
+   - Fatigue life (Basquin equation): σa = σ'f(2Nf)^b
+   - Euler buckling: Pcr = π²EI/L²
+   - Thermal expansion: ΔL = αLΔT
+   - Gear ratio: i = ω₁/ω₂ = z₂/z₁
+   - Bending stress: σ = My/I
+   - Torsional shear: τ = Tr/J
+   - Von Mises equivalent stress: σ_vm = √(σ₁² - σ₁σ₂ + σ₂²)
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian context: Indonesian manufacturing SMEs, automotive components, agricultural machinery
+   - Include Indonesian researchers and journals where applicable
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords (5-7), Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+================================================================================
+DOMAIN-SPECIFIC CONTEXT
+================================================================================
+
+INDONESIAN CONTEXT:
+- Indonesian manufacturing SMEs (IKM) and their design challenges
+- Automotive component industry (Astra, supplier tier 2-3)
+- Agricultural machinery for Indonesian farming (rice, palm oil, rubber)
+- Marine and offshore equipment for archipelago needs
+- Tropical climate considerations in material selection
+- Local material availability (aluminum, mild steel, composites)
+- SNI (Standar Nasional Indonesia) compliance
+- BRIN (Badan Riset dan Inovasi Nasional) research priorities
+
+KEY JOURNALS:
+- Journal of Mechanical Design (ASME)
+- Mechanism and Machine Theory
+- International Journal of Advanced Manufacturing Technology
+- Materials & Design
+- Additive Manufacturing
+- Jurnal Teknik Mesin (Indonesian)
+- ROTASI (Undip)
+
+SOFTWARE & TOOLS:
+- SolidWorks (parametric modeling, simulation, flow simulation)
+- ANSYS (structural, thermal, CFD, topology optimization)
+- Abaqus (nonlinear FEA, explicit dynamics)
+- CATIA (surface modeling, aerospace/automotive)
+- Fusion 360 (generative design, CAM)
+- MATLAB (optimization algorithms, data analysis)
+- Python (scripting, ML-based design optimization)
+
+================================================================================
+RESEARCH TOPIC BANK — 500 TOPICS
+================================================================================
+
+CATEGORY 1: MACHINE ELEMENT DESIGN (001-050)
+001. Topology optimization of spur gear tooth profile for weight reduction using SIMP method
+002. Fatigue life prediction of helical compression springs under variable amplitude loading
+003. Design optimization of ball bearing cage geometry for high-speed applications
+004. Stress analysis of bolted flange connections under combined thermal and mechanical loads
+005. Multi-objective optimization of planetary gear train for electric vehicle transmission
+006. Failure analysis and redesign of shaft keyway connections in Indonesian rice milling machines
+007. Design of self-aligning coupling for misalignment compensation in palm oil mill drives
+008. Finite element analysis of worm gear tooth contact stress with modified tooth profile
+009. Optimization of leaf spring design for Indonesian light commercial vehicles using FEA
+010. Fatigue crack propagation analysis in welded steel structures using XFEM
+011. Design of cam mechanism for high-speed automated packaging machines
+012. Stress concentration factor analysis in stepped shafts with multiple geometric discontinuities
+013. Optimization of chain drive system for Indonesian motorcycle applications
+014. Design and analysis of flexible coupling for vibration isolation in marine diesel engines
+015. Tribological analysis of journal bearing with textured surface patterns
+016. Design optimization of disc brake rotor for thermal performance improvement
+017. Failure mode analysis of timing belt in Indonesian automotive engines
+018. Design of overrunning clutch mechanism for renewable energy harvesting systems
+019. Stress analysis of pressure vessel nozzle reinforcement under cyclic loading
+020. Optimization of V-belt drive system for agricultural water pump applications
+021. Design of compliant mechanism for precision micro-positioning stages
+022. Fatigue assessment of riveted joints in aluminum aircraft structures
+023. Design optimization of helical gear pair for noise reduction in gearbox
+024. Analysis of fretting fatigue in dovetail joints of turbine blade attachments
+025. Design of magnetic coupling for sealed pump applications in chemical industry
+026. Optimization of wire rope drum geometry for mobile crane applications
+027. Stress analysis of splined shaft connections under torsional impact loading
+028. Design of pneumatic cylinder mounting brackets for industrial automation
+029. Fatigue life estimation of crankshaft for single-cylinder diesel engines
+030. Design optimization of flywheel energy storage system for UPS applications
+031. Analysis of contact stress in crossed-axis helical gear pairs
+032. Design of torque limiter mechanism for overload protection in conveyors
+033. Optimization of coil spring suspension for Indonesian road conditions
+034. Stress analysis of welded tubular joints in offshore platform structures
+035. Design of indexing mechanism for rotary table in CNC machines
+036. Fatigue analysis of connecting rod for small diesel engines used in Indonesian fishing boats
+037. Design optimization of hydraulic cylinder piston rod for agricultural equipment
+038. Analysis of thermal stress in bimetallic strip actuators for safety valves
+039. Design of epicyclic gear train for compact speed reducer applications
+040. Optimization of brake pad geometry for uniform wear distribution
+041. Stress analysis of crane hook with trapezoidal cross-section under dynamic loading
+042. Design of toggle clamp mechanism for welding fixture applications
+043. Fatigue life prediction of axle shaft for Indonesian public transport buses
+044. Design optimization of belt tensioner for serpentine drive systems
+045. Analysis of Hertzian contact stress in tapered roller bearings
+046. Design of quick-return mechanism for shaping machine applications
+047. Optimization of piston ring geometry for reduced friction in IC engines
+048. Stress analysis of turbine blade root attachment under centrifugal loading
+049. Design of overload protection device for Indonesian sugarcane crushing mills
+050. Fatigue assessment of welded joints in steel bridge components using local approach
+
+CATEGORY 2: CAD/CAE & SIMULATION (051-100)
+051. Parametric design optimization of automotive chassis frame using SolidWorks and ANSYS
+052. Topology optimization of aircraft bracket using density-based SIMP method in Abaqus
+053. Multi-physics simulation of electric motor housing for thermal management
+054. Generative design of lightweight bicycle frame using Fusion 360 AI algorithms
+055. CFD-structural coupled analysis of wind turbine blade under extreme loading
+056. Digital twin development for real-time monitoring of CNC machine spindle
+057. Lattice structure optimization for 3D-printed orthopedic implants using nTopology
+058. Crashworthiness simulation of Indonesian MPV front structure using LS-DYNA
+059. Thermal-structural analysis of exhaust manifold using coupled FEA approach
+060. Shape optimization of pressure vessel head geometry using response surface method
+061. Vibration analysis of rotating machinery using modal simulation in ANSYS
+062. Fluid-structure interaction analysis of marine propeller blade deformation
+063. Tolerance analysis of assembly using Monte Carlo simulation in CETOL
+064. Fatigue simulation of welded joints using structural stress method in FE-Safe
+065. Optimization of injection mold cooling channel using conformal cooling design
+066. Multi-body dynamics simulation of suspension system for Indonesian terrain
+067. Electromagnetic-thermal coupled simulation of induction heating coil design
+068. Topology optimization of drone frame for maximum stiffness-to-weight ratio
+069. Simulation of metal forming process for automotive panel using AutoForm
+070. Parametric study of heat sink fin geometry using CFD optimization
+071. Structural optimization of satellite bracket using evolutionary algorithms
+072. Simulation of rubber bushing behavior under multi-axial loading using hyperelastic models
+073. Design space exploration of turbine blade cooling channels using CFD
+074. Optimization of composite layup sequence using genetic algorithm in ANSYS ACP
+075. Simulation of gear meshing dynamics using multi-body contact analysis
+076. Thermal management simulation of battery pack for electric vehicle
+077. Topology optimization of engine mounting bracket for vibration isolation
+078. Simulation of sheet metal forming springback prediction using FEA
+079. Optimization of weld sequence to minimize distortion using computational welding mechanics
+080. Multi-objective optimization of vehicle body structure for crashworthiness and weight
+081. Simulation of additive manufacturing thermal history and residual stress
+082. Design optimization of centrifugal pump impeller using CFD and DOE
+083. Structural analysis of offshore jacket platform under wave and current loading
+084. Simulation of friction stir welding process parameters using coupled thermo-mechanical FEA
+085. Optimization of acoustic enclosure design using vibro-acoustic simulation
+086. Digital twin framework for predictive maintenance of industrial gearbox
+087. Simulation of composite impact damage using progressive failure analysis
+088. Optimization of automotive door hinge mechanism using kinematic simulation
+089. Thermal simulation of electronic enclosure for tropical climate conditions
+090. Multi-scale simulation of fiber-reinforced composite mechanical properties
+091. Optimization of robot arm structure using topology and size optimization
+092. Simulation of hydraulic system dynamics using AMESim and MATLAB co-simulation
+093. Design optimization of flexure hinge for precision positioning mechanism
+094. Simulation of casting solidification and shrinkage defect prediction
+095. Optimization of vehicle aerodynamics using adjoint-based CFD method
+096. Structural health monitoring simulation using piezoelectric sensor placement optimization
+097. Simulation of bolted joint behavior under thermal cycling conditions
+098. Optimization of turbocharger compressor wheel using fluid-structure interaction
+099. Digital twin development for Indonesian manufacturing SME production line
+100. Simulation-based design of earthquake-resistant equipment mounting system
+
+CATEGORY 3: MANUFACTURING PROCESS DESIGN (101-150)
+101. Optimization of CNC milling parameters for titanium alloy using response surface methodology
+102. Design of progressive die for mass production of automotive stamping components
+103. Process parameter optimization for friction stir welding of dissimilar aluminum alloys
+104. Design of jig and fixture for multi-axis machining of complex aerospace parts
+105. Optimization of EDM parameters for hardened tool steel using Taguchi method
+106. Design of automated welding cell layout for Indonesian shipyard production
+107. Process planning optimization for hybrid manufacturing (additive + subtractive)
+108. Design of modular fixture system for flexible manufacturing of small batch production
+109. Optimization of laser cutting parameters for stainless steel sheet in Indonesian SMEs
+110. Design of quality control system for CNC turning process using SPC methods
+111. Process optimization for investment casting of gas turbine blade components
+112. Design of automated assembly line for Indonesian motorcycle component manufacturing
+113. Optimization of injection molding parameters for engineering plastics using DOE
+114. Design of tool path strategy for 5-axis milling of turbine blade surfaces
+115. Process parameter optimization for MIG welding of structural steel in construction
+116. Design of lean manufacturing layout for Indonesian automotive parts factory
+117. Optimization of grinding parameters for precision bearing ring manufacturing
+118. Design of automated inspection system for surface roughness measurement
+119. Process optimization for powder metallurgy of sintered gear components
+120. Design of coolant delivery system for high-speed machining operations
+121. Optimization of deep drawing process for cylindrical cup manufacturing
+122. Design of robotic welding program for complex joint geometries
+123. Process parameter optimization for plasma cutting of thick steel plates
+124. Design of material handling system for automated manufacturing cell
+125. Optimization of broaching process for internal spline manufacturing
+126. Design of heat treatment process for carburized gear components
+127. Process optimization for electrochemical machining of hard-to-cut materials
+128. Design of automated deburring system for mass-produced components
+129. Optimization of forging process parameters for crankshaft manufacturing
+130. Design of flexible manufacturing system for Indonesian defense industry components
+131. Process optimization for ultrasonic welding of thermoplastic composites
+132. Design of tool management system for CNC machining center
+133. Optimization of wire EDM parameters for precision die manufacturing
+134. Design of automated painting system for automotive body components
+135. Process parameter optimization for selective laser melting of Inconel 718
+136. Design of production scheduling system for job-shop manufacturing
+137. Optimization of turning parameters for bio-compatible titanium implants
+138. Design of automated packaging system for Indonesian food industry products
+139. Process optimization for resistance spot welding of automotive body panels
+140. Design of quality assurance system for welded pressure vessel fabrication
+141. Optimization of abrasive waterjet cutting for composite material trimming
+142. Design of automated sorting system for manufactured component inspection
+143. Process parameter optimization for electron beam welding of aerospace alloys
+144. Design of cellular manufacturing layout for Indonesian electronics assembly
+145. Optimization of superfinishing process for precision shaft manufacturing
+146. Design of automated thread inspection system using machine vision
+147. Process optimization for hot stamping of ultra-high-strength steel components
+148. Design of flexible assembly system for mixed-model production lines
+149. Optimization of micro-milling parameters for MEMS component fabrication
+150. Design of digital manufacturing execution system for Indonesian SME factories
+
+CATEGORY 4: PRODUCT DEVELOPMENT & INNOVATION (151-200)
+151. Development of modular product architecture for Indonesian electric motorcycle
+152. Design thinking approach for agricultural drone development in Indonesian farming
+153. Quality function deployment for Indonesian public transport vehicle redesign
+154. Development of ergonomic hand tool for Indonesian rubber plantation workers
+155. Innovation of portable water purification device for Indonesian remote areas
+156. Design of modular furniture system for Indonesian small apartment living
+157. Development of low-cost prosthetic limb using 3D printing for Indonesian patients
+158. Product platform strategy for Indonesian home appliance manufacturer
+159. Design of solar-powered irrigation pump for Indonesian smallholder farmers
+160. Development of bamboo-composite bicycle frame for Indonesian urban mobility
+161. Innovation of portable fish drying machine for Indonesian coastal communities
+162. Design of ergonomic workstation for Indonesian batik artisans
+163. Development of modular biogas reactor for Indonesian rural households
+164. Product redesign of Indonesian traditional cooking stove for improved efficiency
+165. Design of portable weather station for Indonesian agricultural monitoring
+166. Development of low-cost CNC router for Indonesian furniture SMEs
+167. Innovation of coconut processing machine for Indonesian smallholder farmers
+168. Design of modular clean water filtration system for Indonesian islands
+169. Development of electric cargo tricycle for Indonesian urban logistics
+170. Product innovation of Indonesian traditional weaving loom with automation
+171. Design of portable soil testing kit for Indonesian agricultural extension workers
+172. Development of modular greenhouse system for Indonesian highland farming
+173. Innovation of cassava processing machine for Indonesian food industry
+174. Design of ergonomic fishing equipment for Indonesian traditional fishermen
+175. Development of solar-powered cold storage for Indonesian fish markets
+176. Product platform design for Indonesian electric vehicle charging station
+177. Design of portable rice milling machine for Indonesian remote villages
+178. Development of bamboo-reinforced composite for Indonesian housing construction
+179. Innovation of palm oil fruit harvesting tool with ergonomic design
+180. Design of modular water treatment system for Indonesian mining operations
+181. Development of low-cost ventilator design for Indonesian rural hospitals
+182. Product redesign of Indonesian traditional boat for improved fuel efficiency
+183. Design of portable coffee processing equipment for Indonesian highland farmers
+184. Development of modular solar panel mounting system for Indonesian rooftops
+185. Innovation of seaweed processing machine for Indonesian coastal communities
+186. Design of ergonomic motorcycle accessories for Indonesian ride-hailing drivers
+187. Development of portable biogas-powered generator for Indonesian rural areas
+188. Product innovation of Indonesian traditional pottery wheel with electric drive
+189. Design of modular aquaponics system for Indonesian urban farming
+190. Development of low-cost 3D scanner for Indonesian reverse engineering applications
+191. Innovation of rubber sheet processing machine for Indonesian smallholders
+192. Design of portable water quality monitoring device for Indonesian rivers
+193. Development of electric outboard motor for Indonesian traditional fishing boats
+194. Product platform strategy for Indonesian agricultural machinery manufacturer
+195. Design of modular disaster relief shelter for Indonesian earthquake zones
+196. Development of coconut shell activated carbon production machine
+197. Innovation of automated hydroponic system for Indonesian urban agriculture
+198. Design of ergonomic school furniture for Indonesian elementary schools
+199. Development of portable wind turbine for Indonesian island electrification
+200. Product redesign of Indonesian traditional rice harvesting tool with modern materials
+
+CATEGORY 5: MECHANISM & KINEMATICS (201-250)
+201. Kinematic synthesis of four-bar linkage for Indonesian textile loom automation
+202. Design of parallel manipulator for precision pick-and-place operations
+203. Analysis of Geneva mechanism for intermittent motion in packaging machines
+204. Design of variable geometry mechanism for adjustable agricultural implements
+205. Kinematic analysis of six-bar linkage for complex motion generation
+206. Design of walking mechanism for terrain-adaptive mobile robot
+207. Analysis of slider-crank mechanism dynamics for reciprocating compressor
+208. Design of deployable mechanism for satellite solar panel arrays
+209. Kinematic optimization of robotic arm for Indonesian welding applications
+210. Design of compliant mechanism for micro-gripper applications
+211. Analysis of cam-follower dynamics for high-speed engine valve trains
+212. Design of origami-inspired foldable mechanism for compact storage
+213. Kinematic synthesis of path-generating mechanism for automated assembly
+214. Design of variable-speed mechanism for Indonesian rice transplanting machine
+215. Analysis of spherical mechanism for spatial motion applications
+216. Design of metamorphic mechanism with reconfigurable topology
+217. Kinematic analysis of Stewart platform for flight simulator motion
+218. Design of under-actuated gripper mechanism for robotic harvesting
+219. Analysis of toggle mechanism for high-force pressing applications
+220. Design of self-locking mechanism for safety-critical lifting equipment
+221. Kinematic optimization of scissor lift mechanism for maintenance platforms
+222. Design of differential mechanism for Indonesian electric vehicle drivetrain
+223. Analysis of Watt linkage for automotive suspension guidance
+224. Design of bistable mechanism for energy harvesting applications
+225. Kinematic synthesis of function-generating mechanism for analog computation
+226. Design of cable-driven parallel mechanism for large-workspace applications
+227. Analysis of cycloidal drive mechanism for precision robotic joints
+228. Design of variable stiffness mechanism for human-robot collaboration
+229. Kinematic analysis of Hoberman mechanism for expandable structures
+230. Design of tendon-driven mechanism for soft robotic applications
+231. Analysis of harmonic drive mechanism for high-ratio speed reduction
+232. Design of reconfigurable mechanism for multi-function agricultural tools
+233. Kinematic optimization of delta robot for high-speed food packaging
+234. Design of passive dynamic walking mechanism for energy-efficient bipedal robot
+235. Analysis of Peaucellier linkage for exact straight-line motion generation
+236. Design of shape-morphing mechanism using smart material actuators
+237. Kinematic synthesis of dwell mechanism for automated manufacturing processes
+238. Design of gravity-compensated mechanism for assistive rehabilitation devices
+239. Analysis of non-circular gear mechanism for variable-speed transmission
+240. Design of auxetic mechanism for impact energy absorption
+241. Kinematic analysis of Sarrus linkage for linear motion applications
+242. Design of bio-inspired flapping mechanism for micro aerial vehicles
+243. Analysis of Whitworth quick-return mechanism optimization for shaping machines
+244. Design of parallel kinematic machine for multi-axis machining operations
+245. Kinematic synthesis of coupler curve mechanism for complex trajectory generation
+246. Design of variable geometry turbocharger mechanism for diesel engines
+247. Analysis of Stephenson linkage for automotive suspension applications
+248. Design of mechanical advantage amplification mechanism for hand tools
+249. Kinematic optimization of prosthetic knee joint mechanism
+250. Design of reconfigurable fixture mechanism for flexible manufacturing systems
+
+CATEGORY 6: THERMAL & FLUID SYSTEM DESIGN (251-300)
+251. Design optimization of plate heat exchanger for palm oil mill waste heat recovery
+252. CFD analysis of centrifugal pump impeller for improved hydraulic efficiency
+253. Thermal design of electronic cooling system using micro-channel heat sink
+254. Design of solar thermal collector for Indonesian industrial process heating
+255. Optimization of shell-and-tube heat exchanger for geothermal power plant
+256. CFD simulation of HVAC duct system for Indonesian commercial buildings
+257. Design of cooling tower for Indonesian cement factory waste heat utilization
+258. Thermal analysis of disc brake system under repeated braking conditions
+259. Design optimization of radiator for Indonesian heavy-duty truck applications
+260. CFD analysis of wind turbine blade airfoil for Indonesian wind conditions
+261. Thermal design of battery thermal management system for electric vehicles
+262. Design of heat pipe cooling system for high-power LED lighting
+263. Optimization of condenser design for Indonesian small-scale power plants
+264. CFD simulation of mixing tank impeller for chemical process industry
+265. Design of thermoelectric cooling system for portable vaccine storage
+266. Thermal analysis of friction welding process for dissimilar metal joints
+267. Design optimization of evaporator coil for Indonesian air conditioning systems
+268. CFD analysis of exhaust gas recirculation system for diesel engines
+269. Design of waste heat recovery system for Indonesian textile factory
+270. Thermal simulation of injection mold cooling for cycle time reduction
+271. Design of solar water heater system for Indonesian hotel industry
+272. CFD optimization of cyclone separator for Indonesian cement industry
+273. Thermal design of induction furnace for Indonesian metal casting SMEs
+274. Design of geothermal heat exchanger for direct-use applications in Indonesia
+275. CFD analysis of natural ventilation system for Indonesian green buildings
+276. Thermal management design of power electronics converter for EV charger
+277. Design optimization of fin-tube heat exchanger for Indonesian HVAC systems
+278. CFD simulation of spray drying process for Indonesian food industry
+279. Thermal analysis of welding distortion in thin-plate ship structures
+280. Design of absorption chiller system using Indonesian biomass waste heat
+281. CFD optimization of hydraulic turbine runner for Indonesian micro-hydro
+282. Thermal design of autoclave system for composite manufacturing
+283. Design of heat recovery ventilation system for Indonesian hospital buildings
+284. CFD analysis of pneumatic conveying system for Indonesian grain processing
+285. Thermal simulation of friction stir processing for surface modification
+286. Design optimization of compact heat exchanger for automotive turbocharger
+287. CFD simulation of fluidized bed combustion for Indonesian biomass fuels
+288. Thermal analysis of solar PV panel cooling using phase change materials
+289. Design of district cooling system for Indonesian industrial estate
+290. CFD optimization of marine propeller for Indonesian inter-island vessels
+291. Thermal design of drying system for Indonesian agricultural products
+292. Design of heat pump system for Indonesian fish processing industry
+293. CFD analysis of ventilation system for Indonesian underground mining
+294. Thermal management of fuel cell stack for Indonesian maritime applications
+295. Design optimization of oil cooler for Indonesian heavy equipment
+296. CFD simulation of water distribution network for Indonesian urban areas
+297. Thermal analysis of braking system for Indonesian railway applications
+298. Design of solar-assisted heat pump for Indonesian food dehydration
+299. CFD optimization of dust collection system for Indonesian woodworking industry
+300. Thermal design of cogeneration system for Indonesian palm oil mill
+
+CATEGORY 7: ADDITIVE MANUFACTURING & 3D PRINTING (301-350)
+301. Topology optimization of aerospace bracket for selective laser melting production
+302. Process parameter optimization for FDM printing of PLA-carbon fiber composite
+303. Design of lattice structures for energy absorption in automotive crash components
+304. Development of multi-material 3D printing strategy for functional prototypes
+305. Optimization of support structure design for metal additive manufacturing
+306. Design of conformal cooling channels for injection molds using DMLS
+307. Development of 3D-printed customized orthopedic implant for Indonesian patients
+308. Process optimization for SLA printing of dental prosthetics
+309. Design of functionally graded material structures using multi-material printing
+310. Development of 3D-printed wind turbine blade for Indonesian small-scale applications
+311. Optimization of build orientation for minimizing residual stress in SLM parts
+312. Design of 3D-printed heat exchanger with complex internal geometries
+313. Development of bio-inspired 3D-printed structures for impact resistance
+314. Process parameter optimization for binder jetting of sand casting molds
+315. Design of 3D-printed pneumatic soft actuators for robotic grippers
+316. Development of recycled plastic filament for FDM printing in Indonesian SMEs
+317. Optimization of infill pattern and density for structural FDM components
+318. Design of 3D-printed microfluidic devices for chemical analysis
+319. Development of concrete 3D printing for Indonesian affordable housing
+320. Process optimization for wire arc additive manufacturing of large components
+321. Design of 3D-printed auxetic structures for energy absorption applications
+322. Development of food 3D printing technology for Indonesian traditional snacks
+323. Optimization of post-processing methods for metal 3D-printed components
+324. Design of 3D-printed prosthetic hand with integrated sensors
+325. Development of ceramic 3D printing for Indonesian traditional pottery
+326. Process parameter optimization for electron beam melting of titanium alloys
+327. Design of 3D-printed scaffold for bone tissue engineering
+328. Development of 3D-printed drone components for Indonesian agricultural spraying
+329. Optimization of multi-laser strategy for large-format powder bed fusion
+330. Design of 3D-printed compliant mechanisms for precision instruments
+331. Development of 3D-printed mold for Indonesian batik stamp (cap) production
+332. Process optimization for direct energy deposition repair of turbine blades
+333. Design of 3D-printed metamaterials with programmable mechanical properties
+334. Development of 3D-printed water filter for Indonesian rural communities
+335. Optimization of hybrid manufacturing combining 3D printing and CNC machining
+336. Design of 3D-printed custom bicycle components for Indonesian cyclists
+337. Development of 3D-printed educational models for Indonesian engineering schools
+338. Process parameter optimization for selective laser sintering of nylon composites
+339. Design of 3D-printed tooling for Indonesian sheet metal forming industry
+340. Development of 3D-printed architectural models for Indonesian urban planning
+341. Optimization of 3D printing farm management for distributed manufacturing
+342. Design of 3D-printed wearable devices for health monitoring
+343. Development of 3D-printed spare parts for Indonesian industrial maintenance
+344. Process optimization for 3D printing of silicone rubber components
+345. Design of 3D-printed acoustic metamaterials for noise control
+346. Development of 3D-printed solar concentrator for Indonesian rural energy
+347. Optimization of 3D-printed composite tooling for autoclave processing
+348. Design of 4D-printed shape-memory structures for deployable mechanisms
+349. Development of 3D-printed lab equipment for Indonesian university laboratories
+350. Process optimization for large-scale FDM printing of industrial prototypes
+
+CATEGORY 8: AUTOMOTIVE COMPONENT DESIGN (351-400)
+351. Design optimization of electric vehicle battery enclosure for crash protection
+352. Lightweight design of automotive control arm using topology optimization
+353. Design of regenerative braking system for Indonesian electric motorcycle
+354. Optimization of engine block ribbing pattern for weight and stiffness
+355. Design of composite leaf spring for Indonesian light truck applications
+356. Development of aerodynamic body kit for Indonesian electric city car
+357. Design optimization of transmission housing for NVH performance
+358. Development of aluminum space frame for Indonesian electric vehicle platform
+359. Design of thermal management system for EV battery in tropical climate
+360. Optimization of exhaust system hanger design for vibration isolation
+361. Design of lightweight wheel rim using multi-material approach
+362. Development of crash-absorbing front bumper for Indonesian MPV vehicles
+363. Design optimization of steering knuckle using generative design approach
+364. Development of composite drive shaft for Indonesian rear-wheel-drive vehicles
+365. Design of adjustable pedal mechanism for Indonesian diverse driver anthropometry
+366. Optimization of brake caliper design for weight reduction and thermal performance
+367. Design of modular chassis platform for Indonesian electric vehicle variants
+368. Development of noise-reducing engine cover using acoustic optimization
+369. Design of lightweight seat frame using high-strength steel and optimization
+370. Development of aerodynamic underbody panel for drag reduction
+371. Design optimization of suspension spring for Indonesian road conditions
+372. Development of integrated motor-gearbox housing for electric vehicle
+373. Design of crash-safe battery mounting system for electric motorcycle
+374. Optimization of turbocharger wastegate actuator mechanism
+375. Design of lightweight roof structure using sandwich panel construction
+376. Development of thermal shield for exhaust system in compact engine bay
+377. Design optimization of CV joint boot for extended service life
+378. Development of modular instrument panel structure for vehicle variants
+379. Design of energy-absorbing door trim for side impact protection
+380. Optimization of fuel tank geometry for maximum capacity in constrained space
+381. Design of electric vehicle charging port mechanism with weather sealing
+382. Development of lightweight spare tire carrier for Indonesian SUV vehicles
+383. Design optimization of engine mounting system for vibration isolation
+384. Development of aerodynamic mirror housing for drag reduction
+385. Design of modular roof rack system for Indonesian adventure vehicles
+386. Optimization of brake disc ventilation channel for cooling performance
+387. Design of lightweight tailgate using composite materials
+388. Development of adjustable steering column mechanism for safety and comfort
+389. Design optimization of wheel hub bearing unit for extended life
+390. Development of underbody protection plate for Indonesian off-road vehicles
+391. Design of electric vehicle thermal management valve system
+392. Optimization of door hinge mechanism for durability and smooth operation
+393. Design of lightweight subframe using hydroformed steel tubes
+394. Development of active grille shutter mechanism for aerodynamic efficiency
+395. Design optimization of torsion beam rear axle for Indonesian compact cars
+396. Development of composite hood with pedestrian protection compliance
+397. Design of modular battery swapping mechanism for Indonesian electric motorcycles
+398. Optimization of windshield wiper mechanism for coverage and durability
+399. Design of lightweight cross-car beam using multi-material construction
+400. Development of integrated structural battery enclosure for electric vehicles
+
+CATEGORY 9: BIOMECHANICAL DESIGN (401-450)
+401. Design of patient-specific hip implant using CT-based modeling and topology optimization
+402. Development of ergonomic exoskeleton for Indonesian agricultural workers
+403. Design optimization of dental implant thread geometry for osseointegration
+404. Development of 3D-printed custom cranial implant for Indonesian patients
+405. Design of assistive knee brace mechanism for Indonesian elderly population
+406. Biomechanical analysis of spinal fusion cage design using FEA
+407. Development of prosthetic foot mechanism for Indonesian above-knee amputees
+408. Design optimization of bone fixation plate for reduced stress shielding
+409. Development of ergonomic hand tool grip for Indonesian factory workers
+410. Design of wheelchair frame for Indonesian terrain and user anthropometry
+411. Biomechanical simulation of hip joint replacement under daily activities
+412. Development of custom orthotic insole using 3D scanning and printing
+413. Design of rehabilitation robot mechanism for stroke patient recovery
+414. Optimization of pedicle screw design for improved pullout strength
+415. Development of ergonomic backpack frame for Indonesian school children
+416. Design of artificial heart valve mechanism with improved hemodynamics
+417. Biomechanical analysis of motorcycle helmet design for Indonesian riders
+418. Development of custom sports prosthetic for Indonesian Paralympic athletes
+419. Design optimization of interbody fusion cage for lumbar spine
+420. Development of wearable upper limb rehabilitation device for home use
+421. Design of ergonomic agricultural harvesting tool for Indonesian farmers
+422. Biomechanical simulation of knee implant under Indonesian prayer positions
+423. Development of 3D-printed hand prosthesis with adaptive grip mechanism
+424. Design optimization of hip stem geometry for Indonesian bone morphology
+425. Development of ergonomic motorcycle seat for Indonesian long-distance riders
+426. Design of ankle-foot orthosis using compliant mechanism principles
+427. Biomechanical analysis of dental bridge design under masticatory loading
+428. Development of assistive device for Indonesian disabled craftworkers
+429. Design optimization of trauma fixation plate for Indonesian patient demographics
+430. Development of ergonomic keyboard design for Indonesian office workers
+431. Design of passive ankle prosthesis for energy-efficient walking
+432. Biomechanical simulation of cervical disc replacement under neck motion
+433. Development of custom face shield frame for Indonesian healthcare workers
+434. Design optimization of acetabular cup for hip replacement longevity
+435. Development of ergonomic fishing rod handle for Indonesian fishermen
+436. Design of powered knee prosthesis mechanism for stair climbing
+437. Biomechanical analysis of running shoe sole design for Indonesian athletes
+438. Development of 3D-printed spinal orthosis for scoliosis correction
+439. Design optimization of shoulder implant for Indonesian patient anatomy
+440. Development of ergonomic welding helmet for Indonesian shipyard workers
+441. Design of tendon-driven robotic finger for prosthetic hand applications
+442. Biomechanical simulation of bone healing around fracture fixation devices
+443. Development of custom cycling helmet for Indonesian rider head shapes
+444. Design optimization of tibial tray for total knee replacement
+445. Development of ergonomic palm oil harvesting pole for reduced fatigue
+446. Design of compliant ankle mechanism for running prosthesis
+447. Biomechanical analysis of load-carrying basket design for Indonesian porters
+448. Development of 3D-printed ear prosthesis with realistic appearance
+449. Design optimization of intramedullary nail for femoral fracture fixation
+450. Development of ergonomic traditional loom seat for Indonesian weavers
+
+CATEGORY 10: SUSTAINABLE & GREEN DESIGN (451-500)
+451. Design for disassembly of electronic products for Indonesian e-waste recycling
+452. Life cycle assessment-driven redesign of Indonesian plastic packaging
+453. Design of biodegradable agricultural mulch film dispenser for Indonesian farms
+454. Development of bamboo-composite structural beam for sustainable construction
+455. Design optimization of small wind turbine for Indonesian coastal communities
+456. Development of solar-powered water desalination unit for Indonesian islands
+457. Design of modular product architecture for extended product lifetime
+458. Development of waste plastic recycling machine for Indonesian community use
+459. Design of energy-efficient industrial furnace for Indonesian metal casting SMEs
+460. Development of bio-based composite material from Indonesian agricultural waste
+461. Design of rainwater harvesting system for Indonesian urban buildings
+462. Development of pedal-powered machine for Indonesian rural applications
+463. Design optimization of micro-hydro turbine for Indonesian mountain streams
+464. Development of coconut husk fiber composite for automotive interior panels
+465. Design of solar-powered cold chain system for Indonesian agricultural products
+466. Development of waste cooking oil biodiesel processor for Indonesian communities
+467. Design of energy-efficient kiln for Indonesian ceramic industry
+468. Development of tidal energy converter for Indonesian strait locations
+469. Design of modular biogas digester for Indonesian livestock farms
+470. Development of palm oil waste biomass briquette press machine
+471. Design of passive cooling system for Indonesian tropical buildings
+472. Development of wave energy converter for Indonesian coastal power generation
+473. Design of eco-friendly packaging machine for Indonesian food industry
+474. Development of solar-powered boat propulsion for Indonesian water transport
+475. Design of waste heat recovery system for Indonesian tofu factory
+476. Development of biodegradable fishing net material for Indonesian fisheries
+477. Design of energy-efficient rice dryer using solar-biomass hybrid system
+478. Development of green concrete mixer using recycled aggregate materials
+479. Design of sustainable product service system for Indonesian appliance industry
+480. Development of ocean plastic collection device for Indonesian coastal cleanup
+481. Design of energy-efficient compressed air system for Indonesian factories
+482. Development of sustainable packaging from Indonesian seaweed-based materials
+483. Design of solar-powered street lighting for Indonesian rural roads
+484. Development of waste tire recycling machine for Indonesian rubber industry
+485. Design of energy-efficient ventilation system for Indonesian poultry houses
+486. Development of biochar production kiln from Indonesian agricultural residues
+487. Design of sustainable water treatment system for Indonesian textile industry
+488. Development of wind-solar hybrid power system for Indonesian remote islands
+489. Design of eco-friendly boat hull using natural fiber composite materials
+490. Development of plastic waste pyrolysis reactor for Indonesian fuel production
+491. Design of energy-efficient copra dryer for Indonesian coconut farmers
+492. Development of sustainable building material from Indonesian volcanic ash
+493. Design of portable solar-powered workshop for Indonesian mobile repair services
+494. Development of green manufacturing process for Indonesian batik industry
+495. Design of energy recovery system for Indonesian elevator installations
+496. Development of sustainable aquaculture system design for Indonesian fish farming
+497. Design of eco-friendly cremation furnace with emission control system
+498. Development of tidal current turbine for Indonesian archipelago straits
+499. Design of sustainable cold storage using natural refrigerants for Indonesian markets
+500. Development of circular economy product design framework for Indonesian SMEs

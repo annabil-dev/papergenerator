@@ -1,0 +1,640 @@
+================================================================================
+TOPIC GUIDE — Bahasa dan Kebudayaan Jepang (Japanese Language & Culture Studies)
+================================================================================
+FIELD: Humanities / Japanese Studies
+DEFAULT CITATION STYLE: APA / MLA
+SUBDISCIPLINE: Japanese Language Acquisition, Japanese Linguistics, Translation Studies, Japanese Literature, Japanese Pop Culture, Cross-Cultural Communication, Japanese Business Culture, Japanese Language Teaching Methodology
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title (specific, with method and domain)
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Contrastive analysis (Japanese-Indonesian linguistic systems)
+   - Error analysis (morphological, syntactic, pragmatic errors)
+   - Discourse analysis (spoken and written Japanese discourse)
+   - Ethnography (Japanese cultural practices observation)
+   - Cultural studies (popular culture, media analysis)
+   - Translation studies (Venuti domestication/foreignization)
+   - Corpus linguistics (Japanese language corpora, BCCWJ, CSJ)
+   - SLA research (interlanguage, acquisition order, motivation)
+   - Pragmatics (speech acts, politeness, indirectness)
+   - Technology-enhanced learning (AI tutors, VR immersion, apps)
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics (accuracy rates, error frequencies, proficiency scores, cultural adaptation indices)
+   - All data realistic and internally consistent
+
+5. MATHEMATICAL FORMULAS (where applicable):
+   - Corpus linguistics: frequency, TF-IDF, collocational strength (MI score, t-score, log-likelihood)
+   - Readability: Flesch-Kincaid, Gunning Fog
+   - Inter-rater reliability: Cohen's kappa, Krippendorff's alpha
+   - SLA metrics: accuracy/fluency/complexity measures, error rate calculations
+   - Statistical tests: t-test, ANOVA, chi-square, effect size (Cohen's d)
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian/Asian context prioritized
+   - Include Japanese studies scholars and JLPT/JF Standard references
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords, Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+ABSTRACT CHARACTERISTICS:
+  200-250 words. State the research problem, learner/cultural context, theoretical framework,
+  methodology, principal findings, contribution to Japanese studies, limitation, and
+  implication for pedagogy or cross-cultural understanding.
+
+INTRODUCTION ELEMENTS:
+  - Define the linguistic or cultural phenomenon and its significance for Indonesian learners/scholars.
+  - Situate within Japan-Indonesia relations and contemporary academic discourse.
+  - Position against current scholarship in Japanese studies and applied linguistics.
+  - State research gap, research questions, objectives, and expected contribution.
+
+LITERATURE REVIEW:
+  Common section name: "Kajian Pustaka" / "Literature Review" / "Theoretical Background"
+  - Core theories in SLA, linguistics, cultural studies, or translation studies.
+  - Recent empirical findings on Japanese language learning in Indonesian context.
+  - JLPT proficiency framework and JF Standard for Japanese-Language Education.
+  - Gaps in existing research on Indonesian learners of Japanese.
+
+METHODOLOGY:
+  Common section name: "Metode Penelitian" / "Research Methods"
+  - Design: experimental, quasi-experimental, qualitative, mixed methods, or corpus-based.
+  - Participants: Indonesian learners of Japanese (university level, JLPT level specification).
+  - Instruments: tests, questionnaires, interviews, think-aloud protocols, corpus tools.
+  - Analysis: statistical tests, error taxonomy, discourse coding, thematic analysis.
+
+TYPICAL RESULTS & DISCUSSION:
+  - Present findings by research question with statistical or qualitative evidence.
+  - Compare with prior studies on Japanese learners from other L1 backgrounds.
+  - Discuss L1 transfer effects, pedagogical implications, and cultural factors.
+  - Tables: error frequency, proficiency scores, survey results, translation comparison.
+  - Figures: acquisition curves, error distribution charts, cultural model diagrams.
+
+TYPICAL FIGURES:
+  - Research design flowchart.
+  - Error type distribution chart.
+  - Proficiency development trajectory.
+  - Cultural dimension comparison radar chart.
+  - Translation strategy distribution diagram.
+
+TYPICAL TABLES:
+  - Participant demographics: level | JLPT | years of study | L1 | institution.
+  - Error analysis: error type | frequency | percentage | example | L1 influence.
+  - Survey results: item | mean | SD | category | interpretation.
+  - Translation comparison: source text | strategy A | strategy B | evaluation.
+
+CONCLUSION CHARACTERISTICS:
+  - Answer research questions with specific data-supported claims.
+  - State pedagogical and theoretical contributions.
+  - Acknowledge limitations in sample size, context, and generalizability.
+  - Recommend future research with specific populations, methods, or contexts.
+
+COMMON REFERENCE VENUES:
+  Nihongo Kyouiku, Journal of Japanese Linguistics, Japanese Language and Literature,
+  Journal of Japanese Studies, Monumenta Nipponica, Japan Forum, Contemporary Japan,
+  Asian Studies Review, JALT Journal, Language Learning, Studies in Second Language
+  Acquisition, Jurnal Lingua Cultura, Japanology Journal Indonesia
+
+DOMAIN VOCABULARY:
+  Nihongo kyouiku, gengo shutoku, goyou bunseki, taishuu bunka, ibunka rikai,
+  keigo, danwa bunseki, hon'yaku, tsuuyaku, nihongo nouryoku shiken, interlanguage,
+  fossilization, pragmatic transfer, cultural adaptation, domestication, foreignization
+
+METHODOLOGY KEYWORDS:
+  contrastive analysis, error analysis, interlanguage analysis, discourse analysis, ethnographic observation, cultural studies methodology, translation comparison, corpus-based analysis, experimental design, quasi-experimental design, survey research, interview-based inquiry, think-aloud protocol, action research
+
+RESEARCH TOPIC BANK (500 TOPICS)
+
+CATEGORY 1 — Japanese Language Acquisition & SLA (001-050)
+001. Error analysis of Indonesian learners' acquisition of Japanese particles (wa/ga) at JLPT N3 level using interlanguage framework.
+002. Contrastive analysis of passive voice constructions in Japanese and Indonesian and its impact on L2 production accuracy.
+003. Longitudinal study of Japanese honorific (keigo) acquisition by Indonesian university students over four semesters.
+004. Motivation and demotivation factors in Japanese language learning among Indonesian university students using Dornyei's L2 Motivational Self System.
+005. Effects of explicit vs. implicit grammar instruction on Japanese conditional form acquisition by Indonesian learners.
+006. Interlanguage pragmatics study of Indonesian learners' request strategies in Japanese using discourse completion tasks.
+007. Acquisition order of Japanese grammatical morphemes by Indonesian learners compared to natural order hypothesis predictions.
+008. Role of anime and manga consumption in incidental Japanese vocabulary acquisition among Indonesian self-directed learners.
+009. Fossilization patterns in advanced Indonesian learners of Japanese: a cross-sectional study of persistent errors.
+010. Effects of study abroad in Japan on Indonesian students' Japanese oral proficiency development.
+011. Contrastive rhetoric analysis of Indonesian and Japanese academic writing conventions and L2 transfer effects.
+012. Japanese pitch accent acquisition by Indonesian learners: perception and production study using acoustic analysis.
+013. Effects of collaborative output tasks on Japanese grammar accuracy among Indonesian EFL-background learners.
+014. Willingness to communicate in Japanese among Indonesian learners: role of anxiety, motivation, and self-perceived competence.
+015. Acquisition of Japanese aspectual markers (-teiru, -tearu) by Indonesian learners: a processability theory perspective.
+016. Impact of JLPT preparation strategies on actual communicative competence of Indonesian Japanese learners.
+017. Corrective feedback preferences and effectiveness in Japanese language classrooms at Indonesian universities.
+018. Japanese kanji learning strategies of Indonesian learners: cognitive and metacognitive approaches comparison.
+019. Role of L1 Indonesian and L2 English in L3 Japanese acquisition: cross-linguistic influence study.
+020. Effects of task complexity on Japanese oral production fluency, accuracy, and complexity by Indonesian learners.
+021. Pragmatic development of Japanese refusal strategies by Indonesian learners across proficiency levels.
+022. Japanese onomatopoeia (giongo/gitaigo) acquisition challenges for Indonesian learners: a corpus-based error study.
+023. Motivation trajectories of Indonesian Japanese language learners from enrollment to graduation: a mixed-methods longitudinal study.
+024. Effects of shadowing technique on Japanese listening comprehension and pronunciation of Indonesian learners.
+025. Acquisition of Japanese relative clause structures by Indonesian learners: head-final vs. head-initial processing.
+026. Identity construction and investment in Japanese language learning among Indonesian heritage learners.
+027. Effects of extensive reading (tadoku) on Japanese reading fluency and vocabulary growth of Indonesian learners.
+028. Japanese sentence-final particles (ne, yo, na) acquisition by Indonesian learners: pragmatic competence study.
+029. Anxiety and self-efficacy in Japanese oral presentation tasks among Indonesian university students.
+030. Contrastive analysis of numeral classifier systems in Japanese and Indonesian and acquisition implications.
+031. Effects of drama-based pedagogy on Japanese communicative competence of Indonesian learners.
+032. Acquisition of Japanese causative constructions by Indonesian learners: form-meaning mapping challenges.
+033. Role of language learning apps (Duolingo, Bunpo, Takoboto) in supplementary Japanese learning by Indonesian students.
+034. Japanese compliment response strategies by Indonesian learners: pragmatic transfer and development study.
+035. Effects of flipped classroom model on Japanese grammar learning outcomes at Indonesian universities.
+036. Acquisition of Japanese temporal expressions by Indonesian learners: contrastive and error analysis approach.
+037. Learner autonomy development in Japanese language learning at Indonesian universities: a self-determination theory perspective.
+038. Japanese discourse marker acquisition (eeto, ano, maa) by Indonesian learners in conversational contexts.
+039. Effects of peer interaction on Japanese writing development among Indonesian intermediate learners.
+040. Acquisition of Japanese potential form and its semantic distinctions by Indonesian learners.
+041. Impact of COVID-19 online learning transition on Japanese language proficiency of Indonesian university students.
+042. Japanese vocabulary depth and breadth development in Indonesian learners: a cross-sectional proficiency study.
+043. Effects of content-based instruction on Japanese language and cultural knowledge acquisition by Indonesian learners.
+044. Acquisition of Japanese evidentiality markers (rashii, souda, youda) by Indonesian learners.
+045. Role of Japanese language learning communities on social media in Indonesian learners' informal acquisition.
+046. Effects of pronunciation training with AI speech recognition on Indonesian learners' Japanese accent.
+047. Japanese reading strategy use by Indonesian learners: think-aloud protocol study across text types.
+048. Acquisition of Japanese conjunctive expressions by Indonesian learners: a usage-based approach.
+049. Effects of intercultural contact on Japanese pragmatic competence of Indonesian learners in Japan.
+050. Longitudinal case study of Japanese language attrition in Indonesian graduates not using Japanese professionally.
+
+CATEGORY 2 — Japanese Linguistics & Grammar (051-100)
+051. Contrastive analysis of topic-comment structure in Japanese and Indonesian: implications for translation and teaching.
+052. Corpus-based study of Japanese loanword (gairaigo) usage patterns in contemporary Indonesian media discourse.
+053. Discourse analysis of Japanese indirectness strategies and their pragmatic equivalents in Indonesian communication.
+054. Syntactic analysis of Japanese complex sentence structures and their Indonesian translation equivalents.
+055. Phonological comparison of Japanese and Indonesian vowel systems using acoustic measurement analysis.
+056. Semantic analysis of Japanese polysemous verbs (kakeru, tsuku, toru) and Indonesian translation challenges.
+057. Corpus-based study of Japanese hedging expressions in academic writing compared to Indonesian conventions.
+058. Pragmatic analysis of Japanese apology strategies (sumimasen, gomen nasai) and Indonesian equivalents.
+059. Morphological analysis of Japanese compound word formation patterns and Indonesian parallel structures.
+060. Discourse analysis of Japanese business email conventions compared to Indonesian professional correspondence.
+061. Contrastive study of Japanese and Indonesian evidentiality systems and their discourse functions.
+062. Corpus-based analysis of Japanese sentence-final modality expressions in spoken vs. written registers.
+063. Phonetic analysis of Japanese geminate consonants and Indonesian learners' perception difficulties.
+064. Semantic analysis of Japanese spatial expressions (ue, shita, naka) compared to Indonesian locatives.
+065. Pragmatic study of Japanese gift-giving language (tatemae expressions) and Indonesian politeness equivalents.
+066. Syntactic analysis of Japanese nominalization patterns and their functional equivalents in Indonesian.
+067. Corpus-based study of Japanese gendered language (joseigo/danseigo) evolution in contemporary media.
+068. Discourse analysis of Japanese storytelling structures (ki-shou-ten-ketsu) in written narratives.
+069. Contrastive analysis of Japanese and Indonesian causative constructions: typological perspective.
+070. Phonological study of Japanese mora-timing vs. Indonesian syllable-timing: rhythm transfer effects.
+071. Semantic analysis of Japanese emotion vocabulary (amae, wabi-sabi) and cultural untranslatability.
+072. Pragmatic study of Japanese silence (chinmoku) as communication strategy compared to Indonesian norms.
+073. Morphological analysis of Japanese honorific prefix/suffix system and Indonesian social deixis.
+074. Corpus-based study of Japanese collocation patterns in JLPT reading passages across levels.
+075. Discourse analysis of Japanese television news language compared to Indonesian broadcast conventions.
+076. Contrastive study of Japanese and Indonesian conditional expressions: form-function mapping.
+077. Phonetic study of Japanese intonation patterns in questions and their perception by Indonesian listeners.
+078. Semantic analysis of Japanese color terms and their cultural connotations compared to Indonesian.
+079. Pragmatic analysis of Japanese invitation and offer sequences in natural conversation data.
+080. Syntactic study of Japanese scrambling phenomena and implications for Indonesian learner processing.
+081. Corpus-based analysis of Japanese internet language (netto-go) evolution and new linguistic forms.
+082. Discourse analysis of Japanese manga speech styles and character voice differentiation.
+083. Contrastive study of Japanese and Indonesian kinship terminology systems and social implications.
+084. Phonological analysis of Japanese pitch accent minimal pairs and Indonesian learner discrimination.
+085. Semantic study of Japanese temporal adverbs and their aspectual interactions in discourse.
+086. Pragmatic analysis of Japanese compliment sequences in workplace interactions.
+087. Morphological study of Japanese mimetic expressions (onomatopoeia) and their semantic categorization.
+088. Corpus-based analysis of Japanese academic discourse markers in research article introductions.
+089. Discourse analysis of Japanese political speech rhetoric and persuasion strategies.
+090. Contrastive study of Japanese and Indonesian passive constructions: adversative and non-adversative types.
+091. Phonetic analysis of Japanese vowel devoicing patterns and their sociolinguistic variation.
+092. Semantic study of Japanese modal expressions (hazu, beki, kamoshirenai) and epistemic gradation.
+093. Pragmatic analysis of Japanese disagreement strategies in formal vs. informal contexts.
+094. Syntactic study of Japanese relative clause processing by Indonesian learners using eye-tracking.
+095. Corpus-based analysis of Japanese conjunction usage frequency across genres and registers.
+096. Discourse analysis of Japanese doctor-patient communication patterns and politeness strategies.
+097. Contrastive study of Japanese and Indonesian proverb structures and cultural worldview reflection.
+098. Phonological study of Japanese loanword phonology adaptation patterns from English source words.
+099. Semantic analysis of Japanese spatial metaphors for time and their cognitive linguistic implications.
+100. Pragmatic study of Japanese humor and wordplay (dajare) mechanisms and cross-cultural comprehension.
+
+CATEGORY 3 — Translation & Interpretation Studies (101-150)
+101. Analysis of domestication and foreignization strategies in Indonesian translations of Haruki Murakami's novels.
+102. Translation of Japanese honorific system (keigo) into Indonesian: strategies and loss of pragmatic meaning.
+103. Corpus-based study of translation shifts in Japanese-Indonesian literary translation using Catford's framework.
+104. Quality assessment of machine translation (Google, DeepL) for Japanese-Indonesian text pairs across genres.
+105. Translation of Japanese onomatopoeia in manga into Indonesian: creative strategies and reader reception.
+106. Interpreter training needs analysis for Japanese-Indonesian simultaneous interpretation in business contexts.
+107. Translation of culture-specific items in Japanese anime subtitles for Indonesian audiences.
+108. Comparative analysis of multiple Indonesian translations of the same Japanese literary work.
+109. Translation strategies for Japanese food terminology (washoku) in Indonesian culinary publications.
+110. Quality assessment of Japanese-Indonesian interpretation at international conferences using Buhler's criteria.
+111. Translation of Japanese legal terminology into Indonesian: challenges in bilateral agreement documents.
+112. Audiovisual translation analysis of Japanese drama subtitle localization for Indonesian streaming platforms.
+113. Translation of Japanese business correspondence conventions into Indonesian professional communication norms.
+114. Corpus-based study of explicitation and implicitation in Japanese-to-Indonesian translation.
+115. Translation of Japanese poetry (haiku, tanka) into Indonesian: form vs. meaning preservation strategies.
+116. Community interpreting challenges in Japanese-Indonesian medical contexts for Indonesian workers in Japan.
+117. Translation of Japanese academic texts into Indonesian: nominalization and information structure shifts.
+118. Fan translation (fansub) quality and strategies in Japanese anime for Indonesian online communities.
+119. Translation of Japanese humor and wordplay in manga: compensation strategies for Indonesian readers.
+120. Sight translation training effectiveness for Japanese-Indonesian interpreter candidates.
+121. Translation of Japanese children's literature into Indonesian: cultural adaptation and pedagogical considerations.
+122. Machine translation post-editing (MTPE) workflow for Japanese-Indonesian technical documentation.
+123. Translation of Japanese advertising slogans into Indonesian: transcreation and cultural resonance.
+124. Interpreter's role perception in Japanese-Indonesian business negotiation settings.
+125. Translation of Japanese religious texts (Buddhist, Shinto) into Indonesian: sacred language challenges.
+126. Corpus-based analysis of translator's style in Japanese-Indonesian literary translation.
+127. Translation of Japanese news headlines into Indonesian: syntactic compression and information selection.
+128. Consecutive interpretation note-taking strategies for Japanese-Indonesian language pair.
+129. Translation of Japanese graphic novels (manga) sound effects: visual-verbal integration challenges.
+130. Quality assessment of Japanese-Indonesian translation in tourism materials using functionalist approach.
+131. Translation of Japanese philosophical concepts (mono no aware, iki) into Indonesian discourse.
+132. Remote simultaneous interpretation challenges for Japanese-Indonesian language pair in post-COVID era.
+133. Translation of Japanese song lyrics into Indonesian: rhythm, rhyme, and meaning negotiation.
+134. Corpus-based study of cohesion shifts in Japanese-to-Indonesian translation of academic texts.
+135. Translation of Japanese game localization for Indonesian market: cultural and linguistic adaptation.
+136. Interpreter ethics and neutrality challenges in Japanese-Indonesian diplomatic contexts.
+137. Translation of Japanese traditional arts terminology (ikebana, chado) for Indonesian cultural publications.
+138. Neural machine translation evaluation for Japanese-Indonesian: error typology and improvement areas.
+139. Translation of Japanese safety instructions and manuals for Indonesian factory workers.
+140. Telephone interpretation service quality for Japanese-Indonesian in healthcare settings.
+141. Translation of Japanese social media content into Indonesian: platform-specific conventions.
+142. Corpus-based study of modality translation from Japanese to Indonesian in news discourse.
+143. Translation of Japanese environmental policy documents into Indonesian: terminology standardization.
+144. Sign language interpretation between Japanese Sign Language and Indonesian Sign Language (BISINDO).
+145. Translation of Japanese culinary manga into Indonesian: multimodal translation approach.
+146. Interpreter training curriculum design for Japanese-Indonesian at Indonesian universities.
+147. Translation of Japanese corporate social responsibility reports into Indonesian: genre conventions.
+148. Whispered interpretation (chuchotage) techniques for Japanese-Indonesian in diplomatic settings.
+149. Translation of Japanese light novels into Indonesian: genre conventions and reader expectations.
+150. Corpus-based study of translation universals in Japanese-Indonesian parallel text corpus.
+
+CATEGORY 4 — Japanese Literature & Narrative (151-200)
+151. Narratological analysis of Haruki Murakami's narrative techniques and their reception among Indonesian readers.
+152. Semiotic reading of nature symbolism in classical Japanese literature (Genji Monogatari) for Indonesian literary studies.
+153. Comparative study of Japanese I-novel (watakushi shosetsu) tradition and Indonesian autobiographical fiction.
+154. Postcolonial reading of Japanese occupation narratives in Indonesian and Japanese literary perspectives.
+155. Feminist analysis of female characters in contemporary Japanese women's fiction and Indonesian reader reception.
+156. Hermeneutic study of mono no aware aesthetic in modern Japanese fiction and its Indonesian interpretation.
+157. Critical discourse analysis of social criticism in Japanese contemporary fiction (Murakami Ryu, Kirino Natsuo).
+158. Digital humanities approach to mapping Japanese literary influence on Indonesian writers (1920-2025).
+159. Corpus stylistic comparison of Japanese and Indonesian short story conventions and narrative structures.
+160. Reception study of Japanese light novels (ranobe) among Indonesian young adult readers.
+161. Narratological analysis of Japanese horror fiction (J-horror) narrative techniques and Indonesian adaptations.
+162. Semiotic reading of food and cooking scenes in Japanese literary fiction (Yoshimoto Banana, Ogawa Yoko).
+163. Comparative study of Japanese zuihitsu essay tradition and Indonesian esai literary form.
+164. Postcolonial analysis of Japanese war literature and Indonesian counter-narratives of occupation.
+165. Feminist reading of motherhood and domesticity in Japanese women's fiction (2020-2025).
+166. Hermeneutic interpretation of loneliness (kodoku) theme in contemporary Japanese urban fiction.
+167. Critical discourse analysis of workplace narratives in Japanese corporate fiction (salaryman literature).
+168. Computational stylometric analysis of Japanese literary translation styles into Indonesian.
+169. Corpus-based study of seasonal references (kigo) in Japanese literary prose and their translation.
+170. Reception study of Japanese Nobel laureate literature (Kawabata, Oe) among Indonesian literature students.
+171. Narratological analysis of unreliable narration in Japanese mystery fiction (Higashino Keigo).
+172. Semiotic reading of urban space in Japanese contemporary fiction set in Tokyo.
+173. Comparative study of Japanese and Indonesian disaster literature (earthquake, tsunami narratives).
+174. Postcolonial reading of Okinawan literature and its parallels with Indonesian regional literature.
+175. Feminist analysis of gender fluidity in Japanese contemporary fiction and manga narratives.
+176. Hermeneutic study of Buddhist philosophical themes in Japanese literary fiction.
+177. Critical discourse analysis of aging society themes in Japanese contemporary fiction.
+178. Digital text analysis of Japanese bestseller trends and their correlation with Indonesian translation selection.
+179. Corpus-based comparison of dialogue conventions in Japanese and Indonesian fiction.
+180. Reception study of Japanese children's literature (Miyazawa Kenji, Arai Ryoji) in Indonesian translation.
+181. Narratological analysis of time manipulation in Japanese speculative fiction.
+182. Semiotic reading of traditional Japanese aesthetics (wabi-sabi, ma) in contemporary literary expression.
+183. Comparative study of Japanese and Indonesian coming-of-age (seishun) literary narratives.
+184. Postcolonial analysis of Japanese literary representations of Southeast Asia.
+185. Feminist reading of female detective characters in Japanese mystery fiction.
+186. Hermeneutic interpretation of silence and non-communication in Japanese literary narratives.
+187. Critical discourse analysis of social inequality themes in Japanese contemporary realist fiction.
+188. Computational analysis of narrative structure patterns in Japanese short story collections.
+189. Corpus-based study of emotional vocabulary in Japanese literary fiction across decades.
+190. Reception study of Japanese literary fiction adapted into anime and its Indonesian audience.
+191. Narratological analysis of epistolary and diary formats in Japanese contemporary fiction.
+192. Semiotic reading of color symbolism in Japanese literary tradition and modern fiction.
+193. Comparative study of Japanese and Indonesian literary responses to nuclear/environmental disaster.
+194. Postcolonial reading of Japanese colonial literature about Taiwan, Korea, and Southeast Asia.
+195. Feminist analysis of domestic space in Japanese women's fiction (Kawakami Mieko, Murata Sayaka).
+196. Hermeneutic study of nostalgia and memory in Japanese literary fiction about rural Japan.
+197. Critical discourse analysis of immigration and multicultural themes in Japanese contemporary fiction.
+198. Digital humanities mapping of Japanese literary translation flows to Indonesian publishing.
+199. Corpus-based study of Japanese literary language modernization from Meiji to contemporary era.
+200. Reception study of Japanese literary prizes (Akutagawa, Naoki) winners among Indonesian readers.
+
+CATEGORY 5 — Japanese Pop Culture & Media (201-250)
+201. Semiotic analysis of Japanese anime visual storytelling conventions and Indonesian audience interpretation.
+202. Critical discourse analysis of gender representation in Japanese manga consumed by Indonesian readers.
+203. Cultural studies analysis of Japanese idol (aidoru) culture reception and adaptation in Indonesia.
+204. Narratological study of Japanese video game storytelling and Indonesian player engagement.
+205. Postcolonial reading of Japanese soft power through pop culture dissemination in Indonesia.
+206. Feminist analysis of female characters in Japanese shoujo manga and Indonesian reader identification.
+207. New media studies of Japanese vtuber phenomenon and Indonesian fan community formation.
+208. Computational analysis of Japanese anime dialogue patterns and their influence on Indonesian learners' Japanese.
+209. Corpus-based study of Japanese pop culture vocabulary adoption in Indonesian youth language.
+210. Reception study of Japanese tokusatsu (Kamen Rider, Ultraman) among Indonesian audiences across generations.
+211. Semiotic analysis of Japanese kawaii aesthetics and their cultural adaptation in Indonesian creative industries.
+212. Critical discourse analysis of Japanese anime fan communities' discourse practices in Indonesian social media.
+213. Cultural studies analysis of cosplay culture as Japanese-Indonesian cultural exchange medium.
+214. Narratological examination of Japanese visual novel storytelling and Indonesian adaptation.
+215. Postcolonial reading of Japanese cultural imperialism debates in Indonesian pop culture consumption.
+216. Feminist analysis of BL (Boys' Love) manga/anime consumption among Indonesian female audiences.
+217. Media studies analysis of Japanese music (J-Pop, J-Rock) fandom in Indonesia.
+218. Computational sentiment analysis of Indonesian audience reactions to Japanese anime on social media.
+219. Corpus-based study of Japanese internet slang adoption in Indonesian otaku communities.
+220. Reception study of Japanese food culture media (cooking anime, food manga) in Indonesian context.
+221. Semiotic analysis of Japanese horror media (J-horror films, horror manga) and Indonesian audience reception.
+222. Critical discourse analysis of Japanese work culture representation in anime and Indonesian viewer perception.
+223. Cultural studies analysis of Japanese traditional culture representation in contemporary anime for Indonesian audiences.
+224. Narratological study of Japanese isekai (another world) genre and Indonesian web novel adaptations.
+225. Postcolonial reading of Japan-Indonesia relations representation in Japanese and Indonesian media.
+226. Feminist analysis of magical girl (mahou shoujo) genre evolution and Indonesian fan interpretation.
+227. New media analysis of Japanese streaming content (Netflix anime) consumption patterns in Indonesia.
+228. Computational analysis of Japanese anime subtitle translation quality on Indonesian platforms.
+229. Corpus-based study of Japanese honorific usage in anime and its impact on learner pragmatic awareness.
+230. Reception study of Japanese sports anime/manga and their influence on Indonesian youth sports culture.
+231. Semiotic analysis of Japanese mecha anime aesthetics and Indonesian fan art production.
+232. Critical discourse analysis of mental health representation in Japanese anime and Indonesian viewer responses.
+233. Cultural studies analysis of Japanese matsuri (festival) culture adaptation in Indonesian Japanese communities.
+234. Narratological examination of Japanese slice-of-life (nichijou-kei) anime narrative structures.
+235. Postcolonial reading of Japanese historical anime and Indonesian audiences' perception of Japanese history.
+236. Feminist analysis of female mangaka (manga artists) and their representation of women's experiences.
+237. Media literacy study of Indonesian youth's critical engagement with Japanese pop culture content.
+238. Computational analysis of Japanese anime character speech patterns and sociolinguistic variation.
+239. Corpus-based study of Japanese pop culture references in Indonesian youth creative writing.
+240. Reception study of Japanese live-action drama (dorama) among Indonesian audiences vs. Korean drama.
+241. Semiotic analysis of Japanese packaging design aesthetics and Indonesian consumer perception.
+242. Critical discourse analysis of Japanese environmental messages in Studio Ghibli films for Indonesian audiences.
+243. Cultural studies analysis of Japanese otaku identity construction among Indonesian fans.
+244. Narratological study of Japanese mystery anime adaptation from novel sources.
+245. Postcolonial reading of Japanese anime set in Southeast Asian-inspired fantasy worlds.
+246. Feminist analysis of gender role subversion in Japanese josei manga and Indonesian reader response.
+247. New media analysis of Japanese virtual idol technology and Indonesian entertainment industry adoption.
+248. Computational analysis of Indonesian fan translation (fansub) linguistic patterns for Japanese anime.
+249. Corpus-based study of Japanese cultural keywords in Indonesian pop culture journalism.
+250. Reception study of Japanese traditional performing arts (kabuki, noh) media content among Indonesian students.
+
+CATEGORY 6 — Cross-Cultural Communication Japan-Indonesia (251-300)
+251. Ethnographic study of communication challenges faced by Indonesian workers in Japanese companies in Indonesia.
+252. Contrastive pragmatic analysis of Japanese and Indonesian refusal strategies in workplace contexts.
+253. Cross-cultural study of Japanese honne/tatemae concept and Indonesian communication norms.
+254. Discourse analysis of Japanese-Indonesian business meeting interaction patterns and turn-taking.
+255. Cultural adaptation study of Indonesian students in Japanese universities: communication challenges and strategies.
+256. Contrastive analysis of Japanese and Indonesian nonverbal communication in professional settings.
+257. Cross-cultural study of gift-giving practices and associated language in Japanese and Indonesian cultures.
+258. Ethnographic observation of Japanese expatriate families' cultural adaptation in Indonesian communities.
+259. Pragmatic study of Japanese and Indonesian compliment and compliment response patterns.
+260. Cross-cultural analysis of conflict resolution communication styles in Japanese-Indonesian joint ventures.
+261. Discourse analysis of Japanese-Indonesian interpreter-mediated business negotiations.
+262. Cultural study of Japanese concept of "kuuki wo yomu" (reading the air) and Indonesian equivalents.
+263. Contrastive analysis of Japanese and Indonesian apology strategies and face-saving mechanisms.
+264. Cross-cultural study of Japanese senpai-kouhai relationships and Indonesian hierarchical communication.
+265. Ethnographic study of Indonesian caregivers (EPA candidates) communication adaptation in Japanese elderly care.
+266. Pragmatic analysis of Japanese and Indonesian small talk conventions in professional networking.
+267. Cross-cultural study of Japanese "nemawashi" consensus-building and Indonesian "musyawarah" decision-making.
+268. Discourse analysis of miscommunication incidents in Japanese-Indonesian intercultural workplaces.
+269. Cultural study of Japanese "omotenashi" hospitality concept and Indonesian "ramah tamah" comparison.
+270. Contrastive analysis of Japanese and Indonesian email politeness strategies in academic contexts.
+271. Cross-cultural study of humor use and appropriateness in Japanese-Indonesian social interactions.
+272. Ethnographic observation of Japanese language school culture and Indonesian student adaptation.
+273. Pragmatic study of Japanese and Indonesian telephone conversation conventions in business.
+274. Cross-cultural analysis of Japanese "horenso" (report-contact-consult) system in Indonesian subsidiaries.
+275. Discourse analysis of Japanese-Indonesian intercultural couple communication patterns.
+276. Cultural study of Japanese seasonal greetings and Indonesian equivalent social rituals.
+277. Contrastive analysis of Japanese and Indonesian presentation styles in academic conferences.
+278. Cross-cultural study of Japanese "iitoko-dori" selective cultural adoption by Indonesian returnees.
+279. Ethnographic study of Indonesian technical trainees' workplace communication in Japanese factories.
+280. Pragmatic analysis of Japanese and Indonesian disagreement expression in group discussions.
+281. Cross-cultural study of Japanese "wa" (harmony) maintenance and Indonesian "rukun" concept.
+282. Discourse analysis of Japanese-Indonesian parent-teacher communication in Japanese schools in Indonesia.
+283. Cultural study of Japanese "mottainai" (waste avoidance) concept reception in Indonesian context.
+284. Contrastive analysis of Japanese and Indonesian sympathy and condolence expression patterns.
+285. Cross-cultural study of Japanese "ganbaru" (perseverance) concept and Indonesian "semangat" comparison.
+286. Ethnographic observation of cultural adjustment in Japanese-Indonesian international marriages.
+287. Pragmatic study of Japanese and Indonesian self-deprecation and modesty strategies.
+288. Cross-cultural analysis of Japanese "meishi koukan" (business card exchange) ritual in Indonesian context.
+289. Discourse analysis of Japanese-Indonesian intercultural team building communication in multinational companies.
+290. Cultural study of Japanese "ikigai" (life purpose) concept reception among Indonesian youth.
+291. Contrastive analysis of Japanese and Indonesian gratitude expression patterns and social obligations.
+292. Cross-cultural study of Japanese "shinrai" (trust) building processes in Indonesian business partnerships.
+293. Ethnographic study of Japanese tourists' communication experiences in Indonesian tourism settings.
+294. Pragmatic analysis of Japanese and Indonesian indirect criticism strategies in professional feedback.
+295. Cross-cultural study of Japanese "kaizen" (continuous improvement) communication in Indonesian manufacturing.
+296. Discourse analysis of Japanese-Indonesian academic supervision communication patterns.
+297. Cultural study of Japanese "mono no aware" (pathos of things) and Indonesian "rasa" aesthetic comparison.
+298. Contrastive analysis of Japanese and Indonesian silence use in interpersonal communication.
+299. Cross-cultural study of Japanese "uchi-soto" (in-group/out-group) dynamics in Indonesian Japanese communities.
+300. Ethnographic observation of Indonesian Muslim workers' religious practice negotiation in Japanese workplaces.
+
+CATEGORY 7 — Japanese Business & Management Culture (301-350)
+301. Cultural analysis of Japanese management philosophy (kaizen, 5S) implementation in Indonesian manufacturing.
+302. Discourse analysis of Japanese corporate communication styles in Indonesian subsidiary companies.
+303. Cross-cultural study of Japanese ringi decision-making system adaptation in Indonesian organizations.
+304. Ethnographic observation of Japanese work culture (karoshi, overtime) perception among Indonesian employees.
+305. Contrastive analysis of Japanese and Indonesian leadership communication styles in multinational teams.
+306. Cultural study of Japanese "monozukuri" (craftsmanship) philosophy transfer to Indonesian industries.
+307. Discourse analysis of Japanese-Indonesian business negotiation strategies and cultural friction points.
+308. Cross-cultural study of Japanese quality control communication in Indonesian automotive factories.
+309. Ethnographic study of Japanese expatriate managers' adaptation challenges in Indonesian workplaces.
+310. Pragmatic analysis of Japanese business Japanese (bijinesu nihongo) needs for Indonesian professionals.
+311. Cultural analysis of Japanese "shushin koyou" (lifetime employment) concept and Indonesian labor expectations.
+312. Discourse analysis of Japanese corporate training programs delivered in Indonesian contexts.
+313. Cross-cultural study of Japanese "nenko joretsu" (seniority system) and Indonesian workplace hierarchy.
+314. Ethnographic observation of morning assembly (chorei) practices in Japanese companies in Indonesia.
+315. Contrastive analysis of Japanese and Indonesian business proposal writing conventions.
+316. Cultural study of Japanese "omotenashi" service culture implementation in Indonesian hospitality industry.
+317. Discourse analysis of Japanese-Indonesian joint venture communication challenges and solutions.
+318. Cross-cultural study of Japanese "hansei" (reflection) practice adoption in Indonesian organizations.
+319. Ethnographic study of Indonesian workers' experiences in Japanese convenience store (konbini) chains.
+320. Pragmatic analysis of Japanese business meeting language requirements for Indonesian interpreters.
+321. Cultural analysis of Japanese "keiretsu" business network concept and Indonesian business relationships.
+322. Discourse analysis of Japanese corporate social responsibility communication in Indonesian operations.
+323. Cross-cultural study of Japanese "nemawashi" pre-meeting consensus in Indonesian organizational culture.
+324. Ethnographic observation of Japanese factory floor communication patterns with Indonesian workers.
+325. Contrastive analysis of Japanese and Indonesian performance evaluation communication styles.
+326. Cultural study of Japanese "shokunin kishitsu" (artisan spirit) and Indonesian craftsmanship traditions.
+327. Discourse analysis of Japanese brand communication strategies for Indonesian consumer markets.
+328. Cross-cultural study of Japanese "hatarakikata kaikaku" (work style reform) relevance for Indonesia.
+329. Ethnographic study of Japanese restaurant management culture transfer to Indonesian food service.
+330. Pragmatic analysis of Japanese customer service language (keigo) training for Indonesian staff.
+331. Cultural analysis of Japanese "lean manufacturing" communication in Indonesian production facilities.
+332. Discourse analysis of Japanese-Indonesian technology transfer communication in engineering projects.
+333. Cross-cultural study of Japanese "mentoring" (OJT) practices in Indonesian workplace contexts.
+334. Ethnographic observation of Japanese trading company (shosha) operations in Indonesian markets.
+335. Contrastive analysis of Japanese and Indonesian crisis communication strategies in business.
+336. Cultural study of Japanese "wa" (harmony) maintenance strategies in multicultural Indonesian teams.
+337. Discourse analysis of Japanese corporate philosophy (shafu) communication to Indonesian employees.
+338. Cross-cultural study of Japanese "jidoka" (automation with human touch) concept in Indonesian industry.
+339. Ethnographic study of Indonesian nurses' adaptation to Japanese healthcare workplace culture.
+340. Pragmatic analysis of Japanese business entertainment (settai) culture and Indonesian equivalents.
+341. Cultural analysis of Japanese startup culture influence on Indonesian entrepreneurship ecosystem.
+342. Discourse analysis of Japanese-Indonesian supply chain communication and relationship management.
+343. Cross-cultural study of Japanese "genchi genbutsu" (go and see) management in Indonesian operations.
+344. Ethnographic observation of Japanese school management practices in Japanese schools in Indonesia.
+345. Contrastive analysis of Japanese and Indonesian workplace conflict resolution communication.
+346. Cultural study of Japanese "ikigai" concept application in Indonesian human resource development.
+347. Discourse analysis of Japanese corporate sustainability communication for Indonesian stakeholders.
+348. Cross-cultural study of Japanese "kanban" system communication in Indonesian logistics operations.
+349. Ethnographic study of Japanese agricultural cooperation projects' communication with Indonesian farmers.
+350. Pragmatic analysis of Japanese-Indonesian business interpreter role and ethical challenges.
+
+CATEGORY 8 — Japanese History & Society (351-400)
+351. Historical discourse analysis of Japanese occupation period (1942-1945) narratives in Indonesian textbooks.
+352. Cultural study of Japanese war reparations and their impact on Japan-Indonesia diplomatic discourse.
+353. Hermeneutic analysis of Japanese romusha (forced labor) memories in Indonesian oral history.
+354. Critical discourse analysis of Japanese development aid (ODA) communication in Indonesian media.
+355. Historical study of Japanese language education policy in Indonesia from occupation to present.
+356. Cultural analysis of Japanese diaspora community formation and maintenance in Indonesian cities.
+357. Discourse analysis of Japan-Indonesia economic partnership agreement (EPA) public communication.
+358. Historical study of Japanese cultural centers (Japan Foundation) role in Indonesia's Japanese studies development.
+359. Critical analysis of Japanese war apology discourse and Indonesian public reception.
+360. Cultural study of Japanese cemetery and memorial sites in Indonesia as historical memory spaces.
+361. Discourse analysis of Japanese technology transfer narratives in Indonesian industrialization history.
+362. Historical study of Indonesian students in Japan (ryugakusei) from Meiji era to present.
+363. Cultural analysis of Japanese martial arts (budo) communities in Indonesia and cultural transmission.
+364. Critical discourse analysis of Japan-Indonesia relations in Indonesian newspaper editorials (2020-2025).
+365. Historical study of Japanese propaganda in Indonesia during World War II: media and language analysis.
+366. Cultural study of Japanese religious communities (Buddhist, new religions) in Indonesian society.
+367. Discourse analysis of Japanese earthquake/tsunami disaster response and Indonesian media coverage.
+368. Historical study of Japanese fishing industry cooperation with Indonesian maritime communities.
+369. Cultural analysis of Japanese garden and architectural influence in Indonesian urban design.
+370. Critical discourse analysis of anti-Japanese sentiment periods in Indonesian political history.
+371. Historical study of Japanese women's organizations in colonial-era Indonesia (Netherlands East Indies).
+372. Cultural study of Japanese food culture establishment and adaptation in Indonesian culinary landscape.
+373. Discourse analysis of Japanese imperial visit narratives in Indonesian diplomatic communication.
+374. Historical study of Japanese-trained Indonesian independence fighters and their legacy.
+375. Cultural analysis of Japanese seasonal culture (hanami, momijigari) adaptation in Indonesian Japanese communities.
+376. Critical discourse analysis of Japanese nuclear policy and Indonesian public opinion formation.
+377. Historical study of Japanese textile industry investment in Indonesia and labor relations.
+378. Cultural study of Japanese tea ceremony (chado) practice communities in Indonesia.
+379. Discourse analysis of Japan-Indonesia sister city program communication and cultural exchange.
+380. Historical study of Japanese intelligence operations in pre-war Indonesia and their cultural impact.
+381. Cultural analysis of Japanese anime/manga influence on Indonesian visual arts education.
+382. Critical discourse analysis of Japanese immigration policy and Indonesian worker recruitment communication.
+383. Historical study of Japanese language newspapers in colonial Indonesia and their readership.
+384. Cultural study of Japanese New Year and seasonal celebrations in Indonesian Japanese communities.
+385. Discourse analysis of Japan-Indonesia infrastructure cooperation (MRT, railways) public communication.
+386. Historical study of Japanese scientific cooperation with Indonesian research institutions.
+387. Cultural analysis of Japanese minimalism (danshari) lifestyle trend reception in Indonesian society.
+388. Critical discourse analysis of Japanese whaling controversy and Indonesian marine conservation discourse.
+389. Historical study of Japanese Christian missionaries in Indonesia and their cultural legacy.
+390. Cultural study of Japanese calligraphy (shodo) education and practice in Indonesian contexts.
+391. Discourse analysis of Japanese disaster preparedness knowledge transfer to Indonesian communities.
+392. Historical study of Japanese economic bubble era and its impact on Indonesia investment patterns.
+393. Cultural analysis of Japanese bathing culture (onsen, sento) and Indonesian hot spring tourism development.
+394. Critical discourse analysis of Japan-Indonesia defense cooperation communication in regional security.
+395. Historical study of Japanese agricultural modernization programs in Indonesian rural development.
+396. Cultural study of Japanese flower arrangement (ikebana) communities in Indonesian cities.
+397. Discourse analysis of Japanese emperor system and Indonesian public understanding of Japanese monarchy.
+398. Historical study of Japanese cinema distribution and reception in Indonesia (1950s-present).
+399. Cultural analysis of Japanese stationery and design culture influence on Indonesian creative industries.
+400. Critical discourse analysis of Japan-Indonesia climate change cooperation communication.
+
+CATEGORY 9 — Japanese Language Teaching Methodology (401-450)
+401. Action research on task-based language teaching (TBLT) implementation in Japanese classes at Indonesian universities.
+402. Effectiveness study of Content and Language Integrated Learning (CLIL) for Japanese at Indonesian vocational schools.
+403. Design-based research on gamification strategies for Japanese kanji learning in Indonesian contexts.
+404. Comparative study of textbook-based vs. authentic materials-based Japanese instruction in Indonesia.
+405. Action research on project-based learning for Japanese business communication at Indonesian polytechnics.
+406. Effectiveness study of virtual reality (VR) immersion for Japanese cultural learning in Indonesian classrooms.
+407. Design-based research on AI chatbot integration for Japanese conversation practice in Indonesian settings.
+408. Comparative study of Japanese language teaching approaches across Indonesian university programs.
+409. Action research on differentiated instruction for mixed-level Japanese classes in Indonesian universities.
+410. Effectiveness study of extensive reading (tadoku) program implementation in Indonesian Japanese courses.
+411. Design-based research on mobile-assisted language learning (MALL) for Japanese vocabulary in Indonesian context.
+412. Comparative study of native vs. non-native Japanese teacher effectiveness in Indonesian institutions.
+413. Action research on peer assessment implementation in Japanese writing classes at Indonesian universities.
+414. Effectiveness study of drama-based pedagogy for Japanese oral communication in Indonesian settings.
+415. Design-based research on flipped classroom model for Japanese grammar instruction in Indonesia.
+416. Comparative study of JLPT-oriented vs. communicative-oriented Japanese curricula in Indonesian programs.
+417. Action research on intercultural communicative competence development in Japanese courses in Indonesia.
+418. Effectiveness study of corpus-based data-driven learning for Japanese collocations in Indonesian context.
+419. Design-based research on portfolio assessment for Japanese language proficiency in Indonesian universities.
+420. Comparative study of synchronous vs. asynchronous online Japanese instruction effectiveness in Indonesia.
+421. Action research on cooperative learning strategies in Japanese reading classes at Indonesian universities.
+422. Effectiveness study of pronunciation training apps for Japanese pitch accent in Indonesian settings.
+423. Design-based research on scenario-based learning for Japanese business communication in Indonesia.
+424. Comparative study of Japanese language learning outcomes across different Indonesian institution types.
+425. Action research on self-regulated learning strategy training for Japanese learners in Indonesia.
+426. Effectiveness study of video-based cultural instruction for Japanese pragmatic competence in Indonesian context.
+427. Design-based research on adaptive learning systems for personalized Japanese instruction in Indonesia.
+428. Comparative study of Japanese language teacher training programs across Indonesian universities.
+429. Action research on translanguaging pedagogy in Japanese classes for multilingual Indonesian students.
+430. Effectiveness study of shadowing technique for Japanese listening skills in Indonesian university courses.
+431. Design-based research on social media integration for authentic Japanese language use in Indonesian classes.
+432. Comparative study of assessment practices in Japanese language programs across Indonesian regions.
+433. Action research on error correction strategies and their effectiveness in Indonesian Japanese classrooms.
+434. Effectiveness study of manga/anime-based materials for Japanese language motivation in Indonesian context.
+435. Design-based research on blended learning model for Japanese kanji instruction in Indonesia.
+436. Comparative study of Japanese language learning motivation across different Indonesian learner demographics.
+437. Action research on collaborative writing using Google Docs in Japanese composition classes in Indonesia.
+438. Effectiveness study of speech recognition technology for Japanese pronunciation feedback in Indonesian settings.
+439. Design-based research on cultural portfolio projects for Japanese cultural competence in Indonesia.
+440. Comparative study of Japanese language program graduates' workplace language use in Indonesian companies.
+441. Action research on mindfulness-based anxiety reduction in Japanese oral test preparation in Indonesia.
+442. Effectiveness study of spaced repetition systems (Anki) for Japanese vocabulary retention in Indonesian context.
+443. Design-based research on virtual exchange programs between Indonesian and Japanese university students.
+444. Comparative study of Japanese language needs analysis across Indonesian industry sectors.
+445. Action research on formative assessment practices in Japanese grammar classes at Indonesian universities.
+446. Effectiveness study of storytelling approach for Japanese grammar instruction in Indonesian settings.
+447. Design-based research on augmented reality (AR) applications for Japanese cultural learning in Indonesia.
+448. Comparative study of Japanese language textbooks used in Indonesian universities: content and approach analysis.
+449. Action research on learner-generated materials for Japanese vocabulary learning in Indonesian classes.
+450. Effectiveness study of tandem learning partnerships between Indonesian Japanese learners and Japanese students.
+
+CATEGORY 10 — Digital Japanese Studies & NLP (451-500)
+451. Development and evaluation of Japanese-Indonesian neural machine translation model for academic texts.
+452. Corpus-based study of Japanese language learning app content quality for Indonesian learners.
+453. NLP-based automatic error detection system for Indonesian learners' Japanese writing.
+454. Computational analysis of Japanese social media language patterns relevant for Indonesian learners.
+455. Development of Japanese reading difficulty estimation tool calibrated for Indonesian L1 learners.
+456. AI-powered Japanese pronunciation assessment system evaluation for Indonesian learner accents.
+457. Corpus-based development of Japanese collocation dictionary for Indonesian intermediate learners.
+458. NLP analysis of Japanese-Indonesian code-switching patterns in bilingual social media users.
+459. Computational study of Japanese kanji learning optimization using spaced repetition algorithms for Indonesian learners.
+460. Development of Japanese grammar error correction system trained on Indonesian learner corpus.
+461. Corpus-based analysis of Japanese language change in digital communication and implications for teaching.
+462. NLP-based sentiment analysis of Japanese customer reviews for Indonesian business Japanese training.
+463. Computational comparison of Japanese language textbook vocabulary coverage with real-world corpus frequency.
+464. Development of AI-based Japanese-Indonesian simultaneous interpretation support system.
+465. Corpus-based study of Japanese academic writing patterns for Indonesian graduate student training.
+466. NLP analysis of Japanese politeness level detection for Indonesian learner feedback systems.
+467. Computational study of Japanese word segmentation challenges and solutions for Indonesian NLP applications.
+468. Development of Japanese reading comprehension question generation system for Indonesian learners.
+469. Corpus-based analysis of Japanese business email templates and automated writing assistance for Indonesian users.
+470. NLP-based Japanese text simplification system for Indonesian intermediate-level readers.
+471. Computational analysis of Japanese-Indonesian parallel corpus for translation memory development.
+472. Development of speech-to-text system optimized for Indonesian-accented Japanese.
+473. Corpus-based study of Japanese discourse markers frequency and distribution for pedagogical prioritization.
+474. NLP analysis of Japanese news text readability for Indonesian learner level classification.
+475. Computational study of Japanese homophone disambiguation challenges for Indonesian learner NLP tools.
+476. Development of AI tutoring system for Japanese particle usage trained on Indonesian learner errors.
+477. Corpus-based analysis of Japanese spoken language features for Indonesian conversation class materials.
+478. NLP-based automatic assessment of Japanese essay writing by Indonesian learners.
+479. Computational study of Japanese-Indonesian cognate and loanword identification for vocabulary learning.
+480. Development of Japanese handwriting recognition system adapted for Indonesian learner stroke patterns.
+481. Corpus-based study of Japanese manga language for developing reading materials for Indonesian learners.
+482. NLP analysis of Japanese job posting language for Indonesian job seekers in Japan.
+483. Computational comparison of Japanese language learning chatbot effectiveness for Indonesian users.
+484. Development of Japanese-Indonesian terminology extraction system for specialized translation.
+485. Corpus-based analysis of Japanese honorific usage patterns in contemporary media for teaching materials.
+486. NLP-based Japanese text summarization system for Indonesian academic researchers.
+487. Computational study of Japanese sentence complexity metrics calibrated for Indonesian learner proficiency.
+488. Development of multimodal Japanese learning system integrating text, audio, and visual for Indonesian learners.
+489. Corpus-based study of Japanese internet meme language evolution and comprehension challenges for Indonesian users.
+490. NLP analysis of Japanese-Indonesian bilingual dictionary coverage gaps and improvement recommendations.
+491. Computational study of Japanese named entity recognition for Indonesian news about Japan.
+492. Development of AI-based Japanese cultural knowledge quiz system for Indonesian learners.
+493. Corpus-based analysis of Japanese language test (JLPT) vocabulary distribution across proficiency levels.
+494. NLP-based detection of Japanese pragmatic inappropriateness in Indonesian learner production.
+495. Computational study of Japanese text classification for Indonesian content filtering applications.
+496. Development of Japanese-Indonesian cross-lingual information retrieval system for academic research.
+497. Corpus-based study of Japanese technical terminology in automotive industry for Indonesian worker training.
+498. NLP analysis of Japanese patient information leaflets for Indonesian healthcare worker comprehension.
+499. Computational study of Japanese speech act recognition for Indonesian learner pragmatic training.
+500. Development of adaptive Japanese language learning platform using learning analytics for Indonesian institutions.

@@ -1,0 +1,645 @@
+================================================================================
+TOPIC GUIDE — Business Administration (Administrasi Bisnis)
+================================================================================
+FIELD: Social Sciences / Business Administration
+DEFAULT CITATION STYLE: APA
+SUBDISCIPLINE: Strategic Management, Marketing Management, Human Resource Management, Operations Management, Financial Management, Entrepreneurship, Digital Business, International Business
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title (specific, with method and domain)
+
+3. LATEST METHODOLOGY (2022-2025):
+   - SEM-PLS (SmartPLS 4.0) / SEM-AMOS for complex causal models
+   - Multiple regression analysis with moderation/mediation
+   - Case study (Yin, 2018) for exploratory business research
+   - Mixed methods: sequential explanatory, convergent parallel design
+   - Balanced Scorecard for performance measurement
+   - Porter's Five Forces for industry analysis
+   - Resource-Based View (RBV) for competitive advantage analysis
+   - Dynamic Capabilities framework (Teece)
+   - Business Model Canvas (Osterwalder) for business model innovation
+   - Bibliometric analysis (VOSviewer) for literature mapping
+   - Netnography for online consumer behavior
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics with statistical measures
+   - Comparison with baselines
+   - All numbers realistic and internally consistent
+
+5. MATHEMATICAL FORMULAS (where applicable):
+   - ROI = (Net Profit / Total Investment) x 100%
+   - ROE = (Net Income / Shareholders Equity) x 100%
+   - Profit Margin = (Net Profit / Revenue) x 100%
+   - Market Share = (Company Sales / Total Market Sales) x 100%
+   - SEM Path Coefficient: Beta (standardized), t-value > 1.96, p < 0.05
+   - R-squared (coefficient of determination) for model fit
+   - Cronbach's Alpha > 0.70 for reliability
+   - AVE > 0.50 for convergent validity
+   - Composite Reliability > 0.70
+   - f-squared effect size: 0.02 (small), 0.15 (medium), 0.35 (large)
+   - Sobel test for mediation: z = a*b / sqrt(b2*sa2 + a2*sb2)
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian business/economic context
+   - Reference to Indonesian SMEs, BUMN, startup ecosystem, halal industry
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords, Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+ABSTRACT CHARACTERISTICS:
+  200-250 words. Reports: business phenomenon studied (market dynamics, organizational behavior, strategic decisions), theoretical framework, methodology, sample/population, key findings with statistical significance, and managerial implications.
+
+INTRODUCTION ELEMENTS:
+  - Context: Indonesian business landscape, digital economy growth, ASEAN economic integration
+  - Theoretical framework: RBV (Barney), Dynamic Capabilities (Teece), Institutional Theory (North), Agency Theory (Jensen & Meckling)
+  - Research gap: understudied Indonesian context, new digital business models, post-pandemic business adaptation
+  - Research question with clear constructs and relationships
+
+LITERATURE REVIEW:
+  Common section name: "Tinjauan Pustaka" / "Literature Review"
+  - Strategic management: competitive advantage, business model innovation, digital transformation
+  - Marketing: consumer behavior, brand management, digital marketing, service quality
+  - HRM: employee performance, organizational commitment, leadership, talent management
+  - Finance: capital structure, firm performance, investment decisions, financial inclusion
+  - Operations: supply chain resilience, lean management, quality management
+  - Indonesian context: SME development, BUMN reform, startup ecosystem, halal economy
+
+METHODOLOGY:
+  Common section name: "Metode Penelitian" / "Research Methodology"
+  - Quantitative: survey (Likert 1-5), SEM-PLS/AMOS, multiple regression, factor analysis
+  - Qualitative: case study, in-depth interview, FGD, content analysis
+  - Mixed methods: sequential explanatory, convergent parallel
+  - Data sources: questionnaires, financial reports (IDX), company databases, interviews
+  - Sampling: probability (random, stratified), non-probability (purposive, snowball)
+  - Analysis: SmartPLS, AMOS, SPSS, NVivo, Eviews
+
+TYPICAL RESULTS & DISCUSSION:
+  - SEM: path coefficients (Beta 0.1-0.8), R-squared (0.25-0.75), Q-squared > 0
+  - Regression: F-test significance, adjusted R-squared, VIF < 10
+  - Financial ratios: ROI (5-25%), ROE (8-30%), profit margin (3-20%)
+  - Survey: mean scores (3.0-4.5 on 5-point scale), standard deviations
+  - Hypothesis testing: supported/not supported with effect sizes
+  Tables: SEM results, regression coefficients, descriptive statistics
+  Figures: path diagrams, conceptual frameworks, trend charts
+
+COMMON REFERENCE VENUES:
+  Strategic Management Journal, Journal of Business Research, Journal of Marketing,
+  Academy of Management Journal, Journal of International Business Studies,
+  International Journal of Operations & Production Management,
+  Jurnal Administrasi Bisnis, Jurnal Manajemen dan Kewirausahaan,
+  Asia Pacific Journal of Management, Journal of Business Ethics
+
+DOMAIN VOCABULARY:
+  competitive advantage, value creation, stakeholder, market orientation,
+  organizational performance, innovation capability, digital transformation,
+  supply chain, customer satisfaction, brand equity, employee engagement,
+  corporate governance, sustainability, entrepreneurial orientation,
+  business model, strategic alliance, market penetration
+
+INDONESIAN CONTEXT:
+  - SMEs (UMKM): 64 million units, 97% of business entities, digital adoption challenges
+  - BUMN: state-owned enterprise reform, holding company restructuring, IPO
+  - Startup Ecosystem: unicorns (Gojek, Tokopedia, Bukalapak), venture capital, digital economy
+  - Halal Industry: halal certification (BPJPH), halal supply chain, Muslim consumer market
+  - Digital Economy: e-commerce growth, fintech, digital banking, social commerce
+  - Investment Climate: OSS (Online Single Submission), special economic zones, FDI
+  - Labor Market: demographic bonus, skill gap, gig economy, minimum wage
+  - Trade: RCEP, ASEAN Economic Community, export diversification
+
+================================================================================
+RESEARCH TOPIC BANK — 500 TOPICS
+================================================================================
+
+CATEGORY 1: STRATEGIC MANAGEMENT & COMPETITIVE ADVANTAGE (001-050)
+001. Dynamic capabilities and competitive advantage of Indonesian unicorn startups: Multiple case study analysis
+002. Digital transformation strategy and firm performance in Indonesian banking sector: SEM-PLS approach
+003. Blue ocean strategy implementation in Indonesian halal food industry: Value innovation analysis
+004. Strategic agility and organizational resilience during economic disruption: Mixed methods study of Indonesian conglomerates
+005. Business model innovation in Indonesian traditional retail: Survival strategy against e-commerce disruption
+006. Corporate diversification strategy and shareholder value: Panel data analysis of IDX-listed companies
+007. Strategic alliance formation in Indonesian pharmaceutical industry: Resource complementarity analysis
+008. Ambidextrous strategy and sustainable competitive advantage: Exploration-exploitation balance in BUMN
+009. Platform business model adoption by Indonesian SMEs: Technology-organization-environment framework
+010. Strategic leadership and organizational transformation: Case study of BUMN digital transformation
+011. Competitive intelligence practices in Indonesian telecommunications: Knowledge management perspective
+012. Merger and acquisition value creation: Event study analysis of Indonesian corporate M&A 2020-2025
+013. Strategic corporate social responsibility and brand equity: Mediation analysis in Indonesian consumer goods
+014. Business ecosystem strategy in Indonesian electric vehicle industry: Platform leadership analysis
+015. Strategic human capital and firm innovation: Resource-based view of Indonesian technology companies
+016. Coopetition strategy in Indonesian ride-hailing industry: Game theory and network analysis
+017. Strategic flexibility and performance during uncertainty: Dynamic capabilities in Indonesian manufacturing
+018. Digital platform strategy and market disruption: Comparative case study of Indonesian super-apps
+019. Corporate governance and strategic decision-making: Board composition effects on firm performance
+020. Strategic sustainability integration and long-term value creation: Triple bottom line analysis
+021. First-mover advantage in Indonesian digital banking: Market entry timing and performance
+022. Strategic outsourcing decisions and core competency: Transaction cost analysis in Indonesian firms
+023. Business model resilience during pandemic: Pivot strategy analysis of Indonesian hospitality sector
+024. Strategic innovation management in Indonesian state-owned enterprises: Barriers and enablers
+025. Competitive positioning strategy in Indonesian coffee industry: Porter's generic strategies application
+026. Strategic technology adoption and operational excellence: Industry 4.0 readiness in Indonesian manufacturing
+027. Corporate turnaround strategy: Case study of financially distressed Indonesian companies
+028. Strategic network position and innovation performance: Social network analysis of business groups
+029. Internationalization strategy of Indonesian firms: Uppsala model vs. born-global approach
+030. Strategic entrepreneurship and value creation: Opportunity-advantage nexus in Indonesian context
+031. Business model scalability in Indonesian fintech: Growth strategy and regulatory navigation
+032. Strategic risk management and firm value: Enterprise risk management maturity analysis
+033. Competitive dynamics in Indonesian e-commerce: Action-response analysis of marketplace platforms
+034. Strategic knowledge management and innovation capability: Absorptive capacity in Indonesian firms
+035. Corporate strategy and institutional environment: How Indonesian firms navigate regulatory uncertainty
+036. Strategic brand architecture and portfolio management: Multi-brand strategy in Indonesian FMCG
+037. Business model innovation for sustainability: Circular economy adoption in Indonesian manufacturing
+038. Strategic talent management and organizational competitiveness: War for talent in Indonesian tech sector
+039. Platform governance strategy and ecosystem value: Indonesian marketplace platform comparison
+040. Strategic foresight and scenario planning: Future-readiness of Indonesian banking industry
+041. Corporate venture capital and strategic innovation: BUMN investment in startup ecosystem
+042. Strategic supply chain design and competitive advantage: Network optimization in Indonesian retail
+043. Business model experimentation and validated learning: Lean startup methodology in Indonesian context
+044. Strategic digital marketing and customer lifetime value: Data-driven strategy in Indonesian e-commerce
+045. Corporate restructuring strategy and performance recovery: Turnaround analysis of Indonesian SOEs
+046. Strategic innovation ecosystem and open innovation: University-industry collaboration effectiveness
+047. Competitive strategy in Indonesian Islamic banking: Differentiation through shariah compliance
+048. Strategic operations management and cost leadership: Lean-agile hybrid in Indonesian automotive
+049. Business model adaptation to regulatory change: Omnibus law impact on Indonesian business strategy
+050. Strategic sustainability reporting and investor confidence: ESG integration in Indonesian corporations
+
+CATEGORY 2: MARKETING MANAGEMENT & CONSUMER BEHAVIOR (051-100)
+051. Social media marketing effectiveness and purchase intention: SEM analysis of Indonesian Gen-Z consumers
+052. Brand authenticity and consumer loyalty in Indonesian local brands: Mediation of brand trust
+053. Influencer marketing credibility and consumer decision-making: Parasocial relationship perspective
+054. Green marketing and sustainable consumption behavior: Theory of planned behavior extension in Indonesia
+055. Customer experience management in Indonesian e-commerce: Journey mapping and touchpoint analysis
+056. Halal brand perception and Muslim consumer purchase behavior: Cross-cultural comparison study
+057. Digital content marketing and brand engagement: Social media analytics of Indonesian FMCG brands
+058. Omnichannel retail strategy and customer satisfaction: Seamless experience analysis in Indonesian retail
+059. Neuromarketing and consumer decision-making: Eye-tracking study of Indonesian online shoppers
+060. Brand community engagement and co-creation value: Netnography of Indonesian brand communities
+061. Personalization strategy and customer privacy concern: Paradox analysis in Indonesian digital marketing
+062. Live streaming commerce and impulse buying behavior: Stimulus-organism-response model application
+063. Sensory marketing and brand experience: Multi-sensory analysis in Indonesian coffee shop industry
+064. Customer relationship management and retention: CRM system effectiveness in Indonesian banking
+065. Viral marketing and electronic word-of-mouth: Network analysis of Indonesian social media campaigns
+066. Luxury brand consumption and social identity: Conspicuous consumption in Indonesian emerging middle class
+067. Service quality and customer loyalty in Indonesian healthcare: SERVQUAL with switching cost moderator
+068. Cause-related marketing and brand attitude: Consumer skepticism analysis in Indonesian context
+069. Mobile marketing acceptance and engagement: Extended TAM for Indonesian smartphone users
+070. Brand crisis management and reputation recovery: Social media response strategy analysis
+071. Cross-cultural consumer behavior in ASEAN market: Hofstede dimensions and purchase patterns
+072. Subscription-based business model and customer lifetime value: Retention analysis in Indonesian digital services
+073. Augmented reality marketing and purchase intention: Technology acceptance in Indonesian fashion retail
+074. Price sensitivity and value perception: Conjoint analysis of Indonesian middle-class consumers
+075. Social commerce and trust building: C2C marketplace seller credibility analysis
+076. Brand storytelling and emotional connection: Narrative transportation in Indonesian advertising
+077. Customer complaint behavior and service recovery: Justice theory in Indonesian hospitality
+078. Gamification in marketing and customer engagement: Behavioral economics perspective
+079. Ethnic marketing and cultural identity: Consumer response to local wisdom branding
+080. Marketing analytics and data-driven decision making: Capability assessment of Indonesian firms
+081. Sustainable fashion consumption and circular economy: Consumer behavior in Indonesian textile industry
+082. Voice commerce and AI assistant adoption: Consumer acceptance of voice-based shopping
+083. Brand extension strategy and parent brand dilution: Category fit analysis in Indonesian market
+084. Experiential marketing and destination branding: Tourist behavior in Indonesian cultural tourism
+085. Digital payment adoption and consumer spending behavior: Cashless society transition analysis
+086. Nostalgia marketing and brand revitalization: Heritage brand strategy in Indonesian market
+087. Customer engagement in sharing economy: Trust and reputation in Indonesian ride-hailing
+088. Marketing communication effectiveness during crisis: Message framing in pandemic context
+089. Retail atmospherics and shopping behavior: Store environment impact on Indonesian consumers
+090. Brand purpose and consumer activism: Social movement marketing in Indonesian context
+091. Programmatic advertising effectiveness: Ad targeting and consumer response analysis
+092. Customer co-creation and new product development: Open innovation in Indonesian FMCG
+093. Marketing ethics and consumer trust: Greenwashing detection and brand punishment
+094. Metaverse marketing and virtual brand experience: Early adopter analysis in Indonesia
+095. Loyalty program effectiveness and customer retention: Points-based vs. tier-based comparison
+096. Cultural marketing and local brand positioning: Batik industry branding strategy
+097. B2B marketing and relationship quality: Industrial buyer behavior in Indonesian manufacturing
+098. Marketing automation and lead nurturing: Conversion optimization in Indonesian SaaS companies
+099. Consumer ethnocentrism and local product preference: Buy Indonesian campaign effectiveness
+100. Marketing innovation and market creation: Blue ocean marketing in Indonesian emerging sectors
+
+CATEGORY 3: HUMAN RESOURCE MANAGEMENT & ORGANIZATIONAL BEHAVIOR (101-150)
+101. Transformational leadership and employee innovation: Psychological empowerment mediation in Indonesian firms
+102. Employee engagement and organizational performance: JD-R model application in Indonesian banking
+103. Talent retention strategy in Indonesian tech industry: Total reward and career development analysis
+104. Organizational culture and knowledge sharing behavior: Competing values framework in Indonesian companies
+105. Work-from-home productivity and employee well-being: Post-pandemic hybrid work model assessment
+106. Employer branding and talent attraction: Millennial and Gen-Z preference analysis in Indonesia
+107. Performance management system effectiveness: OKR vs. KPI comparison in Indonesian startups
+108. Diversity management and team performance: Gender diversity impact in Indonesian boardrooms
+109. Employee voice and organizational innovation: Psychological safety climate in Indonesian firms
+110. Compensation strategy and pay equity: Gender pay gap analysis in Indonesian corporations
+111. Organizational learning and adaptive capacity: Learning organization assessment in Indonesian BUMN
+112. Leadership development program ROI: Kirkpatrick evaluation of Indonesian corporate universities
+113. Employee resilience and change management: Organizational change readiness in digital transformation
+114. Gig economy worker management: Platform labor governance in Indonesian ride-hailing companies
+115. Organizational citizenship behavior and service quality: Frontline employee analysis in Indonesian retail
+116. Strategic HRM and firm performance: High-performance work system in Indonesian manufacturing
+117. Employee creativity and innovation climate: Amabile's componential theory in Indonesian context
+118. Workplace bullying and employee turnover: Organizational justice mediation analysis
+119. Cross-cultural management in multinational companies: Expatriate adjustment in Indonesian subsidiaries
+120. Human resource analytics and evidence-based management: Maturity assessment of Indonesian firms
+121. Servant leadership and employee commitment: Follower-centric approach in Indonesian family businesses
+122. Organizational justice and employee engagement: Distributive, procedural, and interactional justice
+123. Employee training transfer and performance improvement: Baldwin & Ford model in Indonesian context
+124. Workforce planning and demographic change: Aging workforce management in Indonesian companies
+125. Psychological contract and employee loyalty: Breach perception in Indonesian banking sector
+126. Team effectiveness and virtual collaboration: Remote team management in Indonesian tech companies
+127. Employee wellness program and productivity: ROI analysis of corporate health initiatives
+128. Authentic leadership and trust building: Leader-member exchange in Indonesian organizations
+129. Organizational commitment and turnover intention: Three-component model in Indonesian hospitality
+130. HR digital transformation and employee experience: HRIS implementation effectiveness
+131. Emotional labor and burnout: Surface vs. deep acting in Indonesian service industry
+132. Succession planning in Indonesian family businesses: Professionalization and governance transition
+133. Employee empowerment and service innovation: Structural empowerment in Indonesian healthcare
+134. Organizational politics and career advancement: Political skill in Indonesian corporate context
+135. Green HRM and environmental performance: Pro-environmental behavior in Indonesian manufacturing
+136. Flexible working arrangement and work-life balance: Boundary management in Indonesian context
+137. Organizational identity and employee identification: Merger integration in Indonesian companies
+138. Competency-based HRM and organizational effectiveness: Framework development for Indonesian SMEs
+139. Employee silence and organizational learning: Speaking-up climate in Indonesian hierarchical culture
+140. Talent management and inclusive leadership: High-potential identification bias analysis
+141. Organizational agility and HR practices: Agile HR transformation in Indonesian companies
+142. Employee financial wellness and productivity: Financial literacy program effectiveness
+143. Ethical leadership and organizational ethics: Trickle-down effect in Indonesian corporations
+144. Knowledge worker productivity and management: Creative professional management in Indonesian agencies
+145. Organizational socialization and newcomer adjustment: Onboarding effectiveness in Indonesian firms
+146. HR shared services and operational efficiency: Centralization impact on service quality
+147. Employee advocacy and employer brand: Social media ambassador program effectiveness
+148. Organizational ambidexterity and HRM: Exploration-exploitation balance in HR practices
+149. Workplace spirituality and employee performance: Islamic work ethic in Indonesian companies
+150. Future of work and HR transformation: AI impact on HR function in Indonesian organizations
+
+CATEGORY 4: OPERATIONS & SUPPLY CHAIN MANAGEMENT (151-200)
+151. Supply chain resilience and disruption management: Lessons from Indonesian manufacturing during pandemic
+152. Lean manufacturing implementation and operational performance: SEM analysis in Indonesian automotive
+153. Green supply chain management and environmental performance: Institutional pressure analysis
+154. Industry 4.0 adoption and operational excellence: Technology readiness in Indonesian SMEs
+155. Supply chain risk management in Indonesian food industry: Vulnerability assessment and mitigation
+156. Total quality management and customer satisfaction: Malcolm Baldrige framework in Indonesian services
+157. Circular economy and reverse logistics: Waste reduction strategy in Indonesian manufacturing
+158. Supply chain digitalization and visibility: IoT and blockchain adoption in Indonesian logistics
+159. Inventory management optimization: Machine learning approach for demand forecasting in Indonesian retail
+160. Sustainable operations management: Triple bottom line integration in Indonesian palm oil industry
+161. Supplier relationship management and innovation: Collaborative partnership in Indonesian automotive
+162. Operations strategy alignment and competitive priority: Manufacturing strategy in Indonesian context
+163. Last-mile delivery optimization: Route planning and cost efficiency in Indonesian e-commerce logistics
+164. Quality management system certification and export performance: ISO 9001 impact analysis
+165. Supply chain collaboration and information sharing: Trust-based partnership in Indonesian FMCG
+166. Lean-agile hybrid operations: Responsiveness and efficiency balance in Indonesian fashion industry
+167. Production planning and scheduling optimization: Mathematical programming in Indonesian manufacturing
+168. Supply chain sustainability reporting: GRI standards adoption in Indonesian companies
+169. Warehouse management system and operational efficiency: WMS implementation in Indonesian 3PL
+170. Cold chain management and food safety: Temperature monitoring in Indonesian seafood supply chain
+171. Six sigma implementation and defect reduction: DMAIC methodology in Indonesian electronics
+172. Supply chain finance and working capital optimization: Fintech solution for Indonesian SMEs
+173. Humanitarian supply chain management: Disaster relief logistics in Indonesian archipelago
+174. Smart manufacturing and cyber-physical systems: Digital twin adoption in Indonesian industry
+175. Supply chain network design and facility location: Optimization model for Indonesian distribution
+176. Service operations management and customer experience: Process design in Indonesian banking
+177. Procurement strategy and cost management: Strategic sourcing in Indonesian mining industry
+178. Supply chain carbon footprint reduction: Emission measurement and mitigation in Indonesian logistics
+179. Maintenance management and equipment reliability: TPM implementation in Indonesian manufacturing
+180. Supply chain talent management: Competency gap analysis in Indonesian logistics industry
+181. Agile project management and product development: Scrum adoption in Indonesian software companies
+182. Supply chain integration and firm performance: Internal and external integration analysis
+183. Operations management in healthcare: Patient flow optimization in Indonesian hospitals
+184. Supply chain transparency and traceability: Blockchain for Indonesian agricultural products
+185. Capacity planning and demand management: Forecasting accuracy in Indonesian telecommunications
+186. Supply chain circular economy: Product lifecycle management in Indonesian electronics
+187. Lean startup operations and minimum viable product: Operational efficiency in Indonesian startups
+188. Supply chain governance and compliance: Ethical sourcing in Indonesian textile industry
+189. Smart logistics and autonomous delivery: Technology feasibility in Indonesian urban areas
+190. Supply chain performance measurement: SCOR model application in Indonesian manufacturing
+191. Operations innovation and process improvement: Kaizen culture in Indonesian automotive suppliers
+192. Supply chain localization strategy: Import substitution and local content in Indonesian industry
+193. Service supply chain management: Outsourcing governance in Indonesian IT services
+194. Supply chain data analytics and decision support: Predictive analytics in Indonesian retail
+195. Lean healthcare operations: Waste reduction in Indonesian hospital emergency departments
+196. Supply chain ecosystem and platform logistics: Aggregator model in Indonesian freight
+197. Operations sustainability and energy efficiency: Green manufacturing in Indonesian cement industry
+198. Supply chain crisis management: Business continuity planning in Indonesian manufacturing
+199. Digital operations and process automation: RPA implementation in Indonesian financial services
+200. Supply chain innovation and competitive advantage: Open innovation in Indonesian FMCG logistics
+
+CATEGORY 5: FINANCIAL MANAGEMENT & CORPORATE FINANCE (201-250)
+201. Capital structure determinants and firm value: Panel data analysis of IDX-listed companies
+202. Dividend policy and stock price volatility: Signaling theory in Indonesian capital market
+203. Corporate governance and financial performance: Board diversity impact on Indonesian firms
+204. Financial technology disruption and banking performance: Competitive response analysis
+205. Working capital management and profitability: Cash conversion cycle optimization in Indonesian SMEs
+206. Mergers and acquisitions value creation: Synergy realization in Indonesian banking consolidation
+207. ESG investing and portfolio performance: Sustainable investment returns in Indonesian market
+208. Credit risk management and non-performing loans: Machine learning prediction in Indonesian banking
+209. Corporate cash holding and investment efficiency: Agency theory perspective in Indonesian firms
+210. IPO underpricing and long-run performance: Information asymmetry in Indonesian capital market
+211. Financial inclusion and SME growth: Digital banking impact on Indonesian micro-enterprises
+212. Corporate tax avoidance and firm value: Institutional ownership moderating effect
+213. Behavioral finance and investor decision-making: Herding behavior in Indonesian stock market
+214. Islamic finance and economic development: Sukuk market growth and infrastructure financing
+215. Venture capital and startup valuation: Investment decision criteria in Indonesian ecosystem
+216. Financial distress prediction: Altman Z-score modification for Indonesian companies
+217. Corporate social responsibility spending and financial performance: Causality analysis
+218. Foreign direct investment determinants: Institutional quality and market attractiveness in Indonesia
+219. Cryptocurrency adoption and financial system stability: Regulatory framework analysis
+220. Microfinance and poverty reduction: Impact assessment of Indonesian microfinance institutions
+221. Corporate bond market development: Yield spread determinants in Indonesian bond market
+222. Financial literacy and investment behavior: Demographic analysis of Indonesian retail investors
+223. Bank efficiency and competition: DEA and Panzar-Rosse analysis of Indonesian banking
+224. Corporate risk management and firm value: Hedging effectiveness in Indonesian exporters
+225. Crowdfunding and entrepreneurial finance: Success factors in Indonesian equity crowdfunding
+226. Financial contagion and systemic risk: Network analysis of Indonesian banking system
+227. Corporate sustainability reporting and cost of capital: Disclosure quality impact analysis
+228. Fintech lending and credit access: P2P lending impact on Indonesian unbanked population
+229. Stock market anomalies and trading strategies: Calendar effects in Indonesian market
+230. Corporate investment decisions and uncertainty: Real options approach in Indonesian mining
+231. Banking digital transformation and customer value: Digital banking adoption analysis
+232. Corporate fraud detection: Forensic accounting and red flag analysis in Indonesian firms
+233. Financial market efficiency: Weak-form efficiency test of Indonesian stock market
+234. Green finance and environmental investment: Green bond market development in Indonesia
+235. Corporate pension fund management: Asset-liability matching in Indonesian pension funds
+236. Financial regulation and banking stability: Basel III implementation impact analysis
+237. Intellectual capital and firm value: VAIC methodology in Indonesian knowledge-intensive firms
+238. Corporate treasury management: Cash flow forecasting and liquidity optimization
+239. Stock market reaction to corporate events: Event study of Indonesian M&A announcements
+240. Financial innovation and market development: RegTech adoption in Indonesian financial sector
+241. Corporate leverage and investment: Financial constraint analysis of Indonesian firms
+242. Banking relationship and SME financing: Relationship lending in Indonesian context
+243. Financial market integration: ASEAN stock market co-movement analysis
+244. Corporate governance reform and minority shareholder protection: Regulatory effectiveness
+245. Sovereign wealth fund and economic development: Indonesia Investment Authority analysis
+246. Financial stress testing and bank resilience: Scenario analysis of Indonesian banking system
+247. Corporate valuation methods: DCF vs. relative valuation accuracy in Indonesian market
+248. Digital payment ecosystem and financial inclusion: E-wallet adoption impact analysis
+249. Corporate capital allocation and shareholder value: Investment efficiency in Indonesian conglomerates
+250. Financial market development and economic growth: Causality analysis in Indonesian context
+
+CATEGORY 6: ENTREPRENEURSHIP & INNOVATION (251-300)
+251. Entrepreneurial intention and startup creation: Theory of planned behavior among Indonesian university students
+252. Social entrepreneurship and community impact: Hybrid business model analysis in Indonesian context
+253. Women entrepreneurship barriers and enablers: Gender-based analysis of Indonesian SME owners
+254. Innovation capability and SME competitiveness: Dynamic capabilities in Indonesian creative industry
+255. Startup ecosystem maturity and entrepreneurial success: Ecosystem assessment of Indonesian tech hubs
+256. Family business succession and innovation: Generational transition in Indonesian conglomerates
+257. Entrepreneurial orientation and firm performance: Moderating role of environmental dynamism
+258. Frugal innovation and bottom-of-pyramid market: Inclusive business model in Indonesian context
+259. University-based entrepreneurship and technology transfer: Spin-off success factors analysis
+260. Digital entrepreneurship and platform-based business: Gig economy entrepreneurship in Indonesia
+261. Entrepreneurial resilience and business recovery: Post-disaster entrepreneurship in Indonesian SMEs
+262. Open innovation and SME performance: External knowledge sourcing in Indonesian manufacturing
+263. Social capital and entrepreneurial success: Network analysis of Indonesian business communities
+264. Corporate entrepreneurship and organizational renewal: Intrapreneurship in Indonesian BUMN
+265. Entrepreneurial finance and growth: Bootstrapping strategies of Indonesian early-stage startups
+266. Innovation management and new product success: Stage-gate process in Indonesian FMCG
+267. Rural entrepreneurship and economic development: Village-based enterprise (BUMDes) analysis
+268. Entrepreneurial ecosystem and policy support: Government program effectiveness for Indonesian SMEs
+269. Disruptive innovation and incumbent response: Industry transformation in Indonesian transportation
+270. Entrepreneurial learning and failure recovery: Serial entrepreneur experience in Indonesian context
+271. Green entrepreneurship and sustainable business: Eco-innovation in Indonesian manufacturing SMEs
+272. Intellectual property management and innovation protection: Patent strategy of Indonesian firms
+273. Entrepreneurial marketing and growth hacking: Digital marketing innovation in Indonesian startups
+274. Innovation diffusion and technology adoption: Rogers' model in Indonesian agricultural technology
+275. Youth entrepreneurship development: Entrepreneurship education effectiveness in Indonesian universities
+276. Business incubator and accelerator effectiveness: Startup survival and growth analysis
+277. Entrepreneurial self-efficacy and venture creation: Bandura's theory in Indonesian context
+278. Innovation ecosystem and cluster development: Industrial cluster competitiveness analysis
+279. Social media entrepreneurship: Instagram and TikTok-based business success factors
+280. Corporate innovation strategy and R&D investment: Innovation output analysis of Indonesian firms
+281. Entrepreneurial opportunity recognition: Cognitive approach to opportunity identification
+282. Innovation collaboration and co-creation: Customer involvement in Indonesian product development
+283. Migrant entrepreneurship and diaspora business: Indonesian diaspora business network analysis
+284. Reverse innovation and emerging market strategy: Indonesian innovation for global market
+285. Entrepreneurial bricolage and resource constraints: Creative resource utilization in Indonesian SMEs
+286. Innovation measurement and management: Innovation audit framework for Indonesian companies
+287. Halal entrepreneurship and Islamic business ethics: Shariah-compliant business model innovation
+288. Entrepreneurial team composition and startup performance: Diversity and complementarity analysis
+289. Lean startup methodology and validated learning: Build-measure-learn in Indonesian tech startups
+290. Innovation policy and national innovation system: R&D investment effectiveness in Indonesia
+291. Entrepreneurial networking and business growth: Weak ties and structural holes in Indonesian context
+292. Product innovation and market success: New product development process in Indonesian FMCG
+293. Entrepreneurship in creative economy: Business model innovation in Indonesian cultural industry
+294. Innovation adoption barriers in Indonesian SMEs: Technology-organization-environment analysis
+295. Serial entrepreneurship and portfolio entrepreneurship: Multiple venture management in Indonesia
+296. Process innovation and operational efficiency: Automation adoption in Indonesian manufacturing
+297. Entrepreneurial passion and venture persistence: Emotional dynamics of Indonesian founders
+298. Innovation management maturity: Assessment framework for Indonesian medium enterprises
+299. Cooperative entrepreneurship and collective action: Koperasi modernization and digital transformation
+300. Innovation-driven entrepreneurship and economic development: High-growth firm analysis in Indonesia
+
+CATEGORY 7: DIGITAL BUSINESS & E-COMMERCE (301-350)
+301. E-commerce platform competition and market concentration: Antitrust analysis of Indonesian marketplace
+302. Social commerce and consumer trust: Seller credibility in Indonesian social media marketplace
+303. Digital payment adoption and financial behavior: Cashless transition impact on Indonesian consumers
+304. Platform business model and network effects: Value creation in Indonesian super-app ecosystem
+305. Online-to-offline (O2O) business model: Integration strategy in Indonesian retail sector
+306. Digital marketing ROI measurement: Attribution modeling in Indonesian e-commerce
+307. Subscription economy and customer retention: Churn prediction in Indonesian digital services
+308. Cross-border e-commerce and Indonesian SME internationalization: Marketplace-enabled export
+309. Artificial intelligence in business operations: Chatbot and recommendation system effectiveness
+310. Digital transformation maturity and business performance: Assessment of Indonesian enterprises
+311. Sharing economy governance and trust: Platform regulation in Indonesian ride-hailing
+312. Data-driven business model and monetization: Customer data value in Indonesian digital firms
+313. E-commerce logistics and last-mile delivery: Service quality in Indonesian online shopping
+314. Digital business ecosystem and platform strategy: API economy in Indonesian fintech
+315. Online marketplace seller performance: Success factors of Indonesian e-commerce merchants
+316. Digital customer experience and loyalty: UX design impact on Indonesian app retention
+317. Fintech business model innovation: Revenue model analysis of Indonesian fintech companies
+318. E-commerce and traditional market disruption: Survival strategy of Indonesian offline retailers
+319. Digital advertising effectiveness: Programmatic advertising ROI in Indonesian market
+320. Platform labor and gig worker welfare: Working conditions in Indonesian digital platforms
+321. E-commerce fraud prevention: Machine learning detection in Indonesian online transactions
+322. Digital business internationalization: Born-digital firm expansion strategy from Indonesia
+323. Social media commerce and impulse buying: Live streaming sales effectiveness analysis
+324. Digital supply chain and e-fulfillment: Warehouse automation in Indonesian e-commerce
+325. Cryptocurrency and blockchain business applications: DeFi adoption in Indonesian market
+326. Digital health business model: Telemedicine platform sustainability in Indonesian healthcare
+327. E-commerce personalization and privacy: Consumer attitude toward data collection
+328. Digital transformation of traditional business: Digitalization journey of Indonesian SMEs
+329. Platform governance and seller management: Quality control in Indonesian marketplace
+330. Digital banking and customer acquisition: Neo-bank strategy in Indonesian financial market
+331. E-commerce return management: Reverse logistics cost and customer satisfaction
+332. Digital business model canvas: Framework adaptation for Indonesian tech startups
+333. Online food delivery platform: Restaurant partner management and commission structure
+334. Digital marketing automation: Marketing technology stack adoption in Indonesian companies
+335. E-commerce sustainability: Green packaging and carbon-neutral delivery initiatives
+336. Digital twin for business operations: Virtual simulation in Indonesian manufacturing
+337. Platform competition and multi-homing: Consumer and seller behavior in Indonesian marketplace
+338. Digital financial literacy and fintech adoption: Demographic analysis of Indonesian users
+339. E-commerce regulation and consumer protection: Legal framework effectiveness analysis
+340. Digital business resilience: Cybersecurity investment and business continuity
+341. Social commerce community building: Group buying and collective bargaining in Indonesia
+342. Digital transformation leadership: CDO role and digital culture in Indonesian corporations
+343. E-commerce pricing strategy: Dynamic pricing and price transparency in Indonesian market
+344. Digital ecosystem orchestration: Platform leadership in Indonesian technology sector
+345. Online education business model: EdTech sustainability and learning outcome analysis
+346. Digital marketing analytics: Customer segmentation using machine learning in Indonesian retail
+347. E-commerce and rural economic development: Digital marketplace access for Indonesian farmers
+348. Digital business ethics: Algorithmic fairness and transparency in Indonesian platforms
+349. Platform economy and tax compliance: Digital business taxation in Indonesian context
+350. Digital transformation failure factors: Lessons from unsuccessful Indonesian digitalization projects
+
+CATEGORY 8: INTERNATIONAL BUSINESS & TRADE (351-400)
+351. Indonesian firm internationalization strategy: Uppsala model vs. network approach analysis
+352. Foreign direct investment and technology spillover: Productivity impact on Indonesian domestic firms
+353. RCEP implementation and Indonesian trade competitiveness: Sectoral impact analysis
+354. Cross-cultural management in ASEAN operations: Cultural intelligence and expatriate performance
+355. Global value chain participation and upgrading: Indonesian manufacturing position analysis
+356. International joint venture performance: Partner selection and governance in Indonesian context
+357. Export competitiveness of Indonesian SMEs: Barriers and enablers of internationalization
+358. Multinational corporation subsidiary strategy: Autonomy and integration in Indonesian operations
+359. International trade facilitation and logistics performance: National logistics system assessment
+360. Born-global firms from Indonesia: Rapid internationalization of Indonesian tech startups
+361. Trade war impact on Indonesian economy: Supply chain reconfiguration and opportunity analysis
+362. International human resource management: Talent mobility in ASEAN economic community
+363. Country-of-origin effect and Indonesian brand perception: International consumer attitude study
+364. Foreign market entry mode selection: Determinants for Indonesian firms entering ASEAN
+365. International supply chain risk: Geopolitical disruption impact on Indonesian trade
+366. Cross-border e-commerce and trade facilitation: Digital trade agreement effectiveness
+367. International business ethics: Corruption and bribery challenges for firms operating in Indonesia
+368. Global sourcing strategy and supplier development: Indonesian supplier capability building
+369. International marketing adaptation: Standardization vs. localization in Indonesian MNC subsidiaries
+370. Trade policy and industrial development: Import substitution vs. export orientation debate
+371. International technology transfer and absorptive capacity: FDI knowledge spillover in Indonesia
+372. ASEAN economic integration and business strategy: Regional value chain development
+373. International entrepreneurship and diaspora networks: Indonesian business abroad
+374. Global brand management in emerging markets: Luxury brand strategy in Indonesian market
+375. International financial management: Currency risk hedging by Indonesian exporters
+376. Cross-border merger and acquisition: Due diligence challenges in Indonesian target firms
+377. International trade compliance and customs modernization: AEO program effectiveness
+378. Global talent management: Attracting international talent to Indonesian companies
+379. International business negotiation: Cultural factors in Indonesian-foreign business deals
+380. Trade facilitation and port efficiency: Dwelling time reduction in Indonesian ports
+381. International franchise business: Success factors of foreign franchise in Indonesian market
+382. Global supply chain sustainability: ESG compliance in Indonesian export industries
+383. International market selection: Systematic approach for Indonesian firm expansion
+384. Cross-cultural consumer behavior: ASEAN market segmentation for Indonesian products
+385. International business regulation: Ease of doing business reform impact analysis
+386. Global innovation network: Indonesian firm participation in international R&D collaboration
+387. International trade finance: Letter of credit and supply chain finance for Indonesian exporters
+388. Cross-border investment and institutional quality: Bilateral investment treaty effectiveness
+389. International business strategy during deglobalization: Indonesian firm adaptation
+390. Global e-commerce and cross-border logistics: Indonesian seller on international platforms
+391. International corporate governance convergence: Indonesian adoption of global standards
+392. Trade diplomacy and market access: Indonesian trade attaché effectiveness analysis
+393. International business and sustainability: SDG integration in Indonesian MNC operations
+394. Global talent competition and brain drain: Indonesian professional migration analysis
+395. International strategic alliance and learning: Knowledge acquisition from foreign partners
+396. Cross-border data flow and digital trade: Data localization impact on Indonesian business
+397. International business and political risk: Investment decision under Indonesian policy uncertainty
+398. Global supply chain reshoring: Nearshoring opportunity for Indonesian manufacturing
+399. International business education: MBA curriculum relevance for Indonesian global managers
+400. Trade liberalization and firm productivity: AFTA impact on Indonesian manufacturing efficiency
+
+CATEGORY 9: BUSINESS ETHICS & CORPORATE SOCIAL RESPONSIBILITY (401-450)
+401. CSR strategy and corporate reputation: Stakeholder perception analysis in Indonesian companies
+402. ESG disclosure quality and firm value: Panel data analysis of IDX-listed companies
+403. Business ethics and organizational culture: Ethical climate assessment in Indonesian corporations
+404. Corporate philanthropy and community development: Impact evaluation of Indonesian CSR programs
+405. Sustainable business model and shared value creation: Porter's CSV in Indonesian context
+406. Corporate governance and ethical behavior: Board oversight of ethical compliance
+407. Green business practices and consumer response: Willingness to pay for sustainability
+408. Business ethics education and moral reasoning: Kohlberg's theory in Indonesian business schools
+409. Corporate social responsibility and employee engagement: Internal CSR impact analysis
+410. Ethical supply chain management: Labor rights compliance in Indonesian garment industry
+411. Corporate transparency and stakeholder trust: Disclosure quality in Indonesian annual reports
+412. Social enterprise and impact measurement: SROI analysis of Indonesian social businesses
+413. Business ethics in digital economy: Platform responsibility and algorithmic accountability
+414. Corporate environmental responsibility: Carbon disclosure and climate action in Indonesian firms
+415. Ethical leadership and organizational ethics: Tone at the top in Indonesian companies
+416. CSR communication and stakeholder engagement: Social media CSR reporting effectiveness
+417. Corporate human rights due diligence: Implementation in Indonesian palm oil companies
+418. Business ethics and corruption: Anti-bribery compliance program effectiveness
+419. Sustainable finance and responsible investment: Green bond issuance in Indonesian market
+420. Corporate social innovation and bottom-of-pyramid: Inclusive business model analysis
+421. Business ethics in AI and automation: Algorithmic bias and fairness in Indonesian firms
+422. Corporate community investment and social license: Mining industry CSR in Indonesian context
+423. Ethical marketing and consumer protection: Advertising ethics in Indonesian digital media
+424. CSR reporting standards and comparability: GRI vs. SASB adoption in Indonesian companies
+425. Corporate governance and minority shareholder rights: Protection mechanism effectiveness
+426. Sustainable supply chain and certification: Fair trade impact on Indonesian coffee farmers
+427. Business ethics training and behavioral change: Compliance program effectiveness evaluation
+428. Corporate environmental management system: ISO 14001 implementation and performance
+429. Social responsibility of SMEs: CSR practices and motivations in Indonesian small businesses
+430. Corporate accountability and stakeholder activism: NGO pressure on Indonesian corporations
+431. Ethical investment and portfolio performance: SRI fund returns in Indonesian market
+432. Corporate social responsibility and tax behavior: CSR-tax avoidance relationship analysis
+433. Business ethics in family firms: Governance and ethical decision-making in Indonesian context
+434. Sustainable development goals and business strategy: SDG integration in Indonesian corporations
+435. Corporate whistleblowing and ethical culture: Reporting mechanism effectiveness
+436. Green innovation and competitive advantage: Environmental R&D in Indonesian manufacturing
+437. Corporate social responsibility and brand loyalty: Consumer response to CSR initiatives
+438. Business ethics and digital privacy: Data protection compliance in Indonesian companies
+439. Sustainable tourism and corporate responsibility: Hotel industry CSR in Indonesian destinations
+440. Corporate governance code compliance: Comply-or-explain effectiveness in Indonesian market
+441. Social impact bond and outcome-based financing: Feasibility in Indonesian social programs
+442. Business ethics and stakeholder capitalism: Shareholder vs. stakeholder orientation debate
+443. Corporate environmental disclosure and greenwashing: Authenticity assessment methodology
+444. CSR and competitive advantage: Resource-based view of social responsibility
+445. Ethical consumption and consumer activism: Boycott behavior in Indonesian market
+446. Corporate social responsibility regulation: Mandatory CSR (UU PT) implementation assessment
+447. Sustainable business transformation: Net-zero commitment and transition strategy
+448. Business ethics in pharmaceutical industry: Drug pricing and access ethics in Indonesia
+449. Corporate social responsibility and innovation: CSR-driven innovation in Indonesian firms
+450. Ethical AI governance and business responsibility: Framework development for Indonesian context
+
+CATEGORY 10: KNOWLEDGE MANAGEMENT & ORGANIZATIONAL LEARNING (451-500)
+451. Knowledge management system implementation and organizational performance: SEM analysis in Indonesian firms
+452. Organizational learning capability and innovation: Absorptive capacity in Indonesian manufacturing
+453. Knowledge sharing behavior and organizational culture: Social exchange theory in Indonesian context
+454. Learning organization assessment: Senge's five disciplines in Indonesian banking sector
+455. Knowledge transfer in strategic alliance: Partner learning in Indonesian joint ventures
+456. Organizational memory and knowledge retention: Preventing knowledge loss in Indonesian companies
+457. Communities of practice and knowledge creation: CoP effectiveness in Indonesian organizations
+458. Knowledge management maturity model: Assessment framework for Indonesian enterprises
+459. Tacit knowledge conversion and innovation: Nonaka's SECI model in Indonesian creative industry
+460. Organizational learning from failure: Post-project review effectiveness in Indonesian firms
+461. Knowledge governance and intellectual capital: VAIC analysis of Indonesian knowledge-intensive firms
+462. Digital knowledge management: AI-powered knowledge systems in Indonesian corporations
+463. Inter-organizational learning and network knowledge: Supply chain knowledge sharing
+464. Knowledge management and competitive advantage: Knowledge-based view in Indonesian context
+465. Organizational unlearning and strategic renewal: Letting go of obsolete knowledge
+466. Knowledge worker productivity and management: Creative professional management in Indonesian firms
+467. Knowledge management and innovation performance: Mediating role of absorptive capacity
+468. Learning analytics and organizational development: Data-driven learning in Indonesian companies
+469. Knowledge management in project-based organizations: Lessons learned systems effectiveness
+470. Organizational ambidexterity and learning: Exploration-exploitation balance in Indonesian firms
+471. Knowledge management strategy alignment: Business strategy-KM strategy fit analysis
+472. Social media and organizational knowledge: Enterprise social network utilization
+473. Knowledge management and customer relationship: Customer knowledge management in Indonesian banking
+474. Organizational learning culture and employee development: Learning climate assessment
+475. Knowledge management barriers in Indonesian SMEs: Cultural and technological challenges
+476. Intellectual capital disclosure and firm value: Content analysis of Indonesian annual reports
+477. Knowledge management and digital transformation: Knowledge infrastructure for Industry 4.0
+478. Organizational learning and change management: Double-loop learning in Indonesian organizations
+479. Knowledge management and quality improvement: KM-TQM integration in Indonesian manufacturing
+480. Learning organization and employee engagement: Continuous learning culture impact
+481. Knowledge management governance: Roles, responsibilities, and incentive structures
+482. Organizational learning from crisis: Pandemic lessons for Indonesian business resilience
+483. Knowledge management and succession planning: Knowledge transfer from retiring experts
+484. Learning ecosystem and talent development: Corporate university effectiveness in Indonesia
+485. Knowledge management metrics and ROI: Measuring KM value in Indonesian organizations
+486. Organizational learning and sustainability: Environmental knowledge management practices
+487. Knowledge management and remote work: Virtual knowledge sharing in distributed teams
+488. Learning agility and leadership development: Adaptive learning in Indonesian managers
+489. Knowledge management and open innovation: External knowledge integration in Indonesian firms
+490. Organizational learning and strategic decision-making: Evidence-based management adoption
+491. Knowledge management technology adoption: AI and machine learning for knowledge systems
+492. Learning organization transformation: Change journey of Indonesian traditional companies
+493. Knowledge management and entrepreneurship: Knowledge resources in Indonesian startups
+494. Organizational learning and service innovation: Knowledge-driven service improvement
+495. Knowledge management and cross-cultural teams: Multicultural knowledge sharing in Indonesian MNCs
+496. Learning management system effectiveness: E-learning adoption in Indonesian corporate training
+497. Knowledge management and business process improvement: Process knowledge in Indonesian firms
+498. Organizational learning and resilience: Adaptive capacity building through learning
+499. Knowledge management and intellectual property: Innovation protection strategy in Indonesian firms
+500. Learning organization and future readiness: Preparing Indonesian firms for disruption

@@ -3,10 +3,589 @@ TOPIC GUIDE — Transportation Engineering
 ================================================================================
 FIELD: Engineering / Urban Planning
 DEFAULT CITATION STYLE: IEEE or APA
+SUBDISCIPLINE: Traffic operations, public transportation, pavement, road safety, freight, active mobility, ITS, logistics, transport planning
 
-METHODOLOGY: traffic simulation (VISSIM/SUMO), origin-destination survey, speed study,
-  capacity analysis, signal timing optimization, accident black spot analysis
-EQUATIONS: traffic flow q = k·v, LOS criteria, Webster's signal timing, PCU factor
-FIGURES: traffic flow diagram, signal timing plan, LOS comparison chart, speed distribution
-TABLES: traffic volume data, LOS results, accident rate comparison
-VENUES: Transportation Research Record, Accident Analysis Prevention, J. Transportation Eng.
+ABSTRACT CHARACTERISTICS:
+  150–250 words. State the domain problem, specific object or system, research gap, method, dataset/materials, validation approach, key quantitative results, and practical or scientific contribution. Include measurable variables and avoid broad claims unsupported by evidence.
+  Domain emphasis: transport system performance, mobility, safety, accessibility, capacity, emissions, equity, operations, and infrastructure lifecycle.
+
+INTRODUCTION ELEMENTS:
+  - Context and urgency of the domain problem.
+  - Specific system, material, process, population, site, or dataset.
+  - Research gap in current methods, standards, materials, models, or local operating conditions.
+  - Novelty and contribution relative to recent peer-reviewed studies.
+  - Objectives, scope, assumptions, limitations, and expected measurable outcomes.
+
+LITERATURE REVIEW:
+  Common section name: "Literature Review" / "Background" / "Related Work"
+  - Define core concepts, mechanisms, theories, standards, and performance indicators.
+  - Compare recent empirical, computational, design, and review studies.
+  - Identify methodological limitations, inconsistent findings, and unresolved engineering or scientific issues.
+  - Position the proposed work against benchmark methods, datasets, materials, or case studies.
+  - End with a clear gap statement that motivates the study.
+
+METHODOLOGY:
+  Common section name: "Materials and Methods" / "Methodology" / "Research Method"
+  - Describe study design, variables, site/material/system selection, sample size, and boundary conditions.
+  - Specify instruments, software, standards, experimental setup, computational model, survey protocol, or data source.
+  - Define preprocessing, calibration, validation, sensitivity analysis, uncertainty handling, and quality control.
+  - State evaluation metrics, statistical tests, equations, assumptions, and reproducibility details.
+  - Include ethical, safety, environmental, or operational constraints when relevant.
+
+TYPICAL RESULTS & DISCUSSION:
+  - Report descriptive results before comparative or inferential analysis.
+  - Compare measured, simulated, and benchmark values using domain-specific metrics.
+  - Explain mechanisms behind trends, anomalies, failures, trade-offs, and uncertainty.
+  - Discuss implications for design, operation, policy, sustainability, cost, reliability, or scalability.
+  - Connect findings to literature and state limitations affecting generalization.
+
+TYPICAL FIGURES:
+  - Conceptual framework or system architecture diagram.
+  - Study area, sample, material, device, or experimental setup image.
+  - Workflow, model pipeline, or process flow diagram.
+  - Performance comparison chart with uncertainty/error bars.
+  - Spatial map, time-series profile, contour plot, spectrum, micrograph, or response curve as applicable.
+
+TYPICAL TABLES:
+  - Input variables, parameters, materials, samples, or system specifications.
+  - Experimental, survey, simulation, or observational design matrix.
+  - Benchmark comparison across methods, models, materials, sites, or scenarios.
+  - Validation metrics, statistical results, uncertainty ranges, or sensitivity analysis.
+  - Practical recommendations, design criteria, cost indicators, or implementation constraints.
+
+CONCLUSION CHARACTERISTICS:
+  - Answer each objective with concise quantitative or evidence-based findings.
+  - State the main contribution, practical significance, and conditions where results apply.
+  - Mention limitations in data, scale, assumptions, site specificity, instruments, or model validity.
+  - Recommend future work on field validation, long-term monitoring, larger datasets, optimization, or deployment.
+
+COMMON REFERENCE VENUES:
+  Transportation Research Record, Transportation Research Part C, Accident Analysis & Prevention, Journal of Transportation Engineering, Transportation Research Part A/B/D
+
+DOMAIN VOCABULARY:
+  traffic flow, density, speed, LOS, capacity, headway, queue length, delay, saturation flow, OD matrix, crash rate, VMT, accessibility, mode share, signal timing
+
+METHODOLOGY KEYWORDS:
+  traffic simulation, VISSIM/SUMO modeling, origin-destination survey, speed study, capacity analysis, signal timing optimization, crash analysis, GIS accessibility modeling, pavement condition survey
+
+RESEARCH TOPIC BANK (500 TOPICS)
+
+CATEGORY 1 — Traffic Operations
+001. Optimization of signalized intersection under tropical operating conditions
+002. Performance assessment of signalized intersection using locally available resources
+003. Experimental characterization of signalized intersection for low-cost implementation
+004. Numerical modeling of signalized intersection with uncertainty-aware calibration
+005. Life-cycle evaluation of signalized intersection under accelerated aging exposure
+006. Machine-learning prediction for signalized intersection for circular-economy applications
+007. Multi-objective design of signalized intersection with sensor-based monitoring
+008. Failure analysis of signalized intersection under variable load profiles
+009. Field validation of signalized intersection for disaster-resilient infrastructure
+010. Techno-economic assessment of signalized intersection using hybrid experimental-simulation data
+011. Optimization of roundabout corridor under tropical operating conditions
+012. Performance assessment of roundabout corridor using locally available resources
+013. Experimental characterization of roundabout corridor for low-cost implementation
+014. Numerical modeling of roundabout corridor with uncertainty-aware calibration
+015. Life-cycle evaluation of roundabout corridor under accelerated aging exposure
+016. Machine-learning prediction for roundabout corridor for circular-economy applications
+017. Multi-objective design of roundabout corridor with sensor-based monitoring
+018. Failure analysis of roundabout corridor under variable load profiles
+019. Field validation of roundabout corridor for disaster-resilient infrastructure
+020. Techno-economic assessment of roundabout corridor using hybrid experimental-simulation data
+021. Optimization of urban arterial under tropical operating conditions
+022. Performance assessment of urban arterial using locally available resources
+023. Experimental characterization of urban arterial for low-cost implementation
+024. Numerical modeling of urban arterial with uncertainty-aware calibration
+025. Life-cycle evaluation of urban arterial under accelerated aging exposure
+026. Machine-learning prediction for urban arterial for circular-economy applications
+027. Multi-objective design of urban arterial with sensor-based monitoring
+028. Failure analysis of urban arterial under variable load profiles
+029. Field validation of urban arterial for disaster-resilient infrastructure
+030. Techno-economic assessment of urban arterial using hybrid experimental-simulation data
+031. Optimization of freeway merge area under tropical operating conditions
+032. Performance assessment of freeway merge area using locally available resources
+033. Experimental characterization of freeway merge area for low-cost implementation
+034. Numerical modeling of freeway merge area with uncertainty-aware calibration
+035. Life-cycle evaluation of freeway merge area under accelerated aging exposure
+036. Machine-learning prediction for freeway merge area for circular-economy applications
+037. Multi-objective design of freeway merge area with sensor-based monitoring
+038. Failure analysis of freeway merge area under variable load profiles
+039. Field validation of freeway merge area for disaster-resilient infrastructure
+040. Techno-economic assessment of freeway merge area using hybrid experimental-simulation data
+041. Optimization of work zone traffic plan under tropical operating conditions
+042. Performance assessment of work zone traffic plan using locally available resources
+043. Experimental characterization of work zone traffic plan for low-cost implementation
+044. Numerical modeling of work zone traffic plan with uncertainty-aware calibration
+045. Life-cycle evaluation of work zone traffic plan under accelerated aging exposure
+046. Machine-learning prediction for work zone traffic plan for circular-economy applications
+047. Multi-objective design of work zone traffic plan with sensor-based monitoring
+048. Failure analysis of work zone traffic plan under variable load profiles
+049. Field validation of work zone traffic plan for disaster-resilient infrastructure
+050. Techno-economic assessment of work zone traffic plan using hybrid experimental-simulation data
+
+CATEGORY 2 — Public Transportation
+051. Optimization of bus rapid transit corridor under tropical operating conditions
+052. Performance assessment of bus rapid transit corridor using locally available resources
+053. Experimental characterization of bus rapid transit corridor for low-cost implementation
+054. Numerical modeling of bus rapid transit corridor with uncertainty-aware calibration
+055. Life-cycle evaluation of bus rapid transit corridor under accelerated aging exposure
+056. Machine-learning prediction for bus rapid transit corridor for circular-economy applications
+057. Multi-objective design of bus rapid transit corridor with sensor-based monitoring
+058. Failure analysis of bus rapid transit corridor under variable load profiles
+059. Field validation of bus rapid transit corridor for disaster-resilient infrastructure
+060. Techno-economic assessment of bus rapid transit corridor using hybrid experimental-simulation data
+061. Optimization of rail feeder service under tropical operating conditions
+062. Performance assessment of rail feeder service using locally available resources
+063. Experimental characterization of rail feeder service for low-cost implementation
+064. Numerical modeling of rail feeder service with uncertainty-aware calibration
+065. Life-cycle evaluation of rail feeder service under accelerated aging exposure
+066. Machine-learning prediction for rail feeder service for circular-economy applications
+067. Multi-objective design of rail feeder service with sensor-based monitoring
+068. Failure analysis of rail feeder service under variable load profiles
+069. Field validation of rail feeder service for disaster-resilient infrastructure
+070. Techno-economic assessment of rail feeder service using hybrid experimental-simulation data
+071. Optimization of transit priority signal under tropical operating conditions
+072. Performance assessment of transit priority signal using locally available resources
+073. Experimental characterization of transit priority signal for low-cost implementation
+074. Numerical modeling of transit priority signal with uncertainty-aware calibration
+075. Life-cycle evaluation of transit priority signal under accelerated aging exposure
+076. Machine-learning prediction for transit priority signal for circular-economy applications
+077. Multi-objective design of transit priority signal with sensor-based monitoring
+078. Failure analysis of transit priority signal under variable load profiles
+079. Field validation of transit priority signal for disaster-resilient infrastructure
+080. Techno-economic assessment of transit priority signal using hybrid experimental-simulation data
+081. Optimization of paratransit system under tropical operating conditions
+082. Performance assessment of paratransit system using locally available resources
+083. Experimental characterization of paratransit system for low-cost implementation
+084. Numerical modeling of paratransit system with uncertainty-aware calibration
+085. Life-cycle evaluation of paratransit system under accelerated aging exposure
+086. Machine-learning prediction for paratransit system for circular-economy applications
+087. Multi-objective design of paratransit system with sensor-based monitoring
+088. Failure analysis of paratransit system under variable load profiles
+089. Field validation of paratransit system for disaster-resilient infrastructure
+090. Techno-economic assessment of paratransit system using hybrid experimental-simulation data
+091. Optimization of multimodal station under tropical operating conditions
+092. Performance assessment of multimodal station using locally available resources
+093. Experimental characterization of multimodal station for low-cost implementation
+094. Numerical modeling of multimodal station with uncertainty-aware calibration
+095. Life-cycle evaluation of multimodal station under accelerated aging exposure
+096. Machine-learning prediction for multimodal station for circular-economy applications
+097. Multi-objective design of multimodal station with sensor-based monitoring
+098. Failure analysis of multimodal station under variable load profiles
+099. Field validation of multimodal station for disaster-resilient infrastructure
+100. Techno-economic assessment of multimodal station using hybrid experimental-simulation data
+
+CATEGORY 3 — Road Safety
+101. Optimization of black spot location under tropical operating conditions
+102. Performance assessment of black spot location using locally available resources
+103. Experimental characterization of black spot location for low-cost implementation
+104. Numerical modeling of black spot location with uncertainty-aware calibration
+105. Life-cycle evaluation of black spot location under accelerated aging exposure
+106. Machine-learning prediction for black spot location for circular-economy applications
+107. Multi-objective design of black spot location with sensor-based monitoring
+108. Failure analysis of black spot location under variable load profiles
+109. Field validation of black spot location for disaster-resilient infrastructure
+110. Techno-economic assessment of black spot location using hybrid experimental-simulation data
+111. Optimization of pedestrian crossing under tropical operating conditions
+112. Performance assessment of pedestrian crossing using locally available resources
+113. Experimental characterization of pedestrian crossing for low-cost implementation
+114. Numerical modeling of pedestrian crossing with uncertainty-aware calibration
+115. Life-cycle evaluation of pedestrian crossing under accelerated aging exposure
+116. Machine-learning prediction for pedestrian crossing for circular-economy applications
+117. Multi-objective design of pedestrian crossing with sensor-based monitoring
+118. Failure analysis of pedestrian crossing under variable load profiles
+119. Field validation of pedestrian crossing for disaster-resilient infrastructure
+120. Techno-economic assessment of pedestrian crossing using hybrid experimental-simulation data
+121. Optimization of motorcycle crash corridor under tropical operating conditions
+122. Performance assessment of motorcycle crash corridor using locally available resources
+123. Experimental characterization of motorcycle crash corridor for low-cost implementation
+124. Numerical modeling of motorcycle crash corridor with uncertainty-aware calibration
+125. Life-cycle evaluation of motorcycle crash corridor under accelerated aging exposure
+126. Machine-learning prediction for motorcycle crash corridor for circular-economy applications
+127. Multi-objective design of motorcycle crash corridor with sensor-based monitoring
+128. Failure analysis of motorcycle crash corridor under variable load profiles
+129. Field validation of motorcycle crash corridor for disaster-resilient infrastructure
+130. Techno-economic assessment of motorcycle crash corridor using hybrid experimental-simulation data
+131. Optimization of school zone safety under tropical operating conditions
+132. Performance assessment of school zone safety using locally available resources
+133. Experimental characterization of school zone safety for low-cost implementation
+134. Numerical modeling of school zone safety with uncertainty-aware calibration
+135. Life-cycle evaluation of school zone safety under accelerated aging exposure
+136. Machine-learning prediction for school zone safety for circular-economy applications
+137. Multi-objective design of school zone safety with sensor-based monitoring
+138. Failure analysis of school zone safety under variable load profiles
+139. Field validation of school zone safety for disaster-resilient infrastructure
+140. Techno-economic assessment of school zone safety using hybrid experimental-simulation data
+141. Optimization of speed management program under tropical operating conditions
+142. Performance assessment of speed management program using locally available resources
+143. Experimental characterization of speed management program for low-cost implementation
+144. Numerical modeling of speed management program with uncertainty-aware calibration
+145. Life-cycle evaluation of speed management program under accelerated aging exposure
+146. Machine-learning prediction for speed management program for circular-economy applications
+147. Multi-objective design of speed management program with sensor-based monitoring
+148. Failure analysis of speed management program under variable load profiles
+149. Field validation of speed management program for disaster-resilient infrastructure
+150. Techno-economic assessment of speed management program using hybrid experimental-simulation data
+
+CATEGORY 4 — Intelligent Transportation Systems
+151. Optimization of adaptive traffic signal under tropical operating conditions
+152. Performance assessment of adaptive traffic signal using locally available resources
+153. Experimental characterization of adaptive traffic signal for low-cost implementation
+154. Numerical modeling of adaptive traffic signal with uncertainty-aware calibration
+155. Life-cycle evaluation of adaptive traffic signal under accelerated aging exposure
+156. Machine-learning prediction for adaptive traffic signal for circular-economy applications
+157. Multi-objective design of adaptive traffic signal with sensor-based monitoring
+158. Failure analysis of adaptive traffic signal under variable load profiles
+159. Field validation of adaptive traffic signal for disaster-resilient infrastructure
+160. Techno-economic assessment of adaptive traffic signal using hybrid experimental-simulation data
+161. Optimization of connected vehicle application under tropical operating conditions
+162. Performance assessment of connected vehicle application using locally available resources
+163. Experimental characterization of connected vehicle application for low-cost implementation
+164. Numerical modeling of connected vehicle application with uncertainty-aware calibration
+165. Life-cycle evaluation of connected vehicle application under accelerated aging exposure
+166. Machine-learning prediction for connected vehicle application for circular-economy applications
+167. Multi-objective design of connected vehicle application with sensor-based monitoring
+168. Failure analysis of connected vehicle application under variable load profiles
+169. Field validation of connected vehicle application for disaster-resilient infrastructure
+170. Techno-economic assessment of connected vehicle application using hybrid experimental-simulation data
+171. Optimization of traffic incident detection under tropical operating conditions
+172. Performance assessment of traffic incident detection using locally available resources
+173. Experimental characterization of traffic incident detection for low-cost implementation
+174. Numerical modeling of traffic incident detection with uncertainty-aware calibration
+175. Life-cycle evaluation of traffic incident detection under accelerated aging exposure
+176. Machine-learning prediction for traffic incident detection for circular-economy applications
+177. Multi-objective design of traffic incident detection with sensor-based monitoring
+178. Failure analysis of traffic incident detection under variable load profiles
+179. Field validation of traffic incident detection for disaster-resilient infrastructure
+180. Techno-economic assessment of traffic incident detection using hybrid experimental-simulation data
+181. Optimization of smart parking system under tropical operating conditions
+182. Performance assessment of smart parking system using locally available resources
+183. Experimental characterization of smart parking system for low-cost implementation
+184. Numerical modeling of smart parking system with uncertainty-aware calibration
+185. Life-cycle evaluation of smart parking system under accelerated aging exposure
+186. Machine-learning prediction for smart parking system for circular-economy applications
+187. Multi-objective design of smart parking system with sensor-based monitoring
+188. Failure analysis of smart parking system under variable load profiles
+189. Field validation of smart parking system for disaster-resilient infrastructure
+190. Techno-economic assessment of smart parking system using hybrid experimental-simulation data
+191. Optimization of traveler information platform under tropical operating conditions
+192. Performance assessment of traveler information platform using locally available resources
+193. Experimental characterization of traveler information platform for low-cost implementation
+194. Numerical modeling of traveler information platform with uncertainty-aware calibration
+195. Life-cycle evaluation of traveler information platform under accelerated aging exposure
+196. Machine-learning prediction for traveler information platform for circular-economy applications
+197. Multi-objective design of traveler information platform with sensor-based monitoring
+198. Failure analysis of traveler information platform under variable load profiles
+199. Field validation of traveler information platform for disaster-resilient infrastructure
+200. Techno-economic assessment of traveler information platform using hybrid experimental-simulation data
+
+CATEGORY 5 — Freight and Logistics
+201. Optimization of urban freight route under tropical operating conditions
+202. Performance assessment of urban freight route using locally available resources
+203. Experimental characterization of urban freight route for low-cost implementation
+204. Numerical modeling of urban freight route with uncertainty-aware calibration
+205. Life-cycle evaluation of urban freight route under accelerated aging exposure
+206. Machine-learning prediction for urban freight route for circular-economy applications
+207. Multi-objective design of urban freight route with sensor-based monitoring
+208. Failure analysis of urban freight route under variable load profiles
+209. Field validation of urban freight route for disaster-resilient infrastructure
+210. Techno-economic assessment of urban freight route using hybrid experimental-simulation data
+211. Optimization of last-mile delivery network under tropical operating conditions
+212. Performance assessment of last-mile delivery network using locally available resources
+213. Experimental characterization of last-mile delivery network for low-cost implementation
+214. Numerical modeling of last-mile delivery network with uncertainty-aware calibration
+215. Life-cycle evaluation of last-mile delivery network under accelerated aging exposure
+216. Machine-learning prediction for last-mile delivery network for circular-economy applications
+217. Multi-objective design of last-mile delivery network with sensor-based monitoring
+218. Failure analysis of last-mile delivery network under variable load profiles
+219. Field validation of last-mile delivery network for disaster-resilient infrastructure
+220. Techno-economic assessment of last-mile delivery network using hybrid experimental-simulation data
+221. Optimization of truck terminal access under tropical operating conditions
+222. Performance assessment of truck terminal access using locally available resources
+223. Experimental characterization of truck terminal access for low-cost implementation
+224. Numerical modeling of truck terminal access with uncertainty-aware calibration
+225. Life-cycle evaluation of truck terminal access under accelerated aging exposure
+226. Machine-learning prediction for truck terminal access for circular-economy applications
+227. Multi-objective design of truck terminal access with sensor-based monitoring
+228. Failure analysis of truck terminal access under variable load profiles
+229. Field validation of truck terminal access for disaster-resilient infrastructure
+230. Techno-economic assessment of truck terminal access using hybrid experimental-simulation data
+231. Optimization of cold-chain transport under tropical operating conditions
+232. Performance assessment of cold-chain transport using locally available resources
+233. Experimental characterization of cold-chain transport for low-cost implementation
+234. Numerical modeling of cold-chain transport with uncertainty-aware calibration
+235. Life-cycle evaluation of cold-chain transport under accelerated aging exposure
+236. Machine-learning prediction for cold-chain transport for circular-economy applications
+237. Multi-objective design of cold-chain transport with sensor-based monitoring
+238. Failure analysis of cold-chain transport under variable load profiles
+239. Field validation of cold-chain transport for disaster-resilient infrastructure
+240. Techno-economic assessment of cold-chain transport using hybrid experimental-simulation data
+241. Optimization of port hinterland corridor under tropical operating conditions
+242. Performance assessment of port hinterland corridor using locally available resources
+243. Experimental characterization of port hinterland corridor for low-cost implementation
+244. Numerical modeling of port hinterland corridor with uncertainty-aware calibration
+245. Life-cycle evaluation of port hinterland corridor under accelerated aging exposure
+246. Machine-learning prediction for port hinterland corridor for circular-economy applications
+247. Multi-objective design of port hinterland corridor with sensor-based monitoring
+248. Failure analysis of port hinterland corridor under variable load profiles
+249. Field validation of port hinterland corridor for disaster-resilient infrastructure
+250. Techno-economic assessment of port hinterland corridor using hybrid experimental-simulation data
+
+CATEGORY 6 — Travel Behavior
+251. Optimization of mode choice model under tropical operating conditions
+252. Performance assessment of mode choice model using locally available resources
+253. Experimental characterization of mode choice model for low-cost implementation
+254. Numerical modeling of mode choice model with uncertainty-aware calibration
+255. Life-cycle evaluation of mode choice model under accelerated aging exposure
+256. Machine-learning prediction for mode choice model for circular-economy applications
+257. Multi-objective design of mode choice model with sensor-based monitoring
+258. Failure analysis of mode choice model under variable load profiles
+259. Field validation of mode choice model for disaster-resilient infrastructure
+260. Techno-economic assessment of mode choice model using hybrid experimental-simulation data
+261. Optimization of commuter route choice under tropical operating conditions
+262. Performance assessment of commuter route choice using locally available resources
+263. Experimental characterization of commuter route choice for low-cost implementation
+264. Numerical modeling of commuter route choice with uncertainty-aware calibration
+265. Life-cycle evaluation of commuter route choice under accelerated aging exposure
+266. Machine-learning prediction for commuter route choice for circular-economy applications
+267. Multi-objective design of commuter route choice with sensor-based monitoring
+268. Failure analysis of commuter route choice under variable load profiles
+269. Field validation of commuter route choice for disaster-resilient infrastructure
+270. Techno-economic assessment of commuter route choice using hybrid experimental-simulation data
+271. Optimization of activity-based travel pattern under tropical operating conditions
+272. Performance assessment of activity-based travel pattern using locally available resources
+273. Experimental characterization of activity-based travel pattern for low-cost implementation
+274. Numerical modeling of activity-based travel pattern with uncertainty-aware calibration
+275. Life-cycle evaluation of activity-based travel pattern under accelerated aging exposure
+276. Machine-learning prediction for activity-based travel pattern for circular-economy applications
+277. Multi-objective design of activity-based travel pattern with sensor-based monitoring
+278. Failure analysis of activity-based travel pattern under variable load profiles
+279. Field validation of activity-based travel pattern for disaster-resilient infrastructure
+280. Techno-economic assessment of activity-based travel pattern using hybrid experimental-simulation data
+281. Optimization of ride-hailing adoption under tropical operating conditions
+282. Performance assessment of ride-hailing adoption using locally available resources
+283. Experimental characterization of ride-hailing adoption for low-cost implementation
+284. Numerical modeling of ride-hailing adoption with uncertainty-aware calibration
+285. Life-cycle evaluation of ride-hailing adoption under accelerated aging exposure
+286. Machine-learning prediction for ride-hailing adoption for circular-economy applications
+287. Multi-objective design of ride-hailing adoption with sensor-based monitoring
+288. Failure analysis of ride-hailing adoption under variable load profiles
+289. Field validation of ride-hailing adoption for disaster-resilient infrastructure
+290. Techno-economic assessment of ride-hailing adoption using hybrid experimental-simulation data
+291. Optimization of telework travel impact under tropical operating conditions
+292. Performance assessment of telework travel impact using locally available resources
+293. Experimental characterization of telework travel impact for low-cost implementation
+294. Numerical modeling of telework travel impact with uncertainty-aware calibration
+295. Life-cycle evaluation of telework travel impact under accelerated aging exposure
+296. Machine-learning prediction for telework travel impact for circular-economy applications
+297. Multi-objective design of telework travel impact with sensor-based monitoring
+298. Failure analysis of telework travel impact under variable load profiles
+299. Field validation of telework travel impact for disaster-resilient infrastructure
+300. Techno-economic assessment of telework travel impact using hybrid experimental-simulation data
+
+CATEGORY 7 — Sustainable Mobility
+301. Optimization of bike lane network under tropical operating conditions
+302. Performance assessment of bike lane network using locally available resources
+303. Experimental characterization of bike lane network for low-cost implementation
+304. Numerical modeling of bike lane network with uncertainty-aware calibration
+305. Life-cycle evaluation of bike lane network under accelerated aging exposure
+306. Machine-learning prediction for bike lane network for circular-economy applications
+307. Multi-objective design of bike lane network with sensor-based monitoring
+308. Failure analysis of bike lane network under variable load profiles
+309. Field validation of bike lane network for disaster-resilient infrastructure
+310. Techno-economic assessment of bike lane network using hybrid experimental-simulation data
+311. Optimization of walkability improvement under tropical operating conditions
+312. Performance assessment of walkability improvement using locally available resources
+313. Experimental characterization of walkability improvement for low-cost implementation
+314. Numerical modeling of walkability improvement with uncertainty-aware calibration
+315. Life-cycle evaluation of walkability improvement under accelerated aging exposure
+316. Machine-learning prediction for walkability improvement for circular-economy applications
+317. Multi-objective design of walkability improvement with sensor-based monitoring
+318. Failure analysis of walkability improvement under variable load profiles
+319. Field validation of walkability improvement for disaster-resilient infrastructure
+320. Techno-economic assessment of walkability improvement using hybrid experimental-simulation data
+321. Optimization of low-emission zone under tropical operating conditions
+322. Performance assessment of low-emission zone using locally available resources
+323. Experimental characterization of low-emission zone for low-cost implementation
+324. Numerical modeling of low-emission zone with uncertainty-aware calibration
+325. Life-cycle evaluation of low-emission zone under accelerated aging exposure
+326. Machine-learning prediction for low-emission zone for circular-economy applications
+327. Multi-objective design of low-emission zone with sensor-based monitoring
+328. Failure analysis of low-emission zone under variable load profiles
+329. Field validation of low-emission zone for disaster-resilient infrastructure
+330. Techno-economic assessment of low-emission zone using hybrid experimental-simulation data
+331. Optimization of electric bus deployment under tropical operating conditions
+332. Performance assessment of electric bus deployment using locally available resources
+333. Experimental characterization of electric bus deployment for low-cost implementation
+334. Numerical modeling of electric bus deployment with uncertainty-aware calibration
+335. Life-cycle evaluation of electric bus deployment under accelerated aging exposure
+336. Machine-learning prediction for electric bus deployment for circular-economy applications
+337. Multi-objective design of electric bus deployment with sensor-based monitoring
+338. Failure analysis of electric bus deployment under variable load profiles
+339. Field validation of electric bus deployment for disaster-resilient infrastructure
+340. Techno-economic assessment of electric bus deployment using hybrid experimental-simulation data
+341. Optimization of shared micromobility system under tropical operating conditions
+342. Performance assessment of shared micromobility system using locally available resources
+343. Experimental characterization of shared micromobility system for low-cost implementation
+344. Numerical modeling of shared micromobility system with uncertainty-aware calibration
+345. Life-cycle evaluation of shared micromobility system under accelerated aging exposure
+346. Machine-learning prediction for shared micromobility system for circular-economy applications
+347. Multi-objective design of shared micromobility system with sensor-based monitoring
+348. Failure analysis of shared micromobility system under variable load profiles
+349. Field validation of shared micromobility system for disaster-resilient infrastructure
+350. Techno-economic assessment of shared micromobility system using hybrid experimental-simulation data
+
+CATEGORY 8 — Pavement and Infrastructure
+351. Optimization of pavement condition index under tropical operating conditions
+352. Performance assessment of pavement condition index using locally available resources
+353. Experimental characterization of pavement condition index for low-cost implementation
+354. Numerical modeling of pavement condition index with uncertainty-aware calibration
+355. Life-cycle evaluation of pavement condition index under accelerated aging exposure
+356. Machine-learning prediction for pavement condition index for circular-economy applications
+357. Multi-objective design of pavement condition index with sensor-based monitoring
+358. Failure analysis of pavement condition index under variable load profiles
+359. Field validation of pavement condition index for disaster-resilient infrastructure
+360. Techno-economic assessment of pavement condition index using hybrid experimental-simulation data
+361. Optimization of bus stop pavement under tropical operating conditions
+362. Performance assessment of bus stop pavement using locally available resources
+363. Experimental characterization of bus stop pavement for low-cost implementation
+364. Numerical modeling of bus stop pavement with uncertainty-aware calibration
+365. Life-cycle evaluation of bus stop pavement under accelerated aging exposure
+366. Machine-learning prediction for bus stop pavement for circular-economy applications
+367. Multi-objective design of bus stop pavement with sensor-based monitoring
+368. Failure analysis of bus stop pavement under variable load profiles
+369. Field validation of bus stop pavement for disaster-resilient infrastructure
+370. Techno-economic assessment of bus stop pavement using hybrid experimental-simulation data
+371. Optimization of road maintenance prioritization under tropical operating conditions
+372. Performance assessment of road maintenance prioritization using locally available resources
+373. Experimental characterization of road maintenance prioritization for low-cost implementation
+374. Numerical modeling of road maintenance prioritization with uncertainty-aware calibration
+375. Life-cycle evaluation of road maintenance prioritization under accelerated aging exposure
+376. Machine-learning prediction for road maintenance prioritization for circular-economy applications
+377. Multi-objective design of road maintenance prioritization with sensor-based monitoring
+378. Failure analysis of road maintenance prioritization under variable load profiles
+379. Field validation of road maintenance prioritization for disaster-resilient infrastructure
+380. Techno-economic assessment of road maintenance prioritization using hybrid experimental-simulation data
+381. Optimization of permeable pavement under tropical operating conditions
+382. Performance assessment of permeable pavement using locally available resources
+383. Experimental characterization of permeable pavement for low-cost implementation
+384. Numerical modeling of permeable pavement with uncertainty-aware calibration
+385. Life-cycle evaluation of permeable pavement under accelerated aging exposure
+386. Machine-learning prediction for permeable pavement for circular-economy applications
+387. Multi-objective design of permeable pavement with sensor-based monitoring
+388. Failure analysis of permeable pavement under variable load profiles
+389. Field validation of permeable pavement for disaster-resilient infrastructure
+390. Techno-economic assessment of permeable pavement using hybrid experimental-simulation data
+391. Optimization of airport runway operation under tropical operating conditions
+392. Performance assessment of airport runway operation using locally available resources
+393. Experimental characterization of airport runway operation for low-cost implementation
+394. Numerical modeling of airport runway operation with uncertainty-aware calibration
+395. Life-cycle evaluation of airport runway operation under accelerated aging exposure
+396. Machine-learning prediction for airport runway operation for circular-economy applications
+397. Multi-objective design of airport runway operation with sensor-based monitoring
+398. Failure analysis of airport runway operation under variable load profiles
+399. Field validation of airport runway operation for disaster-resilient infrastructure
+400. Techno-economic assessment of airport runway operation using hybrid experimental-simulation data
+
+CATEGORY 9 — Transport Planning
+401. Optimization of transport master plan under tropical operating conditions
+402. Performance assessment of transport master plan using locally available resources
+403. Experimental characterization of transport master plan for low-cost implementation
+404. Numerical modeling of transport master plan with uncertainty-aware calibration
+405. Life-cycle evaluation of transport master plan under accelerated aging exposure
+406. Machine-learning prediction for transport master plan for circular-economy applications
+407. Multi-objective design of transport master plan with sensor-based monitoring
+408. Failure analysis of transport master plan under variable load profiles
+409. Field validation of transport master plan for disaster-resilient infrastructure
+410. Techno-economic assessment of transport master plan using hybrid experimental-simulation data
+411. Optimization of TOD accessibility under tropical operating conditions
+412. Performance assessment of TOD accessibility using locally available resources
+413. Experimental characterization of TOD accessibility for low-cost implementation
+414. Numerical modeling of TOD accessibility with uncertainty-aware calibration
+415. Life-cycle evaluation of TOD accessibility under accelerated aging exposure
+416. Machine-learning prediction for TOD accessibility for circular-economy applications
+417. Multi-objective design of TOD accessibility with sensor-based monitoring
+418. Failure analysis of TOD accessibility under variable load profiles
+419. Field validation of TOD accessibility for disaster-resilient infrastructure
+420. Techno-economic assessment of TOD accessibility using hybrid experimental-simulation data
+421. Optimization of parking demand management under tropical operating conditions
+422. Performance assessment of parking demand management using locally available resources
+423. Experimental characterization of parking demand management for low-cost implementation
+424. Numerical modeling of parking demand management with uncertainty-aware calibration
+425. Life-cycle evaluation of parking demand management under accelerated aging exposure
+426. Machine-learning prediction for parking demand management for circular-economy applications
+427. Multi-objective design of parking demand management with sensor-based monitoring
+428. Failure analysis of parking demand management under variable load profiles
+429. Field validation of parking demand management for disaster-resilient infrastructure
+430. Techno-economic assessment of parking demand management using hybrid experimental-simulation data
+431. Optimization of regional mobility model under tropical operating conditions
+432. Performance assessment of regional mobility model using locally available resources
+433. Experimental characterization of regional mobility model for low-cost implementation
+434. Numerical modeling of regional mobility model with uncertainty-aware calibration
+435. Life-cycle evaluation of regional mobility model under accelerated aging exposure
+436. Machine-learning prediction for regional mobility model for circular-economy applications
+437. Multi-objective design of regional mobility model with sensor-based monitoring
+438. Failure analysis of regional mobility model under variable load profiles
+439. Field validation of regional mobility model for disaster-resilient infrastructure
+440. Techno-economic assessment of regional mobility model using hybrid experimental-simulation data
+441. Optimization of equity-based accessibility plan under tropical operating conditions
+442. Performance assessment of equity-based accessibility plan using locally available resources
+443. Experimental characterization of equity-based accessibility plan for low-cost implementation
+444. Numerical modeling of equity-based accessibility plan with uncertainty-aware calibration
+445. Life-cycle evaluation of equity-based accessibility plan under accelerated aging exposure
+446. Machine-learning prediction for equity-based accessibility plan for circular-economy applications
+447. Multi-objective design of equity-based accessibility plan with sensor-based monitoring
+448. Failure analysis of equity-based accessibility plan under variable load profiles
+449. Field validation of equity-based accessibility plan for disaster-resilient infrastructure
+450. Techno-economic assessment of equity-based accessibility plan using hybrid experimental-simulation data
+
+CATEGORY 10 — Emerging Mobility
+451. Optimization of autonomous shuttle under tropical operating conditions
+452. Performance assessment of autonomous shuttle using locally available resources
+453. Experimental characterization of autonomous shuttle for low-cost implementation
+454. Numerical modeling of autonomous shuttle with uncertainty-aware calibration
+455. Life-cycle evaluation of autonomous shuttle under accelerated aging exposure
+456. Machine-learning prediction for autonomous shuttle for circular-economy applications
+457. Multi-objective design of autonomous shuttle with sensor-based monitoring
+458. Failure analysis of autonomous shuttle under variable load profiles
+459. Field validation of autonomous shuttle for disaster-resilient infrastructure
+460. Techno-economic assessment of autonomous shuttle using hybrid experimental-simulation data
+461. Optimization of drone delivery corridor under tropical operating conditions
+462. Performance assessment of drone delivery corridor using locally available resources
+463. Experimental characterization of drone delivery corridor for low-cost implementation
+464. Numerical modeling of drone delivery corridor with uncertainty-aware calibration
+465. Life-cycle evaluation of drone delivery corridor under accelerated aging exposure
+466. Machine-learning prediction for drone delivery corridor for circular-economy applications
+467. Multi-objective design of drone delivery corridor with sensor-based monitoring
+468. Failure analysis of drone delivery corridor under variable load profiles
+469. Field validation of drone delivery corridor for disaster-resilient infrastructure
+470. Techno-economic assessment of drone delivery corridor using hybrid experimental-simulation data
+471. Optimization of mobility-as-a-service platform under tropical operating conditions
+472. Performance assessment of mobility-as-a-service platform using locally available resources
+473. Experimental characterization of mobility-as-a-service platform for low-cost implementation
+474. Numerical modeling of mobility-as-a-service platform with uncertainty-aware calibration
+475. Life-cycle evaluation of mobility-as-a-service platform under accelerated aging exposure
+476. Machine-learning prediction for mobility-as-a-service platform for circular-economy applications
+477. Multi-objective design of mobility-as-a-service platform with sensor-based monitoring
+478. Failure analysis of mobility-as-a-service platform under variable load profiles
+479. Field validation of mobility-as-a-service platform for disaster-resilient infrastructure
+480. Techno-economic assessment of mobility-as-a-service platform using hybrid experimental-simulation data
+481. Optimization of EV charging network under tropical operating conditions
+482. Performance assessment of EV charging network using locally available resources
+483. Experimental characterization of EV charging network for low-cost implementation
+484. Numerical modeling of EV charging network with uncertainty-aware calibration
+485. Life-cycle evaluation of EV charging network under accelerated aging exposure
+486. Machine-learning prediction for EV charging network for circular-economy applications
+487. Multi-objective design of EV charging network with sensor-based monitoring
+488. Failure analysis of EV charging network under variable load profiles
+489. Field validation of EV charging network for disaster-resilient infrastructure
+490. Techno-economic assessment of EV charging network using hybrid experimental-simulation data
+491. Optimization of cooperative platooning system under tropical operating conditions
+492. Performance assessment of cooperative platooning system using locally available resources
+493. Experimental characterization of cooperative platooning system for low-cost implementation
+494. Numerical modeling of cooperative platooning system with uncertainty-aware calibration
+495. Life-cycle evaluation of cooperative platooning system under accelerated aging exposure
+496. Machine-learning prediction for cooperative platooning system for circular-economy applications
+497. Multi-objective design of cooperative platooning system with sensor-based monitoring
+498. Failure analysis of cooperative platooning system under variable load profiles
+499. Field validation of cooperative platooning system for disaster-resilient infrastructure
+500. Techno-economic assessment of cooperative platooning system using hybrid experimental-simulation data

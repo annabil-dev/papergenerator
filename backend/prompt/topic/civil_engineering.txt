@@ -5,6 +5,75 @@ FIELD: Engineering / Civil
 DEFAULT CITATION STYLE: APA or ASCE
 SUBDISCIPLINE: Teknik Sipil, Struktur Bangunan, Transportasi, Geoteknik, Beton, Manajemen Konstruksi
 
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title
+   - Ensure novelty through combination of: new material + local context, advanced method + Indonesian conditions, emerging technology + traditional infrastructure
+   - Title format: "Effect of [Variable] on [Property] of [System] Using [Method]: A Case Study in [Indonesian Location]"
+
+3. LATEST METHODOLOGY (2022-2025):
+   - BIM (Building Information Modeling) using Revit, Tekla Structures
+   - FEA (Finite Element Analysis) using SAP2000, ETABS, ABAQUS
+   - Performance-based seismic design (PBSD) with pushover and time-history analysis
+   - Fiber-reinforced concrete (FRC) and ultra-high performance concrete (UHPC)
+   - Geosynthetics (geotextile, geogrid, geocomposite) for soil reinforcement
+   - Drone surveying and photogrammetry for infrastructure inspection
+   - Structural Health Monitoring (SHM) with IoT sensors
+   - Machine learning for structural assessment and damage detection
+   - Digital twin technology for infrastructure management
+   - 3D printing for construction (additive manufacturing)
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Concrete strength: 20-80 MPa range depending on mix
+   - Steel yield strength: 240-500 MPa (BjTS 40, BjTP 50)
+   - Soil bearing capacity: 50-500 kPa depending on type
+   - Traffic volume: 500-50000 PCU/day
+   - All numbers realistic and internally consistent
+   - Statistical measures: mean, std deviation, CoV
+
+5. MATHEMATICAL FORMULAS:
+   - Moment: M = F × d (N·m)
+   - Shear: V = wL/2 (N)
+   - Deflection: δ = 5wL⁴/(384EI) (mm)
+   - Euler buckling: Pcr = π²EI/(KL)² (N)
+   - Concrete strength: fc' = P/A (MPa)
+   - Steel stress: σ = F/A (MPa)
+   - Terzaghi bearing capacity: qu = cNc + γDfNq + 0.5γBNγ (kPa)
+   - CBR: CBR = (P/Ps) × 100 (%)
+   - Consolidation settlement: Sc = CcH/(1+e0) × log((σ0'+Δσ)/σ0')
+   - Seismic base shear: V = CsW
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian context: earthquake-prone zones, SNI building codes, IKN development
+   - Reference Indonesian researchers and local case studies
+   - Include Scopus-indexed Indonesian journals
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords (5-7), Introduction (1500-2000 words),
+   Literature Review (2000-3000 words), Methodology (2000-3000 words),
+   Results & Discussion (2000-3000 words), Conclusion (500-800 words),
+   References (30+, 60% from 2020-2025)
+
+INDONESIAN CONTEXT:
+   - Earthquake-prone zones (Ring of Fire): Sumatra, Java, Sulawesi, Papua
+   - SNI building codes: SNI 1726:2019 (seismic), SNI 2847:2019 (concrete), SNI 1727:2020 (loads)
+   - Infrastructure development: IKN (Ibu Kota Nusantara), Trans-Java toll road, national dams program
+   - Local materials: volcanic ash, palm oil fuel ash (POFA), rice husk ash (RHA)
+   - Tropical climate challenges: high humidity, heavy rainfall, coastal corrosion
+--- END PAPER GENERATION INSTRUCTIONS ---
+
 ABSTRACT CHARACTERISTICS:
   150–250 words. Reports: civil engineering problem (structural, transportation, geotechnical,
   water resources), method used (experimental, numerical FEM, field measurement), material
@@ -79,3 +148,527 @@ METHODOLOGY KEYWORDS:
   concrete compressive test (SNI 1974), Marshall asphalt test, SPT/CPT geotechnical,
   FEM (SAP2000/ETABS) structural analysis, seismic load (SNI 1726), mix design,
   28-day curing, pushover nonlinear analysis
+
+================================================================================
+RESEARCH TOPIC BANK (500 TOPICS)
+================================================================================
+
+--- CATEGORY 1: STRUCTURAL ENGINEERING & DESIGN (001-050) ---
+001. Effect of Bamboo Fiber Reinforcement on Flexural Strength of Lightweight Concrete Beams
+002. Performance-Based Seismic Design of High-Rise Buildings in Jakarta Using Pushover Analysis
+003. Numerical Analysis of Steel-Concrete Composite Beams with Partial Shear Connection Using ABAQUS
+004. Experimental Study on Strengthening of RC Columns with CFRP Wrapping Under Axial Load
+005. BIM-Based Structural Design Optimization for Multi-Story Residential Buildings in Indonesia
+006. Finite Element Analysis of Precast Concrete Connections Under Cyclic Loading
+007. Structural Performance of Cold-Formed Steel Frames for Low-Cost Housing in Earthquake Zones
+008. Effect of Corrosion on Residual Capacity of Reinforced Concrete Bridge Girders
+009. Machine Learning-Based Prediction of Structural Damage in Post-Earthquake Assessment
+010. Experimental Investigation of Glulam Timber Beam-Column Joints for Seismic Applications
+011. Nonlinear Time-History Analysis of Irregular Buildings Under Indonesian Earthquake Records
+012. Structural Behavior of Castellated Steel Beams with Web Openings Under Monotonic Loading
+013. Optimization of Prestressed Concrete Girder Design Using Genetic Algorithm
+014. Experimental Study on Punching Shear of Flat Slab with Shear Reinforcement
+015. Digital Twin Framework for Real-Time Structural Health Monitoring of Bridges
+016. Seismic Vulnerability Assessment of Heritage Masonry Buildings in Yogyakarta
+017. Effect of Opening Size and Location on Shear Strength of Deep RC Beams
+018. Comparative Study of SNI 2847:2019 and ACI 318-19 for Concrete Structural Design
+019. Structural Performance of Modular Steel Buildings Under Wind and Seismic Loads
+020. Experimental Investigation of Self-Compacting Concrete Filled Steel Tubular Columns
+021. Fragility Analysis of RC Frame Buildings Designed per SNI 1726:2019
+022. Topology Optimization of Steel Truss Bridges Using Finite Element Method
+023. Behavior of Reinforced Concrete Beams Strengthened with Near-Surface Mounted FRP Bars
+024. Structural Assessment of Existing Buildings for Vertical Extension Using ETABS
+025. Effect of Fiber Orientation on Mechanical Properties of GFRP Reinforced Concrete
+026. Progressive Collapse Analysis of Steel Moment-Resisting Frames After Column Removal
+027. Experimental Study on Headed Stud Shear Connectors in Composite Beams
+028. Seismic Performance of Base-Isolated Hospital Buildings in High Seismicity Zones
+029. Structural Optimization of Roof Truss Systems Using Particle Swarm Optimization
+030. Finite Element Modeling of Reinforced Concrete Shear Walls with Boundary Elements
+031. Effect of Elevated Temperature on Residual Strength of High-Performance Concrete
+032. Structural Behavior of Hybrid Steel-Timber Connections Under Monotonic Loading
+033. Machine Learning for Predicting Compressive Strength of Recycled Aggregate Concrete
+034. Experimental Investigation of Beam-Column Joints with Mechanical Splices
+035. Wind Load Analysis of Tall Buildings in Surabaya Using CFD Simulation
+036. Structural Performance of 3D-Printed Concrete Elements Under Compression
+037. Seismic Retrofit of Soft-Story Buildings Using Steel Bracing Systems
+038. Effect of Nano-Silica on Durability Properties of Marine Concrete Structures
+039. Nonlinear Buckling Analysis of Steel Plate Girders with Web Stiffeners
+040. Structural Health Monitoring of Cable-Stayed Bridges Using Fiber Optic Sensors
+041. Experimental Study on Lightweight Aggregate Concrete with Pumice from Indonesian Volcanoes
+042. Performance Evaluation of Seismic Dampers in High-Rise Buildings Using SAP2000
+043. Structural Analysis of Bamboo Reinforced Concrete Slabs for Rural Housing
+044. Effect of Recycled Steel Fiber on Toughness of Ultra-High Performance Concrete
+045. BIM-Integrated Structural Analysis Workflow for Complex Geometry Buildings
+046. Experimental Investigation of Concrete-Filled Double-Skin Steel Tubular Columns
+047. Seismic Performance of Precast Concrete Moment Frames with Hybrid Connections
+048. Structural Reliability Analysis of Aging RC Bridges Using Monte Carlo Simulation
+049. Effect of Alkali-Silica Reaction on Long-Term Performance of Concrete Dams
+050. Comparative Analysis of Linear and Nonlinear Seismic Design Methods per SNI 1726:2019
+
+--- CATEGORY 2: GEOTECHNICAL ENGINEERING (051-100) ---
+051. Bearing Capacity Improvement of Soft Clay Using Prefabricated Vertical Drains (PVD)
+052. Numerical Analysis of Pile Group Behavior in Liquefaction-Prone Soil Using PLAXIS
+053. Effect of Geotextile Reinforcement on Stability of Road Embankments on Soft Soil
+054. Laboratory Study on Stabilization of Expansive Clay with Lime and Rice Husk Ash
+055. Seismic Site Response Analysis of Alluvial Deposits in Jakarta Basin
+056. Slope Stability Analysis of Cut Slopes Along Trans-Papua Highway Using GeoStudio
+057. Effect of Water Content on Shear Strength of Residual Volcanic Soil in Java
+058. Ground Improvement Using Deep Soil Mixing for IKN Infrastructure Development
+059. Numerical Modeling of Tunnel-Soil Interaction for Jakarta MRT Extension
+060. Bearing Capacity of Bored Piles in Weathered Rock Formation Using Static Load Test
+061. Liquefaction Potential Assessment of Coastal Reclamation Areas in Makassar
+062. Effect of Palm Oil Fuel Ash (POFA) on Engineering Properties of Laterite Soil
+063. Geosynthetic-Reinforced Soil Retaining Walls for Highway Applications in Mountainous Terrain
+064. Settlement Analysis of Raft Foundation on Soft Clay Using 3D Finite Element Method
+065. Landslide Susceptibility Mapping Using Machine Learning in Central Java Highlands
+066. Effect of Cyclic Loading on Axial Capacity of Driven Piles in Sandy Soil
+067. Soil-Structure Interaction Analysis of High-Rise Buildings on Soft Ground
+068. Laboratory Investigation of Biocementation (MICP) for Sandy Soil Improvement
+069. Numerical Analysis of Deep Excavation with Diaphragm Wall in Jakarta Soft Clay
+070. Effect of Volcanic Ash Addition on Compaction and CBR of Subgrade Soil
+071. Reliability-Based Design of Shallow Foundations on Heterogeneous Soil Profiles
+072. Ground Subsidence Monitoring in North Jakarta Using InSAR and Geotechnical Data
+073. Effect of Fiber Reinforcement on Unconfined Compressive Strength of Stabilized Peat
+074. Seismic Slope Displacement Analysis Using Newmark Method for Indonesian Earthquakes
+075. Numerical Study of Stone Column Performance in Soft Marine Clay
+076. Geotechnical Characterization of Volcanic Soil for Dam Foundation in Bali
+077. Effect of Groundwater Level Fluctuation on Bearing Capacity of Strip Foundations
+078. Pile Driving Analysis Using Wave Equation Method (WEAP) for Offshore Structures
+079. Soil Nailing Design for Slope Stabilization Along Semarang-Solo Toll Road
+080. Laboratory Study on Swelling Pressure of Bentonite-Sand Mixtures for Landfill Liner
+081. Cone Penetration Test (CPT) Correlation for Soil Classification in Kalimantan Peat
+082. Effect of Earthquake-Induced Lateral Spreading on Pile Foundation Performance
+083. Numerical Analysis of Mechanically Stabilized Earth (MSE) Wall with Geogrid
+084. Ground Improvement Using Vacuum Consolidation for Port Development in Surabaya
+085. Effect of Organic Content on Consolidation Behavior of Soft Soil in Coastal Areas
+086. Probabilistic Seismic Hazard Analysis for Foundation Design in Sulawesi
+087. Laboratory Study on Cement-Treated Marine Clay for Land Reclamation
+088. Numerical Modeling of Laterally Loaded Piles in Layered Soil Using p-y Curves
+089. Effect of Rainfall Infiltration on Slope Stability of Residual Soil in Bandung
+090. Geotechnical Investigation for Underground Water Storage Tank in Limestone Formation
+091. Machine Learning Prediction of Pile Bearing Capacity from SPT Data
+092. Effect of Freeze-Thaw Cycles on Strength of Cement-Stabilized Soil (Highland Areas)
+093. Numerical Analysis of Cofferdam Design for Bridge Pier Construction in River
+094. Soil Improvement Using Electroosmosis for Soft Clay Dewatering
+095. Effect of Relative Density on Liquefaction Resistance of Volcanic Sand
+096. Geotechnical Assessment of Karst Terrain for Infrastructure Development in Gunung Kidul
+097. Numerical Study of Tunnel Face Stability in Mixed Ground Conditions
+098. Effect of Cement Content on Unconfined Compressive Strength of Soft Soil Columns
+099. Monitoring of Ground Movement Around Deep Excavation Using Inclinometer Data
+100. Geotechnical Risk Assessment for High-Speed Railway Foundation in Java
+
+--- CATEGORY 3: TRANSPORTATION ENGINEERING (101-150) ---
+101. Traffic Impact Analysis of New Shopping Mall Development Using VISSIM Microsimulation
+102. Pavement Performance Evaluation of Warm Mix Asphalt with Natural Zeolite Additive
+103. Level of Service Analysis of Signalized Intersections in Surabaya Using HCM 2022
+104. Effect of Plastic Waste Addition on Marshall Properties of Asphalt Concrete
+105. Route Optimization for Public Transportation Using GIS and Network Analysis
+106. Structural Design of Rigid Pavement for Heavy Vehicle Corridor Using AASHTO Method
+107. Traffic Safety Analysis of Black Spot Locations on National Roads Using Accident Data
+108. Effect of Rubber Crumb on Fatigue Life of Asphalt Pavement
+109. Pedestrian Level of Service Assessment in Transit-Oriented Development Areas
+110. Machine Learning-Based Traffic Flow Prediction for Intelligent Transportation Systems
+111. Pavement Condition Assessment Using Drone-Based Photogrammetry and Deep Learning
+112. Effect of Reclaimed Asphalt Pavement (RAP) on Mechanical Properties of Hot Mix Asphalt
+113. Capacity Analysis of Toll Road Merge Areas Using Traffic Simulation
+114. Design of Permeable Pavement for Urban Flood Mitigation in Jakarta
+115. Travel Time Reliability Analysis on Jakarta-Cikampek Elevated Toll Road
+116. Effect of Polymer Modified Bitumen on Rutting Resistance of Asphalt Mixture
+117. Geometric Design Optimization of Mountain Roads Using Vehicle Dynamic Simulation
+118. Public Transport Mode Choice Modeling Using Discrete Choice Analysis
+119. Evaluation of International Roughness Index (IRI) for Provincial Roads in East Java
+120. Effect of Geogrid Reinforcement on Bearing Capacity of Unpaved Roads
+121. Traffic Signal Optimization Using Adaptive Control Algorithm for Congested Corridors
+122. Pavement Life Cycle Cost Analysis Comparing Flexible and Rigid Pavement Alternatives
+123. Effect of Rainfall on Skid Resistance of Asphalt Pavement Surface
+124. Accessibility Analysis for Persons with Disabilities at Railway Stations in Indonesia
+125. Structural Evaluation of Existing Pavement Using Falling Weight Deflectometer (FWD)
+126. Effect of Coal Bottom Ash as Aggregate Replacement in Asphalt Concrete
+127. Parking Demand Analysis and Management Strategy for University Campus
+128. Design of Bus Rapid Transit (BRT) Infrastructure for Medium-Sized Indonesian Cities
+129. Effect of Fiber Reinforcement on Crack Resistance of Asphalt Overlay
+130. Speed-Flow Relationship Analysis for Indonesian Urban Arterial Roads
+131. Pavement Maintenance Prioritization Using Multi-Criteria Decision Analysis
+132. Effect of Temperature on Permanent Deformation of Asphalt Mixture in Tropical Climate
+133. Road Safety Audit of School Zones Using Proactive Safety Assessment Method
+134. Design of Complete Streets for Sustainable Urban Mobility in Indonesian Cities
+135. Effect of Gilsonite on Performance Grade of Modified Asphalt Binder
+136. Origin-Destination Survey and Trip Distribution Modeling for New Toll Road Planning
+137. Evaluation of Concrete Block Pavement Performance for Low-Volume Roads
+138. Effect of Aggregate Gradation on Permeability of Porous Asphalt Mixture
+139. Traffic Noise Prediction Model for Urban Roads Using Machine Learning
+140. Design of Park-and-Ride Facilities for Commuter Rail Integration
+141. Effect of Aging on Rheological Properties of Asphalt Binder in Tropical Conditions
+142. Freight Transportation Network Optimization for Logistics Hub Development
+143. Pavement Deflection Analysis Using Benkelman Beam for Road Maintenance Planning
+144. Effect of Volcanic Ash as Filler on Properties of Stone Mastic Asphalt (SMA)
+145. Bicycle Infrastructure Planning Using GIS-Based Suitability Analysis
+146. Evaluation of Roundabout Performance Using Gap Acceptance Theory
+147. Effect of Moisture Damage on Tensile Strength of Asphalt Mixture
+148. Airport Pavement Design for New IKN International Airport Using FAA Method
+149. Traffic Calming Measures Effectiveness in Residential Areas Using Before-After Study
+150. Effect of Nano-Clay on Aging Resistance of Asphalt Binder
+
+--- CATEGORY 4: WATER RESOURCES & HYDRAULICS (151-200) ---
+151. Flood Frequency Analysis of Citarum River Basin Using L-Moments Method
+152. Design of Stormwater Detention Pond for Urban Flood Control in Semarang
+153. Numerical Simulation of Dam Break Flow Using HEC-RAS 2D Modeling
+154. Effect of Climate Change on Design Rainfall Intensity in Indonesian Cities
+155. Optimization of Irrigation Canal Network Using Linear Programming
+156. Hydraulic Performance of Labyrinth Weir Spillway Using CFD Analysis
+157. Flood Risk Mapping of Bengawan Solo River Using HEC-RAS and GIS Integration
+158. Design of Rainwater Harvesting System for Water Supply in Dry Regions of NTT
+159. Sediment Transport Modeling in Brantas River Using HEC-RAS 1D
+160. Hydraulic Analysis of Box Culvert Design for Road Drainage Systems
+161. Water Balance Analysis for Reservoir Operation Optimization Using WEAP Model
+162. Effect of Urbanization on Runoff Coefficient in Jakarta Watershed
+163. Design of Micro-Hydro Power Plant for Rural Electrification in Papua
+164. Flood Early Warning System Using IoT-Based Water Level Monitoring
+165. Numerical Modeling of Groundwater Flow for Sustainable Aquifer Management
+166. Hydraulic Design of Fish Passage Structure for Indonesian River Dams
+167. Rainfall-Runoff Modeling Using HEC-HMS for Ungauged Catchments in Sulawesi
+168. Effect of Land Use Change on Peak Discharge in Upper Ciliwung Watershed
+169. Design of Coastal Flood Protection Using Combination of Hard and Soft Engineering
+170. Water Distribution Network Optimization Using EPANET and Genetic Algorithm
+171. Drought Index Analysis for Agricultural Water Management in East Java
+172. Hydraulic Performance of Stepped Spillway with Different Step Configurations
+173. Flood Damage Assessment and Risk-Based Design of Levee Systems
+174. Effect of Sedimentation on Reservoir Storage Capacity and Operational Life
+175. Design of Sustainable Urban Drainage System (SUDS) for New Urban Development
+176. Groundwater Recharge Estimation Using Water Table Fluctuation Method
+177. Hydraulic Modeling of River Confluence Flow Patterns Using FLOW-3D
+178. Optimization of Dam Spillway Gate Operation During Flood Events
+179. Effect of Deforestation on Baseflow Characteristics in Tropical Watersheds
+180. Design of Tidal Flood Mitigation Infrastructure for Coastal Cities in Java
+181. Water Quality Modeling of Reservoir Using CE-QUAL-W2 for Eutrophication Control
+182. Hydraulic Analysis of Bridge Scour Depth Using HEC-RAS and Empirical Methods
+183. Flood Inundation Mapping Using Coupled 1D-2D Hydrodynamic Modeling
+184. Effect of Green Infrastructure on Urban Stormwater Runoff Reduction
+185. Design of Pumping Station for Polder System in Low-Lying Coastal Areas
+186. Hydrological Modeling of Peat Swamp Watershed in Kalimantan
+187. Hydraulic Performance of Side Weir for Flow Diversion in Irrigation Canals
+188. Water Allocation Optimization for Multi-Purpose Reservoir Using Dynamic Programming
+189. Effect of Climate Variability on Irrigation Water Requirement in Rice Paddies
+190. Design of River Training Works for Bank Erosion Protection
+191. Flood Forecasting Using Artificial Neural Network and Rainfall Data
+192. Hydraulic Analysis of Energy Dissipator Design for High-Head Dams
+193. Integrated Water Resources Management Framework for Citarum River Basin
+194. Effect of Tidal Influence on Drainage System Performance in Coastal Cities
+195. Design of Check Dam Series for Sediment Control in Volcanic Watersheds
+196. Groundwater Vulnerability Assessment Using DRASTIC Method in Karst Areas
+197. Hydraulic Modeling of Mangrove Forest Effect on Wave Attenuation
+198. Water Supply Demand Projection for IKN Using System Dynamics Modeling
+199. Effect of Reservoir Sedimentation on Downstream River Morphology
+200. Design of Flood Retention Basin Network for Integrated Urban Flood Management
+
+--- CATEGORY 5: CONSTRUCTION MANAGEMENT (201-250) ---
+201. Critical Path Method (CPM) Scheduling Optimization for High-Rise Building Construction
+202. Building Information Modeling (BIM) Implementation Barriers in Indonesian Construction Industry
+203. Cost Overrun Analysis of Government Infrastructure Projects Using Earned Value Method
+204. Risk Assessment of Construction Projects Using Fuzzy Analytic Hierarchy Process
+205. Lean Construction Implementation for Waste Reduction in Residential Projects
+206. Productivity Analysis of Tower Crane Operations Using Time-Motion Study
+207. Supply Chain Management Optimization for Precast Concrete Manufacturing
+208. Safety Performance Evaluation of Construction Sites Using Behavior-Based Safety
+209. BIM-Based 4D Scheduling for Complex Infrastructure Projects
+210. Cost Estimation Model for Road Construction Using Artificial Neural Network
+211. Delay Analysis of Toll Road Projects Using Fishbone Diagram and Pareto Analysis
+212. Green Building Rating Assessment Using GREENSHIP for Office Buildings in Jakarta
+213. Resource Leveling Optimization Using Genetic Algorithm for Multi-Project Environment
+214. Quality Control Implementation of Ready-Mix Concrete Using Statistical Process Control
+215. Stakeholder Management Framework for Public-Private Partnership (PPP) Projects
+216. Construction Waste Minimization Strategy Using 3R Approach in Building Projects
+217. Earned Value Analysis for Performance Monitoring of Dam Construction Projects
+218. BIM-Based Quantity Take-Off Accuracy Comparison with Traditional Methods
+219. Occupational Health and Safety Risk Assessment in Bridge Construction
+220. Life Cycle Cost Analysis of Green Building vs. Conventional Building Design
+221. Project Delivery Method Selection Using Multi-Criteria Decision Making (MCDM)
+222. Prefabrication and Modular Construction Feasibility for Mass Housing in Indonesia
+223. Construction Equipment Fleet Management Optimization Using Simulation
+224. Dispute Resolution Analysis in Indonesian Construction Contracts (FIDIC-Based)
+225. BIM-Based Facility Management Framework for University Campus Buildings
+226. Labor Productivity Factors in Indonesian Construction Industry: Survey Analysis
+227. Value Engineering Application for Cost Optimization of Hospital Building Projects
+228. Construction Project Cash Flow Forecasting Using Machine Learning
+229. Safety Climate Assessment in Indonesian Construction Companies Using Survey Method
+230. Integrated Project Delivery (IPD) Implementation Framework for Indonesian Context
+231. Construction Schedule Compression Using Time-Cost Trade-Off Analysis
+232. Digital Twin Application for Construction Progress Monitoring
+233. Risk Allocation in Design-Build Contracts for Indonesian Infrastructure Projects
+234. Sustainable Construction Material Selection Using Life Cycle Assessment
+235. BIM-GIS Integration for Infrastructure Asset Management
+236. Construction Claim Analysis and Prevention Strategy for Government Projects
+237. Workforce Planning Optimization for Large-Scale Infrastructure Programs
+238. Quality Assurance Framework for Concrete Work in High-Rise Construction
+239. Construction Technology Adoption Readiness in Indonesian SME Contractors
+240. Project Governance Framework for Mega Infrastructure Projects (IKN Development)
+241. Cost-Benefit Analysis of BIM Implementation for Medium-Scale Contractors
+242. Construction Site Layout Optimization Using Genetic Algorithm
+243. Performance Measurement of Construction Companies Using Balanced Scorecard
+244. Modular Formwork System Productivity Analysis for Repetitive Floor Construction
+245. Contract Administration Best Practices for Indonesian Government Projects
+246. Construction Logistics Planning for Urban High-Rise Building Projects
+247. Knowledge Management System for Construction Lessons Learned Database
+248. Circular Economy Implementation in Construction and Demolition Waste Management
+249. Construction Project Portfolio Management Using Enterprise Resource Planning
+250. Post-Occupancy Evaluation of Green-Certified Buildings in Indonesian Cities
+
+--- CATEGORY 6: EARTHQUAKE ENGINEERING & SEISMOLOGY (251-300) ---
+251. Seismic Microzonation of Padang City Using HVSR and SPT Data
+252. Performance-Based Seismic Assessment of Existing RC Buildings in Yogyakarta
+253. Effect of Soil-Structure Interaction on Seismic Response of Mid-Rise Buildings
+254. Fragility Curve Development for Indonesian Confined Masonry Buildings
+255. Seismic Isolation Design for Hospital Buildings in High Seismicity Zones
+256. Nonlinear Time-History Analysis Using Indonesian Ground Motion Records
+257. Seismic Vulnerability of Non-Engineered Buildings in Rural Java
+258. Tuned Mass Damper Design for Wind and Earthquake Vibration Control
+259. Liquefaction-Induced Lateral Spreading Assessment for Bridge Foundations
+260. Incremental Dynamic Analysis (IDA) of Steel Moment-Resisting Frames
+261. Seismic Retrofit of Unreinforced Masonry Buildings Using FRP Composites
+262. Site-Specific Seismic Hazard Analysis for Critical Infrastructure in Sulawesi
+263. Effect of Vertical Earthquake Component on Response of Irregular Buildings
+264. Seismic Performance of Precast Concrete Parking Structures with Dry Connections
+265. Earthquake Early Warning System Design for Indonesian Railway Infrastructure
+266. Pushover Analysis of Dual System (Frame-Wall) Buildings per SNI 1726:2019
+267. Seismic Behavior of Reinforced Concrete Buildings with Soft Story Irregularity
+268. Ground Motion Selection and Scaling for Time-History Analysis in Indonesia
+269. Seismic Design of Liquid Storage Tanks Using API 650 and SNI Standards
+270. Earthquake Damage Assessment Using Remote Sensing and Machine Learning
+271. Seismic Performance of Confined Masonry Walls with Different Reinforcement Ratios
+272. Probabilistic Seismic Hazard Assessment for New Capital City (IKN) Site
+273. Effect of Near-Fault Ground Motions on Tall Building Response
+274. Seismic Resilience Framework for Indonesian Hospital Buildings
+275. Base Isolation System Comparison: Lead Rubber Bearing vs. Friction Pendulum
+276. Seismic Analysis of Arch Bridges Under Multi-Support Excitation
+277. Earthquake-Induced Slope Failure Risk Assessment Using Newmark Analysis
+278. Seismic Performance of Steel Concentrically Braced Frames with BRB
+279. Tsunami Fragility Assessment of Coastal Buildings in Aceh
+280. Seismic Design of Underground Structures Using Soil-Structure Interaction
+281. Effect of Masonry Infill on Seismic Behavior of RC Frame Buildings
+282. Seismic Hazard Disaggregation for Design Earthquake Selection in Java
+283. Performance of Viscous Fluid Dampers in Seismic Retrofit of Bridges
+284. Seismic Vulnerability Assessment of Water Supply Pipeline Networks
+285. Effect of Foundation Flexibility on Building Seismic Response
+286. Seismic Design of Retaining Walls Using Mononobe-Okabe Method
+287. Earthquake Scenario Simulation for Disaster Preparedness in Bandung
+288. Seismic Performance of Hybrid Moment-Resisting Frames with Replaceable Fuses
+289. Site Classification and Amplification Factors for Indonesian Building Code Update
+290. Seismic Analysis of Cable-Stayed Bridges Under Long-Period Ground Motions
+291. Earthquake-Resistant Design of Traditional Javanese Wooden Houses (Joglo)
+292. Seismic Fragility of Industrial Steel Rack Structures
+293. Ground Motion Prediction Equation Development for Indonesian Subduction Earthquakes
+294. Seismic Performance of RC Buildings with Irregularity in Plan and Elevation
+295. Resilience-Based Seismic Design of Essential Facilities in Indonesia
+296. Effect of Aftershock Sequences on Damaged Building Performance
+297. Seismic Isolation of Museum Buildings for Cultural Heritage Protection
+298. Earthquake Loss Estimation for Insurance Purposes in Indonesian Cities
+299. Seismic Design of Elevated Water Tanks Using Response Spectrum Method
+300. Performance Assessment of Seismically Isolated Bridges Under Extreme Earthquakes
+
+--- CATEGORY 7: CONCRETE & MATERIALS TECHNOLOGY (301-350) ---
+301. Effect of Fly Ash and Silica Fume on Compressive Strength of High-Performance Concrete
+302. Development of Geopolymer Concrete Using Indonesian Volcanic Ash and Alkaline Activator
+303. Self-Healing Concrete with Bacteria (Bacillus subtilis) for Crack Repair
+304. Effect of Recycled Concrete Aggregate on Mechanical Properties of New Concrete
+305. Ultra-High Performance Concrete (UHPC) with Local Steel Fiber for Bridge Deck
+306. Durability of Concrete with Palm Oil Fuel Ash (POFA) in Marine Environment
+307. Effect of Nano-TiO₂ on Photocatalytic and Mechanical Properties of Concrete
+308. Development of Lightweight Concrete Using Expanded Polystyrene (EPS) Beads
+309. Alkali-Activated Slag Concrete as Sustainable Alternative to Portland Cement
+310. Effect of Coconut Fiber on Shrinkage Cracking of Concrete Pavement
+311. High-Volume Fly Ash Concrete for Mass Concrete Applications in Dam Construction
+312. Effect of Elevated Temperature on Residual Strength of Geopolymer Concrete
+313. Development of Pervious Concrete for Sustainable Urban Pavement Applications
+314. Effect of Rice Husk Ash on Sulfate Resistance of Concrete in Coastal Structures
+315. Fiber-Reinforced Polymer (FRP) Rebar as Alternative to Steel in Corrosive Environments
+316. Effect of Curing Methods on Early-Age Strength Development of Concrete in Tropical Climate
+317. Development of Foamed Concrete for Non-Structural Wall Applications
+318. Effect of Metakaolin on Chloride Penetration Resistance of Marine Concrete
+319. 3D Printable Concrete Mix Design Optimization for Construction Applications
+320. Effect of Waste Glass Powder as Partial Cement Replacement on Concrete Properties
+321. Development of Engineered Cementitious Composite (ECC) with Local PVA Fiber
+322. Effect of Seawater Mixing on Long-Term Durability of Concrete Structures
+323. Rubberized Concrete Using Waste Tire Crumb for Impact-Resistant Applications
+324. Effect of Supplementary Cementitious Materials on Carbon Footprint of Concrete
+325. Development of Reactive Powder Concrete for Precast Structural Elements
+326. Effect of Basalt Fiber on Flexural Toughness of Concrete Beams
+327. Concrete Mix Design Optimization Using Response Surface Methodology
+328. Effect of Corrosion Inhibitor Admixture on Service Life of RC Structures
+329. Development of Bacterial Concrete for Self-Sealing of Water Retaining Structures
+330. Effect of Aggregate Size on Fracture Energy of High-Strength Concrete
+331. Geopolymer Mortar with Volcanic Tuff for Masonry Construction
+332. Effect of Steel Fiber Volume Fraction on Punching Shear of Flat Slabs
+333. Development of Phase Change Material (PCM) Concrete for Thermal Energy Storage
+334. Effect of Plastic Waste Fiber on Mechanical Properties of Concrete
+335. Accelerated Carbonation Curing of Concrete Blocks for CO₂ Sequestration
+336. Effect of Limestone Powder on Workability and Strength of Self-Compacting Concrete
+337. Development of Magnesium Phosphate Cement for Rapid Repair Applications
+338. Effect of Hybrid Fiber (Steel + Polypropylene) on Concrete Impact Resistance
+339. Concrete Durability Assessment Using Rapid Chloride Permeability Test (RCPT)
+340. Effect of Calcined Clay (LC3) on Sustainability of Concrete Production
+341. Development of Underwater Concrete (Anti-Washout) for Marine Construction
+342. Effect of Nano-Silica on Interface Transition Zone of Recycled Aggregate Concrete
+343. Shotcrete Mix Design for Tunnel Lining in Volcanic Rock Formation
+344. Effect of Pozzolanic Reactivity of Indonesian Natural Pozzolans on Concrete Strength
+345. Development of Carbon Fiber Reinforced Concrete for Electromagnetic Shielding
+346. Effect of Sustained Loading on Creep Behavior of High-Strength Concrete
+347. Concrete Repair Material Selection Using Multi-Criteria Decision Analysis
+348. Effect of Waste Ceramic Tile as Coarse Aggregate on Concrete Properties
+349. Development of Alkali-Activated Concrete Using Combined Fly Ash and GGBS
+350. Effect of Fiber Cocktail on Post-Cracking Behavior of Structural Concrete
+
+--- CATEGORY 8: BRIDGE & INFRASTRUCTURE ENGINEERING (351-400) ---
+351. Structural Assessment of Aging Concrete Bridges Using Non-Destructive Testing
+352. Design of Cable-Stayed Bridge for River Crossing in Kalimantan Using SAP2000
+353. Fatigue Life Assessment of Steel Bridge Connections Under Traffic Loading
+354. BIM-Based Bridge Inspection and Maintenance Management System
+355. Seismic Performance of Integral Abutment Bridges in Indonesian Conditions
+356. Design of Precast Segmental Box Girder Bridge for Toll Road Application
+357. Scour Depth Prediction at Bridge Piers Using Machine Learning and HEC-RAS
+358. Structural Health Monitoring of Suspension Bridge Using Accelerometer Network
+359. Load Rating of Existing Bridges for Heavy Vehicle Permit Assessment
+360. Design of Pedestrian Bridge with Aesthetic Consideration Using Parametric Modeling
+361. Corrosion Assessment of Prestressed Concrete Bridge Tendons in Coastal Environment
+362. Seismic Isolation Design for Highway Bridges Using Lead Rubber Bearings
+363. Drone-Based Visual Inspection Protocol for Bridge Condition Assessment
+364. Design of Composite Steel-Concrete Bridge Deck for Railway Application
+365. Effect of Temperature Gradient on Stress Distribution in Box Girder Bridges
+366. Structural Analysis of Arch Bridge Under Moving Load Using Influence Line Method
+367. Bridge Deck Waterproofing System Performance Evaluation in Tropical Climate
+368. Design of Geosynthetic Reinforced Soil (GRS) Bridge Abutment
+369. Remaining Service Life Prediction of Concrete Bridges Using Deterioration Models
+370. Seismic Vulnerability Assessment of Multi-Span Simply Supported Bridges
+371. Design of Balanced Cantilever Bridge for Deep Valley Crossing in Papua
+372. Effect of Overloaded Trucks on Bridge Structural Performance and Fatigue
+373. Fiber Optic Sensing for Real-Time Strain Monitoring of Bridge Structures
+374. Design of Movable Bridge (Bascule Type) for Waterway Navigation
+375. Structural Rehabilitation of Fire-Damaged Concrete Bridge Girders
+376. Wind Load Analysis of Long-Span Suspension Bridge Using Flutter Theory
+377. Design of Accelerated Bridge Construction (ABC) Using Precast Elements
+378. Condition Assessment of Bridge Expansion Joints and Bearing Replacement
+379. Structural Analysis of Curved Steel Box Girder Bridge Under Combined Loading
+380. Design of Bridge Foundation on Soft Soil Using Pile-Raft System
+381. Life Cycle Cost Analysis of Bridge Deck Alternatives (Concrete vs. Steel)
+382. Seismic Performance of Rocking Bridge Piers with Self-Centering Capability
+383. Design of Underwater Tunnel Crossing for Strait Connection in Indonesia
+384. Bridge Load Testing Protocol and Comparison with Analytical Predictions
+385. Effect of Alkali-Silica Reaction on Concrete Bridge Pier Deterioration
+386. Design of Railway Bridge for High-Speed Train Loading (Jakarta-Bandung HSR)
+387. Structural Monitoring of Post-Tensioned Bridge During Construction Stages
+388. Design of Floating Bridge for Island Connection in Eastern Indonesia
+389. Assessment of Bridge Vulnerability to Ship Collision in Navigable Waterways
+390. Design of Wildlife Crossing Structure (Ecoduct) for Highway Projects
+391. Structural Analysis of Heritage Steel Truss Bridge for Preservation
+392. Design of Extradosed Bridge as Alternative to Cable-Stayed for Medium Spans
+393. Bridge Management System Development Using GIS and Condition Rating
+394. Effect of Concrete Creep and Shrinkage on Long-Term Bridge Deflection
+395. Design of Temporary Bridge (Bailey Bridge) for Emergency Disaster Response
+396. Structural Performance of GFRP-Reinforced Concrete Bridge Deck
+397. Design of Bridge Approach Slab to Mitigate Bump at Bridge-Embankment Transition
+398. Seismic Fragility Assessment of Retrofitted Bridges Using Fiber-Wrapped Columns
+399. Design of Prefabricated Ultra-High Performance Concrete (UHPC) Bridge Elements
+400. Infrastructure Resilience Assessment Framework for Bridge Networks Under Multi-Hazard
+
+--- CATEGORY 9: COASTAL & PORT ENGINEERING (401-450) ---
+401. Wave Overtopping Analysis of Seawall Design Using SWAN and Neural Network
+402. Design of Rubble Mound Breakwater for Fishing Port in Eastern Indonesia
+403. Coastal Erosion Assessment and Beach Nourishment Design for Bali Tourism Coast
+404. Numerical Modeling of Tsunami Wave Propagation Using COMCOT for Coastal Planning
+405. Design of Container Terminal Quay Wall Using Sheet Pile and Anchor System
+406. Sediment Transport Modeling for Port Channel Maintenance Dredging Planning
+407. Effect of Mangrove Restoration on Wave Attenuation in North Java Coast
+408. Design of Offshore Wind Turbine Foundation for Indonesian Shallow Waters
+409. Coastal Flood Risk Assessment Under Sea Level Rise Scenarios for Jakarta
+410. Design of Floating Dock Structure for Small Island Port Development
+411. Wave Climate Analysis for Marine Structure Design Using ERA5 Reanalysis Data
+412. Design of Revetment Structure for Riverbank Protection in Tidal Areas
+413. Port Capacity Analysis and Expansion Planning Using Discrete Event Simulation
+414. Effect of Coral Reef Degradation on Wave Energy Reaching Shoreline
+415. Design of Caisson Breakwater for Deep Water Port in Sulawesi
+416. Coastal Vulnerability Index Mapping for Climate Change Adaptation Planning
+417. Design of Jetty Structure for River Mouth Sedimentation Control
+418. Mooring Analysis of LNG Terminal Under Extreme Wave and Current Conditions
+419. Shoreline Change Prediction Using One-Line Model (GENESIS) for Coastal Management
+420. Design of Tidal Barrier for Flood Protection in Semarang Coastal Area
+421. Wave Energy Converter Feasibility Study for Indonesian Southern Coast
+422. Design of Port Pavement for Heavy Container Handling Equipment
+423. Coastal Groundwater Salinization Assessment Due to Sea Level Rise
+424. Design of Offshore Platform Foundation Using Suction Caisson in Soft Clay
+425. Beach Morphodynamics Modeling Under Monsoon Wave Climate Variation
+426. Design of Coastal Protection Using Geotextile Tube (Geotube) Technology
+427. Port Logistics Optimization for Hub-and-Spoke System in Indonesian Archipelago
+428. Effect of Land Subsidence on Coastal Flood Frequency in North Java
+429. Design of Marina Structure for Tourism Development in Labuan Bajo
+430. Tsunami Evacuation Route Planning Using GIS-Based Network Analysis
+431. Design of Pile-Supported Wharf Structure for Bulk Cargo Terminal
+432. Coastal Cliff Erosion Assessment and Stabilization Design for Limestone Coast
+433. Wave Diffraction Analysis for Harbor Layout Optimization Using MIKE21
+434. Design of Submerged Breakwater for Coastal Protection with Minimal Visual Impact
+435. Port Environmental Impact Assessment for Dredging and Disposal Operations
+436. Design of Ro-Ro Ramp Structure for Inter-Island Ferry Terminal
+437. Tidal Current Energy Assessment for Power Generation in Indonesian Straits
+438. Design of Coastal Road Protection Against Wave Attack and Overtopping
+439. Siltation Analysis and Maintenance Strategy for Port Approach Channel
+440. Design of Artificial Reef Structure for Coastal Protection and Marine Habitat
+441. Storm Surge Modeling for Coastal Infrastructure Design in Cyclone-Prone Areas
+442. Design of Gravity-Based Structure for Offshore Oil Platform Decommissioning
+443. Coastal Setback Line Determination Using Probabilistic Shoreline Recession Model
+444. Design of Floating Breakwater for Sheltered Water Marina Protection
+445. Port Resilience Assessment Framework for Climate Change and Natural Disasters
+446. Design of Underwater Pipeline Crossing for Subsea Cable Protection
+447. Coastal Aquaculture Pond Design with Integrated Flood Protection System
+448. Design of Navigation Channel for Large Vessel Access to Inland Port
+449. Effect of Reclamation on Hydrodynamic Changes in Surrounding Coastal Waters
+450. Design of Hybrid Coastal Protection Combining Mangrove and Hard Structure
+
+--- CATEGORY 10: SMART & SUSTAINABLE INFRASTRUCTURE (451-500) ---
+451. IoT-Based Structural Health Monitoring System for Bridge Infrastructure
+452. Digital Twin Development for Smart Building Energy Management
+453. Machine Learning for Predictive Maintenance of Road Infrastructure
+454. Green Infrastructure Planning for Urban Heat Island Mitigation in Jakarta
+455. Smart Traffic Management System Using Computer Vision and Edge Computing
+456. Life Cycle Assessment of Sustainable Pavement Materials in Indonesian Context
+457. Renewable Energy Integration in Smart Building Design Using BIM
+458. Automated Construction Progress Monitoring Using Drone and AI
+459. Smart Water Distribution Network with Leak Detection Using IoT Sensors
+460. Carbon Footprint Assessment of Construction Materials for Green Building Certification
+461. Digital Twin for Real-Time Monitoring of Dam Safety Parameters
+462. Smart Parking System Design Using IoT and Machine Learning Prediction
+463. Sustainable Urban Drainage Design Using Green-Blue Infrastructure Approach
+464. Blockchain-Based Construction Supply Chain Transparency Framework
+465. Energy-Efficient Building Envelope Design for Tropical Climate Using Simulation
+466. Smart Street Lighting System with Adaptive Control for Energy Savings
+467. Circular Economy Framework for Construction and Demolition Waste in Indonesia
+468. Autonomous Vehicle Infrastructure Requirements for Indonesian Highway Design
+469. Net-Zero Energy Building Design Strategy for Commercial Buildings in Jakarta
+470. Smart Flood Warning System Using IoT Sensors and Machine Learning
+471. Sustainable Concrete Production Using Industrial Waste and Carbon Capture
+472. Digital Construction Platform for Remote Project Management
+473. Green Roof Performance Evaluation for Stormwater Management and Thermal Comfort
+474. Smart Grid Integration for Electric Vehicle Charging Infrastructure Planning
+475. Resilient Infrastructure Design Framework for Climate Change Adaptation
+476. Augmented Reality Application for Construction Quality Inspection
+477. Sustainable Transportation Infrastructure for Transit-Oriented Development
+478. IoT-Based Air Quality Monitoring Network for Construction Site Emissions
+479. Parametric Design Optimization for Material-Efficient Structural Systems
+480. Smart Waste Collection System Using Route Optimization and Fill-Level Sensors
+481. Photovoltaic-Integrated Building Facade Design for Energy Generation
+482. Machine Learning-Based Concrete Quality Prediction from Mix Design Parameters
+483. Sustainable Port Design with Renewable Energy and Green Infrastructure
+484. Smart Construction Safety Monitoring Using Wearable IoT Devices
+485. Nature-Based Solutions for Urban Flood Resilience in Indonesian Cities
+486. Digital Twin for Underground Utility Infrastructure Management
+487. Sustainable Airport Design with Rainwater Harvesting and Solar Energy
+488. Smart Bridge Weigh-in-Motion System for Overload Detection
+489. Green Highway Design with Ecological Corridor and Renewable Energy
+490. AI-Powered Structural Inspection Using Computer Vision and Deep Learning
+491. Sustainable Mass Housing Design Using Prefabrication and Local Materials
+492. Smart Irrigation System for Urban Green Infrastructure Maintenance
+493. Life Cycle Carbon Assessment of Infrastructure Projects for Net-Zero Target
+494. Robotic Construction Technology Feasibility for Indonesian Building Industry
+495. Sustainable Coastal Infrastructure Design with Nature-Based Solutions
+496. Smart City Infrastructure Planning Framework for IKN (Nusantara)
+497. Decarbonization Strategy for Indonesian Cement and Concrete Industry
+498. Digital Twin-Based Predictive Maintenance for Toll Road Infrastructure
+499. Sustainable Water Infrastructure Design for Climate-Resilient Communities
+500. Integrated Smart Infrastructure Management Platform for Indonesian Cities

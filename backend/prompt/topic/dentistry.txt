@@ -5,6 +5,64 @@ FIELD: Medicine / Dentistry
 DEFAULT CITATION STYLE: Vancouver or APA
 SUBDISCIPLINE: Kedokteran Gigi, Konservasi Gigi, Orthodonti, Periodontologi, Bedah Mulut, Kedokteran Gigi Komunitas
 
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals (Journal of Dental Research, Dental Materials, Clinical Oral Investigations)
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title
+   - Ensure novelty by combining: new material + local population, new technique + comparative design, digital technology + clinical outcome
+   - Indonesian context: Indonesian dental health (Riskesdas data), traditional remedies (propolis Trigona, gambir, sirih), local dental materials research
+
+3. LATEST METHODOLOGY (2022-2025):
+   - CAD/CAM dentistry (CEREC, inLab)
+   - 3D printing in dentistry (surgical guides, provisional restorations, aligners)
+   - CBCT imaging (implant planning, endodontic diagnosis, airway analysis)
+   - Digital smile design (DSD protocol)
+   - Laser dentistry (Er:YAG, diode laser, photobiomodulation)
+   - Regenerative endodontics (revascularization, stem cell therapy)
+   - Dental implant planning with guided surgery (fully digital workflow)
+   - AI for caries detection (deep learning, CNN on radiographs)
+   - Biomaterials: bioactive glass, MTA (mineral trioxide aggregate), bioceramic sealers
+   - Micro-CT analysis for root canal morphology
+   - Confocal laser scanning microscopy for adhesive interface
+   - Digital impression (intraoral scanner) vs conventional
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics: bond strength (MPa), microhardness (VHN/KHN), fracture toughness, pocket depth (mm), DMFT scores, survival rates (%)
+   - Statistical measures: mean +/- SD, 95% CI, p-values, effect sizes
+   - All numbers realistic and internally consistent
+   - Reference ranges: SBS enamel 20-35 MPa, SBS dentin 15-25 MPa, flexural strength zirconia 900-1200 MPa, pocket depth healthy <3mm
+
+5. MATHEMATICAL FORMULAS:
+   - Bond strength: sigma = F/A (MPa) where F = force at failure (N), A = bonded area (mm^2)
+   - Microhardness Vickers: VHN = 1854.4 * F / d^2 (F in gf, d in um)
+   - Knoop hardness: KHN = 14229 * F / l^2
+   - Fracture toughness: KIC = Y * sigma * sqrt(pi * a)
+   - Survival analysis: S(t) = product of [(n_i - d_i) / n_i] (Kaplan-Meier)
+   - DMFT index: DMFT = D + M + F (per individual)
+   - Plaque index (Silness & Loe): PI = sum of scores / number of surfaces
+   - Gingival index: GI = sum of scores / number of surfaces
+   - Weibull modulus: P_f = 1 - exp[-(sigma/sigma_0)^m]
+   - Stress in fixed prosthesis: sigma = M*y/I (bending stress)
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian context: reference Riskesdas 2018 data, Indonesian dental journal publications
+   - Gap identification tied to methodology or population not yet studied
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words, structured: Background, Objective, Methods, Results, Conclusion), Keywords (5-7), Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
 ABSTRACT CHARACTERISTICS:
   150–250 words (structured for clinical studies). Reports: patient population (n, age, sex,
   diagnosis), dental procedure or material studied, study design (RCT, in vitro, cohort),
@@ -79,3 +137,527 @@ METHODOLOGY KEYWORDS:
   DMFT examination (WHO criteria), pocket depth/CAL measurement (Florida probe),
   shear bond strength testing (ISO 11405), universal testing machine, SEM analysis,
   RCT design, Kruskal-Wallis, Mann-Whitney, Bonferroni correction, OHRQoL (OHIP-14)
+
+================================================================================
+RESEARCH TOPIC BANK (500 TOPICS)
+================================================================================
+
+--- RESTORATIVE & OPERATIVE DENTISTRY (001-050) ---
+001. Effect of universal adhesive application mode on shear bond strength to eroded enamel in Indonesian patients
+002. Comparative evaluation of bulk-fill composite vs incremental technique on microleakage in Class II restorations
+003. Influence of bioactive glass-containing composite on remineralization of artificial caries lesions
+004. Bond strength of self-adhesive flowable composite to dentin pretreated with different desensitizing agents
+005. Effect of Er:YAG laser cavity preparation on bond strength of nanohybrid composite resin
+006. Microhardness evaluation of novel calcium silicate-based liner under composite restoration
+007. Influence of thermocycling on color stability of bulk-fill composites with different translucencies
+008. Fracture resistance of endodontically treated premolars restored with short fiber-reinforced composite
+009. Effect of chlorhexidine-containing adhesive on long-term bond durability to caries-affected dentin
+010. Comparative analysis of polymerization shrinkage stress in bulk-fill vs conventional composites using micro-CT
+011. Influence of cavity disinfection with propolis extract on bond strength of glass ionomer cement
+012. Effect of selective enamel etching on clinical performance of universal adhesive in NCCLs: 2-year RCT
+013. Evaluation of antibacterial properties of zinc oxide nanoparticle-modified composite resin against S. mutans
+014. Bond strength of bioactive restorative material (Activa) to primary teeth dentin
+015. Effect of different light-curing protocols on degree of conversion of bulk-fill composites
+016. Microleakage assessment of Class V restorations using different adhesive strategies in sclerotic dentin
+017. Influence of saliva contamination on bond strength of self-etch adhesive systems
+018. Comparative evaluation of nano-filled vs micro-hybrid composite in posterior stress-bearing restorations: 3-year clinical trial
+019. Effect of matrix metalloproteinase inhibitors on hybrid layer degradation: micro-Raman spectroscopy analysis
+020. Evaluation of remineralizing potential of CPP-ACP modified GIC in high-caries-risk Indonesian children
+021. Influence of dentin moisture on bond strength of two-step self-etch adhesive systems
+022. Effect of aging on flexural strength and fracture toughness of CAD/CAM composite blocks
+023. Comparative study of direct vs indirect composite inlay restorations: 5-year survival analysis
+024. Bond strength evaluation of resin-modified GIC to caries-affected dentin in primary molars
+025. Effect of natural cross-linkers (proanthocyanidin from grape seed) on dentin collagen stability and bond strength
+026. Microhardness and fluoride release of giomer restorative material in artificial saliva
+027. Influence of cavity design on fracture resistance of MOD composite restorations in premolars
+028. Effect of different surface treatments on repair bond strength of aged nanohybrid composite
+029. Evaluation of antibacterial and mechanical properties of quaternary ammonium-modified adhesive
+030. Clinical performance of bioactive glass-modified composite in Class I restorations: 18-month evaluation
+031. Effect of gambir (Uncaria gambir) extract as cavity disinfectant on bond strength of composite resin
+032. Comparative evaluation of etch-and-rinse vs self-etch adhesive on fluorosed enamel
+033. Influence of resin coating technique on bond strength of indirect composite restorations
+034. Effect of different polishing systems on surface roughness and bacterial adhesion to nanofilled composite
+035. Evaluation of marginal adaptation of composite restorations placed with different insertion techniques using micro-CT
+036. Bond strength of universal adhesive to enamel after different bleaching protocols
+037. Effect of silver diamine fluoride pretreatment on bond strength of GIC to carious dentin
+038. Comparative analysis of wear resistance of contemporary composite resins using chewing simulator
+039. Influence of immediate dentin sealing on bond strength of ceramic onlay restorations
+040. Effect of chitosan-modified adhesive on antibacterial activity and bond strength to dentin
+041. Evaluation of color match accuracy of bulk-fill composites using spectrophotometry
+042. Bond strength of composite to dentin contaminated with hemostatic agents
+043. Effect of preheating on viscosity and marginal adaptation of conventional composite in Class II cavities
+044. Comparative evaluation of caries excavation methods: chemomechanical vs Er:YAG laser vs bur
+045. Influence of artificial aging on optical properties of esthetic restorative materials
+046. Effect of biofilm formation on surface degradation of composite resin materials
+047. Evaluation of short-fiber composite as base material under direct composite restoration
+048. Bond strength of adhesive systems to dentin treated with different hemostatic agents
+049. Effect of sonic activation on adaptation of bulk-fill composite in Class II restorations
+050. Comparative study of direct composite vs ceramic veneer: patient satisfaction and clinical longevity
+
+--- PROSTHODONTICS & IMPLANTOLOGY (051-100) ---
+051. Fracture resistance of monolithic zirconia crowns with different occlusal thicknesses on implant abutments
+052. Marginal fit accuracy of 3D-printed vs milled provisional crowns: in vitro comparison
+053. Effect of surface treatment protocols on bond strength of resin cement to zirconia
+054. Survival analysis of implant-supported overdentures with locator attachments: 5-year retrospective study
+055. Comparative evaluation of digital vs conventional impression for implant-supported fixed prosthesis
+056. Effect of different abutment materials on peri-implant soft tissue color in esthetic zone
+057. Fracture resistance of endocrown restorations fabricated from different CAD/CAM materials
+058. Influence of implant-abutment connection type on crestal bone loss: systematic review and meta-analysis
+059. Accuracy of fully guided implant surgery using CBCT-derived surgical guides: clinical study
+060. Effect of aging on flexural strength of multilayered zirconia for implant-supported restorations
+061. Comparative evaluation of PEEK vs titanium framework for implant-supported overdenture
+062. Bond strength of self-adhesive resin cement to lithium disilicate after different surface treatments
+063. Effect of platform switching on marginal bone level around dental implants: 3-year follow-up
+064. Fracture resistance of 3D-printed denture base resin compared to conventional heat-cured acrylic
+065. Influence of cement space settings on marginal fit of CAD/CAM zirconia crowns
+066. Survival rate of short implants (6mm) in posterior mandible: prospective clinical study
+067. Effect of different implant macro-designs on primary stability in low-density bone
+068. Comparative evaluation of digital smile design outcomes: patient perception vs clinician assessment
+069. Fracture resistance of fiber post-core systems with different ferrule heights
+070. Effect of thermocycling on retention of CAD/CAM milled vs 3D-printed RPD clasps
+071. Accuracy of intraoral scanner for full-arch implant impression: trueness and precision analysis
+072. Influence of loading protocol on implant success rate in Indonesian diabetic patients
+073. Comparative evaluation of zirconia vs titanium implant abutments on soft tissue response
+074. Effect of different denture cleansers on surface properties of CAD/CAM denture base materials
+075. Fracture resistance of translucent zirconia vs lithium disilicate for anterior single crowns
+076. Stress distribution analysis of All-on-4 concept with tilted implants using finite element method
+077. Effect of immediate vs delayed loading on implant stability quotient (ISQ) values
+078. Comparative evaluation of conventional vs digital workflow for complete denture fabrication
+079. Bond strength of 3D-printed resin teeth to denture base material
+080. Effect of implant surface modification (SLA vs SLActive) on osseointegration in type 2 diabetes
+081. Fracture resistance of minimally invasive occlusal veneers: lithium disilicate vs hybrid ceramic
+082. Influence of connector design on fracture resistance of zirconia fixed partial dentures
+083. Accuracy of desktop 3D scanners for dental model digitization: comparative study
+084. Effect of different cementation protocols on retention of lithium disilicate crowns
+085. Survival analysis of resin-bonded fixed partial dentures in anterior region: 10-year retrospective
+086. Comparative evaluation of implant placement accuracy: static vs dynamic navigation
+087. Effect of cantilever length on stress distribution in implant-supported fixed prosthesis: FEA study
+088. Fracture resistance of CAD/CAM composite vs ceramic endocrowns on premolars
+089. Influence of abutment angulation on screw loosening in implant-supported prosthesis
+090. Effect of different polishing protocols on surface roughness of CAD/CAM ceramics
+091. Comparative evaluation of patient satisfaction: implant overdenture vs conventional complete denture
+092. Bond strength of resin cement to 3D-printed cobalt-chromium alloy framework
+093. Effect of ridge augmentation with xenograft on implant survival in atrophic mandible
+094. Fracture resistance of monolithic zirconia vs porcelain-fused-to-zirconia posterior crowns
+095. Influence of occlusal scheme on masticatory efficiency in implant-supported overdenture patients
+096. Effect of different try-in pastes on final shade of lithium disilicate restorations
+097. Comparative evaluation of CBCT vs periapical radiograph for implant bone assessment
+098. Stress distribution in Kennedy Class I RPD with different major connector designs: FEA
+099. Effect of surface treatment on shear bond strength of repair composite to CAD/CAM ceramics
+100. Survival analysis of immediately loaded implants in fresh extraction sockets: Indonesian cohort
+
+--- ORTHODONTICS & DENTOFACIAL ORTHOPEDICS (101-150) ---
+101. Comparative evaluation of clear aligner vs fixed appliance for mild crowding: treatment efficiency and patient satisfaction
+102. Effect of self-ligating brackets on rate of orthodontic tooth movement: systematic review
+103. Bond strength of orthodontic brackets to fluorosed enamel using different adhesive systems
+104. Cephalometric analysis of skeletal Class II malocclusion in Javanese population
+105. Effect of low-level laser therapy on orthodontic pain reduction: randomized clinical trial
+106. Comparative evaluation of mini-screw vs Nance palatal arch for anchorage reinforcement
+107. Accuracy of 3D-printed vs thermoformed clear aligners: in vitro comparison
+108. Effect of bracket base design on shear bond strength and adhesive remnant index
+109. Prevalence and severity of malocclusion among Indonesian adolescents using DAI index
+110. Comparative evaluation of nickel-titanium vs copper-nickel-titanium archwires on alignment efficiency
+111. Effect of photobiomodulation on accelerating orthodontic tooth movement: split-mouth RCT
+112. Bond failure rate of ceramic vs metal brackets in anterior teeth: 12-month clinical study
+113. Cephalometric evaluation of soft tissue changes after orthognathic surgery in Class III patients
+114. Effect of different etchant concentrations on bond strength of orthodontic brackets to primary teeth
+115. Comparative evaluation of Herbst appliance vs Twin Block for mandibular advancement
+116. Influence of bracket slot dimension on torque expression: finite element analysis
+117. Effect of remineralization agents on white spot lesions during fixed orthodontic treatment
+118. Accuracy of AI-based cephalometric landmark detection compared to manual tracing
+119. Comparative evaluation of palatal expansion methods: MARPE vs conventional RPE in adults
+120. Effect of orthodontic force magnitude on root resorption: CBCT volumetric analysis
+121. Bond strength of orthodontic brackets after enamel deproteinization with sodium hypochlorite
+122. Prevalence of temporomandibular disorders in orthodontic patients: cross-sectional study
+123. Effect of clear aligner attachment design on predicted vs achieved tooth movement
+124. Comparative evaluation of direct vs indirect bonding technique: accuracy and chair time
+125. Influence of mandibular incisor inclination on lower lip position in Indonesian patients
+126. Effect of micro-osteoperforation on rate of canine retraction: randomized clinical trial
+127. Comparative evaluation of lingual vs labial fixed appliance: treatment outcome and patient comfort
+128. Bond strength of orthodontic brackets to composite restorations using different surface treatments
+129. Effect of corticotomy-assisted orthodontics on treatment duration for bimaxillary protrusion
+130. Evaluation of airway changes after mandibular setback surgery using CBCT
+131. Comparative evaluation of TAD-supported vs conventional molar distalization
+132. Effect of different debonding techniques on enamel surface damage: profilometry analysis
+133. Stability of orthodontic treatment outcomes: 5-year post-retention follow-up study
+134. Influence of vertical skeletal pattern on orthodontic mini-screw success rate
+135. Effect of platelet-rich fibrin on orthodontic tooth movement acceleration
+136. Comparative evaluation of digital vs plaster model analysis for orthodontic diagnosis
+137. Bond strength of orthodontic brackets bonded with bioactive orthodontic adhesive
+138. Effect of mandibular advancement device on obstructive sleep apnea: polysomnography evaluation
+139. Comparative evaluation of fixed vs removable retainers on long-term stability
+140. Influence of extraction pattern on facial profile changes in bimaxillary protrusion treatment
+141. Effect of vibration device on orthodontic pain and tooth movement rate
+142. Comparative evaluation of CBCT vs lateral cephalogram for airway assessment
+143. Bond strength of recycled orthodontic brackets: sandblasting vs laser reconditioning
+144. Effect of rapid maxillary expansion on nasal airway volume: CBCT analysis
+145. Comparative evaluation of skeletal anchorage systems for open bite correction
+146. Influence of lip competence on orthodontic treatment planning in Indonesian patients
+147. Effect of fluoride varnish application on bracket bond strength and enamel protection
+148. Comparative evaluation of Invisalign vs fixed appliance for deep bite correction
+149. Cephalometric norms for Deutero-Malay Indonesian population: a cross-sectional study
+150. Effect of orthopedic facemask therapy on maxillary growth in Class III children
+
+--- ENDODONTICS & PULP BIOLOGY (151-200) ---
+151. Comparative evaluation of bioceramic vs epoxy resin-based sealer on apical sealing ability
+152. Effect of different irrigation activation techniques on smear layer removal: SEM analysis
+153. Antimicrobial efficacy of calcium hydroxide combined with propolis against E. faecalis biofilm
+154. Accuracy of electronic apex locator in teeth with different apical conditions
+155. Comparative evaluation of single-file vs multi-file rotary systems on canal transportation
+156. Effect of photodynamic therapy as adjunct to conventional endodontic treatment on periapical healing
+157. Push-out bond strength of bioceramic sealer in oval-shaped canals obturated with different techniques
+158. Influence of access cavity design (traditional vs conservative) on fracture resistance of endodontically treated molars
+159. Comparative evaluation of CBCT vs periapical radiograph for detection of periapical lesions
+160. Effect of intracanal medicament duration on fracture resistance of root dentin
+161. Antimicrobial activity of silver nanoparticle-modified root canal sealer against E. faecalis
+162. Comparative evaluation of regenerative endodontic treatment outcomes in immature necrotic teeth
+163. Effect of different retreatment techniques on bond strength of fiber post to root canal dentin
+164. Micro-CT analysis of root canal morphology of Indonesian mandibular first molars
+165. Comparative evaluation of reciprocating vs rotary instrumentation on postoperative pain
+166. Effect of ultrasonic activation of irrigant on biofilm disruption in lateral canals
+167. Push-out bond strength of MTA vs Biodentine as furcation repair material
+168. Influence of remaining dentin thickness on temperature rise during post space preparation
+169. Comparative evaluation of vital pulp therapy materials: MTA vs Biodentine vs TheraCal
+170. Effect of different final irrigation protocols on bond strength of fiber post cementation
+171. Antimicrobial efficacy of chitosan nanoparticles as root canal irrigant: in vitro study
+172. Comparative evaluation of single-visit vs multiple-visit endodontic treatment on postoperative pain
+173. Effect of Er:YAG laser on smear layer removal and dentin permeability
+174. Fracture resistance of endodontically treated teeth restored with different post systems
+175. Comparative evaluation of working length determination: CBCT vs electronic apex locator vs radiograph
+176. Effect of platelet-rich fibrin on regenerative endodontic procedure outcomes in immature teeth
+177. Antimicrobial activity of Indonesian propolis as intracanal medicament against endodontic pathogens
+178. Comparative evaluation of obturation quality: warm vertical vs lateral condensation using micro-CT
+179. Effect of sodium hypochlorite concentration on dentin microhardness and flexural strength
+180. Influence of root canal curvature on cyclic fatigue resistance of NiTi rotary files
+181. Comparative evaluation of biocompatibility of bioceramic sealers: cell viability and cytotoxicity
+182. Effect of different chelating agents on removal of calcium hydroxide from root canals
+183. Push-out bond strength of root canal sealers after different irrigation protocols
+184. Comparative evaluation of cone-beam CT vs digital periapical radiograph for root fracture detection
+185. Effect of aging on mechanical properties of NiTi rotary endodontic instruments
+186. Antimicrobial photodynamic therapy using methylene blue against endodontic biofilm
+187. Comparative evaluation of apical extrusion of debris: reciprocating vs rotary vs adaptive motion
+188. Effect of different post materials on stress distribution in endodontically treated premolars: FEA
+189. Influence of access cavity design on negotiation of calcified canals
+190. Comparative evaluation of pulp capping materials in deep caries management: systematic review
+191. Effect of triple antibiotic paste on root dentin microhardness and bond strength
+192. Micro-CT evaluation of root canal preparation quality with different NiTi systems
+193. Comparative evaluation of pain management protocols after endodontic treatment: RCT
+194. Effect of ozone therapy as adjunct to root canal disinfection on treatment outcome
+195. Influence of tooth type and canal morphology on success rate of endodontic retreatment
+196. Comparative evaluation of mineral trioxide aggregate vs calcium enriched mixture cement for apexification
+197. Effect of different activation methods on penetration depth of root canal sealer
+198. Antimicrobial efficacy of neem (Azadirachta indica) extract as endodontic irrigant
+199. Comparative evaluation of revascularization protocols for immature permanent teeth with pulp necrosis
+200. Effect of glide path preparation on shaping ability of rotary NiTi instruments in curved canals
+
+--- PERIODONTICS & ORAL MEDICINE (201-250) ---
+201. Effect of adjunctive photodynamic therapy on clinical outcomes of scaling and root planing in chronic periodontitis
+202. Comparative evaluation of platelet-rich fibrin vs connective tissue graft for root coverage
+203. Influence of diabetes mellitus on periodontal treatment outcomes in Indonesian patients
+204. Effect of locally delivered doxycycline gel on pocket depth reduction in aggressive periodontitis
+205. Comparative evaluation of Er:YAG laser vs ultrasonic scaling on root surface roughness
+206. Association between periodontal disease and adverse pregnancy outcomes: prospective cohort study
+207. Effect of probiotic Lactobacillus reuteri on clinical periodontal parameters: RCT
+208. Comparative evaluation of coronally advanced flap with PRF vs CTG for Miller Class I recession
+209. Influence of smoking on implant osseointegration and peri-implant bone loss
+210. Effect of subgingival air polishing with erythritol powder on periodontal inflammation
+211. Comparative evaluation of enamel matrix derivative vs PRF in intrabony defect regeneration
+212. Association between periodontitis and cardiovascular disease risk in Indonesian population
+213. Effect of systemic azithromycin as adjunct to SRP in generalized aggressive periodontitis
+214. Comparative evaluation of free gingival graft vs collagen matrix for keratinized tissue augmentation
+215. Influence of oral hygiene instruction methods on plaque control in orthodontic patients
+216. Effect of low-level laser therapy on wound healing after periodontal flap surgery
+217. Comparative evaluation of guided bone regeneration membranes: resorbable vs non-resorbable
+218. Association between periodontal disease and glycemic control in type 2 diabetes: bidirectional study
+219. Effect of hyaluronic acid gel on periodontal pocket healing after scaling and root planing
+220. Comparative evaluation of microsurgical vs conventional suturing on periodontal flap healing
+221. Influence of genetic polymorphisms (IL-1, TNF-alpha) on susceptibility to chronic periodontitis
+222. Effect of antimicrobial photodynamic therapy on peri-implantitis treatment outcomes
+223. Comparative evaluation of xenograft vs alloplast for socket preservation after extraction
+224. Association between betel nut chewing and oral submucous fibrosis in Indonesian population
+225. Effect of metformin gel as local drug delivery in periodontal pockets
+226. Comparative evaluation of diode laser vs surgical blade for gingivectomy: healing and patient comfort
+227. Influence of vitamin D deficiency on periodontal disease severity in Indonesian women
+228. Effect of ozone therapy on subgingival microbiota in chronic periodontitis
+229. Comparative evaluation of tunnel technique vs coronally advanced flap for multiple recession coverage
+230. Association between periodontitis and chronic kidney disease: cross-sectional study
+231. Effect of concentrated growth factor on bone regeneration in periodontal intrabony defects
+232. Comparative evaluation of piezoelectric surgery vs rotary instruments for bone grafting
+233. Influence of stress and cortisol levels on periodontal disease progression
+234. Effect of green tea catechin gel as adjunct to scaling and root planing
+235. Comparative evaluation of autogenous bone vs xenograft for ridge augmentation
+236. Association between oral lichen planus and hepatitis C virus in Indonesian patients
+237. Effect of platelet-rich plasma on healing of extraction sockets in patients on anticoagulants
+238. Comparative evaluation of full-mouth disinfection vs quadrant scaling in chronic periodontitis
+239. Influence of sirih (Piper betle) extract on periodontal pathogen inhibition
+240. Effect of subepithelial connective tissue graft on peri-implant soft tissue augmentation
+241. Comparative evaluation of bone substitute materials for sinus floor augmentation
+242. Association between periodontitis and rheumatoid arthritis: systematic review
+243. Effect of photobiomodulation on mucositis healing in cancer patients undergoing radiotherapy
+244. Comparative evaluation of minimally invasive surgical technique vs open flap debridement
+245. Influence of host modulation therapy (sub-antimicrobial doxycycline) on periodontal outcomes
+246. Effect of L-PRF membrane on palatal wound healing after free gingival graft harvesting
+247. Comparative evaluation of peri-implantitis treatment: mechanical debridement vs laser therapy
+248. Association between salivary biomarkers and periodontal disease activity
+249. Effect of omega-3 fatty acid supplementation on periodontal inflammation markers
+250. Comparative evaluation of recession coverage techniques in thin vs thick biotype patients
+
+--- ORAL SURGERY & MAXILLOFACIAL (251-300) ---
+251. Effect of platelet-rich fibrin on healing of mandibular third molar extraction sockets
+252. Comparative evaluation of piezosurgery vs rotary bur for impacted third molar removal
+253. Influence of CBCT-guided planning on inferior alveolar nerve injury during third molar surgery
+254. Effect of dexamethasone injection on postoperative swelling after impacted molar extraction
+255. Comparative evaluation of primary vs secondary closure on dry socket incidence
+256. Accuracy of 3D-printed surgical guides for orthognathic surgery planning
+257. Effect of low-level laser therapy on trismus and pain after third molar surgery
+258. Comparative evaluation of absorbable vs non-absorbable sutures on wound healing after extraction
+259. Influence of surgical technique on inferior alveolar nerve paresthesia: prospective study
+260. Effect of tranexamic acid on bleeding control in patients on antiplatelet therapy during extraction
+261. Comparative evaluation of virtual surgical planning vs conventional planning for mandibular reconstruction
+262. Association between impacted third molar angulation and mandibular angle fracture
+263. Effect of PRF membrane on bone regeneration in cystic defects after enucleation
+264. Comparative evaluation of fixation methods for mandibular fractures: titanium vs resorbable plates
+265. Influence of patient age on healing outcomes after surgical extraction of impacted molars
+266. Effect of ozone therapy on alveolar osteitis prevention after third molar extraction
+267. Comparative evaluation of coronectomy vs complete extraction for high-risk mandibular third molars
+268. Accuracy of navigation-guided surgery for zygomatic implant placement
+269. Effect of autologous platelet concentrates on bone healing after cyst enucleation
+270. Comparative evaluation of distraction osteogenesis vs bone grafting for mandibular reconstruction
+271. Influence of systemic conditions on complications after dentoalveolar surgery in Indonesian patients
+272. Effect of photobiomodulation on neurosensory recovery after orthognathic surgery
+273. Comparative evaluation of TMJ arthrocentesis with vs without hyaluronic acid injection
+274. Association between cleft lip and palate and dental anomalies in Indonesian children
+275. Effect of custom titanium mesh vs stock mesh for alveolar ridge reconstruction
+276. Comparative evaluation of surgical approaches for maxillary sinus augmentation: lateral vs crestal
+277. Influence of smoking on bone healing after dental implant placement: prospective study
+278. Effect of hyperbaric oxygen therapy on osteoradionecrosis management
+279. Comparative evaluation of 3D-printed vs stock reconstruction plates for mandibular continuity defects
+280. Association between bisphosphonate use and medication-related osteonecrosis of the jaw in Indonesian patients
+281. Effect of concentrated growth factor on socket preservation after anterior tooth extraction
+282. Comparative evaluation of arthroscopy vs open surgery for TMJ internal derangement
+283. Influence of surgical experience on complication rates in third molar extraction
+284. Effect of antibiotic prophylaxis on surgical site infection after impacted molar removal: RCT
+285. Comparative evaluation of Le Fort I vs anterior maxillary osteotomy for maxillary excess
+286. Accuracy of patient-specific implants for orbital floor reconstruction using 3D printing
+287. Effect of botulinum toxin injection on masseteric hypertrophy and bruxism
+288. Comparative evaluation of free fibula vs iliac crest flap for mandibular reconstruction
+289. Influence of cleft type on speech outcomes after palatoplasty in Indonesian children
+290. Effect of stem cell therapy on bone regeneration in critical-size defects: animal study
+291. Comparative evaluation of rigid vs semi-rigid fixation for mandibular angle fractures
+292. Association between oral squamous cell carcinoma and betel quid chewing in Indonesian population
+293. Effect of computer-aided surgical simulation on orthognathic surgery accuracy
+294. Comparative evaluation of piezoelectric vs conventional osteotomy for sagittal split ramus osteotomy
+295. Influence of nutritional status on wound healing after oral surgery in Indonesian patients
+296. Effect of amnion membrane on wound healing after vestibuloplasty
+297. Comparative evaluation of treatment modalities for medication-related osteonecrosis of the jaw
+298. Association between HPV infection and oropharyngeal carcinoma in Indonesian patients
+299. Effect of 3D bioprinting scaffold on alveolar bone regeneration: preclinical study
+300. Comparative evaluation of surgical vs non-surgical management of TMJ ankylosis
+
+--- PEDIATRIC DENTISTRY & PREVENTION (301-350) ---
+301. Effect of silver diamine fluoride on caries arrest in primary teeth of Indonesian preschool children
+302. Comparative evaluation of Hall technique vs conventional restoration for carious primary molars
+303. Influence of parental oral health literacy on early childhood caries in Indonesian families
+304. Effect of fluoride varnish application frequency on caries prevention: 2-year RCT
+305. Comparative evaluation of glass ionomer vs composite resin for Class II restorations in primary molars
+306. Association between breastfeeding duration and early childhood caries in Indonesian infants
+307. Effect of motivational interviewing on oral hygiene behavior in pediatric patients
+308. Comparative evaluation of formocresol vs MTA for pulpotomy in primary molars
+309. Influence of dietary habits on dental erosion in Indonesian school children
+310. Effect of atraumatic restorative treatment (ART) on caries management in rural Indonesian communities
+311. Comparative evaluation of behavior management techniques for anxious pediatric dental patients
+312. Association between iron deficiency anemia and enamel defects in Indonesian children
+313. Effect of xylitol chewing gum on salivary S. mutans levels in high-caries-risk children
+314. Comparative evaluation of stainless steel crown vs zirconia crown for primary molars
+315. Influence of socioeconomic status on dental caries experience in Indonesian preschool children
+316. Effect of pit and fissure sealant retention on caries prevention: 3-year follow-up
+317. Comparative evaluation of Biodentine vs MTA for direct pulp capping in young permanent teeth
+318. Association between molar incisor hypomineralization (MIH) and dental caries in Indonesian children
+319. Effect of topical anesthetic gel on pain perception during local anesthesia in children
+320. Comparative evaluation of conventional vs digital radiography for caries detection in primary teeth
+321. Influence of maternal stress during pregnancy on enamel development in offspring
+322. Effect of casein phosphopeptide-amorphous calcium phosphate on remineralization of white spot lesions in children
+323. Comparative evaluation of pulpectomy materials for primary teeth: ZOE vs iodoform paste vs MTA
+324. Association between thumb sucking habit and anterior open bite in Indonesian children
+325. Effect of school-based oral health education program on DMFT reduction: cluster RCT
+326. Comparative evaluation of sedation protocols for pediatric dental procedures: oral vs intranasal
+327. Influence of premature birth on dental development and caries susceptibility
+328. Effect of probiotics on prevention of early childhood caries: randomized controlled trial
+329. Comparative evaluation of space maintainers: band and loop vs fiber-reinforced composite
+330. Association between vitamin D status and dental caries in Indonesian children
+331. Effect of laser fluorescence (DIAGNOdent) on detection of occlusal caries in primary teeth
+332. Comparative evaluation of resin infiltration vs fluoride varnish for white spot lesion treatment
+333. Influence of birth order and family size on dental caries experience in children
+334. Effect of glass ionomer sealant vs resin-based sealant on caries prevention in primary molars
+335. Comparative evaluation of MTA vs calcium hydroxide for apexogenesis in immature permanent teeth
+336. Association between oral habits and malocclusion in Indonesian preschool children
+337. Effect of parental supervised brushing on plaque reduction in children aged 3-6 years
+338. Comparative evaluation of tell-show-do vs virtual reality distraction for pediatric dental anxiety
+339. Influence of snacking frequency on dental caries in Indonesian elementary school children
+340. Effect of nano-hydroxyapatite toothpaste on remineralization of initial caries in children
+341. Comparative evaluation of ferric sulfate vs MTA for pulpotomy in primary molars: 2-year follow-up
+342. Association between mouth breathing and dentofacial development in Indonesian children
+343. Effect of anticipatory guidance on early childhood caries prevention: prospective study
+344. Comparative evaluation of composite strip crown vs zirconia crown for anterior primary teeth
+345. Influence of water fluoridation status on caries prevalence in Indonesian communities
+346. Effect of chlorhexidine varnish on S. mutans colonization in high-risk children
+347. Comparative evaluation of general anesthesia vs conscious sedation for comprehensive pediatric dental treatment
+348. Association between celiac disease and dental enamel defects in Indonesian children
+349. Effect of MI Paste Plus on hypersensitivity in MIH-affected first permanent molars
+350. Comparative evaluation of preventive resin restoration vs sealant for questionable occlusal caries
+
+--- DENTAL MATERIALS SCIENCE (351-400) ---
+351. Mechanical properties of 3D-printed dental resin reinforced with zirconia nanoparticles
+352. Effect of different sintering protocols on translucency and strength of multilayered zirconia
+353. Comparative evaluation of bioactive glass vs MTA as pulp capping material: biocompatibility study
+354. Influence of filler loading on wear resistance and polishability of nanohybrid composites
+355. Effect of surface treatment on bond strength between PEEK and veneering composite
+356. Comparative evaluation of flexural strength of milled vs 3D-printed denture base resins
+357. Influence of aging protocols on mechanical properties of CAD/CAM ceramic materials
+358. Effect of incorporation of halloysite nanotubes on properties of dental adhesive
+359. Comparative evaluation of biocompatibility of bioceramic root canal sealers: cell culture study
+360. Influence of polymerization mode on degree of conversion and mechanical properties of resin cements
+361. Effect of graphene oxide addition on antibacterial and mechanical properties of PMMA denture base
+362. Comparative evaluation of fracture toughness of contemporary CAD/CAM restorative materials
+363. Influence of thermocycling on color stability and surface roughness of ceramic materials
+364. Effect of silane coupling agent type on bond strength of resin to ceramic
+365. Comparative evaluation of cytotoxicity of different composite resin monomers on dental pulp cells
+366. Influence of glass fiber reinforcement on impact strength of PMMA denture base
+367. Effect of nano-silver incorporation on antifungal properties of soft denture liner
+368. Comparative evaluation of bond strength of universal adhesives in different application modes
+369. Influence of storage media on mechanical properties of glass ionomer cements
+370. Effect of bioactive glass addition on remineralizing potential of dental composite
+371. Comparative evaluation of wear behavior of monolithic ceramics against natural enamel
+372. Influence of light-curing unit type on polymerization of bulk-fill composites at different depths
+373. Effect of chitosan incorporation on antibacterial properties of glass ionomer cement
+374. Comparative evaluation of corrosion resistance of different orthodontic wire alloys in artificial saliva
+375. Influence of surface roughness on bacterial adhesion to implant abutment materials
+376. Effect of titanium dioxide nanoparticles on mechanical properties of acrylic resin
+377. Comparative evaluation of bond strength of self-adhesive vs conventional resin cements to dentin
+378. Influence of accelerated aging on optical properties of dental ceramics
+379. Effect of copper nanoparticles on antibacterial activity of dental composite resin
+380. Comparative evaluation of marginal adaptation of different ceramic systems: micro-CT analysis
+381. Influence of firing temperature on mechanical properties of dental porcelain
+382. Effect of zirconia primer on bond strength of resin cement to aged zirconia
+383. Comparative evaluation of biocompatibility of 3D-printed vs conventional dental materials
+384. Influence of water sorption on dimensional stability of impression materials
+385. Effect of natural fiber (bamboo) reinforcement on flexural strength of dental composite
+386. Comparative evaluation of fluoride release patterns of different restorative materials
+387. Influence of surface treatment on wettability and bond strength of CAD/CAM polymers
+388. Effect of antimicrobial peptide incorporation on properties of dental adhesive system
+389. Comparative evaluation of fatigue resistance of different endodontic post materials
+390. Influence of cement film thickness on fracture resistance of ceramic restorations
+391. Effect of strontium-substituted bioactive glass on dentin remineralization
+392. Comparative evaluation of optical properties of high-translucency vs conventional zirconia
+393. Influence of cross-linking agents on mechanical properties of collagen-based membranes
+394. Effect of hydroxyapatite whisker reinforcement on properties of glass ionomer cement
+395. Comparative evaluation of shear bond strength of orthodontic adhesives with different antibacterial agents
+396. Influence of printing orientation on accuracy and strength of 3D-printed dental models
+397. Effect of propolis-modified glass ionomer cement on antibacterial activity and mechanical properties
+398. Comparative evaluation of degradation behavior of bioresorbable membranes in simulated oral environment
+399. Influence of particle size distribution on handling and mechanical properties of dental composites
+400. Effect of Indonesian natural zeolite incorporation on properties of dental cement
+
+--- DIGITAL DENTISTRY & TECHNOLOGY (401-450) ---
+401. Accuracy of AI-based caries detection on bitewing radiographs: deep learning approach
+402. Comparative evaluation of intraoral scanner accuracy for single crown vs full-arch impressions
+403. Effect of scan strategy on accuracy of digital impressions for implant-supported prosthesis
+404. Validation of machine learning model for periapical lesion detection on panoramic radiographs
+405. Comparative evaluation of 3D-printed vs milled surgical guides for implant placement accuracy
+406. Effect of ambient light on accuracy of intraoral scanner: in vitro study
+407. Development of AI algorithm for automatic tooth segmentation on CBCT images
+408. Comparative evaluation of CAD/CAM vs conventional workflow for ceramic crown fabrication
+409. Accuracy of 3D facial scanning for digital smile design planning
+410. Effect of different 3D printing technologies on accuracy of dental models
+411. Comparative evaluation of digital vs conventional bite registration for full-arch rehabilitation
+412. Development of deep learning model for classification of periodontal bone loss on radiographs
+413. Effect of software version on accuracy of digital treatment planning for clear aligners
+414. Comparative evaluation of chairside vs laboratory CAD/CAM systems for inlay fabrication
+415. Accuracy of augmented reality navigation for dental implant placement
+416. Effect of mesh density on accuracy of finite element analysis in dental biomechanics
+417. Comparative evaluation of digital shade matching devices for anterior ceramic restorations
+418. Development of AI-assisted diagnosis system for oral mucosal lesions
+419. Effect of scanning powder on accuracy of intraoral digital impressions
+420. Comparative evaluation of virtual articulator vs semi-adjustable articulator for occlusal analysis
+421. Accuracy of 3D-printed custom trays vs conventional trays for edentulous impressions
+422. Development of machine learning model for prediction of orthodontic treatment duration
+423. Effect of CBCT voxel size on accuracy of linear measurements for implant planning
+424. Comparative evaluation of digital vs analog workflow for removable partial denture framework
+425. Accuracy of AI-based detection of periapical pathology on CBCT scans
+426. Effect of different slicing parameters on accuracy of 3D-printed dental restorations
+427. Comparative evaluation of teledentistry vs in-person consultation for orthodontic screening
+428. Development of convolutional neural network for automatic cephalometric landmark identification
+429. Effect of intraoral scanner type on marginal fit of CAD/CAM restorations
+430. Comparative evaluation of robotic vs manual dental implant placement: accuracy study
+431. Accuracy of desktop 3D printers for fabrication of dental surgical guides
+432. Development of AI model for prediction of dental implant failure risk
+433. Effect of digital workflow on efficiency of complete denture fabrication: time-motion study
+434. Comparative evaluation of photogrammetry vs intraoral scanning for implant position verification
+435. Accuracy of AI-based tooth numbering system on panoramic radiographs
+436. Effect of build orientation on mechanical properties of 3D-printed provisional restorations
+437. Comparative evaluation of digital vs conventional methods for occlusal splint fabrication
+438. Development of smart toothbrush with AI-powered brushing guidance: usability study
+439. Effect of scan body design on accuracy of digital implant impressions
+440. Comparative evaluation of cloud-based vs local CAD software for dental restoration design
+441. Accuracy of 3D bioprinting for fabrication of customized bone scaffolds in dentistry
+442. Development of blockchain-based dental record management system: feasibility study
+443. Effect of virtual reality simulation on dental student clinical skill development
+444. Comparative evaluation of AI vs clinician accuracy in detecting proximal caries
+445. Accuracy of dynamic navigation system for endodontic access cavity preparation
+446. Development of IoT-based remote monitoring system for orthodontic treatment compliance
+447. Effect of haptic feedback on performance in virtual reality dental simulation
+448. Comparative evaluation of different CAM strategies on surface quality of milled restorations
+449. Accuracy of AI-assisted treatment planning for orthognathic surgery
+450. Development of mobile application for oral cancer screening using deep learning
+
+--- PUBLIC HEALTH DENTISTRY & EPIDEMIOLOGY (451-500) ---
+451. Prevalence and severity of dental caries among Indonesian children aged 5-12: national survey analysis
+452. Effect of community water fluoridation on caries reduction in Indonesian rural areas
+453. Association between socioeconomic factors and oral health-related quality of life in Indonesian adults
+454. Effectiveness of school-based dental sealant program on caries prevention: 5-year evaluation
+455. Comparative evaluation of oral health promotion strategies in Indonesian primary schools
+456. Prevalence of periodontal disease and associated risk factors in Indonesian pregnant women
+457. Effect of tobacco cessation counseling by dentists on smoking quit rates: RCT
+458. Association between oral health literacy and dental service utilization in Indonesian communities
+459. Effectiveness of mobile health (mHealth) intervention on oral hygiene behavior change
+460. Prevalence of dental fluorosis in areas with naturally high fluoride water in Indonesia
+461. Effect of integrated oral health care in primary health centers (Puskesmas) on DMFT reduction
+462. Association between traditional betel nut chewing and oral cancer risk: case-control study
+463. Effectiveness of peer education on oral health knowledge and behavior in Indonesian adolescents
+464. Prevalence of temporomandibular disorders in Indonesian university students
+465. Effect of oral health integration into antenatal care on maternal dental outcomes
+466. Association between dental caries and nutritional status in Indonesian preschool children
+467. Effectiveness of silver diamine fluoride program for caries management in underserved communities
+468. Prevalence of dental trauma in Indonesian school children and associated risk factors
+469. Effect of sugar-sweetened beverage tax policy on dental caries trends: ecological study
+470. Association between access to dental care and oral health outcomes in remote Indonesian islands
+471. Effectiveness of community health worker training on oral health screening accuracy
+472. Prevalence of oral mucosal lesions in Indonesian elderly population
+473. Effect of COVID-19 pandemic on dental service utilization and oral health status in Indonesia
+474. Association between air pollution and periodontal disease in Indonesian urban populations
+475. Effectiveness of WhatsApp-based oral health education for mothers of toddlers
+476. Prevalence of malocclusion and orthodontic treatment need in Indonesian adolescents (IOTN)
+477. Effect of national health insurance (JKN) on equity of dental care access in Indonesia
+478. Association between diabetes mellitus and tooth loss in Indonesian adult population
+479. Effectiveness of fluoride mouth rinse program in Indonesian elementary schools
+480. Prevalence of dental anxiety and its impact on dental attendance in Indonesian adults
+481. Effect of interprofessional education on dental students' competency in public health dentistry
+482. Association between maternal oral health and low birth weight in Indonesian hospitals
+483. Effectiveness of oral health screening integrated with Posyandu activities
+484. Prevalence of early childhood caries and feeding practices in Indonesian urban slums
+485. Effect of health belief model-based intervention on dental visit behavior
+486. Association between occupational hazards and oral health in Indonesian factory workers
+487. Effectiveness of teledentistry for oral health consultation in Indonesian rural communities
+488. Prevalence of xerostomia and associated medications in Indonesian geriatric patients
+489. Effect of oral health education using augmented reality on children's brushing behavior
+490. Association between stunting and dental development delay in Indonesian children
+491. Effectiveness of UKGS (Usaha Kesehatan Gigi Sekolah) program on oral health indicators
+492. Prevalence of smokeless tobacco use and oral lesions in Indonesian populations
+493. Effect of community-based participatory research on oral health program sustainability
+494. Association between oral health and cognitive function in Indonesian elderly
+495. Effectiveness of dental therapist deployment in reducing oral health disparities
+496. Prevalence of dentinal hypersensitivity and associated factors in Indonesian adults
+497. Effect of oral health policy implementation on dental workforce distribution in Indonesia
+498. Association between sleep bruxism and psychological stress in Indonesian university students
+499. Effectiveness of gamification in oral health education for Indonesian school children
+500. Cost-effectiveness analysis of preventive vs restorative dental care in Indonesian public health system

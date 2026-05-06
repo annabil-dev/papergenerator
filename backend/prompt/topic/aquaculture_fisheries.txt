@@ -5,9 +5,68 @@ FIELD: Agricultural and Biological Sciences / Aquatic Science
 DEFAULT CITATION STYLE: APA
 SUBDISCIPLINE: Akuakultur, Budidaya Ikan, Perikanan Tangkap, Nutrisi Ikan, Patologi Ikan
 
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals (Aquaculture, Aquaculture Nutrition, Reviews in Aquaculture)
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title
+   - Ensure novelty through species specificity, methodological innovation, or system integration
+   - Cross-reference with Indonesian aquaculture context: shrimp (vannamei), milkfish (bandeng), tilapia, seaweed (Gracilaria, Kappaphycus), grouper, catfish (lele), Indonesian pond systems (tambak)
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Recirculating Aquaculture Systems (RAS) with advanced biofilter design
+   - Biofloc technology (BFT) with carbon:nitrogen ratio optimization
+   - Probiotics/synbiotics application (Bacillus, Lactobacillus, yeast-based)
+   - CRISPR-Cas9 for aquaculture genetics and disease resistance breeding
+   - Environmental DNA (eDNA) monitoring for biodiversity and pathogen detection
+   - Precision aquaculture: IoT sensors, automated feeding, real-time water quality monitoring
+   - Integrated Multi-Trophic Aquaculture (IMTA) system design
+   - Machine learning for disease detection (computer vision, CNN for fish behavior analysis)
+   - Nanobiotechnology for drug delivery and feed additives
+   - Metagenomics for gut microbiome analysis in aquaculture species
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Aquaculture metrics: SGR (%/day), FCR, survival rate (%), biomass (g/m2), water quality parameters
+   - Statistical measures: mean +/- SD, ANOVA F-values, p-values, Duncan/Tukey groupings
+   - All numbers realistic and internally consistent with tropical aquaculture conditions
+
+5. MATHEMATICAL FORMULAS:
+   - Specific Growth Rate: SGR = (ln W2 - ln W1)/(t2 - t1) x 100
+   - Feed Conversion Ratio: FCR = total feed given (g) / total weight gain (g)
+   - Survival Rate: SR = (Nt/N0) x 100%
+   - Protein Efficiency Ratio: PER = weight gain (g) / protein intake (g)
+   - Apparent Net Protein Utilization: ANPU = (final body protein - initial body protein) / protein intake x 100
+   - Condition Factor: K = (W/L^3) x 100
+   - Hepatosomatic Index: HSI = (liver weight / body weight) x 100
+   - Water Quality Index: WQI = Sum(Wi x qi) / Sum(Wi)
+   - Von Bertalanffy Growth: Lt = Linf(1 - e^(-K(t-t0)))
+   - Thermal Growth Coefficient: TGC = (W2^(1/3) - W1^(1/3)) / (Sum(T x days)) x 1000
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian aquaculture context: tambak systems, tropical species, local feed ingredients
+   - Include recent Indonesian aquaculture studies (IPB, UNDIP, Brawijaya, BRIN publications)
+   - Reference FAO aquaculture statistics and Indonesian MMAF (KKP) data
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords (5-7), Introduction (1500-2000 words),
+   Literature Review (2000-3000 words), Methodology (2000-3000 words),
+   Results & Discussion (2000-3000 words), Conclusion (500-800 words),
+   References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
 ABSTRACT CHARACTERISTICS:
-  150–250 words. Reports: fish/shrimp species (with Latin name), system (pond, recirculating
-  aquaculture system — RAS, cage), treatments, key results (SGR %/day, FCR, survival %,
+  150-250 words. Reports: fish/shrimp species (with Latin name), system (pond, recirculating
+  aquaculture system - RAS, cage), treatments, key results (SGR %/day, FCR, survival %,
   water quality parameters), statistical design.
 
 INTRODUCTION ELEMENTS:
@@ -18,29 +77,29 @@ INTRODUCTION ELEMENTS:
 
 LITERATURE REVIEW:
   Common section name: "Literature Review" / "Review of Related Studies"
-  - Nutritional requirements of the target species: protein (30–45% CP), lipid, energy.
+  - Nutritional requirements of the target species: protein (30-45% CP), lipid, energy.
   - Alternative protein/lipid sources: soybean meal, black soldier fly larvae (BSFL), fishmeal replacement.
   - Disease resistance and immune response: lysozyme activity, hematological parameters.
-  - Water quality parameters: DO (mg/L), temperature (°C), pH, ammonia (mg/L), nitrite.
+  - Water quality parameters: DO (mg/L), temperature (C), pH, ammonia (mg/L), nitrite.
   - Probiotics, prebiotics, immunostimulants in aquaculture.
 
 METHODOLOGY:
   Common section name: "Materials and Methods"
-  - Experimental fish: species, initial weight (g), stocking density (fish/m² or /tank).
+  - Experimental fish: species, initial weight (g), stocking density (fish/m2 or /tank).
   - System: aquaria (100 L), floating cages, recirculating system.
-  - Experimental design: CRD, 4 treatments × 3 replicates.
+  - Experimental design: CRD, 4 treatments x 3 replicates.
   - Feed preparation: formulated diet, proximate analysis (crude protein %, lipid %).
-  - Feeding: ad libitum or 3–5% body weight/day; 2–3 times/day.
-  - Duration: 56–90 days.
-  - Variables: SGR = (ln Wf - ln Wi)/t × 100; FCR = feed consumed/weight gain; survival rate (%); condition factor K; protein efficiency ratio (PER).
+  - Feeding: ad libitum or 3-5% body weight/day; 2-3 times/day.
+  - Duration: 56-90 days.
+  - Variables: SGR = (ln Wf - ln Wi)/t x 100; FCR = feed consumed/weight gain; survival rate (%); condition factor K; protein efficiency ratio (PER).
   - Water quality: DO, pH, temperature, ammonia (measured weekly).
   - Statistical: ANOVA, DMRT 5%.
 
 TYPICAL RESULTS & DISCUSSION:
-  - SGR: Nile tilapia 2.5–4.5 %/day; catfish 3–5 %/day; shrimp 5–8 %/day.
-  - FCR: fish 1.2–2.5; shrimp 1.5–2.0.
-  - Survival rate: 80–98%.
-  - Water quality: DO 5–7 mg/L; temp 26–30°C; pH 6.5–8.0; ammonia <0.1 mg/L.
+  - SGR: Nile tilapia 2.5-4.5 %/day; catfish 3-5 %/day; shrimp 5-8 %/day.
+  - FCR: fish 1.2-2.5; shrimp 1.5-2.0.
+  - Survival rate: 80-98%.
+  - Water quality: DO 5-7 mg/L; temp 26-30C; pH 6.5-8.0; ammonia <0.1 mg/L.
   Tables: growth performance table, water quality table, feed analysis table.
   Figures: growth curve, SGR comparison bar chart, survival rate chart.
 
@@ -53,7 +112,7 @@ TYPICAL FIGURES:
 TYPICAL TABLES:
   - Feed proximate analysis (moisture, CP, lipid, ash, NFE, GE).
   - Growth performance: initial weight | final weight | SGR | FCR | survival %.
-  - Water quality: DO | temp | pH | NH3 | NO2 (weekly mean ± SD).
+  - Water quality: DO | temp | pH | NH3 | NO2 (weekly mean +/- SD).
 
 CONCLUSION CHARACTERISTICS:
   - States optimal dietary treatment and its practical significance.
@@ -74,3 +133,527 @@ DOMAIN VOCABULARY:
 METHODOLOGY KEYWORDS:
   CRD, ANOVA, DMRT, proximate analysis, growth trial, challenge test,
   hematological analysis, water quality monitoring, feeding trial
+
+================================================================================
+500 RESEARCH TOPICS - Aquaculture & Fisheries
+================================================================================
+
+--- CATEGORY A: Freshwater Aquaculture (001-050) ---
+001. Effect of Biofloc Technology on Growth Performance and Water Quality in Intensive Catfish (Clarias gariepinus) Culture
+002. Optimal Stocking Density for Nile Tilapia (Oreochromis niloticus) in Recirculating Aquaculture Systems
+003. Black Soldier Fly Larvae (Hermetia illucens) Meal as Fishmeal Replacement in Catfish Feed
+004. Probiotic Bacillus subtilis Supplementation on Growth and Immune Response of Tilapia
+005. Biofloc C:N Ratio Optimization for Pacific White Shrimp (Litopenaeus vannamei) in Freshwater
+006. Integrated Rice-Fish Culture System Productivity in Indonesian Paddy Fields
+007. Moringa oleifera Leaf Meal as Protein Source in Nile Tilapia Diets
+008. Recirculating Aquaculture System Design for High-Density Catfish Production
+009. Effect of Water Temperature on Growth and Feed Utilization of Giant Gourami (Osphronemus goramy)
+010. Synbiotic (Prebiotic + Probiotic) Application on Growth and Disease Resistance of Tilapia
+011. Polyculture of Tilapia and Freshwater Prawn (Macrobrachium rosenbergii) in Earthen Ponds
+012. Fermented Plant-Based Feed Ingredients for Cost-Effective Catfish Production
+013. Aquaponics System Optimization: Tilapia-Lettuce Integration Under Tropical Conditions
+014. Effect of Feeding Frequency on Growth Performance and Feed Utilization of Pangasius
+015. Spirulina platensis Supplementation on Growth and Pigmentation of Ornamental Fish
+016. Biofloc Protein Quality and Its Contribution to Catfish Nutrition
+017. Stocking Density Effect on Stress Response and Growth of Jade Perch in RAS
+018. Maggot Meal (Hermetia illucens) Digestibility and Amino Acid Profile for Freshwater Fish
+019. Probiotics Consortium (Bacillus + Lactobacillus) for Water Quality Management in Catfish Ponds
+020. Effect of Salinity Acclimation on Growth and Osmoregulation of Tilapia Fry
+021. Duckweed (Lemna minor) as Supplementary Feed for Herbivorous Freshwater Fish
+022. Automated Feeding System Development for Intensive Catfish Culture Using IoT
+023. Effect of Photoperiod Manipulation on Growth and Reproduction of Nile Tilapia
+024. Taro Leaf Meal Inclusion in Practical Diets for African Catfish
+025. Biofloc-Based Nursery System for Catfish Fry Production
+026. Comparative Growth Performance of Three Tilapia Strains (GIFT, GET-EXCEL, Nirwana) in Indonesia
+027. Effect of Dissolved Oxygen Levels on Feed Efficiency and Growth of Catfish in Biofloc
+028. Banana Peel Meal as Carbohydrate Source in Freshwater Fish Diets
+029. Recirculating System Biofilter Media Comparison for Ammonia Removal in Tilapia Culture
+030. Effect of Starvation and Refeeding on Compensatory Growth in Catfish
+031. Papain Enzyme Supplementation on Protein Digestibility in Tilapia Feed
+032. Freshwater Crayfish (Cherax quadricarinatus) Culture Potential in Indonesian Tropical Climate
+033. Effect of Probiotics on Gut Microbiota Composition of Nile Tilapia Using 16S rRNA Sequencing
+034. Cassava Leaf Silage as Alternative Feed Ingredient for Catfish
+035. Water Recirculation Rate Optimization for Ammonia Control in Tilapia RAS
+036. Effect of Turmeric (Curcuma longa) Extract on Growth and Antioxidant Status of Catfish
+037. Biofloc Technology Application in Giant Freshwater Prawn (Macrobrachium rosenbergii) Nursery
+038. Earthworm Meal (Lumbricus rubellus) as Protein Source for Freshwater Fish Larvae
+039. Effect of Tank Color on Stress and Growth Performance of Ornamental Fish
+040. Azolla pinnata as Supplementary Feed for Tilapia in Semi-Intensive Ponds
+041. IoT-Based Water Quality Monitoring and Alert System for Freshwater Fish Ponds
+042. Effect of Garlic (Allium sativum) Extract on Disease Resistance of Catfish
+043. Optimal Protein-to-Energy Ratio in Practical Diets for Giant Gourami Juveniles
+044. Vermicompost Tea Application for Plankton Production in Freshwater Fish Ponds
+045. Effect of Aeration Rate on Biofloc Formation and Catfish Growth Performance
+046. Snakehead (Channa striata) Intensive Culture in Recirculating Systems
+047. Fermented Soybean Meal Replacing Fishmeal in Pangasius Diets
+048. Effect of Density on Cannibalism and Growth in African Catfish Larvae
+049. Banana Stem as Carbon Source for Biofloc Development in Tilapia Culture
+050. Machine Learning-Based Growth Prediction Model for Freshwater Aquaculture Species
+
+--- CATEGORY B: Marine & Brackishwater Aquaculture (051-100) ---
+051. Biofloc Technology Application in Intensive Vannamei Shrimp (Litopenaeus vannamei) Tambak Culture
+052. Optimal Salinity for Growth and Survival of Tiger Shrimp (Penaeus monodon) Post-Larvae
+053. Milkfish (Chanos chanos) Growth Performance in Different Pond Management Systems
+054. Floating Net Cage Culture of Grouper (Epinephelus coioides) in Indonesian Coastal Waters
+055. Effect of Stocking Density on Growth and Water Quality in Vannamei Shrimp Intensive Ponds
+056. Mangrove Crab (Scylla serrata) Fattening Techniques in Brackishwater Ponds
+057. Integrated Mangrove-Aquaculture (Silvofishery) System Productivity in Indonesian Tambak
+058. Nursery Management of Asian Sea Bass (Lates calcarifer) in Brackishwater Hatchery
+059. Effect of Probiotics on Vibrio Control in Vannamei Shrimp Culture
+060. Milkfish-Shrimp Polyculture System Optimization in Traditional Tambak
+061. Humpback Grouper (Cromileptes altivelis) Larval Rearing Techniques
+062. Biofloc vs. Clear Water System Comparison for Vannamei Shrimp Production
+063. Effect of Water Exchange Rate on Shrimp Growth and Disease Incidence in Intensive Ponds
+064. Mud Crab (Scylla paramamosain) Seed Production in Controlled Hatchery Conditions
+065. Pompano (Trachinotus blochii) Culture Potential in Indonesian Marine Cage Systems
+066. Effect of Mineral Supplementation on Molting and Growth of Vannamei Shrimp
+067. Brackishwater Pond Bottom Soil Quality and Its Impact on Shrimp Production
+068. Snapper (Lutjanus campechanus) Cage Culture and Feed Management in Tropical Waters
+069. Effect of Salinity Fluctuation on Stress Response and Survival of Shrimp Post-Larvae
+070. Integrated Shrimp-Tilapia Culture for Disease Prevention in Tambak Systems
+071. Marine Finfish Hatchery Technology Development for Barramundi in Indonesia
+072. Effect of Pond Preparation (Liming, Fertilization) on Milkfish Production
+073. Cobia (Rachycentron canadum) Growth Performance in Offshore Cage Culture
+074. Biofloc-Based Vannamei Shrimp Nursery for Super-Intensive Production
+075. Effect of Tidal Water Management on Traditional Tambak Productivity
+076. Pearl Oyster (Pinctada maxima) Culture and Pearl Quality in Eastern Indonesia
+077. Rabbitfish (Siganus guttatus) Culture Potential in Brackishwater Ponds
+078. Effect of Probiotic-Enriched Live Feed on Marine Fish Larval Survival
+079. Intensive Vannamei Shrimp Culture with Zero Water Exchange Using Biofloc
+080. Sea Cucumber (Holothuria scabra) Ranching in Indonesian Coastal Waters
+081. Effect of Pond Liner on Water Quality and Shrimp Production in Intensive Systems
+082. Marine Fish Larval Nutrition: Enrichment of Artemia and Rotifers
+083. Brackishwater Aquaculture Carrying Capacity Assessment in Indonesian Coastal Zones
+084. Effect of Immunostimulant on Disease Resistance of Grouper in Cage Culture
+085. Hybrid Grouper (E. fuscoguttatus x E. lanceolatus) Growth and Feed Efficiency
+086. Shrimp Pond Effluent Treatment Using Constructed Wetlands
+087. Effect of Stocking Season on Vannamei Shrimp Production in Indonesian Tambak
+088. Marine Ornamental Fish Breeding Technology for Clownfish (Amphiprion ocellaris)
+089. Biofloc Mineral Composition and Its Contribution to Shrimp Nutrition
+090. Effect of Pond Depth on Temperature Stratification and Shrimp Growth
+091. Lobster (Panulirus homarus) Grow-Out Culture in Floating Net Cages
+092. Integrated Multi-Trophic Aquaculture: Shrimp-Seaweed-Sea Cucumber System
+093. Effect of Alkalinity Management on Vannamei Shrimp Survival During Molting
+094. Marine Fish Cage Site Selection Using GIS and Hydrodynamic Modeling
+095. Brackishwater Pond Remediation After Disease Outbreak: Best Management Practices
+096. Effect of Artificial Substrate on Biofloc Attachment and Shrimp Performance
+097. Napoleon Wrasse (Cheilinus undulatus) Captive Breeding Program Development
+098. Shrimp-Milkfish Sequential Culture for Sustainable Tambak Management
+099. Effect of Dissolved Oxygen on Feed Consumption and Growth of Marine Fish in Cages
+100. Climate Change Adaptation Strategies for Brackishwater Aquaculture in Indonesia
+
+--- CATEGORY C: Aquaculture Nutrition & Feed (101-150) ---
+101. Black Soldier Fly Larvae Meal Replacing Fishmeal in Vannamei Shrimp Diets
+102. Fermented Soybean Meal Nutritional Value and Digestibility for Tropical Fish Species
+103. Microalgae (Chlorella, Spirulina) as Functional Feed Additive for Aquaculture
+104. Effect of Dietary Lipid Level on Growth and Body Composition of Milkfish
+105. Local Feed Ingredients (Copra Meal, Palm Kernel Meal) for Indonesian Aquaculture
+106. Insect-Based Protein (Cricket, Mealworm) as Novel Feed for Freshwater Fish
+107. Effect of Amino Acid Supplementation (Lysine, Methionine) on Fish Growth
+108. Seaweed Meal as Functional Feed Ingredient for Immune Enhancement in Shrimp
+109. Exogenous Enzyme (Phytase, Protease) Supplementation in Plant-Based Fish Diets
+110. Effect of Dietary Fiber on Gut Health and Growth of Herbivorous Fish
+111. Microencapsulated Feed Technology for Marine Fish Larvae
+112. Astaxanthin-Rich Feed for Color Enhancement in Ornamental Fish and Shrimp
+113. Effect of Feed Pellet Size and Texture on Feed Intake of Juvenile Fish
+114. Tuna By-Product Hydrolysate as Protein Source in Aquaculture Feeds
+115. Nucleotide Supplementation on Growth and Immune Response of Shrimp
+116. Effect of Feeding Rate on Growth, FCR, and Water Quality in Intensive Systems
+117. Fermented Rice Bran as Energy Source in Low-Cost Fish Feed Formulation
+118. Omega-3 Fatty Acid Enrichment of Freshwater Fish Through Dietary Manipulation
+119. Effect of Anti-Nutritional Factors in Plant-Based Feeds on Fish Performance
+120. Single-Cell Protein (Yeast, Bacteria) as Alternative Protein for Aquaculture
+121. Dietary Vitamin C Requirement and Its Effect on Stress Resistance in Tropical Fish
+122. Effect of Feed Attractants (Betaine, Amino Acids) on Feed Intake of Shrimp
+123. Coconut Oil as Lipid Source in Tropical Freshwater Fish Diets
+124. Bioactive Peptides from Fish Processing Waste for Aquaculture Feed Application
+125. Effect of Dietary Carbohydrate Level on Glucose Metabolism in Carnivorous Fish
+126. Leaf Meal (Moringa, Leucaena, Cassava) Nutritional Evaluation for Fish Feed
+127. Microbound Diet Development for Early Larval Stages of Marine Fish
+128. Effect of Feed Processing Method (Extrusion vs. Pelleting) on Nutrient Retention
+129. Shrimp Head Meal Silage as Protein Source in Fish Feed Formulation
+130. Dietary Phospholipid Requirement for Larval and Juvenile Shrimp
+131. Effect of Feeding Strategy (Continuous vs. Meal) on Growth of Catfish
+132. Algae-Based DHA/EPA Supplement Replacing Fish Oil in Aquaculture Diets
+133. Tannin-Free Sorghum as Carbohydrate Source in Tilapia Feed
+134. Effect of Dietary Selenium on Antioxidant Status and Growth of Shrimp
+135. Fermented Trash Fish as Low-Cost Feed for Small-Scale Aquaculture
+136. Nano-Mineral (Nano-Zinc, Nano-Selenium) Supplementation in Fish Diets
+137. Effect of Protein Source (Animal vs. Plant) on Flesh Quality of Farmed Fish
+138. Diatom-Based Feed Additive for Improved Shrimp Growth and Gut Health
+139. Optimal Protein Level Determination for Indonesian Local Fish Species
+140. Effect of Chromium Supplementation on Glucose Tolerance in Tilapia
+141. Jackfruit Seed Meal as Carbohydrate Source in Freshwater Fish Diets
+142. Functional Feed Formulation with Herbal Immunostimulants for Disease Prevention
+143. Effect of Feed Frequency and Ration Size on Nutrient Utilization in Grouper
+144. Poultry By-Product Meal Quality Assessment for Aquaculture Feed Use
+145. Dietary Carotenoid Sources for Pigmentation in Tropical Ornamental Fish
+146. Effect of Pelleted vs. Extruded Feed on Water Stability and Fish Growth
+147. Blood Meal Processing and Nutritional Value for Carnivorous Fish Species
+148. Micro-Mineral (Zn, Cu, Mn, Fe) Premix Optimization for Shrimp Feed
+149. Effect of Dietary Fiber Type on Gut Morphology and Microbiota of Tilapia
+150. Cost-Benefit Analysis of Alternative Feed Ingredients for Indonesian Aquaculture
+
+--- CATEGORY D: Fish Health & Disease Management (151-200) ---
+151. White Spot Syndrome Virus (WSSV) Prevalence and Risk Factors in Indonesian Shrimp Farms
+152. Aeromonas hydrophila Virulence Factors and Antibiotic Resistance in Catfish Culture
+153. Probiotic Bacillus spp. for Vibrio harveyi Control in Shrimp Hatcheries
+154. Infectious Myonecrosis Virus (IMNV) Surveillance and Management in Vannamei Shrimp
+155. Herbal Immunostimulant (Garlic, Turmeric, Neem) for Disease Prevention in Tilapia
+156. Streptococcus agalactiae Outbreak Management in Nile Tilapia Cage Culture
+157. Parasitic Infection (Ichthyophthirius, Trichodina) in Freshwater Ornamental Fish
+158. Vibriosis Control Using Phage Therapy in Marine Shrimp Aquaculture
+159. Hematological and Biochemical Response of Fish to Bacterial Challenge
+160. Acute Hepatopancreatic Necrosis Disease (AHPND) Detection and Prevention in Shrimp
+161. Antimicrobial Resistance Profiling of Bacteria Isolated from Indonesian Fish Farms
+162. Koi Herpesvirus (KHV) Surveillance and Biosecurity in Indonesian Koi Culture
+163. Effect of Probiotics on Gut Microbiome and Disease Resistance in Shrimp
+164. Tilapia Lake Virus (TiLV) Detection and Epidemiology in Indonesian Tilapia Farms
+165. Medicinal Plant Extracts as Antiparasitic Agents in Freshwater Fish
+166. Vaccination Strategy Development for Vibriosis in Marine Fish Culture
+167. Biofilm-Forming Bacteria and Their Role in Shrimp Disease Dynamics
+168. Effect of Water Quality Deterioration on Disease Susceptibility in Intensive Ponds
+169. Molecular Diagnostic (PCR, LAMP) Development for Rapid Pathogen Detection in Aquaculture
+170. Enterocytozoon hepatopenaei (EHP) Microsporidian Impact on Shrimp Growth
+171. Antimicrobial Peptides from Marine Organisms for Aquaculture Disease Control
+172. Stress-Induced Immunosuppression and Disease Outbreak in High-Density Fish Culture
+173. Bacteriophage Cocktail Development for Multi-Drug Resistant Bacteria in Aquaculture
+174. Gill Parasite (Dactylogyrus, Gyrodactylus) Management in Freshwater Fish
+175. Effect of Immunostimulant Timing on Vaccine Efficacy in Marine Fish
+176. Edwardsiella ictaluri Detection and Control in Pangasius Culture
+177. Biosecurity Protocol Development for Indonesian Shrimp Hatcheries
+178. Effect of Salinity Stress on Immune Parameters and Disease Resistance of Shrimp
+179. Viral Nervous Necrosis (VNN) Management in Grouper Hatchery Production
+180. Antibiotic Residue Monitoring in Farmed Shrimp and Fish in Indonesia
+181. Quorum Sensing Inhibition as Anti-Virulence Strategy Against Vibrio in Shrimp
+182. Effect of Biofloc on Immune Gene Expression in Vannamei Shrimp
+183. Fungal Infection (Saprolegnia, Lagenidium) in Freshwater Fish Eggs and Larvae
+184. CRISPR-Based Diagnostic for Rapid WSSV Detection in Shrimp Farms
+185. Probiotic Delivery Methods (Feed, Water, Bioencapsulation) Comparison for Aquaculture
+186. Effect of Temperature on Viral Replication and Disease Progression in Shrimp
+187. Coinfection Dynamics of Multiple Pathogens in Intensive Shrimp Culture
+188. Seaweed Extract (Sargassum, Gracilaria) as Immunostimulant in Fish Feed
+189. Disease-Free Broodstock Development Program for Indonesian Shrimp Industry
+190. Effect of Stocking Density on Disease Incidence and Immune Status of Fish
+191. Metagenomic Analysis of Pathogen Communities in Shrimp Pond Sediments
+192. Ozone and UV Treatment for Pathogen Reduction in Hatchery Water
+193. Effect of Nutritional Status on Immune Competence of Farmed Fish
+194. Rapid Diagnostic Kit Development for Field-Level Disease Detection in Aquaculture
+195. Antimicrobial Properties of Chitosan Nanoparticles for Aquaculture Application
+196. Effect of Probiotics on Post-Infection Recovery in Bacterial-Challenged Fish
+197. Epidemiological Modeling of Disease Spread in Indonesian Shrimp Farming Clusters
+198. Mangrove-Derived Bioactive Compounds for Aquaculture Disease Prevention
+199. Effect of Dissolved Oxygen Fluctuation on Immune Response of Shrimp
+200. One Health Approach to Antimicrobial Resistance in Indonesian Aquaculture
+
+--- CATEGORY E: Aquaculture Genetics & Breeding (201-250) ---
+201. Genetic Diversity Assessment of Indonesian Catfish (Clarias gariepinus) Broodstock Using Microsatellites
+202. Selective Breeding Program for Fast-Growing Nile Tilapia in Indonesian Conditions
+203. CRISPR-Cas9 Application for Myostatin Gene Knockout in Aquaculture Fish
+204. Marker-Assisted Selection for Disease Resistance in Vannamei Shrimp
+205. Hybridization of Local and Improved Tilapia Strains for Indonesian Aquaculture
+206. Genetic Characterization of Wild Grouper Populations in Indonesian Waters Using SNP Markers
+207. Chromosome Set Manipulation (Triploidy, Gynogenesis) in Freshwater Fish
+208. Quantitative Trait Loci (QTL) Mapping for Growth Rate in Asian Sea Bass
+209. Inbreeding Depression Assessment in Captive Broodstock of Indonesian Shrimp
+210. Genomic Selection for Multiple Traits in Nile Tilapia Breeding Program
+211. Sex Determination Mechanism and Monosex Production in Tilapia
+212. Genetic Improvement of Cold Tolerance in Tropical Aquaculture Species
+213. Population Genetics of Milkfish (Chanos chanos) Across Indonesian Archipelago
+214. Transgenerational Epigenetic Effects of Environmental Stress in Aquaculture Fish
+215. Genome-Wide Association Study (GWAS) for Flesh Quality Traits in Farmed Fish
+216. Cryopreservation of Fish Sperm for Genetic Resource Conservation
+217. Heterosis Evaluation in Interspecific Hybridization of Grouper Species
+218. Genetic Basis of Salinity Tolerance in Euryhaline Fish Species
+219. Molecular Markers for Traceability of Indonesian Aquaculture Products
+220. Selective Breeding for Feed Efficiency in Catfish Using Genomic Tools
+221. Genetic Diversity of Hatchery vs. Wild Populations of Giant Freshwater Prawn
+222. CRISPR-Based Gene Drive Considerations for Aquaculture Pest Management
+223. Parentage Assignment Using DNA Markers in Communal Breeding Programs
+224. Genetic Improvement of Disease Resistance in Tiger Shrimp (Penaeus monodon)
+225. Whole Genome Sequencing of Indonesian Native Fish Species for Breeding Programs
+226. Epigenetic Regulation of Growth and Stress Response in Aquaculture Species
+227. Genetic Parameter Estimation for Growth Traits in Indonesian Catfish Populations
+228. Marker-Assisted Introgression of Growth Genes from Wild to Cultured Fish Stocks
+229. Sex Reversal Technology and YY Male Production in Tilapia
+230. Genetic Diversity Conservation of Endangered Indonesian Freshwater Fish Species
+231. Transcriptome Analysis of Heat Stress Response in Tropical Aquaculture Species
+232. Selective Breeding for Body Shape and Fillet Yield in Tilapia
+233. Genetic Mapping of Vibrio Resistance Loci in Shrimp Using RAD-Seq
+234. Polyploidy Induction and Performance Evaluation in Oyster Culture
+235. Genetic Stock Identification of Tuna Populations in Indonesian EEZ
+236. MicroRNA Regulation of Growth and Immunity in Aquaculture Fish
+237. Broodstock Management and Genetic Diversity Maintenance in Small Hatcheries
+238. Genome Editing for Sterility Induction in Non-Native Aquaculture Species
+239. Genetic Basis of Color Pattern in Ornamental Fish Breeding
+240. Population Genomics of Seaweed (Kappaphycus) Cultivars in Indonesia
+241. Heritability Estimation of FCR and Growth in Family-Based Breeding Programs
+242. Genetic Improvement of Larval Quality in Marine Fish Hatcheries
+243. DNA Barcoding for Species Authentication of Indonesian Aquaculture Products
+244. Selective Breeding for Hypoxia Tolerance in Intensive Aquaculture Systems
+245. Genetic Architecture of Body Weight in Giant Gourami Using GWAS
+246. Chromosome-Level Genome Assembly of Indonesian Native Aquaculture Species
+247. Genetic Diversity of Mud Crab (Scylla spp.) Populations in Indonesian Waters
+248. Marker-Assisted Selection for WSSV Resistance in Shrimp Breeding Programs
+249. Genetic Improvement of Seaweed Strains for Carrageenan Quality
+250. Conservation Genetics of Threatened Freshwater Fish in Indonesian River Systems
+
+--- CATEGORY F: Water Quality & Environment (251-300) ---
+251. Ammonia Toxicity Threshold and Safe Levels for Indonesian Aquaculture Species
+252. Biofloc Technology for Nitrogen Removal and Water Quality Management in Shrimp Ponds
+253. Constructed Wetland Design for Aquaculture Effluent Treatment in Indonesia
+254. Effect of Pond Bottom Soil on Water Quality and Shrimp Production
+255. Real-Time Water Quality Monitoring Using IoT Sensors in Intensive Aquaculture
+256. Nitrification and Denitrification Dynamics in Recirculating Aquaculture Biofilters
+257. Phytoremediation of Aquaculture Wastewater Using Microalgae and Aquatic Plants
+258. Effect of Rainfall and Runoff on Water Quality in Brackishwater Shrimp Ponds
+259. Dissolved Oxygen Management Strategies for High-Density Fish Culture
+260. Aquaculture Effluent Impact on Receiving Water Bodies in Indonesian Coastal Areas
+261. Biofilter Media Comparison (Moving Bed, Trickling, Submerged) for RAS Applications
+262. Effect of pH Fluctuation on Fish Health and Growth in Intensive Systems
+263. Sediment Accumulation and Nutrient Release in Aging Aquaculture Ponds
+264. Water Quality Modeling for Carrying Capacity Assessment of Aquaculture Zones
+265. Effect of Alkalinity and Hardness on Shrimp Molting and Growth
+266. Microalgae-Based Water Treatment for Nutrient Recovery from Aquaculture Waste
+267. Hydrogen Sulfide Formation and Toxicity in Anaerobic Pond Sediments
+268. Aeration System Design and Oxygen Transfer Efficiency in Aquaculture Ponds
+269. Effect of Heavy Metal Contamination on Fish Health in Urban Aquaculture
+270. Probiotic Application for Water Quality Improvement in Shrimp Culture Ponds
+271. Seasonal Water Quality Variation and Its Impact on Aquaculture Production
+272. Aquaculture Pond Sludge Management and Valorization Strategies
+273. Effect of Salinity Fluctuation on Water Chemistry and Shrimp Stress
+274. Bioaugmentation for Ammonia and Nitrite Control in New Aquaculture Ponds
+275. Carbon Dioxide Accumulation and pH Depression in Intensive Indoor Systems
+276. Water Reuse and Recycling Strategies for Sustainable Aquaculture
+277. Effect of Organic Matter Loading on Dissolved Oxygen in Shrimp Ponds
+278. Aquaculture Waste Characterization and Environmental Impact Assessment
+279. Ozone Application for Water Disinfection and Quality Improvement in Hatcheries
+280. Effect of Pond Age on Soil Chemistry and Water Quality Parameters
+281. Integrated Constructed Wetland-Aquaculture System for Zero Discharge
+282. Monitoring of Antibiotic Residues in Aquaculture Pond Water and Sediments
+283. Effect of Stocking Density on Water Quality Deterioration Rate in Tanks
+284. Natural Zeolite Application for Ammonia Adsorption in Aquaculture Water
+285. Aquaculture-Induced Eutrophication in Indonesian Coastal Lagoons
+286. Effect of Water Source Quality on Disease Incidence in Shrimp Farms
+287. Biofloc Particle Size Distribution and Its Effect on Water Quality
+288. Greenhouse Gas (CH4, N2O) Emission from Aquaculture Ponds in Indonesia
+289. Effect of Mangrove Buffer Zone on Aquaculture Effluent Quality
+290. Smart Water Quality Management Using Machine Learning Prediction Models
+291. Microplastic Contamination in Aquaculture Pond Water and Cultured Organisms
+292. Effect of Tidal Flushing on Water Quality in Traditional Tambak Systems
+293. Aquaculture Pond Lining Materials and Their Effect on Water Chemistry
+294. Biological Oxygen Demand (BOD) Management in Intensive Fish Culture
+295. Effect of Feed Waste on Bottom Soil Quality and Hydrogen Sulfide Production
+296. Water Quality Index Development Specific to Indonesian Aquaculture Systems
+297. Nanobubble Technology for Dissolved Oxygen Enhancement in Aquaculture
+298. Effect of Climate Variability on Water Temperature and Aquaculture Production
+299. Aquaculture Pond Ecosystem Modeling for Sustainable Management
+300. Environmental Carrying Capacity Assessment for Aquaculture Development in Indonesian Bays
+
+--- CATEGORY G: Aquaculture Technology & Engineering (301-350) ---
+301. IoT-Based Automated Feeding System for Precision Aquaculture in Indonesia
+302. Solar-Powered Aeration System Design for Remote Aquaculture Ponds
+303. Machine Learning-Based Fish Disease Detection from Behavioral Analysis
+304. Recirculating Aquaculture System Engineering for Tropical Climate Conditions
+305. Drone Technology for Aquaculture Pond Monitoring and Management
+306. Automated Water Quality Control System Using PLC and Sensor Networks
+307. Computer Vision for Fish Size Estimation and Biomass Assessment
+308. Biofloc Reactor Design and Engineering for Intensive Shrimp Production
+309. Renewable Energy Integration (Solar, Wind) for Sustainable Aquaculture Operations
+310. Acoustic Feeding Detection System for Optimizing Feed Delivery in Cages
+311. Submersible Cage Design for Offshore Aquaculture in Indonesian Waters
+312. Automated Fish Sorting and Grading System Using Image Processing
+313. Smart Pond Management Platform with Cloud-Based Data Analytics
+314. Paddle Wheel Aerator Design Optimization for Indonesian Shrimp Ponds
+315. Underwater Camera System for Real-Time Fish Health Monitoring
+316. Geotextile Tube Application for Aquaculture Pond Construction
+317. Automated Harvest System Design for Intensive Shrimp Ponds
+318. Sensor Fusion for Multi-Parameter Water Quality Assessment in Aquaculture
+319. Mobile Application Development for Small-Scale Fish Farmer Decision Support
+320. Heat Pump Technology for Temperature Control in Indoor Aquaculture
+321. Electromagnetic Water Treatment for Algae Control in Aquaculture Ponds
+322. Robotic Fish Feeding System with Computer Vision-Based Appetite Assessment
+323. Floating Solar Panel Integration with Aquaculture Pond Systems
+324. Acoustic Deterrent System for Predator Control in Open-Water Aquaculture
+325. 3D-Printed Biofilter Media Design for Enhanced Nitrification in RAS
+326. Blockchain-Based Traceability System for Indonesian Aquaculture Products
+327. Automated Egg Counting and Quality Assessment System for Fish Hatcheries
+328. Modular RAS Design for Small-Scale Urban Aquaculture in Indonesia
+329. GPS and Sonar-Based Cage Monitoring System for Offshore Aquaculture
+330. Electrolyzed Water Technology for Pathogen Control in Hatcheries
+331. Artificial Intelligence for Optimal Feeding Schedule Determination
+332. Biogas Production from Aquaculture Sludge for Energy Recovery
+333. Automated Plankton Counting System for Hatchery Live Feed Management
+334. Insulated Greenhouse Design for Year-Round Aquaculture in Highland Areas
+335. RFID-Based Individual Fish Tracking for Growth Monitoring in Breeding Programs
+336. Venturi Aeration System Design for Energy-Efficient Oxygen Transfer
+337. Digital Twin Technology for Aquaculture Farm Management Optimization
+338. Automated Net Cleaning System for Marine Fish Cage Culture
+339. Low-Cost Spectrophotometer Development for On-Farm Water Quality Testing
+340. Aquaculture Pond Harvesting Machinery Design for Indonesian Conditions
+341. Edge Computing for Real-Time Decision Making in Precision Aquaculture
+342. Constructed Wetland Engineering for Multi-Stage Aquaculture Effluent Treatment
+343. Autonomous Underwater Robot for Cage Inspection and Maintenance
+344. Solar-Powered Water Pump System for Aquaculture Pond Water Exchange
+345. Machine Learning Optimization of RAS Operating Parameters
+346. Portable PCR Device Development for On-Farm Disease Diagnosis
+347. Aquaculture Pond Geomembrane Welding Quality Assessment Technology
+348. Smart Buoy System for Environmental Monitoring in Marine Aquaculture Sites
+349. Automated Larval Rearing System with Precise Environmental Control
+350. Digital Marketplace Platform Development for Indonesian Aquaculture Products
+
+--- CATEGORY H: Integrated Farming Systems (351-400) ---
+351. Integrated Multi-Trophic Aquaculture (IMTA): Shrimp-Seaweed-Sea Cucumber in Indonesian Waters
+352. Rice-Fish-Duck Integrated Farming System Productivity in Indonesian Paddy Fields
+353. Silvofishery (Mangrove-Aquaculture) System Design for Sustainable Coastal Production
+354. Aquaponics Integration of Tilapia with High-Value Vegetables in Urban Settings
+355. Integrated Shrimp-Mangrove System for Carbon Credit and Sustainable Production
+356. Fish-Vegetable Integrated System Using Biofloc Technology Effluent
+357. Integrated Duck-Fish Farming System Optimization in Indonesian Rural Areas
+358. Seaweed-Abalone Integrated Culture System in Eastern Indonesian Waters
+359. Constructed Wetland-Aquaculture Integration for Zero-Discharge Production
+360. Integrated Catfish-Vegetable System Using Aquaponics in Urban Indonesia
+361. Mangrove Crab-Milkfish-Seaweed Polyculture in Silvofishery Ponds
+362. Integrated Livestock-Fish Farming: Goat Manure Fertilization of Fish Ponds
+363. Agri-Aquaculture Integration: Irrigation Canal Fish Culture in Rice-Growing Areas
+364. Integrated Shrimp-Tilapia-Seaweed System for Nutrient Recycling
+365. Periphyton-Based Aquaculture System for Low-Input Fish Production
+366. Integrated Biofloc-Aquaponics System for Sustainable Urban Food Production
+367. Mangrove Rehabilitation Combined with Sustainable Aquaculture in Degraded Coastal Areas
+368. Fish-Crop Rotation System in Seasonal Floodplain Areas of Kalimantan
+369. Integrated Hatchery-Nursery-Grow-Out System Design for Shrimp Production
+370. Vermiculture-Aquaculture Integration for Feed and Waste Management
+371. Seaweed-Fish Integrated Cage Culture in Indonesian Coral Reef Areas
+372. Integrated Poultry-Fish Farming System Nutrient Budget Analysis
+373. Aquaculture-Tourism Integration (Edu-Tourism) Model for Coastal Communities
+374. Integrated Biogas-Aquaculture System Using Anaerobic Digestion of Fish Waste
+375. Multi-Species Polyculture Optimization Using Linear Programming Models
+376. Integrated Mangrove-Shrimp-Crab System for Ecosystem Service Valuation
+377. Aquaculture-Agriculture Water Sharing System in Water-Scarce Indonesian Regions
+378. Integrated Seaweed-Sea Urchin Culture for Coastal Community Livelihood
+379. Fish-Rice Integrated System with Biofloc Technology Application
+380. Circular Economy Approach to Integrated Aquaculture-Agriculture Systems
+381. Integrated Milkfish-Seaweed Culture in Traditional Tambak Systems
+382. Aquaculture-Renewable Energy Integration: Fish Pond Solar Sharing
+383. Integrated Freshwater Prawn-Rice Culture System in Indonesian Wetlands
+384. Mangrove-Based Integrated Aquaculture for Blue Carbon and Food Security
+385. Multi-Trophic Level Integration in Brackishwater Pond Systems
+386. Integrated Aquaculture-Halophyte Culture for Saline Land Utilization
+387. Fish-Azolla-Rice Integrated System for Sustainable Lowland Agriculture
+388. Integrated Shrimp-Oyster-Seaweed System for Coastal Nutrient Management
+389. Aquaculture Waste Composting and Application in Integrated Farming
+390. Integrated Cage Culture-Capture Fisheries Management in Reservoirs
+391. Silvopastoral-Aquaculture Integration in Indonesian Coastal Landscapes
+392. Integrated Hatchery System: Multi-Species Larval Production Facility Design
+393. Aquaculture-Wetland Integration for Biodiversity Conservation and Production
+394. Integrated Tilapia-Duckweed-Vegetable System for Nutrient Recycling
+395. Community-Based Integrated Aquaculture Management in Indonesian Fishing Villages
+396. Integrated Shrimp-Salt Production System in Indonesian Coastal Ponds
+397. Aquaculture-Ecotourism Integration Model for Marine Protected Areas
+398. Integrated Biofloc-Vermicompost-Aquaponics Circular System
+399. Multi-Commodity Integrated Farming for Food Security in Small Islands
+400. Integrated Aquaculture-Capture Fisheries Management in Indonesian Reservoirs
+
+--- CATEGORY I: Seaweed & Shellfish Culture (401-450) ---
+401. Gracilaria verrucosa Culture Optimization in Indonesian Brackishwater Ponds
+402. Kappaphycus alvarezii Strain Selection for High Carrageenan Yield
+403. Effect of Depth and Current on Seaweed (Eucheuma) Growth in Longline Culture
+404. Green Mussel (Perna viridis) Culture and Depuration in Indonesian Coastal Waters
+405. Ice-Ice Disease Management in Kappaphycus Seaweed Farms
+406. Blood Cockle (Anadara granosa) Culture and Seed Production in Tambak
+407. Seaweed Tissue Culture for Disease-Free Seedling Production
+408. Oyster (Crassostrea gigas) Spat Collection and Grow-Out in Indonesian Waters
+409. Effect of Nutrient Enrichment on Agar Quality of Gracilaria Culture
+410. Abalone (Haliotis asinina) Hatchery and Grow-Out Technology in Indonesia
+411. Sargassum Aquaculture for Alginate Production and Biofuel Feedstock
+412. Giant Clam (Tridacna gigas) Restocking and Culture in Eastern Indonesia
+413. Seaweed-Based Bioplastic Production from Indonesian Cultivated Species
+414. Scallop (Mimachlamys nobilis) Culture Potential in Indonesian Deep Waters
+415. Caulerpa lentillifera (Sea Grape) Culture for High-Value Food Product
+416. Mangrove Oyster Culture and Market Development in Indonesian Coastal Communities
+417. Effect of Climate Change (Temperature, Acidification) on Seaweed Growth
+418. Spirulina Mass Culture in Outdoor Ponds for Aquaculture Feed Production
+419. Pearl Farming (Pinctada margaritifera) Techniques in Eastern Indonesian Waters
+420. Seaweed Extract (Liquid Fertilizer, Biostimulant) Production from Cultivation Waste
+421. Winged Pearl Oyster (Pteria penguin) Mabe Pearl Production in Indonesia
+422. Gracilaria Culture in Shrimp Pond Effluent for Bioremediation and Production
+423. Effect of Epiphyte Control Methods on Seaweed Farm Productivity
+424. Ark Shell (Anadara antiquata) Seed Production and Grow-Out Technology
+425. Seaweed Genetic Improvement Through Selective Breeding and Tissue Culture
+426. Green Mussel Rope Culture Optimization in Indonesian Coastal Bays
+427. Ulva (Sea Lettuce) Culture for Integrated Multi-Trophic Aquaculture
+428. Trochus (Trochus niloticus) Restocking and Mariculture in Indonesian Reefs
+429. Seaweed Post-Harvest Processing and Quality Improvement for Export Market
+430. Pen Shell (Atrina vexillum) Culture Potential in Indonesian Shallow Waters
+431. Microalgae (Nannochloropsis, Isochrysis) Mass Culture for Hatchery Live Feed
+432. Seaweed Farm Site Selection Using Remote Sensing and GIS in Indonesia
+433. Effect of Ocean Acidification on Shell Formation in Indonesian Bivalves
+434. Spirulina-Shrimp Integrated Culture for Dual Production System
+435. Seaweed Biodiversity Assessment and Cultivation Potential in Eastern Indonesia
+436. Mussel Seed Collection Using Artificial Substrates in Indonesian Waters
+437. Carrageenan Extraction Optimization from Indonesian Kappaphycus Cultivars
+438. Sea Urchin (Tripneustes gratilla) Gonad Enhancement Through Feeding Management
+439. Seaweed Disease (Ice-Ice, Epiphyte, Endophyte) Integrated Management
+440. Geoduck Clam Culture Feasibility Assessment in Indonesian Subtidal Areas
+441. Seaweed-Based Biochar Production for Aquaculture Water Treatment
+442. Cockle Seed Relay and Grow-Out in Indonesian Intertidal Mudflats
+443. Effect of Water Motion on Seaweed Morphology and Biochemical Composition
+444. Integrated Seaweed-Fish Cage Culture for Nutrient Bioremediation
+445. Agar Quality Improvement Through Gracilaria Strain Selection and Culture Conditions
+446. Mangrove Horseshoe Crab Conservation and Aquaculture Research in Indonesia
+447. Seaweed Farming Socioeconomic Impact on Indonesian Coastal Communities
+448. Razor Clam (Solen spp.) Culture and Harvest Technology Development
+449. Macroalgae Biorefinery Concept for Multiple Product Recovery
+450. Climate-Resilient Seaweed Farming Strategies for Indonesian Small-Scale Farmers
+
+--- CATEGORY J: Sustainable & Smart Aquaculture (451-500) ---
+451. Precision Aquaculture Framework Development for Indonesian Shrimp Farming
+452. Life Cycle Assessment of Indonesian Aquaculture Production Systems
+453. Blockchain-Based Supply Chain Transparency for Sustainable Seafood in Indonesia
+454. Artificial Intelligence for Early Disease Warning in Intensive Aquaculture
+455. Carbon Footprint Reduction Strategies in Indonesian Aquaculture Industry
+456. Circular Economy Model for Zero-Waste Aquaculture Production
+457. Digital Twin Technology for Optimizing Aquaculture Farm Operations
+458. Sustainable Intensification of Traditional Tambak Systems in Indonesia
+459. Machine Learning for Optimal Harvest Time Prediction in Shrimp Farming
+460. Ecosystem Approach to Aquaculture (EAA) Implementation in Indonesian Coastal Zones
+461. Renewable Energy-Powered Aquaculture for Remote Indonesian Islands
+462. Big Data Analytics for Aquaculture Production Forecasting in Indonesia
+463. Certification (ASC, BAP) Impact on Indonesian Aquaculture Sustainability
+464. Smart Feeding Algorithm Development Using Fish Behavior Recognition
+465. Climate-Smart Aquaculture Adaptation Strategies for Indonesian Farmers
+466. Aquaculture Insurance and Risk Management Using Predictive Analytics
+467. Sustainable Feed Sourcing and Circular Nutrient Flow in Aquaculture
+468. Remote Sensing for Large-Scale Aquaculture Pond Monitoring in Indonesia
+469. Social License to Operate: Community Acceptance of Aquaculture Expansion
+470. Genetic Improvement for Climate Resilience in Indonesian Aquaculture Species
+471. Blue Economy Framework for Sustainable Marine Aquaculture Development
+472. Internet of Things (IoT) Architecture for Smart Aquaculture Farm Networks
+473. Aquaculture Spatial Planning Using GIS and Environmental Modeling
+474. Sustainable Shrimp Certification and Market Access for Indonesian Producers
+475. Artificial Intelligence for Water Quality Prediction and Proactive Management
+476. Payment for Ecosystem Services (PES) in Mangrove-Aquaculture Systems
+477. Smart Contract Application for Fair Trade in Indonesian Aquaculture
+478. Energy Efficiency Optimization in Recirculating Aquaculture Systems
+479. Aquaculture Waste Valorization: Biogas, Compost, and Nutrient Recovery
+480. Climate Change Vulnerability Assessment of Indonesian Aquaculture Sector
+481. Autonomous Monitoring and Control System for Offshore Aquaculture
+482. Sustainable Intensification Pathways for Indonesian Small-Scale Fish Farmers
+483. Digital Extension Services for Aquaculture Technology Transfer in Indonesia
+484. Microplastic Contamination Assessment in Indonesian Farmed Seafood
+485. Nature-Based Solutions for Sustainable Coastal Aquaculture Development
+486. Predictive Maintenance of Aquaculture Equipment Using Machine Learning
+487. Gender and Social Equity in Indonesian Aquaculture Value Chains
+488. Aquaculture Zoning and Conflict Resolution Using Spatial Decision Support
+489. Low-Carbon Aquaculture Feed Development from Novel Protein Sources
+490. Smart Aquaculture Village Model for Indonesian Rural Development
+491. Aquaculture Effluent Credit Trading System for Environmental Management
+492. Deep Reinforcement Learning for Autonomous Aquaculture Management
+493. Sustainable Seed Supply Chain Development for Indonesian Aquaculture
+494. Ocean Literacy and Sustainable Aquaculture Education for Coastal Communities
+495. Aquaculture-Based Livelihood Diversification for Climate-Vulnerable Fishing Communities
+496. Real-Time Market Information System for Indonesian Aquaculture Products
+497. Sustainable Aquaculture Financing and Green Bond Mechanisms
+498. Integrated Pest Management (IPM) Approach for Aquaculture Disease Control
+499. Aquaculture Contribution to Food Security and Nutrition in Indonesian Small Islands
+500. Future Aquaculture 2030: Technology Roadmap for Indonesian Sustainable Production

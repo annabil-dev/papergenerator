@@ -1,0 +1,673 @@
+================================================================================
+TOPIC GUIDE — Teknik Infrastruktur Sipil dan Arsitektur (Civil Infrastructure & Architecture Engineering)
+================================================================================
+FIELD: Engineering / Civil Infrastructure & Architecture
+DEFAULT CITATION STYLE: APA / IEEE
+SUBDISCIPLINE: Teknik Struktur, Manajemen Konstruksi, Transportasi, Infrastruktur Air & Sanitasi, Bangunan Hijau, Geoteknik & Fondasi, Building Information Modeling, Infrastruktur Cerdas
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title (specific, with method and domain)
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Building Information Modeling (BIM) using Revit, ArchiCAD, Tekla Structures
+   - Structural analysis software (SAP2000, ETABS, STAAD.Pro, ABAQUS FEA)
+   - Geotechnical investigation (CPT, SPT, geophysical survey, GIS mapping)
+   - Traffic impact analysis (VISSIM, PTV Visum, HCS, SIDRA)
+   - Construction management (CPM/PERT, Primavera P6, MS Project, Earned Value)
+   - Green building assessment (EDGE, Greenship, LEED, BREEAM)
+   - Digital twin technology for infrastructure monitoring
+   - IoT-based structural health monitoring (SHM)
+   - Machine learning for predictive maintenance of infrastructure
+   - Drone-based inspection and photogrammetry (UAV surveying)
+   - Life Cycle Assessment (LCA) for sustainable construction
+   - Parametric design (Grasshopper, Dynamo) for architectural optimization
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics with statistical measures (mean, SD, 95% CI, p-values)
+   - Comparison with baselines/controls
+   - All numbers realistic and internally consistent
+   - Typical metrics: compressive strength (MPa), deflection (mm), LOS (A-F), cost overrun (%), BIM clash reduction (%), energy efficiency (kWh/m²), carbon footprint (kgCO₂/m²)
+
+5. MATHEMATICAL FORMULAS:
+   - 5-10 relevant formulas with variable definitions
+   - Beam deflection: δ = 5wL⁴/(384EI) where w=distributed load, L=span, E=modulus, I=moment of inertia
+   - Column capacity: Pu = 0.85f'c(Ag-Ast) + fyAst where f'c=concrete strength, Ag=gross area, Ast=steel area, fy=yield strength
+   - Structural load combination: U = 1.2D + 1.6L + 0.5(Lr or S or R) per SNI 1727
+   - Concrete mix design (ACI method): w/c ratio, cement content, aggregate proportion
+   - Traffic Level of Service: V/C ratio = Volume/Capacity; LOS A (<0.60) to F (>1.00)
+   - Earthwork volume: V = (A₁ + A₂)/2 × d (average end area method)
+   - Seismic base shear: V = Cs × W where Cs=seismic coefficient, W=building weight (SNI 1726)
+   - Heat transfer: U-value = 1/(Rsi + ΣR + Rse) for building envelope thermal performance
+   - Earned Value: CPI = EV/AC; SPI = EV/PV for construction project performance
+   - Green building energy: EUI = Total Energy Consumption / Gross Floor Area (kWh/m²/year)
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian context (SNI building codes, earthquake zones, tropical climate, toll road development, MRT/LRT projects, flood-prone areas)
+   - Include references to Indonesian infrastructure: Tol Trans-Jawa, MRT Jakarta, IKN Nusantara, dam construction programs
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords, Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+ABSTRACT CHARACTERISTICS:
+  200-250 words. Reports: infrastructure/architectural engineering problem (structural performance,
+  construction efficiency, transportation capacity, sustainability), method used (FEM analysis,
+  BIM implementation, field testing, optimization), design parameters and material properties,
+  key results (strength MPa, deflection mm, cost savings %, energy reduction kWh/m²),
+  and engineering significance for Indonesian infrastructure development.
+
+INTRODUCTION ELEMENTS:
+  - Indonesian infrastructure challenge: rapid urbanization, disaster vulnerability, aging structures.
+  - National strategic projects: IKN Nusantara, Tol Trans-Jawa, MRT/LRT expansion, dam programs.
+  - Specific engineering problem: structural inadequacy, construction delays, traffic congestion, flood vulnerability.
+  - Code/standard context: SNI (Indonesian National Standard), ACI, Eurocode, AASHTO, Green Building Council Indonesia.
+  - Research gap: new material/method not tested in Indonesian conditions, BIM adoption barriers, climate adaptation.
+  - Objectives: design, analyze, optimize, or evaluate civil infrastructure/architectural system.
+
+LITERATURE REVIEW:
+  Common section name: "Literature Review" / "Tinjauan Pustaka"
+  - Structural engineering: reinforced concrete (SNI 2847, ACI 318), steel structures (SNI 1729), seismic design (SNI 1726).
+  - Construction management: project scheduling (CPM/PERT), cost estimation, risk management, lean construction.
+  - Transportation: traffic analysis (HCM), pavement design (AASHTO), geometric design, public transit planning.
+  - Green building: energy efficiency, thermal comfort, daylighting, EDGE/Greenship certification, sustainable materials.
+  - BIM: clash detection, 4D/5D BIM, interoperability (IFC), BIM adoption in developing countries.
+  - Geotechnical: soil investigation, foundation design, slope stability, ground improvement.
+  - Smart infrastructure: IoT sensors, digital twins, predictive maintenance, AI-based monitoring.
+
+METHODOLOGY:
+  Common section name: "Research Methodology" / "Metode Penelitian"
+  - Structural analysis: FEM modeling (SAP2000/ETABS/ABAQUS), load combinations (SNI 1727, SNI 1726 seismic).
+  - Material testing: concrete (SNI 1974 compressive, splitting tensile, flexural), steel tensile, aggregate gradation.
+  - BIM implementation: model creation (Revit/ArchiCAD), clash detection, quantity take-off, 4D scheduling.
+  - Traffic study: traffic counting, origin-destination survey, VISSIM simulation, LOS analysis.
+  - Green building: energy simulation (EnergyPlus, DesignBuilder), thermal comfort (PMV/PPD), daylighting (Dialux).
+  - Construction management: CPM scheduling, earned value analysis, risk assessment (Monte Carlo).
+  - Geotechnical: SPT/CPT field testing, laboratory tests (triaxial, consolidation), slope stability (SLOPE/W).
+
+TYPICAL RESULTS & DISCUSSION:
+  - Concrete compressive strength: normal 25-35 MPa; high performance 50-80 MPa; fc' 28-day.
+  - Structural deflection: within L/240 to L/360 serviceability limits.
+  - BIM clash reduction: 60-85% fewer RFIs; 10-25% cost savings in coordination.
+  - Traffic LOS improvement: from D/E to B/C after intervention.
+  - Green building: 20-40% energy reduction; EUI from 250 to 150 kWh/m²/year.
+  - Construction schedule: 15-30% time reduction with BIM/lean methods.
+  - Seismic performance: inter-story drift within 2% limit; base shear capacity adequate.
+  Tables: material properties, structural analysis results, traffic volume data, energy performance.
+  Figures: FEM stress contours, BIM model views, traffic flow diagrams, energy consumption charts.
+
+TYPICAL FIGURES:
+  - FEM stress/displacement contour plots.
+  - BIM 3D model with clash detection highlights.
+  - Traffic flow simulation screenshots (VISSIM).
+  - Structural cross-section and reinforcement details.
+  - Green building energy performance comparison charts.
+  - Construction schedule (Gantt chart / S-curve).
+
+TYPICAL TABLES:
+  - Material properties: mix | cement | w/c | slump | fc'28 (MPa) | splitting tensile.
+  - Structural results: element | load case | moment | shear | deflection | UC ratio.
+  - Traffic data: intersection | volume (PCU/hr) | V/C ratio | LOS | delay (sec).
+  - BIM metrics: phase | clashes detected | resolved | time saved | cost impact.
+  - Energy performance: strategy | baseline (kWh/m²) | proposed | reduction (%) | payback (years).
+
+CONCLUSION CHARACTERISTICS:
+  - Engineering design meets Indonesian code requirements (SNI) with adequate safety margin.
+  - Quantified improvement in performance, cost, time, or sustainability.
+  - Practical recommendations for Indonesian construction industry.
+  - Limitations: scale, assumptions, site-specific conditions, software limitations.
+  - Future: full-scale implementation, long-term monitoring, multi-hazard assessment, digital twin deployment.
+
+COMMON REFERENCE VENUES:
+  Journal of Construction Engineering and Management (ASCE), Automation in Construction,
+  Engineering Structures, Construction and Building Materials, Building and Environment,
+  Journal of Building Engineering, Sustainable Cities and Society,
+  Transportation Research Record, Jurnal Teknik Sipil ITB,
+  MATEC Web of Conferences, IOP Conference Series: Materials Science and Engineering
+
+DOMAIN VOCABULARY:
+  BIM, Revit, ArchiCAD, SAP2000, ETABS, FEM, SNI, ACI, AASHTO, seismic design,
+  compressive strength, deflection, LOS, V/C ratio, CPM, PERT, earned value,
+  Greenship, EDGE, LEED, EUI, thermal comfort, digital twin, IoT, SHM,
+  geotechnical, SPT, CPT, foundation, slope stability, reinforced concrete
+
+METHODOLOGY KEYWORDS:
+  FEM structural analysis (SAP2000/ETABS/ABAQUS), BIM implementation (Revit/ArchiCAD),
+  traffic simulation (VISSIM), energy simulation (EnergyPlus/DesignBuilder),
+  CPM/PERT scheduling, seismic analysis (SNI 1726), concrete testing (SNI 1974),
+  green building assessment (EDGE/Greenship), geotechnical investigation (SPT/CPT),
+  digital twin, IoT-based SHM, drone photogrammetry, LCA
+
+RESEARCH TOPIC BANK (500 TOPICS)
+
+CATEGORY 1 — STRUCTURAL DESIGN & ANALYSIS (001-050)
+001. Seismic performance evaluation of reinforced concrete high-rise buildings in Jakarta using nonlinear pushover analysis per SNI 1726:2019
+002. Finite element analysis of steel-concrete composite beams with partial shear connection for Indonesian commercial buildings
+003. Structural optimization of precast concrete frames for modular housing in IKN Nusantara using genetic algorithm
+004. Performance-based seismic design of irregular buildings in Sulawesi earthquake zone using ETABS nonlinear analysis
+005. Experimental study on bamboo-reinforced concrete beams as sustainable alternative for low-cost housing in rural Indonesia
+006. Progressive collapse resistance of reinforced concrete flat-slab buildings under column removal scenarios
+007. Comparative analysis of Indonesian SNI 2847 and ACI 318 provisions for shear design of deep beams
+008. Structural behavior of cold-formed steel frames with gypsum board sheathing for affordable housing
+009. Seismic vulnerability assessment of heritage colonial buildings in Semarang Old Town using fragility curves
+010. Flexural capacity enhancement of RC beams using externally bonded CFRP sheets under tropical humidity conditions
+011. Dynamic response analysis of cable-stayed bridges under moving vehicle loads using SAP2000
+012. Structural performance of geopolymer concrete columns under eccentric loading for green building applications
+013. Pushover analysis of soft-story buildings in Padang and retrofit strategies using steel bracing systems
+014. Experimental investigation of self-compacting concrete with volcanic ash from Mount Merapi as supplementary cementite
+015. Structural health monitoring of long-span bridges using wireless sensor networks and machine learning anomaly detection
+016. Seismic isolation design for hospital buildings in high-seismicity zones of Indonesia using lead rubber bearings
+017. Finite element modeling of reinforced concrete shear walls with openings under lateral seismic loading
+018. Structural assessment of existing RC buildings for vertical extension feasibility in dense urban Jakarta
+019. Experimental study on lightweight concrete using expanded polystyrene beads for earthquake-resistant infill walls
+020. Wind load analysis of tall buildings in coastal Indonesian cities using computational fluid dynamics
+021. Structural performance of bamboo laminated beams for pedestrian bridge applications in rural areas
+022. Nonlinear time-history analysis of base-isolated buildings under Indonesian recorded earthquake ground motions
+023. Experimental investigation of headed stud shear connectors in composite slabs with profiled steel decking
+024. Structural reliability analysis of aging reinforced concrete bridges using Monte Carlo simulation
+025. Seismic retrofit of non-ductile RC frames using fiber-reinforced polymer wrapping in school buildings
+026. Parametric study of steel moment-resisting frames with reduced beam section connections for seismic zones
+027. Structural behavior of prestressed concrete girders for elevated toll road sections in Java
+028. Experimental study on high-strength concrete with silica fume and superplasticizer for high-rise foundations
+029. Buckling analysis of steel plate girders with web openings for utility passage in commercial buildings
+030. Structural performance evaluation of cross-laminated timber panels for mid-rise buildings in Indonesia
+031. Seismic fragility assessment of reinforced concrete water tanks in Indonesian industrial facilities
+032. Finite element analysis of soil-structure interaction effects on building response during earthquakes
+033. Experimental investigation of fiber-reinforced concrete for tunnel lining segments in MRT Jakarta extension
+034. Structural optimization of roof truss systems using topology optimization for large-span industrial buildings
+035. Dynamic analysis of pedestrian-induced vibrations on steel footbridges in urban transit stations
+036. Structural performance of recycled aggregate concrete beams for sustainable construction in Indonesia
+037. Seismic evaluation of masonry infilled RC frames typical of Indonesian residential construction
+038. Experimental study on connection behavior of precast concrete wall panels for modular construction
+039. Structural analysis of dome structures using geodesic geometry for public assembly buildings
+040. Fatigue life assessment of steel bridge components under repeated traffic loading on Trans-Java toll road
+041. Structural behavior of concrete-filled steel tubular columns under fire conditions for high-rise buildings
+042. Experimental investigation of ultra-high performance concrete for bridge deck rehabilitation
+043. Seismic performance of dual system buildings combining moment frames and shear walls per SNI 1726
+044. Structural analysis of tensile membrane structures for stadium roofing in tropical climate conditions
+045. Experimental study on bond strength between GFRP bars and concrete for marine structure applications
+046. Structural assessment of post-tensioned concrete slabs for long-span office buildings in Jakarta CBD
+047. Nonlinear analysis of reinforced concrete coupling beams in tall building shear wall systems
+048. Experimental investigation of engineered cementitious composites for earthquake-resistant structural elements
+049. Structural performance of modular steel buildings for rapid construction of healthcare facilities
+050. Seismic microzonation-based structural design recommendations for buildings in Lombok island
+
+CATEGORY 2 — CONSTRUCTION MANAGEMENT & PLANNING (051-100)
+051. Critical success factors for BIM implementation in Indonesian construction companies using SEM-PLS analysis
+052. Earned value management application for monitoring mega-infrastructure projects in IKN Nusantara development
+053. Risk assessment of construction delays in Indonesian toll road projects using fuzzy AHP method
+054. Lean construction implementation for waste reduction in high-rise building projects in Surabaya
+055. Cost overrun prediction model for government infrastructure projects using machine learning algorithms
+056. Building Information Modeling maturity assessment of Indonesian AEC firms using capability maturity model
+057. Critical path method optimization for precast concrete construction scheduling in modular housing projects
+058. Construction safety risk assessment on high-rise building sites using bow-tie analysis method
+059. Supply chain management optimization for ready-mix concrete delivery in congested urban areas
+060. Stakeholder management framework for public-private partnership infrastructure projects in Indonesia
+061. Productivity analysis of construction workers in tropical climate conditions using time-motion study
+062. Value engineering application for cost optimization in hospital building construction projects
+063. Construction waste management strategies for achieving zero-waste targets in Indonesian building projects
+064. Project delivery method comparison (design-bid-build vs design-build) for Indonesian public infrastructure
+065. Quality management system implementation in small-medium construction contractors using ISO 9001 framework
+066. Construction dispute resolution mechanisms in Indonesian infrastructure projects using case study analysis
+067. Digital twin application for real-time construction progress monitoring in mega-projects
+068. Resource leveling optimization for multi-project construction portfolios using genetic algorithm
+069. Prefabrication adoption barriers and enablers in Indonesian construction industry using ISM method
+070. Construction project cash flow forecasting using artificial neural network and historical data
+071. Occupational health and safety management maturity in Indonesian construction companies using survey method
+072. Contract risk allocation analysis in Indonesian government construction procurement using content analysis
+073. Last planner system implementation for improving schedule reliability in Indonesian construction projects
+074. Construction equipment fleet optimization for earthwork operations using linear programming
+075. Knowledge management framework for lessons learned in Indonesian infrastructure mega-projects
+076. Green construction practices adoption by Indonesian contractors using theory of planned behavior
+077. Construction labor shortage impact assessment and mitigation strategies for Indonesian building sector
+078. Integrated project delivery implementation challenges in Indonesian construction industry
+079. Construction cost estimation accuracy improvement using building information modeling quantity take-off
+080. Schedule compression techniques comparison (crashing vs fast-tracking) for delayed infrastructure projects
+081. Construction site layout optimization using genetic algorithm for high-rise building projects
+082. Modular construction feasibility analysis for mass housing programs in Indonesian new capital city
+083. Construction project risk register development for earthquake-prone regions using Delphi method
+084. Building maintenance management system development for Indonesian government office buildings
+085. Construction productivity benchmarking across ASEAN countries using data envelopment analysis
+086. Claim management and variation order analysis in Indonesian road construction projects
+087. Construction project governance framework for preventing corruption in public infrastructure procurement
+088. Augmented reality application for construction quality inspection and defect documentation
+089. Construction material price volatility impact on project cost performance in Indonesia
+090. Collaborative planning framework for infrastructure projects involving multiple government agencies
+091. Construction robotics feasibility assessment for repetitive tasks in Indonesian building projects
+092. Project management office maturity assessment in Indonesian state-owned construction enterprises
+093. Construction insurance and bonding adequacy analysis for mega-infrastructure projects
+094. Blockchain application for construction supply chain transparency and payment automation
+095. Construction workforce competency framework development for Industry 4.0 readiness
+096. Life cycle cost analysis comparison of conventional vs green building construction in tropical climate
+097. Construction project complexity assessment framework for Indonesian infrastructure mega-projects
+098. Drone-based construction progress monitoring accuracy compared to conventional surveying methods
+099. Construction contract payment mechanism analysis (milestone vs monthly) impact on cash flow
+100. Post-occupancy evaluation framework for Indonesian public housing projects
+
+CATEGORY 3 — TRANSPORTATION INFRASTRUCTURE (101-150)
+101. Traffic impact analysis of new shopping mall development in Surabaya using VISSIM microsimulation
+102. Pavement performance evaluation of Indonesian national roads using International Roughness Index measurement
+103. Public transit ridership forecasting for MRT Jakarta Phase 3 extension using discrete choice modeling
+104. Geometric design optimization of highway interchanges for Trans-Java toll road using AutoCAD Civil 3D
+105. Traffic signal optimization at congested intersections in Bandung using Webster method and VISSIM
+106. Flexible pavement structural design comparison between AASHTO 1993 and Mechanistic-Empirical methods
+107. Transit-oriented development impact on property values near MRT Jakarta stations using hedonic pricing
+108. Road safety audit methodology for accident-prone locations on Indonesian national highways
+109. Bus rapid transit system performance evaluation in Indonesian cities using DEA efficiency analysis
+110. Rigid pavement joint design optimization for heavy vehicle corridors in industrial estate access roads
+111. Pedestrian level of service assessment at transit stations using HCM methodology and video analysis
+112. Asphalt mixture performance with plastic waste modifier for sustainable road construction in Indonesia
+113. Intelligent transportation system implementation framework for Indonesian toll road management
+114. Motorcycle traffic behavior modeling at unsignalized intersections in Indonesian urban areas
+115. Bridge load rating assessment for overloaded truck routes on provincial roads using AASHTO LRFR
+116. Parking demand management strategies for central business districts in Indonesian metropolitan cities
+117. Railway track geometry deterioration prediction using machine learning for Indonesian rail network
+118. Complete streets design implementation for pedestrian and cyclist safety in Indonesian cities
+119. Airport runway pavement evaluation using falling weight deflectometer and remaining life analysis
+120. Traffic congestion cost estimation for Indonesian metropolitan areas using speed-flow relationships
+121. Electric vehicle charging infrastructure planning for Indonesian urban corridors using GIS analysis
+122. Road drainage design optimization for flood-prone areas in Indonesian coastal cities
+123. Freight transportation mode choice analysis for Java-Sumatra corridor using stated preference survey
+124. Roundabout capacity analysis at Indonesian urban intersections using gap acceptance theory
+125. Highway capacity improvement through managed lanes and ramp metering on Jakarta-Cikampek toll road
+126. Non-motorized transport infrastructure design standards for Indonesian secondary cities
+127. Pavement maintenance prioritization using pavement condition index and budget optimization model
+128. Light rail transit alignment selection for Surabaya using multi-criteria decision analysis
+129. Traffic calming measures effectiveness evaluation in Indonesian residential areas using before-after study
+130. Port access road capacity analysis for supporting Indonesian maritime logistics hub development
+131. Autonomous vehicle infrastructure readiness assessment for Indonesian toll road network
+132. Road embankment stability analysis on soft soil using geosynthetic reinforcement in Kalimantan
+133. Public transport integration framework for multimodal connectivity in Indonesian metropolitan areas
+134. Highway work zone traffic management optimization using temporary traffic control simulation
+135. Concrete pavement recycling feasibility for Indonesian road rehabilitation projects
+136. Travel demand management strategies for reducing private vehicle dependency in Jakarta
+137. Bridge scour assessment and countermeasure design for river crossings in flood-prone regions
+138. Motorcycle-dedicated lane design and safety evaluation for Indonesian arterial roads
+139. Smart traffic management system using IoT sensors and AI for adaptive signal control
+140. Road geometric design for mountainous terrain in Indonesian highland areas using optimization
+141. Public transport accessibility analysis for persons with disabilities in Indonesian cities
+142. Toll road concession financial feasibility analysis using Monte Carlo risk simulation
+143. Intersection channelization design for improving traffic flow and safety at complex junctions
+144. Sustainable urban mobility plan development framework for Indonesian medium-sized cities
+145. Pavement temperature prediction model for tropical climate asphalt performance evaluation
+146. High-speed rail alignment optimization for Jakarta-Surabaya corridor using GIS multi-criteria
+147. Traffic noise barrier design and effectiveness evaluation for residential areas near toll roads
+148. Bicycle-sharing system demand prediction for Indonesian university campuses using machine learning
+149. Road network resilience assessment under flood disaster scenarios in Indonesian coastal cities
+150. Overloaded vehicle detection system using weigh-in-motion technology for Indonesian national roads
+
+CATEGORY 4 — WATER & SANITATION INFRASTRUCTURE (151-200)
+151. Urban flood mitigation through green infrastructure implementation in Jakarta using SWMM modeling
+152. Water distribution network optimization for reducing non-revenue water in Indonesian cities using EPANET
+153. Constructed wetland design for domestic wastewater treatment in Indonesian rural communities
+154. Rainwater harvesting system design and feasibility for water-scarce islands in Eastern Indonesia
+155. Sewer network rehabilitation prioritization using condition assessment and risk-based approach
+156. Flood early warning system development using IoT water level sensors in Indonesian river basins
+157. Decentralized wastewater treatment system performance evaluation for Indonesian peri-urban settlements
+158. Water quality modeling of urban rivers in Indonesia using QUAL2K for pollution control planning
+159. Stormwater management using bioretention systems in Indonesian tropical urban areas
+160. Drinking water treatment plant optimization for removing iron and manganese in groundwater sources
+161. Dam safety assessment and risk analysis for aging Indonesian irrigation dams using FMEA method
+162. Greywater recycling system design for water conservation in Indonesian high-rise apartments
+163. Flood inundation mapping using HEC-RAS 2D modeling for Indonesian river floodplains
+164. Water supply demand forecasting for Indonesian new urban development areas using system dynamics
+165. Membrane bioreactor performance for industrial wastewater treatment in Indonesian textile factories
+166. Urban drainage master plan development for climate change adaptation in Indonesian coastal cities
+167. Groundwater recharge assessment using isotope hydrology in over-exploited aquifers of Java island
+168. Fecal sludge management system design for Indonesian cities without sewerage networks
+169. Pipe material selection optimization for water distribution considering seismic vulnerability
+170. Integrated water resources management framework for Indonesian river basin organizations
+171. Desalination plant feasibility analysis for water supply in Indonesian small islands
+172. Combined sewer overflow control strategies for Indonesian cities during extreme rainfall events
+173. Water loss reduction program effectiveness evaluation in Indonesian municipal water utilities (PDAM)
+174. Anaerobic digestion system design for organic waste and wastewater co-treatment in Indonesian markets
+175. Flood retention pond design optimization for new township development in Indonesian lowland areas
+176. Water quality index development for Indonesian urban rivers using multivariate statistical analysis
+177. Smart water metering implementation for demand management in Indonesian residential areas
+178. Tidal flood adaptation infrastructure design for Indonesian coastal communities affected by land subsidence
+179. Wastewater reuse feasibility for agricultural irrigation in water-stressed regions of East Java
+180. Micro-hydropower potential assessment in Indonesian rural water supply systems
+181. Sponge city concept implementation framework for Indonesian urban flood management
+182. Water treatment residuals management and beneficial reuse options for Indonesian water utilities
+183. Septic tank performance evaluation and improvement strategies for Indonesian urban households
+184. Climate change impact assessment on water supply reliability for Indonesian metropolitan areas
+185. Floating wetland system design for urban lake water quality improvement in Indonesian cities
+186. Water-energy nexus optimization for Indonesian water supply and wastewater systems
+187. Community-based water supply management model for Indonesian rural areas using action research
+188. Leachate treatment system design for Indonesian municipal solid waste landfills
+189. Real-time flood monitoring and prediction system using machine learning for Indonesian urban catchments
+190. Water safety plan implementation effectiveness in Indonesian small-town water supply systems
+191. Permeable pavement performance for stormwater management in Indonesian parking lot applications
+192. Irrigation canal modernization using SCADA system for water efficiency in Indonesian rice fields
+193. Coastal aquifer saltwater intrusion modeling and management in Indonesian northern Java coast
+194. Nature-based solutions for riverbank erosion control in Indonesian urban waterways
+195. Water distribution system resilience assessment under earthquake scenarios for Indonesian cities
+196. Decentralized drinking water treatment using ceramic membrane filters for Indonesian remote communities
+197. Urban wetland conservation and restoration for flood mitigation in Indonesian metropolitan areas
+198. Wastewater surveillance system for public health monitoring in Indonesian urban areas
+199. Gravity-fed water supply system optimization for Indonesian mountainous rural communities
+200. Integrated flood management combining structural and non-structural measures for Indonesian river basins
+
+CATEGORY 5 — GREEN BUILDING & SUSTAINABILITY (201-250)
+201. Greenship certification impact on building energy performance in Indonesian commercial buildings
+202. Thermal comfort optimization in naturally ventilated buildings using computational fluid dynamics
+203. Life cycle assessment of conventional vs green building materials in Indonesian tropical climate
+204. Solar photovoltaic system integration in building facade design for net-zero energy buildings
+205. Green roof performance evaluation for thermal insulation and stormwater management in Jakarta
+206. Daylighting optimization in office buildings using parametric design and Radiance simulation
+207. Embodied carbon assessment of Indonesian construction materials using cradle-to-gate LCA methodology
+208. Passive cooling strategies effectiveness for residential buildings in Indonesian hot-humid climate
+209. EDGE certification cost-benefit analysis for Indonesian affordable housing developments
+210. Indoor air quality assessment in green-certified vs conventional office buildings in Jakarta
+211. Sustainable material selection framework for Indonesian construction using multi-criteria decision analysis
+212. Building energy audit methodology and retrofit recommendations for Indonesian government buildings
+213. Cross-laminated timber feasibility as sustainable structural material for Indonesian mid-rise buildings
+214. Rainwater harvesting integration in green building design for water credit in Greenship certification
+215. Thermal performance of double-skin facade systems in Indonesian high-rise office buildings
+216. Waste management strategies during construction for achieving green building certification requirements
+217. Bioclimatic architecture design principles application for Indonesian tropical residential buildings
+218. Energy-efficient HVAC system selection for Indonesian commercial buildings using life cycle cost analysis
+219. Green building rating system comparison (Greenship vs EDGE vs LEED) for Indonesian context
+220. Sustainable urban drainage integration in green building site design for Indonesian developments
+221. Building envelope optimization for energy efficiency using genetic algorithm and EnergyPlus simulation
+222. Recycled concrete aggregate performance evaluation for green building structural applications
+223. Net-zero energy building design feasibility for Indonesian tropical office buildings
+224. Green building occupant satisfaction and productivity assessment using post-occupancy evaluation
+225. Bamboo as sustainable construction material: structural performance and durability in Indonesian climate
+226. Building-integrated photovoltaic system design optimization for Indonesian commercial buildings
+227. Water efficiency strategies and technologies for green building certification in Indonesian hotels
+228. Sustainable site planning using ecological footprint analysis for Indonesian new township development
+229. Phase change materials application for thermal energy storage in Indonesian building envelopes
+230. Green building construction cost premium analysis and return on investment for Indonesian developers
+231. Adaptive reuse of heritage buildings with green building principles in Indonesian historic districts
+232. Vertical greenery system performance for building cooling and air quality in tropical urban areas
+233. Sustainable concrete production using industrial waste (fly ash, slag, rice husk ash) in Indonesia
+234. Building performance simulation accuracy validation for Indonesian tropical climate conditions
+235. Green building policy effectiveness evaluation in Indonesian major cities using comparative analysis
+236. Circular economy principles application in Indonesian construction and demolition waste management
+237. Natural ventilation design optimization for Indonesian educational buildings using CFD analysis
+238. Sustainable transportation infrastructure integration in green building site planning
+239. Building material transparency and environmental product declaration adoption in Indonesian market
+240. Tropical green building design guidelines development based on local climate and cultural context
+241. Energy performance gap analysis between design prediction and actual operation in Indonesian buildings
+242. Sustainable prefabrication system development for reducing construction waste in Indonesian projects
+243. Green building financial incentive effectiveness for promoting sustainable construction in Indonesia
+244. Acoustic comfort optimization in green building design for Indonesian open-plan offices
+245. Biomimicry-inspired building design for energy efficiency in Indonesian tropical architecture
+246. Green building commissioning process framework for ensuring design intent achievement
+247. Sustainable landscape design integration for microclimate improvement in Indonesian building complexes
+248. Building decarbonization roadmap development for Indonesian commercial building sector
+249. Resilient green building design for multi-hazard (earthquake, flood, fire) Indonesian conditions
+250. Post-pandemic healthy building design strategies incorporating green building principles
+
+CATEGORY 6 — GEOTECHNICAL & FOUNDATION (251-300)
+251. Soft soil improvement using prefabricated vertical drains for toll road embankment in Kalimantan
+252. Pile foundation design optimization for high-rise buildings on Jakarta soft clay using PLAXIS 3D
+253. Slope stability analysis of cut slopes along mountainous roads in West Java using limit equilibrium
+254. Ground improvement using deep soil mixing for industrial building foundations on soft ground
+255. Liquefaction potential assessment and mitigation for coastal infrastructure in Sulawesi earthquake zone
+256. Laterite soil stabilization using lime and cement for rural road subgrade improvement in Papua
+257. Retaining wall design comparison (gravity, cantilever, MSE) for highway cut sections in hilly terrain
+258. Bearing capacity of bored piles in weathered rock formation using static load test and PDA
+259. Geosynthetic-reinforced soil wall performance monitoring for bridge approach embankment
+260. Expansive clay soil characterization and foundation design strategies for buildings in East Nusa Tenggara
+261. Tunnel boring machine performance prediction in mixed ground conditions for MRT Jakarta extension
+262. Soil-pile interaction analysis under lateral seismic loading using p-y curve method
+263. Ground subsidence monitoring and prediction in Jakarta using InSAR and geotechnical modeling
+264. Stone column ground improvement effectiveness for reducing settlement of embankment on soft soil
+265. Shallow foundation design on coral limestone for coastal infrastructure in Eastern Indonesia
+266. Geotechnical investigation and foundation recommendation for high-rise buildings in reclaimed land areas
+267. Landslide susceptibility mapping using GIS and machine learning for Indonesian mountainous regions
+268. Micropile foundation design for building underpinning in congested urban areas of Jakarta
+269. Soil nailing design and performance evaluation for excavation support in Indonesian urban construction
+270. Peat soil engineering properties and foundation challenges for infrastructure in Sumatran peatlands
+271. Diaphragm wall design for deep basement excavation in Jakarta soft clay using PLAXIS 2D
+272. Geotechnical earthquake engineering assessment for critical infrastructure in Indonesian seismic zones
+273. Soil bioengineering techniques for slope erosion control along Indonesian river banks
+274. Jet grouting application for ground improvement beneath existing structures in settlement-prone areas
+275. Geotechnical characterization of volcanic soil deposits for foundation design in Indonesian highlands
+276. Sheet pile cofferdam design for bridge pier construction in Indonesian river crossings
+277. Ground anchor design and testing for deep excavation support in Indonesian urban projects
+278. Geotechnical risk assessment framework for Indonesian infrastructure projects using probabilistic methods
+279. Soil-structure interaction effects on seismic response of buildings on soft soil deposits
+280. Compaction grouting effectiveness for sinkhole remediation in karst terrain of Indonesian limestone areas
+281. Geotechnical monitoring instrumentation program design for large-scale embankment construction
+282. Foundation design for offshore wind turbine structures in Indonesian shallow water conditions
+283. Residual soil slope stability under rainfall infiltration conditions in Indonesian tropical climate
+284. Ground freezing technique feasibility for tunnel construction in water-bearing soil layers
+285. Geotechnical aspects of underground utility installation in congested Indonesian urban corridors
+286. Raft foundation design optimization for high-rise buildings using finite element soil modeling
+287. Soil improvement using bio-cementation (MICP) for sustainable ground engineering applications
+288. Geotechnical investigation methods comparison (SPT vs CPT vs DMT) for Indonesian soil conditions
+289. Earthquake-induced lateral spreading assessment for bridge foundations near river channels
+290. Geotechnical design of sea wall and coastal protection structures for Indonesian reclamation projects
+291. Vacuum consolidation technique for accelerating soft soil settlement in port development areas
+292. Geotechnical challenges and solutions for infrastructure construction on Indonesian peat deposits
+293. Pile group effect analysis for closely-spaced piles in soft clay using numerical modeling
+294. Geotechnical site characterization using geophysical methods (MASW, GPR) for Indonesian projects
+295. Soil reinforcement using geogrid for unpaved road construction in Indonesian rural areas
+296. Deep excavation-induced ground movement prediction and building damage assessment in urban areas
+297. Geotechnical design of mechanically stabilized earth walls for Indonesian highway applications
+298. Soil thermal properties assessment for ground-source heat pump feasibility in Indonesian buildings
+299. Geotechnical aspects of dam foundation treatment using grouting in Indonesian volcanic geology
+300. Innovative foundation solutions for infrastructure on problematic soils in Indonesian archipelago
+
+CATEGORY 7 — BUILDING INFORMATION MODELING (301-350)
+301. BIM adoption barriers and enablers in Indonesian construction SMEs using technology acceptance model
+302. 4D BIM implementation for construction scheduling and progress visualization in toll road projects
+303. Clash detection effectiveness using BIM for MEP coordination in Indonesian hospital building projects
+304. BIM-based quantity take-off accuracy comparison with conventional methods for cost estimation
+305. Interoperability challenges in BIM implementation across Indonesian AEC project stakeholders
+306. BIM Level 2 mandate readiness assessment for Indonesian government construction procurement
+307. 5D BIM application for real-time cost monitoring in Indonesian high-rise building construction
+308. BIM-based facility management framework for Indonesian commercial building operations
+309. Digital twin development using BIM and IoT for structural health monitoring of bridges
+310. BIM implementation return on investment analysis for Indonesian medium-sized contractors
+311. BIM-based energy analysis integration for green building design optimization in tropical climate
+312. Collaborative BIM workflow development for integrated project delivery in Indonesian projects
+313. BIM-based safety planning and hazard identification for Indonesian construction sites
+314. Scan-to-BIM methodology for existing building documentation and renovation planning
+315. BIM execution plan development framework for Indonesian public infrastructure projects
+316. BIM-based prefabrication coordination for modular construction in Indonesian housing projects
+317. Cloud-based BIM collaboration platform evaluation for Indonesian distributed project teams
+318. BIM-based regulatory compliance checking automation for Indonesian building permit process
+319. BIM maturity model development for Indonesian construction industry benchmarking
+320. BIM-based construction waste estimation and minimization strategies for sustainable projects
+321. Heritage building documentation using BIM and photogrammetry for Indonesian cultural preservation
+322. BIM-based structural analysis integration workflow for Indonesian engineering consultants
+323. BIM implementation in Indonesian university curriculum: gap analysis and framework development
+324. BIM-based asset management system for Indonesian toll road infrastructure maintenance
+325. Augmented reality integration with BIM for on-site construction quality inspection
+326. BIM-based fire safety design and evacuation simulation for Indonesian high-rise buildings
+327. BIM data exchange standards (IFC) implementation challenges in Indonesian software ecosystem
+328. BIM-based landscape design integration for green building site planning in tropical context
+329. Machine learning integration with BIM for construction defect prediction and prevention
+330. BIM-based construction logistics planning for congested urban sites in Indonesian cities
+331. BIM implementation impact on project performance metrics in Indonesian construction industry
+332. BIM-based seismic vulnerability assessment workflow for existing Indonesian building stock
+333. Common data environment implementation for BIM-based project collaboration in Indonesia
+334. BIM-based sustainable material selection and environmental impact assessment tool development
+335. GIS-BIM integration for urban infrastructure planning and management in Indonesian cities
+336. BIM-based construction robot path planning for automated building construction tasks
+337. BIM implementation governance framework for Indonesian state-owned construction enterprises
+338. BIM-based building performance optimization using parametric design and genetic algorithm
+339. BIM-based construction claim documentation and dispute resolution support system
+340. Digital twin framework for smart building operations using BIM and IoT sensor data
+341. BIM-based accessibility design compliance checking for Indonesian public buildings
+342. BIM implementation cost-benefit analysis for different project sizes in Indonesian context
+343. BIM-based construction schedule risk analysis using Monte Carlo simulation integration
+344. Open BIM standards adoption challenges and solutions for Indonesian construction industry
+345. BIM-based post-disaster building damage assessment and reconstruction planning framework
+346. BIM-based MEP system design optimization for energy efficiency in Indonesian buildings
+347. BIM implementation roadmap for Indonesian construction industry digital transformation
+348. BIM-based construction quality management system with automated inspection checklist
+349. BIM and blockchain integration for construction supply chain transparency in Indonesian projects
+350. BIM-based life cycle cost analysis tool for Indonesian infrastructure investment decisions
+
+CATEGORY 8 — INFRASTRUCTURE MAINTENANCE & REHABILITATION (351-400)
+351. Bridge condition assessment and maintenance prioritization for Indonesian national road network
+352. Pavement management system development for Indonesian provincial road maintenance planning
+353. Structural health monitoring system design for long-span bridges using fiber optic sensors
+354. Building condition assessment methodology for Indonesian government asset management
+355. Concrete structure repair and strengthening techniques comparison for aging Indonesian infrastructure
+356. Predictive maintenance model for water distribution pipeline using machine learning algorithms
+357. Road maintenance budget optimization using multi-objective programming for Indonesian local governments
+358. Corrosion assessment and cathodic protection design for Indonesian coastal concrete structures
+359. Dam safety monitoring system using IoT sensors and real-time data analytics
+360. Building facade maintenance planning using drone inspection and image processing technology
+361. Pavement overlay design using falling weight deflectometer data for Indonesian toll road rehabilitation
+362. Structural assessment of earthquake-damaged buildings for repair vs demolition decision making
+363. Infrastructure asset management framework development for Indonesian municipal governments
+364. Concrete crack detection and classification using deep learning and drone-captured images
+365. Bridge deck waterproofing system performance evaluation under Indonesian tropical climate conditions
+366. Preventive maintenance scheduling optimization for building mechanical systems using reliability analysis
+367. Road surface distress detection using smartphone-based sensors and machine learning classification
+368. Structural strengthening of existing RC columns using steel jacketing for seismic upgrade
+369. Water treatment plant equipment maintenance optimization using reliability-centered maintenance approach
+370. Building energy retrofit prioritization for Indonesian government office buildings using AHP method
+371. Pipeline condition assessment using acoustic emission monitoring for Indonesian water utilities
+372. Concrete carbonation depth prediction model for Indonesian reinforced concrete structures
+373. Infrastructure resilience assessment and recovery planning for post-disaster rehabilitation
+374. Elevator and escalator maintenance management system for Indonesian commercial buildings
+375. Road rehabilitation project selection using geographic information system and multi-criteria analysis
+376. Structural fire damage assessment and repair methodology for Indonesian concrete buildings
+377. Green infrastructure maintenance requirements and cost analysis for Indonesian urban areas
+378. Bridge bearing replacement planning using condition monitoring and remaining life prediction
+379. Building roofing system maintenance and replacement scheduling for tropical climate conditions
+380. Tunnel inspection and maintenance system using autonomous robot and LiDAR scanning
+381. Concrete structure service life prediction using chloride diffusion modeling in marine environment
+382. Infrastructure maintenance workforce competency development framework for Indonesian technicians
+383. Pavement recycling techniques (cold in-place, hot in-place) feasibility for Indonesian road rehabilitation
+384. Building plumbing system maintenance and water loss reduction in aging Indonesian buildings
+385. Structural monitoring of historical buildings during adjacent construction activities in urban areas
+386. Road drainage maintenance impact on pavement performance in Indonesian high-rainfall areas
+387. Bridge load testing methodology for structural capacity verification of aging Indonesian bridges
+388. Building automation system retrofit for energy efficiency improvement in existing Indonesian buildings
+389. Infrastructure maintenance data management system using GIS and database integration
+390. Concrete repair material selection and performance evaluation for Indonesian tropical conditions
+391. Predictive analytics for infrastructure failure prevention using historical maintenance records
+392. Building envelope waterproofing rehabilitation for Indonesian high-rise buildings with water ingress
+393. Railway track maintenance optimization using tamping machine scheduling and track geometry data
+394. Infrastructure maintenance contract performance evaluation framework for Indonesian public works
+395. Structural assessment of fire-damaged steel structures and repair strategy development
+396. Smart maintenance system for Indonesian toll road using IoT and artificial intelligence
+397. Building foundation settlement monitoring and remediation for structures on consolidating soil
+398. Pavement preservation treatment selection and timing optimization for Indonesian road networks
+399. Infrastructure maintenance budget allocation model using risk-based prioritization approach
+400. Post-earthquake rapid assessment methodology for Indonesian infrastructure damage evaluation
+
+CATEGORY 9 — DISASTER-RESILIENT INFRASTRUCTURE (401-450)
+401. Earthquake-resistant building design for Indonesian school buildings using base isolation technology
+402. Tsunami evacuation infrastructure planning for Indonesian coastal communities using agent-based simulation
+403. Flood-resilient road design for Indonesian lowland areas using elevated embankment and drainage systems
+404. Seismic microzonation mapping for infrastructure planning in Indonesian earthquake-prone cities
+405. Landslide early warning system development using IoT sensors for Indonesian mountainous roads
+406. Multi-hazard risk assessment framework for Indonesian critical infrastructure facilities
+407. Earthquake damage prediction model for Indonesian building typologies using fragility functions
+408. Flood-proof building design strategies for Indonesian riverine and coastal settlements
+409. Seismic retrofit prioritization of Indonesian public buildings using rapid visual screening
+410. Disaster-resilient water supply system design for Indonesian earthquake-prone regions
+411. Tsunami-resistant coastal infrastructure design using breakwater and sea wall combinations
+412. Building collapse risk assessment during earthquakes using nonlinear dynamic analysis
+413. Flood barrier and levee system design for protecting Indonesian urban areas from river flooding
+414. Seismic performance of Indonesian traditional wooden houses (Rumah Gadang, Joglo) analysis
+415. Disaster recovery infrastructure planning framework for Indonesian post-earthquake reconstruction
+416. Volcanic hazard-resistant infrastructure design for settlements near active Indonesian volcanoes
+417. Earthquake early warning system integration with building automated response systems
+418. Flood-resilient bridge design for Indonesian river crossings in high-flood-risk areas
+419. Seismic vulnerability assessment of Indonesian hospital buildings using FEMA P-154 methodology
+420. Climate change adaptation strategies for Indonesian coastal infrastructure against sea level rise
+421. Disaster-resilient power grid infrastructure design for Indonesian earthquake and tsunami zones
+422. Building structural redundancy assessment for progressive collapse prevention under blast loading
+423. Flood damage estimation model for Indonesian urban infrastructure using depth-damage functions
+424. Seismic isolation and energy dissipation device application for Indonesian bridge structures
+425. Disaster-resilient communication infrastructure design for maintaining connectivity during emergencies
+426. Earthquake-triggered landslide risk assessment for Indonesian road infrastructure in mountainous terrain
+427. Flood-resilient urban drainage infrastructure design using climate change rainfall projections
+428. Seismic performance evaluation of Indonesian precast concrete building systems
+429. Disaster preparedness infrastructure assessment for Indonesian industrial estate facilities
+430. Tsunami vertical evacuation building design requirements for Indonesian coastal urban areas
+431. Multi-hazard resilient design of Indonesian port infrastructure (earthquake, tsunami, storm surge)
+432. Building damage assessment using satellite imagery and machine learning after Indonesian earthquakes
+433. Flood-resilient sanitation infrastructure design for Indonesian low-lying urban settlements
+434. Seismic strengthening of Indonesian masonry buildings using ferrocement and wire mesh
+435. Disaster-resilient transportation network design for evacuation route optimization
+436. Volcanic ash impact assessment on building structures and infrastructure in Indonesian context
+437. Earthquake-resilient lifeline infrastructure (water, gas, electricity) design for Indonesian cities
+438. Flood early warning infrastructure network optimization for Indonesian river basin management
+439. Seismic risk assessment of Indonesian dam infrastructure using probabilistic methods
+440. Climate-resilient road pavement design for Indonesian areas with extreme temperature and rainfall
+441. Disaster-resilient housing design guidelines for Indonesian earthquake and flood-prone regions
+442. Tsunami debris impact force estimation for structural design of coastal infrastructure
+443. Flood-resilient electrical substation design for Indonesian power distribution infrastructure
+444. Seismic performance of Indonesian reinforced concrete buildings with vertical irregularities
+445. Disaster recovery logistics infrastructure planning for Indonesian archipelago emergency response
+446. Earthquake-resistant non-structural component design for Indonesian hospital and school buildings
+447. Flood-resilient agricultural infrastructure design for Indonesian rice field irrigation systems
+448. Multi-hazard early warning system infrastructure design for Indonesian disaster-prone communities
+449. Seismic resilience assessment framework for Indonesian urban infrastructure systems
+450. Disaster-resilient building code development recommendations for Indonesian construction practice
+
+CATEGORY 10 — SMART INFRASTRUCTURE & IoT (451-500)
+451. IoT-based structural health monitoring system for Indonesian long-span cable-stayed bridges
+452. Smart traffic management system using AI and IoT sensors for Indonesian urban intersections
+453. Digital twin framework for real-time infrastructure performance monitoring and prediction
+454. Smart building energy management system using IoT and machine learning for Indonesian offices
+455. Automated crack detection in concrete infrastructure using computer vision and deep learning
+456. Smart water distribution network monitoring using IoT sensors and leak detection algorithms
+457. Connected vehicle infrastructure requirements for Indonesian toll road intelligent transportation
+458. Smart parking system design using IoT sensors and mobile application for Indonesian cities
+459. Infrastructure digital twin development for predictive maintenance of Indonesian toll roads
+460. IoT-based flood monitoring and early warning system for Indonesian urban drainage infrastructure
+461. Smart street lighting system using IoT and adaptive control for Indonesian urban roads
+462. Automated bridge inspection using drone and AI-based damage classification system
+463. Smart construction site monitoring using IoT sensors for safety and productivity improvement
+464. Digital twin-based building energy optimization for Indonesian commercial building operations
+465. IoT-based landslide monitoring system for Indonesian mountainous road infrastructure
+466. Smart waste collection system using IoT fill-level sensors for Indonesian urban areas
+467. Connected infrastructure platform for integrated asset management of Indonesian road networks
+468. Smart building facade system with automated shading for tropical climate energy optimization
+469. IoT-based air quality monitoring network for Indonesian urban infrastructure planning
+470. Automated pavement condition assessment using vehicle-mounted sensors and machine learning
+471. Smart grid integration with building energy systems for demand response in Indonesian context
+472. IoT-based construction equipment tracking and utilization optimization system
+473. Digital twin for water treatment plant operation optimization in Indonesian municipal utilities
+474. Smart tunnel ventilation and safety monitoring system using IoT and AI analytics
+475. Autonomous inspection robot for confined space infrastructure assessment in Indonesian facilities
+476. IoT-based real-time traffic data collection for Indonesian transportation planning and modeling
+477. Smart building occupancy detection and HVAC optimization using IoT sensors and AI
+478. Connected construction site safety system using wearable IoT devices and geofencing
+479. Digital twin-based seismic response prediction for Indonesian instrumented buildings
+480. Smart irrigation infrastructure using IoT soil moisture sensors for Indonesian agriculture
+481. IoT-based corrosion monitoring system for Indonesian coastal and marine infrastructure
+482. Automated construction progress tracking using computer vision and BIM comparison
+483. Smart dam monitoring system using IoT sensors and machine learning anomaly detection
+484. Digital twin for Indonesian airport infrastructure operations and maintenance optimization
+485. IoT-based vibration monitoring for Indonesian railway infrastructure condition assessment
+486. Smart building fire detection and evacuation guidance system using IoT and AI
+487. Connected vehicle-to-infrastructure communication system design for Indonesian highway safety
+488. IoT-based environmental monitoring for green building performance verification
+489. Automated structural inspection of Indonesian high-rise buildings using climbing robots
+490. Smart port infrastructure monitoring using IoT for Indonesian maritime logistics efficiency
+491. Digital twin-based construction simulation for Indonesian mega-infrastructure project planning
+492. IoT-based slope monitoring system for Indonesian highway cut slope stability assessment
+493. Smart building access control and security system using IoT and facial recognition
+494. Connected infrastructure resilience monitoring during natural disasters in Indonesian context
+495. IoT-based noise and vibration monitoring for construction impact assessment in urban areas
+496. Smart road surface condition monitoring using connected vehicle sensor data in Indonesia
+497. Digital twin for Indonesian MRT/LRT infrastructure operations and predictive maintenance
+498. IoT-based structural load monitoring for Indonesian bridges under heavy traffic conditions
+499. Smart city infrastructure integration framework for Indonesian new capital city (IKN) development
+500. Autonomous drone-based infrastructure inspection system for Indonesian remote area facilities

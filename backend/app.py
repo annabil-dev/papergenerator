@@ -501,9 +501,15 @@ def upload_pdfs():
             filename = f.filename.lower()
             if filename.endswith('.pdf'):
                 text = extract_text_from_pdf(f.stream)
-            elif filename.endswith('.docx'):
-                # Extract text from DOCX
-                doc = Document(f.stream)
+            elif filename.endswith('.docx') or filename.endswith('.doc'):
+                # Extract text from DOCX/DOC
+                import io
+                from docx import Document  # noqa: PLC0415
+                
+                # Read stream into BytesIO for docx library
+                stream_data = f.stream.read()
+                doc_stream = io.BytesIO(stream_data)
+                doc = Document(doc_stream)
                 text = "\n".join([para.text for para in doc.paragraphs])
             else:
                 warnings.append(f"{f.filename}: format tidak didukung (hanya PDF dan DOCX)")

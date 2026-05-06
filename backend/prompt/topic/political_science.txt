@@ -5,8 +5,57 @@ FIELD: Social Sciences / Political Science
 DEFAULT CITATION STYLE: APA
 SUBDISCIPLINE: Ilmu Politik, Hubungan Internasional, Kebijakan Publik, Pemerintahan, Demokrasi
 
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Process tracing for causal mechanism identification
+   - Comparative case study with structured focused comparison
+   - QCA (Qualitative Comparative Analysis) for medium-N studies
+   - Survey experiments for causal inference in political behavior
+   - Text-as-data methods (topic modeling, sentiment analysis of political texts)
+   - Computational political science with Python/R
+   - Network analysis of political alliances and policy networks
+   - Spatial analysis of elections and political geography
+   - Difference-in-differences for policy impact evaluation
+   - Mixed-methods with nested analysis design
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics with statistical measures
+   - All numbers realistic and internally consistent
+
+5. MATHEMATICAL FORMULAS (where applicable):
+   - Effective Number of Parties (Laakso-Taagepera): N = 1 / sum(pi^2) where pi = vote/seat share of party i
+   - Disproportionality Index (Gallagher): LSq = sqrt(0.5 * sum((vi - si)^2)) where vi = vote share, si = seat share
+   - Voter Turnout Rate = (Valid Votes Cast / Registered Voters) x 100
+   - Swing Analysis: Swing = (Party A gain + Party B loss) / 2
+   - Power Index (Shapley-Shubik): phi_i = sum[s!(n-s-1)!/n!] for all coalitions where i is pivotal
+   - Fragmentation Index (Rae): F = 1 - sum(pi^2)
+   - Polarization Index: P = 1 - sum(pi * (1 - pi))
+   - Democracy Score Change: delta_D = D(t) - D(t-1) using V-Dem liberal democracy index
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian context (Indonesian democracy/reformasi, decentralization, pilkada, political parties, DPR/DPRD, village governance)
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords, Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
 ABSTRACT CHARACTERISTICS:
-  150–200 words. Reports: political phenomenon studied (election, policy, diplomatic relations,
+  150-200 words. Reports: political phenomenon studied (election, policy, diplomatic relations,
   governance), theoretical lens, methodology (case study, comparative analysis, qualitative,
   quantitative), unit of analysis, and key findings or arguments.
 
@@ -35,8 +84,8 @@ METHODOLOGY:
   - Methods for IR: game theory formalization, network analysis of alliances.
 
 TYPICAL RESULTS & DISCUSSION:
-  - Democracy index: Freedom House score 1–7; V-Dem liberal democracy index 0–1.
-  - Governance: World Bank CPIA; Transparency International CPI (0–100).
+  - Democracy index: Freedom House score 1-7; V-Dem liberal democracy index 0-1.
+  - Governance: World Bank CPIA; Transparency International CPI (0-100).
   - Electoral: vote share %, Gallagher disproportionality index, ENPP (effective number of parties).
   - Foreign policy: trade volume USD billion; treaty ratification rates.
   Tables: case comparison matrix, governance indicator trends.
@@ -75,3 +124,527 @@ METHODOLOGY KEYWORDS:
   case study (Yin), process tracing, most similar system design, comparative analysis,
   discourse analysis, elite interview, content analysis, regression (cross-national),
   V-Dem dataset, Freedom House data, Qualitative Comparative Analysis (QCA)
+
+================================================================================
+RESEARCH TOPIC BANK (500 TOPICS)
+================================================================================
+
+--- CATEGORY A: Comparative Politics & Democratization (001-050) ---
+001. Democratic Backsliding and Institutional Resilience in Indonesian Post-Reformasi Era
+002. The Quality of Democracy in Indonesian Local Government: A V-Dem Sub-National Analysis
+003. Comparative Democratization Trajectories: Indonesia and Philippines After Authoritarian Rule
+004. The Role of Constitutional Court in Safeguarding Democracy in Indonesia
+005. Democratic Consolidation and Civil-Military Relations in Indonesian Reform Era
+006. The Impact of Populism on Democratic Institutions in Indonesian Politics
+007. Comparative Analysis of Democratic Transition in Indonesia and Myanmar
+008. The Role of Civil Society in Democratic Accountability in Indonesian Regions
+009. Democratic Participation and Political Equality in Indonesian Decentralized Governance
+010. The Effect of Political Dynasty on Democratic Quality in Indonesian Local Politics
+011. Hybrid Regime Characteristics and Democratic Erosion in Indonesian Provinces
+012. The Role of Media Freedom in Democratic Consolidation in Indonesia
+013. Comparative Study of Electoral Authoritarianism in Southeast Asian Countries
+014. The Impact of Religious Politics on Democratic Pluralism in Indonesia
+015. Democratic Innovation and Participatory Governance in Indonesian Cities
+016. The Role of Anti-Corruption Institutions in Democratic Quality in Indonesia
+017. Comparative Analysis of Presidential Term Limit Debates in Southeast Asian Democracies
+018. The Effect of Social Media on Democratic Deliberation in Indonesian Public Sphere
+019. Democratic Regression and Executive Aggrandizement in Indonesian Context
+020. The Role of Opposition Parties in Democratic Accountability in Indonesian Parliament
+021. Comparative Study of Transitional Justice and Democratization in Southeast Asia
+022. The Impact of Decentralization on Democratic Governance Quality in Indonesian Regions
+023. Democratic Norms and Political Tolerance in Indonesian Society
+024. The Role of Youth in Democratic Participation and Political Renewal in Indonesia
+025. Comparative Analysis of Democratic Breakdown Prevention in Indonesia and Thailand
+026. The Effect of Clientelism on Democratic Representation in Indonesian Elections
+027. Democratic Accountability and Horizontal Oversight Institutions in Indonesia
+028. The Role of International Democracy Promotion in Indonesian Democratic Development
+029. Comparative Study of Ethnic Diversity and Democratic Stability in Southeast Asia
+030. The Impact of Digital Authoritarianism on Democratic Freedoms in Indonesia
+031. Democratic Legitimacy and Public Trust in Indonesian Political Institutions
+032. The Role of Local Elections (Pilkada) in Democratic Deepening in Indonesia
+033. Comparative Analysis of Power-Sharing Arrangements in Divided Societies of Southeast Asia
+034. The Effect of Political Polarization on Democratic Discourse in Indonesia
+035. Democratic Governance and Human Rights Protection in Indonesian Border Regions
+036. The Role of Women's Political Representation in Democratic Quality in Indonesia
+037. Comparative Study of Constitutional Design and Democratic Performance in ASEAN
+038. The Impact of Oligarchy on Democratic Competition in Indonesian Politics
+039. Democratic Participation and Digital Citizenship in Indonesian Youth
+040. The Role of Traditional Authority in Democratic Governance in Indonesian Regions
+041. Comparative Analysis of Democratic Resilience During Pandemic in Southeast Asia
+042. The Effect of Money Politics on Democratic Integrity in Indonesian Elections
+043. Democratic Decentralization and Service Delivery in Indonesian Local Government
+044. The Role of Political Education in Democratic Culture Building in Indonesia
+045. Comparative Study of Judicial Independence and Democracy in Southeast Asian Countries
+046. The Impact of Identity Politics on Democratic Cohesion in Indonesian Society
+047. Democratic Innovation Through Village Democracy (Musyawarah Desa) in Indonesia
+048. The Role of Free Press in Democratic Watchdog Function in Indonesian Context
+049. Comparative Analysis of Democratic Backsliding Indicators in Indonesia and India
+050. The Effect of Political Financing on Democratic Equality in Indonesian Elections
+
+--- CATEGORY B: Political Institutions & Governance (051-100) ---
+051. Institutional Design and Effectiveness of Indonesian Anti-Corruption Commission (KPK)
+052. The Impact of Bureaucratic Reform on Public Service Quality in Indonesian Government
+053. Comparative Analysis of Presidential Systems and Governance Effectiveness in Southeast Asia
+054. The Role of DPR (Parliament) in Legislative Oversight of Executive in Indonesia
+055. Institutional Capacity and Policy Implementation in Indonesian Local Government
+056. The Effect of Decentralization on Institutional Quality in Indonesian Provinces
+057. Governance Innovation and Digital Government Implementation in Indonesian Cities
+058. The Role of Ombudsman in Improving Public Service Governance in Indonesia
+059. Institutional Analysis of Village Governance Under Village Law (UU Desa) in Indonesia
+060. The Impact of Coalition Politics on Government Effectiveness in Indonesian Presidency
+061. Comparative Study of Regional Autonomy Institutions in Indonesian and Philippine Context
+062. The Role of State Auxiliary Institutions in Indonesian Governance Architecture
+063. Institutional Reform and Merit-Based Recruitment in Indonesian Civil Service
+064. The Effect of Political Appointment on Institutional Performance in Indonesian SOEs
+065. Governance and Accountability in Indonesian Special Autonomy Regions (Papua, Aceh)
+066. The Role of Planning Institutions (Bappenas) in Development Governance in Indonesia
+067. Institutional Analysis of Inter-Governmental Relations in Indonesian Decentralized System
+068. The Impact of E-Government on Transparency and Accountability in Indonesian Bureaucracy
+069. Comparative Study of Anti-Corruption Institutional Design in ASEAN Countries
+070. The Role of Regional Representative Council (DPD) in Indonesian Bicameral System
+071. Institutional Challenges of Simultaneous Elections in Indonesian Electoral System
+072. The Effect of Institutional Trust on Political Participation in Indonesian Democracy
+073. Governance of Natural Resources and Institutional Arrangements in Indonesian Mining Regions
+074. The Role of Inspectorate General in Internal Government Oversight in Indonesia
+075. Institutional Analysis of Public-Private Partnership Governance in Indonesian Infrastructure
+076. The Impact of Institutional Fragmentation on Policy Coordination in Indonesian Government
+077. Comparative Study of Local Government Institutional Capacity in Indonesian Regions
+078. The Role of Traditional Institutions in Governance of Indonesian Adat Communities
+079. Institutional Design of Indonesian Election Management Body (KPU)
+080. The Effect of Institutional Reform on Corruption Reduction in Indonesian Government
+081. Governance and Institutional Arrangements for Indonesian Capital City Relocation (IKN)
+082. The Role of Financial Audit Institution (BPK) in Government Accountability
+083. Institutional Analysis of Disaster Governance in Indonesian Multi-Level System
+084. The Impact of Institutional Isomorphism on Local Government Innovation in Indonesia
+085. Comparative Study of Governance Indicators and Institutional Quality in Indonesian Provinces
+086. The Role of Research Institutions in Evidence-Based Policy Making in Indonesia
+087. Institutional Challenges of Integrated Service Delivery in Indonesian Local Government
+088. The Effect of Institutional Design on Participatory Budgeting in Indonesian Cities
+089. Governance of Digital Transformation and Institutional Readiness in Indonesian Government
+090. The Role of Coordination Ministry in Policy Integration in Indonesian Cabinet System
+091. Institutional Analysis of Health Governance During Pandemic in Indonesian System
+092. The Impact of Institutional Capacity on SDG Achievement in Indonesian Local Government
+093. Comparative Study of Governance Reform Trajectories in Indonesian and Malaysian Context
+094. The Role of State Intelligence Agency in National Security Governance in Indonesia
+095. Institutional Design and Effectiveness of Indonesian Human Rights Commission (Komnas HAM)
+096. The Effect of Institutional Competition on Policy Innovation in Indonesian Regions
+097. Governance of Education Sector and Institutional Arrangements in Indonesian Decentralization
+098. The Role of Professional Associations in Governance Standard-Setting in Indonesia
+099. Institutional Analysis of Maritime Governance in Indonesian Archipelagic State
+100. The Impact of Institutional Reform on Investment Climate in Indonesian Regions
+
+--- CATEGORY C: Electoral Studies & Voting Behavior (101-150) ---
+101. Voting Behavior and Candidate Selection in Indonesian Simultaneous Elections 2024
+102. The Effect of Open-List Proportional Representation on Intra-Party Competition in Indonesia
+103. Electoral Volatility and Party System Institutionalization in Indonesian Democracy
+104. The Impact of Money Politics on Voter Choice in Indonesian Local Elections
+105. Spatial Analysis of Voting Patterns in Indonesian Presidential Elections
+106. The Role of Ethnic Identity in Voting Behavior in Indonesian Multi-Ethnic Regions
+107. Electoral Integrity and Vote Buying Prevention in Indonesian Elections
+108. The Effect of Incumbent Advantage on Electoral Competition in Indonesian Pilkada
+109. Women's Electoral Participation and Gender Quota Effectiveness in Indonesian Elections
+110. The Impact of Social Media Campaigns on Voter Mobilization in Indonesian Elections
+111. Split-Ticket Voting and Electoral Accountability in Indonesian Simultaneous Elections
+112. The Role of Religious Organizations in Electoral Mobilization in Indonesia
+113. Electoral System Reform and Representation Quality in Indonesian Parliament
+114. The Effect of Candidate Personal Vote on Party Cohesion in Indonesian Legislature
+115. Voter Turnout Determinants in Indonesian Local and National Elections
+116. The Impact of Electoral Threshold on Party System Fragmentation in Indonesia
+117. Comparative Analysis of Electoral Management in Indonesian and Indian Elections
+118. The Role of Youth Voters in Electoral Outcomes in Indonesian Elections
+119. Electoral Geography and Regional Voting Patterns in Indonesian Archipelago
+120. The Effect of Negative Campaigning on Voter Behavior in Indonesian Elections
+121. Electoral Accountability and Retrospective Voting in Indonesian Local Elections
+122. The Impact of Candidate Background on Electability in Indonesian Legislative Elections
+123. Comparative Study of Electoral Violence in Indonesian and Nigerian Elections
+124. The Role of Political Consultants in Electoral Strategy in Indonesian Campaigns
+125. Electoral Participation of Marginalized Groups in Indonesian Democratic Process
+126. The Effect of Electoral Calendar on Voter Fatigue in Indonesian Elections
+127. Disproportionality and Malapportionment in Indonesian Electoral District Design
+128. The Impact of Digital Campaigning on Electoral Outcomes in Indonesian Pilkada
+129. Comparative Analysis of Voter Registration Systems in Southeast Asian Democracies
+130. The Role of Exit Polls and Quick Counts in Indonesian Electoral Process
+131. Electoral Fraud Detection and Prevention Mechanisms in Indonesian Elections
+132. The Effect of Coattail Effects in Indonesian Simultaneous Elections
+133. Voter Information and Issue Voting in Indonesian Presidential Elections
+134. The Impact of Political Debates on Voter Decision-Making in Indonesian Elections
+135. Comparative Study of Electoral Dispute Resolution in ASEAN Countries
+136. The Role of Diaspora Voting in Indonesian Overseas Electoral Participation
+137. Electoral Competition and Public Goods Provision in Indonesian Local Government
+138. The Effect of Party Identification on Voting Stability in Indonesian Elections
+139. Voter Mobilization Strategies in Indonesian Rural vs. Urban Electoral Districts
+140. The Impact of Electoral Reform on Political Representation in Indonesian Parliament
+141. Comparative Analysis of Campaign Finance Regulation in Southeast Asian Elections
+142. The Role of Traditional Leaders in Electoral Mobilization in Indonesian Regions
+143. Electoral Participation and Political Efficacy Among Indonesian First-Time Voters
+144. The Effect of Incumbency on Policy Continuity in Indonesian Local Elections
+145. Voter Perception of Corruption and Electoral Punishment in Indonesian Elections
+146. The Impact of Coalition Formation on Electoral Strategy in Indonesian Presidential Race
+147. Comparative Study of Electoral Observation and Monitoring in Indonesian Elections
+148. The Role of Media Coverage in Shaping Electoral Outcomes in Indonesian Campaigns
+149. Electoral Accountability and Programmatic Politics in Indonesian Party System
+150. The Effect of Electoral System Design on Minority Representation in Indonesia
+
+--- CATEGORY D: Political Economy & Development (151-200) ---
+151. Political Economy of Infrastructure Development and Rent-Seeking in Indonesia
+152. The Impact of Decentralization on Regional Economic Development in Indonesian Provinces
+153. Comparative Political Economy of Industrial Policy in Indonesia and Vietnam
+154. The Role of State-Owned Enterprises (BUMN) in Indonesian Development Strategy
+155. Political Economy of Natural Resource Governance in Indonesian Mining Regions
+156. The Effect of Political Connections on Business Performance in Indonesian Economy
+157. Development Planning and Political Economy of Indonesian Capital City Relocation
+158. The Role of Political Economy in Shaping Social Protection Policy in Indonesia
+159. Comparative Analysis of Developmental State Model Applicability in Indonesian Context
+160. The Impact of Trade Policy on Industrial Development in Indonesian Manufacturing
+161. Political Economy of Land Reform and Agrarian Policy in Indonesian Rural Areas
+162. The Role of International Financial Institutions in Indonesian Economic Policy
+163. Political Economy of Energy Transition and Fossil Fuel Subsidy Reform in Indonesia
+164. The Effect of Political Business Cycles on Fiscal Policy in Indonesian Regions
+165. Development Governance and Poverty Reduction Strategies in Eastern Indonesia
+166. The Role of Political Economy in Indonesian Healthcare System Reform
+167. Comparative Study of Special Economic Zones and Political Economy in Southeast Asia
+168. The Impact of Corruption on Economic Development in Indonesian Local Government
+169. Political Economy of Digital Economy Regulation in Indonesian Context
+170. The Role of Political Patronage in Economic Resource Distribution in Indonesia
+171. Comparative Political Economy of Agricultural Policy in Indonesia and Thailand
+172. The Effect of Decentralization on Fiscal Capacity and Development in Indonesian Regions
+173. Political Economy of Palm Oil Industry and Environmental Governance in Indonesia
+174. The Role of Political Economy in Indonesian Education Budget Allocation
+175. Development and Political Economy of Indonesian Halal Industry Policy
+176. The Impact of Global Value Chains on Indonesian Industrial Development Policy
+177. Political Economy of Labor Market Regulation and Minimum Wage in Indonesia
+178. The Role of Political Economy in Indonesian Maritime Development (Poros Maritim)
+179. Comparative Analysis of Political Economy of Urbanization in Southeast Asian Countries
+180. The Effect of Political Stability on Foreign Direct Investment in Indonesian Regions
+181. Political Economy of Food Security and Agricultural Subsidy in Indonesia
+182. The Role of Political Economy in Indonesian Tourism Development Policy
+183. Development Governance and Political Economy of Village Fund (Dana Desa) in Indonesia
+184. The Impact of Political Economy on Environmental Policy Implementation in Indonesia
+185. Comparative Study of Political Economy of Decentralization in Indonesia and Brazil
+186. The Role of Political Economy in Indonesian Fisheries Management Policy
+187. Political Economy of Housing Policy and Urban Development in Indonesian Cities
+188. The Effect of Political Economy on Technology Transfer and Innovation Policy in Indonesia
+189. Development and Political Economy of Indonesian Creative Economy Policy
+190. The Role of Political Economy in Indonesian Disaster Risk Reduction Governance
+191. Comparative Political Economy of Social Insurance Systems in ASEAN Countries
+192. The Impact of Political Economy on Indonesian Carbon Trading and Climate Policy
+193. Political Economy of Transportation Infrastructure and Regional Connectivity in Indonesia
+194. The Role of Political Economy in Indonesian Higher Education Policy Reform
+195. Development Governance and Political Economy of Indonesian Blue Economy Strategy
+196. The Effect of Political Economy on Pharmaceutical Industry Regulation in Indonesia
+197. Comparative Analysis of Political Economy of Mineral Downstreaming in Resource Countries
+198. The Role of Political Economy in Indonesian Digital Transformation Policy
+199. Political Economy of Water Resource Management and Privatization in Indonesia
+200. The Impact of Political Economy on Indonesian Sovereign Wealth Fund (INA) Governance
+
+--- CATEGORY E: Public Policy & Analysis (201-250) ---
+201. Policy Process Analysis of Indonesian Omnibus Law (UU Cipta Kerja) Implementation
+202. The Impact of Evidence-Based Policy Making on Policy Quality in Indonesian Government
+203. Comparative Policy Analysis of COVID-19 Response in Indonesian and Malaysian Context
+204. The Role of Policy Entrepreneurs in Agenda Setting in Indonesian Parliament
+205. Public Policy Implementation and Street-Level Bureaucracy in Indonesian Social Programs
+206. The Effect of Policy Transfer on Regulatory Quality in Indonesian Government
+207. Policy Analysis of Indonesian National Health Insurance (JKN) Reform
+208. The Role of Think Tanks in Policy Formulation in Indonesian Political System
+209. Comparative Study of Education Policy Reform in Indonesian Decentralized System
+210. The Impact of Regulatory Impact Assessment on Policy Quality in Indonesia
+211. Policy Analysis of Indonesian Environmental Impact Assessment (AMDAL) Reform
+212. The Role of Public Participation in Policy Making in Indonesian Local Government
+213. Comparative Policy Analysis of Minimum Wage Setting in Indonesian Provinces
+214. The Effect of Policy Feedback on Social Protection Program Design in Indonesia
+215. Policy Implementation Analysis of Indonesian Village Fund (Dana Desa) Program
+216. The Role of Policy Networks in Indonesian Energy Policy Formulation
+217. Comparative Study of Anti-Corruption Policy Effectiveness in ASEAN Countries
+218. The Impact of Policy Coherence on SDG Achievement in Indonesian Government
+219. Policy Analysis of Indonesian Digital Literacy and Cybersecurity Regulation
+220. The Role of Policy Learning in Indonesian Disaster Management Policy Evolution
+221. Comparative Policy Analysis of Waste Management in Indonesian Metropolitan Areas
+222. The Effect of Policy Instruments on Renewable Energy Adoption in Indonesia
+223. Policy Implementation and Coordination Challenges in Indonesian IKN Development
+224. The Role of Policy Evaluation in Improving Government Program Effectiveness in Indonesia
+225. Comparative Study of Transportation Policy in Indonesian and Singaporean Urban Areas
+226. The Impact of Policy Design on Tax Compliance in Indonesian Context
+227. Policy Analysis of Indonesian Food Safety Regulation and Implementation
+228. The Role of Policy Advocacy in Indonesian Civil Society Organizations
+229. Comparative Policy Analysis of Housing Policy for Low-Income Groups in ASEAN
+230. The Effect of Policy Uncertainty on Business Investment in Indonesian Regions
+231. Policy Implementation Analysis of Indonesian Marine Protected Areas
+232. The Role of Policy Communication in Public Acceptance of Government Programs
+233. Comparative Study of Drug Policy and Harm Reduction in Southeast Asian Countries
+234. The Impact of Policy Capacity on Local Government Performance in Indonesia
+235. Policy Analysis of Indonesian Migrant Worker Protection Regulation
+236. The Role of Policy Monitoring in Indonesian National Development Planning
+237. Comparative Policy Analysis of Air Quality Management in Indonesian Cities
+238. The Effect of Policy Fragmentation on Service Delivery in Indonesian Health Sector
+239. Policy Implementation of Indonesian Inclusive Education for Disabled Students
+240. The Role of Policy Innovation in Indonesian Smart City Development
+241. Comparative Study of Agricultural Subsidy Policy in Indonesian and Indian Context
+242. The Impact of Policy Decentralization on Environmental Governance in Indonesia
+243. Policy Analysis of Indonesian Data Protection and Privacy Regulation
+244. The Role of Policy Experimentation in Indonesian Government Innovation
+245. Comparative Policy Analysis of Youth Employment Programs in ASEAN Countries
+246. The Effect of Policy Instruments on Deforestation Reduction in Indonesian Regions
+247. Policy Implementation Analysis of Indonesian Gender Mainstreaming in Government
+248. The Role of Policy Research in Indonesian Parliamentary Decision-Making
+249. Comparative Study of Pension Policy Reform in Indonesian and Chilean Context
+250. The Impact of Policy Integration on Climate Change Adaptation in Indonesian Cities
+
+--- CATEGORY F: Political Communication & Media (251-300) ---
+251. The Role of Social Media in Political Polarization in Indonesian Democracy
+252. Political Communication Strategies in Indonesian Presidential Campaigns
+253. The Impact of Media Ownership on Political Bias in Indonesian News Coverage
+254. Framing of Political Issues in Indonesian Online Media During Elections
+255. The Effect of Political Advertising Regulation on Campaign Communication in Indonesia
+256. Political Communication and Populist Rhetoric in Indonesian Political Discourse
+257. The Role of Buzzer Networks in Political Opinion Formation in Indonesian Social Media
+258. Comparative Analysis of Political Communication in Indonesian and Philippine Elections
+259. The Impact of Disinformation on Political Trust in Indonesian Democracy
+260. Political Communication and Government Legitimacy Building in Indonesian Context
+261. The Role of Political Satire and Humor in Indonesian Democratic Discourse
+262. The Effect of Media Framing on Public Opinion About Policy in Indonesia
+263. Political Communication Strategies of Indonesian Opposition Parties
+264. The Impact of Digital Literacy on Political Information Processing in Indonesia
+265. Comparative Study of Political Communication Regulation in ASEAN Democracies
+266. The Role of Political Communication in Managing Ethnic Relations in Indonesia
+267. Political Communication and Crisis Management in Indonesian Government
+268. The Effect of Political Talk Shows on Public Political Knowledge in Indonesia
+269. The Impact of Algorithmic Curation on Political Information Exposure in Indonesia
+270. Political Communication and Youth Political Engagement in Indonesian Context
+271. The Role of Religious Media in Political Communication in Indonesian Elections
+272. Comparative Analysis of Government Communication Strategies in Southeast Asian Countries
+273. The Impact of Fake News on Electoral Integrity in Indonesian Elections
+274. Political Communication and Transparency in Indonesian Parliamentary Proceedings
+275. The Effect of Political Branding on Party Image in Indonesian Multi-Party System
+276. The Role of Political Communication in Building National Consensus in Indonesia
+277. Political Communication and Public Deliberation in Indonesian Village Governance
+278. The Impact of Platform Governance on Political Speech in Indonesian Social Media
+279. Comparative Study of Political Advertising Effectiveness in Indonesian Elections
+280. The Role of Political Communication in Indonesian Foreign Policy Public Diplomacy
+281. Political Communication and Environmental Advocacy in Indonesian Context
+282. The Effect of Political Communication on Policy Acceptance in Indonesian Society
+283. The Impact of Influencer Politics on Political Discourse in Indonesian Social Media
+284. Political Communication and Gender Representation in Indonesian Media
+285. The Role of Political Communication in Indonesian Anti-Corruption Campaigns
+286. Comparative Analysis of Political Debate Formats and Voter Impact in ASEAN
+287. The Impact of Political Communication on Intergroup Relations in Indonesian Society
+288. Political Communication Strategies for Indonesian Local Government Accountability
+289. The Effect of Political Communication on Public Trust in Indonesian Institutions
+290. The Role of Political Communication in Indonesian Defense and Security Policy
+291. Political Communication and Democratic Education in Indonesian Schools
+292. The Impact of Cross-Platform Political Communication on Electoral Behavior in Indonesia
+293. Comparative Study of Political Communication Ethics in Southeast Asian Democracies
+294. The Role of Political Communication in Indonesian Decentralization Policy Socialization
+295. Political Communication and Public Opinion on Indonesian Capital City Relocation
+296. The Effect of Political Communication on Voter Turnout in Indonesian Elections
+297. The Impact of Political Communication on Social Cohesion in Indonesian Diverse Society
+298. Political Communication Strategies of Indonesian Political Parties in Digital Era
+299. The Role of Political Communication in Indonesian Pandemic Governance
+300. Comparative Analysis of Political Communication and Democratic Quality in ASEAN
+
+--- CATEGORY G: Social Movements & Civil Society (301-350) ---
+301. The Role of Civil Society Organizations in Democratic Accountability in Indonesia
+302. Social Movement Mobilization and Digital Activism in Indonesian Context
+303. The Impact of NGOs on Policy Advocacy and Reform in Indonesian Government
+304. Comparative Analysis of Environmental Movements in Indonesian and Brazilian Context
+305. The Role of Labor Movements in Workers' Rights Advocacy in Indonesian Industry
+306. Social Movements and Land Rights Activism in Indonesian Agrarian Conflicts
+307. The Impact of Student Movements on Political Reform in Indonesian History
+308. The Role of Women's Movements in Gender Policy Advocacy in Indonesia
+309. Comparative Study of Anti-Corruption Movements in Southeast Asian Countries
+310. Social Movement Organizations and Resource Mobilization in Indonesian Context
+311. The Impact of Religious Movements on Political Discourse in Indonesian Democracy
+312. The Role of Indigenous Rights Movements in Policy Change in Indonesia
+313. Social Movements and Digital Mobilization During Indonesian Omnibus Law Protests
+314. The Effect of State Repression on Social Movement Resilience in Indonesia
+315. Comparative Analysis of Human Rights Movements in Indonesian and Philippine Context
+316. The Role of Community-Based Organizations in Local Governance in Indonesian Villages
+317. Social Movements and Environmental Justice in Indonesian Mining Regions
+318. The Impact of Transnational Advocacy Networks on Indonesian Policy Reform
+319. The Role of Faith-Based Organizations in Social Service Delivery in Indonesia
+320. Comparative Study of Disability Rights Movements in Southeast Asian Countries
+321. Social Movement Framing and Public Opinion in Indonesian Political Discourse
+322. The Effect of Civil Society Capacity on Democratic Governance in Indonesian Regions
+323. The Role of Youth Movements in Political Innovation in Indonesian Democracy
+324. Social Movements and Media Strategies in Indonesian Advocacy Campaigns
+325. The Impact of Philanthropic Organizations on Social Development in Indonesia
+326. Comparative Analysis of Peasant Movements in Indonesian and Indian Context
+327. The Role of Professional Associations in Policy Advocacy in Indonesian Context
+328. Social Movements and Coalition Building in Indonesian Political Activism
+329. The Effect of Funding Sources on Civil Society Independence in Indonesia
+330. The Role of Community Organizing in Urban Poor Advocacy in Indonesian Cities
+331. Social Movements and Constitutional Litigation in Indonesian Legal System
+332. The Impact of International Civil Society on Indonesian Human Rights Policy
+333. Comparative Study of Consumer Movements and Market Regulation in ASEAN
+334. The Role of Civil Society in Election Monitoring and Democratic Oversight in Indonesia
+335. Social Movements and Cultural Resistance in Indonesian Indigenous Communities
+336. The Effect of Social Media on Movement Organization and Coordination in Indonesia
+337. The Role of Civil Society in Post-Disaster Recovery Governance in Indonesia
+338. Social Movements and Health Advocacy in Indonesian Public Health Policy
+339. The Impact of Civil Society on Anti-Corruption Policy Implementation in Indonesia
+340. Comparative Analysis of LGBTQ+ Movements and Rights in Southeast Asian Countries
+341. The Role of Environmental NGOs in Climate Policy Advocacy in Indonesia
+342. Social Movements and Education Reform Advocacy in Indonesian Context
+343. The Effect of Political Opportunity Structure on Movement Success in Indonesia
+344. The Role of Civil Society in Promoting Interfaith Dialogue in Indonesian Society
+345. Social Movements and Digital Rights Advocacy in Indonesian Context
+346. The Impact of Civil Society on Decentralization Policy in Indonesian Regions
+347. Comparative Study of Anti-Mining Movements in Indonesian and Latin American Context
+348. The Role of Community Media in Social Movement Communication in Indonesia
+349. Social Movements and Food Sovereignty Advocacy in Indonesian Agriculture
+350. The Effect of Civil Society Engagement on Policy Quality in Indonesian Government
+
+--- CATEGORY H: Identity Politics & Ethnicity (351-400) ---
+351. Ethnic Identity and Political Representation in Indonesian Local Elections
+352. The Impact of Identity Politics on Democratic Cohesion in Indonesian Society
+353. Comparative Analysis of Ethnic Conflict Management in Indonesian and Malaysian Context
+354. The Role of Religious Identity in Political Mobilization in Indonesian Elections
+355. Identity Politics and Policy Making in Indonesian Multi-Ethnic Regions
+356. The Effect of Ethnic Diversity on Public Goods Provision in Indonesian Local Government
+357. Comparative Study of Indigenous Identity Politics in Indonesian and Australian Context
+358. The Role of Language Politics in Ethnic Identity Assertion in Indonesian Regions
+359. Identity Politics and Social Media Polarization in Indonesian Political Discourse
+360. The Impact of Transmigration Policy on Ethnic Relations in Indonesian Regions
+361. Comparative Analysis of Ethnic Power-Sharing in Indonesian and Lebanese Context
+362. The Role of Cultural Identity in Political Party Formation in Indonesian Regions
+363. Identity Politics and Electoral Strategy in Indonesian Multi-Ethnic Constituencies
+364. The Effect of Ethnic Quotas on Political Representation in Indonesian Government
+365. Comparative Study of Religious Identity Politics in Indonesian and Indian Democracy
+366. The Role of Ethnic Organizations in Political Advocacy in Indonesian Context
+367. Identity Politics and Conflict in Indonesian Resource-Rich Regions
+368. The Impact of Globalization on Ethnic Identity Politics in Indonesian Communities
+369. Comparative Analysis of Ethnic Federalism and Indonesian Decentralization Model
+370. The Role of Identity Politics in Indonesian Foreign Policy Orientation
+371. Ethnic Identity and Bureaucratic Representation in Indonesian Civil Service
+372. The Effect of Identity Politics on Coalition Formation in Indonesian Government
+373. Comparative Study of Chinese Minority Politics in Indonesian and Thai Context
+374. The Role of Identity Politics in Indonesian Education Policy and Curriculum
+375. Identity Politics and Media Representation of Ethnic Groups in Indonesia
+376. The Impact of Identity Politics on Social Trust in Indonesian Diverse Society
+377. Comparative Analysis of Ethnic Autonomy Arrangements in Indonesian Special Regions
+378. The Role of Identity Politics in Indonesian Urban Governance and Planning
+379. Ethnic Identity and Economic Inequality in Indonesian Regional Development
+380. The Effect of Identity Politics on Democratic Deliberation in Indonesian Public Sphere
+381. Comparative Study of Ethnic Mobilization in Indonesian and Nigerian Elections
+382. The Role of Identity Politics in Indonesian Military and Security Sector
+383. Identity Politics and Environmental Governance in Indonesian Indigenous Territories
+384. The Impact of Identity Politics on Indonesian National Integration Policy
+385. Comparative Analysis of Ethnic Conflict Resolution Mechanisms in Southeast Asia
+386. The Role of Identity Politics in Indonesian Higher Education Access and Policy
+387. Ethnic Identity and Political Violence in Indonesian Conflict Regions
+388. The Effect of Identity Politics on Public Service Delivery in Indonesian Regions
+389. Comparative Study of Ethnic Identity and Voting Behavior in Diverse Democracies
+390. The Role of Identity Politics in Indonesian Diaspora Political Engagement
+391. Identity Politics and Constitutional Interpretation in Indonesian Legal System
+392. The Impact of Identity Politics on Indonesian Civil Society Fragmentation
+393. Comparative Analysis of Ethnic Identity and Party System in Indonesian and Kenyan Context
+394. The Role of Identity Politics in Indonesian Village Governance and Social Relations
+395. Ethnic Identity and Political Patronage Networks in Indonesian Local Politics
+396. The Effect of Identity Politics on Policy Responsiveness in Indonesian Government
+397. Comparative Study of Identity Politics and Democratic Stability in Plural Societies
+398. The Role of Identity Politics in Indonesian Maritime Border Communities
+399. Identity Politics and Intergenerational Political Socialization in Indonesian Families
+400. The Impact of Identity Politics on Indonesian Peacebuilding and Reconciliation Efforts
+
+--- CATEGORY I: Security & Conflict Studies (401-450) ---
+401. Non-Traditional Security Threats and Indonesian Defense Policy Response
+402. The Impact of Terrorism and Counter-Terrorism Policy on Civil Liberties in Indonesia
+403. Comparative Analysis of Maritime Security Governance in Indonesian and Philippine Waters
+404. The Role of Indonesian Military (TNI) Reform in Democratic Security Governance
+405. Conflict Resolution and Peace-Building in Indonesian Post-Conflict Regions (Aceh, Papua)
+406. The Effect of Radicalization on National Security in Indonesian Context
+407. Comparative Study of Border Security Management in Indonesian and Malaysian Context
+408. The Role of Intelligence Reform in Indonesian Democratic Security Architecture
+409. Cybersecurity Governance and National Security Policy in Indonesian Context
+410. The Impact of Great Power Competition on Indonesian Security Policy in Indo-Pacific
+411. Comparative Analysis of Counter-Terrorism Approaches in Southeast Asian Countries
+412. The Role of Community Policing in Conflict Prevention in Indonesian Regions
+413. Security Sector Reform and Civilian Oversight in Indonesian Military
+414. The Effect of Climate Change on Security Dynamics in Indonesian Archipelago
+415. Comparative Study of Peacekeeping Contributions by Indonesia and Other ASEAN States
+416. The Role of Traditional Security Mechanisms in Conflict Resolution in Indonesian Communities
+417. Maritime Security and Illegal Fishing Governance in Indonesian Waters
+418. The Impact of Separatist Movements on National Security Policy in Indonesia
+419. Comparative Analysis of Defense Modernization in Indonesian and Vietnamese Context
+420. The Role of Regional Security Cooperation in Indonesian Foreign Policy
+421. Conflict Early Warning Systems and Prevention in Indonesian Diverse Regions
+422. The Effect of Arms Trade on Regional Security Dynamics in Southeast Asia
+423. Comparative Study of De-Radicalization Programs in Indonesian and Saudi Context
+424. The Role of Women in Peace and Security in Indonesian Conflict Regions
+425. Food Security and Political Stability in Indonesian Context
+426. The Impact of Pandemic on Security Governance in Indonesian Context
+427. Comparative Analysis of Nuclear Non-Proliferation Policy in Southeast Asian Countries
+428. The Role of Civil-Military Relations in Indonesian Disaster Response
+429. Transnational Crime and Security Cooperation in Indonesian Border Regions
+430. The Effect of Social Media on Radicalization and Security in Indonesian Context
+431. Comparative Study of Maritime Domain Awareness in Indo-Pacific Countries
+432. The Role of Defense Diplomacy in Indonesian Foreign Policy Strategy
+433. Conflict Transformation and Reconciliation in Indonesian Communal Violence Areas
+434. The Impact of Economic Inequality on Social Conflict in Indonesian Regions
+435. Comparative Analysis of Private Security Governance in Indonesian and South African Context
+436. The Role of Religious Institutions in De-Radicalization in Indonesian Context
+437. Human Security and Development in Indonesian Conflict-Affected Areas
+438. The Effect of Political Transition on Security Sector Behavior in Indonesia
+439. Comparative Study of Counterinsurgency Approaches in Indonesian and Colombian Context
+440. The Role of Local Government in Security Governance in Indonesian Decentralized System
+441. Energy Security and Geopolitics in Indonesian Foreign Policy
+442. The Impact of Disinformation on National Security in Indonesian Context
+443. Comparative Analysis of Refugee and Migration Security in Southeast Asian Countries
+444. The Role of Technology in Indonesian Defense Modernization and Security
+445. Conflict Sensitivity in Development Programs in Indonesian Conflict-Prone Areas
+446. The Effect of Political Polarization on National Security Consensus in Indonesia
+447. Comparative Study of Intelligence Oversight in Democratic Countries Including Indonesia
+448. The Role of Track-Two Diplomacy in Indonesian Conflict Resolution
+449. Water Security and Transboundary Resource Conflict in Indonesian Context
+450. The Impact of Artificial Intelligence on Security Governance in Indonesian Context
+
+--- CATEGORY J: Digital Politics & Governance (451-500) ---
+451. Digital Democracy and Online Political Participation in Indonesian Context
+452. The Impact of E-Government on Public Service Delivery in Indonesian Local Government
+453. Comparative Analysis of Digital Governance Frameworks in ASEAN Countries
+454. The Role of Big Data in Indonesian Government Decision-Making and Policy
+455. Digital Authoritarianism and Internet Freedom in Indonesian Political Context
+456. The Effect of Digital Platforms on Political Organization in Indonesian Democracy
+457. Comparative Study of Digital Voting Systems and Electoral Integrity in Democracies
+458. The Role of Artificial Intelligence in Indonesian Government Service Innovation
+459. Digital Surveillance and Privacy Rights in Indonesian Political Context
+460. The Impact of Digital Divide on Political Participation in Indonesian Regions
+461. Comparative Analysis of Cybersecurity Policy and Governance in Southeast Asian Countries
+462. The Role of Open Data in Government Transparency and Accountability in Indonesia
+463. Digital Political Campaigns and Voter Targeting in Indonesian Elections
+464. The Effect of Platform Governance on Political Speech in Indonesian Context
+465. Comparative Study of Digital Identity Systems and Governance in ASEAN Countries
+466. The Role of Blockchain in Government Transparency and Anti-Corruption in Indonesia
+467. Digital Literacy and Political Empowerment in Indonesian Rural Communities
+468. The Impact of Social Media Regulation on Political Expression in Indonesia
+469. Comparative Analysis of Smart City Governance Models in Indonesian Cities
+470. The Role of Digital Technology in Indonesian Village Governance (e-Village)
+471. Digital Disinformation and Electoral Integrity in Indonesian Democracy
+472. The Effect of Algorithmic Decision-Making on Government Fairness in Indonesia
+473. Comparative Study of Digital Government Maturity in Indonesian Provinces
+474. The Role of Civic Technology in Citizen Engagement in Indonesian Government
+475. Digital Transformation and Bureaucratic Reform in Indonesian Public Administration
+476. The Impact of Digital Platforms on Political Party Organization in Indonesia
+477. Comparative Analysis of Data Governance and Sovereignty in Southeast Asian Countries
+478. The Role of Digital Technology in Indonesian Parliamentary Transparency
+479. Digital Political Participation and Generational Differences in Indonesian Context
+480. The Effect of Digital Government on Corruption Reduction in Indonesian Regions
+481. Comparative Study of Digital Public Service Innovation in ASEAN Countries
+482. The Role of Social Media Analytics in Indonesian Government Policy Monitoring
+483. Digital Rights and Internet Governance in Indonesian Political Framework
+484. The Impact of Fintech Regulation on Financial Inclusion Governance in Indonesia
+485. Comparative Analysis of Digital Election Campaign Regulation in Democracies
+486. The Role of Digital Technology in Indonesian Disaster Governance
+487. Digital Governance and Interoperability in Indonesian Multi-Level Government
+488. The Effect of Digital Transformation on Political Accountability in Indonesia
+489. Comparative Study of AI Governance Frameworks and Policy in ASEAN Countries
+490. The Role of Digital Platforms in Indonesian Public Policy Deliberation
+491. Digital Sovereignty and Data Localization Policy in Indonesian Context
+492. The Impact of Digital Government on Citizen Trust in Indonesian Institutions
+493. Comparative Analysis of Digital Democracy Initiatives in Global South Countries
+494. The Role of Digital Technology in Indonesian Anti-Corruption Governance
+495. Digital Political Economy and Platform Regulation in Indonesian Context
+496. The Effect of Digital Governance on Regional Competitiveness in Indonesian Provinces
+497. Comparative Study of Digital Participation Tools in Indonesian and Estonian Context
+498. The Role of Digital Technology in Indonesian Border Governance
+499. Digital Governance and Sustainable Development in Indonesian Context
+500. The Impact of Emerging Technologies on Future Governance in Indonesian Political System

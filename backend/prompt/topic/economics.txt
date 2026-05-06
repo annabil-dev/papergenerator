@@ -1,9 +1,90 @@
 ================================================================================
-TOPIC GUIDE — Economics (General)
+TOPIC GUIDE — Ekonomi (Economics)
 ================================================================================
 FIELD: Social Sciences / Economics
 DEFAULT CITATION STYLE: APA or AEA
 SUBDISCIPLINE: Ekonomi Makro, Ekonomi Mikro, Ekonomi Pembangunan, Ekonomi Internasional, Ekonomi Indonesia
+
+COMMON REFERENCE VENUES:
+  American Economic Review, Journal of Development Economics, World Development,
+  Journal of International Economics, Applied Economics, Bulletin of Indonesian Economic Studies (BIES),
+  Jurnal Ekonomi dan Keuangan Indonesia (JEKI), Journal of Asian Economics
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 journals (Journal of Development Economics, World Development, Economic Modelling, Applied Economics)
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title
+   - Ensure novelty by combining understudied variables, contexts, or methods
+   - Title format: "The Effect of [X] on [Y]: Evidence from [Context/Method]"
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Panel data econometrics (GMM, fixed/random effects)
+   - Difference-in-differences (DID) with staggered treatment
+   - Regression discontinuity design (RDD)
+   - Synthetic control method (SCM)
+   - Machine learning for economic forecasting (LASSO, random forest, XGBoost)
+   - Spatial econometrics (SAR, SEM, SDM)
+   - DSGE models (New Keynesian framework)
+   - Computable general equilibrium (CGE) modeling
+   - Natural experiments and instrumental variables (IV)
+   - Quantile regression and distributional analysis
+   - Software: Stata, R, EViews, Python (statsmodels, scikit-learn)
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic macroeconomic/development data
+   - Regression tables with coefficients, std errors, t-stats, R², F-stat
+   - Panel data: N observations, T periods, fixed effects
+   - All numbers economically plausible for Indonesian/developing country context
+   - Example ranges: GDP growth 4.5-5.3%, inflation 2.5-4.2%, Gini 0.37-0.41
+   - Investment coefficient: 0.25-0.45 (significant at 1%)
+   - Human capital elasticity: 0.15-0.35
+   - Observations: 300-5000 depending on panel structure
+
+5. MATHEMATICAL FORMULAS:
+   - Cobb-Douglas production function: Y = AK^α L^(1-α)
+   - Solow growth model: k̇ = sf(k) - (n+δ)k
+   - OLS estimator: β̂ = (X'X)⁻¹X'y
+   - Gini coefficient: G = (2Σᵢ i×yᵢ)/(n×Σyᵢ) - (n+1)/n
+   - HDI calculation: HDI = (I_health × I_education × I_income)^(1/3)
+   - Keynesian multiplier: k = 1/(1-MPC)
+   - Phillips curve: π = πᵉ - β(u - uⁿ) + ε
+   - IS-LM equilibrium: Y = C(Y-T) + I(r) + G; M/P = L(r, Y)
+   - AD-AS framework: P = Pᵉ + λ(Y - Yⁿ)
+   - Panel FE model: Yᵢₜ = αᵢ + X'ᵢₜβ + εᵢₜ
+   - DID estimator: δ = (Ȳ_treat,post - Ȳ_treat,pre) - (Ȳ_control,post - Ȳ_control,pre)
+   - Spatial lag model: Y = ρWY + Xβ + ε
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian development context (middle-income trap, inequality, regional disparity)
+   - Subsections: theoretical foundations, empirical evidence (global), empirical evidence (Indonesia), methodological approaches, identified gaps
+   - Cite mix of seminal works and recent (2020-2025) publications
+
+7. COMPLETE PAPER STRUCTURE:
+   - Title (specific, includes method and context)
+   - Abstract (200-250 words with objective, method, findings, implications)
+   - Keywords (5-7 terms)
+   - Introduction (background, problem, gap, objective, contribution, structure)
+   - Literature Review (thematic, 25-30 refs, explicit gaps)
+   - Methodology (data sources, variables, model specification, estimation technique, robustness checks)
+   - Results & Discussion (descriptive stats, main results, robustness, discussion with literature)
+   - Conclusion (summary, policy implications, limitations, future research)
+   - References (30+ sources, 60% from 2020-2025, proper APA/AEA format)
+
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+================================================================================
+DOMAIN-SPECIFIC GUIDANCE
+================================================================================
 
 ABSTRACT CHARACTERISTICS:
   150–250 words. Reports: economic phenomenon or policy analyzed, data source
@@ -37,14 +118,19 @@ METHODOLOGY:
   - Causality: Granger causality test (bivariate/multivariate).
   - Tools: Stata, R (plm, lmtest, vars), EViews, Python (statsmodels).
 
-TYPICAL RESULTS & DISCUSSION:
-  - GDP growth determinant: investment elasticity 0.3–0.5; human capital 0.2–0.4 (p<0.05).
-  - Cointegration: long-run relationship between variables confirmed; ECT -0.15 to -0.45 (significant, negative).
-  - Exchange rate pass-through to inflation: 0.1–0.3 (partial pass-through).
-  - Panel FE: R² within 0.4–0.7; country FE explains structural differences.
-  - Gini coefficient Indonesia: 0.38–0.42 (2010–2023); declining trend.
-  Tables: regression results, cointegration test, Hausman test, descriptive statistics.
-  Figures: trend plots, IRF (impulse response function), variance decomposition, scatter.
+EQUATIONS AND FORMULAS:
+  - Cobb-Douglas production function: Y = AKᵅ L⁽¹⁻ᵅ⁾
+  - Solow growth model: k̇ = sf(k) - (n+δ)k
+  - OLS estimator: β̂ = (X'X)⁻¹X'y
+  - Gini coefficient: G = (2Σᵢ i×yᵢ)/(n×Σyᵢ) - (n+1)/n
+  - HDI calculation: HDI = (I_health × I_education × I_income)^(1/3)
+  - Keynesian multiplier: k = 1/(1-MPC)
+  - Phillips curve: π = πᵉ - β(u - uⁿ) + ε
+  - IS-LM equilibrium: Y = C(Y-T) + I(r) + G; M/P = L(r, Y)
+  - AD-AS framework: P = Pᵉ + λ(Y - Yⁿ)
+  - Panel FE model: Yᵢₜ = αᵢ + X'ᵢₜβ + εᵢₜ
+  - DID estimator: δ = (Ȳ_treat,post - Ȳ_treat,pre) - (Ȳ_control,post - Ȳ_control,pre)
+  - Spatial lag model: Y = ρWY + Xβ + ε
 
 TYPICAL FIGURES:
   - Time series plot (GDP, inflation, trade balance 2000–2023).
@@ -57,17 +143,21 @@ TYPICAL TABLES:
   - Regression results: variable | coeff | SE | t-stat | p-value | elasticity.
   - Unit root test: variable | ADF stat | critical value | result.
 
+RESULTS & DISCUSSION:
+  - GDP growth determinant: investment elasticity 0.3–0.5; human capital 0.2–0.4 (p<0.05).
+  - Cointegration: long-run relationship between variables confirmed; ECT -0.15 to -0.45 (significant, negative).
+  - Exchange rate pass-through to inflation: 0.1–0.3 (partial pass-through).
+  - Panel FE: R² within 0.4–0.7; country FE explains structural differences.
+  - Gini coefficient Indonesia: 0.38–0.42 (2010–2023); declining trend.
+  Tables: regression results, cointegration test, Hausman test, descriptive statistics.
+  Figures: trend plots, IRF (impulse response function), variance decomposition, scatter.
+
 CONCLUSION CHARACTERISTICS:
   - Key economic determinants identified and quantified.
   - Long-run and short-run dynamics established.
   - Policy implications for government/central bank.
   - Limitations: data availability, endogeneity, structural breaks, model specification.
   - Future: sub-national analysis, CGE simulation, machine learning forecasting.
-
-COMMON REFERENCE VENUES:
-  American Economic Review, Journal of Development Economics, World Development,
-  Journal of International Economics, Applied Economics, Bulletin of Indonesian Economic Studies (BIES),
-  Jurnal Ekonomi dan Keuangan Indonesia (JEKI), Journal of Asian Economics
 
 DOMAIN VOCABULARY:
   GDP, GNI, inflation, Gini coefficient, Solow model, Phillips curve, IS-LM,
@@ -78,3 +168,547 @@ METHODOLOGY KEYWORDS:
   ADF unit root test, Johansen cointegration, VECM/ARDL estimation (EViews/Stata),
   Granger causality test, Hausman test (FE vs. RE), panel data GMM (Arellano-Bond),
   impulse response function (VAR), variance decomposition, OLS robust SE (HC3)
+
+================================================================================
+RESEARCH TOPICS — 500 TOPICS IN 10 CATEGORIES
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 1: ECONOMIC GROWTH & DEVELOPMENT (001-050)
+────────────────────────────────────────────────────────────────────────────────
+001. Impact of digital infrastructure investment on regional GDP convergence across Indonesian provinces using spatial panel data 2015-2023
+002. Human capital accumulation and middle-income trap escape: evidence from Indonesian manufacturing sector panel data 2010-2023
+003. Foreign direct investment spillovers on total factor productivity in Indonesian special economic zones using difference-in-differences 2014-2023
+004. The role of institutional quality in economic growth divergence between western and eastern Indonesia using GMM panel estimation
+005. Natural resource curse and Dutch disease effects on non-oil GDP growth in Indonesian resource-rich provinces 2000-2023
+006. Infrastructure spending multiplier effects on regional economic growth using CGE modeling for Indonesia's national strategic projects
+007. Demographic dividend and economic growth nexus in Indonesia: ARDL bounds testing approach with structural breaks 2000-2025
+008. Technology adoption and labor productivity growth in Indonesian SMEs: panel data evidence from manufacturing census 2015-2023
+009. Financial deepening and economic growth causality in Indonesia: asymmetric ARDL approach with quarterly data 2005-2024
+010. Export diversification and economic resilience during external shocks: synthetic control analysis of Indonesian trade policy reforms
+011. Urbanization and economic growth dynamics in Indonesian secondary cities using spatial Durbin model 2010-2023
+012. Public-private partnership investment and infrastructure-led growth in Indonesia: SVAR analysis 2005-2024
+013. Corruption perception and economic growth: threshold regression analysis across Indonesian provinces 2012-2023
+014. Agricultural transformation and structural change contribution to GDP growth in Indonesia using shift-share decomposition 2000-2023
+015. Renewable energy transition and economic growth decoupling in Indonesia: wavelet coherence analysis 2010-2024
+016. Global value chain participation and domestic value-added growth in Indonesian manufacturing: firm-level panel data 2015-2023
+017. Credit allocation efficiency and economic growth in Indonesian banking sector using stochastic frontier analysis 2010-2023
+018. Fiscal decentralization and local economic development outcomes in Indonesia: regression discontinuity at population thresholds
+019. Innovation ecosystem development and regional economic complexity in Indonesian industrial clusters 2015-2023
+020. Tourism-led growth hypothesis testing for Indonesian provinces using heterogeneous panel causality 2010-2023
+021. Capital flight and economic growth retardation in Indonesia: VECM analysis with structural breaks 2000-2024
+022. Social capital and community-driven economic development in Indonesian rural areas: instrumental variable approach with PODES data
+023. Exchange rate misalignment and economic growth in Indonesia: BEER model with quarterly data 2000-2024
+024. Military spending and economic growth trade-off in Indonesia: Feder-Ram model with ARDL estimation 2000-2023
+025. Entrepreneurship ecosystem and new firm creation impact on provincial GDP growth in Indonesia 2015-2023
+026. Climate change adaptation expenditure and agricultural GDP resilience in Indonesian food-producing regions 2010-2023
+027. Digital financial inclusion and economic growth acceleration in Indonesian underbanked provinces: panel GMM 2016-2023
+028. Supply chain disruption effects on Indonesian economic growth during COVID-19: synthetic control method 2019-2022
+029. Research and development spending returns on economic growth in Indonesia: distributed lag model 2000-2023
+030. Maritime connectivity improvement and economic growth in Indonesian archipelagic regions: DID with port development program
+031. Minimum wage policy and regional economic growth: heterogeneous treatment effects across Indonesian labor markets 2010-2023
+032. Sovereign wealth fund (INA) investment impact on strategic sector growth using event study methodology 2021-2025
+033. Economic complexity index evolution and growth prospects for Indonesian provinces: product space analysis 2000-2023
+034. Remittance inflows and economic growth in Indonesian labor-sending regions: panel ARDL with cross-sectional dependence
+035. Industrial downstreaming policy (nickel export ban) and manufacturing value-added growth: DID analysis 2020-2025
+036. Smart city development and urban economic productivity in Indonesian metropolitan areas: spatial panel 2017-2023
+037. Pandemic recovery heterogeneity across Indonesian economic sectors: Markov-switching model 2019-2024
+038. Green bond issuance and sustainable economic growth financing in Indonesia: event study and ARDL 2018-2024
+039. Special autonomy fund effectiveness on economic growth in Papua and Aceh: synthetic control method 2002-2023
+040. ASEAN economic integration deepening and Indonesian GDP growth: gravity-augmented growth model 2010-2023
+041. Broadband internet penetration and labor productivity growth across Indonesian districts: IV estimation with terrain ruggedness
+042. State-owned enterprise reform and sectoral economic efficiency in Indonesia: DID with privatization events 2000-2023
+043. Food estate program and agricultural GDP growth in Indonesian frontier regions: early impact evaluation 2020-2025
+044. Carbon tax implementation and economic growth: CGE simulation for Indonesian energy-intensive sectors
+045. New capital city (IKN) development and economic growth spillovers in East Kalimantan: spatial DID 2022-2030
+046. Halal industry development and economic growth contribution in Indonesia: input-output analysis 2015-2023
+047. Creative economy sector growth determinants in Indonesian cities: spatial panel with cultural capital indicators
+048. Disaster resilience investment and long-run economic growth in disaster-prone Indonesian regions 2005-2023
+049. South-South cooperation and economic growth: Indonesia's development partnership impact using gravity model
+050. Artificial intelligence adoption readiness and potential GDP growth impact in Indonesia: CGE simulation 2024-2035
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 2: POVERTY, INEQUALITY & WELFARE (051-100)
+────────────────────────────────────────────────────────────────────────────────
+051. Impact of village fund (dana desa) on rural poverty reduction using difference-in-differences with Indonesian SUSENAS panel data 2015-2023
+052. Spatial inequality and poverty persistence in eastern Indonesia: spatial Markov chain analysis with BPS poverty data 2010-2023
+053. Conditional cash transfer (PKH) long-term effects on intergenerational poverty transmission: panel tracking 2007-2023
+054. Digital divide and income inequality widening in Indonesian provinces: panel quantile regression 2015-2023
+055. COVID-19 pandemic impact on poverty dynamics and new poor characteristics in Indonesia: decomposition analysis 2019-2022
+056. Land inequality and rural poverty nexus in Java: instrumental variable approach with agricultural census data
+057. Minimum wage effectiveness in poverty reduction across Indonesian industrial regions: RDD at provincial borders
+058. Financial inclusion and multidimensional poverty reduction in Indonesia: panel logit with SUSENAS data 2016-2023
+059. Gender wage gap decomposition and female poverty vulnerability in Indonesian labor market: Oaxaca-Blinder with SAKERNAS
+060. Infrastructure development and spatial poverty reduction: road connectivity impact using DID in Indonesian districts
+061. Social protection program targeting accuracy and poverty leakage in Indonesia: machine learning classification with DTKS data
+062. Urbanization-driven inequality and Kuznets curve re-examination for Indonesian provinces: threshold panel regression
+063. Climate vulnerability and poverty trap formation in Indonesian coastal communities: panel probit 2015-2023
+064. Education inequality and intergenerational mobility in Indonesia: transition matrix analysis with IFLS panel data
+065. Informal sector employment and working poverty dynamics in Indonesian cities: multinomial logit with SAKERNAS 2015-2023
+066. Regional fiscal transfer effectiveness in reducing interprovincial inequality: panel GMM with DAU/DAK data 2005-2023
+067. Food price volatility and transient poverty in Indonesian rural households: panel switching regression with SUSENAS
+068. Microfinance access and poverty exit probability in Indonesian villages: propensity score matching with PODES data
+069. Health shock impact on household poverty entry in Indonesia: panel data analysis with catastrophic expenditure threshold
+070. Child poverty multidimensional measurement and determinants across Indonesian provinces: Alkire-Foster method 2015-2023
+071. Trade liberalization and wage inequality in Indonesian manufacturing: skill premium analysis with firm-level data
+072. Disability and poverty intersection in Indonesia: decomposition of welfare gaps using SUSENAS 2018-2023
+073. Stunting prevalence and future productivity loss estimation for Indonesian provinces: human capital approach
+074. Energy poverty and household welfare in Indonesian off-grid communities: willingness-to-pay analysis
+075. Wealth inequality measurement using consumption vs. asset-based approaches in Indonesia: methodological comparison
+076. Social assistance graduation strategy effectiveness in Indonesia: RCT evidence from PKH exit program
+077. Tobacco expenditure crowding-out effect on household nutrition and education spending: IV estimation with SUSENAS
+078. Natural disaster impact on poverty incidence and recovery time in Indonesian districts: event study 2005-2023
+079. Gig economy participation and income inequality among Indonesian urban youth: quantile treatment effects
+080. Islamic social finance (zakat, waqf) contribution to poverty alleviation in Indonesia: panel data across provinces 2015-2023
+081. Transmigration program long-term welfare outcomes: intergenerational comparison using IFLS data
+082. Housing affordability crisis and urban poverty in Indonesian metropolitan areas: hedonic pricing with spatial effects
+083. Agricultural commodity price transmission and farmer welfare in Indonesian palm oil regions: TVECM analysis
+084. Universal health coverage (JKN) impact on catastrophic health expenditure and poverty: DID 2014-2023
+085. Inequality of opportunity decomposition in Indonesian education outcomes: circumstance vs. effort using PISA data
+086. Village-owned enterprise (BUMDes) effectiveness in reducing rural poverty: quasi-experimental evidence 2015-2023
+087. Spatial mismatch and urban poverty concentration in Indonesian cities: accessibility analysis with GIS data
+088. Pension system coverage gap and elderly poverty risk in Indonesia: microsimulation modeling
+089. Deforestation and indigenous community welfare loss in Indonesian Borneo: IV with satellite data 2000-2023
+090. COVID-19 social assistance (BLT, BST, Kartu Prakerja) poverty prevention effectiveness: triple-difference estimation
+091. Income mobility and poverty dynamics in Indonesia: non-parametric transition analysis with SUSENAS panel
+092. Water access inequality and health-poverty nexus in Indonesian rural areas: simultaneous equations model
+093. Informal land tenure insecurity and investment poverty trap in Indonesian peri-urban areas: natural experiment
+094. Ethnic inequality and horizontal disparities in Indonesian development outcomes: group-based decomposition
+095. School dropout and youth poverty vulnerability in Indonesia: survival analysis with education panel data
+096. Market access improvement and poverty reduction in Indonesian remote areas: IV with road construction program
+097. Inequality-adjusted HDI and welfare measurement for Indonesian provinces: Sen's capability approach application
+098. Household debt trap and poverty persistence among Indonesian low-income families: panel duration model
+099. Green transition distributional impacts on Indonesian coal-dependent communities: CGE with microsimulation
+100. Post-pandemic K-shaped recovery and inequality widening in Indonesia: sectoral decomposition 2020-2024
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 3: LABOR ECONOMICS & HUMAN CAPITAL (101-150)
+────────────────────────────────────────────────────────────────────────────────
+101. Automation risk and job displacement in Indonesian manufacturing: task-based approach with SAKERNAS 2015-2023
+102. Returns to education heterogeneity across Indonesian regions: quantile regression with Mincer equation using IFLS data
+103. Vocational training (BLK) effectiveness on employment outcomes: propensity score matching with tracer study data
+104. Gig economy labor market regulation and worker welfare in Indonesia: natural experiment with platform policy changes
+105. Female labor force participation barriers in Indonesia: Heckman selection model with cultural and structural factors
+106. Youth unemployment scarring effects on long-term earnings in Indonesia: panel data tracking SAKERNAS 2010-2023
+107. Minimum wage employment elasticity across Indonesian sectors: bunching estimator approach 2010-2023
+108. Internal migration and labor market outcomes in Indonesian destination cities: IV with historical migration networks
+109. Skill mismatch and wage penalty in Indonesian graduate labor market: overeducation analysis with SAKERNAS
+110. Informal-formal sector wage gap decomposition in Indonesia: switching regression with endogenous selection
+111. COVID-19 labor market shock and recovery asymmetry by gender in Indonesia: event study with monthly data
+112. Teacher quality and student human capital formation in Indonesian schools: value-added model with PISA/TIMSS data
+113. Occupational licensing impact on wages and employment in Indonesian professional services: DID analysis
+114. Remote work adoption and labor productivity in Indonesian service sector post-pandemic: firm-level panel 2020-2024
+115. Child labor determinants and educational attainment trade-off in Indonesian agricultural households: simultaneous probit
+116. Brain drain and human capital flight from Indonesian provinces: gravity model with migration flow data
+117. Apprenticeship program (magang) effectiveness on youth employment: RCT evidence from Indonesian firms
+118. Labor market discrimination against disabled workers in Indonesia: correspondence study and decomposition
+119. Aging workforce and productivity implications for Indonesian manufacturing: firm-level panel with age composition
+120. Social media job search and matching efficiency in Indonesian urban labor markets: duration model analysis
+121. Omnibus Law (Cipta Kerja) impact on labor market flexibility and worker welfare: DID 2020-2024
+122. Human capital investment and economic returns in Indonesian health sector: Grossman model estimation
+123. Seasonal labor migration patterns and household welfare in Indonesian agricultural regions: panel with SUSENAS
+124. University-industry linkage and graduate employability in Indonesia: tracer study analysis with matching
+125. Monopsony power in Indonesian local labor markets: concentration ratio and wage markdown estimation
+126. Maternal employment and child development outcomes in Indonesia: IV with childcare availability
+127. Green jobs creation potential and skill requirements in Indonesian renewable energy sector: occupational analysis
+128. Labor union density decline and wage stagnation in Indonesian manufacturing: panel data 2000-2023
+129. Digital literacy and labor market premium in Indonesia: returns estimation with SAKERNAS 2018-2023
+130. Commuting time and labor supply decisions in Indonesian metropolitan areas: structural model with JABODETABEK data
+131. Immigrant worker impact on native wages in Indonesian plantation sector: spatial equilibrium model
+132. Vocational vs. general education track earnings differential in Indonesia: regression discontinuity at tracking threshold
+133. Workplace safety regulation and labor productivity in Indonesian mining sector: compliance analysis 2015-2023
+134. Entrepreneurship choice determinants among Indonesian university graduates: multinomial logit with push-pull factors
+135. Public sector wage premium and worker sorting in Indonesia: Roy model estimation with SAKERNAS
+136. Technological change and task polarization in Indonesian labor market: routine-biased technical change analysis
+137. Maternity leave policy and female career progression in Indonesian formal sector: event study around policy change
+138. Agricultural extension worker effectiveness on farmer productivity in Indonesia: RCT with randomized placement
+139. Credential inflation and education-occupation mismatch trends in Indonesia 2000-2023: cohort analysis
+140. Labor market tightness and wage Phillips curve estimation for Indonesian provinces: panel VAR
+141. Disability employment quota compliance and firm productivity in Indonesia: regression discontinuity at firm size threshold
+142. Overseas migrant worker (PMI) remittance and household human capital investment: IV with destination country shocks
+143. Artificial intelligence skill demand growth in Indonesian job market: text analysis of job postings 2018-2024
+144. Informal apprenticeship and skill formation in Indonesian traditional industries: ethnographic-quantitative mixed method
+145. Gender segregation in Indonesian occupations and its wage implications: Duncan index decomposition 2010-2023
+146. Early childhood education (PAUD) access and school readiness in Indonesia: RDD at age eligibility cutoff
+147. Labor market returns to STEM education in Indonesia: IV with university admission scores
+148. Platform economy worker classification and social protection gaps in Indonesia: legal-economic analysis
+149. Productivity dispersion across Indonesian firms and labor reallocation efficiency: Olley-Pakes decomposition
+150. Post-pandemic hybrid work arrangements and worker well-being in Indonesian corporate sector: panel survey 2022-2025
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 4: MONETARY & FISCAL POLICY (151-200)
+────────────────────────────────────────────────────────────────────────────────
+151. Bank Indonesia digital rupiah (CBDC) potential impact on monetary transmission: DSGE simulation for Indonesian economy
+152. Inflation targeting effectiveness in Indonesia during global commodity price shocks: time-varying parameter VAR 2005-2024
+153. Fiscal multiplier heterogeneity across Indonesian provinces: local projection method with quarterly data
+154. Unconventional monetary policy spillovers from Fed/ECB to Indonesian financial markets: event study with high-frequency data
+155. Government bond yield determinants and fiscal sustainability in Indonesia: ARDL with debt-to-GDP dynamics 2000-2024
+156. Tax reform (HPP Law) revenue impact and distributional effects: microsimulation with SUSENAS data
+157. Exchange rate pass-through asymmetry to consumer prices in Indonesia: NARDL approach 2010-2024
+158. Fiscal space estimation and optimal debt level for Indonesia: stochastic debt sustainability analysis
+159. Monetary policy transmission through Islamic banking channel in Indonesia: panel VAR comparison with conventional banks
+160. Local government fiscal capacity and public service delivery quality: panel data across Indonesian districts 2015-2023
+161. Capital flow management measures effectiveness in Indonesia: synthetic control with sudden stop episodes
+162. Tax compliance determinants among Indonesian MSMEs: behavioral economics experiment with nudge interventions
+163. Macroprudential policy and financial stability in Indonesia: counterfactual analysis with LTV/DSTI regulations
+164. Intergovernmental fiscal transfer formula reform and horizontal equity in Indonesia: simulation analysis
+165. Cryptocurrency adoption and monetary policy effectiveness in Indonesia: SVAR with financial innovation indicators
+166. Carbon tax revenue recycling options and macroeconomic impact in Indonesia: CGE simulation
+167. Fiscal consolidation and economic growth trade-off in Indonesia post-pandemic: regime-switching model 2020-2025
+168. Regional inflation dynamics and optimal monetary policy in Indonesia: New Keynesian Phillips curve estimation
+169. E-commerce taxation and VAT revenue potential in Indonesia: tax gap estimation with digital transaction data
+170. Central bank communication and financial market expectations in Indonesia: text analysis of BI press releases
+171. Fiscal decentralization and local tax effort in Indonesian municipalities: stochastic frontier efficiency analysis
+172. Quantitative easing (burden sharing) impact on inflation expectations in Indonesia: survey-based analysis 2020-2023
+173. Property tax reform (PBB) and local revenue mobilization in Indonesian cities: DID with reform adoption
+174. Monetary policy uncertainty and investment decisions in Indonesian manufacturing: panel data with news-based index
+175. Tobacco excise tax optimal rate and revenue-health trade-off in Indonesia: Laffer curve estimation
+176. Fiscal rule adoption impact on fiscal discipline in Indonesian local governments: synthetic control method
+177. Interest rate corridor system effectiveness in Indonesian money market: microstructure analysis 2016-2024
+178. Government spending efficiency and waste in Indonesian ministries: DEA with budget realization data
+179. Foreign exchange intervention and exchange rate stabilization in Indonesia: ordered probit with BI intervention data
+180. Progressive taxation and income redistribution effectiveness in Indonesia: Kakwani index decomposition
+181. Subnational borrowing and fiscal risk in Indonesian local governments: early warning system with panel logit
+182. Monetary-fiscal policy coordination in Indonesia: game theory approach with Nash/Stackelberg equilibrium
+183. Digital payment growth and velocity of money in Indonesia: money demand function re-estimation 2015-2024
+184. Infrastructure bond (SBSN) and Islamic fiscal financing in Indonesia: yield spread analysis 2008-2024
+185. Tax amnesty program (2016, 2022) effectiveness and long-term compliance: DID with taxpayer panel data
+186. Optimal inflation target for Indonesia: welfare loss function estimation with output-inflation trade-off
+187. Local own-source revenue (PAD) determinants and economic base in Indonesian provinces: spatial panel
+188. Monetary policy and housing price dynamics in Indonesian cities: panel VAR with LTV policy interaction
+189. Fiscal stimulus package design and sectoral impact during recession: SAM multiplier analysis for Indonesia
+190. Financial technology regulation and monetary transmission disruption in Indonesia: DSGE with fintech sector
+191. Government subsidy reform (fuel, electricity) and inflationary impact in Indonesia: CGE with household welfare
+192. Yield curve as recession predictor in Indonesia: probit model with term spread 2005-2024
+193. Tax buoyancy and elasticity estimation for Indonesian tax system: ECM with structural reform dummies
+194. Dual monetary system (conventional-Islamic) and financial stability in Indonesia: Markov-switching analysis
+195. Fiscal response to natural disasters in Indonesia: fiscal multiplier estimation with disaster intensity interaction
+196. Central bank independence and inflation performance in Indonesia: institutional analysis with time-varying credibility
+197. Sin tax (alcohol, sugar) revenue potential and behavioral response in Indonesia: demand elasticity estimation
+198. Government cash management reform and treasury single account impact on fiscal efficiency: event study
+199. Monetary policy transmission lag estimation in Indonesia: frequency domain causality analysis 2005-2024
+200. Fiscal federalism and vertical fiscal imbalance in Indonesia: optimal transfer design with mechanism design theory
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 5: INTERNATIONAL TRADE & FINANCE (201-250)
+────────────────────────────────────────────────────────────────────────────────
+201. Indonesia-China trade war spillover effects on ASEAN supply chains: global VAR with trade linkages 2018-2024
+202. Non-tariff barriers impact on Indonesian agricultural exports: gravity model with ad valorem equivalents
+203. RCEP agreement trade creation and diversion effects for Indonesia: ex-ante CGE simulation
+204. Exchange rate volatility and export performance of Indonesian manufacturing: panel data with GARCH-generated volatility
+205. Global value chain upgrading and domestic value-added in Indonesian electronics exports: input-output decomposition
+206. Palm oil export restriction policy and downstream industry development: DID with export ban events 2022-2024
+207. Foreign portfolio investment sudden stops and Indonesian financial market contagion: DCC-GARCH analysis
+208. Trade facilitation (national logistics system) and export competitiveness: gravity model with trade cost indicators
+209. Bilateral investment treaty effectiveness in attracting FDI to Indonesia: panel data with treaty heterogeneity
+210. Current account sustainability and external debt dynamics in Indonesia: intertemporal budget constraint testing
+211. E-commerce cross-border trade and Indonesian MSME export participation: firm-level panel with platform data
+212. Commodity terms of trade shocks and Indonesian macroeconomic adjustment: SVAR with sign restrictions
+213. Indonesia-Australia CEPA early impact assessment on bilateral trade flows: structural gravity with DID
+214. Capital account liberalization sequencing and financial stability in Indonesia: threshold VAR analysis
+215. Trade policy uncertainty and firm-level investment in Indonesian exporters: text-based uncertainty index
+216. South-South trade patterns and Indonesia's role in emerging market networks: network analysis with gravity
+217. Nickel export ban and resource nationalism impact on FDI and trade: synthetic control 2020-2025
+218. Financial integration and business cycle synchronization between Indonesia and ASEAN: DCC-GARCH with wavelet
+219. Anti-dumping duty effectiveness on Indonesian steel imports: DID with product-level trade data
+220. Sovereign credit rating changes and capital flow dynamics in Indonesia: event study with CDS spreads
+221. Indonesian diaspora networks and bilateral trade facilitation: gravity model with migration stocks
+222. Trade in services liberalization and productivity in Indonesian service sectors: firm-level DID analysis
+223. Foreign exchange reserve adequacy and import cover in Indonesia: optimal reserve model estimation
+224. Preferential trade agreement utilization rate determinants for Indonesian exporters: firm-level probit
+225. Outward FDI from Indonesia and reverse technology transfer: patent citation analysis with firm panel
+226. Global financial cycle and Indonesian monetary policy autonomy: trilemma index with panel regression
+227. Halal certification as non-tariff barrier/facilitator in Indonesian food exports: gravity with halal dummy
+228. Transfer pricing regulation and profit shifting by multinational firms in Indonesia: firm-level analysis
+229. Maritime trade connectivity and port efficiency impact on Indonesian export costs: DEA with gravity model
+230. Currency invoicing patterns in Indonesian trade and exchange rate exposure: transaction-level data analysis
+231. Trade credit and supply chain finance in Indonesian manufacturing exports: firm-level panel with financial constraints
+232. Geopolitical risk and Indonesian commodity export diversification: TVP-VAR with geopolitical risk index
+233. Special economic zone (SEZ) export performance and FDI attraction in Indonesia: DID with zone establishment
+234. Environmental regulation stringency and pollution haven hypothesis testing for Indonesian FDI: panel data
+235. Bilateral swap arrangement (BSA) and trade settlement in local currency: Indonesia-partner country analysis
+236. Import substitution industrialization revival and infant industry protection in Indonesia: effective rate of protection
+237. Digital trade rules in trade agreements and Indonesian digital economy growth: text analysis with gravity
+238. Food import dependency and price transmission from world markets to Indonesian consumers: TVECM
+239. Outward processing trade and Indonesian textile/garment industry competitiveness: firm-level panel 2015-2023
+240. Sovereign sukuk and foreign investor participation in Indonesian Islamic capital market: yield determinants
+241. Trade-related intellectual property and pharmaceutical access in Indonesia: welfare analysis with TRIPS flexibilities
+242. Indonesian coffee export quality upgrading and price premium: hedonic pricing with export data
+243. Belt and Road Initiative infrastructure and Indonesian trade facilitation: gravity with BRI project data
+244. Financial sanctions spillover and Indonesian banking correspondent relationships: network analysis
+245. Rare earth mineral trade policy and Indonesian downstream processing: CGE with resource sector detail
+246. Services trade restrictiveness and FDI in Indonesian financial sector: panel with STRI index
+247. Agricultural trade liberalization and food security in Indonesia: CGE with household welfare module
+248. Cryptocurrency cross-border flows and capital account measurement in Indonesia: blockchain data analysis
+249. Trade adjustment assistance for displaced workers in Indonesia: program evaluation with matching methods
+250. ASEAN single window implementation and trade facilitation gains for Indonesia: time-to-trade analysis with DID
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 6: REGIONAL & URBAN ECONOMICS (251-300)
+────────────────────────────────────────────────────────────────────────────────
+251. New capital city (IKN Nusantara) economic impact on East Kalimantan regional development: spatial CGE simulation
+252. Agglomeration economies and firm productivity in Indonesian industrial clusters: spatial panel with distance decay
+253. Urban sprawl and economic efficiency loss in Jakarta metropolitan area: hedonic pricing with satellite data
+254. Regional convergence clubs in Indonesia: Phillips-Sul log-t test with provincial GDP per capita 2000-2023
+255. Special economic zone spillover effects on surrounding district economies: spatial DID with distance rings
+256. Transit-oriented development and land value uplift in Indonesian cities: RDD at station proximity threshold
+257. Inter-regional trade barriers and market integration in Indonesia: border effect estimation with price data
+258. Smart city program effectiveness on local economic outcomes in Indonesian municipalities: DID 2017-2023
+259. Rural-urban migration and sending region economic transformation in Indonesia: IV with historical push factors
+260. Port development and hinterland economic growth in Indonesian maritime regions: spatial panel 2010-2023
+261. Industrial relocation from Java and regional economic rebalancing: firm-level panel with location choice model
+262. Local economic development strategy effectiveness in Indonesian districts: comparative case with synthetic control
+263. Housing market dynamics and urban economic cycles in Indonesian cities: panel VAR with supply constraints
+264. Toll road network expansion and regional market access in Java: market potential approach with DID
+265. Creative city designation and cultural economy growth in Indonesian urban areas: DID with UNESCO criteria
+266. Border area development program (PLBN) and cross-border economic activity: DID with trade flow data
+267. Metropolitan governance fragmentation and economic coordination failure in Indonesian urban regions: spatial analysis
+268. Village fund allocation formula equity and rural economic development outcomes: panel with RDD at thresholds
+269. Free trade zone (FTZ) Batam economic performance and policy reform impact: synthetic control 2000-2023
+270. Disaster-induced migration and receiving city economic adjustment in Indonesia: IV with earthquake intensity
+271. Regional innovation system and knowledge spillovers in Indonesian technology parks: spatial econometrics
+272. Decentralization and local public goods provision efficiency in Indonesia: DEA with panel data 2005-2023
+273. Commuter economy and fiscal externalities in Indonesian metropolitan areas: spatial fiscal interaction model
+274. Agricultural land conversion and peri-urban economic transformation in Java: panel with satellite land use data
+275. Tourism destination development and local economic multiplier in Indonesian resort areas: SAM analysis
+276. Regional minimum wage variation and cross-border labor mobility in Indonesia: spatial regression discontinuity
+277. Industrial estate development and manufacturing employment growth: DID with estate establishment events
+278. Urban informal settlement upgrading and local economic activity: quasi-experimental evidence from KIP program
+279. Regional competitiveness index determinants and economic performance in Indonesian provinces: SEM analysis
+280. Broadband infrastructure and rural economic diversification in Indonesia: IV with terrain and distance instruments
+281. City size distribution and Zipf's law deviation in Indonesian urban system: dynamic panel analysis
+282. Regional value chain development in Indonesian agricultural commodities: input-output with spatial linkages
+283. Flood risk and property value capitalization in Indonesian coastal cities: hedonic pricing with flood maps
+284. University presence and local economic development in Indonesian secondary cities: IV with historical establishment
+285. Cross-provincial fiscal competition and race-to-bottom in Indonesian investment incentives: spatial panel
+286. Transmigration settlement long-term economic outcomes: intergenerational comparison with matched controls
+287. Airport development and regional tourism-economic growth in Indonesian outer islands: DID analysis
+288. Urban green space and residential property values in Indonesian cities: spatial hedonic with GIS data
+289. Regional economic resilience to commodity price shocks in Indonesian mining provinces: panel threshold
+290. Integrated economic development zone (KAPET) effectiveness evaluation: synthetic control with multiple zones
+291. Last-mile connectivity and rural market access in Indonesian archipelagic regions: transport cost modeling
+292. Gentrification and displacement economics in Indonesian heritage urban areas: panel with property transaction data
+293. Regional labor market pooling and matching efficiency in Indonesian industrial corridors: search model
+294. Coastal reclamation and economic value creation vs. environmental cost in Indonesian cities: CBA with CGE
+295. Village economic transformation through BUMDes: spatial panel analysis across Indonesian districts 2015-2023
+296. Regional economic complexity and future growth prediction for Indonesian provinces: product space methodology
+297. Urban transportation investment and accessibility-based economic development in Indonesian cities: LUTI model
+298. Cross-border economic cooperation (BIMP-EAGA) and trade facilitation: gravity with institutional variables
+299. Satellite city development and economic deconcentration from Jakarta: spatial interaction model
+300. Climate-induced relocation and regional economic adjustment in Indonesian sinking cities: scenario analysis
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 7: ENVIRONMENTAL & RESOURCE ECONOMICS (301-350)
+────────────────────────────────────────────────────────────────────────────────
+301. Carbon pricing mechanism design and emission reduction in Indonesian industrial sector: CGE with carbon market
+302. Deforestation cost-benefit analysis in Indonesian palm oil regions: extended CBA with ecosystem services valuation
+303. Renewable energy subsidy effectiveness and investment crowding-in in Indonesia: panel data with policy interaction
+304. Payment for ecosystem services (PES) and forest conservation in Indonesian watersheds: RCT with community participation
+305. Air pollution health cost estimation in Indonesian cities: dose-response with willingness-to-pay 2015-2023
+306. Circular economy transition and manufacturing competitiveness in Indonesia: firm-level panel with waste reduction
+307. Marine plastic pollution economic cost and blue economy impact in Indonesian waters: damage function approach
+308. Carbon border adjustment mechanism (CBAM) impact on Indonesian exports to EU: CGE trade simulation
+309. Peatland restoration economic returns and carbon credit valuation in Indonesia: cost-effectiveness analysis
+310. Energy transition and stranded asset risk in Indonesian coal sector: real options valuation model
+311. Biodiversity loss economic valuation in Indonesian tropical forests: choice experiment with local communities
+312. Green sukuk and environmental project financing effectiveness in Indonesia: event study with project outcomes
+313. Water scarcity and agricultural productivity loss in Indonesian dry regions: Ricardian analysis with climate data
+314. Mangrove ecosystem economic valuation and coastal protection benefits in Indonesia: replacement cost method
+315. Electric vehicle adoption and oil import reduction potential in Indonesia: system dynamics simulation
+316. Environmental Kuznets curve re-examination for Indonesian provinces: panel with spatial dependence 2000-2023
+317. Coral reef degradation and fisheries economic loss in Indonesian marine protected areas: bioeconomic model
+318. Carbon capture and storage (CCS) cost-benefit for Indonesian power sector: levelized cost comparison
+319. Illegal mining economic impact and environmental damage in Indonesian tin/gold regions: shadow economy estimation
+320. Climate change impact on Indonesian rice production and food security cost: crop model with economic simulation
+321. Waste-to-energy investment feasibility and environmental benefit in Indonesian cities: CBA with externalities
+322. Forest fire economic damage estimation and prevention investment returns in Indonesia: panel with satellite data
+323. Green building certification and property value premium in Indonesian commercial real estate: hedonic pricing
+324. Fisheries subsidy reform and sustainable catch optimization in Indonesia: bioeconomic model with ITQ simulation
+325. Solar panel adoption determinants and grid parity analysis for Indonesian households: discrete choice experiment
+326. Natural capital accounting and adjusted net savings for Indonesian provinces: genuine savings approach
+327. Plastic bag tax effectiveness and consumer behavior change in Indonesia: DID with city-level policy variation
+328. Geothermal energy development and local economic benefit in Indonesian volcanic regions: CGE with resource sector
+329. Climate-smart agriculture adoption and farmer welfare in Indonesia: endogenous switching regression
+330. Urban heat island economic cost and green infrastructure investment returns in Indonesian cities: spatial analysis
+331. REDD+ program effectiveness and deforestation reduction in Indonesia: matching with satellite panel data
+332. Environmental regulation compliance cost and firm competitiveness in Indonesian manufacturing: panel data
+333. Watershed degradation and downstream economic damage in Indonesian river basins: hydrological-economic model
+334. Carbon footprint of Indonesian palm oil supply chain and sustainability certification premium: LCA with trade data
+335. Renewable energy auction design and cost reduction in Indonesian power procurement: mechanism design analysis
+336. Ecotourism development and conservation financing in Indonesian national parks: contingent valuation
+337. Land subsidence economic cost and adaptation investment in Indonesian coastal cities: damage function with GIS
+338. Green industrial policy and environmental innovation in Indonesia: patent data analysis with policy interaction
+339. Artisanal and small-scale mining formalization and environmental improvement: natural experiment in Indonesian regions
+340. Climate finance flow tracking and effectiveness in Indonesian adaptation projects: portfolio analysis
+341. Biodiesel mandate (B35) and palm oil market dynamics in Indonesia: partial equilibrium with welfare analysis
+342. Environmental justice and pollution exposure inequality across Indonesian income groups: spatial analysis
+343. Sustainable palm oil certification (RSPO/ISPO) and smallholder welfare: propensity score matching
+344. Ocean economy valuation and blue bond potential for Indonesian maritime sector: asset-based approach
+345. Air quality improvement and labor productivity gains in Indonesian industrial areas: panel with pollution data
+346. Forest moratorium policy effectiveness on deforestation rate: RDD at moratorium boundary
+347. Disaster risk reduction investment and avoided loss estimation for Indonesian provinces: probabilistic analysis
+348. Green hydrogen production cost and export potential for Indonesia: techno-economic analysis with learning curves
+349. Microplastic contamination and fisheries economic impact in Indonesian seas: damage assessment model
+350. Just energy transition financing needs and socioeconomic impact in Indonesian coal regions: CGE with labor module
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 8: DIGITAL ECONOMY & INNOVATION (351-400)
+────────────────────────────────────────────────────────────────────────────────
+351. E-commerce platform market concentration and seller welfare in Indonesia: structural model with platform data
+352. Digital financial services adoption and MSME credit access in Indonesia: panel data with OJK fintech data 2016-2023
+353. Ride-hailing platform entry and traditional transport sector disruption in Indonesian cities: DID analysis
+354. Artificial intelligence adoption and firm productivity in Indonesian banking sector: stochastic frontier with technology index
+355. Digital literacy program impact on economic participation in Indonesian rural areas: RCT evaluation
+356. Startup ecosystem development and venture capital flow determinants in Indonesia: spatial panel 2015-2023
+357. Platform economy regulation and innovation incentives in Indonesia: natural experiment with regulatory changes
+358. Mobile money adoption and household consumption smoothing in Indonesia: IV with network coverage
+359. Digital trade and cross-border data flow regulation impact on Indonesian tech sector: gravity with data restrictiveness
+360. Peer-to-peer lending and financial inclusion in Indonesian underserved markets: panel with default risk analysis
+361. Social media marketing and MSME revenue growth in Indonesia: quasi-experimental with platform algorithm changes
+362. Blockchain technology adoption in Indonesian supply chain management: cost-benefit with firm survey data
+363. Digital health (telemedicine) adoption and healthcare cost reduction in Indonesia: DID with COVID-19 acceleration
+364. Cybersecurity investment and digital economy trust in Indonesia: willingness-to-pay with choice experiment
+365. Open banking regulation and financial innovation in Indonesia: event study with API adoption data
+366. Digital divide gender gap and women's economic empowerment in Indonesia: decomposition with SUSENAS
+367. Cloud computing adoption and SME operational efficiency in Indonesia: production function with technology capital
+368. EdTech platform effectiveness on learning outcomes and human capital in Indonesia: RCT with student panel
+369. Digital payment ecosystem and merchant revenue impact in Indonesian traditional markets: DID with QRIS rollout
+370. Innovation patent activity and economic growth in Indonesian provinces: knowledge production function estimation
+371. Gig worker income volatility and consumption behavior in Indonesia: high-frequency transaction data analysis
+372. Digital agriculture (precision farming) adoption and productivity in Indonesian rice farming: treatment effects
+373. Fintech lending interest rate determinants and comparison with traditional banking in Indonesia: panel analysis
+374. Smart manufacturing (Industry 4.0) readiness and productivity in Indonesian firms: technology adoption model
+375. Data center investment and digital infrastructure economic multiplier in Indonesia: input-output analysis
+376. Digital identity (e-KTP) and financial inclusion facilitation in Indonesia: RDD at registration threshold
+377. Algorithmic pricing and consumer welfare in Indonesian e-commerce: structural demand estimation
+378. Remote work technology adoption and urban-rural wage convergence in Indonesia: spatial equilibrium model
+379. Digital tax (pajak digital) compliance and revenue from platform economy in Indonesia: tax gap estimation
+380. Innovation cluster formation and knowledge spillover in Indonesian technopark: spatial econometrics
+381. Super-app ecosystem and market power in Indonesian digital economy: merger simulation with nested logit
+382. Crowdfunding and alternative finance for Indonesian creative industry: success determinant analysis
+383. Digital transformation and bank branch rationalization in Indonesia: cost function with technology substitution
+384. Internet of Things (IoT) adoption in Indonesian manufacturing and productivity gains: firm-level panel
+385. Digital literacy and labor market returns in Indonesia: IV with school computer program
+386. Regulatory sandbox effectiveness for fintech innovation in Indonesia: survival analysis of sandbox participants
+387. E-government adoption and public service delivery efficiency in Indonesian local governments: DEA with digital index
+388. Sharing economy platforms and asset utilization efficiency in Indonesian tourism: market-level analysis
+389. Artificial intelligence bias in Indonesian credit scoring and financial inclusion implications: audit study
+390. Digital cooperative (koperasi digital) model and member welfare in Indonesia: comparative analysis
+391. Tech talent migration and brain drain from Indonesian startups: survival model with compensation data
+392. Digital supply chain resilience during disruption in Indonesian manufacturing: network analysis with firm data
+393. QR payment (QRIS) interoperability and financial inclusion acceleration in Indonesia: DID with rollout timing
+394. Intellectual property protection and software innovation in Indonesia: patent-R&D relationship estimation
+395. Digital marketplace and price transparency effect on Indonesian agricultural commodities: DID analysis
+396. Robotics adoption and employment displacement in Indonesian automotive manufacturing: task-based analysis
+397. Open data initiative and economic value creation in Indonesian public sector: contingent valuation
+398. Digital nomad visa policy and local economic impact in Indonesian tourism destinations: DID analysis
+399. Cryptocurrency market development and financial stability risk in Indonesia: CoVaR with systemic risk
+400. National AI strategy implementation and economic competitiveness impact: scenario analysis for Indonesia 2025-2035
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 9: HEALTH & EDUCATION ECONOMICS (401-450)
+────────────────────────────────────────────────────────────────────────────────
+401. Universal health coverage (JKN) impact on health expenditure and utilization in Indonesia: DID with enrollment waves 2014-2023
+402. Education budget (20% mandate) allocation efficiency across Indonesian provinces: DEA with learning outcomes
+403. COVID-19 learning loss and future earnings impact estimation for Indonesian students: human capital model
+404. Health insurance moral hazard and healthcare utilization in Indonesian JKN: regression discontinuity at eligibility
+405. School construction (INPRES) long-term returns: intergenerational human capital analysis with IFLS data
+406. Teacher certification program impact on student achievement in Indonesia: DID with certification timing
+407. Out-of-pocket health expenditure and household financial catastrophe in Indonesia: panel probit with SUSENAS
+408. Higher education expansion and graduate unemployment in Indonesia: cobweb model with enrollment-employment lag
+409. Stunting reduction program (nutrition intervention) cost-effectiveness in Indonesian districts: CEA with health data
+410. Private tutoring (bimbel) expenditure and educational inequality in Indonesia: quantile regression with household data
+411. Mental health economic burden and productivity loss in Indonesian workforce: cost-of-illness with IFLS data
+412. School dropout prevention program effectiveness in Indonesian rural areas: RCT with conditional incentives
+413. Healthcare worker distribution inequality and health outcome disparity across Indonesian regions: spatial analysis
+414. STEM education investment and innovation output in Indonesian universities: knowledge production function
+415. Tobacco-related disease economic burden and healthcare system cost in Indonesia: attributable fraction method
+416. Early childhood development program (PAUD) returns on investment in Indonesia: benefit-cost with longitudinal tracking
+417. Medical tourism outflow and domestic healthcare quality signaling in Indonesia: gravity with quality indicators
+418. Student loan (KIP-Kuliah) impact on higher education access and completion: RDD at eligibility threshold
+419. Telemedicine adoption and rural healthcare access improvement in Indonesia: DID with program rollout
+420. Education quality vs. quantity trade-off in Indonesian development: augmented Solow model with quality-adjusted HC
+421. Non-communicable disease prevention investment and healthcare cost avoidance in Indonesia: Markov model
+422. Madrasah education quality and labor market returns in Indonesia: propensity score matching with earnings data
+423. Hospital bed capacity and COVID-19 mortality in Indonesian provinces: panel with capacity constraint interaction
+424. Inclusive education policy and disabled student outcomes in Indonesia: DID with policy implementation timing
+425. Pharmaceutical price regulation and drug access in Indonesia: DID with reference pricing policy
+426. University autonomy reform and research productivity in Indonesian higher education: panel with publication data
+427. Community health center (Puskesmas) efficiency and primary care utilization in Indonesia: DEA with spatial access
+428. Vocational education curriculum reform and industry-relevant skill acquisition: employer survey with matching
+429. Health technology assessment and cost-effective intervention prioritization for Indonesian health system: DALY-based CEA
+430. Digital education infrastructure and learning outcome improvement in Indonesian schools: IV with connectivity
+431. Maternal mortality reduction program cost-effectiveness in Indonesian remote areas: decision tree analysis
+432. International student mobility and knowledge transfer to Indonesian universities: gravity with citation data
+433. School feeding program impact on attendance and cognitive development in Indonesia: cluster RCT
+434. Health insurance premium subsidy targeting and fiscal sustainability of JKN: microsimulation with DTKS
+435. Research university development and local economic spillover in Indonesian cities: IV with historical establishment
+436. Traditional medicine (jamu) industry economic contribution and integration with modern healthcare: input-output
+437. Education decentralization and local curriculum adaptation effectiveness in Indonesia: DID with policy variation
+438. Pandemic preparedness investment and economic loss avoidance: cost-benefit for Indonesian health system
+439. Graduate employability skills gap and curriculum-industry alignment in Indonesian universities: employer survey analysis
+440. Primary healthcare strengthening and hospital cost reduction in Indonesia: panel with referral system data
+441. Scholarship program (Bidikmisi/KIP) impact on social mobility in Indonesia: panel tracking with earnings
+442. Air pollution exposure and child cognitive development in Indonesian cities: IV with wind direction
+443. Online learning effectiveness and digital divide in Indonesian higher education: DID with COVID-19 transition
+444. Health worker incentive program and rural retention in Indonesia: discrete choice experiment with stated preference
+445. Education spending and economic growth nexus in Indonesian provinces: panel causality with threshold effects
+446. Obesity epidemic economic cost and prevention investment returns in Indonesia: microsimulation with BMI trends
+447. Pesantren education modernization and graduate economic outcomes: propensity score matching with labor data
+448. Universal health coverage and informal sector formalization incentive in Indonesia: labor supply model
+449. PISA score determinants and education system efficiency comparison across Indonesian provinces: multilevel model
+450. Pandemic-era education technology adoption persistence and long-term learning impact in Indonesia: panel 2020-2025
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 10: INSTITUTIONAL ECONOMICS & GOVERNANCE (451-500)
+────────────────────────────────────────────────────────────────────────────────
+451. Corruption and public procurement inefficiency in Indonesian infrastructure projects: forensic economics with e-procurement data
+452. Bureaucratic reform impact on business licensing efficiency in Indonesia: DID with OSS (Online Single Submission) rollout
+453. Electoral cycle and fiscal manipulation in Indonesian local governments: panel with election timing interaction
+454. Property rights security and agricultural investment in Indonesian land reform areas: natural experiment
+455. Judicial independence and contract enforcement impact on FDI in Indonesia: panel with court quality indicators
+456. Village governance quality and development fund utilization effectiveness: cross-sectional with governance index
+457. Anti-corruption commission (KPK) deterrence effect on public sector corruption: synthetic control with establishment
+458. Regulatory quality and ease of doing business improvement in Indonesia: panel with World Bank indicators 2010-2023
+459. Political dynasty and local economic development outcomes in Indonesian districts: IV with historical elite
+460. Decentralization and local institutional capacity building in Indonesia: panel with governance indicators 2001-2023
+461. State-owned enterprise governance reform and financial performance: DID with board restructuring events
+462. Land administration modernization (PTSL) and property market development in Indonesia: DID with program rollout
+463. Legislative oversight effectiveness and budget execution quality in Indonesian provinces: panel analysis
+464. Informal institutions (adat) and economic transaction costs in Indonesian outer islands: institutional analysis
+465. E-government implementation and corruption reduction in Indonesian public services: panel with digital index
+466. Political stability and economic growth in Indonesian post-reform era: Markov-switching with institutional variables
+467. Extractive industry transparency (EITI) compliance and governance improvement in Indonesian mining regions: DID
+468. Civil service reform and public sector productivity in Indonesia: DID with merit-based recruitment policy
+469. Media freedom and government accountability in Indonesian local politics: panel with press freedom index
+470. Institutional quality convergence across Indonesian provinces: Phillips-Sul test with governance indicators
+471. Public participation in budgeting (musrenbang) and development outcome alignment: quasi-experimental evidence
+472. Regulatory impact assessment (RIA) adoption and policy quality in Indonesian ministries: before-after analysis
+473. Whistleblower protection effectiveness and corruption reporting in Indonesia: natural experiment with policy change
+474. Fiscal transparency and government bond yield in Indonesian local governments: panel with transparency score
+475. Traditional authority (sultan/raja) persistence and modern governance in Indonesian regions: historical IV
+476. Public-private partnership governance framework and project success in Indonesia: survival analysis with contract data
+477. Campaign finance regulation and political capture of economic policy in Indonesia: event study with elections
+478. Ombudsman effectiveness and public service complaint resolution in Indonesia: panel with complaint data
+479. Village law (UU Desa 2014) implementation and local democratic governance: DID with institutional outcomes
+480. Anti-money laundering regulation effectiveness and financial system integrity in Indonesia: compliance analysis
+481. Bureaucratic red tape measurement and firm entry barriers in Indonesian cities: doing business survey analysis
+482. Political decentralization and ethnic conflict management in Indonesian diverse regions: panel with conflict data
+483. Open government data initiative and public accountability in Indonesia: DID with data portal launch
+484. Regulatory sandbox governance and innovation ecosystem in Indonesian fintech: institutional analysis
+485. Constitutional court decisions and economic policy certainty in Indonesia: event study with market reaction
+486. Local government innovation and policy diffusion across Indonesian districts: spatial panel with adoption timing
+487. Corruption prosecution and deterrence effect on public investment efficiency: IV with prosecutor assignment
+488. Collaborative governance and multi-stakeholder partnership effectiveness in Indonesian development: QCA analysis
+489. Digital governance transformation and administrative cost reduction in Indonesian bureaucracy: cost-benefit analysis
+490. Institutional trust and economic transaction costs in Indonesian business environment: survey-based estimation
+491. Agrarian reform (TORA) implementation and land tenure security impact on investment: panel with certification data
+492. Parliamentary oversight committee effectiveness and SOE performance in Indonesia: panel with committee activity
+493. Regional autonomy asymmetry and economic performance: comparing special autonomy regions in Indonesia
+494. Public integrity system and corruption prevention in Indonesian local governments: composite index with panel
+495. Customary law (hukum adat) recognition and natural resource governance in Indonesian communities: case comparison
+496. Government digital transformation maturity and public service satisfaction in Indonesia: SEM with survey data
+497. Political budget cycle in Indonesian village fund allocation: panel with village election timing
+498. Institutional complementarity between formal and informal governance in Indonesian economic development: panel VAR
+499. Freedom of information law implementation and government transparency in Indonesia: DID with PPID establishment
+500. Governance quality and foreign aid effectiveness in Indonesian development projects: panel with donor data

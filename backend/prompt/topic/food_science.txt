@@ -3,10 +3,611 @@ TOPIC GUIDE — Food Science
 ================================================================================
 FIELD: Natural Sciences / Food Technology
 DEFAULT CITATION STYLE: APA or ACS
+SUBDISCIPLINE:
+  Food chemistry, food microbiology, processing technology, packaging, sensory science, functional foods, rheology, sustainability, authentication, nutrition, public health reformulation, and food quality analytics.
 
-METHODOLOGY: proximate analysis, sensory evaluation, shelf life study, food processing,
-  microbiology testing, chromatography, rheology, nutritional analysis
-EQUATIONS: Arrhenius degradation model, water activity, reaction kinetics
-FIGURES: sensory spider chart, texture profile, chromatogram, microbial growth curve
-TABLES: proximate composition, sensory scores, microbial count, nutritional facts
-VENUES: Food Chemistry, J. Food Science, LWT - Food Science Technology, Food Quality Preference
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature related to the user's topic
+   - Reference recent works (2020-2025) that establish what is known
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame the gap as a researchable question with measurable outcomes
+   - Ensure the gap targets Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine the user's idea into a publishable research title
+   - The title must be specific, include method and application domain
+   - Target journals listed in COMMON REFERENCE VENUES below
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Use cutting-edge methods appropriate to the subdiscipline
+   - Include complete research procedures and protocols
+   - Specify all tools, software, instruments, and configurations
+   - Detail sample size calculations, validation strategy, and reproducibility measures
+
+4. ESTIMATED DATA & RESULTS:
+   - Provide realistic estimated data tables (10-30 data points)
+   - Include statistical measures: mean, std, 95% CI, effect sizes
+   - Performance/outcome metrics appropriate to the field
+   - Comparison with control groups or baseline conditions
+   - All numbers must be realistic, internally consistent, and domain-appropriate
+   - Data must support the research conclusions logically
+
+5. MATHEMATICAL FORMULAS:
+   - Include 5-10 relevant formulas with full variable definitions
+   - Statistical tests, measurement models, analytical equations
+   - Connect formulas to the methodology and results
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - Minimum 25-30 references organized thematically
+   - Structure: (a) foundational theories, (b) recent advances 2020-2025, (c) limitations
+   - Each subsection MUST end with: "However, no study has addressed..."
+   - Use synthesis paragraphs, not citation lists
+   - Include Indonesian/Southeast Asian context where relevant
+
+7. COMPLETE PAPER STRUCTURE:
+   - Title, Abstract (200-250 words), Keywords (5-7)
+   - Introduction (1500-2000 words)
+   - Literature Review (2000-3000 words)
+   - Methodology (2000-3000 words with formulas)
+   - Results & Discussion (2000-3000 words with tables and figure descriptions)
+   - Conclusion (500-800 words)
+   - References (30+ entries, 60%+ from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+ABSTRACT CHARACTERISTICS:
+  Structured or semi-structured abstracts should state the food material or system, research gap, objective, experimental design, analytical methods, primary quantitative outcomes, practical implication, and limitation in 150–250 words.
+
+INTRODUCTION ELEMENTS:
+  Establish food safety, quality, nutrition, sustainability, or consumer relevance; define the product or process context; identify measurable gaps in current evidence; justify variables, controls, and analytical approach; end with clear research objectives or hypotheses.
+
+LITERATURE REVIEW:
+  Compare recent peer-reviewed studies on food composition, processing, microbiology, sensory response, shelf life, packaging, functional ingredients, sustainability metrics, and analytical methods; synthesize disagreements, methodological limits, and opportunities for replication or optimization.
+
+METHODOLOGY:
+  proximate analysis, sensory evaluation, shelf-life study, food processing, microbiology testing, chromatography, rheology, nutritional analysis, response surface methodology, life-cycle assessment, randomized experimental design, ANOVA, PCA, PLS regression, kinetic modelling, and validation against standards.
+
+TYPICAL RESULTS & DISCUSSION:
+  Report composition changes, microbial counts, texture and rheological parameters, sensory scores, bioactive retention, shelf-life indicators, model performance, processing yield, environmental impacts, and trade-offs between safety, quality, cost, nutrition, and consumer acceptance.
+
+TYPICAL FIGURES:
+  sensory spider chart, texture profile curve, chromatogram, microbial growth curve, process flow diagram, shelf-life plot, PCA biplot, response surface plot, kinetic degradation curve, packaging schematic, and consumer preference map.
+
+TYPICAL TABLES:
+  proximate composition, sensory scores, microbial counts, nutritional facts, processing conditions, shelf-life parameters, formulation matrix, ANOVA summary, model performance metrics, quality standards comparison, and cost or life-cycle inventory.
+
+CONCLUSION CHARACTERISTICS:
+  Summarize the strongest evidence, quantify the main improvement or risk reduction, state the best-performing formulation or process condition, note practical constraints, and propose targeted validation, scale-up, or regulatory follow-up.
+
+COMMON REFERENCE VENUES:
+  Food Chemistry, Journal of Food Science, LWT - Food Science and Technology, Food Quality and Preference, Innovative Food Science and Emerging Technologies, Trends in Food Science & Technology, Comprehensive Reviews in Food Science and Food Safety, Food Control, Food Research International, and Journal of Agricultural and Food Chemistry.
+
+DOMAIN VOCABULARY:
+  water activity, proximate composition, bioaccessibility, Maillard reaction, lipid oxidation, texture profile analysis, sensory acceptability, shelf life, HACCP, active packaging, edible coating, rheology, emulsion stability, antioxidant capacity, food matrix, clean label, nutraceutical, adulteration, traceability, and reformulation.
+
+METHODOLOGY KEYWORDS:
+  proximate analysis; GC-MS; LC-MS; HPLC; NIR spectroscopy; microbial enumeration; challenge test; shelf-life modelling; response surface methodology; central composite design; descriptive sensory analysis; hedonic test; CATA; rheometry; texture profile analysis; water activity measurement; accelerated storage; life-cycle assessment; chemometrics; PCA; PLS regression; ANOVA.
+
+RESEARCH TOPIC BANK (500 TOPICS)
+
+CATEGORY 1 — Food Chemistry and Nutrient Stability (50 TOPICS)
+001. Polyphenol retention for mango puree in food science.
+002. Polyphenol retention for soy milk in food science.
+003. Polyphenol retention for rice bran snacks in food science.
+004. Polyphenol retention for cold-pressed oil in food science.
+005. Polyphenol retention for fortified biscuits in food science.
+006. Protein oxidation profiling for mango puree in food science.
+007. Protein oxidation profiling for soy milk in food science.
+008. Protein oxidation profiling for rice bran snacks in food science.
+009. Protein oxidation profiling for cold-pressed oil in food science.
+010. Protein oxidation profiling for fortified biscuits in food science.
+011. Lipid rancidity kinetics for mango puree in food science.
+012. Lipid rancidity kinetics for soy milk in food science.
+013. Lipid rancidity kinetics for rice bran snacks in food science.
+014. Lipid rancidity kinetics for cold-pressed oil in food science.
+015. Lipid rancidity kinetics for fortified biscuits in food science.
+016. Vitamin C degradation for mango puree in food science.
+017. Vitamin C degradation for soy milk in food science.
+018. Vitamin C degradation for rice bran snacks in food science.
+019. Vitamin C degradation for cold-pressed oil in food science.
+020. Vitamin C degradation for fortified biscuits in food science.
+021. Mineral bioaccessibility for mango puree in food science.
+022. Mineral bioaccessibility for soy milk in food science.
+023. Mineral bioaccessibility for rice bran snacks in food science.
+024. Mineral bioaccessibility for cold-pressed oil in food science.
+025. Mineral bioaccessibility for fortified biscuits in food science.
+026. Maillard marker formation for mango puree in food science.
+027. Maillard marker formation for soy milk in food science.
+028. Maillard marker formation for rice bran snacks in food science.
+029. Maillard marker formation for cold-pressed oil in food science.
+030. Maillard marker formation for fortified biscuits in food science.
+031. Starch digestibility shift for mango puree in food science.
+032. Starch digestibility shift for soy milk in food science.
+033. Starch digestibility shift for rice bran snacks in food science.
+034. Starch digestibility shift for cold-pressed oil in food science.
+035. Starch digestibility shift for fortified biscuits in food science.
+036. Pigment stability for mango puree in food science.
+037. Pigment stability for soy milk in food science.
+038. Pigment stability for rice bran snacks in food science.
+039. Pigment stability for cold-pressed oil in food science.
+040. Pigment stability for fortified biscuits in food science.
+041. Flavor volatile preservation for mango puree in food science.
+042. Flavor volatile preservation for soy milk in food science.
+043. Flavor volatile preservation for rice bran snacks in food science.
+044. Flavor volatile preservation for cold-pressed oil in food science.
+045. Flavor volatile preservation for fortified biscuits in food science.
+046. Antioxidant capacity mapping for mango puree in food science.
+047. Antioxidant capacity mapping for soy milk in food science.
+048. Antioxidant capacity mapping for rice bran snacks in food science.
+049. Antioxidant capacity mapping for cold-pressed oil in food science.
+050. Antioxidant capacity mapping for fortified biscuits in food science.
+
+CATEGORY 2 — Food Microbiology and Safety (50 TOPICS)
+051. Listeria control for ready-to-eat salads in food science.
+052. Listeria control for fermented sausages in food science.
+053. Listeria control for fresh-cut fruit in food science.
+054. Listeria control for pasteurized juice in food science.
+055. Listeria control for plant-based cheese in food science.
+056. Salmonella risk modelling for ready-to-eat salads in food science.
+057. Salmonella risk modelling for fermented sausages in food science.
+058. Salmonella risk modelling for fresh-cut fruit in food science.
+059. Salmonella risk modelling for pasteurized juice in food science.
+060. Salmonella risk modelling for plant-based cheese in food science.
+061. E. coli survival for ready-to-eat salads in food science.
+062. E. coli survival for fermented sausages in food science.
+063. E. coli survival for fresh-cut fruit in food science.
+064. E. coli survival for pasteurized juice in food science.
+065. E. coli survival for plant-based cheese in food science.
+066. Yeast spoilage tracking for ready-to-eat salads in food science.
+067. Yeast spoilage tracking for fermented sausages in food science.
+068. Yeast spoilage tracking for fresh-cut fruit in food science.
+069. Yeast spoilage tracking for pasteurized juice in food science.
+070. Yeast spoilage tracking for plant-based cheese in food science.
+071. Mold inhibition for ready-to-eat salads in food science.
+072. Mold inhibition for fermented sausages in food science.
+073. Mold inhibition for fresh-cut fruit in food science.
+074. Mold inhibition for pasteurized juice in food science.
+075. Mold inhibition for plant-based cheese in food science.
+076. Biofilm removal for ready-to-eat salads in food science.
+077. Biofilm removal for fermented sausages in food science.
+078. Biofilm removal for fresh-cut fruit in food science.
+079. Biofilm removal for pasteurized juice in food science.
+080. Biofilm removal for plant-based cheese in food science.
+081. Starter culture dominance for ready-to-eat salads in food science.
+082. Starter culture dominance for fermented sausages in food science.
+083. Starter culture dominance for fresh-cut fruit in food science.
+084. Starter culture dominance for pasteurized juice in food science.
+085. Starter culture dominance for plant-based cheese in food science.
+086. Pathogen heat resistance for ready-to-eat salads in food science.
+087. Pathogen heat resistance for fermented sausages in food science.
+088. Pathogen heat resistance for fresh-cut fruit in food science.
+089. Pathogen heat resistance for pasteurized juice in food science.
+090. Pathogen heat resistance for plant-based cheese in food science.
+091. HACCP verification for ready-to-eat salads in food science.
+092. HACCP verification for fermented sausages in food science.
+093. HACCP verification for fresh-cut fruit in food science.
+094. HACCP verification for pasteurized juice in food science.
+095. HACCP verification for plant-based cheese in food science.
+096. Microbial metagenomics for ready-to-eat salads in food science.
+097. Microbial metagenomics for fermented sausages in food science.
+098. Microbial metagenomics for fresh-cut fruit in food science.
+099. Microbial metagenomics for pasteurized juice in food science.
+100. Microbial metagenomics for plant-based cheese in food science.
+
+CATEGORY 3 — Food Processing Technologies (50 TOPICS)
+101. High-pressure processing for fruit powders in food science.
+102. High-pressure processing for legume proteins in food science.
+103. High-pressure processing for seafood products in food science.
+104. High-pressure processing for cereal snacks in food science.
+105. High-pressure processing for vegetable purees in food science.
+106. Pulsed electric field treatment for fruit powders in food science.
+107. Pulsed electric field treatment for legume proteins in food science.
+108. Pulsed electric field treatment for seafood products in food science.
+109. Pulsed electric field treatment for cereal snacks in food science.
+110. Pulsed electric field treatment for vegetable purees in food science.
+111. Ohmic heating for fruit powders in food science.
+112. Ohmic heating for legume proteins in food science.
+113. Ohmic heating for seafood products in food science.
+114. Ohmic heating for cereal snacks in food science.
+115. Ohmic heating for vegetable purees in food science.
+116. Microwave drying for fruit powders in food science.
+117. Microwave drying for legume proteins in food science.
+118. Microwave drying for seafood products in food science.
+119. Microwave drying for cereal snacks in food science.
+120. Microwave drying for vegetable purees in food science.
+121. Freeze drying for fruit powders in food science.
+122. Freeze drying for legume proteins in food science.
+123. Freeze drying for seafood products in food science.
+124. Freeze drying for cereal snacks in food science.
+125. Freeze drying for vegetable purees in food science.
+126. Spray drying for fruit powders in food science.
+127. Spray drying for legume proteins in food science.
+128. Spray drying for seafood products in food science.
+129. Spray drying for cereal snacks in food science.
+130. Spray drying for vegetable purees in food science.
+131. Ultrasound-assisted extraction for fruit powders in food science.
+132. Ultrasound-assisted extraction for legume proteins in food science.
+133. Ultrasound-assisted extraction for seafood products in food science.
+134. Ultrasound-assisted extraction for cereal snacks in food science.
+135. Ultrasound-assisted extraction for vegetable purees in food science.
+136. Cold plasma treatment for fruit powders in food science.
+137. Cold plasma treatment for legume proteins in food science.
+138. Cold plasma treatment for seafood products in food science.
+139. Cold plasma treatment for cereal snacks in food science.
+140. Cold plasma treatment for vegetable purees in food science.
+141. Sous-vide optimization for fruit powders in food science.
+142. Sous-vide optimization for legume proteins in food science.
+143. Sous-vide optimization for seafood products in food science.
+144. Sous-vide optimization for cereal snacks in food science.
+145. Sous-vide optimization for vegetable purees in food science.
+146. Extrusion processing for fruit powders in food science.
+147. Extrusion processing for legume proteins in food science.
+148. Extrusion processing for seafood products in food science.
+149. Extrusion processing for cereal snacks in food science.
+150. Extrusion processing for vegetable purees in food science.
+
+CATEGORY 4 — Food Packaging and Shelf Life (50 TOPICS)
+151. Active packaging for strawberries in food science.
+152. Active packaging for bakery bread in food science.
+153. Active packaging for fish fillets in food science.
+154. Active packaging for cheese slices in food science.
+155. Active packaging for roasted nuts in food science.
+156. Edible coating for strawberries in food science.
+157. Edible coating for bakery bread in food science.
+158. Edible coating for fish fillets in food science.
+159. Edible coating for cheese slices in food science.
+160. Edible coating for roasted nuts in food science.
+161. Modified atmosphere packaging for strawberries in food science.
+162. Modified atmosphere packaging for bakery bread in food science.
+163. Modified atmosphere packaging for fish fillets in food science.
+164. Modified atmosphere packaging for cheese slices in food science.
+165. Modified atmosphere packaging for roasted nuts in food science.
+166. Biodegradable film for strawberries in food science.
+167. Biodegradable film for bakery bread in food science.
+168. Biodegradable film for fish fillets in food science.
+169. Biodegradable film for cheese slices in food science.
+170. Biodegradable film for roasted nuts in food science.
+171. Oxygen scavenger use for strawberries in food science.
+172. Oxygen scavenger use for bakery bread in food science.
+173. Oxygen scavenger use for fish fillets in food science.
+174. Oxygen scavenger use for cheese slices in food science.
+175. Oxygen scavenger use for roasted nuts in food science.
+176. Moisture barrier design for strawberries in food science.
+177. Moisture barrier design for bakery bread in food science.
+178. Moisture barrier design for fish fillets in food science.
+179. Moisture barrier design for cheese slices in food science.
+180. Moisture barrier design for roasted nuts in food science.
+181. Smart freshness indicator for strawberries in food science.
+182. Smart freshness indicator for bakery bread in food science.
+183. Smart freshness indicator for fish fillets in food science.
+184. Smart freshness indicator for cheese slices in food science.
+185. Smart freshness indicator for roasted nuts in food science.
+186. Antimicrobial sachet for strawberries in food science.
+187. Antimicrobial sachet for bakery bread in food science.
+188. Antimicrobial sachet for fish fillets in food science.
+189. Antimicrobial sachet for cheese slices in food science.
+190. Antimicrobial sachet for roasted nuts in food science.
+191. Light-blocking package for strawberries in food science.
+192. Light-blocking package for bakery bread in food science.
+193. Light-blocking package for fish fillets in food science.
+194. Light-blocking package for cheese slices in food science.
+195. Light-blocking package for roasted nuts in food science.
+196. Shelf-life prediction for strawberries in food science.
+197. Shelf-life prediction for bakery bread in food science.
+198. Shelf-life prediction for fish fillets in food science.
+199. Shelf-life prediction for cheese slices in food science.
+200. Shelf-life prediction for roasted nuts in food science.
+
+CATEGORY 5 — Sensory Science and Consumer Acceptance (50 TOPICS)
+201. Hedonic mapping for low-sugar yogurt in food science.
+202. Hedonic mapping for gluten-free bread in food science.
+203. Hedonic mapping for plant-based burger in food science.
+204. Hedonic mapping for functional beverage in food science.
+205. Hedonic mapping for traditional snack in food science.
+206. Check-all-that-apply profiling for low-sugar yogurt in food science.
+207. Check-all-that-apply profiling for gluten-free bread in food science.
+208. Check-all-that-apply profiling for plant-based burger in food science.
+209. Check-all-that-apply profiling for functional beverage in food science.
+210. Check-all-that-apply profiling for traditional snack in food science.
+211. Temporal dominance analysis for low-sugar yogurt in food science.
+212. Temporal dominance analysis for gluten-free bread in food science.
+213. Temporal dominance analysis for plant-based burger in food science.
+214. Temporal dominance analysis for functional beverage in food science.
+215. Temporal dominance analysis for traditional snack in food science.
+216. Texture preference modelling for low-sugar yogurt in food science.
+217. Texture preference modelling for gluten-free bread in food science.
+218. Texture preference modelling for plant-based burger in food science.
+219. Texture preference modelling for functional beverage in food science.
+220. Texture preference modelling for traditional snack in food science.
+221. Aroma liking segmentation for low-sugar yogurt in food science.
+222. Aroma liking segmentation for gluten-free bread in food science.
+223. Aroma liking segmentation for plant-based burger in food science.
+224. Aroma liking segmentation for functional beverage in food science.
+225. Aroma liking segmentation for traditional snack in food science.
+226. Color acceptance testing for low-sugar yogurt in food science.
+227. Color acceptance testing for gluten-free bread in food science.
+228. Color acceptance testing for plant-based burger in food science.
+229. Color acceptance testing for functional beverage in food science.
+230. Color acceptance testing for traditional snack in food science.
+231. Purchase intention modelling for low-sugar yogurt in food science.
+232. Purchase intention modelling for gluten-free bread in food science.
+233. Purchase intention modelling for plant-based burger in food science.
+234. Purchase intention modelling for functional beverage in food science.
+235. Purchase intention modelling for traditional snack in food science.
+236. Cross-cultural sensory testing for low-sugar yogurt in food science.
+237. Cross-cultural sensory testing for gluten-free bread in food science.
+238. Cross-cultural sensory testing for plant-based burger in food science.
+239. Cross-cultural sensory testing for functional beverage in food science.
+240. Cross-cultural sensory testing for traditional snack in food science.
+241. Kids preference evaluation for low-sugar yogurt in food science.
+242. Kids preference evaluation for gluten-free bread in food science.
+243. Kids preference evaluation for plant-based burger in food science.
+244. Kids preference evaluation for functional beverage in food science.
+245. Kids preference evaluation for traditional snack in food science.
+246. Descriptive panel validation for low-sugar yogurt in food science.
+247. Descriptive panel validation for gluten-free bread in food science.
+248. Descriptive panel validation for plant-based burger in food science.
+249. Descriptive panel validation for functional beverage in food science.
+250. Descriptive panel validation for traditional snack in food science.
+
+CATEGORY 6 — Functional Foods and Nutraceuticals (50 TOPICS)
+251. Probiotic viability for cereal bars in food science.
+252. Probiotic viability for kombucha in food science.
+253. Probiotic viability for infant porridge in food science.
+254. Probiotic viability for dairy drinks in food science.
+255. Probiotic viability for noodle products in food science.
+256. Prebiotic fiber enrichment for cereal bars in food science.
+257. Prebiotic fiber enrichment for kombucha in food science.
+258. Prebiotic fiber enrichment for infant porridge in food science.
+259. Prebiotic fiber enrichment for dairy drinks in food science.
+260. Prebiotic fiber enrichment for noodle products in food science.
+261. Omega-3 fortification for cereal bars in food science.
+262. Omega-3 fortification for kombucha in food science.
+263. Omega-3 fortification for infant porridge in food science.
+264. Omega-3 fortification for dairy drinks in food science.
+265. Omega-3 fortification for noodle products in food science.
+266. Plant sterol delivery for cereal bars in food science.
+267. Plant sterol delivery for kombucha in food science.
+268. Plant sterol delivery for infant porridge in food science.
+269. Plant sterol delivery for dairy drinks in food science.
+270. Plant sterol delivery for noodle products in food science.
+271. Bioactive peptide release for cereal bars in food science.
+272. Bioactive peptide release for kombucha in food science.
+273. Bioactive peptide release for infant porridge in food science.
+274. Bioactive peptide release for dairy drinks in food science.
+275. Bioactive peptide release for noodle products in food science.
+276. Fermented phenolic enhancement for cereal bars in food science.
+277. Fermented phenolic enhancement for kombucha in food science.
+278. Fermented phenolic enhancement for infant porridge in food science.
+279. Fermented phenolic enhancement for dairy drinks in food science.
+280. Fermented phenolic enhancement for noodle products in food science.
+281. Glycemic response reduction for cereal bars in food science.
+282. Glycemic response reduction for kombucha in food science.
+283. Glycemic response reduction for infant porridge in food science.
+284. Glycemic response reduction for dairy drinks in food science.
+285. Glycemic response reduction for noodle products in food science.
+286. Satiety effect testing for cereal bars in food science.
+287. Satiety effect testing for kombucha in food science.
+288. Satiety effect testing for infant porridge in food science.
+289. Satiety effect testing for dairy drinks in food science.
+290. Satiety effect testing for noodle products in food science.
+291. Immune marker modulation for cereal bars in food science.
+292. Immune marker modulation for kombucha in food science.
+293. Immune marker modulation for infant porridge in food science.
+294. Immune marker modulation for dairy drinks in food science.
+295. Immune marker modulation for noodle products in food science.
+296. Gut microbiome response for cereal bars in food science.
+297. Gut microbiome response for kombucha in food science.
+298. Gut microbiome response for infant porridge in food science.
+299. Gut microbiome response for dairy drinks in food science.
+300. Gut microbiome response for noodle products in food science.
+
+CATEGORY 7 — Food Engineering and Rheology (50 TOPICS)
+301. Viscosity modelling for sauces in food science.
+302. Viscosity modelling for ice cream in food science.
+303. Viscosity modelling for chocolate in food science.
+304. Viscosity modelling for protein gels in food science.
+305. Viscosity modelling for instant powders in food science.
+306. Texture profile analysis for sauces in food science.
+307. Texture profile analysis for ice cream in food science.
+308. Texture profile analysis for chocolate in food science.
+309. Texture profile analysis for protein gels in food science.
+310. Texture profile analysis for instant powders in food science.
+311. Emulsion stability for sauces in food science.
+312. Emulsion stability for ice cream in food science.
+313. Emulsion stability for chocolate in food science.
+314. Emulsion stability for protein gels in food science.
+315. Emulsion stability for instant powders in food science.
+316. Foam stability for sauces in food science.
+317. Foam stability for ice cream in food science.
+318. Foam stability for chocolate in food science.
+319. Foam stability for protein gels in food science.
+320. Foam stability for instant powders in food science.
+321. Gelation kinetics for sauces in food science.
+322. Gelation kinetics for ice cream in food science.
+323. Gelation kinetics for chocolate in food science.
+324. Gelation kinetics for protein gels in food science.
+325. Gelation kinetics for instant powders in food science.
+326. Mass transfer estimation for sauces in food science.
+327. Mass transfer estimation for ice cream in food science.
+328. Mass transfer estimation for chocolate in food science.
+329. Mass transfer estimation for protein gels in food science.
+330. Mass transfer estimation for instant powders in food science.
+331. Thermal diffusivity measurement for sauces in food science.
+332. Thermal diffusivity measurement for ice cream in food science.
+333. Thermal diffusivity measurement for chocolate in food science.
+334. Thermal diffusivity measurement for protein gels in food science.
+335. Thermal diffusivity measurement for instant powders in food science.
+336. Water activity control for sauces in food science.
+337. Water activity control for ice cream in food science.
+338. Water activity control for chocolate in food science.
+339. Water activity control for protein gels in food science.
+340. Water activity control for instant powders in food science.
+341. Powder flowability for sauces in food science.
+342. Powder flowability for ice cream in food science.
+343. Powder flowability for chocolate in food science.
+344. Powder flowability for protein gels in food science.
+345. Powder flowability for instant powders in food science.
+346. Crystallization behavior for sauces in food science.
+347. Crystallization behavior for ice cream in food science.
+348. Crystallization behavior for chocolate in food science.
+349. Crystallization behavior for protein gels in food science.
+350. Crystallization behavior for instant powders in food science.
+
+CATEGORY 8 — Sustainable Food Systems (50 TOPICS)
+351. Food waste valorization for banana peel flour in food science.
+352. Food waste valorization for spent grain in food science.
+353. Food waste valorization for fish waste collagen in food science.
+354. Food waste valorization for cassava pulp in food science.
+355. Food waste valorization for coffee husk extract in food science.
+356. By-product protein recovery for banana peel flour in food science.
+357. By-product protein recovery for spent grain in food science.
+358. By-product protein recovery for fish waste collagen in food science.
+359. By-product protein recovery for cassava pulp in food science.
+360. By-product protein recovery for coffee husk extract in food science.
+361. Circular packaging assessment for banana peel flour in food science.
+362. Circular packaging assessment for spent grain in food science.
+363. Circular packaging assessment for fish waste collagen in food science.
+364. Circular packaging assessment for cassava pulp in food science.
+365. Circular packaging assessment for coffee husk extract in food science.
+366. Low-energy drying for banana peel flour in food science.
+367. Low-energy drying for spent grain in food science.
+368. Low-energy drying for fish waste collagen in food science.
+369. Low-energy drying for cassava pulp in food science.
+370. Low-energy drying for coffee husk extract in food science.
+371. Life-cycle assessment for banana peel flour in food science.
+372. Life-cycle assessment for spent grain in food science.
+373. Life-cycle assessment for fish waste collagen in food science.
+374. Life-cycle assessment for cassava pulp in food science.
+375. Life-cycle assessment for coffee husk extract in food science.
+376. Water footprint reduction for banana peel flour in food science.
+377. Water footprint reduction for spent grain in food science.
+378. Water footprint reduction for fish waste collagen in food science.
+379. Water footprint reduction for cassava pulp in food science.
+380. Water footprint reduction for coffee husk extract in food science.
+381. Upcycled ingredient formulation for banana peel flour in food science.
+382. Upcycled ingredient formulation for spent grain in food science.
+383. Upcycled ingredient formulation for fish waste collagen in food science.
+384. Upcycled ingredient formulation for cassava pulp in food science.
+385. Upcycled ingredient formulation for coffee husk extract in food science.
+386. Clean-label preservation for banana peel flour in food science.
+387. Clean-label preservation for spent grain in food science.
+388. Clean-label preservation for fish waste collagen in food science.
+389. Clean-label preservation for cassava pulp in food science.
+390. Clean-label preservation for coffee husk extract in food science.
+391. Local supply chain modelling for banana peel flour in food science.
+392. Local supply chain modelling for spent grain in food science.
+393. Local supply chain modelling for fish waste collagen in food science.
+394. Local supply chain modelling for cassava pulp in food science.
+395. Local supply chain modelling for coffee husk extract in food science.
+396. Carbon footprint labelling for banana peel flour in food science.
+397. Carbon footprint labelling for spent grain in food science.
+398. Carbon footprint labelling for fish waste collagen in food science.
+399. Carbon footprint labelling for cassava pulp in food science.
+400. Carbon footprint labelling for coffee husk extract in food science.
+
+CATEGORY 9 — Food Authentication and Quality Analytics (50 TOPICS)
+401. LC-MS fingerprinting for honey in food science.
+402. LC-MS fingerprinting for olive oil in food science.
+403. LC-MS fingerprinting for coffee in food science.
+404. LC-MS fingerprinting for spices in food science.
+405. LC-MS fingerprinting for meat products in food science.
+406. NIR adulteration detection for honey in food science.
+407. NIR adulteration detection for olive oil in food science.
+408. NIR adulteration detection for coffee in food science.
+409. NIR adulteration detection for spices in food science.
+410. NIR adulteration detection for meat products in food science.
+411. Isotope ratio authentication for honey in food science.
+412. Isotope ratio authentication for olive oil in food science.
+413. Isotope ratio authentication for coffee in food science.
+414. Isotope ratio authentication for spices in food science.
+415. Isotope ratio authentication for meat products in food science.
+416. Electronic nose classification for honey in food science.
+417. Electronic nose classification for olive oil in food science.
+418. Electronic nose classification for coffee in food science.
+419. Electronic nose classification for spices in food science.
+420. Electronic nose classification for meat products in food science.
+421. DNA barcoding for honey in food science.
+422. DNA barcoding for olive oil in food science.
+423. DNA barcoding for coffee in food science.
+424. DNA barcoding for spices in food science.
+425. DNA barcoding for meat products in food science.
+426. Chemometric quality grading for honey in food science.
+427. Chemometric quality grading for olive oil in food science.
+428. Chemometric quality grading for coffee in food science.
+429. Chemometric quality grading for spices in food science.
+430. Chemometric quality grading for meat products in food science.
+431. Hyperspectral defect detection for honey in food science.
+432. Hyperspectral defect detection for olive oil in food science.
+433. Hyperspectral defect detection for coffee in food science.
+434. Hyperspectral defect detection for spices in food science.
+435. Hyperspectral defect detection for meat products in food science.
+436. Rapid pesticide screening for honey in food science.
+437. Rapid pesticide screening for olive oil in food science.
+438. Rapid pesticide screening for coffee in food science.
+439. Rapid pesticide screening for spices in food science.
+440. Rapid pesticide screening for meat products in food science.
+441. Mycotoxin monitoring for honey in food science.
+442. Mycotoxin monitoring for olive oil in food science.
+443. Mycotoxin monitoring for coffee in food science.
+444. Mycotoxin monitoring for spices in food science.
+445. Mycotoxin monitoring for meat products in food science.
+446. Traceability marker design for honey in food science.
+447. Traceability marker design for olive oil in food science.
+448. Traceability marker design for coffee in food science.
+449. Traceability marker design for spices in food science.
+450. Traceability marker design for meat products in food science.
+
+CATEGORY 10 — Nutrition, Public Health, and Product Reformulation (50 TOPICS)
+451. Sodium reduction for soups in food science.
+452. Sodium reduction for breakfast cereals in food science.
+453. Sodium reduction for beverages in food science.
+454. Sodium reduction for bakery products in food science.
+455. Sodium reduction for street foods in food science.
+456. Sugar replacement for soups in food science.
+457. Sugar replacement for breakfast cereals in food science.
+458. Sugar replacement for beverages in food science.
+459. Sugar replacement for bakery products in food science.
+460. Sugar replacement for street foods in food science.
+461. Trans-fat elimination for soups in food science.
+462. Trans-fat elimination for breakfast cereals in food science.
+463. Trans-fat elimination for beverages in food science.
+464. Trans-fat elimination for bakery products in food science.
+465. Trans-fat elimination for street foods in food science.
+466. Protein enrichment for soups in food science.
+467. Protein enrichment for breakfast cereals in food science.
+468. Protein enrichment for beverages in food science.
+469. Protein enrichment for bakery products in food science.
+470. Protein enrichment for street foods in food science.
+471. Fiber fortification for soups in food science.
+472. Fiber fortification for breakfast cereals in food science.
+473. Fiber fortification for beverages in food science.
+474. Fiber fortification for bakery products in food science.
+475. Fiber fortification for street foods in food science.
+476. Portion-size redesign for soups in food science.
+477. Portion-size redesign for breakfast cereals in food science.
+478. Portion-size redesign for beverages in food science.
+479. Portion-size redesign for bakery products in food science.
+480. Portion-size redesign for street foods in food science.
+481. Allergen risk assessment for soups in food science.
+482. Allergen risk assessment for breakfast cereals in food science.
+483. Allergen risk assessment for beverages in food science.
+484. Allergen risk assessment for bakery products in food science.
+485. Allergen risk assessment for street foods in food science.
+486. School meal optimization for soups in food science.
+487. School meal optimization for breakfast cereals in food science.
+488. School meal optimization for beverages in food science.
+489. School meal optimization for bakery products in food science.
+490. School meal optimization for street foods in food science.
+491. Elderly nutrition formulation for soups in food science.
+492. Elderly nutrition formulation for breakfast cereals in food science.
+493. Elderly nutrition formulation for beverages in food science.
+494. Elderly nutrition formulation for bakery products in food science.
+495. Elderly nutrition formulation for street foods in food science.
+496. Micronutrient gap targeting for soups in food science.
+497. Micronutrient gap targeting for breakfast cereals in food science.
+498. Micronutrient gap targeting for beverages in food science.
+499. Micronutrient gap targeting for bakery products in food science.
+500. Micronutrient gap targeting for street foods in food science.

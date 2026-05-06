@@ -3,10 +3,583 @@ TOPIC GUIDE — Philosophy
 ================================================================================
 FIELD: Humanities / Philosophy
 DEFAULT CITATION STYLE: Chicago or MLA
+SUBDISCIPLINE: Ethics, Epistemology, Metaphysics, Logic, Political Philosophy, Philosophy of Mind, Applied Philosophy
 
-METHODOLOGY: conceptual analysis, argument analysis, thought experiments,
-  applied ethics, meta-ethics, phenomenology, comparative philosophy
-EQUATIONS: (logic formulas: propositional logic P→Q, modal logic □P)
-FIGURES: conceptual framework diagram, argument map, ethical decision tree
-TABLES: philosophical position comparison, argument summary table
-VENUES: Mind, Philosophical Review, Ethics, Philosophical Quarterly, J. Applied Philosophy
+ABSTRACT CHARACTERISTICS:
+  150–250 words. State the philosophy problem, study context, data/source material,
+  method, evaluation metrics, principal findings, contribution, limitation, and implication.
+
+INTRODUCTION ELEMENTS:
+  - Define the empirical or conceptual problem and why it matters now.
+  - Identify stakeholders, geographic/social scope, and practical consequences.
+  - Position the work against current literature and policy/technical debates.
+  - State research gap, research questions, objectives, and expected contribution.
+
+LITERATURE REVIEW:
+  Common section name: "Related Work" / "Background" / "Theoretical Framework"
+  - Core theories, frameworks, standards, and domain concepts.
+  - Recent empirical findings and methodological debates.
+  - Dataset, corpus, archive, platform, or field-site precedents.
+  - Limitations in existing evidence and opportunities for replication or extension.
+
+METHODOLOGY:
+  Common section name: "Methods" / "Research Design"
+  - Design: qualitative, quantitative, computational, experimental, comparative, or mixed methods.
+  - Data: sampling frame, inclusion criteria, instruments, preprocessing, and ethics.
+  - Analysis: model, coding scheme, validation strategy, robustness checks, and reproducibility.
+  - Metrics: report validity, reliability, uncertainty, bias, and domain-specific performance indicators.
+
+TYPICAL RESULTS & DISCUSSION:
+  - Present findings by research question, not by raw output sequence.
+  - Compare outcomes with prior studies and explain contextual differences.
+  - Discuss uncertainty, sensitivity, trade-offs, and alternative interpretations.
+  - Tables: descriptive statistics, model results, comparative cases, coded themes.
+  - Figures: conceptual framework, workflow, maps/networks/charts, result dashboards.
+
+TYPICAL FIGURES:
+  - Study design workflow or analytical pipeline.
+  - Conceptual framework or theory-of-change diagram.
+  - Spatial, network, timeline, or distribution visualization as relevant.
+  - Comparative result chart with confidence/uncertainty indicators.
+
+TYPICAL TABLES:
+  - Data/source summary: source | period | coverage | variables | limitations.
+  - Method matrix: research question | data | method | metric | expected output.
+  - Findings table: theme/model/case | evidence | interpretation | implication.
+
+CONCLUSION CHARACTERISTICS:
+  - Answer the research questions directly and quantify or qualify the contribution.
+  - State theoretical, methodological, and practical implications.
+  - Acknowledge limitations in scope, data quality, generalizability, and bias.
+  - Recommend future work with concrete datasets, sites, populations, or methods.
+
+COMMON REFERENCE VENUES:
+  Use leading journals, conferences, books, standards, and domain reports appropriate to the topic.
+
+DOMAIN VOCABULARY:
+  Ethics, Epistemology, Metaphysics, Logic, Political Philosophy, Philosophy of Mind, Applied Philosophy
+
+METHODOLOGY KEYWORDS:
+  mixed-methods design, GIS/spatial analysis, survey research, case study comparison, statistical modeling, network analysis, content analysis, simulation modeling, interview-based inquiry, policy evaluation
+
+RESEARCH TOPIC BANK (500 TOPICS)
+
+CATEGORY 1 — Ethics and Moral Philosophy
+001. CATEGORY 2 — Ethics and Moral Philosophy: mixed-methods design of algorithmic fairness interventions in Indonesian secondary cities using accuracy as the primary evaluation lens.
+002. CATEGORY 3 — Ethics and Moral Philosophy: GIS/spatial analysis of algorithmic fairness interventions in coastal metropolitan regions using accessibility as the primary evaluation lens.
+003. CATEGORY 4 — Ethics and Moral Philosophy: survey research of algorithmic fairness interventions in university campuses using resilience as the primary evaluation lens.
+004. CATEGORY 5 — Ethics and Moral Philosophy: case study comparison of algorithmic fairness interventions in rural service areas using usability as the primary evaluation lens.
+005. CATEGORY 6 — Ethics and Moral Philosophy: statistical modeling of algorithmic fairness interventions in low-income neighborhoods using governance quality as the primary evaluation lens.
+006. CATEGORY 7 — Ethics and Moral Philosophy: network analysis of algorithmic fairness interventions in post-pandemic public institutions using accuracy as the primary evaluation lens.
+007. CATEGORY 8 — Ethics and Moral Philosophy: content analysis of algorithmic fairness interventions in rapidly growing suburbs using accessibility as the primary evaluation lens.
+008. CATEGORY 9 — Ethics and Moral Philosophy: simulation modeling of algorithmic fairness interventions in historic city centers using resilience as the primary evaluation lens.
+009. CATEGORY 10 — Ethics and Moral Philosophy: interview-based inquiry of algorithmic fairness interventions in cross-border regions using usability as the primary evaluation lens.
+010. CATEGORY 11 — Ethics and Moral Philosophy: policy evaluation of algorithmic fairness interventions in climate-vulnerable districts using governance quality as the primary evaluation lens.
+011. CATEGORY 12 — Ethics and Moral Philosophy: mixed-methods design of algorithmic fairness interventions in Indonesian secondary cities using accuracy as the primary evaluation lens.
+012. CATEGORY 13 — Ethics and Moral Philosophy: GIS/spatial analysis of algorithmic fairness interventions in coastal metropolitan regions using accessibility as the primary evaluation lens.
+013. CATEGORY 14 — Ethics and Moral Philosophy: survey research of algorithmic fairness interventions in university campuses using resilience as the primary evaluation lens.
+014. CATEGORY 15 — Ethics and Moral Philosophy: case study comparison of algorithmic fairness interventions in rural service areas using usability as the primary evaluation lens.
+015. CATEGORY 16 — Ethics and Moral Philosophy: statistical modeling of algorithmic fairness interventions in low-income neighborhoods using governance quality as the primary evaluation lens.
+016. CATEGORY 17 — Ethics and Moral Philosophy: network analysis of algorithmic fairness interventions in post-pandemic public institutions using accuracy as the primary evaluation lens.
+017. CATEGORY 18 — Ethics and Moral Philosophy: content analysis of algorithmic fairness interventions in rapidly growing suburbs using accessibility as the primary evaluation lens.
+018. CATEGORY 19 — Ethics and Moral Philosophy: simulation modeling of algorithmic fairness interventions in historic city centers using resilience as the primary evaluation lens.
+019. CATEGORY 20 — Ethics and Moral Philosophy: interview-based inquiry of algorithmic fairness interventions in cross-border regions using usability as the primary evaluation lens.
+020. CATEGORY 21 — Ethics and Moral Philosophy: policy evaluation of algorithmic fairness interventions in climate-vulnerable districts using governance quality as the primary evaluation lens.
+021. CATEGORY 22 — Ethics and Moral Philosophy: mixed-methods design of algorithmic fairness interventions in Indonesian secondary cities using accuracy as the primary evaluation lens.
+022. CATEGORY 23 — Ethics and Moral Philosophy: GIS/spatial analysis of algorithmic fairness interventions in coastal metropolitan regions using accessibility as the primary evaluation lens.
+023. CATEGORY 24 — Ethics and Moral Philosophy: survey research of algorithmic fairness interventions in university campuses using resilience as the primary evaluation lens.
+024. CATEGORY 25 — Ethics and Moral Philosophy: case study comparison of algorithmic fairness interventions in rural service areas using usability as the primary evaluation lens.
+025. CATEGORY 26 — Ethics and Moral Philosophy: statistical modeling of algorithmic fairness interventions in low-income neighborhoods using governance quality as the primary evaluation lens.
+026. CATEGORY 27 — Ethics and Moral Philosophy: network analysis of algorithmic fairness interventions in post-pandemic public institutions using accuracy as the primary evaluation lens.
+027. CATEGORY 28 — Ethics and Moral Philosophy: content analysis of algorithmic fairness interventions in rapidly growing suburbs using accessibility as the primary evaluation lens.
+028. CATEGORY 29 — Ethics and Moral Philosophy: simulation modeling of algorithmic fairness interventions in historic city centers using resilience as the primary evaluation lens.
+029. CATEGORY 30 — Ethics and Moral Philosophy: interview-based inquiry of algorithmic fairness interventions in cross-border regions using usability as the primary evaluation lens.
+030. CATEGORY 31 — Ethics and Moral Philosophy: policy evaluation of algorithmic fairness interventions in climate-vulnerable districts using governance quality as the primary evaluation lens.
+031. CATEGORY 32 — Ethics and Moral Philosophy: mixed-methods design of algorithmic fairness interventions in Indonesian secondary cities using accuracy as the primary evaluation lens.
+032. CATEGORY 33 — Ethics and Moral Philosophy: GIS/spatial analysis of algorithmic fairness interventions in coastal metropolitan regions using accessibility as the primary evaluation lens.
+033. CATEGORY 34 — Ethics and Moral Philosophy: survey research of algorithmic fairness interventions in university campuses using resilience as the primary evaluation lens.
+034. CATEGORY 35 — Ethics and Moral Philosophy: case study comparison of algorithmic fairness interventions in rural service areas using usability as the primary evaluation lens.
+035. CATEGORY 36 — Ethics and Moral Philosophy: statistical modeling of algorithmic fairness interventions in low-income neighborhoods using governance quality as the primary evaluation lens.
+036. CATEGORY 37 — Ethics and Moral Philosophy: network analysis of algorithmic fairness interventions in post-pandemic public institutions using accuracy as the primary evaluation lens.
+037. CATEGORY 38 — Ethics and Moral Philosophy: content analysis of algorithmic fairness interventions in rapidly growing suburbs using accessibility as the primary evaluation lens.
+038. CATEGORY 39 — Ethics and Moral Philosophy: simulation modeling of algorithmic fairness interventions in historic city centers using resilience as the primary evaluation lens.
+039. CATEGORY 40 — Ethics and Moral Philosophy: interview-based inquiry of algorithmic fairness interventions in cross-border regions using usability as the primary evaluation lens.
+040. CATEGORY 41 — Ethics and Moral Philosophy: policy evaluation of algorithmic fairness interventions in climate-vulnerable districts using governance quality as the primary evaluation lens.
+041. CATEGORY 42 — Ethics and Moral Philosophy: mixed-methods design of algorithmic fairness interventions in Indonesian secondary cities using accuracy as the primary evaluation lens.
+042. CATEGORY 43 — Ethics and Moral Philosophy: GIS/spatial analysis of algorithmic fairness interventions in coastal metropolitan regions using accessibility as the primary evaluation lens.
+043. CATEGORY 44 — Ethics and Moral Philosophy: survey research of algorithmic fairness interventions in university campuses using resilience as the primary evaluation lens.
+044. CATEGORY 45 — Ethics and Moral Philosophy: case study comparison of algorithmic fairness interventions in rural service areas using usability as the primary evaluation lens.
+045. CATEGORY 46 — Ethics and Moral Philosophy: statistical modeling of algorithmic fairness interventions in low-income neighborhoods using governance quality as the primary evaluation lens.
+046. CATEGORY 47 — Ethics and Moral Philosophy: network analysis of algorithmic fairness interventions in post-pandemic public institutions using accuracy as the primary evaluation lens.
+047. CATEGORY 48 — Ethics and Moral Philosophy: content analysis of algorithmic fairness interventions in rapidly growing suburbs using accessibility as the primary evaluation lens.
+048. CATEGORY 49 — Ethics and Moral Philosophy: simulation modeling of algorithmic fairness interventions in historic city centers using resilience as the primary evaluation lens.
+049. CATEGORY 50 — Ethics and Moral Philosophy: interview-based inquiry of algorithmic fairness interventions in cross-border regions using usability as the primary evaluation lens.
+050. CATEGORY 51 — Ethics and Moral Philosophy: policy evaluation of algorithmic fairness interventions in climate-vulnerable districts using governance quality as the primary evaluation lens.
+
+CATEGORY 2 — Epistemology
+051. CATEGORY 53 — Epistemology: GIS/spatial analysis of expert testimony interventions in Indonesian secondary cities using equity as the primary evaluation lens.
+052. CATEGORY 54 — Epistemology: survey research of expert testimony interventions in coastal metropolitan regions using efficiency as the primary evaluation lens.
+053. CATEGORY 55 — Epistemology: case study comparison of expert testimony interventions in university campuses using adoption as the primary evaluation lens.
+054. CATEGORY 56 — Epistemology: statistical modeling of expert testimony interventions in rural service areas using sustainability as the primary evaluation lens.
+055. CATEGORY 57 — Epistemology: network analysis of expert testimony interventions in low-income neighborhoods using social impact as the primary evaluation lens.
+056. CATEGORY 58 — Epistemology: content analysis of expert testimony interventions in post-pandemic public institutions using equity as the primary evaluation lens.
+057. CATEGORY 59 — Epistemology: simulation modeling of expert testimony interventions in rapidly growing suburbs using efficiency as the primary evaluation lens.
+058. CATEGORY 60 — Epistemology: interview-based inquiry of expert testimony interventions in historic city centers using adoption as the primary evaluation lens.
+059. CATEGORY 61 — Epistemology: policy evaluation of expert testimony interventions in cross-border regions using sustainability as the primary evaluation lens.
+060. CATEGORY 62 — Epistemology: mixed-methods design of expert testimony interventions in climate-vulnerable districts using social impact as the primary evaluation lens.
+061. CATEGORY 63 — Epistemology: GIS/spatial analysis of expert testimony interventions in Indonesian secondary cities using equity as the primary evaluation lens.
+062. CATEGORY 64 — Epistemology: survey research of expert testimony interventions in coastal metropolitan regions using efficiency as the primary evaluation lens.
+063. CATEGORY 65 — Epistemology: case study comparison of expert testimony interventions in university campuses using adoption as the primary evaluation lens.
+064. CATEGORY 66 — Epistemology: statistical modeling of expert testimony interventions in rural service areas using sustainability as the primary evaluation lens.
+065. CATEGORY 67 — Epistemology: network analysis of expert testimony interventions in low-income neighborhoods using social impact as the primary evaluation lens.
+066. CATEGORY 68 — Epistemology: content analysis of expert testimony interventions in post-pandemic public institutions using equity as the primary evaluation lens.
+067. CATEGORY 69 — Epistemology: simulation modeling of expert testimony interventions in rapidly growing suburbs using efficiency as the primary evaluation lens.
+068. CATEGORY 70 — Epistemology: interview-based inquiry of expert testimony interventions in historic city centers using adoption as the primary evaluation lens.
+069. CATEGORY 71 — Epistemology: policy evaluation of expert testimony interventions in cross-border regions using sustainability as the primary evaluation lens.
+070. CATEGORY 72 — Epistemology: mixed-methods design of expert testimony interventions in climate-vulnerable districts using social impact as the primary evaluation lens.
+071. CATEGORY 73 — Epistemology: GIS/spatial analysis of expert testimony interventions in Indonesian secondary cities using equity as the primary evaluation lens.
+072. CATEGORY 74 — Epistemology: survey research of expert testimony interventions in coastal metropolitan regions using efficiency as the primary evaluation lens.
+073. CATEGORY 75 — Epistemology: case study comparison of expert testimony interventions in university campuses using adoption as the primary evaluation lens.
+074. CATEGORY 76 — Epistemology: statistical modeling of expert testimony interventions in rural service areas using sustainability as the primary evaluation lens.
+075. CATEGORY 77 — Epistemology: network analysis of expert testimony interventions in low-income neighborhoods using social impact as the primary evaluation lens.
+076. CATEGORY 78 — Epistemology: content analysis of expert testimony interventions in post-pandemic public institutions using equity as the primary evaluation lens.
+077. CATEGORY 79 — Epistemology: simulation modeling of expert testimony interventions in rapidly growing suburbs using efficiency as the primary evaluation lens.
+078. CATEGORY 80 — Epistemology: interview-based inquiry of expert testimony interventions in historic city centers using adoption as the primary evaluation lens.
+079. CATEGORY 81 — Epistemology: policy evaluation of expert testimony interventions in cross-border regions using sustainability as the primary evaluation lens.
+080. CATEGORY 82 — Epistemology: mixed-methods design of expert testimony interventions in climate-vulnerable districts using social impact as the primary evaluation lens.
+081. CATEGORY 83 — Epistemology: GIS/spatial analysis of expert testimony interventions in Indonesian secondary cities using equity as the primary evaluation lens.
+082. CATEGORY 84 — Epistemology: survey research of expert testimony interventions in coastal metropolitan regions using efficiency as the primary evaluation lens.
+083. CATEGORY 85 — Epistemology: case study comparison of expert testimony interventions in university campuses using adoption as the primary evaluation lens.
+084. CATEGORY 86 — Epistemology: statistical modeling of expert testimony interventions in rural service areas using sustainability as the primary evaluation lens.
+085. CATEGORY 87 — Epistemology: network analysis of expert testimony interventions in low-income neighborhoods using social impact as the primary evaluation lens.
+086. CATEGORY 88 — Epistemology: content analysis of expert testimony interventions in post-pandemic public institutions using equity as the primary evaluation lens.
+087. CATEGORY 89 — Epistemology: simulation modeling of expert testimony interventions in rapidly growing suburbs using efficiency as the primary evaluation lens.
+088. CATEGORY 90 — Epistemology: interview-based inquiry of expert testimony interventions in historic city centers using adoption as the primary evaluation lens.
+089. CATEGORY 91 — Epistemology: policy evaluation of expert testimony interventions in cross-border regions using sustainability as the primary evaluation lens.
+090. CATEGORY 92 — Epistemology: mixed-methods design of expert testimony interventions in climate-vulnerable districts using social impact as the primary evaluation lens.
+091. CATEGORY 93 — Epistemology: GIS/spatial analysis of expert testimony interventions in Indonesian secondary cities using equity as the primary evaluation lens.
+092. CATEGORY 94 — Epistemology: survey research of expert testimony interventions in coastal metropolitan regions using efficiency as the primary evaluation lens.
+093. CATEGORY 95 — Epistemology: case study comparison of expert testimony interventions in university campuses using adoption as the primary evaluation lens.
+094. CATEGORY 96 — Epistemology: statistical modeling of expert testimony interventions in rural service areas using sustainability as the primary evaluation lens.
+095. CATEGORY 97 — Epistemology: network analysis of expert testimony interventions in low-income neighborhoods using social impact as the primary evaluation lens.
+096. CATEGORY 98 — Epistemology: content analysis of expert testimony interventions in post-pandemic public institutions using equity as the primary evaluation lens.
+097. CATEGORY 99 — Epistemology: simulation modeling of expert testimony interventions in rapidly growing suburbs using efficiency as the primary evaluation lens.
+098. CATEGORY 100 — Epistemology: interview-based inquiry of expert testimony interventions in historic city centers using adoption as the primary evaluation lens.
+099. CATEGORY 101 — Epistemology: policy evaluation of expert testimony interventions in cross-border regions using sustainability as the primary evaluation lens.
+100. CATEGORY 102 — Epistemology: mixed-methods design of expert testimony interventions in climate-vulnerable districts using social impact as the primary evaluation lens.
+
+CATEGORY 3 — Metaphysics
+101. CATEGORY 104 — Metaphysics: survey research of personal identity interventions in Indonesian secondary cities using accessibility as the primary evaluation lens.
+102. CATEGORY 105 — Metaphysics: case study comparison of personal identity interventions in coastal metropolitan regions using resilience as the primary evaluation lens.
+103. CATEGORY 106 — Metaphysics: statistical modeling of personal identity interventions in university campuses using usability as the primary evaluation lens.
+104. CATEGORY 107 — Metaphysics: network analysis of personal identity interventions in rural service areas using governance quality as the primary evaluation lens.
+105. CATEGORY 108 — Metaphysics: content analysis of personal identity interventions in low-income neighborhoods using accuracy as the primary evaluation lens.
+106. CATEGORY 109 — Metaphysics: simulation modeling of personal identity interventions in post-pandemic public institutions using accessibility as the primary evaluation lens.
+107. CATEGORY 110 — Metaphysics: interview-based inquiry of personal identity interventions in rapidly growing suburbs using resilience as the primary evaluation lens.
+108. CATEGORY 111 — Metaphysics: policy evaluation of personal identity interventions in historic city centers using usability as the primary evaluation lens.
+109. CATEGORY 112 — Metaphysics: mixed-methods design of personal identity interventions in cross-border regions using governance quality as the primary evaluation lens.
+110. CATEGORY 113 — Metaphysics: GIS/spatial analysis of personal identity interventions in climate-vulnerable districts using accuracy as the primary evaluation lens.
+111. CATEGORY 114 — Metaphysics: survey research of personal identity interventions in Indonesian secondary cities using accessibility as the primary evaluation lens.
+112. CATEGORY 115 — Metaphysics: case study comparison of personal identity interventions in coastal metropolitan regions using resilience as the primary evaluation lens.
+113. CATEGORY 116 — Metaphysics: statistical modeling of personal identity interventions in university campuses using usability as the primary evaluation lens.
+114. CATEGORY 117 — Metaphysics: network analysis of personal identity interventions in rural service areas using governance quality as the primary evaluation lens.
+115. CATEGORY 118 — Metaphysics: content analysis of personal identity interventions in low-income neighborhoods using accuracy as the primary evaluation lens.
+116. CATEGORY 119 — Metaphysics: simulation modeling of personal identity interventions in post-pandemic public institutions using accessibility as the primary evaluation lens.
+117. CATEGORY 120 — Metaphysics: interview-based inquiry of personal identity interventions in rapidly growing suburbs using resilience as the primary evaluation lens.
+118. CATEGORY 121 — Metaphysics: policy evaluation of personal identity interventions in historic city centers using usability as the primary evaluation lens.
+119. CATEGORY 122 — Metaphysics: mixed-methods design of personal identity interventions in cross-border regions using governance quality as the primary evaluation lens.
+120. CATEGORY 123 — Metaphysics: GIS/spatial analysis of personal identity interventions in climate-vulnerable districts using accuracy as the primary evaluation lens.
+121. CATEGORY 124 — Metaphysics: survey research of personal identity interventions in Indonesian secondary cities using accessibility as the primary evaluation lens.
+122. CATEGORY 125 — Metaphysics: case study comparison of personal identity interventions in coastal metropolitan regions using resilience as the primary evaluation lens.
+123. CATEGORY 126 — Metaphysics: statistical modeling of personal identity interventions in university campuses using usability as the primary evaluation lens.
+124. CATEGORY 127 — Metaphysics: network analysis of personal identity interventions in rural service areas using governance quality as the primary evaluation lens.
+125. CATEGORY 128 — Metaphysics: content analysis of personal identity interventions in low-income neighborhoods using accuracy as the primary evaluation lens.
+126. CATEGORY 129 — Metaphysics: simulation modeling of personal identity interventions in post-pandemic public institutions using accessibility as the primary evaluation lens.
+127. CATEGORY 130 — Metaphysics: interview-based inquiry of personal identity interventions in rapidly growing suburbs using resilience as the primary evaluation lens.
+128. CATEGORY 131 — Metaphysics: policy evaluation of personal identity interventions in historic city centers using usability as the primary evaluation lens.
+129. CATEGORY 132 — Metaphysics: mixed-methods design of personal identity interventions in cross-border regions using governance quality as the primary evaluation lens.
+130. CATEGORY 133 — Metaphysics: GIS/spatial analysis of personal identity interventions in climate-vulnerable districts using accuracy as the primary evaluation lens.
+131. CATEGORY 134 — Metaphysics: survey research of personal identity interventions in Indonesian secondary cities using accessibility as the primary evaluation lens.
+132. CATEGORY 135 — Metaphysics: case study comparison of personal identity interventions in coastal metropolitan regions using resilience as the primary evaluation lens.
+133. CATEGORY 136 — Metaphysics: statistical modeling of personal identity interventions in university campuses using usability as the primary evaluation lens.
+134. CATEGORY 137 — Metaphysics: network analysis of personal identity interventions in rural service areas using governance quality as the primary evaluation lens.
+135. CATEGORY 138 — Metaphysics: content analysis of personal identity interventions in low-income neighborhoods using accuracy as the primary evaluation lens.
+136. CATEGORY 139 — Metaphysics: simulation modeling of personal identity interventions in post-pandemic public institutions using accessibility as the primary evaluation lens.
+137. CATEGORY 140 — Metaphysics: interview-based inquiry of personal identity interventions in rapidly growing suburbs using resilience as the primary evaluation lens.
+138. CATEGORY 141 — Metaphysics: policy evaluation of personal identity interventions in historic city centers using usability as the primary evaluation lens.
+139. CATEGORY 142 — Metaphysics: mixed-methods design of personal identity interventions in cross-border regions using governance quality as the primary evaluation lens.
+140. CATEGORY 143 — Metaphysics: GIS/spatial analysis of personal identity interventions in climate-vulnerable districts using accuracy as the primary evaluation lens.
+141. CATEGORY 144 — Metaphysics: survey research of personal identity interventions in Indonesian secondary cities using accessibility as the primary evaluation lens.
+142. CATEGORY 145 — Metaphysics: case study comparison of personal identity interventions in coastal metropolitan regions using resilience as the primary evaluation lens.
+143. CATEGORY 146 — Metaphysics: statistical modeling of personal identity interventions in university campuses using usability as the primary evaluation lens.
+144. CATEGORY 147 — Metaphysics: network analysis of personal identity interventions in rural service areas using governance quality as the primary evaluation lens.
+145. CATEGORY 148 — Metaphysics: content analysis of personal identity interventions in low-income neighborhoods using accuracy as the primary evaluation lens.
+146. CATEGORY 149 — Metaphysics: simulation modeling of personal identity interventions in post-pandemic public institutions using accessibility as the primary evaluation lens.
+147. CATEGORY 150 — Metaphysics: interview-based inquiry of personal identity interventions in rapidly growing suburbs using resilience as the primary evaluation lens.
+148. CATEGORY 151 — Metaphysics: policy evaluation of personal identity interventions in historic city centers using usability as the primary evaluation lens.
+149. CATEGORY 152 — Metaphysics: mixed-methods design of personal identity interventions in cross-border regions using governance quality as the primary evaluation lens.
+150. CATEGORY 153 — Metaphysics: GIS/spatial analysis of personal identity interventions in climate-vulnerable districts using accuracy as the primary evaluation lens.
+
+CATEGORY 4 — Logic and Argumentation
+151. CATEGORY 155 — Logic and Argumentation: case study comparison of modal argument interventions in Indonesian secondary cities using efficiency as the primary evaluation lens.
+152. CATEGORY 156 — Logic and Argumentation: statistical modeling of modal argument interventions in coastal metropolitan regions using adoption as the primary evaluation lens.
+153. CATEGORY 157 — Logic and Argumentation: network analysis of modal argument interventions in university campuses using sustainability as the primary evaluation lens.
+154. CATEGORY 158 — Logic and Argumentation: content analysis of modal argument interventions in rural service areas using social impact as the primary evaluation lens.
+155. CATEGORY 159 — Logic and Argumentation: simulation modeling of modal argument interventions in low-income neighborhoods using equity as the primary evaluation lens.
+156. CATEGORY 160 — Logic and Argumentation: interview-based inquiry of modal argument interventions in post-pandemic public institutions using efficiency as the primary evaluation lens.
+157. CATEGORY 161 — Logic and Argumentation: policy evaluation of modal argument interventions in rapidly growing suburbs using adoption as the primary evaluation lens.
+158. CATEGORY 162 — Logic and Argumentation: mixed-methods design of modal argument interventions in historic city centers using sustainability as the primary evaluation lens.
+159. CATEGORY 163 — Logic and Argumentation: GIS/spatial analysis of modal argument interventions in cross-border regions using social impact as the primary evaluation lens.
+160. CATEGORY 164 — Logic and Argumentation: survey research of modal argument interventions in climate-vulnerable districts using equity as the primary evaluation lens.
+161. CATEGORY 165 — Logic and Argumentation: case study comparison of modal argument interventions in Indonesian secondary cities using efficiency as the primary evaluation lens.
+162. CATEGORY 166 — Logic and Argumentation: statistical modeling of modal argument interventions in coastal metropolitan regions using adoption as the primary evaluation lens.
+163. CATEGORY 167 — Logic and Argumentation: network analysis of modal argument interventions in university campuses using sustainability as the primary evaluation lens.
+164. CATEGORY 168 — Logic and Argumentation: content analysis of modal argument interventions in rural service areas using social impact as the primary evaluation lens.
+165. CATEGORY 169 — Logic and Argumentation: simulation modeling of modal argument interventions in low-income neighborhoods using equity as the primary evaluation lens.
+166. CATEGORY 170 — Logic and Argumentation: interview-based inquiry of modal argument interventions in post-pandemic public institutions using efficiency as the primary evaluation lens.
+167. CATEGORY 171 — Logic and Argumentation: policy evaluation of modal argument interventions in rapidly growing suburbs using adoption as the primary evaluation lens.
+168. CATEGORY 172 — Logic and Argumentation: mixed-methods design of modal argument interventions in historic city centers using sustainability as the primary evaluation lens.
+169. CATEGORY 173 — Logic and Argumentation: GIS/spatial analysis of modal argument interventions in cross-border regions using social impact as the primary evaluation lens.
+170. CATEGORY 174 — Logic and Argumentation: survey research of modal argument interventions in climate-vulnerable districts using equity as the primary evaluation lens.
+171. CATEGORY 175 — Logic and Argumentation: case study comparison of modal argument interventions in Indonesian secondary cities using efficiency as the primary evaluation lens.
+172. CATEGORY 176 — Logic and Argumentation: statistical modeling of modal argument interventions in coastal metropolitan regions using adoption as the primary evaluation lens.
+173. CATEGORY 177 — Logic and Argumentation: network analysis of modal argument interventions in university campuses using sustainability as the primary evaluation lens.
+174. CATEGORY 178 — Logic and Argumentation: content analysis of modal argument interventions in rural service areas using social impact as the primary evaluation lens.
+175. CATEGORY 179 — Logic and Argumentation: simulation modeling of modal argument interventions in low-income neighborhoods using equity as the primary evaluation lens.
+176. CATEGORY 180 — Logic and Argumentation: interview-based inquiry of modal argument interventions in post-pandemic public institutions using efficiency as the primary evaluation lens.
+177. CATEGORY 181 — Logic and Argumentation: policy evaluation of modal argument interventions in rapidly growing suburbs using adoption as the primary evaluation lens.
+178. CATEGORY 182 — Logic and Argumentation: mixed-methods design of modal argument interventions in historic city centers using sustainability as the primary evaluation lens.
+179. CATEGORY 183 — Logic and Argumentation: GIS/spatial analysis of modal argument interventions in cross-border regions using social impact as the primary evaluation lens.
+180. CATEGORY 184 — Logic and Argumentation: survey research of modal argument interventions in climate-vulnerable districts using equity as the primary evaluation lens.
+181. CATEGORY 185 — Logic and Argumentation: case study comparison of modal argument interventions in Indonesian secondary cities using efficiency as the primary evaluation lens.
+182. CATEGORY 186 — Logic and Argumentation: statistical modeling of modal argument interventions in coastal metropolitan regions using adoption as the primary evaluation lens.
+183. CATEGORY 187 — Logic and Argumentation: network analysis of modal argument interventions in university campuses using sustainability as the primary evaluation lens.
+184. CATEGORY 188 — Logic and Argumentation: content analysis of modal argument interventions in rural service areas using social impact as the primary evaluation lens.
+185. CATEGORY 189 — Logic and Argumentation: simulation modeling of modal argument interventions in low-income neighborhoods using equity as the primary evaluation lens.
+186. CATEGORY 190 — Logic and Argumentation: interview-based inquiry of modal argument interventions in post-pandemic public institutions using efficiency as the primary evaluation lens.
+187. CATEGORY 191 — Logic and Argumentation: policy evaluation of modal argument interventions in rapidly growing suburbs using adoption as the primary evaluation lens.
+188. CATEGORY 192 — Logic and Argumentation: mixed-methods design of modal argument interventions in historic city centers using sustainability as the primary evaluation lens.
+189. CATEGORY 193 — Logic and Argumentation: GIS/spatial analysis of modal argument interventions in cross-border regions using social impact as the primary evaluation lens.
+190. CATEGORY 194 — Logic and Argumentation: survey research of modal argument interventions in climate-vulnerable districts using equity as the primary evaluation lens.
+191. CATEGORY 195 — Logic and Argumentation: case study comparison of modal argument interventions in Indonesian secondary cities using efficiency as the primary evaluation lens.
+192. CATEGORY 196 — Logic and Argumentation: statistical modeling of modal argument interventions in coastal metropolitan regions using adoption as the primary evaluation lens.
+193. CATEGORY 197 — Logic and Argumentation: network analysis of modal argument interventions in university campuses using sustainability as the primary evaluation lens.
+194. CATEGORY 198 — Logic and Argumentation: content analysis of modal argument interventions in rural service areas using social impact as the primary evaluation lens.
+195. CATEGORY 199 — Logic and Argumentation: simulation modeling of modal argument interventions in low-income neighborhoods using equity as the primary evaluation lens.
+196. CATEGORY 200 — Logic and Argumentation: interview-based inquiry of modal argument interventions in post-pandemic public institutions using efficiency as the primary evaluation lens.
+197. CATEGORY 201 — Logic and Argumentation: policy evaluation of modal argument interventions in rapidly growing suburbs using adoption as the primary evaluation lens.
+198. CATEGORY 202 — Logic and Argumentation: mixed-methods design of modal argument interventions in historic city centers using sustainability as the primary evaluation lens.
+199. CATEGORY 203 — Logic and Argumentation: GIS/spatial analysis of modal argument interventions in cross-border regions using social impact as the primary evaluation lens.
+200. CATEGORY 204 — Logic and Argumentation: survey research of modal argument interventions in climate-vulnerable districts using equity as the primary evaluation lens.
+
+CATEGORY 5 — Political Philosophy
+201. CATEGORY 206 — Political Philosophy: statistical modeling of democratic legitimacy interventions in Indonesian secondary cities using resilience as the primary evaluation lens.
+202. CATEGORY 207 — Political Philosophy: network analysis of democratic legitimacy interventions in coastal metropolitan regions using usability as the primary evaluation lens.
+203. CATEGORY 208 — Political Philosophy: content analysis of democratic legitimacy interventions in university campuses using governance quality as the primary evaluation lens.
+204. CATEGORY 209 — Political Philosophy: simulation modeling of democratic legitimacy interventions in rural service areas using accuracy as the primary evaluation lens.
+205. CATEGORY 210 — Political Philosophy: interview-based inquiry of democratic legitimacy interventions in low-income neighborhoods using accessibility as the primary evaluation lens.
+206. CATEGORY 211 — Political Philosophy: policy evaluation of democratic legitimacy interventions in post-pandemic public institutions using resilience as the primary evaluation lens.
+207. CATEGORY 212 — Political Philosophy: mixed-methods design of democratic legitimacy interventions in rapidly growing suburbs using usability as the primary evaluation lens.
+208. CATEGORY 213 — Political Philosophy: GIS/spatial analysis of democratic legitimacy interventions in historic city centers using governance quality as the primary evaluation lens.
+209. CATEGORY 214 — Political Philosophy: survey research of democratic legitimacy interventions in cross-border regions using accuracy as the primary evaluation lens.
+210. CATEGORY 215 — Political Philosophy: case study comparison of democratic legitimacy interventions in climate-vulnerable districts using accessibility as the primary evaluation lens.
+211. CATEGORY 216 — Political Philosophy: statistical modeling of democratic legitimacy interventions in Indonesian secondary cities using resilience as the primary evaluation lens.
+212. CATEGORY 217 — Political Philosophy: network analysis of democratic legitimacy interventions in coastal metropolitan regions using usability as the primary evaluation lens.
+213. CATEGORY 218 — Political Philosophy: content analysis of democratic legitimacy interventions in university campuses using governance quality as the primary evaluation lens.
+214. CATEGORY 219 — Political Philosophy: simulation modeling of democratic legitimacy interventions in rural service areas using accuracy as the primary evaluation lens.
+215. CATEGORY 220 — Political Philosophy: interview-based inquiry of democratic legitimacy interventions in low-income neighborhoods using accessibility as the primary evaluation lens.
+216. CATEGORY 221 — Political Philosophy: policy evaluation of democratic legitimacy interventions in post-pandemic public institutions using resilience as the primary evaluation lens.
+217. CATEGORY 222 — Political Philosophy: mixed-methods design of democratic legitimacy interventions in rapidly growing suburbs using usability as the primary evaluation lens.
+218. CATEGORY 223 — Political Philosophy: GIS/spatial analysis of democratic legitimacy interventions in historic city centers using governance quality as the primary evaluation lens.
+219. CATEGORY 224 — Political Philosophy: survey research of democratic legitimacy interventions in cross-border regions using accuracy as the primary evaluation lens.
+220. CATEGORY 225 — Political Philosophy: case study comparison of democratic legitimacy interventions in climate-vulnerable districts using accessibility as the primary evaluation lens.
+221. CATEGORY 226 — Political Philosophy: statistical modeling of democratic legitimacy interventions in Indonesian secondary cities using resilience as the primary evaluation lens.
+222. CATEGORY 227 — Political Philosophy: network analysis of democratic legitimacy interventions in coastal metropolitan regions using usability as the primary evaluation lens.
+223. CATEGORY 228 — Political Philosophy: content analysis of democratic legitimacy interventions in university campuses using governance quality as the primary evaluation lens.
+224. CATEGORY 229 — Political Philosophy: simulation modeling of democratic legitimacy interventions in rural service areas using accuracy as the primary evaluation lens.
+225. CATEGORY 230 — Political Philosophy: interview-based inquiry of democratic legitimacy interventions in low-income neighborhoods using accessibility as the primary evaluation lens.
+226. CATEGORY 231 — Political Philosophy: policy evaluation of democratic legitimacy interventions in post-pandemic public institutions using resilience as the primary evaluation lens.
+227. CATEGORY 232 — Political Philosophy: mixed-methods design of democratic legitimacy interventions in rapidly growing suburbs using usability as the primary evaluation lens.
+228. CATEGORY 233 — Political Philosophy: GIS/spatial analysis of democratic legitimacy interventions in historic city centers using governance quality as the primary evaluation lens.
+229. CATEGORY 234 — Political Philosophy: survey research of democratic legitimacy interventions in cross-border regions using accuracy as the primary evaluation lens.
+230. CATEGORY 235 — Political Philosophy: case study comparison of democratic legitimacy interventions in climate-vulnerable districts using accessibility as the primary evaluation lens.
+231. CATEGORY 236 — Political Philosophy: statistical modeling of democratic legitimacy interventions in Indonesian secondary cities using resilience as the primary evaluation lens.
+232. CATEGORY 237 — Political Philosophy: network analysis of democratic legitimacy interventions in coastal metropolitan regions using usability as the primary evaluation lens.
+233. CATEGORY 238 — Political Philosophy: content analysis of democratic legitimacy interventions in university campuses using governance quality as the primary evaluation lens.
+234. CATEGORY 239 — Political Philosophy: simulation modeling of democratic legitimacy interventions in rural service areas using accuracy as the primary evaluation lens.
+235. CATEGORY 240 — Political Philosophy: interview-based inquiry of democratic legitimacy interventions in low-income neighborhoods using accessibility as the primary evaluation lens.
+236. CATEGORY 241 — Political Philosophy: policy evaluation of democratic legitimacy interventions in post-pandemic public institutions using resilience as the primary evaluation lens.
+237. CATEGORY 242 — Political Philosophy: mixed-methods design of democratic legitimacy interventions in rapidly growing suburbs using usability as the primary evaluation lens.
+238. CATEGORY 243 — Political Philosophy: GIS/spatial analysis of democratic legitimacy interventions in historic city centers using governance quality as the primary evaluation lens.
+239. CATEGORY 244 — Political Philosophy: survey research of democratic legitimacy interventions in cross-border regions using accuracy as the primary evaluation lens.
+240. CATEGORY 245 — Political Philosophy: case study comparison of democratic legitimacy interventions in climate-vulnerable districts using accessibility as the primary evaluation lens.
+241. CATEGORY 246 — Political Philosophy: statistical modeling of democratic legitimacy interventions in Indonesian secondary cities using resilience as the primary evaluation lens.
+242. CATEGORY 247 — Political Philosophy: network analysis of democratic legitimacy interventions in coastal metropolitan regions using usability as the primary evaluation lens.
+243. CATEGORY 248 — Political Philosophy: content analysis of democratic legitimacy interventions in university campuses using governance quality as the primary evaluation lens.
+244. CATEGORY 249 — Political Philosophy: simulation modeling of democratic legitimacy interventions in rural service areas using accuracy as the primary evaluation lens.
+245. CATEGORY 250 — Political Philosophy: interview-based inquiry of democratic legitimacy interventions in low-income neighborhoods using accessibility as the primary evaluation lens.
+246. CATEGORY 251 — Political Philosophy: policy evaluation of democratic legitimacy interventions in post-pandemic public institutions using resilience as the primary evaluation lens.
+247. CATEGORY 252 — Political Philosophy: mixed-methods design of democratic legitimacy interventions in rapidly growing suburbs using usability as the primary evaluation lens.
+248. CATEGORY 253 — Political Philosophy: GIS/spatial analysis of democratic legitimacy interventions in historic city centers using governance quality as the primary evaluation lens.
+249. CATEGORY 254 — Political Philosophy: survey research of democratic legitimacy interventions in cross-border regions using accuracy as the primary evaluation lens.
+250. CATEGORY 255 — Political Philosophy: case study comparison of democratic legitimacy interventions in climate-vulnerable districts using accessibility as the primary evaluation lens.
+
+CATEGORY 6 — Philosophy of Mind
+251. CATEGORY 257 — Philosophy of Mind: network analysis of consciousness interventions in Indonesian secondary cities using adoption as the primary evaluation lens.
+252. CATEGORY 258 — Philosophy of Mind: content analysis of consciousness interventions in coastal metropolitan regions using sustainability as the primary evaluation lens.
+253. CATEGORY 259 — Philosophy of Mind: simulation modeling of consciousness interventions in university campuses using social impact as the primary evaluation lens.
+254. CATEGORY 260 — Philosophy of Mind: interview-based inquiry of consciousness interventions in rural service areas using equity as the primary evaluation lens.
+255. CATEGORY 261 — Philosophy of Mind: policy evaluation of consciousness interventions in low-income neighborhoods using efficiency as the primary evaluation lens.
+256. CATEGORY 262 — Philosophy of Mind: mixed-methods design of consciousness interventions in post-pandemic public institutions using adoption as the primary evaluation lens.
+257. CATEGORY 263 — Philosophy of Mind: GIS/spatial analysis of consciousness interventions in rapidly growing suburbs using sustainability as the primary evaluation lens.
+258. CATEGORY 264 — Philosophy of Mind: survey research of consciousness interventions in historic city centers using social impact as the primary evaluation lens.
+259. CATEGORY 265 — Philosophy of Mind: case study comparison of consciousness interventions in cross-border regions using equity as the primary evaluation lens.
+260. CATEGORY 266 — Philosophy of Mind: statistical modeling of consciousness interventions in climate-vulnerable districts using efficiency as the primary evaluation lens.
+261. CATEGORY 267 — Philosophy of Mind: network analysis of consciousness interventions in Indonesian secondary cities using adoption as the primary evaluation lens.
+262. CATEGORY 268 — Philosophy of Mind: content analysis of consciousness interventions in coastal metropolitan regions using sustainability as the primary evaluation lens.
+263. CATEGORY 269 — Philosophy of Mind: simulation modeling of consciousness interventions in university campuses using social impact as the primary evaluation lens.
+264. CATEGORY 270 — Philosophy of Mind: interview-based inquiry of consciousness interventions in rural service areas using equity as the primary evaluation lens.
+265. CATEGORY 271 — Philosophy of Mind: policy evaluation of consciousness interventions in low-income neighborhoods using efficiency as the primary evaluation lens.
+266. CATEGORY 272 — Philosophy of Mind: mixed-methods design of consciousness interventions in post-pandemic public institutions using adoption as the primary evaluation lens.
+267. CATEGORY 273 — Philosophy of Mind: GIS/spatial analysis of consciousness interventions in rapidly growing suburbs using sustainability as the primary evaluation lens.
+268. CATEGORY 274 — Philosophy of Mind: survey research of consciousness interventions in historic city centers using social impact as the primary evaluation lens.
+269. CATEGORY 275 — Philosophy of Mind: case study comparison of consciousness interventions in cross-border regions using equity as the primary evaluation lens.
+270. CATEGORY 276 — Philosophy of Mind: statistical modeling of consciousness interventions in climate-vulnerable districts using efficiency as the primary evaluation lens.
+271. CATEGORY 277 — Philosophy of Mind: network analysis of consciousness interventions in Indonesian secondary cities using adoption as the primary evaluation lens.
+272. CATEGORY 278 — Philosophy of Mind: content analysis of consciousness interventions in coastal metropolitan regions using sustainability as the primary evaluation lens.
+273. CATEGORY 279 — Philosophy of Mind: simulation modeling of consciousness interventions in university campuses using social impact as the primary evaluation lens.
+274. CATEGORY 280 — Philosophy of Mind: interview-based inquiry of consciousness interventions in rural service areas using equity as the primary evaluation lens.
+275. CATEGORY 281 — Philosophy of Mind: policy evaluation of consciousness interventions in low-income neighborhoods using efficiency as the primary evaluation lens.
+276. CATEGORY 282 — Philosophy of Mind: mixed-methods design of consciousness interventions in post-pandemic public institutions using adoption as the primary evaluation lens.
+277. CATEGORY 283 — Philosophy of Mind: GIS/spatial analysis of consciousness interventions in rapidly growing suburbs using sustainability as the primary evaluation lens.
+278. CATEGORY 284 — Philosophy of Mind: survey research of consciousness interventions in historic city centers using social impact as the primary evaluation lens.
+279. CATEGORY 285 — Philosophy of Mind: case study comparison of consciousness interventions in cross-border regions using equity as the primary evaluation lens.
+280. CATEGORY 286 — Philosophy of Mind: statistical modeling of consciousness interventions in climate-vulnerable districts using efficiency as the primary evaluation lens.
+281. CATEGORY 287 — Philosophy of Mind: network analysis of consciousness interventions in Indonesian secondary cities using adoption as the primary evaluation lens.
+282. CATEGORY 288 — Philosophy of Mind: content analysis of consciousness interventions in coastal metropolitan regions using sustainability as the primary evaluation lens.
+283. CATEGORY 289 — Philosophy of Mind: simulation modeling of consciousness interventions in university campuses using social impact as the primary evaluation lens.
+284. CATEGORY 290 — Philosophy of Mind: interview-based inquiry of consciousness interventions in rural service areas using equity as the primary evaluation lens.
+285. CATEGORY 291 — Philosophy of Mind: policy evaluation of consciousness interventions in low-income neighborhoods using efficiency as the primary evaluation lens.
+286. CATEGORY 292 — Philosophy of Mind: mixed-methods design of consciousness interventions in post-pandemic public institutions using adoption as the primary evaluation lens.
+287. CATEGORY 293 — Philosophy of Mind: GIS/spatial analysis of consciousness interventions in rapidly growing suburbs using sustainability as the primary evaluation lens.
+288. CATEGORY 294 — Philosophy of Mind: survey research of consciousness interventions in historic city centers using social impact as the primary evaluation lens.
+289. CATEGORY 295 — Philosophy of Mind: case study comparison of consciousness interventions in cross-border regions using equity as the primary evaluation lens.
+290. CATEGORY 296 — Philosophy of Mind: statistical modeling of consciousness interventions in climate-vulnerable districts using efficiency as the primary evaluation lens.
+291. CATEGORY 297 — Philosophy of Mind: network analysis of consciousness interventions in Indonesian secondary cities using adoption as the primary evaluation lens.
+292. CATEGORY 298 — Philosophy of Mind: content analysis of consciousness interventions in coastal metropolitan regions using sustainability as the primary evaluation lens.
+293. CATEGORY 299 — Philosophy of Mind: simulation modeling of consciousness interventions in university campuses using social impact as the primary evaluation lens.
+294. CATEGORY 300 — Philosophy of Mind: interview-based inquiry of consciousness interventions in rural service areas using equity as the primary evaluation lens.
+295. CATEGORY 301 — Philosophy of Mind: policy evaluation of consciousness interventions in low-income neighborhoods using efficiency as the primary evaluation lens.
+296. CATEGORY 302 — Philosophy of Mind: mixed-methods design of consciousness interventions in post-pandemic public institutions using adoption as the primary evaluation lens.
+297. CATEGORY 303 — Philosophy of Mind: GIS/spatial analysis of consciousness interventions in rapidly growing suburbs using sustainability as the primary evaluation lens.
+298. CATEGORY 304 — Philosophy of Mind: survey research of consciousness interventions in historic city centers using social impact as the primary evaluation lens.
+299. CATEGORY 305 — Philosophy of Mind: case study comparison of consciousness interventions in cross-border regions using equity as the primary evaluation lens.
+300. CATEGORY 306 — Philosophy of Mind: statistical modeling of consciousness interventions in climate-vulnerable districts using efficiency as the primary evaluation lens.
+
+CATEGORY 7 — Philosophy of Science
+301. CATEGORY 308 — Philosophy of Science: content analysis of scientific explanation interventions in Indonesian secondary cities using usability as the primary evaluation lens.
+302. CATEGORY 309 — Philosophy of Science: simulation modeling of scientific explanation interventions in coastal metropolitan regions using governance quality as the primary evaluation lens.
+303. CATEGORY 310 — Philosophy of Science: interview-based inquiry of scientific explanation interventions in university campuses using accuracy as the primary evaluation lens.
+304. CATEGORY 311 — Philosophy of Science: policy evaluation of scientific explanation interventions in rural service areas using accessibility as the primary evaluation lens.
+305. CATEGORY 312 — Philosophy of Science: mixed-methods design of scientific explanation interventions in low-income neighborhoods using resilience as the primary evaluation lens.
+306. CATEGORY 313 — Philosophy of Science: GIS/spatial analysis of scientific explanation interventions in post-pandemic public institutions using usability as the primary evaluation lens.
+307. CATEGORY 314 — Philosophy of Science: survey research of scientific explanation interventions in rapidly growing suburbs using governance quality as the primary evaluation lens.
+308. CATEGORY 315 — Philosophy of Science: case study comparison of scientific explanation interventions in historic city centers using accuracy as the primary evaluation lens.
+309. CATEGORY 316 — Philosophy of Science: statistical modeling of scientific explanation interventions in cross-border regions using accessibility as the primary evaluation lens.
+310. CATEGORY 317 — Philosophy of Science: network analysis of scientific explanation interventions in climate-vulnerable districts using resilience as the primary evaluation lens.
+311. CATEGORY 318 — Philosophy of Science: content analysis of scientific explanation interventions in Indonesian secondary cities using usability as the primary evaluation lens.
+312. CATEGORY 319 — Philosophy of Science: simulation modeling of scientific explanation interventions in coastal metropolitan regions using governance quality as the primary evaluation lens.
+313. CATEGORY 320 — Philosophy of Science: interview-based inquiry of scientific explanation interventions in university campuses using accuracy as the primary evaluation lens.
+314. CATEGORY 321 — Philosophy of Science: policy evaluation of scientific explanation interventions in rural service areas using accessibility as the primary evaluation lens.
+315. CATEGORY 322 — Philosophy of Science: mixed-methods design of scientific explanation interventions in low-income neighborhoods using resilience as the primary evaluation lens.
+316. CATEGORY 323 — Philosophy of Science: GIS/spatial analysis of scientific explanation interventions in post-pandemic public institutions using usability as the primary evaluation lens.
+317. CATEGORY 324 — Philosophy of Science: survey research of scientific explanation interventions in rapidly growing suburbs using governance quality as the primary evaluation lens.
+318. CATEGORY 325 — Philosophy of Science: case study comparison of scientific explanation interventions in historic city centers using accuracy as the primary evaluation lens.
+319. CATEGORY 326 — Philosophy of Science: statistical modeling of scientific explanation interventions in cross-border regions using accessibility as the primary evaluation lens.
+320. CATEGORY 327 — Philosophy of Science: network analysis of scientific explanation interventions in climate-vulnerable districts using resilience as the primary evaluation lens.
+321. CATEGORY 328 — Philosophy of Science: content analysis of scientific explanation interventions in Indonesian secondary cities using usability as the primary evaluation lens.
+322. CATEGORY 329 — Philosophy of Science: simulation modeling of scientific explanation interventions in coastal metropolitan regions using governance quality as the primary evaluation lens.
+323. CATEGORY 330 — Philosophy of Science: interview-based inquiry of scientific explanation interventions in university campuses using accuracy as the primary evaluation lens.
+324. CATEGORY 331 — Philosophy of Science: policy evaluation of scientific explanation interventions in rural service areas using accessibility as the primary evaluation lens.
+325. CATEGORY 332 — Philosophy of Science: mixed-methods design of scientific explanation interventions in low-income neighborhoods using resilience as the primary evaluation lens.
+326. CATEGORY 333 — Philosophy of Science: GIS/spatial analysis of scientific explanation interventions in post-pandemic public institutions using usability as the primary evaluation lens.
+327. CATEGORY 334 — Philosophy of Science: survey research of scientific explanation interventions in rapidly growing suburbs using governance quality as the primary evaluation lens.
+328. CATEGORY 335 — Philosophy of Science: case study comparison of scientific explanation interventions in historic city centers using accuracy as the primary evaluation lens.
+329. CATEGORY 336 — Philosophy of Science: statistical modeling of scientific explanation interventions in cross-border regions using accessibility as the primary evaluation lens.
+330. CATEGORY 337 — Philosophy of Science: network analysis of scientific explanation interventions in climate-vulnerable districts using resilience as the primary evaluation lens.
+331. CATEGORY 338 — Philosophy of Science: content analysis of scientific explanation interventions in Indonesian secondary cities using usability as the primary evaluation lens.
+332. CATEGORY 339 — Philosophy of Science: simulation modeling of scientific explanation interventions in coastal metropolitan regions using governance quality as the primary evaluation lens.
+333. CATEGORY 340 — Philosophy of Science: interview-based inquiry of scientific explanation interventions in university campuses using accuracy as the primary evaluation lens.
+334. CATEGORY 341 — Philosophy of Science: policy evaluation of scientific explanation interventions in rural service areas using accessibility as the primary evaluation lens.
+335. CATEGORY 342 — Philosophy of Science: mixed-methods design of scientific explanation interventions in low-income neighborhoods using resilience as the primary evaluation lens.
+336. CATEGORY 343 — Philosophy of Science: GIS/spatial analysis of scientific explanation interventions in post-pandemic public institutions using usability as the primary evaluation lens.
+337. CATEGORY 344 — Philosophy of Science: survey research of scientific explanation interventions in rapidly growing suburbs using governance quality as the primary evaluation lens.
+338. CATEGORY 345 — Philosophy of Science: case study comparison of scientific explanation interventions in historic city centers using accuracy as the primary evaluation lens.
+339. CATEGORY 346 — Philosophy of Science: statistical modeling of scientific explanation interventions in cross-border regions using accessibility as the primary evaluation lens.
+340. CATEGORY 347 — Philosophy of Science: network analysis of scientific explanation interventions in climate-vulnerable districts using resilience as the primary evaluation lens.
+341. CATEGORY 348 — Philosophy of Science: content analysis of scientific explanation interventions in Indonesian secondary cities using usability as the primary evaluation lens.
+342. CATEGORY 349 — Philosophy of Science: simulation modeling of scientific explanation interventions in coastal metropolitan regions using governance quality as the primary evaluation lens.
+343. CATEGORY 350 — Philosophy of Science: interview-based inquiry of scientific explanation interventions in university campuses using accuracy as the primary evaluation lens.
+344. CATEGORY 351 — Philosophy of Science: policy evaluation of scientific explanation interventions in rural service areas using accessibility as the primary evaluation lens.
+345. CATEGORY 352 — Philosophy of Science: mixed-methods design of scientific explanation interventions in low-income neighborhoods using resilience as the primary evaluation lens.
+346. CATEGORY 353 — Philosophy of Science: GIS/spatial analysis of scientific explanation interventions in post-pandemic public institutions using usability as the primary evaluation lens.
+347. CATEGORY 354 — Philosophy of Science: survey research of scientific explanation interventions in rapidly growing suburbs using governance quality as the primary evaluation lens.
+348. CATEGORY 355 — Philosophy of Science: case study comparison of scientific explanation interventions in historic city centers using accuracy as the primary evaluation lens.
+349. CATEGORY 356 — Philosophy of Science: statistical modeling of scientific explanation interventions in cross-border regions using accessibility as the primary evaluation lens.
+350. CATEGORY 357 — Philosophy of Science: network analysis of scientific explanation interventions in climate-vulnerable districts using resilience as the primary evaluation lens.
+
+CATEGORY 8 — Aesthetics
+351. CATEGORY 359 — Aesthetics: simulation modeling of public art interventions in Indonesian secondary cities using sustainability as the primary evaluation lens.
+352. CATEGORY 360 — Aesthetics: interview-based inquiry of public art interventions in coastal metropolitan regions using social impact as the primary evaluation lens.
+353. CATEGORY 361 — Aesthetics: policy evaluation of public art interventions in university campuses using equity as the primary evaluation lens.
+354. CATEGORY 362 — Aesthetics: mixed-methods design of public art interventions in rural service areas using efficiency as the primary evaluation lens.
+355. CATEGORY 363 — Aesthetics: GIS/spatial analysis of public art interventions in low-income neighborhoods using adoption as the primary evaluation lens.
+356. CATEGORY 364 — Aesthetics: survey research of public art interventions in post-pandemic public institutions using sustainability as the primary evaluation lens.
+357. CATEGORY 365 — Aesthetics: case study comparison of public art interventions in rapidly growing suburbs using social impact as the primary evaluation lens.
+358. CATEGORY 366 — Aesthetics: statistical modeling of public art interventions in historic city centers using equity as the primary evaluation lens.
+359. CATEGORY 367 — Aesthetics: network analysis of public art interventions in cross-border regions using efficiency as the primary evaluation lens.
+360. CATEGORY 368 — Aesthetics: content analysis of public art interventions in climate-vulnerable districts using adoption as the primary evaluation lens.
+361. CATEGORY 369 — Aesthetics: simulation modeling of public art interventions in Indonesian secondary cities using sustainability as the primary evaluation lens.
+362. CATEGORY 370 — Aesthetics: interview-based inquiry of public art interventions in coastal metropolitan regions using social impact as the primary evaluation lens.
+363. CATEGORY 371 — Aesthetics: policy evaluation of public art interventions in university campuses using equity as the primary evaluation lens.
+364. CATEGORY 372 — Aesthetics: mixed-methods design of public art interventions in rural service areas using efficiency as the primary evaluation lens.
+365. CATEGORY 373 — Aesthetics: GIS/spatial analysis of public art interventions in low-income neighborhoods using adoption as the primary evaluation lens.
+366. CATEGORY 374 — Aesthetics: survey research of public art interventions in post-pandemic public institutions using sustainability as the primary evaluation lens.
+367. CATEGORY 375 — Aesthetics: case study comparison of public art interventions in rapidly growing suburbs using social impact as the primary evaluation lens.
+368. CATEGORY 376 — Aesthetics: statistical modeling of public art interventions in historic city centers using equity as the primary evaluation lens.
+369. CATEGORY 377 — Aesthetics: network analysis of public art interventions in cross-border regions using efficiency as the primary evaluation lens.
+370. CATEGORY 378 — Aesthetics: content analysis of public art interventions in climate-vulnerable districts using adoption as the primary evaluation lens.
+371. CATEGORY 379 — Aesthetics: simulation modeling of public art interventions in Indonesian secondary cities using sustainability as the primary evaluation lens.
+372. CATEGORY 380 — Aesthetics: interview-based inquiry of public art interventions in coastal metropolitan regions using social impact as the primary evaluation lens.
+373. CATEGORY 381 — Aesthetics: policy evaluation of public art interventions in university campuses using equity as the primary evaluation lens.
+374. CATEGORY 382 — Aesthetics: mixed-methods design of public art interventions in rural service areas using efficiency as the primary evaluation lens.
+375. CATEGORY 383 — Aesthetics: GIS/spatial analysis of public art interventions in low-income neighborhoods using adoption as the primary evaluation lens.
+376. CATEGORY 384 — Aesthetics: survey research of public art interventions in post-pandemic public institutions using sustainability as the primary evaluation lens.
+377. CATEGORY 385 — Aesthetics: case study comparison of public art interventions in rapidly growing suburbs using social impact as the primary evaluation lens.
+378. CATEGORY 386 — Aesthetics: statistical modeling of public art interventions in historic city centers using equity as the primary evaluation lens.
+379. CATEGORY 387 — Aesthetics: network analysis of public art interventions in cross-border regions using efficiency as the primary evaluation lens.
+380. CATEGORY 388 — Aesthetics: content analysis of public art interventions in climate-vulnerable districts using adoption as the primary evaluation lens.
+381. CATEGORY 389 — Aesthetics: simulation modeling of public art interventions in Indonesian secondary cities using sustainability as the primary evaluation lens.
+382. CATEGORY 390 — Aesthetics: interview-based inquiry of public art interventions in coastal metropolitan regions using social impact as the primary evaluation lens.
+383. CATEGORY 391 — Aesthetics: policy evaluation of public art interventions in university campuses using equity as the primary evaluation lens.
+384. CATEGORY 392 — Aesthetics: mixed-methods design of public art interventions in rural service areas using efficiency as the primary evaluation lens.
+385. CATEGORY 393 — Aesthetics: GIS/spatial analysis of public art interventions in low-income neighborhoods using adoption as the primary evaluation lens.
+386. CATEGORY 394 — Aesthetics: survey research of public art interventions in post-pandemic public institutions using sustainability as the primary evaluation lens.
+387. CATEGORY 395 — Aesthetics: case study comparison of public art interventions in rapidly growing suburbs using social impact as the primary evaluation lens.
+388. CATEGORY 396 — Aesthetics: statistical modeling of public art interventions in historic city centers using equity as the primary evaluation lens.
+389. CATEGORY 397 — Aesthetics: network analysis of public art interventions in cross-border regions using efficiency as the primary evaluation lens.
+390. CATEGORY 398 — Aesthetics: content analysis of public art interventions in climate-vulnerable districts using adoption as the primary evaluation lens.
+391. CATEGORY 399 — Aesthetics: simulation modeling of public art interventions in Indonesian secondary cities using sustainability as the primary evaluation lens.
+392. CATEGORY 400 — Aesthetics: interview-based inquiry of public art interventions in coastal metropolitan regions using social impact as the primary evaluation lens.
+393. CATEGORY 401 — Aesthetics: policy evaluation of public art interventions in university campuses using equity as the primary evaluation lens.
+394. CATEGORY 402 — Aesthetics: mixed-methods design of public art interventions in rural service areas using efficiency as the primary evaluation lens.
+395. CATEGORY 403 — Aesthetics: GIS/spatial analysis of public art interventions in low-income neighborhoods using adoption as the primary evaluation lens.
+396. CATEGORY 404 — Aesthetics: survey research of public art interventions in post-pandemic public institutions using sustainability as the primary evaluation lens.
+397. CATEGORY 405 — Aesthetics: case study comparison of public art interventions in rapidly growing suburbs using social impact as the primary evaluation lens.
+398. CATEGORY 406 — Aesthetics: statistical modeling of public art interventions in historic city centers using equity as the primary evaluation lens.
+399. CATEGORY 407 — Aesthetics: network analysis of public art interventions in cross-border regions using efficiency as the primary evaluation lens.
+400. CATEGORY 408 — Aesthetics: content analysis of public art interventions in climate-vulnerable districts using adoption as the primary evaluation lens.
+
+CATEGORY 9 — Comparative Philosophy
+401. Comparative Philosophy: interview-based inquiry of Buddhist ethics interventions in Indonesian secondary cities using governance quality as the primary evaluation lens.
+402. Comparative Philosophy: policy evaluation of Buddhist ethics interventions in coastal metropolitan regions using accuracy as the primary evaluation lens.
+403. Comparative Philosophy: mixed-methods design of Buddhist ethics interventions in university campuses using accessibility as the primary evaluation lens.
+404. Comparative Philosophy: GIS/spatial analysis of Buddhist ethics interventions in rural service areas using resilience as the primary evaluation lens.
+405. Comparative Philosophy: survey research of Buddhist ethics interventions in low-income neighborhoods using usability as the primary evaluation lens.
+406. Comparative Philosophy: case study comparison of Buddhist ethics interventions in post-pandemic public institutions using governance quality as the primary evaluation lens.
+407. Comparative Philosophy: statistical modeling of Buddhist ethics interventions in rapidly growing suburbs using accuracy as the primary evaluation lens.
+408. Comparative Philosophy: network analysis of Buddhist ethics interventions in historic city centers using accessibility as the primary evaluation lens.
+409. Comparative Philosophy: content analysis of Buddhist ethics interventions in cross-border regions using resilience as the primary evaluation lens.
+410. Comparative Philosophy: simulation modeling of Buddhist ethics interventions in climate-vulnerable districts using usability as the primary evaluation lens.
+411. Comparative Philosophy: interview-based inquiry of Buddhist ethics interventions in Indonesian secondary cities using governance quality as the primary evaluation lens.
+412. Comparative Philosophy: policy evaluation of Buddhist ethics interventions in coastal metropolitan regions using accuracy as the primary evaluation lens.
+413. Comparative Philosophy: mixed-methods design of Buddhist ethics interventions in university campuses using accessibility as the primary evaluation lens.
+414. Comparative Philosophy: GIS/spatial analysis of Buddhist ethics interventions in rural service areas using resilience as the primary evaluation lens.
+415. Comparative Philosophy: survey research of Buddhist ethics interventions in low-income neighborhoods using usability as the primary evaluation lens.
+416. Comparative Philosophy: case study comparison of Buddhist ethics interventions in post-pandemic public institutions using governance quality as the primary evaluation lens.
+417. Comparative Philosophy: statistical modeling of Buddhist ethics interventions in rapidly growing suburbs using accuracy as the primary evaluation lens.
+418. Comparative Philosophy: network analysis of Buddhist ethics interventions in historic city centers using accessibility as the primary evaluation lens.
+419. Comparative Philosophy: content analysis of Buddhist ethics interventions in cross-border regions using resilience as the primary evaluation lens.
+420. Comparative Philosophy: simulation modeling of Buddhist ethics interventions in climate-vulnerable districts using usability as the primary evaluation lens.
+421. Comparative Philosophy: interview-based inquiry of Buddhist ethics interventions in Indonesian secondary cities using governance quality as the primary evaluation lens.
+422. Comparative Philosophy: policy evaluation of Buddhist ethics interventions in coastal metropolitan regions using accuracy as the primary evaluation lens.
+423. Comparative Philosophy: mixed-methods design of Buddhist ethics interventions in university campuses using accessibility as the primary evaluation lens.
+424. Comparative Philosophy: GIS/spatial analysis of Buddhist ethics interventions in rural service areas using resilience as the primary evaluation lens.
+425. Comparative Philosophy: survey research of Buddhist ethics interventions in low-income neighborhoods using usability as the primary evaluation lens.
+426. Comparative Philosophy: case study comparison of Buddhist ethics interventions in post-pandemic public institutions using governance quality as the primary evaluation lens.
+427. Comparative Philosophy: statistical modeling of Buddhist ethics interventions in rapidly growing suburbs using accuracy as the primary evaluation lens.
+428. Comparative Philosophy: network analysis of Buddhist ethics interventions in historic city centers using accessibility as the primary evaluation lens.
+429. Comparative Philosophy: content analysis of Buddhist ethics interventions in cross-border regions using resilience as the primary evaluation lens.
+430. Comparative Philosophy: simulation modeling of Buddhist ethics interventions in climate-vulnerable districts using usability as the primary evaluation lens.
+431. Comparative Philosophy: interview-based inquiry of Buddhist ethics interventions in Indonesian secondary cities using governance quality as the primary evaluation lens.
+432. Comparative Philosophy: policy evaluation of Buddhist ethics interventions in coastal metropolitan regions using accuracy as the primary evaluation lens.
+433. Comparative Philosophy: mixed-methods design of Buddhist ethics interventions in university campuses using accessibility as the primary evaluation lens.
+434. Comparative Philosophy: GIS/spatial analysis of Buddhist ethics interventions in rural service areas using resilience as the primary evaluation lens.
+435. Comparative Philosophy: survey research of Buddhist ethics interventions in low-income neighborhoods using usability as the primary evaluation lens.
+436. Comparative Philosophy: case study comparison of Buddhist ethics interventions in post-pandemic public institutions using governance quality as the primary evaluation lens.
+437. Comparative Philosophy: statistical modeling of Buddhist ethics interventions in rapidly growing suburbs using accuracy as the primary evaluation lens.
+438. Comparative Philosophy: network analysis of Buddhist ethics interventions in historic city centers using accessibility as the primary evaluation lens.
+439. Comparative Philosophy: content analysis of Buddhist ethics interventions in cross-border regions using resilience as the primary evaluation lens.
+440. Comparative Philosophy: simulation modeling of Buddhist ethics interventions in climate-vulnerable districts using usability as the primary evaluation lens.
+441. Comparative Philosophy: interview-based inquiry of Buddhist ethics interventions in Indonesian secondary cities using governance quality as the primary evaluation lens.
+442. Comparative Philosophy: policy evaluation of Buddhist ethics interventions in coastal metropolitan regions using accuracy as the primary evaluation lens.
+443. Comparative Philosophy: mixed-methods design of Buddhist ethics interventions in university campuses using accessibility as the primary evaluation lens.
+444. Comparative Philosophy: GIS/spatial analysis of Buddhist ethics interventions in rural service areas using resilience as the primary evaluation lens.
+445. Comparative Philosophy: survey research of Buddhist ethics interventions in low-income neighborhoods using usability as the primary evaluation lens.
+446. Comparative Philosophy: case study comparison of Buddhist ethics interventions in post-pandemic public institutions using governance quality as the primary evaluation lens.
+447. Comparative Philosophy: statistical modeling of Buddhist ethics interventions in rapidly growing suburbs using accuracy as the primary evaluation lens.
+448. Comparative Philosophy: network analysis of Buddhist ethics interventions in historic city centers using accessibility as the primary evaluation lens.
+449. Comparative Philosophy: content analysis of Buddhist ethics interventions in cross-border regions using resilience as the primary evaluation lens.
+450. Comparative Philosophy: simulation modeling of Buddhist ethics interventions in climate-vulnerable districts using usability as the primary evaluation lens.
+
+CATEGORY 10 — Applied Philosophy
+451. CATEGORY 410 — Applied Philosophy: policy evaluation of climate responsibility interventions in Indonesian secondary cities using social impact as the primary evaluation lens.
+452. CATEGORY 411 — Applied Philosophy: mixed-methods design of climate responsibility interventions in coastal metropolitan regions using equity as the primary evaluation lens.
+453. CATEGORY 412 — Applied Philosophy: GIS/spatial analysis of climate responsibility interventions in university campuses using efficiency as the primary evaluation lens.
+454. CATEGORY 413 — Applied Philosophy: survey research of climate responsibility interventions in rural service areas using adoption as the primary evaluation lens.
+455. CATEGORY 414 — Applied Philosophy: case study comparison of climate responsibility interventions in low-income neighborhoods using sustainability as the primary evaluation lens.
+456. CATEGORY 415 — Applied Philosophy: statistical modeling of climate responsibility interventions in post-pandemic public institutions using social impact as the primary evaluation lens.
+457. CATEGORY 416 — Applied Philosophy: network analysis of climate responsibility interventions in rapidly growing suburbs using equity as the primary evaluation lens.
+458. CATEGORY 417 — Applied Philosophy: content analysis of climate responsibility interventions in historic city centers using efficiency as the primary evaluation lens.
+459. CATEGORY 418 — Applied Philosophy: simulation modeling of climate responsibility interventions in cross-border regions using adoption as the primary evaluation lens.
+460. CATEGORY 419 — Applied Philosophy: interview-based inquiry of climate responsibility interventions in climate-vulnerable districts using sustainability as the primary evaluation lens.
+461. CATEGORY 420 — Applied Philosophy: policy evaluation of climate responsibility interventions in Indonesian secondary cities using social impact as the primary evaluation lens.
+462. CATEGORY 421 — Applied Philosophy: mixed-methods design of climate responsibility interventions in coastal metropolitan regions using equity as the primary evaluation lens.
+463. CATEGORY 422 — Applied Philosophy: GIS/spatial analysis of climate responsibility interventions in university campuses using efficiency as the primary evaluation lens.
+464. CATEGORY 423 — Applied Philosophy: survey research of climate responsibility interventions in rural service areas using adoption as the primary evaluation lens.
+465. CATEGORY 424 — Applied Philosophy: case study comparison of climate responsibility interventions in low-income neighborhoods using sustainability as the primary evaluation lens.
+466. CATEGORY 425 — Applied Philosophy: statistical modeling of climate responsibility interventions in post-pandemic public institutions using social impact as the primary evaluation lens.
+467. CATEGORY 426 — Applied Philosophy: network analysis of climate responsibility interventions in rapidly growing suburbs using equity as the primary evaluation lens.
+468. CATEGORY 427 — Applied Philosophy: content analysis of climate responsibility interventions in historic city centers using efficiency as the primary evaluation lens.
+469. CATEGORY 428 — Applied Philosophy: simulation modeling of climate responsibility interventions in cross-border regions using adoption as the primary evaluation lens.
+470. CATEGORY 429 — Applied Philosophy: interview-based inquiry of climate responsibility interventions in climate-vulnerable districts using sustainability as the primary evaluation lens.
+471. CATEGORY 430 — Applied Philosophy: policy evaluation of climate responsibility interventions in Indonesian secondary cities using social impact as the primary evaluation lens.
+472. CATEGORY 431 — Applied Philosophy: mixed-methods design of climate responsibility interventions in coastal metropolitan regions using equity as the primary evaluation lens.
+473. CATEGORY 432 — Applied Philosophy: GIS/spatial analysis of climate responsibility interventions in university campuses using efficiency as the primary evaluation lens.
+474. CATEGORY 433 — Applied Philosophy: survey research of climate responsibility interventions in rural service areas using adoption as the primary evaluation lens.
+475. CATEGORY 434 — Applied Philosophy: case study comparison of climate responsibility interventions in low-income neighborhoods using sustainability as the primary evaluation lens.
+476. CATEGORY 435 — Applied Philosophy: statistical modeling of climate responsibility interventions in post-pandemic public institutions using social impact as the primary evaluation lens.
+477. CATEGORY 436 — Applied Philosophy: network analysis of climate responsibility interventions in rapidly growing suburbs using equity as the primary evaluation lens.
+478. CATEGORY 437 — Applied Philosophy: content analysis of climate responsibility interventions in historic city centers using efficiency as the primary evaluation lens.
+479. CATEGORY 438 — Applied Philosophy: simulation modeling of climate responsibility interventions in cross-border regions using adoption as the primary evaluation lens.
+480. CATEGORY 439 — Applied Philosophy: interview-based inquiry of climate responsibility interventions in climate-vulnerable districts using sustainability as the primary evaluation lens.
+481. CATEGORY 440 — Applied Philosophy: policy evaluation of climate responsibility interventions in Indonesian secondary cities using social impact as the primary evaluation lens.
+482. CATEGORY 441 — Applied Philosophy: mixed-methods design of climate responsibility interventions in coastal metropolitan regions using equity as the primary evaluation lens.
+483. CATEGORY 442 — Applied Philosophy: GIS/spatial analysis of climate responsibility interventions in university campuses using efficiency as the primary evaluation lens.
+484. CATEGORY 443 — Applied Philosophy: survey research of climate responsibility interventions in rural service areas using adoption as the primary evaluation lens.
+485. CATEGORY 444 — Applied Philosophy: case study comparison of climate responsibility interventions in low-income neighborhoods using sustainability as the primary evaluation lens.
+486. CATEGORY 445 — Applied Philosophy: statistical modeling of climate responsibility interventions in post-pandemic public institutions using social impact as the primary evaluation lens.
+487. CATEGORY 446 — Applied Philosophy: network analysis of climate responsibility interventions in rapidly growing suburbs using equity as the primary evaluation lens.
+488. CATEGORY 447 — Applied Philosophy: content analysis of climate responsibility interventions in historic city centers using efficiency as the primary evaluation lens.
+489. CATEGORY 448 — Applied Philosophy: simulation modeling of climate responsibility interventions in cross-border regions using adoption as the primary evaluation lens.
+490. CATEGORY 449 — Applied Philosophy: interview-based inquiry of climate responsibility interventions in climate-vulnerable districts using sustainability as the primary evaluation lens.
+491. CATEGORY 450 — Applied Philosophy: policy evaluation of climate responsibility interventions in Indonesian secondary cities using social impact as the primary evaluation lens.
+492. CATEGORY 451 — Applied Philosophy: mixed-methods design of climate responsibility interventions in coastal metropolitan regions using equity as the primary evaluation lens.
+493. CATEGORY 452 — Applied Philosophy: GIS/spatial analysis of climate responsibility interventions in university campuses using efficiency as the primary evaluation lens.
+494. CATEGORY 453 — Applied Philosophy: survey research of climate responsibility interventions in rural service areas using adoption as the primary evaluation lens.
+495. CATEGORY 454 — Applied Philosophy: case study comparison of climate responsibility interventions in low-income neighborhoods using sustainability as the primary evaluation lens.
+496. CATEGORY 455 — Applied Philosophy: statistical modeling of climate responsibility interventions in post-pandemic public institutions using social impact as the primary evaluation lens.
+497. CATEGORY 456 — Applied Philosophy: network analysis of climate responsibility interventions in rapidly growing suburbs using equity as the primary evaluation lens.
+498. CATEGORY 457 — Applied Philosophy: content analysis of climate responsibility interventions in historic city centers using efficiency as the primary evaluation lens.
+499. CATEGORY 458 — Applied Philosophy: simulation modeling of climate responsibility interventions in cross-border regions using adoption as the primary evaluation lens.
+500. CATEGORY 459 — Applied Philosophy: interview-based inquiry of climate responsibility interventions in climate-vulnerable districts using sustainability as the primary evaluation lens.

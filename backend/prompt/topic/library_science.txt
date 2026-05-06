@@ -3,10 +3,634 @@ TOPIC GUIDE — Library Science
 ================================================================================
 FIELD: Social Sciences / Information Science
 DEFAULT CITATION STYLE: APA or Chicago
+SUBDISCIPLINE: Information Organization, Digital Libraries, Bibliometrics, Archives, User Studies, Scholarly Communication
 
-METHODOLOGY: bibliometric analysis, user survey, content analysis, usability testing,
-  bibliometric mapping (VOSviewer), systematic review methodology
-EQUATIONS: h-index, citation impact, Bradford's law, Lotka's law
-FIGURES: bibliometric map, citation trend line, subject co-occurrence network
-TABLES: keyword frequency, journal ranking, user satisfaction scores
-VENUES: J. American Society Information Science, Library Information Science Research
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature related to the user's topic
+   - Reference recent works (2020-2025) that establish what is known
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame the gap as a researchable question with measurable outcomes
+   - Ensure the gap targets Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine the user's idea into a publishable research title
+   - The title must be specific, include method and application domain
+   - Target journals listed in COMMON REFERENCE VENUES below
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Use cutting-edge methods appropriate to the subdiscipline
+   - Include complete research procedures and protocols
+   - Specify all tools, software, instruments, and configurations
+   - Detail sample size calculations, validation strategy, and reproducibility measures
+
+4. ESTIMATED DATA & RESULTS:
+   - Provide realistic estimated data tables (10-30 data points)
+   - Include statistical measures: mean, std, 95% CI, effect sizes
+   - Performance/outcome metrics appropriate to the field
+   - Comparison with control groups or baseline conditions
+   - All numbers must be realistic, internally consistent, and domain-appropriate
+   - Data must support the research conclusions logically
+
+5. MATHEMATICAL FORMULAS:
+   - Include 5-10 relevant formulas with full variable definitions
+   - Statistical tests, measurement models, analytical equations
+   - Connect formulas to the methodology and results
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - Minimum 25-30 references organized thematically
+   - Structure: (a) foundational theories, (b) recent advances 2020-2025, (c) limitations
+   - Each subsection MUST end with: "However, no study has addressed..."
+   - Use synthesis paragraphs, not citation lists
+   - Include Indonesian/Southeast Asian context where relevant
+
+7. COMPLETE PAPER STRUCTURE:
+   - Title, Abstract (200-250 words), Keywords (5-7)
+   - Introduction (1500-2000 words)
+   - Literature Review (2000-3000 words)
+   - Methodology (2000-3000 words with formulas)
+   - Results & Discussion (2000-3000 words with tables and figure descriptions)
+   - Conclusion (500-800 words)
+   - References (30+ entries, 60%+ from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+ABSTRACT CHARACTERISTICS:
+  150–250 words. State the library science problem, study context, data/source material,
+  method, evaluation metrics, principal findings, contribution, limitation, and implication.
+
+INTRODUCTION ELEMENTS:
+  - Define the empirical or conceptual problem and why it matters now.
+  - Identify stakeholders, geographic/social scope, and practical consequences.
+  - Position the work against current literature and policy/technical debates.
+  - State research gap, research questions, objectives, and expected contribution.
+
+LITERATURE REVIEW:
+  Common section name: "Related Work" / "Background" / "Theoretical Framework"
+  - Core theories, frameworks, standards, and domain concepts.
+  - Recent empirical findings and methodological debates.
+  - Dataset, corpus, archive, platform, or field-site precedents.
+  - Limitations in existing evidence and opportunities for replication or extension.
+
+METHODOLOGY:
+  Common section name: "Methods" / "Research Design"
+  - Design: qualitative, quantitative, computational, experimental, comparative, or mixed methods.
+  - Data: sampling frame, inclusion criteria, instruments, preprocessing, and ethics.
+  - Analysis: model, coding scheme, validation strategy, robustness checks, and reproducibility.
+  - Metrics: report validity, reliability, uncertainty, bias, and domain-specific performance indicators.
+
+TYPICAL RESULTS & DISCUSSION:
+  - Present findings by research question, not by raw output sequence.
+  - Compare outcomes with prior studies and explain contextual differences.
+  - Discuss uncertainty, sensitivity, trade-offs, and alternative interpretations.
+  - Tables: descriptive statistics, model results, comparative cases, coded themes.
+  - Figures: conceptual framework, workflow, maps/networks/charts, result dashboards.
+
+TYPICAL FIGURES:
+  - Study design workflow or analytical pipeline.
+  - Conceptual framework or theory-of-change diagram.
+  - Spatial, network, timeline, or distribution visualization as relevant.
+  - Comparative result chart with confidence/uncertainty indicators.
+
+TYPICAL TABLES:
+  - Data/source summary: source | period | coverage | variables | limitations.
+  - Method matrix: research question | data | method | metric | expected output.
+  - Findings table: theme/model/case | evidence | interpretation | implication.
+
+CONCLUSION CHARACTERISTICS:
+  - Answer the research questions directly and quantify or qualify the contribution.
+  - State theoretical, methodological, and practical implications.
+  - Acknowledge limitations in scope, data quality, generalizability, and bias.
+  - Recommend future work with concrete datasets, sites, populations, or methods.
+
+COMMON REFERENCE VENUES:
+  Use leading journals, conferences, books, standards, and domain reports appropriate to the topic.
+
+DOMAIN VOCABULARY:
+  Information Organization, Digital Libraries, Bibliometrics, Archives, User Studies, Scholarly Communication
+
+METHODOLOGY KEYWORDS:
+  mixed-methods design, GIS/spatial analysis, survey research, case study comparison, statistical modeling, network analysis, content analysis, simulation modeling, interview-based inquiry, policy evaluation
+
+RESEARCH TOPIC BANK (500 TOPICS)
+
+CATEGORY 1 — Digital Libraries
+001. CATEGORY 2 — Digital Libraries: mixed-methods design of repository metadata interventions in Indonesian secondary cities using accuracy as the primary evaluation lens.
+002. CATEGORY 3 — Digital Libraries: GIS/spatial analysis of repository metadata interventions in coastal metropolitan regions using accessibility as the primary evaluation lens.
+003. CATEGORY 4 — Digital Libraries: survey research of repository metadata interventions in university campuses using resilience as the primary evaluation lens.
+004. CATEGORY 5 — Digital Libraries: case study comparison of repository metadata interventions in rural service areas using usability as the primary evaluation lens.
+005. CATEGORY 6 — Digital Libraries: statistical modeling of repository metadata interventions in low-income neighborhoods using governance quality as the primary evaluation lens.
+006. CATEGORY 7 — Digital Libraries: network analysis of repository metadata interventions in post-pandemic public institutions using accuracy as the primary evaluation lens.
+007. CATEGORY 8 — Digital Libraries: content analysis of repository metadata interventions in rapidly growing suburbs using accessibility as the primary evaluation lens.
+008. CATEGORY 9 — Digital Libraries: simulation modeling of repository metadata interventions in historic city centers using resilience as the primary evaluation lens.
+009. CATEGORY 10 — Digital Libraries: interview-based inquiry of repository metadata interventions in cross-border regions using usability as the primary evaluation lens.
+010. CATEGORY 11 — Digital Libraries: policy evaluation of repository metadata interventions in climate-vulnerable districts using governance quality as the primary evaluation lens.
+011. CATEGORY 12 — Digital Libraries: mixed-methods design of repository metadata interventions in Indonesian secondary cities using accuracy as the primary evaluation lens.
+012. CATEGORY 13 — Digital Libraries: GIS/spatial analysis of repository metadata interventions in coastal metropolitan regions using accessibility as the primary evaluation lens.
+013. CATEGORY 14 — Digital Libraries: survey research of repository metadata interventions in university campuses using resilience as the primary evaluation lens.
+014. CATEGORY 15 — Digital Libraries: case study comparison of repository metadata interventions in rural service areas using usability as the primary evaluation lens.
+015. CATEGORY 16 — Digital Libraries: statistical modeling of repository metadata interventions in low-income neighborhoods using governance quality as the primary evaluation lens.
+016. CATEGORY 17 — Digital Libraries: network analysis of repository metadata interventions in post-pandemic public institutions using accuracy as the primary evaluation lens.
+017. CATEGORY 18 — Digital Libraries: content analysis of repository metadata interventions in rapidly growing suburbs using accessibility as the primary evaluation lens.
+018. CATEGORY 19 — Digital Libraries: simulation modeling of repository metadata interventions in historic city centers using resilience as the primary evaluation lens.
+019. CATEGORY 20 — Digital Libraries: interview-based inquiry of repository metadata interventions in cross-border regions using usability as the primary evaluation lens.
+020. CATEGORY 21 — Digital Libraries: policy evaluation of repository metadata interventions in climate-vulnerable districts using governance quality as the primary evaluation lens.
+021. CATEGORY 22 — Digital Libraries: mixed-methods design of repository metadata interventions in Indonesian secondary cities using accuracy as the primary evaluation lens.
+022. CATEGORY 23 — Digital Libraries: GIS/spatial analysis of repository metadata interventions in coastal metropolitan regions using accessibility as the primary evaluation lens.
+023. CATEGORY 24 — Digital Libraries: survey research of repository metadata interventions in university campuses using resilience as the primary evaluation lens.
+024. CATEGORY 25 — Digital Libraries: case study comparison of repository metadata interventions in rural service areas using usability as the primary evaluation lens.
+025. CATEGORY 26 — Digital Libraries: statistical modeling of repository metadata interventions in low-income neighborhoods using governance quality as the primary evaluation lens.
+026. CATEGORY 27 — Digital Libraries: network analysis of repository metadata interventions in post-pandemic public institutions using accuracy as the primary evaluation lens.
+027. CATEGORY 28 — Digital Libraries: content analysis of repository metadata interventions in rapidly growing suburbs using accessibility as the primary evaluation lens.
+028. CATEGORY 29 — Digital Libraries: simulation modeling of repository metadata interventions in historic city centers using resilience as the primary evaluation lens.
+029. CATEGORY 30 — Digital Libraries: interview-based inquiry of repository metadata interventions in cross-border regions using usability as the primary evaluation lens.
+030. CATEGORY 31 — Digital Libraries: policy evaluation of repository metadata interventions in climate-vulnerable districts using governance quality as the primary evaluation lens.
+031. CATEGORY 32 — Digital Libraries: mixed-methods design of repository metadata interventions in Indonesian secondary cities using accuracy as the primary evaluation lens.
+032. CATEGORY 33 — Digital Libraries: GIS/spatial analysis of repository metadata interventions in coastal metropolitan regions using accessibility as the primary evaluation lens.
+033. CATEGORY 34 — Digital Libraries: survey research of repository metadata interventions in university campuses using resilience as the primary evaluation lens.
+034. CATEGORY 35 — Digital Libraries: case study comparison of repository metadata interventions in rural service areas using usability as the primary evaluation lens.
+035. CATEGORY 36 — Digital Libraries: statistical modeling of repository metadata interventions in low-income neighborhoods using governance quality as the primary evaluation lens.
+036. CATEGORY 37 — Digital Libraries: network analysis of repository metadata interventions in post-pandemic public institutions using accuracy as the primary evaluation lens.
+037. CATEGORY 38 — Digital Libraries: content analysis of repository metadata interventions in rapidly growing suburbs using accessibility as the primary evaluation lens.
+038. CATEGORY 39 — Digital Libraries: simulation modeling of repository metadata interventions in historic city centers using resilience as the primary evaluation lens.
+039. CATEGORY 40 — Digital Libraries: interview-based inquiry of repository metadata interventions in cross-border regions using usability as the primary evaluation lens.
+040. CATEGORY 41 — Digital Libraries: policy evaluation of repository metadata interventions in climate-vulnerable districts using governance quality as the primary evaluation lens.
+041. CATEGORY 42 — Digital Libraries: mixed-methods design of repository metadata interventions in Indonesian secondary cities using accuracy as the primary evaluation lens.
+042. CATEGORY 43 — Digital Libraries: GIS/spatial analysis of repository metadata interventions in coastal metropolitan regions using accessibility as the primary evaluation lens.
+043. CATEGORY 44 — Digital Libraries: survey research of repository metadata interventions in university campuses using resilience as the primary evaluation lens.
+044. CATEGORY 45 — Digital Libraries: case study comparison of repository metadata interventions in rural service areas using usability as the primary evaluation lens.
+045. CATEGORY 46 — Digital Libraries: statistical modeling of repository metadata interventions in low-income neighborhoods using governance quality as the primary evaluation lens.
+046. CATEGORY 47 — Digital Libraries: network analysis of repository metadata interventions in post-pandemic public institutions using accuracy as the primary evaluation lens.
+047. CATEGORY 48 — Digital Libraries: content analysis of repository metadata interventions in rapidly growing suburbs using accessibility as the primary evaluation lens.
+048. CATEGORY 49 — Digital Libraries: simulation modeling of repository metadata interventions in historic city centers using resilience as the primary evaluation lens.
+049. CATEGORY 50 — Digital Libraries: interview-based inquiry of repository metadata interventions in cross-border regions using usability as the primary evaluation lens.
+050. CATEGORY 51 — Digital Libraries: policy evaluation of repository metadata interventions in climate-vulnerable districts using governance quality as the primary evaluation lens.
+
+CATEGORY 2 — Bibliometrics and Scientometrics
+051. CATEGORY 53 — Bibliometrics and Scientometrics: GIS/spatial analysis of citation network interventions in Indonesian secondary cities using equity as the primary evaluation lens.
+052. CATEGORY 54 — Bibliometrics and Scientometrics: survey research of citation network interventions in coastal metropolitan regions using efficiency as the primary evaluation lens.
+053. CATEGORY 55 — Bibliometrics and Scientometrics: case study comparison of citation network interventions in university campuses using adoption as the primary evaluation lens.
+054. CATEGORY 56 — Bibliometrics and Scientometrics: statistical modeling of citation network interventions in rural service areas using sustainability as the primary evaluation lens.
+055. CATEGORY 57 — Bibliometrics and Scientometrics: network analysis of citation network interventions in low-income neighborhoods using social impact as the primary evaluation lens.
+056. CATEGORY 58 — Bibliometrics and Scientometrics: content analysis of citation network interventions in post-pandemic public institutions using equity as the primary evaluation lens.
+057. CATEGORY 59 — Bibliometrics and Scientometrics: simulation modeling of citation network interventions in rapidly growing suburbs using efficiency as the primary evaluation lens.
+058. CATEGORY 60 — Bibliometrics and Scientometrics: interview-based inquiry of citation network interventions in historic city centers using adoption as the primary evaluation lens.
+059. CATEGORY 61 — Bibliometrics and Scientometrics: policy evaluation of citation network interventions in cross-border regions using sustainability as the primary evaluation lens.
+060. CATEGORY 62 — Bibliometrics and Scientometrics: mixed-methods design of citation network interventions in climate-vulnerable districts using social impact as the primary evaluation lens.
+061. CATEGORY 63 — Bibliometrics and Scientometrics: GIS/spatial analysis of citation network interventions in Indonesian secondary cities using equity as the primary evaluation lens.
+062. CATEGORY 64 — Bibliometrics and Scientometrics: survey research of citation network interventions in coastal metropolitan regions using efficiency as the primary evaluation lens.
+063. CATEGORY 65 — Bibliometrics and Scientometrics: case study comparison of citation network interventions in university campuses using adoption as the primary evaluation lens.
+064. CATEGORY 66 — Bibliometrics and Scientometrics: statistical modeling of citation network interventions in rural service areas using sustainability as the primary evaluation lens.
+065. CATEGORY 67 — Bibliometrics and Scientometrics: network analysis of citation network interventions in low-income neighborhoods using social impact as the primary evaluation lens.
+066. CATEGORY 68 — Bibliometrics and Scientometrics: content analysis of citation network interventions in post-pandemic public institutions using equity as the primary evaluation lens.
+067. CATEGORY 69 — Bibliometrics and Scientometrics: simulation modeling of citation network interventions in rapidly growing suburbs using efficiency as the primary evaluation lens.
+068. CATEGORY 70 — Bibliometrics and Scientometrics: interview-based inquiry of citation network interventions in historic city centers using adoption as the primary evaluation lens.
+069. CATEGORY 71 — Bibliometrics and Scientometrics: policy evaluation of citation network interventions in cross-border regions using sustainability as the primary evaluation lens.
+070. CATEGORY 72 — Bibliometrics and Scientometrics: mixed-methods design of citation network interventions in climate-vulnerable districts using social impact as the primary evaluation lens.
+071. CATEGORY 73 — Bibliometrics and Scientometrics: GIS/spatial analysis of citation network interventions in Indonesian secondary cities using equity as the primary evaluation lens.
+072. CATEGORY 74 — Bibliometrics and Scientometrics: survey research of citation network interventions in coastal metropolitan regions using efficiency as the primary evaluation lens.
+073. CATEGORY 75 — Bibliometrics and Scientometrics: case study comparison of citation network interventions in university campuses using adoption as the primary evaluation lens.
+074. CATEGORY 76 — Bibliometrics and Scientometrics: statistical modeling of citation network interventions in rural service areas using sustainability as the primary evaluation lens.
+075. CATEGORY 77 — Bibliometrics and Scientometrics: network analysis of citation network interventions in low-income neighborhoods using social impact as the primary evaluation lens.
+076. CATEGORY 78 — Bibliometrics and Scientometrics: content analysis of citation network interventions in post-pandemic public institutions using equity as the primary evaluation lens.
+077. CATEGORY 79 — Bibliometrics and Scientometrics: simulation modeling of citation network interventions in rapidly growing suburbs using efficiency as the primary evaluation lens.
+078. CATEGORY 80 — Bibliometrics and Scientometrics: interview-based inquiry of citation network interventions in historic city centers using adoption as the primary evaluation lens.
+079. CATEGORY 81 — Bibliometrics and Scientometrics: policy evaluation of citation network interventions in cross-border regions using sustainability as the primary evaluation lens.
+080. CATEGORY 82 — Bibliometrics and Scientometrics: mixed-methods design of citation network interventions in climate-vulnerable districts using social impact as the primary evaluation lens.
+081. CATEGORY 83 — Bibliometrics and Scientometrics: GIS/spatial analysis of citation network interventions in Indonesian secondary cities using equity as the primary evaluation lens.
+082. CATEGORY 84 — Bibliometrics and Scientometrics: survey research of citation network interventions in coastal metropolitan regions using efficiency as the primary evaluation lens.
+083. CATEGORY 85 — Bibliometrics and Scientometrics: case study comparison of citation network interventions in university campuses using adoption as the primary evaluation lens.
+084. CATEGORY 86 — Bibliometrics and Scientometrics: statistical modeling of citation network interventions in rural service areas using sustainability as the primary evaluation lens.
+085. CATEGORY 87 — Bibliometrics and Scientometrics: network analysis of citation network interventions in low-income neighborhoods using social impact as the primary evaluation lens.
+086. CATEGORY 88 — Bibliometrics and Scientometrics: content analysis of citation network interventions in post-pandemic public institutions using equity as the primary evaluation lens.
+087. CATEGORY 89 — Bibliometrics and Scientometrics: simulation modeling of citation network interventions in rapidly growing suburbs using efficiency as the primary evaluation lens.
+088. CATEGORY 90 — Bibliometrics and Scientometrics: interview-based inquiry of citation network interventions in historic city centers using adoption as the primary evaluation lens.
+089. CATEGORY 91 — Bibliometrics and Scientometrics: policy evaluation of citation network interventions in cross-border regions using sustainability as the primary evaluation lens.
+090. CATEGORY 92 — Bibliometrics and Scientometrics: mixed-methods design of citation network interventions in climate-vulnerable districts using social impact as the primary evaluation lens.
+091. CATEGORY 93 — Bibliometrics and Scientometrics: GIS/spatial analysis of citation network interventions in Indonesian secondary cities using equity as the primary evaluation lens.
+092. CATEGORY 94 — Bibliometrics and Scientometrics: survey research of citation network interventions in coastal metropolitan regions using efficiency as the primary evaluation lens.
+093. CATEGORY 95 — Bibliometrics and Scientometrics: case study comparison of citation network interventions in university campuses using adoption as the primary evaluation lens.
+094. CATEGORY 96 — Bibliometrics and Scientometrics: statistical modeling of citation network interventions in rural service areas using sustainability as the primary evaluation lens.
+095. CATEGORY 97 — Bibliometrics and Scientometrics: network analysis of citation network interventions in low-income neighborhoods using social impact as the primary evaluation lens.
+096. CATEGORY 98 — Bibliometrics and Scientometrics: content analysis of citation network interventions in post-pandemic public institutions using equity as the primary evaluation lens.
+097. CATEGORY 99 — Bibliometrics and Scientometrics: simulation modeling of citation network interventions in rapidly growing suburbs using efficiency as the primary evaluation lens.
+098. CATEGORY 100 — Bibliometrics and Scientometrics: interview-based inquiry of citation network interventions in historic city centers using adoption as the primary evaluation lens.
+099. CATEGORY 101 — Bibliometrics and Scientometrics: policy evaluation of citation network interventions in cross-border regions using sustainability as the primary evaluation lens.
+100. CATEGORY 102 — Bibliometrics and Scientometrics: mixed-methods design of citation network interventions in climate-vulnerable districts using social impact as the primary evaluation lens.
+
+CATEGORY 3 — Information Literacy
+101. CATEGORY 104 — Information Literacy: survey research of student literacy interventions in Indonesian secondary cities using accessibility as the primary evaluation lens.
+102. CATEGORY 105 — Information Literacy: case study comparison of student literacy interventions in coastal metropolitan regions using resilience as the primary evaluation lens.
+103. CATEGORY 106 — Information Literacy: statistical modeling of student literacy interventions in university campuses using usability as the primary evaluation lens.
+104. CATEGORY 107 — Information Literacy: network analysis of student literacy interventions in rural service areas using governance quality as the primary evaluation lens.
+105. CATEGORY 108 — Information Literacy: content analysis of student literacy interventions in low-income neighborhoods using accuracy as the primary evaluation lens.
+106. CATEGORY 109 — Information Literacy: simulation modeling of student literacy interventions in post-pandemic public institutions using accessibility as the primary evaluation lens.
+107. CATEGORY 110 — Information Literacy: interview-based inquiry of student literacy interventions in rapidly growing suburbs using resilience as the primary evaluation lens.
+108. CATEGORY 111 — Information Literacy: policy evaluation of student literacy interventions in historic city centers using usability as the primary evaluation lens.
+109. CATEGORY 112 — Information Literacy: mixed-methods design of student literacy interventions in cross-border regions using governance quality as the primary evaluation lens.
+110. CATEGORY 113 — Information Literacy: GIS/spatial analysis of student literacy interventions in climate-vulnerable districts using accuracy as the primary evaluation lens.
+111. CATEGORY 114 — Information Literacy: survey research of student literacy interventions in Indonesian secondary cities using accessibility as the primary evaluation lens.
+112. CATEGORY 115 — Information Literacy: case study comparison of student literacy interventions in coastal metropolitan regions using resilience as the primary evaluation lens.
+113. CATEGORY 116 — Information Literacy: statistical modeling of student literacy interventions in university campuses using usability as the primary evaluation lens.
+114. CATEGORY 117 — Information Literacy: network analysis of student literacy interventions in rural service areas using governance quality as the primary evaluation lens.
+115. CATEGORY 118 — Information Literacy: content analysis of student literacy interventions in low-income neighborhoods using accuracy as the primary evaluation lens.
+116. CATEGORY 119 — Information Literacy: simulation modeling of student literacy interventions in post-pandemic public institutions using accessibility as the primary evaluation lens.
+117. CATEGORY 120 — Information Literacy: interview-based inquiry of student literacy interventions in rapidly growing suburbs using resilience as the primary evaluation lens.
+118. CATEGORY 121 — Information Literacy: policy evaluation of student literacy interventions in historic city centers using usability as the primary evaluation lens.
+119. CATEGORY 122 — Information Literacy: mixed-methods design of student literacy interventions in cross-border regions using governance quality as the primary evaluation lens.
+120. CATEGORY 123 — Information Literacy: GIS/spatial analysis of student literacy interventions in climate-vulnerable districts using accuracy as the primary evaluation lens.
+121. CATEGORY 124 — Information Literacy: survey research of student literacy interventions in Indonesian secondary cities using accessibility as the primary evaluation lens.
+122. CATEGORY 125 — Information Literacy: case study comparison of student literacy interventions in coastal metropolitan regions using resilience as the primary evaluation lens.
+123. CATEGORY 126 — Information Literacy: statistical modeling of student literacy interventions in university campuses using usability as the primary evaluation lens.
+124. CATEGORY 127 — Information Literacy: network analysis of student literacy interventions in rural service areas using governance quality as the primary evaluation lens.
+125. CATEGORY 128 — Information Literacy: content analysis of student literacy interventions in low-income neighborhoods using accuracy as the primary evaluation lens.
+126. CATEGORY 129 — Information Literacy: simulation modeling of student literacy interventions in post-pandemic public institutions using accessibility as the primary evaluation lens.
+127. CATEGORY 130 — Information Literacy: interview-based inquiry of student literacy interventions in rapidly growing suburbs using resilience as the primary evaluation lens.
+128. CATEGORY 131 — Information Literacy: policy evaluation of student literacy interventions in historic city centers using usability as the primary evaluation lens.
+129. CATEGORY 132 — Information Literacy: mixed-methods design of student literacy interventions in cross-border regions using governance quality as the primary evaluation lens.
+130. CATEGORY 133 — Information Literacy: GIS/spatial analysis of student literacy interventions in climate-vulnerable districts using accuracy as the primary evaluation lens.
+131. CATEGORY 134 — Information Literacy: survey research of student literacy interventions in Indonesian secondary cities using accessibility as the primary evaluation lens.
+132. CATEGORY 135 — Information Literacy: case study comparison of student literacy interventions in coastal metropolitan regions using resilience as the primary evaluation lens.
+133. CATEGORY 136 — Information Literacy: statistical modeling of student literacy interventions in university campuses using usability as the primary evaluation lens.
+134. CATEGORY 137 — Information Literacy: network analysis of student literacy interventions in rural service areas using governance quality as the primary evaluation lens.
+135. CATEGORY 138 — Information Literacy: content analysis of student literacy interventions in low-income neighborhoods using accuracy as the primary evaluation lens.
+136. CATEGORY 139 — Information Literacy: simulation modeling of student literacy interventions in post-pandemic public institutions using accessibility as the primary evaluation lens.
+137. CATEGORY 140 — Information Literacy: interview-based inquiry of student literacy interventions in rapidly growing suburbs using resilience as the primary evaluation lens.
+138. CATEGORY 141 — Information Literacy: policy evaluation of student literacy interventions in historic city centers using usability as the primary evaluation lens.
+139. CATEGORY 142 — Information Literacy: mixed-methods design of student literacy interventions in cross-border regions using governance quality as the primary evaluation lens.
+140. CATEGORY 143 — Information Literacy: GIS/spatial analysis of student literacy interventions in climate-vulnerable districts using accuracy as the primary evaluation lens.
+141. CATEGORY 144 — Information Literacy: survey research of student literacy interventions in Indonesian secondary cities using accessibility as the primary evaluation lens.
+142. CATEGORY 145 — Information Literacy: case study comparison of student literacy interventions in coastal metropolitan regions using resilience as the primary evaluation lens.
+143. CATEGORY 146 — Information Literacy: statistical modeling of student literacy interventions in university campuses using usability as the primary evaluation lens.
+144. CATEGORY 147 — Information Literacy: network analysis of student literacy interventions in rural service areas using governance quality as the primary evaluation lens.
+145. CATEGORY 148 — Information Literacy: content analysis of student literacy interventions in low-income neighborhoods using accuracy as the primary evaluation lens.
+146. CATEGORY 149 — Information Literacy: simulation modeling of student literacy interventions in post-pandemic public institutions using accessibility as the primary evaluation lens.
+147. CATEGORY 150 — Information Literacy: interview-based inquiry of student literacy interventions in rapidly growing suburbs using resilience as the primary evaluation lens.
+148. CATEGORY 151 — Information Literacy: policy evaluation of student literacy interventions in historic city centers using usability as the primary evaluation lens.
+149. CATEGORY 152 — Information Literacy: mixed-methods design of student literacy interventions in cross-border regions using governance quality as the primary evaluation lens.
+150. CATEGORY 153 — Information Literacy: GIS/spatial analysis of student literacy interventions in climate-vulnerable districts using accuracy as the primary evaluation lens.
+
+CATEGORY 4 — Academic Library Services
+151. CATEGORY 155 — Academic Library Services: case study comparison of reference service interventions in Indonesian secondary cities using efficiency as the primary evaluation lens.
+152. CATEGORY 156 — Academic Library Services: statistical modeling of reference service interventions in coastal metropolitan regions using adoption as the primary evaluation lens.
+153. CATEGORY 157 — Academic Library Services: network analysis of reference service interventions in university campuses using sustainability as the primary evaluation lens.
+154. CATEGORY 158 — Academic Library Services: content analysis of reference service interventions in rural service areas using social impact as the primary evaluation lens.
+155. CATEGORY 159 — Academic Library Services: simulation modeling of reference service interventions in low-income neighborhoods using equity as the primary evaluation lens.
+156. CATEGORY 160 — Academic Library Services: interview-based inquiry of reference service interventions in post-pandemic public institutions using efficiency as the primary evaluation lens.
+157. CATEGORY 161 — Academic Library Services: policy evaluation of reference service interventions in rapidly growing suburbs using adoption as the primary evaluation lens.
+158. CATEGORY 162 — Academic Library Services: mixed-methods design of reference service interventions in historic city centers using sustainability as the primary evaluation lens.
+159. CATEGORY 163 — Academic Library Services: GIS/spatial analysis of reference service interventions in cross-border regions using social impact as the primary evaluation lens.
+160. CATEGORY 164 — Academic Library Services: survey research of reference service interventions in climate-vulnerable districts using equity as the primary evaluation lens.
+161. CATEGORY 165 — Academic Library Services: case study comparison of reference service interventions in Indonesian secondary cities using efficiency as the primary evaluation lens.
+162. CATEGORY 166 — Academic Library Services: statistical modeling of reference service interventions in coastal metropolitan regions using adoption as the primary evaluation lens.
+163. CATEGORY 167 — Academic Library Services: network analysis of reference service interventions in university campuses using sustainability as the primary evaluation lens.
+164. CATEGORY 168 — Academic Library Services: content analysis of reference service interventions in rural service areas using social impact as the primary evaluation lens.
+165. CATEGORY 169 — Academic Library Services: simulation modeling of reference service interventions in low-income neighborhoods using equity as the primary evaluation lens.
+166. CATEGORY 170 — Academic Library Services: interview-based inquiry of reference service interventions in post-pandemic public institutions using efficiency as the primary evaluation lens.
+167. CATEGORY 171 — Academic Library Services: policy evaluation of reference service interventions in rapidly growing suburbs using adoption as the primary evaluation lens.
+168. CATEGORY 172 — Academic Library Services: mixed-methods design of reference service interventions in historic city centers using sustainability as the primary evaluation lens.
+169. CATEGORY 173 — Academic Library Services: GIS/spatial analysis of reference service interventions in cross-border regions using social impact as the primary evaluation lens.
+170. CATEGORY 174 — Academic Library Services: survey research of reference service interventions in climate-vulnerable districts using equity as the primary evaluation lens.
+171. CATEGORY 175 — Academic Library Services: case study comparison of reference service interventions in Indonesian secondary cities using efficiency as the primary evaluation lens.
+172. CATEGORY 176 — Academic Library Services: statistical modeling of reference service interventions in coastal metropolitan regions using adoption as the primary evaluation lens.
+173. CATEGORY 177 — Academic Library Services: network analysis of reference service interventions in university campuses using sustainability as the primary evaluation lens.
+174. CATEGORY 178 — Academic Library Services: content analysis of reference service interventions in rural service areas using social impact as the primary evaluation lens.
+175. CATEGORY 179 — Academic Library Services: simulation modeling of reference service interventions in low-income neighborhoods using equity as the primary evaluation lens.
+176. CATEGORY 180 — Academic Library Services: interview-based inquiry of reference service interventions in post-pandemic public institutions using efficiency as the primary evaluation lens.
+177. CATEGORY 181 — Academic Library Services: policy evaluation of reference service interventions in rapidly growing suburbs using adoption as the primary evaluation lens.
+178. CATEGORY 182 — Academic Library Services: mixed-methods design of reference service interventions in historic city centers using sustainability as the primary evaluation lens.
+179. CATEGORY 183 — Academic Library Services: GIS/spatial analysis of reference service interventions in cross-border regions using social impact as the primary evaluation lens.
+180. CATEGORY 184 — Academic Library Services: survey research of reference service interventions in climate-vulnerable districts using equity as the primary evaluation lens.
+181. CATEGORY 185 — Academic Library Services: case study comparison of reference service interventions in Indonesian secondary cities using efficiency as the primary evaluation lens.
+182. CATEGORY 186 — Academic Library Services: statistical modeling of reference service interventions in coastal metropolitan regions using adoption as the primary evaluation lens.
+183. CATEGORY 187 — Academic Library Services: network analysis of reference service interventions in university campuses using sustainability as the primary evaluation lens.
+184. CATEGORY 188 — Academic Library Services: content analysis of reference service interventions in rural service areas using social impact as the primary evaluation lens.
+185. CATEGORY 189 — Academic Library Services: simulation modeling of reference service interventions in low-income neighborhoods using equity as the primary evaluation lens.
+186. CATEGORY 190 — Academic Library Services: interview-based inquiry of reference service interventions in post-pandemic public institutions using efficiency as the primary evaluation lens.
+187. CATEGORY 191 — Academic Library Services: policy evaluation of reference service interventions in rapidly growing suburbs using adoption as the primary evaluation lens.
+188. CATEGORY 192 — Academic Library Services: mixed-methods design of reference service interventions in historic city centers using sustainability as the primary evaluation lens.
+189. CATEGORY 193 — Academic Library Services: GIS/spatial analysis of reference service interventions in cross-border regions using social impact as the primary evaluation lens.
+190. CATEGORY 194 — Academic Library Services: survey research of reference service interventions in climate-vulnerable districts using equity as the primary evaluation lens.
+191. CATEGORY 195 — Academic Library Services: case study comparison of reference service interventions in Indonesian secondary cities using efficiency as the primary evaluation lens.
+192. CATEGORY 196 — Academic Library Services: statistical modeling of reference service interventions in coastal metropolitan regions using adoption as the primary evaluation lens.
+193. CATEGORY 197 — Academic Library Services: network analysis of reference service interventions in university campuses using sustainability as the primary evaluation lens.
+194. CATEGORY 198 — Academic Library Services: content analysis of reference service interventions in rural service areas using social impact as the primary evaluation lens.
+195. CATEGORY 199 — Academic Library Services: simulation modeling of reference service interventions in low-income neighborhoods using equity as the primary evaluation lens.
+196. CATEGORY 200 — Academic Library Services: interview-based inquiry of reference service interventions in post-pandemic public institutions using efficiency as the primary evaluation lens.
+197. CATEGORY 201 — Academic Library Services: policy evaluation of reference service interventions in rapidly growing suburbs using adoption as the primary evaluation lens.
+198. CATEGORY 202 — Academic Library Services: mixed-methods design of reference service interventions in historic city centers using sustainability as the primary evaluation lens.
+199. CATEGORY 203 — Academic Library Services: GIS/spatial analysis of reference service interventions in cross-border regions using social impact as the primary evaluation lens.
+200. CATEGORY 204 — Academic Library Services: survey research of reference service interventions in climate-vulnerable districts using equity as the primary evaluation lens.
+
+CATEGORY 5 — Archives and Preservation
+201. CATEGORY 206 — Archives and Preservation: statistical modeling of oral history archive interventions in Indonesian secondary cities using resilience as the primary evaluation lens.
+202. CATEGORY 207 — Archives and Preservation: network analysis of oral history archive interventions in coastal metropolitan regions using usability as the primary evaluation lens.
+203. CATEGORY 208 — Archives and Preservation: content analysis of oral history archive interventions in university campuses using governance quality as the primary evaluation lens.
+204. CATEGORY 209 — Archives and Preservation: simulation modeling of oral history archive interventions in rural service areas using accuracy as the primary evaluation lens.
+205. CATEGORY 210 — Archives and Preservation: interview-based inquiry of oral history archive interventions in low-income neighborhoods using accessibility as the primary evaluation lens.
+206. CATEGORY 211 — Archives and Preservation: policy evaluation of oral history archive interventions in post-pandemic public institutions using resilience as the primary evaluation lens.
+207. CATEGORY 212 — Archives and Preservation: mixed-methods design of oral history archive interventions in rapidly growing suburbs using usability as the primary evaluation lens.
+208. CATEGORY 213 — Archives and Preservation: GIS/spatial analysis of oral history archive interventions in historic city centers using governance quality as the primary evaluation lens.
+209. CATEGORY 214 — Archives and Preservation: survey research of oral history archive interventions in cross-border regions using accuracy as the primary evaluation lens.
+210. CATEGORY 215 — Archives and Preservation: case study comparison of oral history archive interventions in climate-vulnerable districts using accessibility as the primary evaluation lens.
+211. CATEGORY 216 — Archives and Preservation: statistical modeling of oral history archive interventions in Indonesian secondary cities using resilience as the primary evaluation lens.
+212. CATEGORY 217 — Archives and Preservation: network analysis of oral history archive interventions in coastal metropolitan regions using usability as the primary evaluation lens.
+213. CATEGORY 218 — Archives and Preservation: content analysis of oral history archive interventions in university campuses using governance quality as the primary evaluation lens.
+214. CATEGORY 219 — Archives and Preservation: simulation modeling of oral history archive interventions in rural service areas using accuracy as the primary evaluation lens.
+215. CATEGORY 220 — Archives and Preservation: interview-based inquiry of oral history archive interventions in low-income neighborhoods using accessibility as the primary evaluation lens.
+216. CATEGORY 221 — Archives and Preservation: policy evaluation of oral history archive interventions in post-pandemic public institutions using resilience as the primary evaluation lens.
+217. CATEGORY 222 — Archives and Preservation: mixed-methods design of oral history archive interventions in rapidly growing suburbs using usability as the primary evaluation lens.
+218. CATEGORY 223 — Archives and Preservation: GIS/spatial analysis of oral history archive interventions in historic city centers using governance quality as the primary evaluation lens.
+219. CATEGORY 224 — Archives and Preservation: survey research of oral history archive interventions in cross-border regions using accuracy as the primary evaluation lens.
+220. CATEGORY 225 — Archives and Preservation: case study comparison of oral history archive interventions in climate-vulnerable districts using accessibility as the primary evaluation lens.
+221. CATEGORY 226 — Archives and Preservation: statistical modeling of oral history archive interventions in Indonesian secondary cities using resilience as the primary evaluation lens.
+222. CATEGORY 227 — Archives and Preservation: network analysis of oral history archive interventions in coastal metropolitan regions using usability as the primary evaluation lens.
+223. CATEGORY 228 — Archives and Preservation: content analysis of oral history archive interventions in university campuses using governance quality as the primary evaluation lens.
+224. CATEGORY 229 — Archives and Preservation: simulation modeling of oral history archive interventions in rural service areas using accuracy as the primary evaluation lens.
+225. CATEGORY 230 — Archives and Preservation: interview-based inquiry of oral history archive interventions in low-income neighborhoods using accessibility as the primary evaluation lens.
+226. CATEGORY 231 — Archives and Preservation: policy evaluation of oral history archive interventions in post-pandemic public institutions using resilience as the primary evaluation lens.
+227. CATEGORY 232 — Archives and Preservation: mixed-methods design of oral history archive interventions in rapidly growing suburbs using usability as the primary evaluation lens.
+228. CATEGORY 233 — Archives and Preservation: GIS/spatial analysis of oral history archive interventions in historic city centers using governance quality as the primary evaluation lens.
+229. CATEGORY 234 — Archives and Preservation: survey research of oral history archive interventions in cross-border regions using accuracy as the primary evaluation lens.
+230. CATEGORY 235 — Archives and Preservation: case study comparison of oral history archive interventions in climate-vulnerable districts using accessibility as the primary evaluation lens.
+231. CATEGORY 236 — Archives and Preservation: statistical modeling of oral history archive interventions in Indonesian secondary cities using resilience as the primary evaluation lens.
+232. CATEGORY 237 — Archives and Preservation: network analysis of oral history archive interventions in coastal metropolitan regions using usability as the primary evaluation lens.
+233. CATEGORY 238 — Archives and Preservation: content analysis of oral history archive interventions in university campuses using governance quality as the primary evaluation lens.
+234. CATEGORY 239 — Archives and Preservation: simulation modeling of oral history archive interventions in rural service areas using accuracy as the primary evaluation lens.
+235. CATEGORY 240 — Archives and Preservation: interview-based inquiry of oral history archive interventions in low-income neighborhoods using accessibility as the primary evaluation lens.
+236. CATEGORY 241 — Archives and Preservation: policy evaluation of oral history archive interventions in post-pandemic public institutions using resilience as the primary evaluation lens.
+237. CATEGORY 242 — Archives and Preservation: mixed-methods design of oral history archive interventions in rapidly growing suburbs using usability as the primary evaluation lens.
+238. CATEGORY 243 — Archives and Preservation: GIS/spatial analysis of oral history archive interventions in historic city centers using governance quality as the primary evaluation lens.
+239. CATEGORY 244 — Archives and Preservation: survey research of oral history archive interventions in cross-border regions using accuracy as the primary evaluation lens.
+240. CATEGORY 245 — Archives and Preservation: case study comparison of oral history archive interventions in climate-vulnerable districts using accessibility as the primary evaluation lens.
+241. CATEGORY 246 — Archives and Preservation: statistical modeling of oral history archive interventions in Indonesian secondary cities using resilience as the primary evaluation lens.
+242. CATEGORY 247 — Archives and Preservation: network analysis of oral history archive interventions in coastal metropolitan regions using usability as the primary evaluation lens.
+243. CATEGORY 248 — Archives and Preservation: content analysis of oral history archive interventions in university campuses using governance quality as the primary evaluation lens.
+244. CATEGORY 249 — Archives and Preservation: simulation modeling of oral history archive interventions in rural service areas using accuracy as the primary evaluation lens.
+245. CATEGORY 250 — Archives and Preservation: interview-based inquiry of oral history archive interventions in low-income neighborhoods using accessibility as the primary evaluation lens.
+246. CATEGORY 251 — Archives and Preservation: policy evaluation of oral history archive interventions in post-pandemic public institutions using resilience as the primary evaluation lens.
+247. CATEGORY 252 — Archives and Preservation: mixed-methods design of oral history archive interventions in rapidly growing suburbs using usability as the primary evaluation lens.
+248. CATEGORY 253 — Archives and Preservation: GIS/spatial analysis of oral history archive interventions in historic city centers using governance quality as the primary evaluation lens.
+249. CATEGORY 254 — Archives and Preservation: survey research of oral history archive interventions in cross-border regions using accuracy as the primary evaluation lens.
+250. CATEGORY 255 — Archives and Preservation: case study comparison of oral history archive interventions in climate-vulnerable districts using accessibility as the primary evaluation lens.
+
+CATEGORY 6 — Knowledge Organization
+251. CATEGORY 257 — Knowledge Organization: network analysis of subject heading interventions in Indonesian secondary cities using adoption as the primary evaluation lens.
+252. CATEGORY 258 — Knowledge Organization: content analysis of subject heading interventions in coastal metropolitan regions using sustainability as the primary evaluation lens.
+253. CATEGORY 259 — Knowledge Organization: simulation modeling of subject heading interventions in university campuses using social impact as the primary evaluation lens.
+254. CATEGORY 260 — Knowledge Organization: interview-based inquiry of subject heading interventions in rural service areas using equity as the primary evaluation lens.
+255. CATEGORY 261 — Knowledge Organization: policy evaluation of subject heading interventions in low-income neighborhoods using efficiency as the primary evaluation lens.
+256. CATEGORY 262 — Knowledge Organization: mixed-methods design of subject heading interventions in post-pandemic public institutions using adoption as the primary evaluation lens.
+257. CATEGORY 263 — Knowledge Organization: GIS/spatial analysis of subject heading interventions in rapidly growing suburbs using sustainability as the primary evaluation lens.
+258. CATEGORY 264 — Knowledge Organization: survey research of subject heading interventions in historic city centers using social impact as the primary evaluation lens.
+259. CATEGORY 265 — Knowledge Organization: case study comparison of subject heading interventions in cross-border regions using equity as the primary evaluation lens.
+260. CATEGORY 266 — Knowledge Organization: statistical modeling of subject heading interventions in climate-vulnerable districts using efficiency as the primary evaluation lens.
+261. CATEGORY 267 — Knowledge Organization: network analysis of subject heading interventions in Indonesian secondary cities using adoption as the primary evaluation lens.
+262. CATEGORY 268 — Knowledge Organization: content analysis of subject heading interventions in coastal metropolitan regions using sustainability as the primary evaluation lens.
+263. CATEGORY 269 — Knowledge Organization: simulation modeling of subject heading interventions in university campuses using social impact as the primary evaluation lens.
+264. CATEGORY 270 — Knowledge Organization: interview-based inquiry of subject heading interventions in rural service areas using equity as the primary evaluation lens.
+265. CATEGORY 271 — Knowledge Organization: policy evaluation of subject heading interventions in low-income neighborhoods using efficiency as the primary evaluation lens.
+266. CATEGORY 272 — Knowledge Organization: mixed-methods design of subject heading interventions in post-pandemic public institutions using adoption as the primary evaluation lens.
+267. CATEGORY 273 — Knowledge Organization: GIS/spatial analysis of subject heading interventions in rapidly growing suburbs using sustainability as the primary evaluation lens.
+268. CATEGORY 274 — Knowledge Organization: survey research of subject heading interventions in historic city centers using social impact as the primary evaluation lens.
+269. CATEGORY 275 — Knowledge Organization: case study comparison of subject heading interventions in cross-border regions using equity as the primary evaluation lens.
+270. CATEGORY 276 — Knowledge Organization: statistical modeling of subject heading interventions in climate-vulnerable districts using efficiency as the primary evaluation lens.
+271. CATEGORY 277 — Knowledge Organization: network analysis of subject heading interventions in Indonesian secondary cities using adoption as the primary evaluation lens.
+272. CATEGORY 278 — Knowledge Organization: content analysis of subject heading interventions in coastal metropolitan regions using sustainability as the primary evaluation lens.
+273. CATEGORY 279 — Knowledge Organization: simulation modeling of subject heading interventions in university campuses using social impact as the primary evaluation lens.
+274. CATEGORY 280 — Knowledge Organization: interview-based inquiry of subject heading interventions in rural service areas using equity as the primary evaluation lens.
+275. CATEGORY 281 — Knowledge Organization: policy evaluation of subject heading interventions in low-income neighborhoods using efficiency as the primary evaluation lens.
+276. CATEGORY 282 — Knowledge Organization: mixed-methods design of subject heading interventions in post-pandemic public institutions using adoption as the primary evaluation lens.
+277. CATEGORY 283 — Knowledge Organization: GIS/spatial analysis of subject heading interventions in rapidly growing suburbs using sustainability as the primary evaluation lens.
+278. CATEGORY 284 — Knowledge Organization: survey research of subject heading interventions in historic city centers using social impact as the primary evaluation lens.
+279. CATEGORY 285 — Knowledge Organization: case study comparison of subject heading interventions in cross-border regions using equity as the primary evaluation lens.
+280. CATEGORY 286 — Knowledge Organization: statistical modeling of subject heading interventions in climate-vulnerable districts using efficiency as the primary evaluation lens.
+281. CATEGORY 287 — Knowledge Organization: network analysis of subject heading interventions in Indonesian secondary cities using adoption as the primary evaluation lens.
+282. CATEGORY 288 — Knowledge Organization: content analysis of subject heading interventions in coastal metropolitan regions using sustainability as the primary evaluation lens.
+283. CATEGORY 289 — Knowledge Organization: simulation modeling of subject heading interventions in university campuses using social impact as the primary evaluation lens.
+284. CATEGORY 290 — Knowledge Organization: interview-based inquiry of subject heading interventions in rural service areas using equity as the primary evaluation lens.
+285. CATEGORY 291 — Knowledge Organization: policy evaluation of subject heading interventions in low-income neighborhoods using efficiency as the primary evaluation lens.
+286. CATEGORY 292 — Knowledge Organization: mixed-methods design of subject heading interventions in post-pandemic public institutions using adoption as the primary evaluation lens.
+287. CATEGORY 293 — Knowledge Organization: GIS/spatial analysis of subject heading interventions in rapidly growing suburbs using sustainability as the primary evaluation lens.
+288. CATEGORY 294 — Knowledge Organization: survey research of subject heading interventions in historic city centers using social impact as the primary evaluation lens.
+289. CATEGORY 295 — Knowledge Organization: case study comparison of subject heading interventions in cross-border regions using equity as the primary evaluation lens.
+290. CATEGORY 296 — Knowledge Organization: statistical modeling of subject heading interventions in climate-vulnerable districts using efficiency as the primary evaluation lens.
+291. CATEGORY 297 — Knowledge Organization: network analysis of subject heading interventions in Indonesian secondary cities using adoption as the primary evaluation lens.
+292. CATEGORY 298 — Knowledge Organization: content analysis of subject heading interventions in coastal metropolitan regions using sustainability as the primary evaluation lens.
+293. CATEGORY 299 — Knowledge Organization: simulation modeling of subject heading interventions in university campuses using social impact as the primary evaluation lens.
+294. CATEGORY 300 — Knowledge Organization: interview-based inquiry of subject heading interventions in rural service areas using equity as the primary evaluation lens.
+295. CATEGORY 301 — Knowledge Organization: policy evaluation of subject heading interventions in low-income neighborhoods using efficiency as the primary evaluation lens.
+296. CATEGORY 302 — Knowledge Organization: mixed-methods design of subject heading interventions in post-pandemic public institutions using adoption as the primary evaluation lens.
+297. CATEGORY 303 — Knowledge Organization: GIS/spatial analysis of subject heading interventions in rapidly growing suburbs using sustainability as the primary evaluation lens.
+298. CATEGORY 304 — Knowledge Organization: survey research of subject heading interventions in historic city centers using social impact as the primary evaluation lens.
+299. CATEGORY 305 — Knowledge Organization: case study comparison of subject heading interventions in cross-border regions using equity as the primary evaluation lens.
+300. CATEGORY 306 — Knowledge Organization: statistical modeling of subject heading interventions in climate-vulnerable districts using efficiency as the primary evaluation lens.
+
+CATEGORY 7 — Public Library Innovation
+301. CATEGORY 308 — Public Library Innovation: content analysis of community program interventions in Indonesian secondary cities using usability as the primary evaluation lens.
+302. CATEGORY 309 — Public Library Innovation: simulation modeling of community program interventions in coastal metropolitan regions using governance quality as the primary evaluation lens.
+303. CATEGORY 310 — Public Library Innovation: interview-based inquiry of community program interventions in university campuses using accuracy as the primary evaluation lens.
+304. CATEGORY 311 — Public Library Innovation: policy evaluation of community program interventions in rural service areas using accessibility as the primary evaluation lens.
+305. CATEGORY 312 — Public Library Innovation: mixed-methods design of community program interventions in low-income neighborhoods using resilience as the primary evaluation lens.
+306. CATEGORY 313 — Public Library Innovation: GIS/spatial analysis of community program interventions in post-pandemic public institutions using usability as the primary evaluation lens.
+307. CATEGORY 314 — Public Library Innovation: survey research of community program interventions in rapidly growing suburbs using governance quality as the primary evaluation lens.
+308. CATEGORY 315 — Public Library Innovation: case study comparison of community program interventions in historic city centers using accuracy as the primary evaluation lens.
+309. CATEGORY 316 — Public Library Innovation: statistical modeling of community program interventions in cross-border regions using accessibility as the primary evaluation lens.
+310. CATEGORY 317 — Public Library Innovation: network analysis of community program interventions in climate-vulnerable districts using resilience as the primary evaluation lens.
+311. CATEGORY 318 — Public Library Innovation: content analysis of community program interventions in Indonesian secondary cities using usability as the primary evaluation lens.
+312. CATEGORY 319 — Public Library Innovation: simulation modeling of community program interventions in coastal metropolitan regions using governance quality as the primary evaluation lens.
+313. CATEGORY 320 — Public Library Innovation: interview-based inquiry of community program interventions in university campuses using accuracy as the primary evaluation lens.
+314. CATEGORY 321 — Public Library Innovation: policy evaluation of community program interventions in rural service areas using accessibility as the primary evaluation lens.
+315. CATEGORY 322 — Public Library Innovation: mixed-methods design of community program interventions in low-income neighborhoods using resilience as the primary evaluation lens.
+316. CATEGORY 323 — Public Library Innovation: GIS/spatial analysis of community program interventions in post-pandemic public institutions using usability as the primary evaluation lens.
+317. CATEGORY 324 — Public Library Innovation: survey research of community program interventions in rapidly growing suburbs using governance quality as the primary evaluation lens.
+318. CATEGORY 325 — Public Library Innovation: case study comparison of community program interventions in historic city centers using accuracy as the primary evaluation lens.
+319. CATEGORY 326 — Public Library Innovation: statistical modeling of community program interventions in cross-border regions using accessibility as the primary evaluation lens.
+320. CATEGORY 327 — Public Library Innovation: network analysis of community program interventions in climate-vulnerable districts using resilience as the primary evaluation lens.
+321. CATEGORY 328 — Public Library Innovation: content analysis of community program interventions in Indonesian secondary cities using usability as the primary evaluation lens.
+322. CATEGORY 329 — Public Library Innovation: simulation modeling of community program interventions in coastal metropolitan regions using governance quality as the primary evaluation lens.
+323. CATEGORY 330 — Public Library Innovation: interview-based inquiry of community program interventions in university campuses using accuracy as the primary evaluation lens.
+324. CATEGORY 331 — Public Library Innovation: policy evaluation of community program interventions in rural service areas using accessibility as the primary evaluation lens.
+325. CATEGORY 332 — Public Library Innovation: mixed-methods design of community program interventions in low-income neighborhoods using resilience as the primary evaluation lens.
+326. CATEGORY 333 — Public Library Innovation: GIS/spatial analysis of community program interventions in post-pandemic public institutions using usability as the primary evaluation lens.
+327. CATEGORY 334 — Public Library Innovation: survey research of community program interventions in rapidly growing suburbs using governance quality as the primary evaluation lens.
+328. CATEGORY 335 — Public Library Innovation: case study comparison of community program interventions in historic city centers using accuracy as the primary evaluation lens.
+329. CATEGORY 336 — Public Library Innovation: statistical modeling of community program interventions in cross-border regions using accessibility as the primary evaluation lens.
+330. CATEGORY 337 — Public Library Innovation: network analysis of community program interventions in climate-vulnerable districts using resilience as the primary evaluation lens.
+331. CATEGORY 338 — Public Library Innovation: content analysis of community program interventions in Indonesian secondary cities using usability as the primary evaluation lens.
+332. CATEGORY 339 — Public Library Innovation: simulation modeling of community program interventions in coastal metropolitan regions using governance quality as the primary evaluation lens.
+333. CATEGORY 340 — Public Library Innovation: interview-based inquiry of community program interventions in university campuses using accuracy as the primary evaluation lens.
+334. CATEGORY 341 — Public Library Innovation: policy evaluation of community program interventions in rural service areas using accessibility as the primary evaluation lens.
+335. CATEGORY 342 — Public Library Innovation: mixed-methods design of community program interventions in low-income neighborhoods using resilience as the primary evaluation lens.
+336. CATEGORY 343 — Public Library Innovation: GIS/spatial analysis of community program interventions in post-pandemic public institutions using usability as the primary evaluation lens.
+337. CATEGORY 344 — Public Library Innovation: survey research of community program interventions in rapidly growing suburbs using governance quality as the primary evaluation lens.
+338. CATEGORY 345 — Public Library Innovation: case study comparison of community program interventions in historic city centers using accuracy as the primary evaluation lens.
+339. CATEGORY 346 — Public Library Innovation: statistical modeling of community program interventions in cross-border regions using accessibility as the primary evaluation lens.
+340. CATEGORY 347 — Public Library Innovation: network analysis of community program interventions in climate-vulnerable districts using resilience as the primary evaluation lens.
+341. CATEGORY 348 — Public Library Innovation: content analysis of community program interventions in Indonesian secondary cities using usability as the primary evaluation lens.
+342. CATEGORY 349 — Public Library Innovation: simulation modeling of community program interventions in coastal metropolitan regions using governance quality as the primary evaluation lens.
+343. CATEGORY 350 — Public Library Innovation: interview-based inquiry of community program interventions in university campuses using accuracy as the primary evaluation lens.
+344. CATEGORY 351 — Public Library Innovation: policy evaluation of community program interventions in rural service areas using accessibility as the primary evaluation lens.
+345. CATEGORY 352 — Public Library Innovation: mixed-methods design of community program interventions in low-income neighborhoods using resilience as the primary evaluation lens.
+346. CATEGORY 353 — Public Library Innovation: GIS/spatial analysis of community program interventions in post-pandemic public institutions using usability as the primary evaluation lens.
+347. CATEGORY 354 — Public Library Innovation: survey research of community program interventions in rapidly growing suburbs using governance quality as the primary evaluation lens.
+348. CATEGORY 355 — Public Library Innovation: case study comparison of community program interventions in historic city centers using accuracy as the primary evaluation lens.
+349. CATEGORY 356 — Public Library Innovation: statistical modeling of community program interventions in cross-border regions using accessibility as the primary evaluation lens.
+350. CATEGORY 357 — Public Library Innovation: network analysis of community program interventions in climate-vulnerable districts using resilience as the primary evaluation lens.
+
+CATEGORY 8 — Research Data Management
+351. CATEGORY 359 — Research Data Management: simulation modeling of data curation interventions in Indonesian secondary cities using sustainability as the primary evaluation lens.
+352. CATEGORY 360 — Research Data Management: interview-based inquiry of data curation interventions in coastal metropolitan regions using social impact as the primary evaluation lens.
+353. CATEGORY 361 — Research Data Management: policy evaluation of data curation interventions in university campuses using equity as the primary evaluation lens.
+354. CATEGORY 362 — Research Data Management: mixed-methods design of data curation interventions in rural service areas using efficiency as the primary evaluation lens.
+355. CATEGORY 363 — Research Data Management: GIS/spatial analysis of data curation interventions in low-income neighborhoods using adoption as the primary evaluation lens.
+356. CATEGORY 364 — Research Data Management: survey research of data curation interventions in post-pandemic public institutions using sustainability as the primary evaluation lens.
+357. CATEGORY 365 — Research Data Management: case study comparison of data curation interventions in rapidly growing suburbs using social impact as the primary evaluation lens.
+358. CATEGORY 366 — Research Data Management: statistical modeling of data curation interventions in historic city centers using equity as the primary evaluation lens.
+359. CATEGORY 367 — Research Data Management: network analysis of data curation interventions in cross-border regions using efficiency as the primary evaluation lens.
+360. CATEGORY 368 — Research Data Management: content analysis of data curation interventions in climate-vulnerable districts using adoption as the primary evaluation lens.
+361. CATEGORY 369 — Research Data Management: simulation modeling of data curation interventions in Indonesian secondary cities using sustainability as the primary evaluation lens.
+362. CATEGORY 370 — Research Data Management: interview-based inquiry of data curation interventions in coastal metropolitan regions using social impact as the primary evaluation lens.
+363. CATEGORY 371 — Research Data Management: policy evaluation of data curation interventions in university campuses using equity as the primary evaluation lens.
+364. CATEGORY 372 — Research Data Management: mixed-methods design of data curation interventions in rural service areas using efficiency as the primary evaluation lens.
+365. CATEGORY 373 — Research Data Management: GIS/spatial analysis of data curation interventions in low-income neighborhoods using adoption as the primary evaluation lens.
+366. CATEGORY 374 — Research Data Management: survey research of data curation interventions in post-pandemic public institutions using sustainability as the primary evaluation lens.
+367. CATEGORY 375 — Research Data Management: case study comparison of data curation interventions in rapidly growing suburbs using social impact as the primary evaluation lens.
+368. CATEGORY 376 — Research Data Management: statistical modeling of data curation interventions in historic city centers using equity as the primary evaluation lens.
+369. CATEGORY 377 — Research Data Management: network analysis of data curation interventions in cross-border regions using efficiency as the primary evaluation lens.
+370. CATEGORY 378 — Research Data Management: content analysis of data curation interventions in climate-vulnerable districts using adoption as the primary evaluation lens.
+371. CATEGORY 379 — Research Data Management: simulation modeling of data curation interventions in Indonesian secondary cities using sustainability as the primary evaluation lens.
+372. CATEGORY 380 — Research Data Management: interview-based inquiry of data curation interventions in coastal metropolitan regions using social impact as the primary evaluation lens.
+373. CATEGORY 381 — Research Data Management: policy evaluation of data curation interventions in university campuses using equity as the primary evaluation lens.
+374. CATEGORY 382 — Research Data Management: mixed-methods design of data curation interventions in rural service areas using efficiency as the primary evaluation lens.
+375. CATEGORY 383 — Research Data Management: GIS/spatial analysis of data curation interventions in low-income neighborhoods using adoption as the primary evaluation lens.
+376. CATEGORY 384 — Research Data Management: survey research of data curation interventions in post-pandemic public institutions using sustainability as the primary evaluation lens.
+377. CATEGORY 385 — Research Data Management: case study comparison of data curation interventions in rapidly growing suburbs using social impact as the primary evaluation lens.
+378. CATEGORY 386 — Research Data Management: statistical modeling of data curation interventions in historic city centers using equity as the primary evaluation lens.
+379. CATEGORY 387 — Research Data Management: network analysis of data curation interventions in cross-border regions using efficiency as the primary evaluation lens.
+380. CATEGORY 388 — Research Data Management: content analysis of data curation interventions in climate-vulnerable districts using adoption as the primary evaluation lens.
+381. CATEGORY 389 — Research Data Management: simulation modeling of data curation interventions in Indonesian secondary cities using sustainability as the primary evaluation lens.
+382. CATEGORY 390 — Research Data Management: interview-based inquiry of data curation interventions in coastal metropolitan regions using social impact as the primary evaluation lens.
+383. CATEGORY 391 — Research Data Management: policy evaluation of data curation interventions in university campuses using equity as the primary evaluation lens.
+384. CATEGORY 392 — Research Data Management: mixed-methods design of data curation interventions in rural service areas using efficiency as the primary evaluation lens.
+385. CATEGORY 393 — Research Data Management: GIS/spatial analysis of data curation interventions in low-income neighborhoods using adoption as the primary evaluation lens.
+386. CATEGORY 394 — Research Data Management: survey research of data curation interventions in post-pandemic public institutions using sustainability as the primary evaluation lens.
+387. CATEGORY 395 — Research Data Management: case study comparison of data curation interventions in rapidly growing suburbs using social impact as the primary evaluation lens.
+388. CATEGORY 396 — Research Data Management: statistical modeling of data curation interventions in historic city centers using equity as the primary evaluation lens.
+389. CATEGORY 397 — Research Data Management: network analysis of data curation interventions in cross-border regions using efficiency as the primary evaluation lens.
+390. CATEGORY 398 — Research Data Management: content analysis of data curation interventions in climate-vulnerable districts using adoption as the primary evaluation lens.
+391. CATEGORY 399 — Research Data Management: simulation modeling of data curation interventions in Indonesian secondary cities using sustainability as the primary evaluation lens.
+392. CATEGORY 400 — Research Data Management: interview-based inquiry of data curation interventions in coastal metropolitan regions using social impact as the primary evaluation lens.
+393. CATEGORY 401 — Research Data Management: policy evaluation of data curation interventions in university campuses using equity as the primary evaluation lens.
+394. CATEGORY 402 — Research Data Management: mixed-methods design of data curation interventions in rural service areas using efficiency as the primary evaluation lens.
+395. CATEGORY 403 — Research Data Management: GIS/spatial analysis of data curation interventions in low-income neighborhoods using adoption as the primary evaluation lens.
+396. CATEGORY 404 — Research Data Management: survey research of data curation interventions in post-pandemic public institutions using sustainability as the primary evaluation lens.
+397. CATEGORY 405 — Research Data Management: case study comparison of data curation interventions in rapidly growing suburbs using social impact as the primary evaluation lens.
+398. CATEGORY 406 — Research Data Management: statistical modeling of data curation interventions in historic city centers using equity as the primary evaluation lens.
+399. CATEGORY 407 — Research Data Management: network analysis of data curation interventions in cross-border regions using efficiency as the primary evaluation lens.
+400. CATEGORY 408 — Research Data Management: content analysis of data curation interventions in climate-vulnerable districts using adoption as the primary evaluation lens.
+
+CATEGORY 9 — Library Technology
+401. CATEGORY 410 — Library Technology: interview-based inquiry of discovery system interventions in Indonesian secondary cities using governance quality as the primary evaluation lens.
+402. CATEGORY 411 — Library Technology: policy evaluation of discovery system interventions in coastal metropolitan regions using accuracy as the primary evaluation lens.
+403. CATEGORY 412 — Library Technology: mixed-methods design of discovery system interventions in university campuses using accessibility as the primary evaluation lens.
+404. CATEGORY 413 — Library Technology: GIS/spatial analysis of discovery system interventions in rural service areas using resilience as the primary evaluation lens.
+405. CATEGORY 414 — Library Technology: survey research of discovery system interventions in low-income neighborhoods using usability as the primary evaluation lens.
+406. CATEGORY 415 — Library Technology: case study comparison of discovery system interventions in post-pandemic public institutions using governance quality as the primary evaluation lens.
+407. CATEGORY 416 — Library Technology: statistical modeling of discovery system interventions in rapidly growing suburbs using accuracy as the primary evaluation lens.
+408. CATEGORY 417 — Library Technology: network analysis of discovery system interventions in historic city centers using accessibility as the primary evaluation lens.
+409. CATEGORY 418 — Library Technology: content analysis of discovery system interventions in cross-border regions using resilience as the primary evaluation lens.
+410. CATEGORY 419 — Library Technology: simulation modeling of discovery system interventions in climate-vulnerable districts using usability as the primary evaluation lens.
+411. CATEGORY 420 — Library Technology: interview-based inquiry of discovery system interventions in Indonesian secondary cities using governance quality as the primary evaluation lens.
+412. CATEGORY 421 — Library Technology: policy evaluation of discovery system interventions in coastal metropolitan regions using accuracy as the primary evaluation lens.
+413. CATEGORY 422 — Library Technology: mixed-methods design of discovery system interventions in university campuses using accessibility as the primary evaluation lens.
+414. CATEGORY 423 — Library Technology: GIS/spatial analysis of discovery system interventions in rural service areas using resilience as the primary evaluation lens.
+415. CATEGORY 424 — Library Technology: survey research of discovery system interventions in low-income neighborhoods using usability as the primary evaluation lens.
+416. CATEGORY 425 — Library Technology: case study comparison of discovery system interventions in post-pandemic public institutions using governance quality as the primary evaluation lens.
+417. CATEGORY 426 — Library Technology: statistical modeling of discovery system interventions in rapidly growing suburbs using accuracy as the primary evaluation lens.
+418. CATEGORY 427 — Library Technology: network analysis of discovery system interventions in historic city centers using accessibility as the primary evaluation lens.
+419. CATEGORY 428 — Library Technology: content analysis of discovery system interventions in cross-border regions using resilience as the primary evaluation lens.
+420. CATEGORY 429 — Library Technology: simulation modeling of discovery system interventions in climate-vulnerable districts using usability as the primary evaluation lens.
+421. CATEGORY 430 — Library Technology: interview-based inquiry of discovery system interventions in Indonesian secondary cities using governance quality as the primary evaluation lens.
+422. CATEGORY 431 — Library Technology: policy evaluation of discovery system interventions in coastal metropolitan regions using accuracy as the primary evaluation lens.
+423. CATEGORY 432 — Library Technology: mixed-methods design of discovery system interventions in university campuses using accessibility as the primary evaluation lens.
+424. CATEGORY 433 — Library Technology: GIS/spatial analysis of discovery system interventions in rural service areas using resilience as the primary evaluation lens.
+425. CATEGORY 434 — Library Technology: survey research of discovery system interventions in low-income neighborhoods using usability as the primary evaluation lens.
+426. CATEGORY 435 — Library Technology: case study comparison of discovery system interventions in post-pandemic public institutions using governance quality as the primary evaluation lens.
+427. CATEGORY 436 — Library Technology: statistical modeling of discovery system interventions in rapidly growing suburbs using accuracy as the primary evaluation lens.
+428. CATEGORY 437 — Library Technology: network analysis of discovery system interventions in historic city centers using accessibility as the primary evaluation lens.
+429. CATEGORY 438 — Library Technology: content analysis of discovery system interventions in cross-border regions using resilience as the primary evaluation lens.
+430. CATEGORY 439 — Library Technology: simulation modeling of discovery system interventions in climate-vulnerable districts using usability as the primary evaluation lens.
+431. CATEGORY 440 — Library Technology: interview-based inquiry of discovery system interventions in Indonesian secondary cities using governance quality as the primary evaluation lens.
+432. CATEGORY 441 — Library Technology: policy evaluation of discovery system interventions in coastal metropolitan regions using accuracy as the primary evaluation lens.
+433. CATEGORY 442 — Library Technology: mixed-methods design of discovery system interventions in university campuses using accessibility as the primary evaluation lens.
+434. CATEGORY 443 — Library Technology: GIS/spatial analysis of discovery system interventions in rural service areas using resilience as the primary evaluation lens.
+435. CATEGORY 444 — Library Technology: survey research of discovery system interventions in low-income neighborhoods using usability as the primary evaluation lens.
+436. CATEGORY 445 — Library Technology: case study comparison of discovery system interventions in post-pandemic public institutions using governance quality as the primary evaluation lens.
+437. CATEGORY 446 — Library Technology: statistical modeling of discovery system interventions in rapidly growing suburbs using accuracy as the primary evaluation lens.
+438. CATEGORY 447 — Library Technology: network analysis of discovery system interventions in historic city centers using accessibility as the primary evaluation lens.
+439. CATEGORY 448 — Library Technology: content analysis of discovery system interventions in cross-border regions using resilience as the primary evaluation lens.
+440. CATEGORY 449 — Library Technology: simulation modeling of discovery system interventions in climate-vulnerable districts using usability as the primary evaluation lens.
+441. CATEGORY 450 — Library Technology: interview-based inquiry of discovery system interventions in Indonesian secondary cities using governance quality as the primary evaluation lens.
+442. CATEGORY 451 — Library Technology: policy evaluation of discovery system interventions in coastal metropolitan regions using accuracy as the primary evaluation lens.
+443. CATEGORY 452 — Library Technology: mixed-methods design of discovery system interventions in university campuses using accessibility as the primary evaluation lens.
+444. CATEGORY 453 — Library Technology: GIS/spatial analysis of discovery system interventions in rural service areas using resilience as the primary evaluation lens.
+445. CATEGORY 454 — Library Technology: survey research of discovery system interventions in low-income neighborhoods using usability as the primary evaluation lens.
+446. CATEGORY 455 — Library Technology: case study comparison of discovery system interventions in post-pandemic public institutions using governance quality as the primary evaluation lens.
+447. CATEGORY 456 — Library Technology: statistical modeling of discovery system interventions in rapidly growing suburbs using accuracy as the primary evaluation lens.
+448. CATEGORY 457 — Library Technology: network analysis of discovery system interventions in historic city centers using accessibility as the primary evaluation lens.
+449. CATEGORY 458 — Library Technology: content analysis of discovery system interventions in cross-border regions using resilience as the primary evaluation lens.
+450. CATEGORY 459 — Library Technology: simulation modeling of discovery system interventions in climate-vulnerable districts using usability as the primary evaluation lens.
+
+CATEGORY 10 — Equity and Access
+451. CATEGORY 461 — Equity and Access: policy evaluation of inclusive collection interventions in Indonesian secondary cities using social impact as the primary evaluation lens.
+452. CATEGORY 462 — Equity and Access: mixed-methods design of inclusive collection interventions in coastal metropolitan regions using equity as the primary evaluation lens.
+453. CATEGORY 463 — Equity and Access: GIS/spatial analysis of inclusive collection interventions in university campuses using efficiency as the primary evaluation lens.
+454. CATEGORY 464 — Equity and Access: survey research of inclusive collection interventions in rural service areas using adoption as the primary evaluation lens.
+455. CATEGORY 465 — Equity and Access: case study comparison of inclusive collection interventions in low-income neighborhoods using sustainability as the primary evaluation lens.
+456. CATEGORY 466 — Equity and Access: statistical modeling of inclusive collection interventions in post-pandemic public institutions using social impact as the primary evaluation lens.
+457. CATEGORY 467 — Equity and Access: network analysis of inclusive collection interventions in rapidly growing suburbs using equity as the primary evaluation lens.
+458. CATEGORY 468 — Equity and Access: content analysis of inclusive collection interventions in historic city centers using efficiency as the primary evaluation lens.
+459. CATEGORY 469 — Equity and Access: simulation modeling of inclusive collection interventions in cross-border regions using adoption as the primary evaluation lens.
+460. CATEGORY 470 — Equity and Access: interview-based inquiry of inclusive collection interventions in climate-vulnerable districts using sustainability as the primary evaluation lens.
+461. CATEGORY 471 — Equity and Access: policy evaluation of inclusive collection interventions in Indonesian secondary cities using social impact as the primary evaluation lens.
+462. CATEGORY 472 — Equity and Access: mixed-methods design of inclusive collection interventions in coastal metropolitan regions using equity as the primary evaluation lens.
+463. CATEGORY 473 — Equity and Access: GIS/spatial analysis of inclusive collection interventions in university campuses using efficiency as the primary evaluation lens.
+464. CATEGORY 474 — Equity and Access: survey research of inclusive collection interventions in rural service areas using adoption as the primary evaluation lens.
+465. CATEGORY 475 — Equity and Access: case study comparison of inclusive collection interventions in low-income neighborhoods using sustainability as the primary evaluation lens.
+466. CATEGORY 476 — Equity and Access: statistical modeling of inclusive collection interventions in post-pandemic public institutions using social impact as the primary evaluation lens.
+467. CATEGORY 477 — Equity and Access: network analysis of inclusive collection interventions in rapidly growing suburbs using equity as the primary evaluation lens.
+468. CATEGORY 478 — Equity and Access: content analysis of inclusive collection interventions in historic city centers using efficiency as the primary evaluation lens.
+469. CATEGORY 479 — Equity and Access: simulation modeling of inclusive collection interventions in cross-border regions using adoption as the primary evaluation lens.
+470. CATEGORY 480 — Equity and Access: interview-based inquiry of inclusive collection interventions in climate-vulnerable districts using sustainability as the primary evaluation lens.
+471. CATEGORY 481 — Equity and Access: policy evaluation of inclusive collection interventions in Indonesian secondary cities using social impact as the primary evaluation lens.
+472. CATEGORY 482 — Equity and Access: mixed-methods design of inclusive collection interventions in coastal metropolitan regions using equity as the primary evaluation lens.
+473. CATEGORY 483 — Equity and Access: GIS/spatial analysis of inclusive collection interventions in university campuses using efficiency as the primary evaluation lens.
+474. CATEGORY 484 — Equity and Access: survey research of inclusive collection interventions in rural service areas using adoption as the primary evaluation lens.
+475. CATEGORY 485 — Equity and Access: case study comparison of inclusive collection interventions in low-income neighborhoods using sustainability as the primary evaluation lens.
+476. CATEGORY 486 — Equity and Access: statistical modeling of inclusive collection interventions in post-pandemic public institutions using social impact as the primary evaluation lens.
+477. CATEGORY 487 — Equity and Access: network analysis of inclusive collection interventions in rapidly growing suburbs using equity as the primary evaluation lens.
+478. CATEGORY 488 — Equity and Access: content analysis of inclusive collection interventions in historic city centers using efficiency as the primary evaluation lens.
+479. CATEGORY 489 — Equity and Access: simulation modeling of inclusive collection interventions in cross-border regions using adoption as the primary evaluation lens.
+480. CATEGORY 490 — Equity and Access: interview-based inquiry of inclusive collection interventions in climate-vulnerable districts using sustainability as the primary evaluation lens.
+481. CATEGORY 491 — Equity and Access: policy evaluation of inclusive collection interventions in Indonesian secondary cities using social impact as the primary evaluation lens.
+482. CATEGORY 492 — Equity and Access: mixed-methods design of inclusive collection interventions in coastal metropolitan regions using equity as the primary evaluation lens.
+483. CATEGORY 493 — Equity and Access: GIS/spatial analysis of inclusive collection interventions in university campuses using efficiency as the primary evaluation lens.
+484. CATEGORY 494 — Equity and Access: survey research of inclusive collection interventions in rural service areas using adoption as the primary evaluation lens.
+485. CATEGORY 495 — Equity and Access: case study comparison of inclusive collection interventions in low-income neighborhoods using sustainability as the primary evaluation lens.
+486. CATEGORY 496 — Equity and Access: statistical modeling of inclusive collection interventions in post-pandemic public institutions using social impact as the primary evaluation lens.
+487. CATEGORY 497 — Equity and Access: network analysis of inclusive collection interventions in rapidly growing suburbs using equity as the primary evaluation lens.
+488. CATEGORY 498 — Equity and Access: content analysis of inclusive collection interventions in historic city centers using efficiency as the primary evaluation lens.
+489. CATEGORY 499 — Equity and Access: simulation modeling of inclusive collection interventions in cross-border regions using adoption as the primary evaluation lens.
+490. CATEGORY 500 — Equity and Access: interview-based inquiry of inclusive collection interventions in climate-vulnerable districts using sustainability as the primary evaluation lens.
+491. CATEGORY 501 — Equity and Access: policy evaluation of inclusive collection interventions in Indonesian secondary cities using social impact as the primary evaluation lens.
+492. CATEGORY 502 — Equity and Access: mixed-methods design of inclusive collection interventions in coastal metropolitan regions using equity as the primary evaluation lens.
+493. CATEGORY 503 — Equity and Access: GIS/spatial analysis of inclusive collection interventions in university campuses using efficiency as the primary evaluation lens.
+494. CATEGORY 504 — Equity and Access: survey research of inclusive collection interventions in rural service areas using adoption as the primary evaluation lens.
+495. CATEGORY 505 — Equity and Access: case study comparison of inclusive collection interventions in low-income neighborhoods using sustainability as the primary evaluation lens.
+496. CATEGORY 506 — Equity and Access: statistical modeling of inclusive collection interventions in post-pandemic public institutions using social impact as the primary evaluation lens.
+497. CATEGORY 507 — Equity and Access: network analysis of inclusive collection interventions in rapidly growing suburbs using equity as the primary evaluation lens.
+498. CATEGORY 508 — Equity and Access: content analysis of inclusive collection interventions in historic city centers using efficiency as the primary evaluation lens.
+499. CATEGORY 509 — Equity and Access: simulation modeling of inclusive collection interventions in cross-border regions using adoption as the primary evaluation lens.
+500. CATEGORY 510 — Equity and Access: interview-based inquiry of inclusive collection interventions in climate-vulnerable districts using sustainability as the primary evaluation lens.

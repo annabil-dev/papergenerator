@@ -5,8 +5,58 @@ FIELD: Social Sciences / Communication
 DEFAULT CITATION STYLE: APA
 SUBDISCIPLINE: Komunikasi Massa, Jurnalisme, Komunikasi Digital, Public Relations, Media Sosial
 
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Digital ethnography and netnography for online community research
+   - Social network analysis (SNA) using Gephi, NodeXL, NetworkX
+   - Computational communication science with Python/R
+   - Big data analytics for social media platforms
+   - Sentiment analysis (VADER, BERT, IndoBERT for Indonesian text)
+   - Content analysis with NVivo and Atlas.ti
+   - SEM-PLS for complex communication models
+   - Experimental design (A/B testing, message framing experiments)
+   - Platform-specific API data collection (Twitter/X, Instagram, TikTok)
+   - Mixed-methods sequential explanatory design
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics with statistical measures
+   - All numbers realistic and internally consistent
+
+5. MATHEMATICAL FORMULAS (where applicable):
+   - Engagement Rate = (Likes + Comments + Shares) / Followers x 100
+   - Reach Rate = Unique Views / Total Followers x 100
+   - Sentiment Score = (Positive - Negative) / (Positive + Negative + Neutral)
+   - Network Centrality: Degree Centrality CD(v) = deg(v) / (n-1)
+   - Betweenness Centrality CB(v) = sum(sigma_st(v)/sigma_st) for all s!=v!=t
+   - SEM Path Coefficient: beta = (X'X)^-1 X'Y
+   - Inter-coder Reliability (Krippendorff's Alpha): alpha = 1 - Do/De
+   - Cohen's Kappa: kappa = (Po - Pe) / (1 - Pe)
+   - Agenda-Setting Correlation: Spearman's rho between media and public agenda rankings
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian context (Indonesian media landscape, social media usage patterns, local platforms, press freedom, digital literacy)
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords, Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
 ABSTRACT CHARACTERISTICS:
-  150–250 words. Reports: communication phenomenon studied, medium/platform analyzed
+  150-250 words. Reports: communication phenomenon studied, medium/platform analyzed
   (social media, newspaper, TV, organizational communication), methodology (content analysis,
   survey, framing analysis, sentiment analysis), sample (n=), key findings (framing patterns,
   sentiment %, influence factors), and communication implications.
@@ -29,20 +79,20 @@ LITERATURE REVIEW:
 
 METHODOLOGY:
   Common section name: "Research Method" / "Methodology"
-  - Content analysis: coding scheme (unitizing, sampling, recording), inter-rater reliability (Cohen's κ >0.7), n=50–500 texts/posts.
+  - Content analysis: coding scheme (unitizing, sampling, recording), inter-rater reliability (Cohen's kappa >0.7), n=50-500 texts/posts.
   - Framing analysis: Entman's four functions (definition, cause, moral, remedy); qualitative or quantitative.
-  - Survey: attitude/behavior/media use questionnaire; Likert scale; n=100–500.
+  - Survey: attitude/behavior/media use questionnaire; Likert scale; n=100-500.
   - Sentiment analysis: VADER (NLTK), TextBlob, BERT-based; Python; dataset (Twitter/Facebook/Instagram API).
   - Social network analysis (SNA): centrality (degree, betweenness), community detection; Gephi/NetworkX.
-  - Interview: in-depth (journalists, PR practitioners, n=10–20); thematic analysis.
+  - Interview: in-depth (journalists, PR practitioners, n=10-20); thematic analysis.
   - Statistical: chi-square (content categories), Pearson r (media use correlations), regression.
 
 TYPICAL RESULTS & DISCUSSION:
   - Content analysis: thematic categories with frequency (%) and chi-square p<0.05.
-  - Cohen's κ: >0.70 = acceptable agreement; >0.80 = strong.
-  - Sentiment: positive 40–60%, negative 20–30%, neutral 20–30% (context-dependent).
+  - Cohen's kappa: >0.70 = acceptable agreement; >0.80 = strong.
+  - Sentiment: positive 40-60%, negative 20-30%, neutral 20-30% (context-dependent).
   - Framing: episodic vs. thematic framing ratio; dominant frames identified.
-  - Survey: attitude score mean 3.5–4.2/5.0; regression R² 0.20–0.45.
+  - Survey: attitude score mean 3.5-4.2/5.0; regression R-squared 0.20-0.45.
   Tables: frame/category frequency table, sentiment distribution, inter-rater reliability.
   Figures: word cloud, sentiment trend over time, social network graph, bar chart.
 
@@ -55,8 +105,8 @@ TYPICAL FIGURES:
 
 TYPICAL TABLES:
   - Content category frequency: category | f | % | chi-square.
-  - Inter-rater reliability: coder pair | Cohen's κ | agreement %.
-  - Survey regression: variable | B | SE | β | t | p.
+  - Inter-rater reliability: coder pair | Cohen's kappa | agreement %.
+  - Survey regression: variable | B | SE | beta | t | p.
 
 CONCLUSION CHARACTERISTICS:
   - Communication patterns described and theoretically interpreted.
@@ -72,10 +122,534 @@ COMMON REFERENCE VENUES:
 
 DOMAIN VOCABULARY:
   framing, agenda-setting, uses and gratifications, gatekeeping, sentiment analysis,
-  content analysis, inter-rater reliability, Cohen's κ, social network analysis,
+  content analysis, inter-rater reliability, Cohen's kappa, social network analysis,
   echo chamber, filter bubble, VADER, BERT, Gephi, episodic/thematic frame
 
 METHODOLOGY KEYWORDS:
-  systematic content analysis, framing analysis (Entman), inter-rater reliability (Cohen's κ),
+  systematic content analysis, framing analysis (Entman), inter-rater reliability (Cohen's kappa),
   sentiment analysis (VADER/BERT), social network analysis (Gephi/NetworkX),
   survey questionnaire (Likert), thematic analysis, Twitter/Instagram API data collection
+
+================================================================================
+RESEARCH TOPIC BANK (500 TOPICS)
+================================================================================
+
+--- CATEGORY A: Mass Media & Journalism (001-050) ---
+001. Framing Analysis of Climate Change Coverage in Indonesian Online News Media (2022-2024)
+002. The Decline of Print Journalism and Digital Transformation Strategies of Indonesian Newspapers
+003. Gatekeeping Practices in Indonesian Newsrooms: Algorithmic vs. Editorial Decision-Making
+004. News Values and Story Selection in Indonesian Television News During Election Periods
+005. The Impact of Media Ownership Concentration on News Diversity in Indonesia
+006. Investigative Journalism and Anti-Corruption Reporting in Indonesian Media
+007. Citizen Journalism Quality and Credibility Assessment in Indonesian Digital Platforms
+008. The Role of Fact-Checking Organizations in Combating Misinformation in Indonesia
+009. Media Framing of Religious Minority Issues in Indonesian Mainstream Media
+010. The Effect of Clickbait Headlines on Reader Trust in Indonesian Online News
+011. Journalistic Autonomy and Political Pressure in Indonesian Local Media
+012. Data Journalism Practices and Adoption in Indonesian Newsrooms
+013. The Impact of Artificial Intelligence on News Production in Indonesian Media Organizations
+014. Media Representation of Women in Indonesian Political News Coverage
+015. The Role of News Aggregator Platforms in Shaping Indonesian Public Opinion
+016. Comparative Framing of COVID-19 Pandemic in Indonesian vs. International Media
+017. The Effect of Paywalls on News Consumption Patterns in Indonesian Digital Media
+018. Journalistic Ethics in Reporting Disaster Events: Indonesian Media Analysis
+019. The Impact of Social Media on Traditional News Agenda-Setting in Indonesia
+020. Media Literacy and Critical News Consumption Among Indonesian University Students
+021. The Role of Podcasting in Reshaping Indonesian Journalism Landscape
+022. Framing of Economic Policy in Indonesian Business News Media
+023. The Effect of Media Convergence on Journalist Work Practices in Indonesia
+024. News Deserts and Information Inequality in Indonesian Rural Areas
+025. The Impact of Deepfake Technology on Journalistic Verification Practices
+026. Media Coverage of Environmental Disasters in Indonesian News Outlets
+027. The Role of Newsletter Journalism in Indonesian Media Ecosystem
+028. Audience Engagement Metrics and Editorial Decision-Making in Indonesian Digital Media
+029. The Effect of Platform Dependency on Indonesian News Media Sustainability
+030. Constructive Journalism Practices and Audience Response in Indonesian Context
+031. Media Framing of Mental Health Issues in Indonesian News Coverage
+032. The Impact of Generative AI on Content Production in Indonesian Media
+033. The Role of Community Radio in Information Dissemination in Indonesian Rural Areas
+034. Sensationalism and Ethical Boundaries in Indonesian Crime Reporting
+035. The Effect of Media Polarization on Political Knowledge in Indonesia
+036. Cross-Platform News Distribution Strategies of Indonesian Media Companies
+037. The Role of Visual Journalism in Storytelling for Indonesian Digital Media
+038. Media Coverage of Indigenous Communities and Land Rights in Indonesia
+039. The Impact of Subscription Models on Journalism Quality in Indonesian Media
+040. Framing of LGBTQ+ Issues in Indonesian Mainstream and Alternative Media
+041. The Role of Collaborative Journalism Networks in Indonesian Investigative Reporting
+042. Media Representation of Disability in Indonesian News and Entertainment
+043. The Effect of Algorithm Changes on News Visibility in Indonesian Social Media
+044. Journalistic Source Diversity and Representation in Indonesian Political Reporting
+045. The Impact of Media Regulation (UU ITE) on Press Freedom in Indonesia
+046. Hyperlocal News Media and Community Engagement in Indonesian Cities
+047. The Role of Multimedia Storytelling in Indonesian Long-Form Journalism
+048. Media Framing of Labor Issues and Worker Rights in Indonesian Coverage
+049. The Effect of News Avoidance on Democratic Participation in Indonesia
+050. The Impact of Foreign Media Ownership on Indonesian News Content
+
+--- CATEGORY B: Digital & Social Media Communication (051-100) ---
+051. TikTok Algorithm and Content Virality Patterns in Indonesian Social Media
+052. The Effect of Instagram Reels on Brand Engagement Among Indonesian Gen-Z Users
+053. Misinformation Spread Patterns on WhatsApp Groups in Indonesian Communities
+054. Social Media Influencer Credibility and Purchase Intention in Indonesian E-Commerce
+055. The Impact of Twitter/X Platform Changes on Political Discourse in Indonesia
+056. Digital Literacy and Critical Evaluation of Online Information by Indonesian Youth
+057. The Role of Memes in Political Communication on Indonesian Social Media
+058. Echo Chambers and Filter Bubbles in Indonesian Political Social Media Networks
+059. User-Generated Content Quality and Platform Governance on Indonesian YouTube
+060. The Effect of Social Media Detox on Mental Health of Indonesian University Students
+061. Algorithmic Bias and Content Moderation Practices on Indonesian Social Platforms
+062. The Impact of Live Streaming Commerce on Consumer Behavior in Indonesia
+063. Social Media Crisis Communication Strategies of Indonesian Government Agencies
+064. The Role of Telegram Groups in Information Dissemination During Indonesian Elections
+065. Digital Activism and Social Movement Mobilization Through Indonesian Social Media
+066. The Effect of Social Media Addiction on Academic Performance of Indonesian Students
+067. Parasocial Relationships Between Indonesian Audiences and Social Media Influencers
+068. The Impact of Short-Form Video Content on Attention Span of Indonesian Youth
+069. Online Hate Speech Detection and Patterns on Indonesian Social Media Platforms
+070. The Role of Social Media in Disaster Communication and Response in Indonesia
+071. Influencer Marketing Disclosure Practices and Consumer Trust in Indonesia
+072. The Effect of Platform Affordances on Political Participation in Indonesian Context
+073. Social Media Use and Body Image Perception Among Indonesian Adolescents
+074. The Impact of AI-Generated Content on Social Media Authenticity in Indonesia
+075. Community Building and Social Capital Formation in Indonesian Online Communities
+076. The Role of Social Media in Interfaith Dialogue and Tolerance in Indonesia
+077. Cyberbullying Patterns and Prevention Strategies on Indonesian Social Platforms
+078. The Effect of Social Commerce Features on Shopping Behavior in Indonesian Platforms
+079. Digital Storytelling and Cultural Preservation Through Indonesian Social Media
+080. The Impact of Social Media on Traditional Cultural Practices in Indonesian Communities
+081. Privacy Concerns and Data Sharing Behavior of Indonesian Social Media Users
+082. The Role of Social Media in Health Information Seeking Behavior in Indonesia
+083. Viral Marketing Mechanisms and Consumer Response in Indonesian Digital Market
+084. The Effect of Social Media Algorithms on News Consumption Diversity in Indonesia
+085. Online Radicalization Pathways and Counter-Narrative Strategies in Indonesian Context
+086. The Impact of Social Media on Interpersonal Communication Quality in Indonesian Families
+087. User Experience and Interface Design Effects on Social Media Engagement in Indonesia
+088. The Role of Social Media in Promoting Indonesian Tourism Destinations
+089. Digital Divide and Social Media Access Inequality in Eastern Indonesia
+090. The Effect of Gamification in Social Media on User Engagement Patterns
+091. Social Media Sentiment Analysis During Indonesian Presidential Elections
+092. The Impact of Cancel Culture on Public Discourse in Indonesian Social Media
+093. The Role of Social Media in Shaping Beauty Standards Among Indonesian Women
+094. Disinformation Campaigns and Bot Activity in Indonesian Political Social Media
+095. The Effect of Social Media on Local Language Preservation in Indonesia
+096. Platform Migration Patterns and User Behavior in Indonesian Social Media Landscape
+097. The Impact of Social Media on Consumer Complaint Behavior in Indonesian Service Industry
+098. The Role of Social Media in Academic Knowledge Sharing Among Indonesian Researchers
+099. Digital Well-Being and Screen Time Management Among Indonesian Professionals
+100. The Effect of Social Media Personalization on Political Attitude Formation in Indonesia
+
+--- CATEGORY C: Organizational Communication (101-150) ---
+101. Internal Communication Effectiveness and Employee Engagement in Indonesian SOEs
+102. Crisis Communication Strategies of Indonesian Airlines During Safety Incidents
+103. The Effect of Leadership Communication Style on Organizational Culture in Indonesian Banks
+104. Corporate Social Responsibility Communication and Stakeholder Trust in Indonesian Mining
+105. The Role of Digital Communication Tools in Remote Work Adaptation in Indonesian Companies
+106. Organizational Storytelling and Employer Branding in Indonesian Tech Startups
+107. The Impact of Communication Climate on Innovation in Indonesian Manufacturing
+108. Change Communication and Employee Resistance in Indonesian Government Bureaucracy Reform
+109. The Effect of Transparent Communication on Organizational Trust During Mergers
+110. Public Relations Strategies of Indonesian Universities in Student Recruitment
+111. Internal Communication Channels and Knowledge Sharing in Indonesian Hospitals
+112. The Role of Communication in Managing Organizational Conflict in Indonesian Family Businesses
+113. Corporate Communication and Reputation Management in Indonesian Banking Sector
+114. The Effect of Supervisor Communication Competence on Employee Performance
+115. Crisis Communication Preparedness in Indonesian Tourism Industry Post-Pandemic
+116. The Role of Employee Advocacy Programs in Corporate Communication Strategy
+117. Organizational Communication and Diversity Management in Indonesian Multinational Companies
+118. The Impact of Communication Technology on Organizational Structure in Indonesian Firms
+119. Stakeholder Communication in Corporate Sustainability Reporting in Indonesia
+120. The Effect of Communication Satisfaction on Employee Retention in Indonesian IT Industry
+121. Public Relations and Government Communication During Policy Implementation in Indonesia
+122. The Role of Visual Communication in Internal Branding of Indonesian Companies
+123. Organizational Silence and Communication Barriers in Indonesian Hierarchical Organizations
+124. The Impact of AI Chatbots on Customer Communication in Indonesian Banking
+125. Communication Strategies for Managing Organizational Reputation After Scandal
+126. The Effect of Cross-Cultural Communication on Team Performance in Indonesian MNCs
+127. Digital Communication and Organizational Agility in Indonesian E-Commerce Companies
+128. The Role of Communication in Building Psychological Safety in Indonesian Workplaces
+129. Corporate Communication and Investor Relations in Indonesian Capital Market
+130. The Impact of Informal Communication Networks on Decision-Making in Indonesian Organizations
+131. Communication Strategies for Digital Transformation in Indonesian Traditional Industries
+132. The Effect of Communication Overload on Employee Well-Being in Indonesian Tech Sector
+133. Public Affairs Communication and Regulatory Lobbying in Indonesian Business
+134. The Role of Communication in Succession Planning in Indonesian Family Enterprises
+135. Organizational Communication and Employee Voice in Indonesian Labor Relations
+136. The Impact of Hybrid Work Communication on Team Cohesion in Indonesian Companies
+137. Communication Competency and Career Advancement in Indonesian Corporate Settings
+138. The Effect of Organizational Communication on Service Quality in Indonesian Healthcare
+139. Strategic Communication Planning in Indonesian Non-Profit Organizations
+140. The Role of Communication in Managing Multi-Generational Workforce in Indonesia
+141. Corporate Communication During Environmental Crisis in Indonesian Plantation Companies
+142. The Impact of Internal Social Media on Employee Collaboration in Indonesian Banks
+143. Communication Audit and Organizational Effectiveness in Indonesian Government Agencies
+144. The Effect of Storytelling in Leadership Communication on Employee Motivation
+145. Public Relations Crisis Response and Media Relations in Indonesian Corporations
+146. The Role of Communication in Organizational Learning in Indonesian Educational Institutions
+147. Digital Communication Etiquette and Professional Image in Indonesian Workplaces
+148. The Impact of Communication Training on Customer Service Quality in Indonesian Retail
+149. Organizational Communication and Safety Culture in Indonesian Manufacturing Plants
+150. The Effect of Communication Transparency on Public Trust in Indonesian Government
+
+--- CATEGORY D: Political Communication (151-200) ---
+151. Political Campaign Communication Strategies in Indonesian Regional Elections (Pilkada)
+152. The Role of Social Media in Political Mobilization During Indonesian Elections
+153. Framing of Political Candidates in Indonesian Television Debate Coverage
+154. The Effect of Political Advertising on Voter Behavior in Indonesian Elections
+155. Populist Communication Strategies of Indonesian Political Leaders on Social Media
+156. The Impact of Political Memes on Youth Political Engagement in Indonesia
+157. Disinformation and Propaganda in Indonesian Election Campaigns: Detection and Impact
+158. The Role of Political Consultants in Shaping Campaign Communication in Indonesia
+159. Media Framing of Corruption Scandals Involving Indonesian Politicians
+160. The Effect of Negative Campaigning on Voter Turnout in Indonesian Elections
+161. Political Communication and Identity Politics in Indonesian Local Elections
+162. The Impact of Influencer Endorsements on Political Candidate Image in Indonesia
+163. Government Communication Strategies During Policy Crisis in Indonesia
+164. The Role of Buzzer Networks in Indonesian Political Communication
+165. Political Satire and Public Opinion Formation in Indonesian Digital Media
+166. The Effect of Presidential Communication Style on Public Trust in Indonesia
+167. Political Party Communication and Brand Building in Indonesian Multi-Party System
+168. The Impact of Fact-Checking on Political Misinformation Belief in Indonesia
+169. Communication Strategies of Opposition Parties in Indonesian Parliament
+170. The Role of Religious Leaders in Political Communication in Indonesian Elections
+171. Digital Political Participation and Online Deliberation in Indonesian Context
+172. The Effect of Political Talk Shows on Public Opinion in Indonesian Television
+173. Political Communication and Women's Representation in Indonesian Politics
+174. The Impact of Algorithmic Amplification on Political Polarization in Indonesia
+175. Government Public Communication and Vaccine Acceptance in Indonesia
+176. The Role of Local Language in Political Campaign Communication in Indonesian Regions
+177. Political Communication Ethics and Regulation in Indonesian Election Campaigns
+178. The Effect of Political Branding on Electability in Indonesian Presidential Elections
+179. Social Media Political Discourse and Deliberative Democracy in Indonesia
+180. The Impact of Political Communication on Youth Voter Registration in Indonesia
+181. Communication Strategies of Indonesian Diplomats in International Forums
+182. The Role of Political Podcasts in Shaping Political Knowledge in Indonesia
+183. Framing of Decentralization Policy in Indonesian Political Discourse
+184. The Effect of Political Endorsements on Voter Decision-Making in Indonesia
+185. Political Communication and Ethnic Diversity Management in Indonesian Elections
+186. The Impact of Digital Campaigning on Traditional Political Patronage in Indonesia
+187. Government Crisis Communication During Natural Disasters in Indonesia
+188. The Role of Political Communication in Building National Consensus in Indonesia
+189. Media Agenda-Setting and Political Priority Formation in Indonesian Parliament
+190. The Effect of Political Debates on Undecided Voters in Indonesian Elections
+191. Political Communication and Military-Civilian Relations in Indonesian Democracy
+192. The Impact of Social Media Regulation on Political Expression in Indonesia
+193. Communication Strategies for Political Accountability in Indonesian Local Government
+194. The Role of Political Communication in Managing Religious Pluralism in Indonesia
+195. Framing of Economic Issues in Indonesian Presidential Campaign Communication
+196. The Effect of Political Communication on Public Policy Support in Indonesia
+197. Political Communication and Generational Differences in Indonesian Voting Behavior
+198. The Impact of Cross-Media Political Communication on Electoral Outcomes in Indonesia
+199. Communication Strategies of Indonesian Political Parties in Coalition Building
+200. The Role of Political Communication in Strengthening Democratic Institutions in Indonesia
+
+--- CATEGORY E: Health Communication (201-250) ---
+201. Health Message Framing and Vaccination Intention Among Indonesian Parents
+202. The Role of Social Media in Health Information Dissemination During Pandemic in Indonesia
+203. Doctor-Patient Communication and Treatment Adherence in Indonesian Healthcare
+204. The Effect of Health Literacy on Preventive Health Behavior in Indonesian Communities
+205. Risk Communication Strategies During Disease Outbreaks in Indonesian Context
+206. The Impact of Health Influencers on Health Behavior of Indonesian Youth
+207. Mental Health Communication and Stigma Reduction in Indonesian Social Media
+208. The Role of Community Health Workers in Health Communication in Rural Indonesia
+209. Health Campaign Effectiveness for Non-Communicable Disease Prevention in Indonesia
+210. The Effect of Telemedicine Communication on Patient Satisfaction in Indonesian Hospitals
+211. Maternal Health Communication and Antenatal Care Utilization in Indonesian Villages
+212. The Impact of Food Label Communication on Consumer Health Choices in Indonesia
+213. Health Misinformation on Indonesian Social Media: Patterns and Countermeasures
+214. The Role of Religious Leaders in Health Communication in Indonesian Muslim Communities
+215. Communication Strategies for HIV/AIDS Prevention Among Indonesian Key Populations
+216. The Effect of Visual Health Communication on Health Knowledge in Low-Literacy Populations
+217. Digital Health Communication and Self-Management of Chronic Disease in Indonesia
+218. The Impact of Celebrity Health Endorsements on Health Product Consumption in Indonesia
+219. Health Communication and Traditional Medicine Use in Indonesian Indigenous Communities
+220. The Role of Mobile Health (mHealth) Communication in Indonesian Primary Healthcare
+221. Crisis Communication and Public Compliance During Health Emergencies in Indonesia
+222. The Effect of Narrative Health Communication on Behavior Change in Indonesian Context
+223. Health Communication Strategies for Tobacco Control in Indonesian Youth
+224. The Impact of Social Support Communication on Cancer Patient Well-Being in Indonesia
+225. Environmental Health Communication and Community Action in Indonesian Industrial Areas
+226. The Role of Pharmacist Communication in Medication Adherence in Indonesia
+227. Health Communication and Reproductive Health Knowledge Among Indonesian Adolescents
+228. The Effect of Gamification in Health Communication Apps on Indonesian User Engagement
+229. Nutrition Communication and Stunting Prevention in Indonesian Rural Communities
+230. The Impact of Health Communication Training on Indonesian Healthcare Provider Skills
+231. Communication Strategies for Mental Health First Aid Promotion in Indonesian Workplaces
+232. The Role of Peer Communication in Substance Abuse Prevention Among Indonesian Youth
+233. Health Communication and Disability Awareness in Indonesian Educational Settings
+234. The Effect of Culturally Tailored Health Messages on Behavior Change in Indonesia
+235. Digital Health Literacy and Online Health Information Evaluation by Indonesian Elderly
+236. The Impact of Health Communication on Organ Donation Willingness in Indonesia
+237. Communication Strategies for Dengue Prevention in Indonesian Urban Communities
+238. The Role of Health Communication in Promoting Breastfeeding in Indonesian Workplaces
+239. Health Communication and Patient Safety Culture in Indonesian Hospitals
+240. The Effect of Social Media Health Challenges on Health Behavior in Indonesian Youth
+241. Communication Strategies for COVID-19 Long-Term Health Management in Indonesia
+242. The Impact of Health Communication on Traditional Birth Attendant Practices in Indonesia
+243. Health Communication and Air Pollution Awareness in Indonesian Metropolitan Areas
+244. The Role of Communication in Palliative Care Decision-Making in Indonesian Families
+245. Health Communication Strategies for Elderly Care in Indonesian Aging Society
+246. The Effect of Health Communication on Blood Donation Behavior in Indonesian Universities
+247. Communication and Health Equity in Indonesian Universal Health Coverage (JKN) Program
+248. The Impact of Artificial Intelligence Chatbots on Health Communication in Indonesia
+249. Health Communication and Disaster Preparedness in Indonesian Earthquake-Prone Areas
+250. The Role of Communication in Integrating Traditional and Modern Medicine in Indonesia
+
+--- CATEGORY F: Intercultural Communication (251-300) ---
+251. Intercultural Communication Competence of Indonesian Migrant Workers in East Asia
+252. The Role of Language in Intercultural Communication Among Indonesian Ethnic Groups
+253. Cross-Cultural Communication Challenges in Indonesian-Japanese Business Partnerships
+254. The Effect of Cultural Intelligence on Expatriate Adjustment in Indonesian Companies
+255. Intercultural Communication and Conflict Resolution in Indonesian Multi-Ethnic Communities
+256. The Impact of Globalization on Intercultural Communication Practices in Indonesian Youth
+257. Communication Accommodation Strategies in Indonesian Inter-Ethnic Marriages
+258. The Role of Intercultural Communication in Indonesian Tourism Service Quality
+259. Cultural Identity Negotiation in Online Communication Among Indonesian Diaspora
+260. The Effect of Intercultural Training on Communication Effectiveness in Indonesian MNCs
+261. Intercultural Communication and Religious Tolerance in Indonesian Educational Settings
+262. The Impact of K-Pop Culture on Intercultural Communication Among Indonesian Fans
+263. Communication Patterns in Indonesian-Chinese Business Negotiations
+264. The Role of Non-Verbal Communication Across Indonesian Cultural Groups
+265. Intercultural Communication Competence of Indonesian International Students Abroad
+266. The Effect of Cultural Values on Communication Style in Indonesian Organizations
+267. Intercultural Communication and Integration of Refugees in Indonesian Communities
+268. The Impact of Digital Media on Intercultural Understanding Among Indonesian Youth
+269. Communication Challenges in Indonesian Interfaith Dialogue Initiatives
+270. The Role of Intercultural Communication in Indonesian Peacekeeping Missions
+271. Cultural Adaptation and Communication Strategies of Foreign Workers in Indonesia
+272. The Effect of Intercultural Communication on Team Creativity in Indonesian Startups
+273. Intercultural Communication and Food Culture Exchange in Indonesian Urban Areas
+274. The Impact of Language Policy on Intercultural Communication in Indonesian Education
+275. Communication and Cultural Preservation in Indonesian Transmigration Communities
+276. The Role of Intercultural Communication in Indonesian Diplomatic Relations with ASEAN
+277. Cross-Cultural Communication in Indonesian Healthcare for Foreign Patients
+278. The Effect of Media Representation on Intercultural Perception in Indonesia
+279. Intercultural Communication Competence in Indonesian International School Settings
+280. The Impact of Social Media on Cross-Cultural Friendship Formation in Indonesia
+281. Communication Strategies for Managing Cultural Diversity in Indonesian Workplaces
+282. The Role of Intercultural Communication in Indonesian Creative Industry Collaboration
+283. Cultural Communication Barriers in Indonesian Government Service Delivery
+284. The Effect of Study Abroad Programs on Intercultural Communication Skills of Indonesians
+285. Intercultural Communication and Culinary Tourism Experience in Indonesia
+286. The Impact of Cultural Stereotypes on Communication in Indonesian Media
+287. Communication and Cultural Identity Among Indonesian Mixed-Heritage Individuals
+288. The Role of Intercultural Communication in Indonesian International Trade Relations
+289. Cross-Cultural Communication Challenges in Indonesian Online Marketplace Transactions
+290. The Effect of Cultural Awareness Training on Service Communication in Indonesian Hotels
+291. Intercultural Communication and Academic Collaboration in Indonesian Universities
+292. The Impact of Migration on Communication Patterns in Indonesian Urban Communities
+293. Communication Strategies for Cultural Heritage Promotion in Indonesian Tourism
+294. The Role of Intercultural Communication in Indonesian Humanitarian Aid Operations
+295. Cultural Communication Norms and Digital Etiquette in Indonesian Online Spaces
+296. The Effect of Intercultural Exposure on Communication Openness in Indonesian Youth
+297. Intercultural Communication and Conflict in Indonesian Resource-Sharing Communities
+298. The Impact of Cultural Communication Differences on Indonesian E-Commerce Reviews
+299. Communication and Cultural Adaptation of Indonesian Content Creators for Global Audiences
+300. The Role of Intercultural Communication in Building Indonesian National Identity
+
+--- CATEGORY G: Development Communication (301-350) ---
+301. Participatory Communication and Community Empowerment in Indonesian Village Development
+302. The Role of Communication in Sustainable Development Goal (SDG) Implementation in Indonesia
+303. Development Communication Strategies for Digital Literacy in Indonesian Rural Areas
+304. The Effect of Communication Approaches on Farmer Adoption of Agricultural Innovation
+305. Communication and Community Participation in Indonesian Disaster Risk Reduction Programs
+306. The Impact of Development Communication on Women's Empowerment in Indonesian Villages
+307. Social Marketing Communication for Environmental Conservation in Indonesian Coastal Areas
+308. The Role of Communication in Indonesian Microfinance and Financial Inclusion Programs
+309. Development Communication and Education Access in Indonesian Remote Communities
+310. The Effect of Participatory Video on Community Voice in Indonesian Development Projects
+311. Communication Strategies for Clean Water and Sanitation Programs in Indonesian Villages
+312. The Impact of Mobile Communication on Agricultural Market Access for Indonesian Farmers
+313. Development Communication and Youth Entrepreneurship Promotion in Indonesia
+314. The Role of Communication in Indonesian Community-Based Tourism Development
+315. Communication and Social Capital Building in Indonesian Post-Disaster Recovery
+316. The Effect of Communication on Community Acceptance of Renewable Energy Projects
+317. Development Communication Strategies for Indonesian Fisheries Management
+318. The Impact of Communication Technology on Rural Healthcare Access in Indonesia
+319. Communication and Participatory Planning in Indonesian Urban Slum Upgrading
+320. The Role of Communication in Indonesian Forest Conservation and REDD+ Programs
+321. Development Communication and Cultural Preservation in Indonesian Indigenous Communities
+322. The Effect of Communication on Public Acceptance of Infrastructure Development in Indonesia
+323. Communication Strategies for Indonesian Social Protection Program Socialization
+324. The Impact of Communication on Community Resilience in Indonesian Climate-Vulnerable Areas
+325. Development Communication and Nutrition Behavior Change in Indonesian Communities
+326. The Role of Communication in Indonesian Cooperative Movement Strengthening
+327. Communication and Community Engagement in Indonesian Waste Management Programs
+328. The Effect of Development Communication on Migration Decision-Making in Indonesia
+329. Communication Strategies for Indonesian Vocational Training and Skills Development
+330. The Impact of Communication on Gender Mainstreaming in Indonesian Development Programs
+331. Development Communication and Digital Economy Participation in Indonesian Rural Areas
+332. The Role of Communication in Indonesian Mangrove Restoration Programs
+333. Communication and Stakeholder Engagement in Indonesian Special Economic Zones
+334. The Effect of Communication on Community Health Insurance Participation in Indonesia
+335. Development Communication Strategies for Indonesian Disability Inclusion Programs
+336. The Impact of Communication on Farmer Group Collective Action in Indonesia
+337. Communication and Youth Engagement in Indonesian Environmental Movements
+338. The Role of Communication in Indonesian Urban Farming and Food Security Initiatives
+339. Development Communication and Anti-Corruption Awareness in Indonesian Communities
+340. The Effect of Communication on Public Participation in Indonesian Spatial Planning
+341. Communication Strategies for Indonesian Renewable Energy Transition
+342. The Impact of Communication on Community-Based Ecotourism in Indonesian National Parks
+343. Development Communication and Financial Literacy in Indonesian Fishing Communities
+344. The Role of Communication in Indonesian Early Childhood Development Programs
+345. Communication and Community Ownership in Indonesian Rural Electrification Projects
+346. The Effect of Communication on Adoption of Organic Farming in Indonesian Agriculture
+347. Development Communication Strategies for Indonesian Maritime Development
+348. The Impact of Communication on Social Cohesion in Indonesian Resettlement Programs
+349. Communication and Participatory Monitoring in Indonesian Development Projects
+350. The Role of Communication in Indonesian Village Fund (Dana Desa) Accountability
+
+--- CATEGORY H: Advertising & Branding (351-400) ---
+351. The Effect of Native Advertising on Consumer Trust in Indonesian Digital Media
+352. Brand Storytelling and Consumer Emotional Connection in Indonesian FMCG Market
+353. The Impact of Programmatic Advertising on Ad Effectiveness in Indonesian Digital Platforms
+354. Halal Branding Communication and Consumer Purchase Decision in Indonesia
+355. The Role of User-Generated Content in Brand Building for Indonesian SMEs
+356. The Effect of Celebrity Endorsement Congruence on Brand Attitude in Indonesia
+357. Sustainable Brand Communication and Green Consumer Behavior in Indonesian Market
+358. The Impact of Augmented Reality Advertising on Consumer Engagement in Indonesia
+359. Local Brand vs. Global Brand Communication Strategies in Indonesian Market
+360. The Role of Nostalgia Marketing in Brand Communication for Indonesian Heritage Brands
+361. The Effect of Personalized Advertising on Consumer Privacy Concerns in Indonesia
+362. Brand Crisis Communication and Consumer Forgiveness in Indonesian Social Media
+363. The Impact of Influencer-Brand Fit on Advertising Effectiveness in Indonesia
+364. Cultural Values in Advertising Appeals and Consumer Response in Indonesian Context
+365. The Role of Humor in Advertising Effectiveness Across Indonesian Demographics
+366. The Effect of Cause-Related Marketing Communication on Brand Loyalty in Indonesia
+367. Digital Out-of-Home Advertising Effectiveness in Indonesian Urban Areas
+368. The Impact of Brand Community Communication on Customer Loyalty in Indonesia
+369. Advertising Literacy and Ad Skepticism Among Indonesian Young Consumers
+370. The Role of Sensory Branding in Consumer Experience in Indonesian Retail
+371. The Effect of Advertising Frequency on Brand Recall in Indonesian Television
+372. Brand Positioning Communication in Indonesian Competitive Banking Market
+373. The Impact of Podcast Advertising on Brand Awareness in Indonesian Market
+374. Ethical Advertising Practices and Consumer Trust in Indonesian Health Products
+375. The Role of Storytelling in Social Media Advertising for Indonesian Tourism
+376. The Effect of Ad Blocking on Digital Advertising Strategy in Indonesian Market
+377. Brand Communication and Consumer Co-Creation in Indonesian Fashion Industry
+378. The Impact of Metaverse Advertising on Brand Engagement Among Indonesian Gen-Z
+379. Advertising Representation and Diversity in Indonesian Media Content
+380. The Role of Emotional Advertising in Building Brand Equity for Indonesian Brands
+381. The Effect of Comparative Advertising on Consumer Choice in Indonesian Telecom
+382. Brand Communication Strategies During Ramadan in Indonesian Market
+383. The Impact of Short-Form Video Advertising on Purchase Intention in Indonesia
+384. Luxury Brand Communication and Aspirational Consumer Behavior in Indonesia
+385. The Role of Brand Authenticity Communication in Indonesian Artisan Products
+386. The Effect of Advertising Appeals on Donation Behavior for Indonesian Charities
+387. Brand Communication and Customer Experience in Indonesian E-Commerce Platforms
+388. The Impact of AI-Generated Advertising Content on Consumer Perception in Indonesia
+389. Regional Brand Communication and Local Identity in Indonesian Provincial Markets
+390. The Role of Brand Communication in Indonesian Startup Ecosystem Growth
+391. The Effect of Advertising Regulation on Creative Strategy in Indonesian Media
+392. Brand Communication and Consumer Trust in Indonesian Fintech Services
+393. The Impact of Experiential Marketing Communication on Brand Loyalty in Indonesia
+394. Advertising and Gender Representation in Indonesian Digital Media Content
+395. The Role of Brand Communication in Indonesian Halal Cosmetics Market
+396. The Effect of Retargeting Advertising on Consumer Purchase Behavior in Indonesia
+397. Brand Communication Strategies for Indonesian Products in International Markets
+398. The Impact of Social Proof in Advertising on Consumer Decision-Making in Indonesia
+399. Advertising Communication and Financial Product Understanding in Indonesian Market
+400. The Role of Brand Communication in Building Trust for Indonesian Digital Health Services
+
+--- CATEGORY I: Film & Visual Communication (401-450) ---
+401. Visual Framing of National Identity in Indonesian Contemporary Cinema
+402. The Role of Documentary Film in Social Advocacy Communication in Indonesia
+403. Visual Communication Strategies in Indonesian Public Health Campaigns
+404. The Effect of Film Censorship on Creative Expression in Indonesian Cinema
+405. Representation of Gender Roles in Indonesian Television Advertisements
+406. The Impact of Visual Storytelling on Cultural Preservation in Indonesian Animation
+407. Infographic Design Effectiveness in Communicating Complex Data to Indonesian Audiences
+408. The Role of Visual Communication in Indonesian Political Campaign Materials
+409. Film as Development Communication Tool in Indonesian Rural Communities
+410. The Effect of Color Psychology in Visual Branding of Indonesian Products
+411. Visual Representation of Disability in Indonesian Film and Television
+412. The Impact of Instagram Visual Aesthetics on Indonesian Tourism Promotion
+413. Photography and Visual Journalism Ethics in Indonesian Conflict Reporting
+414. The Role of Visual Communication in Indonesian Museum Exhibition Design
+415. Film Industry Communication Ecosystem and Creative Collaboration in Indonesia
+416. The Effect of Visual Literacy on Information Processing by Indonesian Students
+417. Representation of Ethnic Diversity in Indonesian Film and Television Content
+418. The Impact of Visual Social Media on Body Image Communication in Indonesia
+419. Data Visualization and Public Understanding of Government Statistics in Indonesia
+420. The Role of Visual Communication in Indonesian Disaster Warning Systems
+421. Film Narrative and National Trauma Communication in Indonesian Cinema
+422. The Effect of Visual Design on Mobile App User Experience in Indonesian Market
+423. Representation of Religion in Indonesian Film: Communication and Controversy
+424. The Impact of Short Film Festivals on Indonesian Independent Cinema Communication
+425. Visual Communication and Wayfinding Design in Indonesian Public Spaces
+426. The Role of Animation in Educational Communication for Indonesian Children
+427. Film Criticism and Audience Reception Communication in Indonesian Digital Platforms
+428. The Effect of Visual Packaging Communication on Consumer Choice in Indonesia
+429. Representation of Urban-Rural Divide in Indonesian Film Narratives
+430. The Impact of Visual Communication on Indonesian E-Government Service Adoption
+431. Comic and Graphic Novel as Communication Medium in Indonesian Social Issues
+432. The Role of Visual Communication in Indonesian Traditional Market Revitalization
+433. Film Co-Production and Cross-Cultural Communication in Indonesian-International Projects
+434. The Effect of Visual Storytelling on Crowdfunding Success in Indonesian Platforms
+435. Representation of Mental Health in Indonesian Film and Television
+436. The Impact of Virtual Reality on Immersive Communication Experience in Indonesia
+437. Visual Communication and Cultural Heritage Documentation in Indonesian Archaeology
+438. The Role of Film in Communicating Environmental Issues in Indonesian Context
+439. Motion Graphics and Information Communication in Indonesian News Broadcasting
+440. The Effect of Visual Communication Design on Indonesian Voter Information Materials
+441. Representation of Social Class in Indonesian Television Drama Communication
+442. The Impact of User Interface Visual Design on Indonesian Digital Banking Adoption
+443. Film and Visual Communication in Indonesian Language Education
+444. The Role of Visual Communication in Indonesian Product Safety Warning Labels
+445. Documentary Photography and Social Change Communication in Indonesian Communities
+446. The Effect of Visual Branding Consistency on Indonesian Franchise Communication
+447. Representation of History in Indonesian Film: Communication of Collective Memory
+448. The Impact of Visual Communication on Indonesian Scientific Research Dissemination
+449. Film Distribution Communication Strategies in Indonesian Digital Platform Era
+450. The Role of Visual Communication in Indonesian Smart City Development
+
+--- CATEGORY J: Communication Technology & Innovation (451-500) ---
+451. The Impact of 5G Technology on Communication Patterns in Indonesian Urban Areas
+452. Artificial Intelligence and Personalized Communication in Indonesian Digital Services
+453. The Role of Chatbots in Customer Communication Innovation in Indonesian Banking
+454. The Effect of Internet of Things on Organizational Communication in Indonesian Smart Factories
+455. Blockchain Technology and Trust in Communication Systems for Indonesian Supply Chains
+456. The Impact of Virtual Reality on Communication Training in Indonesian Education
+457. Communication Technology Adoption and Digital Divide in Indonesian Rural Communities
+458. The Role of Natural Language Processing in Indonesian Language Communication Tools
+459. The Effect of Augmented Reality on Interactive Communication in Indonesian Retail
+460. Communication Innovation and Telemedicine Adoption in Indonesian Healthcare
+461. The Impact of Voice Assistant Technology on Communication Behavior in Indonesian Homes
+462. The Role of Communication Technology in Indonesian Smart City Governance
+463. The Effect of Wearable Technology on Health Communication in Indonesian Fitness Community
+464. Communication Technology and Accessibility for Disabled Users in Indonesia
+465. The Impact of Cloud Communication Platforms on Indonesian SME Collaboration
+466. The Role of Communication Technology in Indonesian Distance Education Quality
+467. The Effect of Deepfake Technology on Communication Trust in Indonesian Context
+468. Communication Innovation and Financial Inclusion in Indonesian Unbanked Communities
+469. The Impact of Drone Technology on Communication and Journalism in Indonesia
+470. The Role of Communication Technology in Indonesian Disaster Early Warning Systems
+471. The Effect of Algorithmic Communication on Human Decision-Making in Indonesia
+472. Communication Technology and Privacy Regulation Compliance in Indonesian Companies
+473. The Impact of Metaverse Communication on Social Interaction in Indonesian Youth
+474. The Role of Communication Technology in Indonesian Agricultural Extension Services
+475. The Effect of Automated Communication on Customer Relationship in Indonesian E-Commerce
+476. Communication Technology Innovation and Creative Industry Development in Indonesia
+477. The Impact of Satellite Communication on Connectivity in Indonesian Archipelago
+478. The Role of Communication Technology in Indonesian Election Monitoring and Transparency
+479. The Effect of Communication Technology on Work-Life Balance in Indonesian Professionals
+480. Communication Innovation and Citizen Engagement in Indonesian E-Government
+481. The Impact of Communication Technology on Indonesian Traditional Art Preservation
+482. The Role of Communication Technology in Indonesian Maritime Communication Safety
+483. The Effect of Communication Platform Design on Collaborative Learning in Indonesia
+484. Communication Technology and Cross-Border Information Flow in Indonesian Context
+485. The Impact of Communication Innovation on Indonesian Journalism Business Models
+486. The Role of Communication Technology in Indonesian Public Transportation Information
+487. The Effect of Communication Technology on Intergenerational Communication in Indonesia
+488. Communication Innovation and Sustainable Development Communication in Indonesia
+489. The Impact of Communication Technology on Indonesian Language Evolution
+490. The Role of Communication Technology in Indonesian Cultural Diplomacy
+491. The Effect of Communication Technology on Political Transparency in Indonesian Government
+492. Communication Innovation and Mental Health Support Services in Indonesia
+493. The Impact of Communication Technology on Indonesian Academic Research Collaboration
+494. The Role of Communication Technology in Indonesian Food Safety Communication
+495. The Effect of Communication Technology on Community Policing in Indonesian Cities
+496. Communication Innovation and Indonesian Creative Economy Export Promotion
+497. The Impact of Communication Technology on Indonesian Religious Education Delivery
+498. The Role of Communication Technology in Indonesian Waste Management Communication
+499. The Effect of Communication Technology on Indonesian Migrant Worker Support Systems
+500. Communication Technology Innovation and Future of Indonesian Media Ecosystem

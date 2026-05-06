@@ -1,0 +1,685 @@
+================================================================================
+TOPIC GUIDE — Biotechnology
+================================================================================
+FIELD: Biological Sciences / Biotechnology
+DEFAULT CITATION STYLE: APA
+SUBDISCIPLINE: Genetic Engineering, Bioprocess Engineering, Molecular Biology, Bioinformatics, Industrial Biotechnology, Environmental Biotechnology, Medical Biotechnology, Agricultural Biotechnology
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature related to the user's topic
+   - Reference recent works (2020-2025) that establish what is known
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame the gap as a researchable question with measurable outcomes
+   - Ensure the gap targets Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine the user's idea into a publishable research title
+   - The title must be specific, include method and application domain
+   - Target journals listed in COMMON REFERENCE VENUES below
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Use cutting-edge methods: CRISPR-Cas9/Cas12/Cas13, single-cell RNA sequencing, metabolic flux analysis, synthetic biology circuits, nanobiotechnology, AI-driven protein design (AlphaFold), metagenomics, CRISPR screening, organoid culture, mRNA technology
+   - Include complete experimental protocols with reagent concentrations
+   - Specify instruments: flow cytometer, bioreactor parameters, sequencing platforms (Illumina/Nanopore)
+   - Detail statistical analysis and biological replicates (n>=3)
+
+4. ESTIMATED DATA & RESULTS:
+   - Provide realistic estimated data tables (10-30 data points)
+   - Include: gene expression fold changes (2^-DDCt), protein yields (mg/L), enzyme activity (U/mg), cell viability (%), transfection efficiency (%), fermentation parameters
+   - Comparison with 3-5 baseline methods or wild-type controls
+   - All numbers must be biologically plausible and internally consistent
+   - Example: "CRISPR-edited strain: yield 45.3±3.2 mg/L vs wild-type 12.1±1.8 mg/L (p<0.001, 3.7-fold increase)"
+
+5. MATHEMATICAL FORMULAS:
+   - Include relevant formulas: Michaelis-Menten (v = Vmax[S]/(Km+[S])), specific growth rate (μ = ln(X2/X1)/(t2-t1)), volumetric productivity (Qp = ΔP/(V×Δt)), gene expression (2^-ΔΔCt), Hardy-Weinberg, PCR efficiency
+   - Each formula with full variable definitions
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - Minimum 25-30 references organized thematically
+   - Each subsection MUST end with: "However, no study has addressed..."
+   - Include Indonesian biodiversity context (tropical microorganisms, endemic species, local fermented foods)
+
+7. COMPLETE PAPER STRUCTURE:
+   - Title, Abstract (200-250 words), Keywords (5-7)
+   - Introduction (1500-2000 words)
+   - Literature Review (2000-3000 words)
+   - Methodology (2000-3000 words with protocols and formulas)
+   - Results & Discussion (2000-3000 words with tables and figure descriptions)
+   - Conclusion (500-800 words)
+   - References (30+ entries, 60%+ from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+================================================================================
+DOMAIN-SPECIFIC GUIDANCE
+================================================================================
+
+ABSTRACT GUIDELINES:
+- State the research problem and its significance in biotechnology
+- Describe the organism/system studied and methodology employed
+- Present key quantitative results (fold changes, yields, efficiencies)
+- Conclude with broader implications for the field
+- Include 5-7 keywords covering: technique, organism, target molecule, application, novelty
+
+INTRODUCTION GUIDELINES:
+- Open with global biotechnology challenge or opportunity (cite WHO, FAO, or industry reports)
+- Narrow to specific biological system or pathway
+- Present current state of technology with limitations
+- Introduce the Indonesian context or tropical biodiversity angle
+- State clear objectives with measurable endpoints
+- End with paper organization overview
+
+LITERATURE REVIEW GUIDELINES:
+- Organize thematically: (1) biological background, (2) current methods, (3) recent advances, (4) gaps
+- Compare at least 5 recent studies in tabular form
+- Highlight contradictions or inconsistencies in existing literature
+- Emphasize what has NOT been done with specific organisms or conditions
+- Include Indonesian research contributions and local biodiversity resources
+
+METHODOLOGY GUIDELINES:
+- Specify all strains, cell lines, or organisms with accession numbers
+- Include complete media compositions (g/L for each component)
+- Detail PCR conditions: primer sequences, annealing temperatures, cycle numbers
+- Describe bioreactor parameters: volume, agitation (rpm), aeration (vvm), temperature, pH
+- Include statistical methods: ANOVA, t-test, post-hoc tests, significance threshold
+- Provide software versions for bioinformatics tools
+
+EQUATIONS AND FORMULAS:
+- Michaelis-Menten kinetics: v = Vmax[S] / (Km + [S])
+  where v = reaction velocity, Vmax = maximum velocity, [S] = substrate concentration, Km = Michaelis constant
+- Specific growth rate: μ = ln(X2/X1) / (t2 - t1)
+  where X = biomass concentration, t = time
+- Volumetric productivity: Qp = ΔP / (V × Δt)
+  where ΔP = product formed, V = volume, Δt = time interval
+- Relative gene expression: 2^(-ΔΔCt) = 2^(-(ΔCt_treatment - ΔCt_control))
+  where ΔCt = Ct_target - Ct_reference
+- Monod equation: μ = μmax × S / (Ks + S)
+  where μmax = maximum specific growth rate, S = limiting substrate, Ks = half-saturation constant
+- Yield coefficient: Y_X/S = ΔX / ΔS
+  where ΔX = biomass produced, ΔS = substrate consumed
+- PCR efficiency: E = 10^(-1/slope) - 1
+- Transformation efficiency: TE = (colonies / μg DNA) × (total volume / plated volume)
+- Enzyme activity: U = (ΔA × Vt) / (ε × d × Vs × t)
+  where ΔA = absorbance change, Vt = total volume, ε = molar extinction coefficient, d = path length, Vs = sample volume, t = time
+- Lineweaver-Burk: 1/v = (Km/Vmax)(1/[S]) + 1/Vmax
+
+FIGURES AND TABLES GUIDANCE:
+- Figure 1: Experimental workflow/schematic diagram
+- Figure 2: Gene/protein expression data (bar charts with error bars)
+- Figure 3: Growth curves or kinetic profiles
+- Figure 4: Microscopy/gel electrophoresis images (describe expected bands/morphology)
+- Figure 5: Comparative performance chart
+- Table 1: Comparison of methods/strains from literature
+- Table 2: Experimental conditions and parameters
+- Table 3: Key results with statistical analysis
+- Table 4: Cost-benefit or scale-up projections
+
+RESULTS AND DISCUSSION GUIDELINES:
+- Present results in logical sequence matching methodology
+- Compare quantitatively with published benchmarks
+- Discuss biological mechanisms underlying observed results
+- Address limitations and potential confounding factors
+- Suggest practical applications and scale-up considerations
+- Connect findings to Indonesian biotechnology development goals
+
+CONCLUSION GUIDELINES:
+- Summarize key findings with specific numbers
+- State contribution to the field
+- Discuss practical implications for industry or agriculture
+- Propose 2-3 specific future research directions
+- Mention potential for technology transfer in Indonesian context
+
+COMMON REFERENCE VENUES:
+- Nature Biotechnology (Q1, IF >60)
+- Metabolic Engineering (Q1, IF ~8)
+- Biotechnology and Bioengineering (Q1, IF ~4)
+- Bioresource Technology (Q1, IF ~11)
+- Journal of Biotechnology (Q2, IF ~4)
+- Applied Microbiology and Biotechnology (Q1, IF ~5)
+- Trends in Biotechnology (Q1, IF ~17)
+- Biotechnology Advances (Q1, IF ~16)
+- Process Biochemistry (Q2, IF ~4)
+- Enzyme and Microbial Technology (Q2, IF ~4)
+- Frontiers in Bioengineering and Biotechnology (Q2, IF ~5)
+- ACS Synthetic Biology (Q1, IF ~4)
+- CRISPR Journal (Q1, IF ~6)
+- Microbial Cell Factories (Q1, IF ~6)
+- Bioinformatics (Q1, IF ~6)
+
+DOMAIN VOCABULARY:
+gene editing, CRISPR-Cas9, guide RNA (gRNA), PAM sequence, homology-directed repair (HDR), non-homologous end joining (NHEJ), plasmid, vector, transformation, transfection, electroporation, lipofection, promoter, enhancer, operon, regulon, metabolic flux, flux balance analysis (FBA), genome-scale metabolic model (GEM), fed-batch fermentation, continuous culture, chemostat, dissolved oxygen (DO), oxygen transfer rate (OTR), volumetric mass transfer coefficient (kLa), downstream processing, chromatography, ultrafiltration, lyophilization, recombinant protein, inclusion bodies, signal peptide, codon optimization, ribosome binding site (RBS), T7 promoter, IPTG induction, His-tag purification, Western blot, ELISA, qRT-PCR, RNA-seq, ChIP-seq, ATAC-seq, metagenomics, 16S rRNA, amplicon sequencing, OTU, ASV, phylogenetics, molecular docking, molecular dynamics simulation, homology modeling, protein-protein interaction (PPI), gene ontology (GO), KEGG pathway, biosensor, aptamer, lateral flow assay, surface plasmon resonance (SPR), quartz crystal microbalance (QCM), nanoparticle, quantum dot, liposome, exosome, organoid, iPSC, CAR-T cell, monoclonal antibody, bispecific antibody, ADC (antibody-drug conjugate), mRNA vaccine, lipid nanoparticle (LNP)
+
+METHODOLOGY KEYWORDS:
+CRISPR-Cas9 gene editing, CRISPR-Cas12a (Cpf1), CRISPR-Cas13 (RNA targeting), base editing, prime editing, epigenome editing, CRISPRi/CRISPRa, multiplex genome editing, single-cell RNA-seq (scRNA-seq), spatial transcriptomics, ATAC-seq, ChIP-seq, Hi-C, long-read sequencing (Oxford Nanopore/PacBio), whole genome sequencing (WGS), metagenomics shotgun sequencing, 16S/ITS amplicon sequencing, metabolomics (LC-MS/MS, GC-MS), proteomics (TMT labeling, label-free quantification), flow cytometry (FACS), confocal microscopy, cryo-EM, X-ray crystallography, AlphaFold protein structure prediction, molecular dynamics simulation, flux balance analysis, genome-scale metabolic modeling, directed evolution, rational protein design, cell-free protein synthesis, microfluidics, droplet digital PCR (ddPCR), biosensor development, SELEX aptamer selection, phage display, yeast surface display, mammalian cell culture (CHO, HEK293), insect cell expression (Sf9), plant transformation (Agrobacterium), algal biotechnology, solid-state fermentation, submerged fermentation, immobilized enzyme technology, enzyme engineering (site-directed mutagenesis, error-prone PCR), bioelectrocatalysis
+
+================================================================================
+RESEARCH TOPIC BANK (500 TOPICS)
+================================================================================
+
+--------------------------------------------------------------------------------
+CATEGORY 1: GENETIC ENGINEERING & CRISPR (001-050)
+--------------------------------------------------------------------------------
+
+001. CRISPR-Cas9 knockout of MYB transcription factor in Indonesian rice (Oryza sativa var. Ciherang) for drought tolerance enhancement
+002. Multiplex CRISPR-Cas12a editing of beta-carotene biosynthesis genes in Indonesian cassava (Manihot esculenta) for biofortification
+003. Base editing of acetolactate synthase (ALS) gene in Indonesian soybean (Glycine max var. Anjasmoro) for herbicide resistance
+004. CRISPR-Cas13 knockdown of dengue virus RNA in Aedes aegypti mosquito cells from Indonesian populations
+005. Prime editing correction of beta-thalassemia mutations prevalent in Indonesian patient-derived iPSCs
+006. CRISPRi-mediated silencing of antibiotic resistance genes in multidrug-resistant Klebsiella pneumoniae from Indonesian hospitals
+007. CRISPR-Cas9 disruption of polyphenol oxidase gene in Indonesian banana (Musa acuminata var. Cavendish) to prevent browning
+008. Epigenome editing using dCas9-DNMT3A for methylation of oncogenes in Indonesian nasopharyngeal carcinoma cell lines
+009. CRISPR activation (CRISPRa) of silent biosynthetic gene clusters in Streptomyces from Indonesian soil for novel antibiotic discovery
+010. Multiplex CRISPR-Cas9 knockout of allergen genes in Indonesian peanut (Arachis hypogaea) cultivars
+011. CRISPR-Cas9 gene drive design for malaria vector control in Anopheles sundaicus from Indonesian coastal regions
+012. HDR-mediated knock-in of GFP reporter in Indonesian zebrafish (Danio rerio) model for liver disease studies
+013. CRISPR-Cas12b thermostable editing of Thermus thermophilus for industrial enzyme production at elevated temperatures
+014. Base editing of waxy gene in Indonesian maize (Zea mays) for modified starch properties
+015. CRISPR-Cas9 deletion of myostatin gene in Indonesian catfish (Clarias gariepinus) for aquaculture growth enhancement
+016. CRISPRi repression of competing pathways in Corynebacterium glutamicum for L-lysine overproduction from Indonesian molasses
+017. CRISPR-Cas13d (CasRx) targeting of SARS-CoV-2 variants circulating in Indonesian populations
+018. Multiplex prime editing of multiple disease resistance genes in Indonesian chili pepper (Capsicum annuum var. Lado)
+019. CRISPR-Cas9 knockout of lignin biosynthesis genes in Indonesian oil palm (Elaeis guineensis) for improved biomass conversion
+020. Gene editing of phytase gene insertion in Indonesian poultry feed yeast (Saccharomyces cerevisiae) for phosphorus bioavailability
+021. CRISPR-Cas9 disruption of ethylene receptor ETR1 in Indonesian mango (Mangifera indica var. Arumanis) for extended shelf life
+022. Adenine base editing of sickle cell disease mutations in CD34+ hematopoietic stem cells from Indonesian patients
+023. CRISPR-Cas9 engineering of nitrogen fixation (nif) gene cluster transfer to Indonesian rice root endophytes
+024. CRISPRa upregulation of antimicrobial peptide genes in Indonesian black soldier fly (Hermetia illucens) for feed safety
+025. CRISPR-Cas9 knockout of polycomb repressive complex genes in Indonesian orchid (Dendrobium) for flowering time control
+026. Multiplex CRISPR editing of aflatoxin biosynthesis cluster in Aspergillus flavus contaminating Indonesian corn
+027. CRISPR-Cas12a detection system (DETECTR) for rapid diagnosis of tuberculosis strains endemic to Indonesia
+028. Prime editing of chloroplast genome in Indonesian tobacco (Nicotiana tabacum) for high-value recombinant protein production
+029. CRISPR-Cas9 gene tagging of virulence factors in Vibrio parahaemolyticus from Indonesian shrimp aquaculture
+030. Base editing of fatty acid desaturase genes in Indonesian oil palm for modified oil composition
+031. CRISPR interference screening of essential genes in Mycobacterium tuberculosis Beijing strain from Indonesian isolates
+032. CRISPR-Cas9 knockout of susceptibility genes (S-genes) in Indonesian cocoa (Theobroma cacao) for Phytophthora resistance
+033. Epigenome editing of tumor suppressor genes in Indonesian hepatocellular carcinoma patient samples
+034. CRISPR-Cas9 engineering of Indonesian Lactobacillus plantarum for enhanced bacteriocin production
+035. Multiplex CRISPR-Cas9 editing of carotenoid pathway in Indonesian microalgae Dunaliella salina for astaxanthin production
+036. CRISPR-Cas13a (SHERLOCK) diagnostic platform for avian influenza H5N1 surveillance in Indonesian poultry farms
+037. Gene drive modification of Aedes albopictus from Indonesian urban areas for Wolbachia-enhanced dengue resistance
+038. CRISPR-Cas9 knockout of allergenic protein genes in Indonesian tempeh mold (Rhizopus oligosporus)
+039. Base editing of acetyl-CoA carboxylase in Indonesian Chlorella vulgaris for enhanced lipid accumulation
+040. CRISPR-Cas9 disruption of quorum sensing genes in biofilm-forming Pseudomonas aeruginosa from Indonesian clinical isolates
+041. Prime editing of insulin gene variants for personalized diabetes therapy targeting Indonesian population genetics
+042. CRISPRa activation of cryptic secondary metabolite clusters in Indonesian marine Streptomyces for anticancer compounds
+043. CRISPR-Cas9 knockout of pod shattering genes in Indonesian soybean for mechanical harvesting adaptation
+044. Multiplex CRISPR editing of glutelin genes in Indonesian rice for reduced glycemic index
+045. CRISPR-Cas12a ribonucleoprotein delivery optimization in Indonesian teak (Tectona grandis) protoplasts for wood quality improvement
+046. Base editing of herbicide target site in Indonesian weedy rice (Oryza sativa f. spontanea) for gene flow studies
+047. CRISPR-Cas9 engineering of Indonesian Bacillus subtilis for surfactin overproduction as biopesticide
+048. CRISPR-Cas13 antiviral strategy against chili veinal mottle virus in Indonesian pepper cultivation
+049. Gene editing of starch branching enzyme in Indonesian sweet potato (Ipomoea batatas) for resistant starch enhancement
+050. CRISPR-Cas9 knockout of immunodominant epitopes in Indonesian fish allergens for hypoallergenic aquaculture products
+
+--------------------------------------------------------------------------------
+CATEGORY 2: BIOPROCESS & FERMENTATION ENGINEERING (051-100)
+--------------------------------------------------------------------------------
+
+051. Fed-batch optimization of polyhydroxybutyrate (PHB) production by Ralstonia eutropha using Indonesian palm oil mill effluent (POME)
+052. Solid-state fermentation of Indonesian cocoa pod husk by Aspergillus niger for citric acid production with response surface methodology
+053. Continuous bioethanol production from Indonesian sugarcane bagasse using immobilized Zymomonas mobilis in packed-bed reactor
+054. Two-stage anaerobic digestion of Indonesian tofu wastewater for biohydrogen and biomethane co-production
+055. Airlift bioreactor design optimization for xanthan gum production by Xanthomonas campestris using Indonesian cassava starch
+056. Membrane bioreactor integration for continuous lactic acid production from Indonesian rice bran by Lactobacillus casei
+057. Scale-up of recombinant lipase production in Pichia pastoris using Indonesian coconut oil as inducer in 50L bioreactor
+058. Consolidated bioprocessing of Indonesian oil palm empty fruit bunch by engineered Clostridium thermocellum for biobutanol
+059. Microcarrier-based suspension culture optimization for Vero cell expansion in Indonesian vaccine manufacturing
+060. Downstream processing optimization of Indonesian recombinant hepatitis B surface antigen using expanded bed chromatography
+061. Photobioreactor design for Spirulina platensis cultivation using Indonesian volcanic mineral water as growth medium
+062. Enzymatic hydrolysis optimization of Indonesian rice straw using Trichoderma reesei cellulase cocktail for bioethanol
+063. Immobilized cell technology for continuous vinegar production from Indonesian arenga palm sap (nira)
+064. Perfusion bioreactor culture of CHO cells for monoclonal antibody production targeting Indonesian dengue serotypes
+065. Solid-state fermentation of Indonesian tempeh koji (Rhizopus oligosporus) for nattokinase-like fibrinolytic enzyme production
+066. Fluidized bed bioreactor for aerobic granular sludge treatment of Indonesian textile wastewater
+067. Fed-batch strategy for hyaluronic acid production by Streptococcus zooepidemicus using Indonesian sugarcane molasses
+068. Bioprocess intensification of Indonesian nata de coco production using rotating biological contactor
+069. Supercritical CO2 extraction optimization of bioactive compounds from Indonesian Phaleria macrocarpa fermentation broth
+070. Two-stage fermentation of Indonesian sago starch for simultaneous saccharification and L-glutamic acid production
+071. Bubble column bioreactor optimization for single-cell protein production from Indonesian natural gas (methane) by Methylococcus capsulatus
+072. Integrated biorefinery design for Indonesian palm kernel cake valorization: protein, oil, and biogas co-production
+073. Electrofermentation enhancement of succinic acid production by Actinobacillus succinogenes using Indonesian cassava hydrolysate
+074. Continuous flow microreactor for enzymatic biodiesel production from Indonesian Jatropha curcas oil
+075. Oxygen transfer optimization in stirred-tank bioreactor for Indonesian recombinant E. coli producing L-asparaginase
+076. Solid-state fermentation of Indonesian coffee pulp waste by Pleurotus ostreatus for protein-enriched animal feed
+077. High-cell-density fermentation of Pichia pastoris for recombinant phytase production using Indonesian palm oil as carbon source
+078. Anaerobic membrane bioreactor for biogas production from Indonesian dairy farm wastewater with fouling mitigation
+079. Spray drying optimization of Indonesian probiotic Lactobacillus acidophilus with coconut milk as encapsulant
+080. Bioprocess development for Indonesian marine Bacillus licheniformis protease production in seawater-based medium
+081. Packed-bed solid-state fermentation of Indonesian cocoa bean shells for theaflavin production by Aspergillus oryzae
+082. Continuous ethanol fermentation from Indonesian sweet sorghum juice using flocculating Saccharomyces cerevisiae
+083. Bioreactor cultivation of Indonesian edible mushroom Auricularia polytricha mycelium for exopolysaccharide production
+084. Process integration of Indonesian microalgae Nannochloropsis cultivation with palm oil mill effluent treatment
+085. Fed-batch production of bacterial cellulose by Komagataeibacter xylinus using Indonesian pineapple juice waste
+086. Immobilized enzyme reactor for continuous fructooligosaccharide production from Indonesian sugarcane sucrose
+087. Scale-up challenges in Indonesian recombinant insulin production: from shake flask to 500L bioreactor
+088. Solid-state fermentation of Indonesian rubber seed meal by Aspergillus niger for detoxification and protein enrichment
+089. Bioprocess optimization of Indonesian Monascus purpureus for citrinin-free red pigment production on rice substrate
+090. Hybrid anaerobic-aerobic system for Indonesian palm oil mill effluent treatment with bioelectricity generation
+091. Continuous production of 2,3-butanediol from Indonesian lignocellulosic hydrolysate by Klebsiella oxytoca in CSTR
+092. Bioprocess development for Indonesian marine sponge-associated Streptomyces secondary metabolite production in bioreactor
+093. Ultrafiltration membrane optimization for Indonesian recombinant bromelain purification from Pichia pastoris culture
+094. Two-stage dark-photo fermentation for biohydrogen production from Indonesian tapioca wastewater
+095. Bioprocess scale-up of Indonesian Trichoderma viride cellulase production using oil palm empty fruit bunch as substrate
+096. Continuous lactic acid fermentation from Indonesian cassava starch using cell-recycle membrane bioreactor
+097. Bioprocess optimization of polyglutamic acid production by Indonesian Bacillus subtilis isolate from fermented soybean
+098. Airlift bioreactor cultivation of Indonesian Chlorella sorokiniana for lutein production with LED light optimization
+099. Integrated bioprocess for Indonesian shrimp waste valorization: chitin, astaxanthin, and protein hydrolysate co-production
+100. Fed-batch fermentation optimization of Indonesian Aureobasidium pullulans for pullulan production from palm sugar
+
+--------------------------------------------------------------------------------
+CATEGORY 3: MEDICAL BIOTECHNOLOGY & BIOPHARMACEUTICALS (101-150)
+--------------------------------------------------------------------------------
+
+101. mRNA vaccine development targeting dengue virus serotypes 1-4 prevalent in Indonesian endemic regions using lipid nanoparticle delivery
+102. CAR-T cell therapy optimization targeting CD19+ B-cell lymphoma with Indonesian patient-derived tumor models
+103. Recombinant monoclonal antibody production against Indonesian SARS-CoV-2 variants in CHO cell perfusion culture
+104. Organoid-based drug screening platform using Indonesian colorectal cancer patient-derived tumor samples
+105. Exosome-mediated siRNA delivery for hepatocellular carcinoma treatment targeting Indonesian HBV-associated liver cancer
+106. iPSC-derived cardiomyocyte differentiation from Indonesian Brugada syndrome patient cells for drug testing
+107. Bispecific antibody engineering targeting PD-L1/VEGF for Indonesian nasopharyngeal carcinoma immunotherapy
+108. Recombinant factor VIII production in BHK-21 cells for Indonesian hemophilia A patient treatment
+109. CRISPR-edited allogeneic NK cell therapy for Indonesian acute myeloid leukemia patients
+110. Antibody-drug conjugate (ADC) development targeting HER2+ breast cancer prevalent in Indonesian women
+111. mRNA-based therapeutic targeting mutant KRAS in Indonesian pancreatic cancer using ionizable lipid nanoparticles
+112. Recombinant Indonesian snake antivenom production using phage display-derived human antibody fragments
+113. 3D bioprinted skin graft using Indonesian patient-derived fibroblasts and keratinocytes for burn wound healing
+114. Oncolytic virus engineering using Indonesian Newcastle disease virus strain for glioblastoma therapy
+115. Stem cell-derived beta-cell differentiation for type 2 diabetes treatment targeting Indonesian genetic variants
+116. Recombinant erythropoietin biosimilar development for Indonesian chronic kidney disease patients using Pichia pastoris
+117. Chimeric antigen receptor macrophage (CAR-M) therapy for solid tumors using Indonesian patient monocytes
+118. Gene therapy vector (AAV9) optimization for Indonesian spinal muscular atrophy patients with SMN1 deletion
+119. Therapeutic antibody discovery against Indonesian Plasmodium vivax merozoite surface proteins using B-cell sorting
+120. Mesenchymal stem cell-derived extracellular vesicles for Indonesian COVID-19 ARDS patient treatment
+121. Recombinant L-asparaginase production from Indonesian marine Bacillus for acute lymphoblastic leukemia therapy
+122. CRISPR-corrected iPSC-derived hepatocytes for Indonesian Wilson disease patient cell therapy
+123. Bispecific T-cell engager (BiTE) antibody targeting EGFR/CD3 for Indonesian head and neck squamous cell carcinoma
+124. Nanoparticle-encapsulated curcumin from Indonesian Curcuma longa for targeted pancreatic cancer drug delivery
+125. Recombinant dengue NS1 antigen production in E. coli for improved Indonesian rapid diagnostic test development
+126. Autologous dendritic cell vaccine pulsed with Indonesian cervical cancer (HPV-18) tumor lysate
+127. Aptamer-based targeted therapy against Indonesian multidrug-resistant tuberculosis using DNA origami nanostructures
+128. Recombinant streptokinase production optimization in E. coli for affordable Indonesian thrombolytic therapy
+129. iPSC-derived retinal pigment epithelium transplantation for Indonesian age-related macular degeneration patients
+130. Bispecific antibody targeting IL-6/TNF-α for Indonesian rheumatoid arthritis with reduced immunogenicity
+131. mRNA vaccine platform for Indonesian chikungunya virus using self-amplifying RNA technology
+132. Recombinant human growth hormone biosimilar production in Pichia pastoris for Indonesian pediatric patients
+133. CRISPR-edited gamma-delta T cell therapy for Indonesian Epstein-Barr virus-associated lymphoma
+134. Scaffold-free 3D spheroid culture of Indonesian osteosarcoma cells for chemoresistance mechanism studies
+135. Recombinant Indonesian Jembrana disease virus protein for diagnostic ELISA development in Bali cattle
+136. Extracellular vesicle-based drug delivery of doxorubicin for Indonesian triple-negative breast cancer
+137. Therapeutic monoclonal antibody against Indonesian Burkholderia pseudomallei for melioidosis treatment
+138. iPSC-derived motor neurons from Indonesian ALS patients with SOD1 mutations for drug screening
+139. Recombinant interferon-alpha production in E. coli for Indonesian hepatitis B antiviral therapy
+140. CAR-NK cell therapy targeting GPC3 for Indonesian hepatocellular carcinoma with HBV etiology
+141. Biodegradable PLGA nanoparticle delivery of rifampicin for Indonesian pulmonary tuberculosis treatment
+142. Recombinant tissue plasminogen activator (rtPA) biosimilar development for Indonesian stroke patients
+143. Organoid-on-chip model of Indonesian gastric cancer for personalized chemotherapy sensitivity testing
+144. Therapeutic peptide discovery from Indonesian cone snail (Conus) venom for chronic pain management
+145. Recombinant rabies vaccine production in Vero cells for Indonesian post-exposure prophylaxis program
+146. CRISPR-corrected iPSC-derived platelets for Indonesian Glanzmann thrombasthenia patient treatment
+147. Bispecific antibody targeting CD20/CD3 for Indonesian diffuse large B-cell lymphoma immunotherapy
+148. Mesenchymal stem cell secretome from Indonesian Wharton's jelly for diabetic wound healing
+149. Recombinant Indonesian leptospirosis diagnostic antigen (LipL32) production for point-of-care testing
+150. mRNA-encoded broadly neutralizing antibody for Indonesian HIV-1 CRF01_AE subtype prevention
+
+--------------------------------------------------------------------------------
+CATEGORY 4: AGRICULTURAL BIOTECHNOLOGY (151-200)
+--------------------------------------------------------------------------------
+
+151. Agrobacterium-mediated transformation of drought-responsive DREB1A gene in Indonesian upland rice (Oryza sativa var. Situ Bagendit)
+152. RNAi-mediated silencing of Phytophthora palmivora effector genes for Indonesian cocoa pod rot resistance
+153. Marker-assisted backcrossing of bacterial blight resistance gene Xa21 into Indonesian rice variety IR64
+154. Transgenic Indonesian sugarcane expressing Bt Cry1Ab for stem borer (Chilo sacchariphagus) resistance
+155. CRISPR-Cas9 editing of starch synthase genes in Indonesian cassava for industrial starch modification
+156. Endophytic Bacillus velezensis from Indonesian volcanic soil as biocontrol agent against Fusarium wilt in banana
+157. Agrobacterium rhizogenes-mediated hairy root transformation of Indonesian Catharanthus roseus for vinblastine production
+158. Molecular marker development (SSR/SNP) for Indonesian durian (Durio zibethinus) cultivar identification and breeding
+159. Transgenic Indonesian potato expressing antimicrobial peptide for bacterial wilt (Ralstonia solanacearum) resistance
+160. Mycorrhizal biofertilizer formulation using Indonesian Glomus mosseae for phosphorus-deficient volcanic soils
+161. CRISPR-Cas9 editing of ethylene biosynthesis genes in Indonesian papaya (Carica papaya) for delayed ripening
+162. Metagenomics analysis of rhizosphere microbiome in Indonesian peatland agriculture for sustainable farming
+163. Bt cotton (Cry2Ab) adaptation trials for Indonesian Helicoverpa armigera resistance management
+164. Plant-made pharmaceutical: recombinant cholera vaccine antigen production in Indonesian tobacco chloroplasts
+165. Molecular breeding of Indonesian black rice (Oryza sativa var. Cempo Ireng) for enhanced anthocyanin content
+166. Endophytic Trichoderma harzianum from Indonesian mangrove for biocontrol of sheath blight in rice
+167. CRISPR-Cas9 knockout of caffeine synthase in Indonesian Robusta coffee (Coffea canephora) for decaffeination
+168. Agrobacterium-mediated transformation of Indonesian oil palm with oleate desaturase RNAi for high-oleic oil
+169. Molecular characterization of Indonesian Ralstonia solanacearum phylotypes for targeted biocontrol development
+170. Transgenic Indonesian chrysanthemum expressing blue pigment gene (F3'5'H) from butterfly pea
+171. Marker-assisted selection for submergence tolerance (Sub1A) introgression in Indonesian lowland rice varieties
+172. PGPR consortium (Azospirillum + Pseudomonas) formulation for Indonesian organic rice cultivation on acid sulfate soils
+173. CRISPR-Cas9 editing of polyphenol oxidase in Indonesian white pepper (Piper nigrum) for quality improvement
+174. Virus-induced gene silencing (VIGS) of susceptibility genes in Indonesian tomato for geminivirus resistance
+175. Molecular mapping of QTLs for salinity tolerance in Indonesian wild rice (Oryza rufipogon) accessions
+176. Transgenic Indonesian Jatropha curcas expressing diacylglycerol acyltransferase for enhanced oil content
+177. Endophytic actinomycetes from Indonesian medicinal plant Andrographis paniculata for andrographolide enhancement
+178. CRISPR-Cas9 multiplex editing of grain size genes (GS3, GW2, qSW5) in Indonesian rice for yield improvement
+179. Arbuscular mycorrhizal fungi diversity in Indonesian tropical rainforest soil for reforestation biotechnology
+180. Agrobacterium-mediated transformation of Indonesian teak (Tectona grandis) for accelerated growth and wood quality
+181. Molecular diagnosis of citrus huanglongbing (HLB) in Indonesian Citrus reticulata using LAMP-CRISPR detection
+182. Transgenic Indonesian soybean expressing Kunitz trypsin inhibitor for pod borer resistance
+183. Rhizobium inoculant optimization for Indonesian mung bean (Vigna radiata) nitrogen fixation on marginal lands
+184. CRISPR-Cas9 editing of fragrance gene (BADH2) in Indonesian non-aromatic rice for Pandan-like aroma
+185. Metatranscriptomics of Indonesian volcanic soil microbial communities for thermotolerant crop growth promotion
+186. Plant cell culture of Indonesian Taxus sumatrana for paclitaxel production in stirred-tank bioreactor
+187. Molecular breeding of Indonesian shallot (Allium cepa var. aggregatum) for Fusarium basal rot resistance
+188. Transgenic Indonesian orchid (Phalaenopsis amabilis) expressing CHS gene for novel flower color
+189. Biocontrol efficacy of Indonesian Beauveria bassiana against coffee berry borer (Hypothenemus hampei)
+190. CRISPR-Cas9 editing of vernalization genes in Indonesian wheat (Triticum aestivum) for tropical adaptation
+191. Agrobacterium-mediated transformation of Indonesian seaweed Kappaphycus alvarezii for carrageenan modification
+192. Molecular marker-assisted breeding of Indonesian clove (Syzygium aromaticum) for high eugenol content
+193. Transgenic Indonesian maize expressing phytase for improved phosphorus nutrition in poultry feed
+194. Endophytic nitrogen-fixing bacteria from Indonesian sugarcane for reduced fertilizer application
+195. CRISPR-Cas9 editing of seed storage protein genes in Indonesian peanut for reduced allergenicity
+196. Metagenomics-guided bioprospecting of Indonesian hot spring microbiome for thermostable agricultural enzymes
+197. Plant growth-promoting rhizobacteria from Indonesian tin-mined land for phytoremediation-assisted revegetation
+198. Molecular characterization of Indonesian Xanthomonas oryzae pv. oryzae races for resistance gene deployment
+199. Transgenic Indonesian rubber tree (Hevea brasiliensis) expressing anti-senescence gene for extended latex production
+200. CRISPR-Cas9 editing of flowering time genes in Indonesian sorghum for ratooning cultivation system
+
+--------------------------------------------------------------------------------
+CATEGORY 5: ENVIRONMENTAL & MARINE BIOTECHNOLOGY (201-250)
+--------------------------------------------------------------------------------
+
+201. Metagenomics-guided bioremediation of Indonesian tin mining-contaminated soil using indigenous metal-resistant bacteria
+202. Constructed wetland bioaugmentation with Indonesian mangrove rhizosphere bacteria for palm oil mill effluent treatment
+203. Marine microplastic biodegradation by Indonesian deep-sea Ideonella sakaiensis-like bacteria from Banda Sea
+204. Bioelectrochemical system for simultaneous Indonesian batik wastewater treatment and electricity generation
+205. Phytoremediation of Indonesian gold mining mercury contamination using transgenic Pteris vittata with enhanced MerA expression
+206. Indonesian coral reef metagenomics for novel biosurfactant-producing bacteria in oil spill bioremediation
+207. Mycoremediation of Indonesian textile dye wastewater using white-rot fungus Trametes versicolor from tropical forest
+208. Bioaugmentation of Indonesian peatland fire-affected soil using indigenous Bacillus consortium for ecosystem restoration
+209. Marine biofouling prevention using quorum quenching enzymes from Indonesian sponge-associated bacteria
+210. Microalgae-bacteria consortium from Indonesian crater lake for heavy metal biosorption and biomass production
+211. Biosurfactant production by Indonesian petroleum-contaminated soil Pseudomonas for enhanced oil recovery
+212. Mangrove sediment metagenomics from Indonesian Mahakam Delta for novel hydrocarbon-degrading enzyme discovery
+213. Biocement production using Indonesian ureolytic bacteria for coastal erosion prevention in small islands
+214. Anaerobic ammonium oxidation (anammox) enrichment from Indonesian shrimp pond sediment for aquaculture wastewater
+215. Indonesian volcanic hot spring Thermus isolates for thermophilic biodegradation of persistent organic pollutants
+216. Microplastic-degrading enzyme characterization from Indonesian landfill soil metagenome using functional screening
+217. Bioflocculation of Indonesian coal mine acid drainage using extracellular polymeric substances from Paenibacillus
+218. Marine sponge Haliclona from Indonesian Raja Ampat as source of anti-biofouling compounds
+219. Phycoremediation of Indonesian aquaculture wastewater using native Chlorella and Scenedesmus consortium
+220. Biosensor development for real-time monitoring of cyanide in Indonesian gold mining wastewater using whole-cell reporter
+221. Indonesian peatland methanotroph diversity and methane oxidation capacity under different water table management
+222. Biosorption of rare earth elements from Indonesian tin smelting waste using marine algae biomass
+223. Constructed wetland with Indonesian native Typha angustifolia for hospital pharmaceutical wastewater treatment
+224. Biodegradation of Indonesian palm oil-based biodiesel spills in marine environment by Alcanivorax consortium
+225. Electroactive biofilm development from Indonesian hot spring for microbial fuel cell power generation
+226. Marine actinomycetes from Indonesian Karimunjawa coral reef for microplastic-associated pathogen biocontrol
+227. Bioaugmented composting of Indonesian municipal solid waste using thermophilic Geobacillus for accelerated degradation
+228. Indonesian seagrass bed microbiome analysis for blue carbon enhancement and coastal protection biotechnology
+229. Bioleaching of electronic waste (e-waste) using Indonesian acidophilic Acidithiobacillus ferrooxidans for metal recovery
+230. Mangrove endophytic fungi from Indonesian Avicennia marina for petroleum hydrocarbon degradation
+231. Biochar-immobilized Indonesian rhizobacteria for simultaneous soil remediation and crop growth promotion
+232. Marine plastic-colonizing biofilm (plastisphere) characterization from Indonesian Java Sea for biodegradation potential
+233. Cyanobacterial bloom control in Indonesian Jatiluhur Reservoir using algicidal bacteria from local sediment
+234. Biodesulfurization of Indonesian high-sulfur coal using Rhodococcus erythropolis for clean energy production
+235. Indonesian deep-sea hydrothermal vent metagenomics for novel extremozymes in industrial waste treatment
+236. Phytoremediation of Indonesian nickel mining tailings using hyperaccumulator Alyssum with PGPR enhancement
+237. Biofilm-mediated corrosion inhibition of Indonesian offshore oil platform using protective Bacillus biofilm
+238. Marine diatom cultivation from Indonesian waters for CO2 capture and valuable lipid co-production
+239. Biodegradation of Indonesian rubber processing wastewater using anaerobic-aerobic sequential bioreactor
+240. Soil metagenomics of Indonesian post-volcanic eruption sites for pioneer microbial community succession analysis
+241. Bioelectrochemical remediation of Indonesian chromium-contaminated tannery soil using plant-microbial fuel cell
+242. Indonesian cave microbiome exploration for novel carbonic anhydrase enzymes in carbon capture technology
+243. Biostimulation of Indonesian oil-contaminated mangrove sediment using slow-release nutrient formulation
+244. Marine bacteriophage therapy for Vibrio control in Indonesian shrimp aquaculture pond water
+245. Bioaugmented vermicomposting of Indonesian palm oil decanter cake using Eisenia fetida with cellulolytic bacteria
+246. Indonesian coral mucus microbiome for probiotic development in coral reef restoration biotechnology
+247. Microbial electrochemical technology for Indonesian domestic wastewater treatment in rural off-grid communities
+248. Biosynthesis of iron nanoparticles using Indonesian mangrove leaf extract for textile dye degradation
+249. Indonesian submarine groundwater discharge microbiome for nutrient cycling and coastal ecosystem health monitoring
+250. Bioaugmentation of Indonesian landfill leachate treatment using ammonia-oxidizing archaea from tropical soil
+
+--------------------------------------------------------------------------------
+CATEGORY 6: BIOINFORMATICS & COMPUTATIONAL BIOLOGY (251-300)
+--------------------------------------------------------------------------------
+
+251. Genome-wide association study (GWAS) of type 2 diabetes susceptibility loci in Indonesian Javanese population
+252. AlphaFold-guided rational design of thermostable lipase from Indonesian hot spring Geobacillus metagenome
+253. Machine learning prediction of antimicrobial peptides from Indonesian marine invertebrate transcriptome data
+254. Pan-genome analysis of Indonesian Mycobacterium tuberculosis lineage 2 (Beijing) for drug resistance markers
+255. Network pharmacology approach for Indonesian jamu herbal medicine multi-target mechanism elucidation
+256. Single-cell RNA sequencing atlas of Indonesian nasopharyngeal carcinoma tumor microenvironment
+257. Molecular dynamics simulation of Indonesian snake venom phospholipase A2 interaction with neuronal membranes
+258. Metagenome-assembled genomes (MAGs) from Indonesian deep-sea Sunda Trench for novel metabolic pathway discovery
+259. CRISPR guide RNA design optimization using deep learning for Indonesian rice genome editing efficiency
+260. Phylogenomic analysis of Indonesian Rafflesia arnoldii for horizontal gene transfer from host Tetrastigma
+261. Protein-protein interaction network analysis of Indonesian dengue virus NS proteins with host factors
+262. Comparative genomics of Indonesian Streptomyces isolates for biosynthetic gene cluster diversity mapping
+263. Machine learning-based prediction of Indonesian patient response to tuberculosis drug regimens using genomic data
+264. Structural bioinformatics analysis of Indonesian SARS-CoV-2 spike protein mutations for vaccine escape prediction
+265. Transcriptome analysis of Indonesian black rice anthocyanin biosynthesis pathway under drought stress
+266. Genome-scale metabolic model reconstruction of Indonesian Aspergillus niger for citric acid production optimization
+267. Population genomics of Indonesian Plasmodium vivax for antimalarial drug resistance evolution tracking
+268. Deep learning-based protein function prediction for uncharacterized genes in Indonesian crop genomes
+269. Microbiome-metabolome integration analysis of Indonesian traditional fermented food (tempeh, tape, dadih)
+270. Molecular docking and dynamics of Indonesian marine natural products against SARS-CoV-2 main protease
+271. Whole-genome sequencing and phylogenetic analysis of Indonesian avian influenza H5N1 evolution (2003-2025)
+272. Systems biology modeling of Indonesian Corynebacterium glutamicum for amino acid production pathway optimization
+273. Spatial transcriptomics mapping of Indonesian oil palm fruit mesocarp during lipid biosynthesis
+274. Bioinformatics pipeline development for Indonesian 16S rRNA gut microbiome analysis in stunting children
+275. AlphaFold2 structure prediction of novel antimicrobial peptides from Indonesian Komodo dragon (Varanus komodoensis) genome
+276. Genome mining of Indonesian marine Salinispora for novel enediyne anticancer compound biosynthetic clusters
+277. Machine learning classification of Indonesian medicinal plant bioactive compounds for drug repurposing
+278. Comparative metagenomics of Indonesian volcanic soil at different succession stages post-eruption
+279. Long-read sequencing assembly of Indonesian durian (Durio zibethinus) genome for flavor gene identification
+280. Protein engineering of Indonesian Bacillus lipase using computational saturation mutagenesis for biodiesel application
+281. Single-cell multi-omics analysis of Indonesian hepatocellular carcinoma for tumor heterogeneity characterization
+282. Phylogeographic analysis of Indonesian Aedes aegypti populations using whole-genome SNP data for vector control
+283. Flux balance analysis optimization of Indonesian Saccharomyces cerevisiae for bioethanol production from lignocellulose
+284. Deep learning prediction of Indonesian crop disease from hyperspectral imaging and genomic data integration
+285. Genome-wide CRISPR screen analysis of Indonesian cancer cell line drug resistance mechanisms
+286. Metaproteomics of Indonesian rumen microbiome in Bali cattle for feed efficiency improvement
+287. Structural bioinformatics of Indonesian Jatropha curcas curcin toxin for detoxification strategy design
+288. Population genetics of Indonesian Rafflesia species using RAD-seq for conservation genomics
+289. Machine learning optimization of Indonesian CHO cell culture media composition for antibody production
+290. Transcriptome-wide m6A epitranscriptomics in Indonesian rice under salinity stress conditions
+291. Genome-scale metabolic modeling of Indonesian Chlorella vulgaris for lipid overproduction pathway engineering
+292. Bioinformatics analysis of Indonesian human gut virome in healthy vs. malnourished children
+293. Molecular evolution analysis of Indonesian bat coronavirus diversity for pandemic preparedness
+294. Deep learning-based virtual screening of Indonesian marine compound library against tuberculosis targets
+295. Pangenome analysis of Indonesian Xanthomonas oryzae for effector diversity and virulence prediction
+296. Systems pharmacology modeling of Indonesian Andrographis paniculata bioactive compounds for anti-inflammatory targets
+297. Whole-genome bisulfite sequencing of Indonesian oil palm somaclonal variants for mantled fruit epigenetics
+298. Machine learning prediction of Indonesian antibiotic-resistant bacteria spread using hospital genomic surveillance data
+299. Comparative genomics of Indonesian Wolbachia strains in Aedes mosquitoes for population replacement strategy
+300. Multi-omics data integration platform for Indonesian precision medicine in breast cancer treatment
+
+--------------------------------------------------------------------------------
+CATEGORY 7: INDUSTRIAL ENZYMOLOGY & BIOCATALYSIS (301-350)
+--------------------------------------------------------------------------------
+
+301. Directed evolution of Indonesian hot spring Bacillus lipase for enhanced biodiesel synthesis in non-aqueous media
+302. Immobilization of Indonesian Aspergillus niger cellulase on magnetic nanoparticles for rice straw saccharification
+303. Thermostable alpha-amylase discovery from Indonesian Sulawesi hot spring metagenome for textile desizing
+304. Rational design of Indonesian Rhizopus oryzae lipase for stereoselective synthesis of pharmaceutical intermediates
+305. Cross-linked enzyme aggregate (CLEA) preparation of Indonesian Bacillus subtilis protease for detergent application
+306. Laccase production from Indonesian white-rot fungus Ganoderma lucidum for lignin valorization
+307. Computational redesign of Indonesian marine chitinase for enhanced chitin degradation in shrimp waste processing
+308. Multienzyme cascade reaction design using Indonesian Trichoderma cellulase-xylanase for complete biomass hydrolysis
+309. Phytase engineering from Indonesian Aspergillus ficuum for improved thermostability in animal feed pelleting
+310. Keratinase production from Indonesian poultry waste Bacillus for feather meal protein hydrolysate
+311. Xylanase discovery from Indonesian termite gut metagenome for pulp and paper biobleaching application
+312. Enzyme engineering of Indonesian Candida rugosa lipase for enantioselective resolution of ibuprofen
+313. Pectinase production optimization from Indonesian Aspergillus niger using coffee pulp waste as substrate
+314. Transglutaminase from Indonesian Streptomyces mobaraensis for protein crosslinking in food texture modification
+315. Cold-active protease from Indonesian deep-sea bacteria for low-temperature detergent formulation
+316. Tannase production from Indonesian Aspergillus awamori for tea processing and gallic acid production
+317. Manganese peroxidase from Indonesian Phanerochaete chrysosporium for synthetic dye decolorization
+318. Inulinase production from Indonesian Kluyveromyces marxianus for high-fructose syrup from chicory
+319. L-asparaginase from Indonesian marine Bacillus for acrylamide reduction in fried food processing
+320. Tyrosinase from Indonesian Agaricus bisporus for L-DOPA biosynthesis and melanin production
+321. Cyclodextrin glucanotransferase from Indonesian Bacillus macerans for cyclodextrin production from tapioca starch
+322. Fibrinolytic enzyme from Indonesian traditional fermented food (oncom) Neurospora sitophila for thrombolytic application
+323. Collagenase from Indonesian marine Vibrio for collagen peptide production from fish scale waste
+324. Glucose oxidase from Indonesian Aspergillus niger for biosensor and food preservation applications
+325. Nattokinase-like enzyme from Indonesian Bacillus subtilis tempeh isolate for cardiovascular health supplement
+326. Alkaline protease from Indonesian soda lake Bacillus for leather dehairing process
+327. Beta-glucosidase from Indonesian termite-associated Trichoderma for enhanced cellulose saccharification
+328. Bromelain extraction and immobilization from Indonesian pineapple (Ananas comosus) stem for meat tenderization
+329. Chitosanase from Indonesian marine Bacillus for chitooligosaccharide production with prebiotic activity
+330. Peroxidase from Indonesian horseradish (Armoracia rusticana) cell culture for phenol removal in wastewater
+331. Alpha-galactosidase from Indonesian Aspergillus for raffinose removal in soybean processing
+332. Carbonic anhydrase from Indonesian thermophilic bacteria for CO2 capture and mineralization
+333. Glutaminase from Indonesian marine Cryptococcus for umami flavor enhancement in food industry
+334. Urease inhibitor screening from Indonesian medicinal plants for Helicobacter pylori treatment
+335. Dextranase from Indonesian Penicillium for sugar mill dextran removal and oral care application
+336. Naringinase from Indonesian Aspergillus niger for debittering of citrus juice processing
+337. L-amino acid oxidase from Indonesian snake venom for antimicrobial and anticancer applications
+338. Mannanase from Indonesian Bacillus for coffee processing wastewater treatment and prebiotic production
+339. Phospholipase D from Indonesian Streptomyces for phosphatidylserine synthesis from soybean lecithin
+340. Feruloyl esterase from Indonesian Aspergillus for ferulic acid release from rice bran arabinoxylan
+341. Alginate lyase from Indonesian marine Flavobacterium for oligoalginate production with bioactive properties
+342. Cutinase from Indonesian Fusarium solani for PET plastic biodegradation and recycling
+343. Aspartase from Indonesian E. coli for L-aspartic acid production from fumaric acid
+344. Nitrile hydratase from Indonesian Rhodococcus for acrylamide production from acrylonitrile
+345. Epoxide hydrolase from Indonesian Aspergillus niger for chiral diol synthesis in pharmaceutical industry
+346. Xylose isomerase from Indonesian Streptomyces for high-fructose corn syrup production
+347. Penicillin G acylase from Indonesian E. coli for semi-synthetic antibiotic manufacturing
+348. Superoxide dismutase from Indonesian thermophilic Thermus for cosmetic anti-aging formulation
+349. Pullulanase from Indonesian Bacillus acidopullulyticus for starch debranching in brewing industry
+350. Omega-transaminase from Indonesian soil metagenome for asymmetric synthesis of chiral amines
+
+--------------------------------------------------------------------------------
+CATEGORY 8: NANOBIOTECHNOLOGY & BIOSENSORS (351-400)
+--------------------------------------------------------------------------------
+
+351. Gold nanoparticle-based lateral flow assay using Indonesian dengue NS1 aptamer for point-of-care diagnosis
+352. Quantum dot-FRET biosensor for real-time detection of aflatoxin B1 in Indonesian peanut products
+353. Graphene oxide-aptamer electrochemical biosensor for Indonesian Mycobacterium tuberculosis DNA detection
+354. Silver nanoparticle green synthesis using Indonesian Centella asiatica extract for wound healing application
+355. CRISPR-Cas12a/gold nanoparticle colorimetric assay for Indonesian avian influenza H5N1 field detection
+356. Magnetic nanoparticle-based immunoassay for rapid detection of Salmonella in Indonesian poultry products
+357. Carbon nanotube field-effect transistor biosensor for Indonesian dengue virus serotype discrimination
+358. Liposome-encapsulated Indonesian marine bioactive compound for targeted cancer drug delivery
+359. Surface plasmon resonance (SPR) biosensor for Indonesian palm oil adulteration detection
+360. Zinc oxide nanorod-based piezoelectric biosensor for Indonesian leptospirosis early diagnosis
+361. Chitosan nanoparticle from Indonesian shrimp waste for oral insulin delivery in diabetes treatment
+362. Paper-based microfluidic biosensor for Indonesian rice blast fungus (Magnaporthe oryzae) detection in field
+363. Iron oxide nanoparticle-labeled aptamer for MRI-guided Indonesian liver cancer theranostics
+364. Cellulose nanocrystal from Indonesian oil palm empty fruit bunch for drug delivery scaffold
+365. Electrochemical immunosensor using Indonesian recombinant antigen for leptospirosis serodiagnosis
+366. Gold nanocluster fluorescent probe for mercury detection in Indonesian artisanal gold mining water
+367. Silk fibroin nanoparticle from Indonesian Bombyx mori for curcumin encapsulation and cancer therapy
+368. Whole-cell biosensor using engineered E. coli for arsenic detection in Indonesian groundwater
+369. Titanium dioxide nanotube-based photoelectrochemical biosensor for Indonesian hepatitis B virus detection
+370. Lipid nanoparticle optimization for mRNA delivery targeting Indonesian SARS-CoV-2 variant epitopes
+371. Molecularly imprinted polymer nanoparticle for selective detection of Indonesian coffee civet (luwak) authenticity
+372. DNA origami nanostructure for targeted delivery of anti-tuberculosis drugs to Indonesian MDR-TB bacteria
+373. Copper nanoparticle green synthesis using Indonesian Moringa oleifera for antibacterial textile coating
+374. Aptamer-functionalized mesoporous silica nanoparticle for Indonesian Plasmodium falciparum detection
+375. Bacterial cellulose nanocomposite from Indonesian Komagataeibacter for flexible wearable biosensor substrate
+376. Upconversion nanoparticle-based lateral flow assay for Indonesian foot-and-mouth disease virus detection
+377. Graphene quantum dot from Indonesian coconut shell for bioimaging and photodynamic cancer therapy
+378. Nanobody-functionalized nanoparticle for Indonesian SARS-CoV-2 neutralization and detection dual-function
+379. Electrospun nanofiber from Indonesian silk cocoon for wound healing biosensor with pH monitoring
+380. Metal-organic framework (MOF) biosensor for volatile organic compound detection in Indonesian food spoilage
+381. Polylactic acid nanoparticle from Indonesian cassava starch for sustained-release pesticide delivery
+382. SERS-based nanosensor using silver nanostar for Indonesian herbal medicine quality control
+383. Exosome-mimetic nanovesicle from Indonesian mesenchymal stem cells for targeted anti-inflammatory therapy
+384. Microfluidic organ-on-chip with Indonesian patient-derived cells for personalized drug toxicity testing
+385. Calcium phosphate nanoparticle for CRISPR-Cas9 ribonucleoprotein delivery to Indonesian crop protoplasts
+386. Wearable sweat biosensor using Indonesian bacterial cellulose for continuous glucose monitoring
+387. Phage-displayed peptide-functionalized nanoparticle for Indonesian Vibrio parahaemolyticus detection in seafood
+388. Hydroxyapatite nanoparticle from Indonesian bovine bone waste for bone tissue engineering scaffold
+389. Lateral flow assay with gold nanoparticle for rapid detection of Indonesian palm oil CPO quality markers
+390. DNA hydrogel biosensor for multiplex detection of Indonesian aquaculture fish pathogens
+391. Selenium nanoparticle green synthesis using Indonesian Garcinia mangostana pericarp for antioxidant application
+392. Lab-on-a-chip device for Indonesian malaria parasite species identification using microfluidic PCR
+393. Nanocellulose-based wound dressing from Indonesian pineapple leaf fiber with antibacterial silver loading
+394. Electrochemical aptasensor for Indonesian civet coffee (kopi luwak) authentication using screen-printed electrode
+395. Polymeric nanoparticle encapsulation of Indonesian Phaleria macrocarpa extract for anticancer delivery
+396. Smartphone-based colorimetric biosensor for Indonesian drinking water E. coli contamination testing
+397. Carbon dot from Indonesian rice husk for fluorescent detection of pesticide residues in vegetables
+398. Nanoemulsion of Indonesian virgin coconut oil for enhanced bioavailability of fat-soluble vitamins
+399. 3D-printed biosensor housing with Indonesian bioplastic for field-deployable water quality monitoring
+400. Plasmonic nanoparticle array for label-free detection of Indonesian tuberculosis biomarkers in sputum
+
+--------------------------------------------------------------------------------
+CATEGORY 9: FOOD BIOTECHNOLOGY & PROBIOTICS (401-450)
+--------------------------------------------------------------------------------
+
+401. Single-cell genomics of Indonesian tempeh (Rhizopus oligosporus) fermentation microbiome for starter culture optimization
+402. Probiotic Lactobacillus plantarum isolation from Indonesian dadih (buffalo milk fermented food) for cholesterol reduction
+403. CRISPR-Cas9 editing of Indonesian Aspergillus oryzae for enhanced soy sauce (kecap) flavor compound production
+404. Metagenomics of Indonesian kombucha SCOBY for functional microbiome characterization and health benefit validation
+405. Encapsulation of Indonesian Bifidobacterium from breast milk in alginate-chitosan for infant formula supplementation
+406. Metabolomics profiling of Indonesian tape ketan fermentation for bioactive compound identification
+407. Recombinant chymosin production in Pichia pastoris for Indonesian halal cheese manufacturing
+408. Probiotic Saccharomyces boulardii from Indonesian kefir for antibiotic-associated diarrhea prevention
+409. Solid-state fermentation optimization of Indonesian black garlic for enhanced S-allyl cysteine content
+410. Lactic acid bacteria bacteriocin from Indonesian fermented fish (bekasam) for natural food preservation
+411. CRISPR-edited Lactococcus lactis for nisin overproduction as biopreservative in Indonesian dairy products
+412. Metatranscriptomics of Indonesian cocoa bean fermentation for flavor precursor gene expression analysis
+413. Probiotic Lactobacillus rhamnosus from Indonesian breast milk for infant eczema prevention clinical trial
+414. Enzymatic modification of Indonesian coconut protein for improved functional properties in plant-based meat
+415. Bioactive peptide production from Indonesian milkfish (Chanos chanos) protein hydrolysate using Alcalase
+416. Probiotic consortium from Indonesian traditional fermented vegetables (asinan) for gut microbiome modulation
+417. Recombinant transglutaminase application in Indonesian surimi (fish cake) for improved gel texture
+418. Metabolic engineering of Indonesian Monascus purpureus for enhanced monacolin K without citrinin production
+419. Probiotic Lactobacillus fermentum from Indonesian tempoyak (fermented durian) for oral health improvement
+420. Enzymatic production of galactooligosaccharides from Indonesian coconut milk lactose for prebiotic application
+421. Metagenomics of Indonesian traditional salt-fermented shrimp (terasi) for umami-producing bacteria identification
+422. Probiotic Bacillus coagulans spore formulation from Indonesian soil for heat-stable food supplementation
+423. CRISPR-edited Saccharomyces cerevisiae for reduced biogenic amine production in Indonesian wine fermentation
+424. Bioactive exopolysaccharide production by Indonesian kefir grain Lactobacillus for immunomodulation
+425. Enzymatic crosslinking of Indonesian sago starch using laccase-ferulic acid system for packaging film
+426. Probiotic Lactobacillus casei from Indonesian fermented cassava (growol) for lactose intolerance management
+427. Recombinant Indonesian Rhizopus lipase for enzymatic interesterification of palm oil for trans-fat-free margarine
+428. Metabolomics comparison of Indonesian artisanal vs. industrial tempeh for nutritional quality markers
+429. Probiotic Weissella confusa from Indonesian fermented rice (brem) for exopolysaccharide-mediated gut health
+430. Enzymatic debittering of Indonesian Robusta coffee using tanninase and chlorogenate esterase combination
+431. Metagenomics of Indonesian traditional palm wine (tuak) fermentation for novel yeast strain discovery
+432. Probiotic Pediococcus pentosaceus from Indonesian fermented meat (sei) for nitrite reduction in curing
+433. Recombinant Indonesian papain for meat tenderization with controlled proteolysis using immobilization technology
+434. Biofilm formation by Indonesian probiotic Lactobacillus on food-grade surfaces for continuous fermentation
+435. Enzymatic production of resistant starch type 4 from Indonesian cassava for diabetic-friendly food
+436. Probiotic Lactobacillus plantarum from Indonesian pickled mustard greens for anti-Helicobacter pylori activity
+437. CRISPR-edited Indonesian Acetobacter for enhanced cellulose production in nata de coco manufacturing
+438. Metabolomics of Indonesian civet coffee (kopi luwak) fermentation in digestive tract simulation bioreactor
+439. Probiotic Streptococcus thermophilus from Indonesian yogurt for beta-galactosidase production and lactose hydrolysis
+440. Enzymatic synthesis of structured lipids from Indonesian palm kernel oil for infant formula fat substitute
+441. Metagenomics of Indonesian traditional rice wine (brem Bali) for functional starter culture development
+442. Probiotic Lactobacillus reuteri from Indonesian breast milk for vitamin B12 biosynthesis in gut
+443. Recombinant Indonesian bromelain expression in E. coli for standardized meat tenderizer production
+444. Bioactive angiotensin-converting enzyme (ACE) inhibitory peptides from Indonesian goat milk fermentation
+445. Enzymatic modification of Indonesian cocoa butter using lipase for improved chocolate tempering properties
+446. Probiotic Lactobacillus acidophilus from Indonesian fermented buffalo milk for calcium absorption enhancement
+447. CRISPR-edited Indonesian koji mold (Aspergillus oryzae) for gluten-free soy sauce production
+448. Metabolomics of Indonesian traditional herbal drink (jamu) fermentation for standardized bioactive content
+449. Probiotic Bifidobacterium longum from Indonesian infant feces for prevention of necrotizing enterocolitis
+450. Enzymatic production of xylooligosaccharides from Indonesian corn cob for synbiotic food development
+
+--------------------------------------------------------------------------------
+CATEGORY 10: SYNTHETIC BIOLOGY & METABOLIC ENGINEERING (451-500)
+--------------------------------------------------------------------------------
+
+451. Synthetic genetic circuit design in E. coli for autonomous detection and degradation of Indonesian palm oil mill effluent pollutants
+452. Metabolic engineering of Saccharomyces cerevisiae for de novo biosynthesis of vanillin from Indonesian glucose feedstock
+453. Cell-free protein synthesis system optimization using Indonesian E. coli extract for rapid prototyping of biosensors
+454. Synthetic biology chassis development using Indonesian Pseudomonas putida for tropical biomanufacturing applications
+455. Metabolic flux analysis of engineered Corynebacterium glutamicum for L-tryptophan overproduction from Indonesian molasses
+456. Synthetic promoter library construction for tunable gene expression in Indonesian industrial Pichia pastoris strains
+457. Metabolic engineering of Indonesian Yarrowia lipolytica for citric acid production from crude glycerol waste
+458. Synthetic RNA riboswitch design for dynamic regulation of carotenoid biosynthesis in Indonesian microalgae
+459. Pathway engineering of Aspergillus niger for itaconic acid production using Indonesian palm kernel cake hydrolysate
+460. Synthetic biology-enabled biosensor for real-time monitoring of Indonesian aquaculture water quality parameters
+461. Metabolic engineering of E. coli for 1,3-propanediol production from Indonesian biodiesel-derived glycerol
+462. Synthetic minimal genome design for Indonesian Mycoplasma-based vaccine delivery chassis
+463. Compartmentalized metabolic engineering using protein scaffolds for artemisinin precursor production in Indonesian yeast
+464. Synthetic gene circuit for programmable biofilm formation control in Indonesian wastewater treatment bioreactors
+465. Metabolic engineering of Clostridium acetobutylicum for enhanced butanol production from Indonesian sago starch
+466. Synthetic biology toolkit development for non-model Indonesian marine Vibrio natriegens as fast-growing chassis
+467. Dynamic metabolic engineering using CRISPRi for balanced pathway flux in Indonesian Bacillus subtilis surfactin production
+468. Synthetic consortium design of Indonesian soil bacteria for synergistic lignocellulose degradation
+469. Metabolic engineering of Rhodosporidium toruloides for lipid overproduction using Indonesian lignocellulosic hydrolysate
+470. Synthetic genetic oscillator design in E. coli for periodic release of Indonesian probiotic therapeutic proteins
+471. Pathway engineering of Indonesian Streptomyces for enhanced rapamycin analog production with improved bioavailability
+472. Synthetic biology-based cell factory for Indonesian traditional medicine compound (andrographolide) production in yeast
+473. Metabolic engineering of Zymomonas mobilis for co-utilization of glucose and xylose from Indonesian biomass
+474. Synthetic ribosome binding site library for optimized translation in Indonesian Lactobacillus expression system
+475. Modular pathway engineering for flavonoid biosynthesis in E. coli using Indonesian plant gene sources
+476. Synthetic biology approach for Indonesian

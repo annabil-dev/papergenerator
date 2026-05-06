@@ -3,10 +3,560 @@ TOPIC GUIDE — Smart Agriculture
 ================================================================================
 FIELD: Agriculture / Engineering
 DEFAULT CITATION STYLE: IEEE or APA
+SUBDISCIPLINE:
+  Precision agriculture, agricultural IoT, UAV remote sensing, crop disease detection, irrigation control, robotics, decision support, livestock monitoring, farm data platforms, cybersecurity, and climate-smart agriculture.
 
-METHODOLOGY: precision farming, drone/UAV imagery, NDVI analysis, soil sensor network,
-  crop disease detection (CNN), irrigation optimization, yield prediction
-EQUATIONS: NDVI = (NIR-RED)/(NIR+RED), irrigation demand, crop yield model
-FIGURES: UAV field imagery, NDVI map, disease detection sample, sensor network diagram
-TABLES: crop yield by treatment, detection accuracy, sensor comparison
-VENUES: Computers Electronics Agriculture, Precision Agriculture, IEEE JSTARS
+ABSTRACT CHARACTERISTICS:
+  Abstracts should identify the crop, livestock, farm system, or platform; state the sensing or modelling problem; describe dataset, hardware, algorithm, field design, and evaluation metrics; report quantitative accuracy, resource savings, yield effects, or adoption outcomes; and state deployment implications.
+
+INTRODUCTION ELEMENTS:
+  Establish agronomic, environmental, productivity, labor, water, or resilience problem; describe field context and technology gap; define measurable variables and stakeholders; justify sensing, automation, analytics, or decision-support approach; end with objectives, research questions, or hypotheses.
+
+LITERATURE REVIEW:
+  Synthesize recent work on precision monitoring, sensor networks, UAV imagery, AI diagnosis, smart irrigation, robotics, yield forecasting, livestock analytics, data platforms, connectivity, and sustainability; compare datasets, algorithms, validation settings, limitations, and adoption barriers.
+
+METHODOLOGY:
+  precision farming, drone/UAV imagery, NDVI analysis, soil sensor network, crop disease detection using CNN, irrigation optimization, yield prediction, edge computing, GIS mapping, decision-support modelling, field trials, sensor calibration, model validation, geospatial analysis, and cost-benefit assessment.
+
+TYPICAL RESULTS & DISCUSSION:
+  Report detection accuracy, prediction error, water savings, yield gains, energy use, latency, coverage, robustness across seasons, sensor reliability, farmer usability, economic feasibility, sustainability indicators, and comparison with baseline agronomic practice or conventional models.
+
+TYPICAL FIGURES:
+  UAV field imagery, NDVI map, disease detection sample, sensor network diagram, irrigation schedule chart, yield prediction plot, dashboard mockup, architecture diagram, confusion matrix heatmap, geospatial prescription map, and robot path plan.
+
+TYPICAL TABLES:
+  crop yield by treatment, detection accuracy, sensor comparison, irrigation water use, model hyperparameters, farm cost-benefit analysis, sustainability indicators, dataset summary, hardware specifications, connectivity performance, and baseline comparison.
+
+CONCLUSION CHARACTERISTICS:
+  State the validated smart-agriculture contribution, quantify agronomic or operational benefit, identify deployment constraints, discuss scalability for smallholder or commercial farms, and recommend seasonal validation, integration, or farmer-centered implementation.
+
+COMMON REFERENCE VENUES:
+  Computers and Electronics in Agriculture, Precision Agriculture, IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, Agricultural Systems, Smart Agricultural Technology, Remote Sensing, Sensors, Biosystems Engineering, Field Crops Research, and Agricultural Water Management.
+
+DOMAIN VOCABULARY:
+  NDVI, UAV, multispectral imagery, canopy temperature, leaf area index, LoRaWAN, edge computing, evapotranspiration, variable-rate application, prescription map, digital twin, SLAM, smart irrigation, crop phenology, sensor calibration, decision support system, federated learning, traceability, and climate-smart agriculture.
+
+METHODOLOGY KEYWORDS:
+  UAV photogrammetry; multispectral sensing; NDVI; GIS; IoT sensor calibration; LoRaWAN; CNN; object detection; semantic segmentation; edge inference; evapotranspiration modelling; optimization; regression; random forest; XGBoost; LSTM; cross-validation; confusion matrix; RMSE; field trial; cost-benefit analysis.
+
+RESEARCH TOPIC BANK (500 TOPICS)
+
+CATEGORY 1 — Precision Crop Monitoring (50 TOPICS)
+001. NDVI stress mapping for rice fields in smart agriculture.
+002. NDVI stress mapping for maize farms in smart agriculture.
+003. NDVI stress mapping for wheat plots in smart agriculture.
+004. NDVI stress mapping for soybean fields in smart agriculture.
+005. NDVI stress mapping for vegetable beds in smart agriculture.
+006. Canopy temperature modelling for rice fields in smart agriculture.
+007. Canopy temperature modelling for maize farms in smart agriculture.
+008. Canopy temperature modelling for wheat plots in smart agriculture.
+009. Canopy temperature modelling for soybean fields in smart agriculture.
+010. Canopy temperature modelling for vegetable beds in smart agriculture.
+011. LAI estimation for rice fields in smart agriculture.
+012. LAI estimation for maize farms in smart agriculture.
+013. LAI estimation for wheat plots in smart agriculture.
+014. LAI estimation for soybean fields in smart agriculture.
+015. LAI estimation for vegetable beds in smart agriculture.
+016. Chlorophyll prediction for rice fields in smart agriculture.
+017. Chlorophyll prediction for maize farms in smart agriculture.
+018. Chlorophyll prediction for wheat plots in smart agriculture.
+019. Chlorophyll prediction for soybean fields in smart agriculture.
+020. Chlorophyll prediction for vegetable beds in smart agriculture.
+021. Weed pressure mapping for rice fields in smart agriculture.
+022. Weed pressure mapping for maize farms in smart agriculture.
+023. Weed pressure mapping for wheat plots in smart agriculture.
+024. Weed pressure mapping for soybean fields in smart agriculture.
+025. Weed pressure mapping for vegetable beds in smart agriculture.
+026. Phenology stage detection for rice fields in smart agriculture.
+027. Phenology stage detection for maize farms in smart agriculture.
+028. Phenology stage detection for wheat plots in smart agriculture.
+029. Phenology stage detection for soybean fields in smart agriculture.
+030. Phenology stage detection for vegetable beds in smart agriculture.
+031. Lodging risk detection for rice fields in smart agriculture.
+032. Lodging risk detection for maize farms in smart agriculture.
+033. Lodging risk detection for wheat plots in smart agriculture.
+034. Lodging risk detection for soybean fields in smart agriculture.
+035. Lodging risk detection for vegetable beds in smart agriculture.
+036. Plant height estimation for rice fields in smart agriculture.
+037. Plant height estimation for maize farms in smart agriculture.
+038. Plant height estimation for wheat plots in smart agriculture.
+039. Plant height estimation for soybean fields in smart agriculture.
+040. Plant height estimation for vegetable beds in smart agriculture.
+041. Biomass prediction for rice fields in smart agriculture.
+042. Biomass prediction for maize farms in smart agriculture.
+043. Biomass prediction for wheat plots in smart agriculture.
+044. Biomass prediction for soybean fields in smart agriculture.
+045. Biomass prediction for vegetable beds in smart agriculture.
+046. Crop vigor zoning for rice fields in smart agriculture.
+047. Crop vigor zoning for maize farms in smart agriculture.
+048. Crop vigor zoning for wheat plots in smart agriculture.
+049. Crop vigor zoning for soybean fields in smart agriculture.
+050. Crop vigor zoning for vegetable beds in smart agriculture.
+
+CATEGORY 2 — IoT Sensor Networks (50 TOPICS)
+051. Soil moisture sensing for greenhouses in smart agriculture.
+052. Soil moisture sensing for orchards in smart agriculture.
+053. Soil moisture sensing for paddy fields in smart agriculture.
+054. Soil moisture sensing for dryland farms in smart agriculture.
+055. Soil moisture sensing for hydroponic systems in smart agriculture.
+056. Soil pH telemetry for greenhouses in smart agriculture.
+057. Soil pH telemetry for orchards in smart agriculture.
+058. Soil pH telemetry for paddy fields in smart agriculture.
+059. Soil pH telemetry for dryland farms in smart agriculture.
+060. Soil pH telemetry for hydroponic systems in smart agriculture.
+061. NPK sensor calibration for greenhouses in smart agriculture.
+062. NPK sensor calibration for orchards in smart agriculture.
+063. NPK sensor calibration for paddy fields in smart agriculture.
+064. NPK sensor calibration for dryland farms in smart agriculture.
+065. NPK sensor calibration for hydroponic systems in smart agriculture.
+066. Microclimate monitoring for greenhouses in smart agriculture.
+067. Microclimate monitoring for orchards in smart agriculture.
+068. Microclimate monitoring for paddy fields in smart agriculture.
+069. Microclimate monitoring for dryland farms in smart agriculture.
+070. Microclimate monitoring for hydroponic systems in smart agriculture.
+071. LoRaWAN gateway design for greenhouses in smart agriculture.
+072. LoRaWAN gateway design for orchards in smart agriculture.
+073. LoRaWAN gateway design for paddy fields in smart agriculture.
+074. LoRaWAN gateway design for dryland farms in smart agriculture.
+075. LoRaWAN gateway design for hydroponic systems in smart agriculture.
+076. Edge data compression for greenhouses in smart agriculture.
+077. Edge data compression for orchards in smart agriculture.
+078. Edge data compression for paddy fields in smart agriculture.
+079. Edge data compression for dryland farms in smart agriculture.
+080. Edge data compression for hydroponic systems in smart agriculture.
+081. Sensor fault detection for greenhouses in smart agriculture.
+082. Sensor fault detection for orchards in smart agriculture.
+083. Sensor fault detection for paddy fields in smart agriculture.
+084. Sensor fault detection for dryland farms in smart agriculture.
+085. Sensor fault detection for hydroponic systems in smart agriculture.
+086. Battery-aware sampling for greenhouses in smart agriculture.
+087. Battery-aware sampling for orchards in smart agriculture.
+088. Battery-aware sampling for paddy fields in smart agriculture.
+089. Battery-aware sampling for dryland farms in smart agriculture.
+090. Battery-aware sampling for hydroponic systems in smart agriculture.
+091. Irrigation node placement for greenhouses in smart agriculture.
+092. Irrigation node placement for orchards in smart agriculture.
+093. Irrigation node placement for paddy fields in smart agriculture.
+094. Irrigation node placement for dryland farms in smart agriculture.
+095. Irrigation node placement for hydroponic systems in smart agriculture.
+096. Real-time dashboarding for greenhouses in smart agriculture.
+097. Real-time dashboarding for orchards in smart agriculture.
+098. Real-time dashboarding for paddy fields in smart agriculture.
+099. Real-time dashboarding for dryland farms in smart agriculture.
+100. Real-time dashboarding for hydroponic systems in smart agriculture.
+
+CATEGORY 3 — AI Crop Disease and Pest Detection (50 TOPICS)
+101. CNN disease classification for tomato crops in smart agriculture.
+102. CNN disease classification for rice crops in smart agriculture.
+103. CNN disease classification for banana plantations in smart agriculture.
+104. CNN disease classification for chili farms in smart agriculture.
+105. CNN disease classification for potato fields in smart agriculture.
+106. Few-shot pest recognition for tomato crops in smart agriculture.
+107. Few-shot pest recognition for rice crops in smart agriculture.
+108. Few-shot pest recognition for banana plantations in smart agriculture.
+109. Few-shot pest recognition for chili farms in smart agriculture.
+110. Few-shot pest recognition for potato fields in smart agriculture.
+111. Leaf lesion segmentation for tomato crops in smart agriculture.
+112. Leaf lesion segmentation for rice crops in smart agriculture.
+113. Leaf lesion segmentation for banana plantations in smart agriculture.
+114. Leaf lesion segmentation for chili farms in smart agriculture.
+115. Leaf lesion segmentation for potato fields in smart agriculture.
+116. Explainable AI diagnosis for tomato crops in smart agriculture.
+117. Explainable AI diagnosis for rice crops in smart agriculture.
+118. Explainable AI diagnosis for banana plantations in smart agriculture.
+119. Explainable AI diagnosis for chili farms in smart agriculture.
+120. Explainable AI diagnosis for potato fields in smart agriculture.
+121. Multispectral disease detection for tomato crops in smart agriculture.
+122. Multispectral disease detection for rice crops in smart agriculture.
+123. Multispectral disease detection for banana plantations in smart agriculture.
+124. Multispectral disease detection for chili farms in smart agriculture.
+125. Multispectral disease detection for potato fields in smart agriculture.
+126. Mobile disease screening for tomato crops in smart agriculture.
+127. Mobile disease screening for rice crops in smart agriculture.
+128. Mobile disease screening for banana plantations in smart agriculture.
+129. Mobile disease screening for chili farms in smart agriculture.
+130. Mobile disease screening for potato fields in smart agriculture.
+131. Insect trap image analytics for tomato crops in smart agriculture.
+132. Insect trap image analytics for rice crops in smart agriculture.
+133. Insect trap image analytics for banana plantations in smart agriculture.
+134. Insect trap image analytics for chili farms in smart agriculture.
+135. Insect trap image analytics for potato fields in smart agriculture.
+136. Fungal severity scoring for tomato crops in smart agriculture.
+137. Fungal severity scoring for rice crops in smart agriculture.
+138. Fungal severity scoring for banana plantations in smart agriculture.
+139. Fungal severity scoring for chili farms in smart agriculture.
+140. Fungal severity scoring for potato fields in smart agriculture.
+141. Early blight prediction for tomato crops in smart agriculture.
+142. Early blight prediction for rice crops in smart agriculture.
+143. Early blight prediction for banana plantations in smart agriculture.
+144. Early blight prediction for chili farms in smart agriculture.
+145. Early blight prediction for potato fields in smart agriculture.
+146. Model drift monitoring for tomato crops in smart agriculture.
+147. Model drift monitoring for rice crops in smart agriculture.
+148. Model drift monitoring for banana plantations in smart agriculture.
+149. Model drift monitoring for chili farms in smart agriculture.
+150. Model drift monitoring for potato fields in smart agriculture.
+
+CATEGORY 4 — Smart Irrigation and Water Management (50 TOPICS)
+151. Evapotranspiration forecasting for rice paddies in smart agriculture.
+152. Evapotranspiration forecasting for vineyards in smart agriculture.
+153. Evapotranspiration forecasting for greenhouses in smart agriculture.
+154. Evapotranspiration forecasting for cotton farms in smart agriculture.
+155. Evapotranspiration forecasting for vegetable farms in smart agriculture.
+156. Deficit irrigation control for rice paddies in smart agriculture.
+157. Deficit irrigation control for vineyards in smart agriculture.
+158. Deficit irrigation control for greenhouses in smart agriculture.
+159. Deficit irrigation control for cotton farms in smart agriculture.
+160. Deficit irrigation control for vegetable farms in smart agriculture.
+161. Drip scheduling optimization for rice paddies in smart agriculture.
+162. Drip scheduling optimization for vineyards in smart agriculture.
+163. Drip scheduling optimization for greenhouses in smart agriculture.
+164. Drip scheduling optimization for cotton farms in smart agriculture.
+165. Drip scheduling optimization for vegetable farms in smart agriculture.
+166. Canal water allocation for rice paddies in smart agriculture.
+167. Canal water allocation for vineyards in smart agriculture.
+168. Canal water allocation for greenhouses in smart agriculture.
+169. Canal water allocation for cotton farms in smart agriculture.
+170. Canal water allocation for vegetable farms in smart agriculture.
+171. Pump energy optimization for rice paddies in smart agriculture.
+172. Pump energy optimization for vineyards in smart agriculture.
+173. Pump energy optimization for greenhouses in smart agriculture.
+174. Pump energy optimization for cotton farms in smart agriculture.
+175. Pump energy optimization for vegetable farms in smart agriculture.
+176. Salinity-aware irrigation for rice paddies in smart agriculture.
+177. Salinity-aware irrigation for vineyards in smart agriculture.
+178. Salinity-aware irrigation for greenhouses in smart agriculture.
+179. Salinity-aware irrigation for cotton farms in smart agriculture.
+180. Salinity-aware irrigation for vegetable farms in smart agriculture.
+181. Rainfall-runoff integration for rice paddies in smart agriculture.
+182. Rainfall-runoff integration for vineyards in smart agriculture.
+183. Rainfall-runoff integration for greenhouses in smart agriculture.
+184. Rainfall-runoff integration for cotton farms in smart agriculture.
+185. Rainfall-runoff integration for vegetable farms in smart agriculture.
+186. Soil-water balance modelling for rice paddies in smart agriculture.
+187. Soil-water balance modelling for vineyards in smart agriculture.
+188. Soil-water balance modelling for greenhouses in smart agriculture.
+189. Soil-water balance modelling for cotton farms in smart agriculture.
+190. Soil-water balance modelling for vegetable farms in smart agriculture.
+191. Fuzzy irrigation control for rice paddies in smart agriculture.
+192. Fuzzy irrigation control for vineyards in smart agriculture.
+193. Fuzzy irrigation control for greenhouses in smart agriculture.
+194. Fuzzy irrigation control for cotton farms in smart agriculture.
+195. Fuzzy irrigation control for vegetable farms in smart agriculture.
+196. Cloud-based irrigation advisory for rice paddies in smart agriculture.
+197. Cloud-based irrigation advisory for vineyards in smart agriculture.
+198. Cloud-based irrigation advisory for greenhouses in smart agriculture.
+199. Cloud-based irrigation advisory for cotton farms in smart agriculture.
+200. Cloud-based irrigation advisory for vegetable farms in smart agriculture.
+
+CATEGORY 5 — UAV and Remote Sensing Applications (50 TOPICS)
+201. UAV orthomosaic generation for corn fields in smart agriculture.
+202. UAV orthomosaic generation for oil palm estates in smart agriculture.
+203. UAV orthomosaic generation for tea plantations in smart agriculture.
+204. UAV orthomosaic generation for sugarcane farms in smart agriculture.
+205. UAV orthomosaic generation for smallholder plots in smart agriculture.
+206. Thermal drought mapping for corn fields in smart agriculture.
+207. Thermal drought mapping for oil palm estates in smart agriculture.
+208. Thermal drought mapping for tea plantations in smart agriculture.
+209. Thermal drought mapping for sugarcane farms in smart agriculture.
+210. Thermal drought mapping for smallholder plots in smart agriculture.
+211. Multispectral yield zoning for corn fields in smart agriculture.
+212. Multispectral yield zoning for oil palm estates in smart agriculture.
+213. Multispectral yield zoning for tea plantations in smart agriculture.
+214. Multispectral yield zoning for sugarcane farms in smart agriculture.
+215. Multispectral yield zoning for smallholder plots in smart agriculture.
+216. Drone spray path planning for corn fields in smart agriculture.
+217. Drone spray path planning for oil palm estates in smart agriculture.
+218. Drone spray path planning for tea plantations in smart agriculture.
+219. Drone spray path planning for sugarcane farms in smart agriculture.
+220. Drone spray path planning for smallholder plots in smart agriculture.
+221. Satellite-UAV data fusion for corn fields in smart agriculture.
+222. Satellite-UAV data fusion for oil palm estates in smart agriculture.
+223. Satellite-UAV data fusion for tea plantations in smart agriculture.
+224. Satellite-UAV data fusion for sugarcane farms in smart agriculture.
+225. Satellite-UAV data fusion for smallholder plots in smart agriculture.
+226. Image stitching accuracy for corn fields in smart agriculture.
+227. Image stitching accuracy for oil palm estates in smart agriculture.
+228. Image stitching accuracy for tea plantations in smart agriculture.
+229. Image stitching accuracy for sugarcane farms in smart agriculture.
+230. Image stitching accuracy for smallholder plots in smart agriculture.
+231. 3D canopy reconstruction for corn fields in smart agriculture.
+232. 3D canopy reconstruction for oil palm estates in smart agriculture.
+233. 3D canopy reconstruction for tea plantations in smart agriculture.
+234. 3D canopy reconstruction for sugarcane farms in smart agriculture.
+235. 3D canopy reconstruction for smallholder plots in smart agriculture.
+236. Variable-rate prescription mapping for corn fields in smart agriculture.
+237. Variable-rate prescription mapping for oil palm estates in smart agriculture.
+238. Variable-rate prescription mapping for tea plantations in smart agriculture.
+239. Variable-rate prescription mapping for sugarcane farms in smart agriculture.
+240. Variable-rate prescription mapping for smallholder plots in smart agriculture.
+241. Flood damage assessment for corn fields in smart agriculture.
+242. Flood damage assessment for oil palm estates in smart agriculture.
+243. Flood damage assessment for tea plantations in smart agriculture.
+244. Flood damage assessment for sugarcane farms in smart agriculture.
+245. Flood damage assessment for smallholder plots in smart agriculture.
+246. Harvest readiness mapping for corn fields in smart agriculture.
+247. Harvest readiness mapping for oil palm estates in smart agriculture.
+248. Harvest readiness mapping for tea plantations in smart agriculture.
+249. Harvest readiness mapping for sugarcane farms in smart agriculture.
+250. Harvest readiness mapping for smallholder plots in smart agriculture.
+
+CATEGORY 6 — Robotics and Automation (50 TOPICS)
+251. Autonomous weeding for strawberry farms in smart agriculture.
+252. Autonomous weeding for tomato greenhouses in smart agriculture.
+253. Autonomous weeding for orchards in smart agriculture.
+254. Autonomous weeding for lettuce beds in smart agriculture.
+255. Autonomous weeding for nurseries in smart agriculture.
+256. Robotic fruit picking for strawberry farms in smart agriculture.
+257. Robotic fruit picking for tomato greenhouses in smart agriculture.
+258. Robotic fruit picking for orchards in smart agriculture.
+259. Robotic fruit picking for lettuce beds in smart agriculture.
+260. Robotic fruit picking for nurseries in smart agriculture.
+261. Seedling transplant automation for strawberry farms in smart agriculture.
+262. Seedling transplant automation for tomato greenhouses in smart agriculture.
+263. Seedling transplant automation for orchards in smart agriculture.
+264. Seedling transplant automation for lettuce beds in smart agriculture.
+265. Seedling transplant automation for nurseries in smart agriculture.
+266. Precision spraying robot for strawberry farms in smart agriculture.
+267. Precision spraying robot for tomato greenhouses in smart agriculture.
+268. Precision spraying robot for orchards in smart agriculture.
+269. Precision spraying robot for lettuce beds in smart agriculture.
+270. Precision spraying robot for nurseries in smart agriculture.
+271. Greenhouse mobile robot for strawberry farms in smart agriculture.
+272. Greenhouse mobile robot for tomato greenhouses in smart agriculture.
+273. Greenhouse mobile robot for orchards in smart agriculture.
+274. Greenhouse mobile robot for lettuce beds in smart agriculture.
+275. Greenhouse mobile robot for nurseries in smart agriculture.
+276. SLAM navigation for strawberry farms in smart agriculture.
+277. SLAM navigation for tomato greenhouses in smart agriculture.
+278. SLAM navigation for orchards in smart agriculture.
+279. SLAM navigation for lettuce beds in smart agriculture.
+280. SLAM navigation for nurseries in smart agriculture.
+281. Soft gripper harvesting for strawberry farms in smart agriculture.
+282. Soft gripper harvesting for tomato greenhouses in smart agriculture.
+283. Soft gripper harvesting for orchards in smart agriculture.
+284. Soft gripper harvesting for lettuce beds in smart agriculture.
+285. Soft gripper harvesting for nurseries in smart agriculture.
+286. Automated pruning for strawberry farms in smart agriculture.
+287. Automated pruning for tomato greenhouses in smart agriculture.
+288. Automated pruning for orchards in smart agriculture.
+289. Automated pruning for lettuce beds in smart agriculture.
+290. Automated pruning for nurseries in smart agriculture.
+291. Field robot path planning for strawberry farms in smart agriculture.
+292. Field robot path planning for tomato greenhouses in smart agriculture.
+293. Field robot path planning for orchards in smart agriculture.
+294. Field robot path planning for lettuce beds in smart agriculture.
+295. Field robot path planning for nurseries in smart agriculture.
+296. Human-robot safety assessment for strawberry farms in smart agriculture.
+297. Human-robot safety assessment for tomato greenhouses in smart agriculture.
+298. Human-robot safety assessment for orchards in smart agriculture.
+299. Human-robot safety assessment for lettuce beds in smart agriculture.
+300. Human-robot safety assessment for nurseries in smart agriculture.
+
+CATEGORY 7 — Yield Prediction and Decision Support (50 TOPICS)
+301. Machine learning yield forecasting for rice production in smart agriculture.
+302. Machine learning yield forecasting for maize production in smart agriculture.
+303. Machine learning yield forecasting for soybean production in smart agriculture.
+304. Machine learning yield forecasting for vegetable production in smart agriculture.
+305. Machine learning yield forecasting for fruit production in smart agriculture.
+306. Weather-risk decision support for rice production in smart agriculture.
+307. Weather-risk decision support for maize production in smart agriculture.
+308. Weather-risk decision support for soybean production in smart agriculture.
+309. Weather-risk decision support for vegetable production in smart agriculture.
+310. Weather-risk decision support for fruit production in smart agriculture.
+311. Fertilizer recommendation modelling for rice production in smart agriculture.
+312. Fertilizer recommendation modelling for maize production in smart agriculture.
+313. Fertilizer recommendation modelling for soybean production in smart agriculture.
+314. Fertilizer recommendation modelling for vegetable production in smart agriculture.
+315. Fertilizer recommendation modelling for fruit production in smart agriculture.
+316. Crop rotation optimization for rice production in smart agriculture.
+317. Crop rotation optimization for maize production in smart agriculture.
+318. Crop rotation optimization for soybean production in smart agriculture.
+319. Crop rotation optimization for vegetable production in smart agriculture.
+320. Crop rotation optimization for fruit production in smart agriculture.
+321. Market-aware harvest planning for rice production in smart agriculture.
+322. Market-aware harvest planning for maize production in smart agriculture.
+323. Market-aware harvest planning for soybean production in smart agriculture.
+324. Market-aware harvest planning for vegetable production in smart agriculture.
+325. Market-aware harvest planning for fruit production in smart agriculture.
+326. Bayesian yield uncertainty for rice production in smart agriculture.
+327. Bayesian yield uncertainty for maize production in smart agriculture.
+328. Bayesian yield uncertainty for soybean production in smart agriculture.
+329. Bayesian yield uncertainty for vegetable production in smart agriculture.
+330. Bayesian yield uncertainty for fruit production in smart agriculture.
+331. Digital twin simulation for rice production in smart agriculture.
+332. Digital twin simulation for maize production in smart agriculture.
+333. Digital twin simulation for soybean production in smart agriculture.
+334. Digital twin simulation for vegetable production in smart agriculture.
+335. Digital twin simulation for fruit production in smart agriculture.
+336. Farm profitability analytics for rice production in smart agriculture.
+337. Farm profitability analytics for maize production in smart agriculture.
+338. Farm profitability analytics for soybean production in smart agriculture.
+339. Farm profitability analytics for vegetable production in smart agriculture.
+340. Farm profitability analytics for fruit production in smart agriculture.
+341. Climate-smart advisory for rice production in smart agriculture.
+342. Climate-smart advisory for maize production in smart agriculture.
+343. Climate-smart advisory for soybean production in smart agriculture.
+344. Climate-smart advisory for vegetable production in smart agriculture.
+345. Climate-smart advisory for fruit production in smart agriculture.
+346. Early warning dashboard for rice production in smart agriculture.
+347. Early warning dashboard for maize production in smart agriculture.
+348. Early warning dashboard for soybean production in smart agriculture.
+349. Early warning dashboard for vegetable production in smart agriculture.
+350. Early warning dashboard for fruit production in smart agriculture.
+
+CATEGORY 8 — Smart Livestock and Aquaculture Integration (50 TOPICS)
+351. Wearable health monitoring for dairy cattle in smart agriculture.
+352. Wearable health monitoring for broiler farms in smart agriculture.
+353. Wearable health monitoring for shrimp ponds in smart agriculture.
+354. Wearable health monitoring for tilapia cages in smart agriculture.
+355. Wearable health monitoring for goat farms in smart agriculture.
+356. Automated feeding control for dairy cattle in smart agriculture.
+357. Automated feeding control for broiler farms in smart agriculture.
+358. Automated feeding control for shrimp ponds in smart agriculture.
+359. Automated feeding control for tilapia cages in smart agriculture.
+360. Automated feeding control for goat farms in smart agriculture.
+361. Behavior anomaly detection for dairy cattle in smart agriculture.
+362. Behavior anomaly detection for broiler farms in smart agriculture.
+363. Behavior anomaly detection for shrimp ponds in smart agriculture.
+364. Behavior anomaly detection for tilapia cages in smart agriculture.
+365. Behavior anomaly detection for goat farms in smart agriculture.
+366. Water quality prediction for dairy cattle in smart agriculture.
+367. Water quality prediction for broiler farms in smart agriculture.
+368. Water quality prediction for shrimp ponds in smart agriculture.
+369. Water quality prediction for tilapia cages in smart agriculture.
+370. Water quality prediction for goat farms in smart agriculture.
+371. Methane emission tracking for dairy cattle in smart agriculture.
+372. Methane emission tracking for broiler farms in smart agriculture.
+373. Methane emission tracking for shrimp ponds in smart agriculture.
+374. Methane emission tracking for tilapia cages in smart agriculture.
+375. Methane emission tracking for goat farms in smart agriculture.
+376. Computer vision body scoring for dairy cattle in smart agriculture.
+377. Computer vision body scoring for broiler farms in smart agriculture.
+378. Computer vision body scoring for shrimp ponds in smart agriculture.
+379. Computer vision body scoring for tilapia cages in smart agriculture.
+380. Computer vision body scoring for goat farms in smart agriculture.
+381. Estrus detection for dairy cattle in smart agriculture.
+382. Estrus detection for broiler farms in smart agriculture.
+383. Estrus detection for shrimp ponds in smart agriculture.
+384. Estrus detection for tilapia cages in smart agriculture.
+385. Estrus detection for goat farms in smart agriculture.
+386. Fish biomass estimation for dairy cattle in smart agriculture.
+387. Fish biomass estimation for broiler farms in smart agriculture.
+388. Fish biomass estimation for shrimp ponds in smart agriculture.
+389. Fish biomass estimation for tilapia cages in smart agriculture.
+390. Fish biomass estimation for goat farms in smart agriculture.
+391. Disease outbreak alerting for dairy cattle in smart agriculture.
+392. Disease outbreak alerting for broiler farms in smart agriculture.
+393. Disease outbreak alerting for shrimp ponds in smart agriculture.
+394. Disease outbreak alerting for tilapia cages in smart agriculture.
+395. Disease outbreak alerting for goat farms in smart agriculture.
+396. Precision grazing management for dairy cattle in smart agriculture.
+397. Precision grazing management for broiler farms in smart agriculture.
+398. Precision grazing management for shrimp ponds in smart agriculture.
+399. Precision grazing management for tilapia cages in smart agriculture.
+400. Precision grazing management for goat farms in smart agriculture.
+
+CATEGORY 9 — Data Platforms, Connectivity, and Cybersecurity (50 TOPICS)
+401. Farm data interoperability for smallholder cooperatives in smart agriculture.
+402. Farm data interoperability for smart greenhouses in smart agriculture.
+403. Farm data interoperability for rice supply chains in smart agriculture.
+404. Farm data interoperability for organic farms in smart agriculture.
+405. Farm data interoperability for export horticulture in smart agriculture.
+406. Blockchain traceability for smallholder cooperatives in smart agriculture.
+407. Blockchain traceability for smart greenhouses in smart agriculture.
+408. Blockchain traceability for rice supply chains in smart agriculture.
+409. Blockchain traceability for organic farms in smart agriculture.
+410. Blockchain traceability for export horticulture in smart agriculture.
+411. Privacy-preserving analytics for smallholder cooperatives in smart agriculture.
+412. Privacy-preserving analytics for smart greenhouses in smart agriculture.
+413. Privacy-preserving analytics for rice supply chains in smart agriculture.
+414. Privacy-preserving analytics for organic farms in smart agriculture.
+415. Privacy-preserving analytics for export horticulture in smart agriculture.
+416. Cyberattack detection for smallholder cooperatives in smart agriculture.
+417. Cyberattack detection for smart greenhouses in smart agriculture.
+418. Cyberattack detection for rice supply chains in smart agriculture.
+419. Cyberattack detection for organic farms in smart agriculture.
+420. Cyberattack detection for export horticulture in smart agriculture.
+421. Offline-first mobile advisory for smallholder cooperatives in smart agriculture.
+422. Offline-first mobile advisory for smart greenhouses in smart agriculture.
+423. Offline-first mobile advisory for rice supply chains in smart agriculture.
+424. Offline-first mobile advisory for organic farms in smart agriculture.
+425. Offline-first mobile advisory for export horticulture in smart agriculture.
+426. API integration platform for smallholder cooperatives in smart agriculture.
+427. API integration platform for smart greenhouses in smart agriculture.
+428. API integration platform for rice supply chains in smart agriculture.
+429. API integration platform for organic farms in smart agriculture.
+430. API integration platform for export horticulture in smart agriculture.
+431. Federated learning for smallholder cooperatives in smart agriculture.
+432. Federated learning for smart greenhouses in smart agriculture.
+433. Federated learning for rice supply chains in smart agriculture.
+434. Federated learning for organic farms in smart agriculture.
+435. Federated learning for export horticulture in smart agriculture.
+436. Cloud-edge architecture for smallholder cooperatives in smart agriculture.
+437. Cloud-edge architecture for smart greenhouses in smart agriculture.
+438. Cloud-edge architecture for rice supply chains in smart agriculture.
+439. Cloud-edge architecture for organic farms in smart agriculture.
+440. Cloud-edge architecture for export horticulture in smart agriculture.
+441. Data quality governance for smallholder cooperatives in smart agriculture.
+442. Data quality governance for smart greenhouses in smart agriculture.
+443. Data quality governance for rice supply chains in smart agriculture.
+444. Data quality governance for organic farms in smart agriculture.
+445. Data quality governance for export horticulture in smart agriculture.
+446. Digital identity for farmers for smallholder cooperatives in smart agriculture.
+447. Digital identity for farmers for smart greenhouses in smart agriculture.
+448. Digital identity for farmers for rice supply chains in smart agriculture.
+449. Digital identity for farmers for organic farms in smart agriculture.
+450. Digital identity for farmers for export horticulture in smart agriculture.
+
+CATEGORY 10 — Sustainability and Climate-Smart Agriculture (50 TOPICS)
+451. Carbon sequestration monitoring for rice systems in smart agriculture.
+452. Carbon sequestration monitoring for maize systems in smart agriculture.
+453. Carbon sequestration monitoring for coffee farms in smart agriculture.
+454. Carbon sequestration monitoring for horticulture farms in smart agriculture.
+455. Carbon sequestration monitoring for mixed farming systems in smart agriculture.
+456. Climate resilience modelling for rice systems in smart agriculture.
+457. Climate resilience modelling for maize systems in smart agriculture.
+458. Climate resilience modelling for coffee farms in smart agriculture.
+459. Climate resilience modelling for horticulture farms in smart agriculture.
+460. Climate resilience modelling for mixed farming systems in smart agriculture.
+461. Nitrogen loss reduction for rice systems in smart agriculture.
+462. Nitrogen loss reduction for maize systems in smart agriculture.
+463. Nitrogen loss reduction for coffee farms in smart agriculture.
+464. Nitrogen loss reduction for horticulture farms in smart agriculture.
+465. Nitrogen loss reduction for mixed farming systems in smart agriculture.
+466. Regenerative practice tracking for rice systems in smart agriculture.
+467. Regenerative practice tracking for maize systems in smart agriculture.
+468. Regenerative practice tracking for coffee farms in smart agriculture.
+469. Regenerative practice tracking for horticulture farms in smart agriculture.
+470. Regenerative practice tracking for mixed farming systems in smart agriculture.
+471. Biodiversity indicator mapping for rice systems in smart agriculture.
+472. Biodiversity indicator mapping for maize systems in smart agriculture.
+473. Biodiversity indicator mapping for coffee farms in smart agriculture.
+474. Biodiversity indicator mapping for horticulture farms in smart agriculture.
+475. Biodiversity indicator mapping for mixed farming systems in smart agriculture.
+476. Water footprint analytics for rice systems in smart agriculture.
+477. Water footprint analytics for maize systems in smart agriculture.
+478. Water footprint analytics for coffee farms in smart agriculture.
+479. Water footprint analytics for horticulture farms in smart agriculture.
+480. Water footprint analytics for mixed farming systems in smart agriculture.
+481. Renewable-powered sensors for rice systems in smart agriculture.
+482. Renewable-powered sensors for maize systems in smart agriculture.
+483. Renewable-powered sensors for coffee farms in smart agriculture.
+484. Renewable-powered sensors for horticulture farms in smart agriculture.
+485. Renewable-powered sensors for mixed farming systems in smart agriculture.
+486. Agroforestry monitoring for rice systems in smart agriculture.
+487. Agroforestry monitoring for maize systems in smart agriculture.
+488. Agroforestry monitoring for coffee farms in smart agriculture.
+489. Agroforestry monitoring for horticulture farms in smart agriculture.
+490. Agroforestry monitoring for mixed farming systems in smart agriculture.
+491. Heat stress adaptation for rice systems in smart agriculture.
+492. Heat stress adaptation for maize systems in smart agriculture.
+493. Heat stress adaptation for coffee farms in smart agriculture.
+494. Heat stress adaptation for horticulture farms in smart agriculture.
+495. Heat stress adaptation for mixed farming systems in smart agriculture.
+496. Sustainable certification automation for rice systems in smart agriculture.
+497. Sustainable certification automation for maize systems in smart agriculture.
+498. Sustainable certification automation for coffee farms in smart agriculture.
+499. Sustainable certification automation for horticulture farms in smart agriculture.
+500. Sustainable certification automation for mixed farming systems in smart agriculture.

@@ -1,0 +1,642 @@
+================================================================================
+TOPIC GUIDE — International Relations (Hubungan Internasional)
+================================================================================
+FIELD: Social Sciences / International Relations
+DEFAULT CITATION STYLE: APA
+SUBDISCIPLINE: ASEAN & Regional Cooperation, Foreign Policy Analysis, International Political Economy, Security Studies, Diplomacy, Global Governance, Human Rights, Maritime Security
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title (specific, with method and domain)
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Qualitative case study (Yin, 2018) for in-depth foreign policy analysis
+   - Process tracing (Beach & Pedersen) for causal mechanism identification
+   - Discourse analysis (Fairclough, Laclau & Mouffe) for narrative and identity
+   - Content analysis: systematic coding of treaties, speeches, media
+   - Game theory: strategic interaction modeling in international negotiations
+   - Constructivism: norm diffusion, identity formation, social construction
+   - Liberalism: institutional cooperation, democratic peace, interdependence
+   - Realism: balance of power, security dilemma, hegemonic stability
+   - Foreign policy analysis: decision-making models, bureaucratic politics, two-level games
+   - Comparative foreign policy: cross-national policy comparison
+   - Network analysis: alliance networks, diplomatic networks, trade networks
+   - Mixed methods: combining qualitative depth with quantitative breadth
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics with statistical measures
+   - Comparison with baselines
+   - All numbers realistic and internally consistent
+
+5. MATHEMATICAL FORMULAS (where applicable):
+   - Trade Intensity Index: TII = (Xij/Xi) / (Xwj/Xw) where X = exports
+   - Composite Index of National Capability (CINC): military, economic, demographic
+   - Alliance reliability coefficient calculation
+   - Game theory payoff matrices for strategic interaction
+   - Gravity model of trade: ln(Tij) = B0 + B1*ln(GDPi) + B2*ln(GDPj) - B3*ln(Dij) + e
+   - Power transition ratio: PTR = GDP_rising / GDP_dominant
+   - Diplomatic exchange index calculation
+   - Network centrality measures for diplomatic networks
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian foreign policy/international context
+   - Reference to ASEAN centrality, South China Sea, palm oil diplomacy, G20, Indo-Pacific
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords, Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+ABSTRACT CHARACTERISTICS:
+  200-250 words. Reports: international phenomenon studied (diplomatic relations, security dynamics, trade patterns, multilateral cooperation), theoretical framework, methodology, unit of analysis, key findings, and implications for Indonesian foreign policy or international order.
+
+INTRODUCTION ELEMENTS:
+  - Context: shifting global order, Indo-Pacific dynamics, ASEAN centrality, Indonesian middle power diplomacy
+  - Theoretical framework: realism (Waltz, Mearsheimer), liberalism (Keohane, Nye), constructivism (Wendt), English School
+  - Research gap: understudied Indonesian perspective, new geopolitical dynamics, post-pandemic international order
+  - Research question with clear international relations variables
+
+LITERATURE REVIEW:
+  Common section name: "Tinjauan Pustaka" / "Literature Review"
+  - IR theories: realism, liberalism, constructivism, English School, post-colonialism
+  - Regional studies: ASEAN, Indo-Pacific, South China Sea, regional architecture
+  - Foreign policy: Indonesian foreign policy doctrine, bebas-aktif, middle power diplomacy
+  - Security studies: traditional security, non-traditional security, human security
+  - International political economy: trade, investment, development, global governance
+  - Indonesian context: ASEAN centrality, G20 presidency, palm oil diplomacy, maritime axis
+
+METHODOLOGY:
+  Common section name: "Metode Penelitian" / "Research Methodology"
+  - Qualitative: case study, process tracing, discourse analysis, historical analysis
+  - Comparative: cross-national comparison, most similar/different system design
+  - Quantitative: content analysis, event data analysis, gravity model, network analysis
+  - Data sources: treaties, diplomatic documents, UN voting records, trade data, speeches
+  - Sampling: case selection criteria, temporal scope, geographic scope
+  - Analysis: thematic analysis, discourse analysis, process tracing, game theory modeling
+
+TYPICAL RESULTS & DISCUSSION:
+  - Trade data: bilateral trade volume (USD billion), trade balance, FDI flows
+  - Security indicators: military spending (% GDP), arms transfers, conflict events
+  - Diplomatic indicators: embassy networks, treaty ratification, UN voting alignment
+  - Governance indicators: WGI, Freedom House, V-Dem scores for comparative analysis
+  - ASEAN indicators: intra-ASEAN trade share, ASEAN centrality metrics
+  Tables: bilateral comparison, treaty compliance, trade flow matrices
+  Figures: network diagrams, time series of diplomatic events, geopolitical maps
+
+COMMON REFERENCE VENUES:
+  International Organization, World Politics, International Security,
+  Review of International Studies, The Pacific Review, Contemporary Southeast Asia,
+  Asian Survey, Journal of Southeast Asian Studies, Foreign Affairs,
+  Indonesian Journal of International Law, Global: Jurnal Politik Internasional
+
+DOMAIN VOCABULARY:
+  sovereignty, multilateralism, bilateralism, diplomacy, alliance, balance of power,
+  security dilemma, collective security, non-intervention, ASEAN Way,
+  bebas-aktif (free and active), middle power, norm entrepreneur,
+  Indo-Pacific, South China Sea, maritime security, trade liberalization,
+  global governance, international regime, soft power, public diplomacy
+
+INDONESIAN CONTEXT:
+  - ASEAN Centrality: Indonesia as ASEAN founder, ASEAN Chair 2023, regional leadership
+  - South China Sea: Natuna waters, UNCLOS, Code of Conduct negotiations
+  - Palm Oil Diplomacy: EU deforestation regulation, trade disputes, sustainability certification
+  - G20: Indonesia G20 Presidency 2022, development agenda, digital economy
+  - Indo-Pacific: ASEAN Outlook on Indo-Pacific (AOIP), inclusive regional architecture
+  - Maritime Axis: Jokowi's Global Maritime Fulcrum, maritime security, IUU fishing
+  - Bebas-Aktif: free and active foreign policy doctrine, non-alignment, bridge-building
+  - Bilateral Relations: US-China competition, Australia, Japan, Middle East, Pacific Islands
+
+================================================================================
+RESEARCH TOPIC BANK — 500 TOPICS
+================================================================================
+
+CATEGORY 1: ASEAN & REGIONAL COOPERATION (001-050)
+001. ASEAN centrality in Indo-Pacific architecture: Indonesia's leadership role and institutional design
+002. ASEAN economic integration and trade facilitation: AEC Blueprint 2025 implementation assessment
+003. ASEAN political-security community and conflict management: South China Sea dispute governance
+004. ASEAN digital economy framework: Cross-border data governance and e-commerce regulation
+005. ASEAN connectivity and infrastructure development: Master Plan on ASEAN Connectivity evaluation
+006. ASEAN human rights mechanism: AICHR effectiveness and institutional reform prospects
+007. ASEAN-China relations and strategic competition: Hedging strategy of Southeast Asian states
+008. ASEAN pandemic response and health cooperation: COVID-19 governance and vaccine diplomacy
+009. ASEAN environmental cooperation: Transboundary haze governance and climate action
+010. ASEAN maritime cooperation: Maritime security and freedom of navigation
+011. ASEAN-EU strategic partnership: Trade, values, and geopolitical alignment
+012. ASEAN youth engagement: People-to-people connectivity and regional identity formation
+013. ASEAN dispute settlement mechanism: Effectiveness and reform proposals
+014. ASEAN-Japan comprehensive strategic partnership: Economic cooperation and security ties
+015. ASEAN food security cooperation: Regional reserve and supply chain governance
+016. ASEAN counter-terrorism cooperation: Information sharing and capacity building
+017. ASEAN-India relations: Act East policy and Indo-Pacific convergence
+018. ASEAN digital transformation: Smart city network and digital governance cooperation
+019. ASEAN labor mobility: Mutual recognition arrangement implementation and challenges
+020. ASEAN-Australia-New Zealand FTA: Trade liberalization impact and upgrade assessment
+021. ASEAN institutional reform: Decision-making process and organizational effectiveness
+022. ASEAN-Korea cooperation: New Southern Policy and economic partnership
+023. ASEAN disaster management: AHA Centre effectiveness and regional resilience
+024. ASEAN-US relations: Strategic competition and engagement strategy
+025. ASEAN financial integration: Banking integration framework and capital market development
+026. ASEAN cultural cooperation: Heritage preservation and creative economy collaboration
+027. ASEAN-Russia relations: Strategic partnership and arms trade dynamics
+028. ASEAN education cooperation: Student mobility and qualification recognition
+029. ASEAN energy cooperation: ASEAN Power Grid and energy transition
+030. ASEAN-UK post-Brexit relations: Dialogue partnership and trade prospects
+031. ASEAN supply chain resilience: Regional value chain and economic security
+032. ASEAN gender mainstreaming: Women, peace, and security agenda implementation
+033. ASEAN-Middle East relations: Economic diplomacy and labor migration governance
+034. ASEAN science and technology cooperation: Innovation ecosystem and R&D collaboration
+035. ASEAN maritime domain awareness: Information sharing and naval cooperation
+036. ASEAN-Pacific Islands engagement: Climate solidarity and development cooperation
+037. ASEAN investment facilitation: Investment protection and dispute resolution
+038. ASEAN health security: Regional disease surveillance and preparedness
+039. ASEAN-Canada relations: Comprehensive partnership and trade diversification
+040. ASEAN sustainable development: SDGs implementation and regional monitoring
+041. ASEAN cyber security cooperation: Norms development and capacity building
+042. ASEAN-GCC relations: Energy security and labor migration governance
+043. ASEAN small and medium enterprise cooperation: Cross-border business facilitation
+044. ASEAN space cooperation: Satellite technology and disaster monitoring
+045. ASEAN water governance: Mekong cooperation and transboundary water management
+046. ASEAN-Latin America relations: South-South cooperation and trade diversification
+047. ASEAN intellectual property cooperation: Innovation protection and technology transfer
+048. ASEAN blue economy: Maritime economic cooperation and ocean governance
+049. ASEAN post-2025 vision: Future regional architecture and integration trajectory
+050. ASEAN and global governance reform: Collective voice in multilateral institutions
+
+CATEGORY 2: INDONESIAN FOREIGN POLICY (051-100)
+051. Indonesia's bebas-aktif foreign policy in multipolar world: Doctrine adaptation and practice
+052. Indonesian middle power diplomacy: Bridge-building role in US-China competition
+053. Indonesia's G20 presidency legacy: Development agenda and institutional contribution
+054. Indonesian maritime axis policy: Implementation assessment and strategic outcomes
+055. Indonesia's climate diplomacy: NDC commitment and international negotiation strategy
+056. Indonesian economic diplomacy: Trade promotion and investment attraction strategy
+057. Indonesia's role in Palestine solidarity: Diplomatic advocacy and humanitarian support
+058. Indonesian diaspora diplomacy: Overseas community engagement and soft power
+059. Indonesia's defense diplomacy: Military cooperation and arms procurement strategy
+060. Indonesian cultural diplomacy: Soft power projection through arts and heritage
+061. Indonesia's multilateral diplomacy: UN Security Council non-permanent membership strategy
+062. Indonesian health diplomacy: Vaccine sovereignty and global health governance
+063. Indonesia's digital diplomacy: Social media and public diplomacy innovation
+064. Indonesian energy diplomacy: Resource governance and energy transition cooperation
+065. Indonesia's humanitarian diplomacy: Disaster response and peacekeeping contribution
+066. Indonesian trade diplomacy: FTA negotiation strategy and market access
+067. Indonesia's education diplomacy: Scholarship programs and knowledge exchange
+068. Indonesian religious diplomacy: Moderate Islam promotion and interfaith dialogue
+069. Indonesia's environmental diplomacy: Forest governance and carbon market participation
+070. Indonesian parliamentary diplomacy: DPR role in foreign policy and inter-parliamentary cooperation
+071. Indonesia's sub-national diplomacy: City and province international cooperation
+072. Indonesian food diplomacy: Agricultural trade and food security cooperation
+073. Indonesia's space diplomacy: Satellite technology and international space cooperation
+074. Indonesian sports diplomacy: Mega-event hosting and international image building
+075. Indonesia's nuclear diplomacy: Non-proliferation commitment and peaceful use advocacy
+076. Indonesian migration diplomacy: Overseas worker protection and bilateral agreements
+077. Indonesia's ocean diplomacy: UNCLOS advocacy and maritime boundary negotiation
+078. Indonesian technology diplomacy: Digital economy cooperation and tech governance
+079. Indonesia's counter-terrorism diplomacy: International cooperation and norm promotion
+080. Indonesian investment diplomacy: Sovereign wealth fund and international capital attraction
+081. Indonesia's ASEAN leadership: Chair role and regional agenda setting
+082. Indonesian biodiversity diplomacy: Conservation cooperation and benefit sharing
+083. Indonesia's infrastructure diplomacy: Belt and Road participation and alternative partnerships
+084. Indonesian youth diplomacy: Young diplomat development and youth exchange programs
+085. Indonesia's pandemic diplomacy: International cooperation during health crisis
+086. Indonesian creative economy diplomacy: Cultural industry promotion abroad
+087. Indonesia's Indo-Pacific strategy: AOIP implementation and regional architecture
+088. Indonesian fisheries diplomacy: IUU fishing governance and bilateral cooperation
+089. Indonesia's human rights diplomacy: UPR engagement and international advocacy
+090. Indonesian tourism diplomacy: Destination branding and international visitor attraction
+091. Indonesia's development cooperation: South-South and triangular cooperation
+092. Indonesian mineral diplomacy: Critical mineral governance and supply chain politics
+093. Indonesia's cyber diplomacy: Internet governance and digital sovereignty
+094. Indonesian halal diplomacy: Global halal standard and market development
+095. Indonesia's disaster diplomacy: Humanitarian assistance and disaster relief cooperation
+096. Indonesian automotive diplomacy: Electric vehicle industry and international partnership
+097. Indonesia's capital city diplomacy: Nusantara (IKN) international engagement
+098. Indonesian palm oil diplomacy: Sustainability narrative and trade dispute management
+099. Indonesia's vaccine diplomacy: Bio Farma and global health contribution
+100. Indonesian foreign policy future: Emerging challenges and strategic adaptation
+
+CATEGORY 3: INTERNATIONAL POLITICAL ECONOMY (101-150)
+101. Global value chain restructuring and Indonesian manufacturing: Supply chain diversification opportunity
+102. Digital trade governance and Indonesian e-commerce: Cross-border data flow regulation
+103. RCEP implementation and Indonesian trade competitiveness: Sectoral impact analysis
+104. International financial architecture reform: Indonesian voice in IMF and World Bank governance
+105. Global commodity market and Indonesian economy: Palm oil, nickel, and coal price dynamics
+106. International investment regime and Indonesian sovereignty: BIT reform and ISDS alternatives
+107. Global tax governance and Indonesian fiscal policy: BEPS implementation and digital tax
+108. International development finance: Chinese lending vs. traditional donors in Indonesia
+109. Global supply chain resilience and Indonesian industrial policy: Downstream strategy assessment
+110. International trade dispute and Indonesian interests: WTO reform and dispute settlement
+111. Global financial technology regulation: Cross-border fintech governance and Indonesian market
+112. International labor standards and Indonesian trade: Social clause and labor rights compliance
+113. Global energy transition and Indonesian economy: Stranded assets and just transition
+114. International intellectual property regime: TRIPS flexibility and Indonesian pharmaceutical access
+115. Global food system governance: Indonesian food sovereignty and international trade
+116. International monetary system and Indonesian rupiah: Exchange rate management strategy
+117. Global debt governance: Indonesian sovereign debt management and sustainability
+118. International competition policy: Cross-border merger regulation and Indonesian market
+119. Global digital economy governance: Platform regulation and Indonesian digital sovereignty
+120. International environmental governance: Carbon market and Indonesian REDD+ participation
+121. Global health governance and Indonesian pharmaceutical industry: TRIPS waiver and local production
+122. International trade facilitation: Indonesian customs modernization and trade cost reduction
+123. Global infrastructure finance: Indonesian participation in multilateral development banks
+124. International agricultural trade: Indonesian palm oil and EU deforestation regulation
+125. Global financial stability and Indonesian banking: Basel III implementation and systemic risk
+126. International technology transfer: FDI spillover and Indonesian industrial upgrading
+127. Global maritime trade and Indonesian shipping: Cabotage policy and international competitiveness
+128. International tourism economy: Post-pandemic recovery and Indonesian destination competitiveness
+129. Global creative economy: Indonesian cultural industry in international market
+130. International fisheries economy: Indonesian seafood trade and sustainability certification
+131. Global electric vehicle supply chain: Indonesian nickel and battery industry positioning
+132. International halal economy: Indonesian halal certification and global market access
+133. Global carbon pricing: Indonesian carbon tax and international carbon market linkage
+134. International SME internationalization: Indonesian MSME access to global market
+135. Global pharmaceutical supply chain: Indonesian vaccine production and health security
+136. International renewable energy trade: Indonesian geothermal and solar energy export potential
+137. Global digital payment: Indonesian fintech and cross-border payment interoperability
+138. International education market: Indonesian higher education internationalization strategy
+139. Global startup ecosystem: Indonesian unicorn and international venture capital
+140. International mineral governance: Indonesian nickel export ban and downstream policy
+141. Global fashion industry: Indonesian textile and garment in sustainable fashion supply chain
+142. International coffee trade: Indonesian specialty coffee and fair trade governance
+143. Global aviation industry: Indonesian airline and international air transport governance
+144. International real estate investment: Foreign ownership regulation and Indonesian property market
+145. Global sports economy: Indonesian sports industry and international event hosting
+146. International media market: Indonesian content industry and global streaming platform
+147. Global circular economy: Indonesian waste trade and recycling industry governance
+148. International space economy: Indonesian satellite industry and commercial space governance
+149. Global blue economy: Indonesian maritime economic zone and international cooperation
+150. International political economy future: Deglobalization, regionalization, and Indonesian strategy
+
+CATEGORY 4: SECURITY STUDIES & DEFENSE (151-200)
+151. South China Sea security dynamics: Indonesian response to Chinese assertiveness in Natuna
+152. Indo-Pacific security architecture: AUKUS impact on ASEAN centrality and Indonesian position
+153. Indonesian defense modernization: Military capability development and strategic autonomy
+154. Non-traditional security threats: Transnational crime governance in Southeast Asia
+155. Maritime security in Indonesian waters: IUU fishing enforcement and naval capacity
+156. Cybersecurity and national defense: Indonesian cyber defense strategy and capability
+157. Terrorism and violent extremism: Indonesian counter-terrorism cooperation and prevention
+158. Food security as national security: Indonesian food sovereignty and import dependency
+159. Energy security and geopolitics: Indonesian energy mix and supply diversification
+160. Climate security and Indonesian vulnerability: Sea level rise and security implications
+161. Health security governance: Pandemic preparedness and biosecurity framework
+162. Nuclear security in Southeast Asia: Non-proliferation regime and Indonesian commitment
+163. Space security and Indonesian interests: Satellite vulnerability and space governance
+164. Human security approach in Indonesian defense policy: People-centered security framework
+165. Arms trade and Indonesian defense procurement: Supplier diversification and technology transfer
+166. Intelligence cooperation and information sharing: Five Eyes, ASEAN, and Indonesian position
+167. Border security and sovereignty: Indonesian land and maritime boundary management
+168. Disaster security and military role: TNI humanitarian assistance and disaster relief
+169. Economic security and supply chain: Critical infrastructure protection strategy
+170. Water security and transboundary governance: Indonesian river basin and maritime resources
+171. Indonesian peacekeeping contribution: UN mission participation and capacity building
+172. Defense industry development: Indonesian military-industrial complex and self-reliance
+173. Regional security architecture: ADMM-Plus and multilateral defense cooperation
+174. Proxy conflict and Indonesian security: Middle East dynamics and domestic radicalization
+175. Drone warfare and autonomous weapons: Indonesian position on lethal autonomous systems
+176. Private military and security companies: Governance framework in Indonesian context
+177. Hybrid warfare and gray zone operations: Indonesian preparedness and response
+178. Critical mineral security: Nickel, rare earth, and strategic resource governance
+179. Biological security and dual-use research: Indonesian biosafety and biosecurity governance
+180. Information warfare and cognitive security: Disinformation threat to Indonesian democracy
+181. Alliance politics and Indonesian non-alignment: Navigating great power competition
+182. Defense diplomacy and military-to-military relations: Indonesian bilateral defense cooperation
+183. Maritime domain awareness: Indonesian surveillance capability and information sharing
+184. Refugee and migration security: Indonesian response to regional displacement
+185. Organized crime and security governance: Drug trafficking and human smuggling routes
+186. Environmental security and conflict: Resource scarcity and conflict potential in Indonesia
+187. Technology security and espionage: Cyber espionage threat to Indonesian government
+188. Supply chain security and economic warfare: Indonesian vulnerability to trade weaponization
+189. Radicalization and prison governance: Deradicalization program in Indonesian corrections
+190. Security sector reform: Indonesian military and police reform post-reformasi
+191. Deterrence strategy and Indonesian defense: Minimum essential force and credible deterrence
+192. Security cooperation and burden sharing: Indonesian contribution to regional security
+193. Conflict prevention and early warning: Indonesian mechanism for regional stability
+194. Defense budget and military readiness: Indonesian defense spending adequacy analysis
+195. Security governance and democratic oversight: Parliamentary control of Indonesian military
+196. Emerging technology and security: AI, quantum computing, and Indonesian defense
+197. Pandemic security and civil-military relations: TNI role during health emergency
+198. Security community building: ASEAN security community progress and challenges
+199. Indonesian security identity: Strategic culture and defense policy orientation
+200. Future security challenges: Anticipating next-generation threats to Indonesian security
+
+CATEGORY 5: DIPLOMACY & NEGOTIATION (201-250)
+201. Indonesian diplomatic practice and negotiation style: Cultural factors in international bargaining
+202. Multilateral diplomacy and coalition building: Indonesian strategy in UN General Assembly
+203. Bilateral negotiation and agreement making: Indonesian FTA negotiation process analysis
+204. Track-two diplomacy and conflict resolution: Indonesian role in regional peace processes
+205. Economic diplomacy and trade negotiation: Indonesian commercial diplomacy effectiveness
+206. Environmental diplomacy and climate negotiation: Indonesian position in UNFCCC COP
+207. Digital diplomacy and public engagement: Indonesian MFA social media strategy
+208. Health diplomacy and pandemic negotiation: Indonesian role in WHO governance reform
+209. Maritime diplomacy and boundary negotiation: Indonesian maritime delimitation strategy
+210. Cultural diplomacy and soft power: Indonesian cultural promotion abroad
+211. Parliamentary diplomacy and inter-parliamentary cooperation: DPR international engagement
+212. Science diplomacy and research cooperation: Indonesian scientific collaboration networks
+213. Humanitarian diplomacy and disaster response: Indonesian HADR coordination
+214. Religious diplomacy and interfaith dialogue: Indonesian moderate Islam promotion
+215. Sports diplomacy and mega-event hosting: Indonesian international sporting engagement
+216. City diplomacy and sub-national relations: Indonesian city international cooperation
+217. Diaspora diplomacy and overseas engagement: Indonesian community abroad mobilization
+218. Nuclear diplomacy and non-proliferation: Indonesian role in disarmament negotiations
+219. Trade diplomacy and market access: Indonesian trade attaché effectiveness
+220. Investment diplomacy and capital attraction: Indonesian investment promotion strategy
+221. Consular diplomacy and citizen protection: Indonesian overseas worker protection
+222. Media diplomacy and international image: Indonesian nation branding strategy
+223. Youth diplomacy and exchange programs: Indonesian young diplomat development
+224. Food diplomacy and agricultural cooperation: Indonesian food security partnerships
+225. Technology diplomacy and digital governance: Indonesian role in internet governance
+226. Water diplomacy and transboundary cooperation: Indonesian river and maritime governance
+227. Education diplomacy and knowledge exchange: Indonesian scholarship and academic cooperation
+228. Defense diplomacy and military cooperation: Indonesian bilateral defense engagement
+229. Disaster diplomacy and humanitarian cooperation: Indonesian HADR leadership in region
+230. Climate diplomacy and green finance: Indonesian carbon market negotiation
+231. Health diplomacy and vaccine cooperation: Indonesian pharmaceutical diplomacy
+232. Space diplomacy and satellite cooperation: Indonesian space technology partnership
+233. Fisheries diplomacy and ocean governance: Indonesian sustainable fisheries negotiation
+234. Energy diplomacy and resource cooperation: Indonesian energy partnership strategy
+235. Migration diplomacy and labor governance: Indonesian bilateral labor agreement
+236. Counter-terrorism diplomacy and security cooperation: Indonesian CT partnership
+237. Intellectual property diplomacy: Indonesian position in WIPO and TRIPS negotiations
+238. Development diplomacy and South-South cooperation: Indonesian technical assistance
+239. Gender diplomacy and women's rights: Indonesian advocacy in international forums
+240. Indigenous diplomacy and rights advocacy: Indonesian position on indigenous peoples
+241. Cyber diplomacy and digital sovereignty: Indonesian internet governance position
+242. Mineral diplomacy and resource governance: Indonesian critical mineral strategy
+243. Tourism diplomacy and destination promotion: Indonesian tourism marketing abroad
+244. Creative economy diplomacy: Indonesian cultural industry international promotion
+245. Halal diplomacy and standard setting: Indonesian halal certification international recognition
+246. Automotive diplomacy and industrial cooperation: Indonesian EV industry partnership
+247. Infrastructure diplomacy and connectivity: Indonesian participation in BRI and alternatives
+248. Financial diplomacy and monetary cooperation: Indonesian role in regional financial architecture
+249. Diplomatic training and professional development: Indonesian diplomat capacity building
+250. Future of diplomacy: Digital transformation and Indonesian diplomatic adaptation
+
+CATEGORY 6: GLOBAL GOVERNANCE & MULTILATERALISM (251-300)
+251. United Nations reform and Indonesian position: Security Council expansion and governance
+252. Global health governance post-pandemic: WHO reform and Indonesian contribution
+253. Climate governance and Paris Agreement: Indonesian NDC implementation and ambition
+254. Global trade governance: WTO reform and Indonesian multilateral trade strategy
+255. International financial governance: IMF quota reform and developing country voice
+256. Global digital governance: Internet governance and Indonesian digital sovereignty
+257. Sustainable development governance: SDGs implementation and monitoring framework
+258. Global migration governance: GCM implementation and Indonesian migrant protection
+259. International criminal justice: ICC and Indonesian position on accountability
+260. Global nuclear governance: NPT review and Indonesian disarmament advocacy
+261. Ocean governance and UNCLOS: Indonesian maritime rights and obligations
+262. Global food governance: FAO reform and Indonesian food security contribution
+263. International humanitarian governance: Refugee protection and Indonesian response
+264. Global education governance: UNESCO and Indonesian education cooperation
+265. International labor governance: ILO standards and Indonesian compliance
+266. Global environmental governance: Biodiversity convention and Indonesian commitment
+267. International space governance: Outer space treaty and Indonesian space activities
+268. Global cyber governance: Budapest Convention and Indonesian cybercrime cooperation
+269. International disaster governance: Sendai Framework and Indonesian DRR implementation
+270. Global anti-corruption governance: UNCAC implementation and Indonesian compliance
+271. International human rights governance: UPR process and Indonesian engagement
+272. Global financial stability governance: FSB and Indonesian banking regulation
+273. International intellectual property governance: WIPO and Indonesian innovation protection
+274. Global energy governance: IEA/IRENA and Indonesian energy transition
+275. International aviation governance: ICAO and Indonesian air transport regulation
+276. Global maritime governance: IMO and Indonesian shipping regulation
+277. International telecommunications governance: ITU and Indonesian spectrum management
+278. Global health security governance: IHR implementation and Indonesian preparedness
+279. International trade facilitation governance: WCO and Indonesian customs modernization
+280. Global climate finance governance: GCF and Indonesian access to climate funding
+281. International development governance: OECD DAC and Indonesian development cooperation
+282. Global tax governance: OECD BEPS and Indonesian tax reform
+283. International competition governance: ICN and Indonesian antitrust cooperation
+284. Global data governance: Cross-border data flow and Indonesian data sovereignty
+285. International standards governance: ISO and Indonesian quality infrastructure
+286. Global supply chain governance: Due diligence regulation and Indonesian compliance
+287. International investment governance: ICSID reform and Indonesian BIT strategy
+288. Global forest governance: FLEGT and Indonesian timber legality assurance
+289. International fisheries governance: RFMO and Indonesian fisheries management
+290. Global plastic governance: Plastic treaty negotiation and Indonesian position
+291. International chemical governance: Rotterdam/Stockholm Convention and Indonesian compliance
+292. Global mineral governance: EITI and Indonesian extractive transparency
+293. International tourism governance: UNWTO and Indonesian tourism development
+294. Global sport governance: IOC/FIFA and Indonesian sports development
+295. International cultural governance: UNESCO heritage and Indonesian cultural protection
+296. Global youth governance: UN Youth and Indonesian youth participation
+297. International indigenous governance: UNDRIP and Indonesian indigenous rights
+298. Global gender governance: CEDAW and Indonesian women's rights implementation
+299. International disability governance: CRPD and Indonesian disability inclusion
+300. Global governance future: Multilateral reform and Indonesian strategic positioning
+
+CATEGORY 7: HUMAN RIGHTS & HUMANITARIAN ISSUES (301-350)
+301. Human rights protection in Indonesian foreign policy: Advocacy and selective engagement
+302. Refugee protection and Indonesian response: Non-refoulement and temporary shelter governance
+303. Migrant worker rights and bilateral governance: Indonesian overseas worker protection mechanism
+304. Indigenous peoples rights and international advocacy: Indonesian position on UNDRIP
+305. Freedom of expression and digital rights: Indonesian internet governance and censorship
+306. Women's rights and gender equality: CEDAW implementation in Indonesian context
+307. Children's rights and protection: CRC compliance and Indonesian child welfare
+308. Right to health and access to medicine: TRIPS flexibility and Indonesian pharmaceutical policy
+309. Environmental rights and climate justice: Indonesian vulnerability and adaptation rights
+310. Labor rights and decent work: ILO convention compliance in Indonesian industry
+311. Right to education and quality access: Indonesian education governance and equity
+312. Disability rights and inclusion: CRPD implementation in Indonesian policy
+313. Religious freedom and minority protection: Indonesian pluralism and tolerance governance
+314. Right to food and food sovereignty: Indonesian agricultural policy and international trade
+315. Housing rights and urban governance: Indonesian informal settlement and eviction
+316. LGBTQ+ rights and Indonesian position: International pressure and domestic politics
+317. Anti-torture and detention governance: Indonesian prison reform and oversight
+318. Right to privacy and surveillance: Indonesian data protection and intelligence oversight
+319. Business and human rights: Indonesian corporate accountability and due diligence
+320. Transitional justice and past violations: Indonesian 1965 and Timor-Leste reconciliation
+321. Human trafficking and modern slavery: Indonesian anti-trafficking governance
+322. Death penalty and Indonesian position: International abolition movement and domestic debate
+323. Humanitarian intervention and R2P: Indonesian position on sovereignty and protection
+324. Statelessness and citizenship rights: Indonesian nationality law and vulnerable groups
+325. Right to water and sanitation: Indonesian access and international development goals
+326. Freedom of assembly and civil society: Indonesian civic space and international standards
+327. Racial discrimination and ethnic rights: Indonesian diversity governance and ICERD
+328. Right to development and international cooperation: Indonesian development rights advocacy
+329. Humanitarian access and conflict zones: Indonesian humanitarian diplomacy
+330. Human rights defenders protection: Indonesian civil society safety and international support
+331. Forced displacement and internal migration: Indonesian IDP governance and protection
+332. Right to self-determination: Papua and international human rights discourse
+333. Counter-terrorism and human rights: Indonesian security measures and rights balance
+334. Corporate social responsibility and human rights: Indonesian extractive industry governance
+335. Digital human rights and AI governance: Indonesian position on technology and rights
+336. Climate refugees and displacement: Indonesian vulnerability and international framework
+337. Human rights education and awareness: Indonesian curriculum and public understanding
+338. Humanitarian coordination and effectiveness: Indonesian disaster response and international aid
+339. Right to peace and conflict prevention: Indonesian peace building contribution
+340. Human rights monitoring and reporting: Indonesian engagement with UN mechanisms
+341. Migrant rights in destination countries: Indonesian diaspora protection abroad
+342. Human rights and trade conditionality: EU-Indonesia CEPA and sustainability chapter
+343. Humanitarian principles and neutrality: Indonesian Red Cross and international cooperation
+344. Right to culture and heritage: Indonesian cultural rights and international protection
+345. Human rights and artificial intelligence: Indonesian governance of algorithmic rights
+346. Humanitarian innovation and technology: Indonesian disaster tech and international sharing
+347. Right to truth and memory: Indonesian historical justice and international standards
+348. Human rights and climate change: Indonesian climate litigation and rights-based approach
+349. Humanitarian financing and effectiveness: Indonesian contribution to international relief
+350. Human rights future: Emerging challenges and Indonesian strategic engagement
+
+CATEGORY 8: MARITIME SECURITY & BORDER POLITICS (351-400)
+351. South China Sea dispute and Indonesian interests: Natuna waters sovereignty and resource rights
+352. Maritime boundary delimitation: Indonesian bilateral negotiation and UNCLOS application
+353. IUU fishing governance: Indonesian enforcement and regional cooperation mechanism
+354. Maritime domain awareness: Indonesian surveillance capability and information sharing
+355. Naval modernization and maritime defense: Indonesian navy capability development
+356. Strait of Malacca security: Trilateral cooperation and freedom of navigation
+357. Maritime terrorism and piracy: Indonesian waters security and international cooperation
+358. Island sovereignty and territorial integrity: Indonesian archipelagic state governance
+359. Maritime economic zone governance: Indonesian EEZ management and resource exploitation
+360. Coast guard development: Bakamla institutional capacity and maritime law enforcement
+361. Maritime border community: Indonesian frontier island development and security
+362. Submarine cable security: Indonesian critical infrastructure protection in maritime domain
+363. Maritime environmental security: Oil spill governance and marine pollution prevention
+364. Port security and trade facilitation: Indonesian port governance and ISPS compliance
+365. Maritime search and rescue: Indonesian SAR capability and international cooperation
+366. Archipelagic sea lanes: Indonesian ALKI governance and international navigation rights
+367. Maritime drug trafficking: Indonesian waters as transit route and enforcement
+368. Fisheries conflict and diplomatic resolution: Indonesian bilateral fisheries agreement
+369. Maritime cultural heritage: Underwater archaeology governance and protection
+370. Naval diplomacy and maritime cooperation: Indonesian navy international engagement
+371. Maritime boundary with Australia: Timor Sea governance and resource sharing
+372. Maritime security technology: Indonesian adoption of surveillance and monitoring systems
+373. Refugee boat and maritime governance: Indonesian response to maritime asylum seekers
+374. Maritime trade route security: Indonesian shipping lane protection and insurance
+375. Island reclamation and sovereignty: Indonesian position on artificial island construction
+376. Maritime law enforcement coordination: Inter-agency cooperation in Indonesian waters
+377. Continental shelf governance: Indonesian extended continental shelf claim
+378. Maritime security and climate change: Sea level rise impact on boundary and sovereignty
+379. Naval exercise and confidence building: Indonesian participation in multilateral exercises
+380. Maritime security governance reform: Indonesian maritime security agency coordination
+381. Transboundary marine pollution: Indonesian cooperation for marine environment protection
+382. Maritime security and energy: Indonesian offshore energy infrastructure protection
+383. Fishing rights and traditional access: Indonesian-Australian traditional fishing arrangement
+384. Maritime security capacity building: Indonesian assistance to Pacific Island states
+385. Underwater drone and maritime security: New technology threat in Indonesian waters
+386. Maritime security and tourism: Indonesian cruise and diving tourism safety governance
+387. Naval base and strategic positioning: Indonesian military presence in maritime frontier
+388. Maritime security and disaster: Tsunami early warning and maritime preparedness
+389. Illegal migration by sea: Indonesian maritime border control and human rights
+390. Maritime security cooperation framework: Indonesian bilateral and multilateral agreements
+391. Deep sea mining governance: Indonesian position on international seabed authority
+392. Maritime security and artificial intelligence: Autonomous vessel governance
+393. Indonesian maritime militia concern: Gray zone operations in Southeast Asian waters
+394. Maritime security and pandemic: Port health governance and maritime quarantine
+395. Naval arms race in Indo-Pacific: Indonesian response to regional militarization
+396. Maritime security and blue economy: Balancing security and economic development
+397. Indonesian maritime security strategy: Comprehensive approach to maritime governance
+398. Maritime security and indigenous rights: Traditional fishing community and border governance
+399. Maritime security information sharing: Indonesian participation in regional mechanisms
+400. Maritime security future: Emerging challenges in Indonesian maritime domain
+
+CATEGORY 9: DIGITAL DIPLOMACY & CYBER IR (401-450)
+401. Indonesian digital diplomacy strategy: MFA social media and public engagement
+402. Cyber sovereignty and internet governance: Indonesian position on digital self-determination
+403. Digital trade governance: Cross-border data flow and Indonesian regulatory approach
+404. Cyber security cooperation: Indonesian bilateral and multilateral cyber partnership
+405. Digital public diplomacy: Indonesian nation branding through digital platforms
+406. Cyber conflict and international law: Indonesian position on cyber warfare norms
+407. Digital economy diplomacy: Indonesian tech industry and international cooperation
+408. Cyber espionage and state behavior: Indonesian response to foreign cyber intrusion
+409. Digital human rights and internet freedom: Indonesian content regulation and international norms
+410. Cyber capacity building: Indonesian assistance and ASEAN cyber cooperation
+411. Digital trade agreement: Indonesian participation in digital economy partnership
+412. Cyber deterrence and attribution: Indonesian cyber defense strategy
+413. Digital development cooperation: Indonesian tech for development sharing
+414. Cyber governance and multi-stakeholder model: Indonesian internet governance participation
+415. Digital diplomacy and crisis communication: Indonesian MFA online crisis response
+416. Cyber norms and international regime: Indonesian contribution to UN GGE/OEWG
+417. Digital economy and geopolitics: US-China tech competition impact on Indonesia
+418. Cyber crime cooperation: Indonesian participation in Budapest Convention framework
+419. Digital sovereignty and platform governance: Indonesian regulation of foreign tech companies
+420. Cyber security and critical infrastructure: Indonesian national cyber security governance
+421. Digital diplomacy training: Indonesian diplomat digital competency development
+422. Cyber conflict escalation: Indonesian position on proportionality and restraint
+423. Digital trade facilitation: Indonesian paperless trade and cross-border e-commerce
+424. Cyber security and election integrity: Indonesian election protection from foreign interference
+425. Digital cultural diplomacy: Indonesian creative content and international audience
+426. Cyber terrorism and online radicalization: Indonesian counter-narrative strategy
+427. Digital health diplomacy: Indonesian telemedicine and international health cooperation
+428. Cyber security and maritime domain: Indonesian maritime cyber threat governance
+429. Digital education diplomacy: Indonesian online learning and international partnership
+430. Cyber security industry: Indonesian cybersecurity company and international market
+431. Digital diplomacy and diaspora: Indonesian overseas community online engagement
+432. Cyber security and financial system: Indonesian fintech and international cooperation
+433. Digital environmental diplomacy: Indonesian climate data and international monitoring
+434. Cyber security and defense: Indonesian military cyber capability development
+435. Digital diplomacy measurement: Indonesian MFA digital engagement effectiveness
+436. Cyber security and supply chain: Indonesian tech supply chain security governance
+437. Digital trade and development: Indonesian digital economy and inclusive growth
+438. Cyber security and privacy: Indonesian data protection and international standards
+439. Digital diplomacy and youth: Indonesian young diplomat digital engagement
+440. Cyber security and AI: Indonesian artificial intelligence governance and international norms
+441. Digital diplomacy and pandemic: Indonesian online diplomatic practice during COVID-19
+442. Cyber security and space: Indonesian satellite security and space cyber governance
+443. Digital trade and intellectual property: Indonesian digital content and international protection
+444. Cyber security and energy: Indonesian energy infrastructure cyber protection
+445. Digital diplomacy and tourism: Indonesian destination promotion through digital channels
+446. Cyber security and transportation: Indonesian aviation and maritime cyber governance
+447. Digital diplomacy and food security: Indonesian agricultural technology cooperation
+448. Cyber security and health: Indonesian health data governance and international sharing
+449. Digital diplomacy innovation: Indonesian MFA technology adoption and modernization
+450. Cyber IR future: Emerging digital challenges and Indonesian strategic positioning
+
+CATEGORY 10: ENVIRONMENTAL POLITICS & CLIMATE DIPLOMACY (451-500)
+451. Indonesian climate diplomacy and Paris Agreement: NDC ambition and implementation gap
+452. Deforestation governance and international pressure: EU regulation impact on Indonesian palm oil
+453. Carbon market and Indonesian participation: Voluntary and compliance market engagement
+454. Climate finance access and Indonesian strategy: GCF and bilateral climate funding
+455. REDD+ implementation and forest governance: Indonesian performance-based payment mechanism
+456. Climate adaptation and loss and damage: Indonesian vulnerability and international support
+457. Energy transition diplomacy: Indonesian coal phase-out and just energy transition partnership
+458. Biodiversity diplomacy and Kunming-Montreal framework: Indonesian conservation commitment
+459. Ocean-climate nexus: Indonesian blue carbon and marine ecosystem governance
+460. Climate litigation and international law: Indonesian position on climate accountability
+461. Transboundary haze governance: ASEAN Agreement and Indonesian compliance
+462. Plastic pollution diplomacy: Indonesian position on global plastic treaty
+463. Climate migration and displacement: Indonesian coastal vulnerability and governance
+464. Environmental trade measures: Carbon border adjustment and Indonesian export impact
+465. Climate technology transfer: Indonesian access to clean technology and cooperation
+466. Peatland governance and international cooperation: Indonesian peat restoration diplomacy
+467. Climate and security nexus: Indonesian vulnerability and security implications
+468. Environmental human rights: Indonesian community rights and international advocacy
+469. Climate and health diplomacy: Indonesian position on climate-health governance
+470. Sustainable palm oil diplomacy: ISPO/RSPO and international market access
+471. Climate and food security: Indonesian agricultural adaptation and international cooperation
+472. Environmental governance and indigenous rights: Indonesian FPIC and international standards
+473. Climate and gender: Indonesian women's vulnerability and international advocacy
+474. Coral reef diplomacy: Indonesian marine conservation and international cooperation
+475. Climate and urbanization: Indonesian city climate action and international networks
+476. Environmental impact assessment: Indonesian EIA governance and international standards
+477. Climate and disaster risk: Indonesian vulnerability and international DRR cooperation
+478. Mangrove diplomacy: Indonesian blue carbon and international climate contribution
+479. Climate and water governance: Indonesian water security and transboundary cooperation
+480. Environmental justice and international trade: Indonesian community rights and trade disputes
+481. Climate and energy security: Indonesian renewable energy and international cooperation
+482. Biodiversity and traditional knowledge: Indonesian genetic resource governance and Nagoya Protocol
+483. Climate and transportation: Indonesian green mobility and international standards
+484. Environmental monitoring and satellite: Indonesian remote sensing and international cooperation
+485. Climate and industry: Indonesian green industrial policy and international competitiveness
+486. Waste governance and circular economy: Indonesian waste trade and international regulation
+487. Climate and finance: Indonesian green bond and sustainable finance governance
+488. Environmental education and international cooperation: Indonesian environmental awareness
+489. Climate and digital technology: Indonesian climate tech and international innovation
+490. Marine debris governance: Indonesian action plan and international cooperation
+491. Climate and agriculture: Indonesian sustainable farming and international certification
+492. Environmental conflict and diplomacy: Indonesian resource dispute and international mediation
+493. Climate and tourism: Indonesian sustainable tourism and international standards
+494. Biodiversity offset and international governance: Indonesian conservation banking
+495. Climate and youth: Indonesian youth climate movement and international advocacy
+496. Environmental governance reform: Indonesian institutional strengthening and international support
+497. Climate and indigenous knowledge: Indonesian traditional ecological knowledge and international recognition
+498. Environmental diplomacy and trade: Indonesian green product and international market
+499. Climate and regional cooperation: Indonesian leadership in ASEAN climate action
+500. Environmental politics future: Emerging challenges and Indonesian diplomatic strategy

@@ -1,0 +1,106 @@
+
+## Biologi (Biology)
+
+| No | Journal Name | Q Rank | ScimagoJR Link | Journal Link | Template Link |
+|----|--------------|--------|-----------------|-------------|---------------|
+| 1 | Cell | Q1 | https://www.scimagojr.com/journalsearch.php?q=Cell | https://www.cell.com/ | https://www.cell.com/pb/assets/raw/shared/guidelines.pdf |
+| 2 | Nature | Q1 | https://www.scimagojr.com/journalsearch.php?q=Nature | https://www.nature.com/ | https://www.nature.com/nature/for-authors |
+| 3 | Science | Q1 | https://www.scimagojr.com/journalsearch.php?q=Science | https://www.science.org/ | https://www.science.org/content/authors |
+| 4 | Nature Reviews Molecular Cell Biology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Nature+Reviews+Molecular+Cell+Biology | https://www.nature.com/nrm/ | https://www.nature.com/nrm/for-authors |
+| 5 | Nature Methods | Q1 | https://www.scimagojr.com/journalsearch.php?q=Nature+Methods | https://www.nature.com/nmeth/ | https://www.nature.com/nmeth/for-authors |
+| 6 | Nature Genetics | Q1 | https://www.scimagojr.com/journalsearch.php?q=Nature+Genetics | https://www.nature.com/ng/ | https://www.nature.com/ng/for-authors |
+| 7 | Nature Cell Biology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Nature+Cell+Biology | https://www.nature.com/ncb/ | https://www.nature.com/ncb/for-authors |
+| 8 | Molecular Cell | Q1 | https://www.scimagojr.com/journalsearch.php?q=Molecular+Cell | https://www.cell.com/molecular-cell/ | https://www.cell.com/pb/assets/raw/shared/guidelines.pdf |
+| 9 | Developmental Cell | Q1 | https://www.scimagojr.com/journalsearch.php?q=Developmental+Cell | https://www.cell.com/developmental-cell/ | https://www.cell.com/pb/assets/raw/shared/guidelines.pdf |
+| 10 | Cell Metabolism | Q1 | https://www.scimagojr.com/journalsearch.php?q=Cell+Metabolism | https://www.cell.com/cell-metabolism/ | https://www.cell.com/pb/assets/raw/shared/guidelines.pdf |
+| 11 | Cell Stem Cell | Q1 | https://www.scimagojr.com/journalsearch.php?q=Cell+Stem+Cell | https://www.cell.com/cell-stem-cell/ | https://www.cell.com/pb/assets/raw/shared/guidelines.pdf |
+| 12 | Nature Microbiology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Nature+Microbiology | https://www.nature.com/nmicrobiol/ | https://www.nature.com/nmicrobiol/for-authors |
+| 13 | Nature Ecology and Evolution | Q1 | https://www.scimagojr.com/journalsearch.php?q=Nature+Ecology+and+Evolution | https://www.nature.com/natecolevol/ | https://www.nature.com/natecolevol/for-authors |
+| 14 | Genome Biology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Genome+Biology | https://genomebiology.biomedcentral.com/ | https://genomebiology.biomedcentral.com/submission-guidelines |
+| 15 | Nucleic Acids Research | Q1 | https://www.scimagojr.com/journalsearch.php?q=Nucleic+Acids+Research | https://academic.oup.com/nar/ | https://academic.oup.com/nar/pages/Instructions_To_Authors |
+| 16 | Autophagy | Q1 | https://www.scimagojr.com/journalsearch.php?q=Autophagy | https://www.tandfonline.com/toc/kaup20/current | https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=kaup20 |
+| 17 | Nature Communications | Q1 | https://www.scimagojr.com/journalsearch.php?q=Nature+Communications | https://www.nature.com/ncomms/ | https://www.nature.com/ncomms/for-authors |
+| 18 | EMBO Journal | Q1 | https://www.scimagojr.com/journalsearch.php?q=EMBO+Journal | https://www.embopress.org/journal/14602075 | https://www.embopress.org/page/author-guidelines |
+| 19 | Molecular Biology and Evolution | Q1 | https://www.scimagojr.com/journalsearch.php?q=Molecular+Biology+and+Evolution | https://academic.oup.com/mbe/ | https://academic.oup.com/mbe/pages/Instructions_To_Authors |
+| 20 | The Plant Cell | Q1 | https://www.scimagojr.com/journalsearch.php?q=The+Plant+Cell | https://academic.oup.com/plcell/ | https://academic.oup.com/plcell/pages/Instructions_To_Authors |
+| 21 | PLOS Biology | Q1 | https://www.scimagojr.com/journalsearch.php?q=PLoS+Biology | https://journals.plos.org/plosbiology/ | https://journals.plos.org/plosbiology/s/submission-guidelines |
+| 22 | Current Biology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Current+Biology | https://www.cell.com/current-biology/ | https://www.cell.com/pb/assets/raw/shared/guidelines.pdf |
+| 23 | Trends in Cell Biology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Trends+in+Cell+Biology | https://www.cell.com/trends/cell-biology/ | https://www.cell.com/pb/assets/raw/shared/guidelines.pdf |
+| 24 | Nature Plants | Q1 | https://www.scimagojr.com/journalsearch.php?q=Nature+Plants | https://www.nature.com/nplants/ | https://www.nature.com/nplants/for-authors |
+| 25 | Microbiome | Q1 | https://www.scimagojr.com/journalsearch.php?q=Microbiome | https://microbiomejournal.biomedcentral.com/ | https://microbiomejournal.biomedcentral.com/submission-guidelines |
+| 26 | Genome Research | Q1 | https://www.scimagojr.com/journalsearch.php?q=Genome+Research | https://genome.cshlp.org/ | https://genome.cshlp.org/pages/instructions |
+| 27 | Plant Cell | Q1 | https://www.scimagojr.com/journalsearch.php?q=Plant+Cell | https://academic.oup.com/plcell/ | https://academic.oup.com/plcell/pages/Instructions_To_Authors |
+| 28 | Molecular Plant | Q1 | https://www.scimagojr.com/journalsearch.php?q=Molecular+Plant | https://www.cell.com/molecular-plant/ | https://www.cell.com/pb/assets/raw/shared/guidelines.pdf |
+| 29 | Cell Host & Microbe | Q1 | https://www.scimagojr.com/journalsearch.php?q=Cell+Host+and+Microbe | https://www.cell.com/cell-host-microbe/ | https://www.cell.com/pb/assets/raw/shared/guidelines.pdf |
+| 30 | Nature Structural & Molecular Biology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Nature+Structural+and+Molecular+Biology | https://www.nature.com/nsmb/ | https://www.nature.com/nsmb/for-authors |
+| 31 | BMC Biology | Q1 | https://www.scimagojr.com/journalsearch.php?q=BMC+Biology | https://bmcbiol.biomedcentral.com/ | https://bmcbiol.biomedcentral.com/submission-guidelines |
+| 32 | Genetics | Q1 | https://www.scimagojr.com/journalsearch.php?q=Genetics | https://www.genetics.org/ | https://www.genetics.org/content/authors |
+| 33 | Development | Q1 | https://www.scimagojr.com/journalsearch.php?q=Development | https://dev.biologists.org/ | https://dev.biologists.org/content/authors |
+| 34 | Journal of Cell Biology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Journal+of+Cell+Biology | https://rupress.org/jcb/ | https://rupress.org/jcb/pages/instructions-for-authors |
+| 35 | eLife | Q1 | https://www.scimagojr.com/journalsearch.php?q=eLife | https://elifesciences.org/ | https://elifesciences.org/for-authors |
+| 36 | Journal of Experimental Medicine | Q1 | https://www.scimagojr.com/journalsearch.php?q=Journal+of+Experimental+Medicine | https://rupress.org/jem/ | https://rupress.org/jem/pages/instructions-for-authors |
+| 37 | PNAS | Q1 | https://www.scimagojr.com/journalsearch.php?q=Proceedings+of+the+National+Academy+of+Sciences | https://www.pnas.org/ | https://www.pnas.org/page/authors |
+| 38 | Science Advances | Q1 | https://www.scimagojr.com/journalsearch.php?q=Science+Advances | https://www.science.org/journal/sciadv | https://www.science.org/content/authors |
+| 39 | Cell Reports | Q1 | https://www.scimagojr.com/journalsearch.php?q=Cell+Reports | https://www.cell.com/cell-reports/ | https://www.cell.com/pb/assets/raw/shared/guidelines.pdf |
+| 40 | Nature Reviews Immunology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Nature+Reviews+Immunology | https://www.nature.com/nri/ | https://www.nature.com/nri/for-authors |
+| 41 | Immunity | Q1 | https://www.scimagojr.com/journalsearch.php?q=Immunity | https://www.cell.com/immunity/ | https://www.cell.com/pb/assets/raw/shared/guidelines.pdf |
+| 42 | Nature Biomedical Engineering | Q1 | https://www.scimagojr.com/journalsearch.php?q=Nature+Biomedical+Engineering | https://www.nature.com/natbiomedeng/ | https://www.nature.com/natbiomedeng/for-authors |
+| 43 | Cell Research | Q1 | https://www.scimagojr.com/journalsearch.php?q=Cell+Research | https://www.nature.com/cr/ | https://www.nature.com/cr/for-authors |
+| 44 | Molecular Systems Biology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Molecular+Systems+Biology | https://www.embopress.org/journal/17444292 | https://www.embopress.org/page/author-guidelines |
+| 45 | Nature Chemical Biology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Nature+Chemical+Biology | https://www.nature.com/nchembio/ | https://www.nature.com/nchembio/for-authors |
+| 46 | Trends in Biochemical Sciences | Q1 | https://www.scimagojr.com/journalsearch.php?q=Trends+in+Biochemical+Sciences | https://www.cell.com/trends/biochemical-sciences/ | https://www.cell.com/pb/assets/raw/shared/guidelines.pdf |
+| 47 | Journal of Biological Chemistry | Q1 | https://www.scimagojr.com/journalsearch.php?q=Journal+of+Biological+Chemistry | https://www.jbc.org/ | https://www.jbc.org/content/authors |
+| 48 | FASEB Journal | Q1 | https://www.scimagojr.com/journalsearch.php?q=FASEB+Journal | https://faseb.onlinelibrary.wiley.com/journal/15306860 | https://faseb.onlinelibrary.wiley.com/hub/journal/15306860/forauthors.html |
+| 49 | Aging Cell | Q1 | https://www.scimagojr.com/journalsearch.php?q=Aging+Cell | https://onlinelibrary.wiley.com/journal/14749726 | https://onlinelibrary.wiley.com/hub/journal/14749726/forauthors.html |
+| 50 | Molecular and Cellular Biology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Molecular+and+Cellular+Biology | https://journals.asm.org/journal/mcb | https://journals.asm.org/content/author-instructions |
+| 51 | Journal of Cell Science | Q1 | https://www.scimagojr.com/journalsearch.php?q=Journal+of+Cell+Science | https://jcs.biologists.org/ | https://jcs.biologists.org/content/authors |
+| 52 | Traffic | Q1 | https://www.scimagojr.com/journalsearch.php?q=Traffic | https://onlinelibrary.wiley.com/journal/16000854 | https://onlinelibrary.wiley.com/hub/journal/16000854/forauthors.html |
+| 53 | Stem Cells | Q1 | https://www.scimagojr.com/journalsearch.php?q=Stem+Cells | https://onlinelibrary.wiley.com/journal/15494918 | https://onlinelibrary.wiley.com/hub/journal/15494918/forauthors.html |
+| 54 | Developmental Biology | Q2 | https://www.scimagojr.com/journalsearch.php?q=Developmental+Biology | https://www.cell.com/developmental-biology/ | https://www.cell.com/pb/assets/raw/shared/guidelines.pdf |
+| 55 | Cell Cycle | Q1 | https://www.scimagojr.com/journalsearch.php?q=Cell+Cycle | https://www.tandfonline.com/toc/kccy20/current | https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=kccy20 |
+| 56 | Journal of Biological Chemistry | Q1 | https://www.scimagojr.com/journalsearch.php?q=Journal+of+Biological+Chemistry | https://www.jbc.org/ | https://www.jbc.org/content/authors |
+| 57 | Bioinformatics | Q1 | https://www.scimagojr.com/journalsearch.php?q=Bioinformatics | https://academic.oup.com/bioinformatics/ | https://academic.oup.com/bioinformatics/pages/Instructions_To_Authors |
+| 58 | BMC Genomics | Q1 | https://www.scimagojr.com/journalsearch.php?q=BMC+Genomics | https://bmcgenomics.biomedcentral.com/ | https://bmcgenomics.biomedcentral.com/submission-guidelines |
+| 59 | BMC Bioinformatics | Q1 | https://www.scimagojr.com/journalsearch.php?q=BMC+Bioinformatics | https://bmcbioinformatics.biomedcentral.com/ | https://bmcbioinformatics.biomedcentral.com/submission-guidelines |
+| 60 | PLOS Computational Biology | Q1 | https://www.scimagojr.com/journalsearch.php?q=PLoS+Computational+Biology | https://journals.plos.org/ploscompbiol/ | https://journals.plos.org/ploscompbiol/s/submission-guidelines |
+| 61 | Journal of Molecular Biology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Journal+of+Molecular+Biology | https://www.sciencedirect.com/journal/journal-of-molecular-biology | https://www.elsevier.com/journals/journal-of-molecular-biology/0022-2836/guide-for-authors |
+| 62 | Structure | Q1 | https://www.scimagojr.com/journalsearch.php?q=Structure | https://www.cell.com/structure/ | https://www.cell.com/pb/assets/raw/shared/guidelines.pdf |
+| 63 | Journal of Virology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Journal+of+Virology | https://journals.asm.org/journal/jvi | https://journals.asm.org/content/author-instructions |
+| 64 | Virology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Virology | https://www.sciencedirect.com/journal/virology | https://www.elsevier.com/journals/virology/0042-6822/guide-for-authors |
+| 65 | Journal of Immunology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Journal+of+Immunology | https://journals.aai.org/jimmunol/ | https://journals.aai.org/jimmunol/pages/author-guidelines |
+| 66 | Immunology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Immunology | https://onlinelibrary.wiley.com/journal/13652593 | https://onlinelibrary.wiley.com/hub/journal/13652593/forauthors.html |
+| 67 | Journal of Experimental Botany | Q1 | https://www.scimagojr.com/journalsearch.php?q=Journal+of+Experimental+Botany | https://academic.oup.com/jxb/ | https://academic.oup.com/jxb/pages/Instructions_To_Authors |
+| 68 | Plant Physiology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Plant+Physiology | https://academic.oup.com/plphys/ | https://academic.oup.com/plphys/pages/Instructions_To_Authors |
+| 69 | New Phytologist | Q1 | https://www.scimagojr.com/journalsearch.php?q=New+Phytologist | https://nph.onlinelibrary.wiley.com/journal/14698137 | https://nph.onlinelibrary.wiley.com/hub/journal/14698137/forauthors.html |
+| 70 | Plant Journal | Q1 | https://www.scimagojr.com/journalsearch.php?q=Plant+Journal | https://onlinelibrary.wiley.com/journal/1365313X | https://onlinelibrary.wiley.com/hub/journal/1365313X/forauthors.html |
+| 71 | Ecology Letters | Q1 | https://www.scimagojr.com/journalsearch.php?q=Ecology+Letters | https://onlinelibrary.wiley.com/journal/14610248 | https://onlinelibrary.wiley.com/hub/journal/14610248/forauthors.html |
+| 72 | Journal of Ecology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Journal+of+Ecology | https://jecology.onlinelibrary.wiley.com/journal/13652745 | https://jecology.onlinelibrary.wiley.com/hub/journal/13652745/forauthors.html |
+| 73 | Molecular Ecology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Molecular+Ecology | https://onlinelibrary.wiley.com/journal/1365294X | https://onlinelibrary.wiley.com/hub/journal/1365294X/forauthors.html |
+| 74 | Evolution | Q1 | https://www.scimagojr.com/journalsearch.php?q=Evolution | https://onlinelibrary.wiley.com/journal/15585646 | https://onlinelibrary.wiley.com/hub/journal/15585646/forauthors.html |
+| 75 | Systematic Biology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Systematic+Biology | https://academic.oup.com/sysbio/ | https://academic.oup.com/sysbio/pages/Instructions_To_Authors |
+| 76 | Conservation Biology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Conservation+Biology | https://conbio.onlinelibrary.wiley.com/journal/15231739 | https://conbio.onlinelibrary.wiley.com/hub/journal/15231739/forauthors.html |
+| 77 | Journal of Animal Ecology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Journal+of+Animal+Ecology | https://jae.onlinelibrary.wiley.com/journal/13652656 | https://jae.onlinelibrary.wiley.com/hub/journal/13652656/forauthors.html |
+| 78 | Global Change Biology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Global+Change+Biology | https://onlinelibrary.wiley.com/journal/13652486 | https://onlinelibrary.wiley.com/hub/journal/13652486/forauthors.html |
+| 79 | ISME Journal | Q1 | https://www.scimagojr.com/journalsearch.php?q=ISME+Journal | https://www.nature.com/ismej/ | https://www.nature.com/ismej/for-authors |
+| 80 | Environmental Microbiology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Environmental+Microbiology | https://onlinelibrary.wiley.com/journal/14622920 | https://onlinelibrary.wiley.com/hub/journal/14622920/forauthors.html |
+| 81 | Applied and Environmental Microbiology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Applied+and+Environmental+Microbiology | https://journals.asm.org/journal/aem | https://journals.asm.org/content/author-instructions |
+| 82 | Journal of Bacteriology | Q1 | https://www.scimagojr.com/journalsearch.php?q=Journal+of+Bacteriology | https://journals.asm.org/journal/jb | https://journals.asm.org/content/author-instructions |
+| 83 | mBio | Q1 | https://www.scimagojr.com/journalsearch.php?q=mBio | https://journals.asm.org/journal/mbio | https://journals.asm.org/content/author-instructions |
+| 84 | Nucleic Acids Research | Q1 | https://www.scimagojr.com/journalsearch.php?q=Nucleic+Acids+Research | https://academic.oup.com/nar/ | https://academic.oup.com/nar/pages/Instructions_To_Authors |
+| 85 | Trends in Genetics | Q1 | https://www.scimagojr.com/journalsearch.php?q=Trends+in+Genetics | https://www.cell.com/trends/genetics/ | https://www.cell.com/pb/assets/raw/shared/guidelines.pdf |
+| 86 | American Journal of Human Genetics | Q1 | https://www.scimagojr.com/journalsearch.php?q=American+Journal+of+Human+Genetics | https://www.cell.com/ajhg/ | https://www.cell.com/pb/assets/raw/shared/guidelines.pdf |
+| 87 | Genome Medicine | Q1 | https://www.scimagojr.com/journalsearch.php?q=Genome+Medicine | https://genomemedicine.biomedcentral.com/ | https://genomemedicine.biomedcentral.com/submission-guidelines |
+| 88 | Cancer Cell | Q1 | https://www.scimagojr.com/journalsearch.php?q=Cancer+Cell | https://www.cell.com/cancer-cell/ | https://www.cell.com/pb/assets/raw/shared/guidelines.pdf |
+| 89 | Nature Reviews Cancer | Q1 | https://www.scimagojr.com/journalsearch.php?q=Nature+Reviews+Cancer | https://www.nature.com/nrc/ | https://www.nature.com/nrc/for-authors |
+| 90 | Journal of Clinical Investigation | Q1 | https://www.scimagojr.com/journalsearch.php?q=Journal+of+Clinical+Investigation | https://www.jci.org/ | https://www.jci.org/authors |
+| 91 | Blood | Q1 | https://www.scimagojr.com/journalsearch.php?q=Blood | https://ashpublications.org/blood/ | https://ashpublications.org/blood/pages/instructions-for-authors |
+| 92 | Cancer Research | Q1 | https://www.scimagojr.com/journalsearch.php?q=Cancer+Research | https://aacrjournals.org/journal/cancerres | https://aacrjournals.org/content/authors |
+| 93 | Oncogene | Q1 | https://www.scimagojr.com/journalsearch.php?q=Oncogene | https://www.nature.com/onc/ | https://www.nature.com/onc/for-authors |
+| 94 | Cell Death and Differentiation | Q1 | https://www.scimagojr.com/journalsearch.php?q=Cell+Death+and+Differentiation | https://www.nature.com/cdd/ | https://www.nature.com/cdd/for-authors |
+| 95 | Autophagy | Q1 | https://www.scimagojr.com/journalsearch.php?q=Autophagy | https://www.tandfonline.com/toc/kaup20/current | https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=kaup20 |
+| 96 | Nature Neuroscience | Q1 | https://www.scimagojr.com/journalsearch.php?q=Nature+Neuroscience | https://www.nature.com/neuro/ | https://www.nature.com/neuro/for-authors |
+| 97 | Neuron | Q1 | https://www.scimagojr.com/journalsearch.php?q=Neuron | https://www.cell.com/neuron/ | https://www.cell.com/pb/assets/raw/shared/guidelines.pdf |
+| 98 | Nature Reviews Neuroscience | Q1 | https://www.scimagojr.com/journalsearch.php?q=Nature+Reviews+Neuroscience | https://www.nature.com/nrn/ | https://www.nature.com/nrn/for-authors |
+| 99 | Brain | Q1 | https://www.scimagojr.com/journalsearch.php?q=Brain | https://academic.oup.com/brain/ | https://academic.oup.com/brain/pages/Instructions_To_Authors |
+| 100 | Journal of Neuroscience | Q1 | https://www.scimagojr.com/journalsearch.php?q=Journal+of+Neuroscience | https://www.jneurosci.org/ | https://www.jneurosci.org/content/authors |
+

@@ -1,0 +1,704 @@
+================================================================================
+TOPIC GUIDE — Marine Science (Ilmu Kelautan)
+================================================================================
+FIELD: Marine Science / Oceanography
+DEFAULT CITATION STYLE: APA
+SUBDISCIPLINE: Marine Ecology, Coral Reef Science, Marine Biogeochemistry, Coastal Geomorphology, Marine Pollution, Marine Biotechnology, Mangrove Ecosystems, Marine Spatial Planning, Deep-Sea Biology, Marine Climate Science
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title (specific, with method and domain)
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Environmental DNA (eDNA) metabarcoding for biodiversity assessment
+   - Autonomous Underwater Vehicles (AUV) for deep-sea surveys
+   - Structure-from-Motion (SfM) photogrammetry for reef mapping
+   - Stable isotope analysis (d13C, d15N, d18O) for trophic ecology
+   - Next-generation sequencing for microbial community analysis
+   - Satellite remote sensing (Sentinel-2, Landsat-9) for coastal monitoring
+   - Biogeochemical modeling (ROMS, FVCOM, Delft3D)
+   - Machine learning for species distribution modeling
+   - CRISPR-based biosensors for marine pollution detection
+   - Acoustic telemetry and biologging for marine animal tracking
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics with statistical measures
+   - Comparison with baselines
+   - All numbers realistic and internally consistent
+
+5. MATHEMATICAL FORMULAS:
+   - 5-10 relevant formulas with variable definitions
+   - Shannon-Wiener diversity index (H' = -Spi ln pi)
+   - Simpson's diversity index (D = 1 - Spi^2)
+   - Coral cover estimation formulas
+   - Wave energy flux equations
+   - Sediment transport equations (Shields parameter)
+   - Bioaccumulation factor (BAF = C_organism/C_water)
+   - Primary productivity calculations
+   - Tidal harmonic analysis
+   - Species-area relationship (S = cA^z)
+   - Population growth models (logistic, exponential)
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian maritime context
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords, Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+--- DOMAIN-SPECIFIC SECTIONS ---
+
+ABSTRACT CHARACTERISTICS:
+- State marine ecosystem or process studied
+- Specify study location (Indonesian waters, specific island/reef/coast)
+- Include key quantitative findings (diversity indices, coverage, concentrations)
+- Mention temporal and spatial scale
+- Highlight ecological or conservation significance
+
+INTRODUCTION ELEMENTS:
+- Indonesia as maritime nation and largest archipelagic state
+- Coral Triangle as global center of marine biodiversity
+- Current threats to Indonesian marine ecosystems
+- National marine conservation targets and policies
+- Specific regional oceanographic characteristics
+- Knowledge gaps in Indonesian marine science
+
+LITERATURE REVIEW TOPICS:
+- Marine biodiversity patterns in Indonesian waters
+- Ecosystem health indicators and monitoring approaches
+- Anthropogenic impacts on marine environments
+- Conservation and restoration efforts in Indonesia
+- Oceanographic processes in Indonesian seas
+- Marine resource utilization and sustainability
+- Climate change impacts on marine ecosystems
+
+METHODOLOGY DETAILS:
+- Field survey design (transect, quadrat, point intercept)
+- Water quality sampling and analysis protocols
+- Biological sampling (plankton, benthos, nekton)
+- Remote sensing data acquisition and processing
+- Laboratory analysis (chemical, molecular, microscopy)
+- Statistical analysis (multivariate, spatial, temporal)
+- Numerical modeling setup and validation
+
+EQUATIONS:
+- H' = -S(pi x ln pi) (Shannon-Wiener diversity)
+- D = 1 - S(pi^2) (Simpson's diversity)
+- J' = H'/H'max (Pielou's evenness)
+- E = (1/8)pgH^2L (wave energy)
+- tau_b = pC_D|u|u (bed shear stress)
+- BAF = C_tissue/C_water (bioaccumulation factor)
+- NPP = integral(P_max x tanh(aI/P_max))dz (net primary productivity)
+- S = cA^z (species-area relationship)
+- dN/dt = rN(1-N/K) (logistic growth)
+- BCF = C_organism/C_exposure (bioconcentration factor)
+
+FIGURES:
+- Study area map with sampling stations
+- Species composition charts (pie/bar)
+- Diversity index spatial distribution maps
+- Underwater photographs of habitats/organisms
+- Dendrogram of community similarity
+- PCA/nMDS ordination plots
+- Time-series graphs of environmental parameters
+- Satellite imagery of study area
+- Cross-sectional profiles (reef, coast)
+- Correlation scatter plots
+
+TABLES:
+- Species inventory with abundance/frequency
+- Environmental parameters by station/season
+- Diversity indices comparison across sites
+- Water quality measurements
+- Sediment characteristics
+- Statistical test results (ANOVA, correlation)
+- Community similarity matrix
+- Bioaccumulation/concentration data
+
+RESULTS & DISCUSSION:
+- Species composition and community structure description
+- Diversity patterns and their environmental drivers
+- Spatial and temporal variation analysis
+- Environmental parameter correlations
+- Comparison with other Indonesian and regional studies
+- Ecological implications and conservation significance
+- Anthropogenic impact assessment
+- Management recommendations
+
+CONCLUSION:
+- Summary of key ecological findings
+- Conservation implications
+- Recommendations for management and policy
+- Future research priorities
+
+REFERENCE VENUES:
+- Marine Ecology Progress Series
+- Coral Reefs
+- Marine Pollution Bulletin
+- Estuarine, Coastal and Shelf Science
+- Journal of Marine Systems
+- Deep-Sea Research
+- Marine Biology
+- Biodiversity and Conservation
+- Ocean Science
+- Journal of Coastal Research
+- Jurnal Ilmu Kelautan (UNDIP)
+- Ilmu Kelautan: Indonesian Journal of Marine Sciences
+
+DOMAIN VOCABULARY:
+- Terumbu karang (coral reef), lamun (seagrass), mangrove
+- Keanekaragaman hayati (biodiversity), ekosistem (ecosystem)
+- Oseanografi (oceanography), pasang surut (tides)
+- Pencemaran laut (marine pollution), sedimentasi (sedimentation)
+- Biota laut (marine biota), plankton, benthos, nekton
+- Konservasi (conservation), kawasan konservasi perairan (MPA)
+- Pesisir (coastal), pantai (beach), teluk (bay), selat (strait)
+- Arus laut (ocean current), gelombang (waves), upwelling
+- Produktivitas primer (primary productivity), rantai makanan (food chain)
+- Zona intertidal (intertidal zone), subtidal, pelagis (pelagic)
+
+METHODOLOGY KEYWORDS:
+- Line Intercept Transect (LIT), Point Intercept Transect (PIT)
+- Underwater Visual Census (UVC), belt transect
+- eDNA metabarcoding, 16S/18S/COI amplicon sequencing
+- CTD profiling, Niskin bottle sampling
+- Sediment coring, grain size analysis
+- Chlorophyll-a extraction, spectrophotometry
+- ANOSIM, SIMPER, PERMANOVA, nMDS, CCA
+- Hydrodynamic modeling (MIKE, Delft3D, ROMS)
+- Structure-from-Motion photogrammetry
+- Satellite image classification (supervised, unsupervised)
+
+--- RESEARCH TOPIC BANK (500 TOPICS) ---
+
+=== CATEGORY 1: Marine Ecology & Biodiversity (001-050) ===
+001. Cryptic species diversity of reef fish in Coral Triangle revealed by DNA barcoding
+002. Mesophotic coral ecosystem biodiversity assessment in Banda Sea using technical diving and ROV
+003. Marine megafauna diversity hotspot identification in Indonesian waters using citizen science data
+004. Trophic structure of reef fish communities across eutrophication gradients in Spermonde Archipelago
+005. Larval connectivity patterns of reef invertebrates in Lesser Sunda Islands using biophysical modeling
+006. Seasonal variation in zooplankton community structure in Makassar Strait
+007. Marine cave biodiversity assessment in karst coastlines of Raja Ampat
+008. Functional diversity of fish assemblages on artificial reefs vs natural reefs in Java Sea
+009. eDNA-based biodiversity monitoring of marine mammals in Savu Sea cetacean corridor
+010. Epibenthic community succession on shipwrecks as artificial habitats in Karimunjawa
+011. Cryptobenthic fish diversity contribution to reef fish biomass in Wakatobi
+012. Marine biodiversity response to marine protected area establishment in Derawan Islands
+013. Intertidal rocky shore community structure along urbanization gradient in southern Java
+014. Deep reef fish community composition using baited remote underwater video in Halmahera
+015. Seabird-marine ecosystem linkages in Seribu Islands breeding colonies
+016. Marine invertebrate biodiversity in anchialine caves of Misool, Raja Ampat
+017. Phytoplankton community dynamics during monsoon transitions in Java Sea
+018. Reef fish recruitment patterns in relation to habitat complexity in Komodo National Park
+019. Marine biodiversity assessment of underexplored Aru Islands using rapid assessment protocol
+020. Parasitic fauna diversity of commercially important fish in Indonesian waters
+021. Meiofauna community structure in deep-sea sediments of Banda Sea
+022. Marine mammal-fisheries interaction hotspot mapping in Indonesian waters
+023. Nocturnal reef fish community composition using underwater video in Bunaken
+024. Macroalgae diversity and distribution patterns along Indonesian coastline
+025. Marine biodiversity indicators development for Indonesian coral reef monitoring
+026. Fish assemblage response to coral reef degradation in Karimunjawa over 20 years
+027. Planktonic foraminifera diversity as paleoceanographic proxy in Makassar Strait
+028. Marine turtle nesting habitat characterization and population genetics in Berau
+029. Subtidal soft-bottom macrobenthos community in relation to organic enrichment in Jakarta Bay
+030. Reef fish herbivore functional group diversity and algal control in degraded reefs
+031. Marine biodiversity of volcanic island ecosystems in Krakatau archipelago
+032. Ichthyoplankton diversity and distribution in Indonesian throughflow waters
+033. Sponge diversity and associated microbial communities in Spermonde reefs
+034. Marine biodiversity rapid assessment of newly proposed MPA sites in Maluku
+035. Pelagic microbial community structure across Indonesian seas using metagenomics
+036. Reef shark population assessment using baited remote underwater video in Raja Ampat
+037. Marine biodiversity patterns along depth gradients in Sulawesi Sea
+038. Seagrass-associated fauna diversity comparison across Indonesian seagrass meadows
+039. Marine invasive species detection and distribution mapping in Indonesian ports
+040. Coral reef fish species richness prediction using environmental variables and machine learning
+041. Deep-sea biodiversity exploration of Sangihe Talaud submarine volcanic chain
+042. Marine biodiversity impact assessment of coastal reclamation in Jakarta Bay
+043. Reef manta ray population ecology and habitat use in Komodo National Park
+044. Benthic foraminifera as bioindicators of environmental quality in Indonesian coastal waters
+045. Marine biodiversity of seagrass-coral reef continuum in Wakatobi
+046. Cetacean diversity and distribution patterns in Banda Sea using acoustic monitoring
+047. Reef fish community resilience assessment after mass bleaching events in Aceh
+048. Marine biodiversity valuation for ecosystem service assessment in Coral Triangle
+049. Nudibranch diversity as indicator of reef health in Lembeh Strait
+050. Long-term marine biodiversity monitoring program design for Indonesian waters
+
+=== CATEGORY 2: Coral Reef Science & Conservation (051-100) ===
+051. Coral thermal tolerance variation across Indonesian reef systems using PAM fluorometry
+052. Reef restoration success evaluation using coral transplantation in Seribu Islands
+053. Coral disease prevalence and environmental drivers in Spermonde Archipelago
+054. Mesophotic coral reef refugia potential under climate change in Banda Sea
+055. Coral recruitment patterns on different substrate types in degraded reefs of North Sulawesi
+056. Coral-algal phase shift dynamics and reversibility in Karimunjawa reefs
+057. Coral reef structural complexity measurement using 3D photogrammetry in Wakatobi
+058. Coral bleaching threshold identification for Indonesian reef-building species
+059. Reef connectivity assessment using coral larval dispersal modeling in Lesser Sunda
+060. Coral reef carbonate budget assessment under ocean acidification in Spermonde
+061. Assisted gene flow potential for enhancing coral thermal resilience in Indonesian reefs
+062. Coral reef fish-benthos interaction dynamics after crown-of-thorns outbreak in Komodo
+063. Microplastic contamination in coral tissues and its physiological effects in Seribu Islands
+064. Coral reef soundscape analysis as non-invasive health monitoring tool in Bunaken
+065. Reef flat hydrodynamics and coral community zonation in exposed reefs of southern Java
+066. Coral symbiodiniaceae diversity and thermal tolerance in Indonesian Acropora species
+067. Artificial reef design optimization for coral settlement in degraded areas of Bali
+068. Coral reef ecosystem service valuation for marine tourism in Raja Ampat
+069. Sedimentation impact on coral photosynthesis and growth in river-influenced reefs
+070. Coral genetic diversity and population structure across Indonesian archipelago
+071. Reef resilience indicators development for Indonesian coral reef management
+072. Coral spawning timing prediction under changing sea temperature in Karimunjawa
+073. Deep coral community (>40m) characterization using ROV in Banda Sea walls
+074. Coral reef recovery trajectory after blast fishing cessation in Spermonde
+075. Ocean acidification effects on coral calcification rates in Indonesian waters
+076. Coral-associated invertebrate community as reef health indicator in Wakatobi
+077. Reef crest wave energy dissipation and coastal protection service quantification
+078. Coral fragment survival optimization for large-scale reef restoration projects
+079. Bioerosion rates on Indonesian coral reefs under varying environmental conditions
+080. Coral reef mapping using machine learning classification of satellite imagery
+081. Herbivorous fish exclusion effects on coral-algal competition dynamics
+082. Coral reef microbial community shifts along environmental gradients in Spermonde
+083. Reef fish grazing impact on coral recruitment success in marine reserves
+084. Coral tissue thickness as indicator of bleaching susceptibility in Indonesian species
+085. Submarine groundwater discharge effects on nearshore coral reef health
+086. Coral reef connectivity network design for MPA placement in Coral Triangle
+087. Crown-of-thorns starfish population dynamics and control strategies in Indonesian reefs
+088. Coral reef blue carbon storage capacity assessment in Indonesian waters
+089. Night-time coral predation by Drupella snails and management implications
+090. Coral reef degradation impact on coastal wave attenuation in Seribu Islands
+091. Epigenetic adaptation potential of corals to thermal stress in Indonesian waters
+092. Coral reef fish nursery function of different habitat types in Karimunjawa
+093. Reef restoration monitoring using acoustic complexity indices in Bali
+094. Coral disease transmission dynamics modeling in connected reef systems
+095. Coral reef response to volcanic ash deposition from Anak Krakatau eruption
+096. Reef flat temperature extremes and coral community adaptation in shallow reefs
+097. Coral reef tourism carrying capacity assessment using ecological indicators
+098. Coral-sponge competition dynamics under changing environmental conditions
+099. Reef framework preservation potential under projected ocean acidification scenarios
+100. Community-based coral reef monitoring program effectiveness evaluation in Indonesia
+
+=== CATEGORY 3: Marine Biogeochemistry (101-150) ===
+101. Carbon flux dynamics at the air-sea interface in Indonesian throughflow waters
+102. Nutrient cycling in mangrove-seagrass-coral reef continuum in Spermonde Archipelago
+103. Dissolved organic matter characterization in peatland-influenced coastal waters of Kalimantan
+104. Iron fertilization from volcanic islands and its effect on primary productivity in Banda Sea
+105. Nitrogen fixation rates by Trichodesmium in oligotrophic eastern Indonesian waters
+106. Methane seepage and chemosynthetic communities in Makassar Strait cold seeps
+107. Carbonate chemistry variability and ocean acidification trends in Indonesian seas
+108. Phosphorus cycling in tropical coastal sediments of Jakarta Bay
+109. Trace metal biogeochemistry in hydrothermal vent plumes of Sangihe volcanic arc
+110. Dissolved oxygen dynamics and hypoxia risk in semi-enclosed Indonesian bays
+111. Silica cycling and diatom productivity in upwelling regions of eastern Indonesia
+112. Organic carbon burial rates in Indonesian continental shelf sediments
+113. Rare earth element distribution in Indonesian coastal waters as tracer of water masses
+114. Biogeochemical consequences of submarine groundwater discharge in Bali coastal waters
+115. Mercury methylation in mangrove sediments and bioaccumulation in food webs
+116. Nutrient stoichiometry (N:P:Si) and phytoplankton community composition in Java Sea
+117. Carbon isotope fractionation in marine food webs of Coral Triangle
+118. Benthic nutrient fluxes in eutrophic coastal waters of northern Java
+119. Dimethyl sulfide production by phytoplankton in Indonesian seas and climate implications
+120. Redox-sensitive trace metal cycling in oxygen minimum zones of Banda Sea
+121. Alkalinity generation in tropical carbonate sediments and ocean acidification buffering
+122. Microplastic-associated contaminant transport in Indonesian marine biogeochemical cycles
+123. Nitrogen isotope tracing of anthropogenic nutrient inputs in coastal Indonesian waters
+124. Particulate organic carbon export flux in Indonesian throughflow using sediment traps
+125. Biogeochemical modeling of eutrophication in Jakarta Bay using Delft3D-WAQ
+126. Sulfur cycling in mangrove sediments and implications for carbon storage
+127. Radium isotopes as tracers of submarine groundwater discharge in Indonesian coasts
+128. Phytoplankton bloom dynamics and nutrient limitation in Makassar Strait
+129. Carbon dioxide system variability in coral reef waters of Karimunjawa
+130. Heavy metal speciation and bioavailability in contaminated port sediments
+131. Dissolved inorganic carbon dynamics in Indonesian peatland-draining rivers
+132. Biogeochemical impacts of fish cage aquaculture on water column chemistry
+133. Paleoceanographic reconstruction using sediment core geochemistry in Flores Sea
+134. Nutrient regeneration rates in tropical pelagic waters of eastern Indonesia
+135. Anthropogenic nitrogen deposition impact on coastal marine biogeochemistry
+136. Organic matter degradation pathways in tropical marine sediments
+137. Barium as proxy for productivity in Indonesian deep-sea sediment records
+138. Coastal blue carbon stock assessment across Indonesian mangrove-seagrass systems
+139. Biogeochemical cycling at the oxic-anoxic interface in stratified Indonesian basins
+140. Micronutrient (Fe, Zn, Co) limitation of phytoplankton in Indonesian open waters
+141. Riverine carbon and nutrient delivery to Indonesian coastal seas under land use change
+142. Calcium carbonate dissolution rates in Indonesian deep waters
+143. Biogeochemical effects of coral reef degradation on water column chemistry
+144. Stable isotope mixing models for detrital food webs in Indonesian mangroves
+145. Phosphorite formation potential on Indonesian continental shelves
+146. Biogeochemical response of Indonesian seas to volcanic eruption events
+147. Dissolved organic nitrogen cycling in tropical estuaries of Sumatra
+148. Sedimentary record of heavy metal pollution history in Jakarta Bay
+149. Biogeochemical modeling of hypoxia development in Indonesian semi-enclosed waters
+150. Carbon sequestration efficiency comparison across Indonesian blue carbon ecosystems
+
+=== CATEGORY 4: Coastal Geomorphology & Dynamics (151-200) ===
+151. Shoreline change analysis of northern Java coast using multi-decadal satellite imagery
+152. Beach morphodynamics and sediment transport in pocket beaches of southern Bali
+153. Coastal cliff erosion rates and mechanisms along limestone coasts of Gunung Kidul
+154. Tidal flat morphology and sediment dynamics in Mahakam Delta, East Kalimantan
+155. Storm surge modeling and coastal inundation mapping for Semarang coast
+156. Coral reef geomorphology and Holocene sea level reconstruction in Seribu Islands
+157. Mangrove shoreline progradation rates and sediment trapping in Segara Anakan
+158. Coastal dune dynamics and vegetation interaction in Parangtritis, Yogyakarta
+159. River mouth morphodynamics and sediment bypassing in Citarum River delta
+160. Submarine landslide risk assessment on Indonesian continental slopes
+161. Beach nourishment effectiveness evaluation for eroding coasts of Bali
+162. Tidal channel network evolution in prograding deltas of eastern Kalimantan
+163. Coastal groundwater dynamics and saltwater intrusion in small island aquifers
+164. Wave-driven longshore sediment transport modeling along southern Java coast
+165. Coral cay formation and stability under sea level rise scenarios in Spermonde
+166. Coastal wetland elevation change monitoring using surface elevation tables
+167. Tsunami deposit identification and recurrence interval estimation in Aceh coast
+168. Estuarine morphology response to upstream dam construction in Indonesian rivers
+169. Coastal erosion vulnerability mapping using GIS multi-criteria analysis
+170. Carbonate sediment production and beach formation on Indonesian coral islands
+171. Mangrove root system effect on wave attenuation and shoreline stabilization
+172. Coastal lagoon hydrodynamics and morphological evolution in Lombok
+173. Sea level rise impact modeling on low-lying coastal areas of northern Java
+174. Submarine canyon morphology and sediment transport in Sunda Strait
+175. Beach ridge plain stratigraphy and Holocene coastal evolution in Sumatra
+176. Coastal cliff retreat prediction using probabilistic modeling in Bali
+177. Tidal asymmetry and residual sediment transport in Indonesian straits
+178. Artificial coastal structure impact on adjacent shoreline morphology
+179. Volcanic island coastal geomorphology and erosion in Anak Krakatau
+180. Coastal aquifer vulnerability to climate change in Indonesian small islands
+181. Delta front dynamics and prodelta sedimentation in Brantas River mouth
+182. Wave runup and overtopping prediction for Indonesian coastal defenses
+183. Coral reef flat hydrodynamics and sediment resuspension during storms
+184. Coastal peat subsidence and its contribution to relative sea level rise
+185. Beach sediment provenance analysis using heavy mineral composition
+186. Coastal erosion-accretion patterns in relation to monsoon wave climate
+187. Submarine groundwater discharge geomorphic features in Indonesian karst coasts
+188. Mangrove colonization dynamics on newly formed mudflats in river deltas
+189. Coastal geomorphic response to extreme rainfall events in tropical settings
+190. Barrier island migration and overwash processes in Indonesian coasts
+191. Seabed morphology mapping using multibeam bathymetry in Indonesian shipping lanes
+192. Coastal bluff erosion and mass wasting in volcanic island coastlines
+193. Tidal creek morphometry and hydrological connectivity in mangrove systems
+194. Beach cusps formation and dynamics on Indonesian sandy beaches
+195. Coastal geomorphological mapping for hazard assessment in tourism areas
+196. Sediment budget analysis for eroding deltaic coasts of Java
+197. Reef island morphological change detection using UAV photogrammetry
+198. Coastal squeeze assessment between sea level rise and coastal development
+199. Paleoshoreline reconstruction using beach rock dating in Indonesian coasts
+200. Nature-based coastal protection design using geomorphological principles
+
+=== CATEGORY 5: Marine Pollution & Ecotoxicology (201-250) ===
+201. Microplastic abundance and distribution in surface waters of Java Sea
+202. Heavy metal bioaccumulation in green mussels (Perna viridis) along Jakarta Bay
+203. Marine debris accumulation patterns on beaches of Bali tourism coastline
+204. Antifouling paint contamination (TBT, copper) in Indonesian port sediments
+205. Microplastic ingestion by commercially important fish species in Makassar Strait
+206. Oil spill trajectory modeling and environmental impact in Balikpapan Bay
+207. Pharmaceutical contaminants in coastal waters near urban centers of Java
+208. Plastic debris impact on sea turtle populations in Indonesian nesting beaches
+209. Eutrophication assessment and trophic state index development for Indonesian bays
+210. Microplastic contamination in sea salt produced from Indonesian coastal waters
+211. Heavy metal contamination in mangrove sediments of industrialized coastlines
+212. Marine litter source identification using polymer characterization in Seribu Islands
+213. Endocrine disrupting compounds in Indonesian coastal waters and biota
+214. Coral reef response to chronic nutrient pollution from aquaculture in Lampung Bay
+215. Microplastic vertical distribution in water column of Indonesian deep seas
+216. Ballast water-mediated invasive species risk assessment for Indonesian ports
+217. Persistent organic pollutants in marine mammal tissues from Indonesian waters
+218. Nutrient pollution impact on seagrass ecosystem health in Bintan Island
+219. Microplastic abundance in beach sediments across Indonesian archipelago
+220. Thermal pollution from power plant cooling water on marine communities
+221. Antibiotic resistance genes in marine bacteria near aquaculture areas
+222. Marine debris entanglement risk assessment for marine megafauna in Indonesian waters
+223. Polycyclic aromatic hydrocarbons in seafood from contaminated Indonesian waters
+224. Microplastic fiber contamination from textile industry in coastal rivers of Java
+225. Heavy metal toxicity testing on Indonesian marine organisms using bioassays
+226. Submarine tailings disposal environmental impact in Indonesian mining areas
+227. Microplastic-associated biofilm communities (plastisphere) in tropical marine waters
+228. Nutrient loading from shrimp pond effluent on adjacent mangrove ecosystems
+229. Marine pollution monitoring using biomarkers in sentinel organisms
+230. Microplastic contamination in deep-sea sediments of Indonesian trenches
+231. Coastal water quality modeling for pollution management in Jakarta Bay
+232. Nanoplastic toxicity on marine phytoplankton photosynthesis and growth
+233. Oil pollution bioremediation using indigenous marine bacteria from Indonesian waters
+234. Microplastic transfer through marine food webs in Indonesian coastal ecosystems
+235. Heavy metal contamination assessment in edible seaweed from Indonesian farms
+236. Marine debris impact on coral reef ecosystem function in Karimunjawa
+237. Emerging contaminants (PFAS) in Indonesian marine environment
+238. Microplastic contamination in commercially harvested shellfish of Indonesian markets
+239. Sewage pollution impact on coral reef microbial communities using metagenomics
+240. Atmospheric deposition of pollutants to Indonesian marine surface waters
+241. Microplastic degradation rates in tropical marine environments
+242. Industrial effluent impact on mangrove crab populations in Surabaya coast
+243. Marine pollution index development for Indonesian coastal water quality assessment
+244. Tire wear particle contamination in Indonesian coastal and marine environments
+245. Biomonitoring of marine pollution using transplanted mussels in Indonesian ports
+246. Microplastic contamination in marine protected areas of eastern Indonesia
+247. Dredging activity impact on water quality and benthic communities in ports
+248. Marine litter governance and policy effectiveness evaluation in Indonesia
+249. Sunscreen chemical contamination in coral reef tourism areas of Indonesia
+250. Citizen science approach for marine debris monitoring along Indonesian coastline
+
+=== CATEGORY 6: Marine Biotechnology & Natural Products (251-300) ===
+251. Bioactive compound isolation from Indonesian marine sponges for anticancer activity
+252. Marine-derived enzymes from deep-sea bacteria for industrial biotechnology applications
+253. Antifouling compounds from Indonesian soft corals as eco-friendly alternatives
+254. Marine microalgae cultivation for biodiesel production using Indonesian coastal species
+255. Antimicrobial peptides from Indonesian marine organisms against drug-resistant pathogens
+256. Chitin and chitosan extraction optimization from Indonesian shrimp processing waste
+257. Marine-derived collagen from jellyfish for biomedical scaffold applications
+258. Bioprospecting of Indonesian marine fungi for novel pharmaceutical compounds
+259. Carrageenan extraction and characterization from Indonesian red seaweed species
+260. Marine probiotics isolation from Indonesian fish gut for aquaculture applications
+261. Antioxidant compounds from Indonesian brown seaweed (Sargassum spp.)
+262. Marine-derived nanoparticles synthesis using Indonesian sea cucumber extracts
+263. Bioactive metabolites from mangrove-associated endophytic fungi in Kalimantan
+264. Agar quality optimization from Gracilaria species cultivated in Indonesian waters
+265. Marine-derived calcium from fish bones for bone tissue engineering
+266. Anti-inflammatory compounds from Indonesian gorgonian corals
+267. Microalgae-based wastewater treatment using Indonesian coastal Chlorella strains
+268. Marine collagen peptides from tuna skin for cosmeceutical applications
+269. Bioplastic production from Indonesian seaweed polysaccharides
+270. Marine-derived omega-3 fatty acid concentration from Indonesian fish oil
+271. Antiviral compounds from Indonesian marine sponge-associated bacteria
+272. Fucoidan extraction from Indonesian brown seaweed for immunomodulatory activity
+273. Marine-derived hydroxyapatite from fish scales for dental applications
+274. Bioluminescent marine bacteria from Indonesian waters for biosensor development
+275. Alginate extraction optimization from Indonesian Sargassum for wound dressing
+276. Marine-derived lipase enzymes from Indonesian deep-sea sediment bacteria
+277. Phycocyanin extraction from Indonesian Spirulina for food colorant applications
+278. Anti-diabetic compounds from Indonesian sea cucumber (Holothuria spp.)
+279. Marine-derived cellulose from tunicates for nanocomposite materials
+280. Biofilm inhibition compounds from Indonesian coral-associated bacteria
+281. Marine microalgae astaxanthin production optimization for nutraceutical use
+282. Antihypertensive peptides from Indonesian marine fish protein hydrolysates
+283. Marine-derived polysaccharides for drug delivery system development
+284. Bioremediation potential of Indonesian marine bacteria for oil spill cleanup
+285. UV-protective compounds (mycosporine-like amino acids) from Indonesian marine algae
+286. Marine-derived gelatin from Indonesian catfish skin for pharmaceutical capsules
+287. Anticancer compounds from Indonesian nudibranch-associated microorganisms
+288. Seaweed-based edible film development using Indonesian Eucheuma species
+289. Marine-derived protease enzymes for eco-friendly leather processing
+290. Bioactive compounds from Indonesian mangrove plants for mosquito larvicide
+291. Marine-derived calcium carbonate from shellfish waste for construction materials
+292. Antifungal compounds from Indonesian marine actinobacteria
+293. Microalgae-based carbon capture using Indonesian coastal diatom species
+294. Marine-derived hyaluronic acid from fish eyeballs for cosmetic applications
+295. Biosurfactant production from Indonesian marine bacteria for oil recovery
+296. Anti-aging compounds from Indonesian sea cucumber collagen
+297. Marine-derived chitooligosaccharides for agricultural biostimulant applications
+298. Bioethanol production from Indonesian seaweed biomass
+299. Marine-derived fluorescent proteins from Indonesian reef organisms for bioimaging
+300. Enzyme-assisted extraction of bioactive compounds from Indonesian marine resources
+
+=== CATEGORY 7: Mangrove & Seagrass Ecosystems (301-350) ===
+301. Mangrove carbon stock assessment across different zonation patterns in Mahakam Delta
+302. Seagrass meadow decline monitoring using Sentinel-2 satellite imagery in Bintan
+303. Mangrove restoration success evaluation using drone-based canopy mapping in Demak
+304. Seagrass ecosystem services valuation for coastal protection in Lombok
+305. Mangrove-associated fish community structure and nursery function in Segara Anakan
+306. Seagrass photosynthetic performance under varying light and temperature in Spermonde
+307. Mangrove soil carbon sequestration rates comparison across Indonesian provinces
+308. Seagrass seed bank viability and germination for restoration in degraded areas
+309. Mangrove pneumatophore density and sediment accretion relationship in prograding coasts
+310. Seagrass epiphyte community as indicator of water quality in Karimunjawa
+311. Mangrove species zonation shift under sea level rise scenarios in northern Java
+312. Seagrass-coral reef connectivity for fish movement using acoustic telemetry
+313. Mangrove blue carbon crediting methodology development for Indonesian projects
+314. Seagrass meadow mapping using UAV multispectral imagery in Wakatobi
+315. Mangrove root architecture and wave attenuation capacity measurement
+316. Seagrass leaf tissue nutrient content as eutrophication indicator
+317. Mangrove rehabilitation using ecological engineering in abandoned shrimp ponds
+318. Seagrass herbivory by dugong and green turtle in eastern Indonesian waters
+319. Mangrove litter decomposition rates and nutrient cycling in tropical conditions
+320. Seagrass genetic diversity and population connectivity in Indonesian archipelago
+321. Mangrove ecosystem health assessment using remote sensing vegetation indices
+322. Seagrass carbon storage capacity comparison among Indonesian species
+323. Mangrove-mudflat boundary dynamics under changing sediment supply
+324. Seagrass recovery monitoring after boat anchor damage in tourism areas
+325. Mangrove propagule dispersal modeling for restoration site selection
+326. Seagrass-associated macro-invertebrate community in Derawan Islands
+327. Mangrove canopy gap dynamics and regeneration patterns in natural forests
+328. Seagrass meadow fragmentation effects on fish community structure
+329. Mangrove ecosystem greenhouse gas (CH4, N2O) emissions measurement
+330. Seagrass wrack decomposition and nutrient subsidies to adjacent beaches
+331. Mangrove conversion to aquaculture ponds: carbon emission quantification
+332. Seagrass light requirements and depth limit determination in turbid waters
+333. Mangrove crab biodiversity and ecological function in Indonesian mangroves
+334. Seagrass pollination ecology and reproductive success in Indonesian species
+335. Mangrove forest structure and biomass estimation using LiDAR in Kalimantan
+336. Seagrass microbiome composition and its role in plant health
+337. Mangrove-fisheries linkage quantification using stable isotope analysis
+338. Seagrass bed acoustic habitat characterization for biodiversity assessment
+339. Mangrove soil microbial community and biogeochemical cycling
+340. Seagrass transplantation technique optimization for Indonesian conditions
+341. Mangrove phenology monitoring using time-series satellite data
+342. Seagrass ecosystem response to extreme rainfall and river discharge events
+343. Mangrove-associated bird diversity and habitat use in Indonesian wetlands
+344. Seagrass meadow thermal buffering capacity for associated fauna
+345. Mangrove silvofishery system productivity and sustainability assessment
+346. Seagrass contribution to beach sediment production in carbonate islands
+347. Mangrove ecosystem resilience to oil spill contamination and recovery
+348. Seagrass-mangrove-coral reef landscape connectivity for ecosystem function
+349. Mangrove community-based management effectiveness in Indonesian coastal villages
+350. Seagrass ecosystem decline drivers identification using long-term monitoring data
+
+=== CATEGORY 8: Marine Spatial Planning & Conservation (351-400) ===
+351. Marine protected area network design optimization for Coral Triangle using Marxan
+352. Ecosystem-based marine spatial planning framework for Makassar Strait
+353. Marine conservation effectiveness assessment using fish biomass indicators in Raja Ampat
+354. Zoning plan compliance monitoring using VMS and AIS data in marine parks
+355. Marine spatial conflict analysis between fisheries, shipping, and conservation in Java Sea
+356. Community-based marine conservation area governance evaluation in Maluku
+357. Marine biodiversity priority area identification using systematic conservation planning
+358. Marine tourism carrying capacity assessment for dive sites in Bunaken
+359. Fisheries displacement effects of marine protected area establishment
+360. Marine spatial planning for offshore wind energy development in Indonesian waters
+361. Coral reef resilience-based management zone design in Karimunjawa
+362. Marine conservation financing mechanism evaluation (blue bonds, PES)
+363. Transboundary marine conservation cooperation in Sulu-Sulawesi Sea
+364. Marine spatial data infrastructure development for Indonesian ocean governance
+365. Effectiveness of no-take zones for reef fish spillover in Indonesian MPAs
+366. Marine spatial planning integration with coastal land use planning
+367. Deep-sea mining environmental impact assessment framework for Indonesian waters
+368. Marine conservation area downgrading, downsizing, and degazettement (PADDD) analysis
+369. Seascape connectivity consideration in marine spatial planning
+370. Marine spatial planning for submarine cable routing in Indonesian archipelago
+371. Indigenous marine tenure integration in formal marine spatial planning
+372. Marine conservation area management effectiveness tracking tool (METT) application
+373. Climate-smart marine protected area design for Indonesian waters
+374. Marine spatial planning for aquaculture site selection in Indonesian coasts
+375. Enforcement and surveillance optimization for marine protected areas
+376. Marine ecosystem service mapping for spatial planning in Bali
+377. Cumulative impact assessment framework for marine spatial planning
+378. Marine conservation area expansion strategy for meeting 30x30 targets
+379. Stakeholder participation analysis in marine spatial planning processes
+380. Marine spatial planning for disaster risk reduction in tsunami-prone coasts
+381. Blue economy zoning framework development for Indonesian marine areas
+382. Marine protected area buffer zone management for sustainable fisheries
+383. Spatial prioritization of mangrove restoration sites using multi-criteria analysis
+384. Marine spatial planning for port development and environmental protection balance
+385. Adaptive management framework for Indonesian marine protected areas
+386. Marine spatial planning data gap analysis and research prioritization
+387. Cost-effectiveness analysis of different marine conservation strategies
+388. Marine spatial planning for underwater cultural heritage protection
+389. Ecological corridor design for marine megafauna migration in Indonesian waters
+390. Marine spatial planning governance framework for decentralized Indonesian system
+391. Marine protected area tourism revenue and conservation funding sustainability
+392. Spatial analysis of fishing pressure distribution around marine protected areas
+393. Marine spatial planning for renewable ocean energy development
+394. Conservation easement application for marine areas in Indonesian legal framework
+395. Marine spatial planning scenario modeling under climate change projections
+396. Community perception and support for marine protected area management
+397. Marine spatial planning for integrated coastal zone management in small islands
+398. Biodiversity offset mechanism design for marine development projects
+399. Marine spatial planning technology platform development for Indonesian waters
+400. Monitoring, evaluation, and adaptive management system for marine spatial plans
+
+=== CATEGORY 9: Deep-Sea Biology & Hydrothermal Vents (401-450) ===
+401. Chemosynthetic community composition at newly discovered cold seeps in Makassar Strait
+402. Deep-sea coral diversity and distribution on seamounts of Banda Sea
+403. Hydrothermal vent fauna characterization in Sangihe volcanic arc using ROV
+404. Abyssal plain biodiversity assessment in Indonesian deep basins using box coring
+405. Deep-sea fish community structure along depth gradients in Sulawesi Sea
+406. Hydrothermal vent microbial community metagenomics in Indonesian submarine volcanoes
+407. Deep-sea sponge grounds discovery and characterization in Arafura Sea
+408. Bioluminescence ecology of deep-sea organisms in Banda Sea
+409. Hadal fauna exploration in Java Trench using free-fall landers
+410. Deep-sea xenophyophore distribution and ecology in Indonesian waters
+411. Hydrothermal vent mineral deposit characterization in Halmahera volcanic arc
+412. Deep-sea scavenger community assessment using baited camera systems
+413. Polymetallic nodule-associated fauna in Indonesian deep-sea plains
+414. Deep-sea octocoral taxonomy and phylogenetics from Indonesian seamounts
+415. Hydrothermal vent fluid chemistry and its influence on biological communities
+416. Deep-sea holothurian diversity and bioturbation in abyssal sediments
+417. Whale fall decomposition community succession in Indonesian deep waters
+418. Deep-sea isopod diversity in hadal trenches of eastern Indonesia
+419. Hydrothermal vent endemic species connectivity between Indonesian volcanic arcs
+420. Deep-sea glass sponge reef discovery potential in Indonesian continental margins
+421. Mesopelagic fish vertical migration patterns using acoustic profiling in Banda Sea
+422. Deep-sea polychaete diversity in organic-rich sediments of Indonesian basins
+423. Hydrothermal vent tubeworm physiology and symbiont characterization
+424. Deep-sea biodiversity response to organic matter flux variability
+425. Submarine volcano eruption impact on deep-sea communities in Sangihe
+426. Deep-sea amphipod diversity in Java Trench hadal zone
+427. Cold seep carbonate formation and associated fauna in Makassar Strait
+428. Deep-sea coral age determination and growth rates using radiometric dating
+429. Hydrothermal vent shrimp (Rimicaris-like) ecology in Indonesian vents
+430. Deep-sea biodiversity baseline assessment for mining impact evaluation
+431. Abyssal current effects on deep-sea community distribution in Indonesian basins
+432. Deep-sea squid diversity and ecology using midwater trawl surveys
+433. Hydrothermal vent biogeography comparison across Indonesian volcanic arcs
+434. Deep-sea fish otolith chemistry for habitat use reconstruction
+435. Submarine canyon biodiversity hotspot assessment in Indonesian continental margins
+436. Deep-sea parasitism ecology in abyssal fish communities
+437. Hydrothermal vent extremophile enzymes for biotechnology applications
+438. Deep-sea litter accumulation assessment in Indonesian submarine canyons
+439. Manganese crust-associated fauna on Indonesian seamounts
+440. Deep-sea bioluminescent communication in mesopelagic organisms
+441. Hydrothermal vent plume dispersal modeling and chemosynthetic productivity
+442. Deep-sea biodiversity temporal variability using long-term observatory data
+443. Submarine mud volcano fauna characterization in Indonesian fore-arc basins
+444. Deep-sea fish reproductive strategies in food-limited environments
+445. Hydrothermal vent mineral-microbe interactions in Indonesian submarine volcanoes
+446. Deep-sea megafauna density estimation using towed camera systems
+447. Abyssal sediment community response to climate-driven changes in surface productivity
+448. Deep-sea biodiversity informatics and database development for Indonesian waters
+449. Hydrothermal vent conservation framework development for Indonesian marine governance
+450. Deep-sea ecosystem vulnerability assessment to anthropogenic disturbance
+
+=== CATEGORY 10: Marine Climate Science & Blue Carbon (451-500) ===
+451. Blue carbon stock quantification in Indonesian mangrove-seagrass systems using remote sensing
+452. Ocean heat content variability in Indonesian throughflow and its climate implications
+453. Sea level rise projections for Indonesian coastal cities using regional climate models
+454. Marine heatwave frequency and intensity trends in Indonesian waters (2000-2025)
+455. Blue carbon loss estimation from mangrove deforestation in Kalimantan using LiDAR
+456. Indonesian throughflow variability and its role in global thermohaline circulation
+457. Ocean acidification monitoring network design for Indonesian coral reef waters
+458. Seagrass blue carbon sequestration rates under varying environmental conditions
+459. Climate-driven changes in Indonesian monsoon and marine ecosystem response
+460. Mangrove blue carbon project development under Verra VCS methodology
+461. Sea surface temperature trend analysis in Indonesian seas using satellite data (1985-2025)
+462. Blue carbon co-benefits assessment (biodiversity, fisheries, coastal protection)
+463. Ocean deoxygenation trends and biological impacts in Indonesian semi-enclosed seas
+464. Carbon flux measurement in restored mangrove areas using eddy covariance
+465. Indian Ocean Dipole impact on marine productivity in eastern Indonesian waters
+466. Blue carbon financing mechanism development for Indonesian coastal communities
+467. Coral reef calcification response to ocean warming and acidification combined effects
+468. Mangrove soil carbon vulnerability to disturbance and emission factors
+469. Climate velocity and marine species range shift projections in Indonesian waters
+470. Seagrass blue carbon permanence assessment under sea level rise scenarios
+471. Marine carbon dioxide removal potential assessment for Indonesian waters
+472. Ocean-atmosphere CO2 exchange variability in Indonesian seas
+473. Climate change impact on Indonesian coral reef ecosystem services
+474. Blue carbon MRV (monitoring, reporting, verification) protocol for Indonesian projects
+475. Paleoclimate reconstruction using coral core geochemistry in Indonesian reefs
+476. Mangrove blue carbon additionality demonstration for carbon credit certification
+477. Marine ecosystem tipping points identification under climate change in Coral Triangle
+478. Seagrass meadow resilience to marine heatwaves in Indonesian waters
+479. Ocean circulation change projections and implications for marine biodiversity
+480. Blue carbon policy integration in Indonesian nationally determined contributions (NDC)
+481. Coral reef blue carbon contribution assessment in Indonesian carbonate systems
+482. Climate-driven phytoplankton community shifts in Indonesian seas
+483. Mangrove migration potential under sea level rise in Indonesian coastlines
+484. Marine carbon cycle modeling for Indonesian seas using biogeochemical models
+485. Climate change adaptation planning for Indonesian marine-dependent communities
+486. Blue carbon ecosystem restoration prioritization using cost-effectiveness analysis
+487. Ocean warming impact on fish physiology and distribution in tropical Indonesian waters
+488. Seagrass carbon export to adjacent deep-sea sediments quantification
+489. Climate-smart blue carbon conservation strategy for Indonesian archipelago
+490. Marine heatwave impact on coral bleaching severity prediction modeling
+491. Blue carbon ecosystem degradation emission factors for Indonesian national inventory
+492. Ocean acidification impact on marine calcifiers in Indonesian waters
+493. Climate change impact on mangrove species composition and carbon storage
+494. Marine-based carbon dioxide removal (ocean alkalinity enhancement) feasibility
+495. Blue carbon credit market analysis and Indonesian project competitiveness
+496. Climate-driven changes in upwelling intensity and fisheries productivity
+497. Mangrove-seagrass blue carbon landscape connectivity for climate mitigation
+498. Ocean thermal energy potential assessment in Indonesian deep waters
+499. Climate change impact on marine biodiversity conservation priority areas
+500. Integrated blue carbon-blue economy framework for Indonesian maritime development

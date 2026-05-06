@@ -1,0 +1,628 @@
+================================================================================
+TOPIC GUIDE — Teknologi Rekayasa Konstruksi Perkapalan (Ship Construction Engineering Technology)
+================================================================================
+FIELD: Naval Architecture / Marine Engineering / Ship Construction
+DEFAULT CITATION STYLE: IEEE
+SUBDISCIPLINE: Welding Technology & Metallurgy, Ship Structural Analysis, Production Planning & Management, Marine Materials & Corrosion, Outfitting & Piping Systems, Quality Control & NDT, Ship Repair & Maintenance, Green Shipbuilding Technology
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title (specific, with method and domain)
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Welding technology: SMAW, GMAW/MIG, GTAW/TIG, SAW, FCAW, laser welding, friction stir welding
+   - NDT methods: ultrasonic testing (UT/PAUT), radiographic testing (RT/DR), magnetic particle (MT), liquid penetrant (PT), eddy current (ET)
+   - Structural analysis: FEA (ANSYS, Abaqus, NASTRAN), classification society rules (BKI, Lloyd's, DNV)
+   - Production planning: PERT/CPM, lean shipbuilding, modular construction, block assembly
+   - Material testing: tensile, impact (Charpy), hardness (Vickers/Brinell), metallography, SEM/EDS
+   - Corrosion analysis: electrochemical methods, salt spray testing, cathodic protection design
+   - Digital shipyard: 3D modeling (AVEVA Marine, Cadmatic), AR/VR for production, IoT monitoring
+   - Robotic welding: automated welding systems, seam tracking, adaptive control
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics: tensile strength (MPa), yield strength (MPa), elongation (%), impact energy (J), hardness (HV), weld defect rate (%), production efficiency (%)
+   - Comparison with baselines (classification society requirements vs actual)
+   - All numbers realistic and internally consistent
+   - Statistical measures: mean, std deviation, confidence intervals
+
+5. MATHEMATICAL FORMULAS:
+   - Welding heat input: H = V×I×60/S (J/mm), where V=voltage, I=current, S=travel speed
+   - Cooling rate: R = 2πk(Tc-T0)²/(H/t) for thin plate
+   - HAZ width estimation: w = √(H/(πρCp(Tc-T0)))
+   - Plate bending radius: R = Et/(2σy)
+   - Weld strength: F = σ × A_throat
+   - Fatigue crack growth (Paris law): da/dN = C(ΔK)^m
+   - Stress intensity factor: K = σ√(πa) × Y(a/W)
+   - Carbon equivalent: CE = C + Mn/6 + (Cr+Mo+V)/5 + (Ni+Cu)/15
+   - Preheating temperature: Tp = 350√(CE-0.25)
+   - Corrosion rate: CR = (K×W)/(A×T×D) (mm/year)
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian context: Indonesian shipyards (PAL, Dumas), traditional boat building, inter-island vessel construction
+   - Include Indonesian researchers and journals where applicable
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords (5-7), Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+================================================================================
+DOMAIN-SPECIFIC CONTEXT
+================================================================================
+
+INDONESIAN CONTEXT:
+- PT PAL Indonesia (naval and commercial shipbuilding)
+- PT Dumas Tanjung Perak Shipyard
+- PT Dok dan Perkapalan Surabaya (DPS)
+- Indonesian traditional boat building (phinisi, kapal kayu)
+- Inter-island vessel construction (KMP, ferry, ro-ro)
+- Indonesian Navy (TNI-AL) vessel maintenance and construction
+- BKI (Biro Klasifikasi Indonesia) classification rules
+- Indonesian maritime industry development (Tol Laut program)
+- Local shipyard challenges: skilled welder shortage, quality control
+- Indonesian marine steel supply (Krakatau Steel)
+
+KEY JOURNALS:
+- Ocean Engineering
+- Journal of Ship Production and Design
+- Marine Structures
+- Welding Journal (AWS)
+- Journal of Materials Processing Technology
+- International Journal of Naval Architecture and Ocean Engineering
+- Kapal: Jurnal Ilmu Pengetahuan dan Teknologi Kelautan (Undip)
+- Wave: Jurnal Ilmiah Teknologi Maritim (ITS)
+
+SOFTWARE & TOOLS:
+- AVEVA Marine (ship design and production)
+- Cadmatic (3D ship design)
+- ANSYS/Abaqus (structural FEA)
+- AutoCAD (2D drafting)
+- Primavera P6/MS Project (production planning)
+- NAPA (naval architecture)
+- Maxsurf (hull design)
+- Welding procedure specification (WPS) software
+
+CLASSIFICATION SOCIETIES & STANDARDS:
+- BKI (Biro Klasifikasi Indonesia)
+- DNV (Det Norske Veritas)
+- Lloyd's Register
+- ABS (American Bureau of Shipping)
+- AWS D1.1 (Structural Welding Code - Steel)
+- ASME Section IX (Welding Qualifications)
+- ISO 5817 (Weld Quality Levels)
+- ISO 9712 (NDT Personnel Qualification)
+
+================================================================================
+RESEARCH TOPIC BANK — 500 TOPICS
+================================================================================
+
+CATEGORY 1: WELDING TECHNOLOGY & METALLURGY (001-050)
+001. Optimization of SMAW parameters for high-strength ship steel (AH36) welding in Indonesian shipyards
+002. Effect of heat input variation on HAZ microstructure of marine-grade steel butt joints
+003. Development of welding procedure specification for dissimilar metal joints in ship piping systems
+004. Comparative study of GMAW and FCAW processes for ship hull plate welding productivity
+005. Investigation of hydrogen-induced cracking in underwater wet welding of ship hull repairs
+006. Optimization of SAW parameters for thick plate welding in Indonesian naval vessel construction
+007. Effect of preheating temperature on residual stress in T-joint fillet welds of ship structures
+008. Development of friction stir welding parameters for aluminum alloy ship superstructure panels
+009. Investigation of weld metal toughness at low temperature for LNG carrier tank construction
+010. Optimization of GTAW orbital welding for ship piping system fabrication
+011. Effect of welding sequence on distortion control in ship block assembly
+012. Development of narrow-gap welding technique for thick plate ship hull construction
+013. Investigation of intergranular corrosion in stainless steel welds for ship exhaust systems
+014. Optimization of robotic GMAW parameters for Indonesian shipyard fillet welding automation
+015. Effect of post-weld heat treatment on mechanical properties of ship structural welds
+016. Development of welding consumable selection guide for Indonesian marine steel grades
+017. Investigation of lamellar tearing susceptibility in ship structural T-joints
+018. Optimization of multi-pass welding strategy for minimizing distortion in ship panels
+019. Effect of shielding gas composition on GMAW weld quality for ship construction
+020. Development of underwater wet welding procedure for Indonesian ship hull repair
+021. Investigation of fatigue performance of ship structural weld details under cyclic loading
+022. Optimization of laser-arc hybrid welding for high-speed ship panel production
+023. Effect of welding position on mechanical properties of ship hull butt joints
+024. Development of phased array ultrasonic testing for ship weld quality assessment
+025. Investigation of stress corrosion cracking in ship ballast tank weld joints
+026. Optimization of FCAW-G parameters for vertical-up welding in ship block assembly
+027. Effect of interpass temperature on microstructure of multi-pass ship structural welds
+028. Development of electron beam welding application for ship propeller shaft manufacturing
+029. Investigation of weld toe geometry effect on fatigue life of ship structural details
+030. Optimization of welding distortion prediction using computational welding mechanics
+031. Effect of backing material on root quality of one-sided ship hull butt welds
+032. Development of weld quality monitoring system using acoustic emission for shipyard application
+033. Investigation of galvanic corrosion at weld joints between different marine alloys
+034. Optimization of pulsed GMAW for thin plate ship superstructure welding
+035. Effect of plate edge preparation on weld quality in ship hull construction
+036. Development of friction stir spot welding for aluminum ship panel lap joints
+037. Investigation of creep behavior in high-temperature ship exhaust system welds
+038. Optimization of tandem GMAW for high-deposition ship structural welding
+039. Effect of restraint conditions on weld cracking in ship block assembly joints
+040. Development of laser welding application for ship panel stiffener attachment
+041. Investigation of weld metal hydrogen content in SMAW electrodes for ship construction
+042. Optimization of welding parameters for weathering steel in Indonesian coastal vessel construction
+043. Effect of surface condition on weld quality in ship repair and maintenance operations
+044. Development of automated welding system for Indonesian traditional wooden boat construction
+045. Investigation of dissimilar thickness welding challenges in ship structural transitions
+046. Optimization of weld repair procedures for fatigue-cracked ship structural members
+047. Effect of welding thermal cycle on corrosion resistance of ship hull steel
+048. Development of virtual welding training system for Indonesian shipyard welder qualification
+049. Investigation of residual stress distribution in ship hull block assembly welds
+050. Optimization of welding productivity improvement strategies for Indonesian shipyard competitiveness
+
+CATEGORY 2: SHIP STRUCTURAL ANALYSIS (051-100)
+051. Finite element analysis of ship hull girder ultimate strength under combined loading
+052. Structural optimization of bulk carrier double bottom for weight reduction
+053. Analysis of fatigue crack initiation in ship structural details using local stress approach
+054. Development of structural health monitoring system for Indonesian naval vessel hulls
+055. FEA of wave-induced structural response in Indonesian inter-island ferry vessels
+056. Optimization of ship hull stiffener spacing for minimum weight design
+057. Analysis of buckling behavior of ship hull plating under combined compression and shear
+058. Development of simplified structural assessment method for Indonesian traditional wooden boats
+059. FEA of collision damage assessment for Indonesian tanker vessel hull structures
+060. Structural analysis of ship engine room foundation under dynamic machinery loads
+061. Optimization of ship deck opening reinforcement design using topology optimization
+062. Analysis of whipping and springing response in Indonesian container vessel structures
+063. Development of corrosion-inclusive structural reliability assessment for aging Indonesian ships
+064. FEA of grounding damage prediction for Indonesian shallow-water vessel operations
+065. Structural optimization of ship superstructure for vibration reduction
+066. Analysis of thermal stress in ship deck structures under tropical solar radiation
+067. Development of progressive collapse analysis method for damaged ship hull girders
+068. FEA of ship structural response to underwater explosion loading
+069. Structural analysis of ship-to-ship mooring connection systems
+070. Optimization of longitudinal strength assessment for Indonesian ro-ro ferry vessels
+071. Analysis of stress concentration in ship hull bracket toe connections
+072. Development of structural monitoring system for Indonesian floating dock operations
+073. FEA of ice-strengthened hull structure for Indonesian polar research vessel
+074. Structural optimization of ship rudder horn for fatigue life improvement
+075. Analysis of sloshing-induced structural loads in ship cargo tanks
+076. Development of rapid structural assessment tool for Indonesian ship damage survey
+077. FEA of composite-steel hybrid ship hull structure performance
+078. Structural analysis of ship crane pedestal under dynamic lifting loads
+079. Optimization of ship hull form for structural efficiency in Indonesian sea conditions
+080. Analysis of vibration-induced fatigue in ship engine room structures
+081. Development of structural design standard for Indonesian aluminum high-speed craft
+082. FEA of ship bow structure for wave slamming impact resistance
+083. Structural optimization of ship hatch cover for minimum deflection design
+084. Analysis of residual strength of ship hull with corrosion wastage
+085. Development of structural integrity assessment for Indonesian aging fleet vessels
+086. FEA of ship stern structure under propeller-induced vibration loading
+087. Structural analysis of ship accommodation block under fire conditions
+088. Optimization of ship bilge keel design for structural and hydrodynamic performance
+089. Analysis of fatigue damage accumulation in ship structural joints under spectrum loading
+090. Development of structural design methodology for Indonesian catamaran ferry vessels
+091. FEA of ship hull response to berthing impact loads
+092. Structural optimization of ship tank top for heavy cargo loading conditions
+093. Analysis of crack propagation in ship hull plating using fracture mechanics
+094. Development of lightweight structural design for Indonesian electric ferry vessels
+095. FEA of ship structural response to green water loading on deck
+096. Structural analysis of ship conversion from cargo to passenger vessel
+097. Optimization of ship frame spacing for Indonesian coastal vessel construction
+098. Analysis of structural discontinuity effects in ship hull longitudinal members
+099. Development of structural assessment method for Indonesian ship life extension
+100. FEA of ship hull structural response to asymmetric flooding conditions
+
+CATEGORY 3: PRODUCTION PLANNING & MANAGEMENT (101-150)
+101. Development of lean shipbuilding implementation framework for Indonesian medium-scale shipyards
+102. Optimization of ship block division strategy for Indonesian shipyard crane capacity
+103. Implementation of PERT/CPM scheduling for Indonesian naval vessel construction projects
+104. Development of modular construction method for Indonesian inter-island ferry production
+105. Optimization of material flow in Indonesian shipyard using simulation modeling
+106. Implementation of earned value management for Indonesian ship construction project control
+107. Development of production planning system for Indonesian multi-project shipyard operations
+108. Optimization of welding workforce allocation in Indonesian shipyard block assembly
+109. Implementation of just-in-time material delivery for Indonesian ship outfitting operations
+110. Development of shipyard layout optimization for Indonesian greenfield shipyard design
+111. Optimization of block erection sequence for Indonesian large vessel construction
+112. Implementation of digital production planning for Indonesian shipyard modernization
+113. Development of quality management system for Indonesian shipyard ISO 9001 certification
+114. Optimization of steel cutting and nesting for Indonesian shipyard material utilization
+115. Implementation of 5S workplace organization for Indonesian shipyard productivity improvement
+116. Development of shipyard capacity planning model for Indonesian naval shipbuilding program
+117. Optimization of painting and blasting schedule for Indonesian ship block production
+118. Implementation of concurrent engineering for Indonesian ship design and production integration
+119. Development of supply chain management system for Indonesian shipyard material procurement
+120. Optimization of ship launching and docking schedule for Indonesian shipyard operations
+121. Implementation of total productive maintenance for Indonesian shipyard equipment management
+122. Development of cost estimation model for Indonesian ship construction projects
+123. Optimization of outfitting strategy (pre-outfitting, zone outfitting) for Indonesian shipyards
+124. Implementation of risk management framework for Indonesian ship construction projects
+125. Development of workforce training program for Indonesian shipyard skill development
+126. Optimization of ship repair planning and scheduling for Indonesian dry dock operations
+127. Implementation of value stream mapping for Indonesian shipyard process improvement
+128. Development of production monitoring system for Indonesian shipyard real-time tracking
+129. Optimization of crane utilization in Indonesian shipyard block handling operations
+130. Implementation of design for production principles in Indonesian ship design process
+131. Development of shipyard safety management system for Indonesian maritime industry
+132. Optimization of pipe spool fabrication scheduling for Indonesian ship outfitting
+133. Implementation of group technology for Indonesian shipyard interim product classification
+134. Development of shipyard environmental management for Indonesian green shipbuilding
+135. Optimization of hull treatment (blasting and painting) facility utilization
+136. Implementation of knowledge management system for Indonesian shipyard best practices
+137. Development of subcontractor management framework for Indonesian shipyard operations
+138. Optimization of ship sea trial planning and execution for Indonesian vessel delivery
+139. Implementation of building information modeling (BIM) for Indonesian shipyard facilities
+140. Development of performance measurement system for Indonesian shipyard benchmarking
+141. Optimization of ship conversion project planning for Indonesian vessel modification
+142. Implementation of agile project management for Indonesian fast patrol boat construction
+143. Development of digital twin for Indonesian shipyard production process simulation
+144. Optimization of steel stockyard management for Indonesian shipyard inventory control
+145. Implementation of six sigma quality improvement for Indonesian shipyard weld defect reduction
+146. Development of integrated planning system for Indonesian shipyard design-production coordination
+147. Optimization of ship block transportation within Indonesian shipyard facilities
+148. Implementation of theory of constraints for Indonesian shipyard bottleneck management
+149. Development of shipyard master plan for Indonesian maritime industry development
+150. Optimization of multi-vessel production scheduling for Indonesian commercial shipyard
+
+CATEGORY 4: MARINE MATERIALS & CORROSION (151-200)
+151. Investigation of pitting corrosion behavior of ship hull steel in Indonesian tropical seawater
+152. Development of cathodic protection system design for Indonesian inter-island vessel hulls
+153. Analysis of marine biofouling growth patterns on ship hull coatings in Indonesian waters
+154. Investigation of stress corrosion cracking in ship propeller shaft materials
+155. Development of corrosion mapping system for Indonesian aging fleet hull assessment
+156. Analysis of coating degradation mechanisms in Indonesian ship ballast tank environments
+157. Investigation of galvanic corrosion between hull steel and bronze propeller materials
+158. Development of impressed current cathodic protection optimization for Indonesian naval vessels
+159. Analysis of microbiologically influenced corrosion in ship fuel tank bottom plates
+160. Investigation of erosion-corrosion in ship seawater piping systems
+161. Development of corrosion allowance prediction model for Indonesian ship structural design
+162. Analysis of antifouling coating performance in Indonesian tropical marine environment
+163. Investigation of crevice corrosion in ship hull riveted and bolted connections
+164. Development of sacrificial anode design optimization for Indonesian fishing vessel hulls
+165. Analysis of corrosion fatigue in ship structural weld details under marine loading
+166. Investigation of high-temperature corrosion in ship exhaust gas scrubber systems
+167. Development of corrosion monitoring system for Indonesian ship ballast water tanks
+168. Analysis of marine growth effect on ship hull resistance in Indonesian waters
+169. Investigation of dealloying corrosion in ship seawater valve and fitting materials
+170. Development of coating selection guide for Indonesian ship hull protection systems
+171. Analysis of corrosion behavior of weathering steel in Indonesian coastal atmosphere
+172. Investigation of hydrogen embrittlement in high-strength ship mooring chain materials
+173. Development of corrosion risk assessment framework for Indonesian port infrastructure
+174. Analysis of cathodic disbondment of ship hull coating under cathodic protection
+175. Investigation of selective corrosion in ship heat exchanger tube materials
+176. Development of environmentally friendly antifouling coating for Indonesian marine vessels
+177. Analysis of corrosion under insulation in ship piping and tank systems
+178. Investigation of flow-accelerated corrosion in ship cooling water systems
+179. Development of corrosion inspection planning for Indonesian ship class survey
+180. Analysis of marine atmospheric corrosion of ship superstructure materials
+181. Investigation of weld decay corrosion in ship stainless steel piping systems
+182. Development of composite material application for Indonesian ship structural components
+183. Analysis of corrosion protection system life cycle cost for Indonesian vessel operations
+184. Investigation of cavitation erosion in ship propeller and rudder materials
+185. Development of smart coating technology for Indonesian ship hull corrosion monitoring
+186. Analysis of corrosion behavior of aluminum alloy in Indonesian marine environment
+187. Investigation of under-deposit corrosion in ship boiler and heat exchanger tubes
+188. Development of corrosion-resistant material selection for Indonesian offshore platform
+189. Analysis of coating compatibility with cathodic protection for ship hull systems
+190. Investigation of fretting corrosion in ship machinery bearing and shaft connections
+191. Development of accelerated corrosion testing protocol for Indonesian marine materials
+192. Analysis of corrosion damage assessment methodology for Indonesian ship hull survey
+193. Investigation of intergranular corrosion in ship propeller casting alloys
+194. Development of nano-coating application for Indonesian ship corrosion protection
+195. Analysis of corrosion behavior of ship steel in Indonesian port water conditions
+196. Investigation of atmospheric corrosion of ship cargo hold structural members
+197. Development of corrosion prediction model for Indonesian ship hull life assessment
+198. Analysis of marine biofilm formation on ship hull surfaces in Indonesian waters
+199. Investigation of corrosion performance of duplex stainless steel in ship applications
+200. Development of green corrosion inhibitor from Indonesian natural materials for marine use
+
+CATEGORY 5: OUTFITTING & PIPING SYSTEMS (201-250)
+201. Design optimization of ship piping system layout for Indonesian ferry vessel construction
+202. Development of HVAC system design for Indonesian passenger vessel tropical operation
+203. Analysis of ship ballast water treatment system performance for IMO compliance
+204. Design of fire-fighting system for Indonesian ro-ro passenger vessel requirements
+205. Development of ship electrical system design for Indonesian inter-island cargo vessel
+206. Analysis of ship fuel oil system optimization for Indonesian vessel energy efficiency
+207. Design of sewage treatment system for Indonesian cruise vessel environmental compliance
+208. Development of ship fresh water generation system for Indonesian long-voyage vessels
+209. Analysis of ship bilge water treatment system for MARPOL compliance
+210. Design of cargo handling system for Indonesian bulk carrier vessel operations
+211. Development of ship ventilation system design for Indonesian engine room cooling
+212. Analysis of ship steering gear system reliability for Indonesian vessel safety
+213. Design of mooring system for Indonesian floating production storage offloading (FPSO)
+214. Development of ship automation system integration for Indonesian smart vessel concept
+215. Analysis of ship propulsion system selection for Indonesian coastal vessel applications
+216. Design of deck machinery system for Indonesian anchor handling tug supply vessel
+217. Development of ship communication and navigation system for Indonesian archipelago routes
+218. Analysis of ship vibration isolation system for Indonesian passenger vessel comfort
+219. Design of cargo refrigeration system for Indonesian fish carrier vessel operations
+220. Development of ship waste management system for Indonesian vessel environmental compliance
+221. Analysis of ship fuel system conversion for LNG-powered Indonesian vessel operation
+222. Design of ship hydraulic system for Indonesian vessel deck equipment operation
+223. Development of ship electrical power management system for Indonesian naval vessel
+224. Analysis of ship compressed air system design for Indonesian vessel service requirements
+225. Design of ship inert gas system for Indonesian tanker vessel cargo protection
+226. Development of ship accommodation outfitting standard for Indonesian passenger vessels
+227. Analysis of ship stern tube seal system performance for Indonesian vessel operations
+228. Design of ship tank cleaning system for Indonesian chemical tanker operations
+229. Development of ship exhaust gas cleaning system for Indonesian vessel emission compliance
+230. Analysis of ship propeller shaft alignment for Indonesian vessel vibration reduction
+231. Design of ship emergency generator system for Indonesian vessel safety requirements
+232. Development of ship bridge equipment layout for Indonesian vessel ergonomic operation
+233. Analysis of ship anchor and mooring system for Indonesian deep-water operations
+234. Design of ship cargo access equipment for Indonesian container vessel operations
+235. Development of ship potable water system for Indonesian vessel health requirements
+236. Analysis of ship fuel oil purification system for Indonesian vessel engine protection
+237. Design of ship life-saving equipment arrangement for Indonesian passenger vessel safety
+238. Development of ship lighting system design for Indonesian vessel energy efficiency
+239. Analysis of ship rudder system design for Indonesian high-speed vessel maneuverability
+240. Design of ship tank level monitoring system for Indonesian vessel cargo management
+241. Development of ship noise and vibration control for Indonesian passenger vessel comfort
+242. Analysis of ship bow thruster system for Indonesian vessel port maneuvering
+243. Design of ship helicopter landing facility for Indonesian offshore support vessel
+244. Development of ship integrated platform management system for Indonesian naval vessel
+245. Analysis of ship exhaust gas economizer system for Indonesian vessel fuel saving
+246. Design of ship cargo ventilation system for Indonesian general cargo vessel
+247. Development of ship shore connection system for Indonesian vessel cold ironing
+248. Analysis of ship stabilizer system for Indonesian passenger vessel seakeeping
+249. Design of ship waste heat recovery system for Indonesian vessel energy optimization
+250. Development of ship automation and remote monitoring for Indonesian unmanned engine room
+
+CATEGORY 6: QUALITY CONTROL & NDT (251-300)
+251. Development of phased array ultrasonic testing procedure for Indonesian ship hull weld inspection
+252. Implementation of digital radiography for Indonesian shipyard weld quality assessment
+253. Design of automated ultrasonic testing system for ship structural weld scanning
+254. Development of magnetic particle inspection procedure for Indonesian ship surface crack detection
+255. Implementation of time-of-flight diffraction (TOFD) for Indonesian ship weld sizing
+256. Design of quality control system for Indonesian shipyard welding process monitoring
+257. Development of liquid penetrant testing optimization for Indonesian ship non-ferrous components
+258. Implementation of eddy current testing for Indonesian ship heat exchanger tube inspection
+259. Design of weld quality acceptance criteria for Indonesian ship construction standards
+260. Development of visual inspection checklist system for Indonesian shipyard quality assurance
+261. Implementation of acoustic emission testing for Indonesian ship structural integrity monitoring
+262. Design of NDT personnel qualification program for Indonesian shipyard workforce
+263. Development of automated weld defect classification using machine learning for shipyards
+264. Implementation of guided wave testing for Indonesian ship piping corrosion screening
+265. Design of quality management system for Indonesian shipyard BKI classification compliance
+266. Development of infrared thermography application for Indonesian ship coating inspection
+267. Implementation of radiographic film interpretation training for Indonesian NDT technicians
+268. Design of weld procedure qualification testing program for Indonesian shipyard operations
+269. Development of ultrasonic thickness measurement system for Indonesian ship hull survey
+270. Implementation of magnetic flux leakage testing for Indonesian ship tank floor inspection
+271. Design of quality control documentation system for Indonesian shipyard traceability
+272. Development of portable hardness testing procedure for Indonesian ship weld assessment
+273. Implementation of vacuum box testing for Indonesian ship tank weld leak detection
+274. Design of statistical process control system for Indonesian shipyard weld quality monitoring
+275. Development of replica metallography technique for Indonesian ship in-service inspection
+276. Implementation of long-range ultrasonic testing for Indonesian ship pipeline inspection
+277. Design of calibration management system for Indonesian shipyard NDT equipment
+278. Development of weld macro/micro examination procedure for Indonesian shipyard laboratory
+279. Implementation of computed radiography for Indonesian ship weld inspection efficiency
+280. Design of incoming material inspection system for Indonesian shipyard quality control
+281. Development of automated visual inspection using drone for Indonesian ship hull survey
+282. Implementation of alternating current field measurement for Indonesian ship fatigue crack detection
+283. Design of quality audit system for Indonesian shipyard subcontractor management
+284. Development of digital NDT reporting system for Indonesian shipyard documentation
+285. Implementation of total focusing method (TFM) for Indonesian ship weld characterization
+286. Design of destructive testing program for Indonesian shipyard weld qualification
+287. Development of corrosion mapping using ultrasonic testing for Indonesian ship hull assessment
+288. Implementation of positive material identification for Indonesian ship material verification
+289. Design of quality gate system for Indonesian shipyard production stage inspection
+290. Development of NDT reliability assessment for Indonesian ship inspection probability of detection
+291. Implementation of electromagnetic acoustic transducer for Indonesian ship high-temperature inspection
+292. Design of weld repair procedure and re-inspection protocol for Indonesian shipyards
+293. Development of 3D scanning for Indonesian ship dimensional accuracy verification
+294. Implementation of radiographic testing optimization for Indonesian shipyard cost reduction
+295. Design of quality performance indicator system for Indonesian shipyard management
+296. Development of AI-based weld defect detection from radiographic images for shipyards
+297. Implementation of surface roughness measurement for Indonesian ship coating preparation
+298. Design of non-destructive testing sequence optimization for Indonesian ship construction
+299. Development of remote visual inspection system for Indonesian ship confined space survey
+300. Implementation of quality improvement program using PDCA cycle for Indonesian shipyards
+
+CATEGORY 7: SHIP REPAIR & MAINTENANCE (301-350)
+301. Development of condition-based maintenance system for Indonesian inter-island ferry fleet
+302. Optimization of dry docking schedule for Indonesian commercial vessel fleet management
+303. Implementation of predictive maintenance for Indonesian ship main engine systems
+304. Development of hull condition assessment methodology for Indonesian aging vessel fleet
+305. Optimization of ship repair project planning for Indonesian dry dock operations
+306. Implementation of reliability-centered maintenance for Indonesian naval vessel systems
+307. Development of ship machinery condition monitoring for Indonesian vessel operations
+308. Optimization of underwater hull cleaning schedule for Indonesian vessel fuel efficiency
+309. Implementation of vibration-based diagnosis for Indonesian ship rotating machinery
+310. Development of ship structural repair procedure for Indonesian fatigue-cracked members
+311. Optimization of ship painting and coating maintenance for Indonesian tropical conditions
+312. Implementation of oil analysis program for Indonesian ship machinery health monitoring
+313. Development of ship propeller repair and reconditioning procedure for Indonesian vessels
+314. Optimization of spare parts inventory management for Indonesian ship fleet operations
+315. Implementation of thermographic inspection for Indonesian ship electrical system maintenance
+316. Development of ship ballast tank maintenance strategy for Indonesian vessel corrosion control
+317. Optimization of ship engine overhaul planning for Indonesian vessel lifecycle management
+318. Implementation of laser alignment for Indonesian ship propulsion system maintenance
+319. Development of ship hull repair welding procedure for Indonesian vessel damage restoration
+320. Optimization of ship class survey preparation for Indonesian vessel BKI compliance
+321. Implementation of ultrasonic thickness gauging program for Indonesian ship hull monitoring
+322. Development of ship piping system maintenance strategy for Indonesian vessel operations
+323. Optimization of ship repair cost estimation for Indonesian dry dock quotation accuracy
+324. Implementation of root cause analysis for Indonesian ship machinery failure investigation
+325. Development of ship deck equipment maintenance program for Indonesian vessel safety
+326. Optimization of ship fuel system maintenance for Indonesian vessel engine reliability
+327. Implementation of ship electrical system maintenance for Indonesian vessel safety compliance
+328. Development of ship HVAC system maintenance strategy for Indonesian passenger vessels
+329. Optimization of ship anchor and mooring equipment maintenance for Indonesian operations
+330. Implementation of ship safety equipment inspection program for Indonesian vessel compliance
+331. Development of ship conversion and modification planning for Indonesian vessel upgrading
+332. Optimization of ship repair workforce management for Indonesian dry dock operations
+333. Implementation of ship hull cathodic protection maintenance for Indonesian vessel fleet
+334. Development of ship machinery spare parts standardization for Indonesian fleet management
+335. Optimization of ship repair material procurement for Indonesian dry dock efficiency
+336. Implementation of ship structural monitoring for Indonesian vessel fatigue life management
+337. Development of ship engine performance monitoring for Indonesian vessel fuel optimization
+338. Optimization of ship repair quality control for Indonesian dry dock operations
+339. Implementation of ship life extension assessment for Indonesian aging vessel fleet
+340. Development of ship maintenance management software for Indonesian fleet operators
+341. Optimization of ship underwater repair techniques for Indonesian emergency situations
+342. Implementation of ship coating condition assessment for Indonesian vessel maintenance planning
+343. Development of ship machinery alignment monitoring for Indonesian vessel vibration control
+344. Optimization of ship repair scheduling using simulation for Indonesian dry dock capacity
+345. Implementation of ship fuel treatment system maintenance for Indonesian vessel operations
+346. Development of ship structural fatigue monitoring for Indonesian high-utilization vessels
+347. Optimization of ship repair environmental management for Indonesian dry dock compliance
+348. Implementation of ship propulsion system performance monitoring for Indonesian vessels
+349. Development of ship maintenance cost optimization for Indonesian fleet lifecycle management
+350. Optimization of ship repair safety management for Indonesian dry dock operations
+
+CATEGORY 8: GREEN SHIPBUILDING TECHNOLOGY (351-400)
+351. Development of energy-efficient ship hull form design for Indonesian coastal vessel operations
+352. Implementation of LNG fuel system for Indonesian inter-island vessel emission reduction
+353. Design of hybrid diesel-electric propulsion for Indonesian ferry vessel fuel saving
+354. Development of solar-assisted power system for Indonesian small passenger vessel
+355. Implementation of waste heat recovery system for Indonesian cargo vessel energy efficiency
+356. Design of ballast-free ship concept for Indonesian coastal vessel environmental protection
+357. Development of bio-fouling resistant hull coating for Indonesian vessel fuel efficiency
+358. Implementation of shore power connection system for Indonesian port emission reduction
+359. Design of wind-assisted propulsion system for Indonesian cargo vessel fuel saving
+360. Development of exhaust gas cleaning system for Indonesian vessel SOx emission compliance
+361. Implementation of energy management system for Indonesian vessel operational efficiency
+362. Design of lightweight composite structure for Indonesian high-speed vessel fuel reduction
+363. Development of green ship recycling methodology for Indonesian end-of-life vessel management
+364. Implementation of selective catalytic reduction for Indonesian vessel NOx emission control
+365. Design of electric propulsion system for Indonesian harbor tug vessel operation
+366. Development of energy-efficient HVAC system for Indonesian passenger vessel operation
+367. Implementation of hull air lubrication system for Indonesian large vessel drag reduction
+368. Design of hydrogen fuel cell system for Indonesian small vessel zero-emission operation
+369. Development of green shipyard waste management for Indonesian shipbuilding environmental compliance
+370. Implementation of variable speed drive for Indonesian vessel auxiliary machinery efficiency
+371. Design of optimized propeller for Indonesian vessel fuel consumption reduction
+372. Development of carbon capture system for Indonesian vessel greenhouse gas reduction
+373. Implementation of LED lighting system for Indonesian vessel energy efficiency improvement
+374. Design of battery-hybrid propulsion for Indonesian short-route ferry vessel operation
+375. Development of green coating application technology for Indonesian shipyard VOC reduction
+376. Implementation of trim optimization system for Indonesian vessel operational fuel saving
+377. Design of waste-to-energy system for Indonesian vessel onboard waste management
+378. Development of energy-efficient ship design methodology for Indonesian EEDI compliance
+379. Implementation of slow steaming strategy for Indonesian vessel fleet fuel optimization
+380. Design of methanol fuel system for Indonesian vessel alternative fuel operation
+381. Development of green ship material selection guide for Indonesian sustainable shipbuilding
+382. Implementation of ship energy efficiency management plan for Indonesian vessel operations
+383. Design of rotor sail system for Indonesian cargo vessel wind-assisted propulsion
+384. Development of lifecycle assessment methodology for Indonesian ship environmental impact
+385. Implementation of cold ironing infrastructure for Indonesian port vessel emission reduction
+386. Design of ammonia fuel system for Indonesian vessel zero-carbon operation
+387. Development of green ballast water management for Indonesian vessel environmental compliance
+388. Implementation of energy-efficient hull maintenance strategy for Indonesian vessel operations
+389. Design of solar-wind hybrid power system for Indonesian island ferry vessel
+390. Development of green ship design rating system for Indonesian maritime industry
+391. Implementation of waste oil management system for Indonesian shipyard environmental compliance
+392. Design of electric outboard motor system for Indonesian traditional fishing boat
+393. Development of biofuel application for Indonesian vessel engine operation
+394. Implementation of energy monitoring and reporting for Indonesian vessel MRV compliance
+395. Design of green dry dock facility for Indonesian shipyard environmental management
+396. Development of ship noise reduction technology for Indonesian vessel marine life protection
+397. Implementation of green supply chain for Indonesian shipyard material procurement
+398. Design of zero-emission port equipment for Indonesian maritime terminal operation
+399. Development of circular economy approach for Indonesian ship material recycling
+400. Implementation of digital twin for Indonesian vessel energy performance optimization
+
+CATEGORY 9: MODULAR & PREFABRICATION METHODS (401-450)
+401. Development of modular construction methodology for Indonesian standard ferry vessel series
+402. Optimization of block division strategy for Indonesian shipyard lifting capacity constraints
+403. Implementation of ring section construction method for Indonesian submarine building
+404. Development of mega-block assembly technique for Indonesian large vessel construction
+405. Optimization of pre-outfitting strategy for Indonesian ship block production efficiency
+406. Implementation of unit assembly method for Indonesian ship machinery space construction
+407. Development of modular accommodation unit for Indonesian passenger vessel outfitting
+408. Optimization of panel line production for Indonesian shipyard flat block fabrication
+409. Implementation of zone outfitting method for Indonesian ship construction efficiency
+410. Development of standardized structural module for Indonesian multi-purpose vessel series
+411. Optimization of curved block fabrication method for Indonesian ship hull construction
+412. Implementation of integrated hull construction and outfitting for Indonesian shipyard
+413. Development of modular piping system for Indonesian ship engine room construction
+414. Optimization of block joining sequence for Indonesian ship hull erection accuracy
+415. Implementation of pre-painting strategy for Indonesian ship block production
+416. Development of modular electrical system for Indonesian ship outfitting standardization
+417. Optimization of sub-assembly production for Indonesian shipyard workflow efficiency
+418. Implementation of design for modular construction in Indonesian ship design process
+419. Development of transportable module concept for Indonesian distributed shipbuilding
+420. Optimization of block accuracy control for Indonesian ship construction quality
+421. Implementation of automated panel welding for Indonesian shipyard flat block production
+422. Development of modular HVAC unit for Indonesian ship accommodation outfitting
+423. Optimization of block turnover and handling for Indonesian shipyard crane operations
+424. Implementation of concurrent block construction for Indonesian ship production scheduling
+425. Development of standardized foundation module for Indonesian ship machinery installation
+426. Optimization of outfit pallet system for Indonesian ship zone outfitting efficiency
+427. Implementation of modular bridge console for Indonesian ship navigation equipment
+428. Development of prefabricated pipe rack system for Indonesian ship engine room
+429. Optimization of block storage and staging for Indonesian shipyard space utilization
+430. Implementation of modular tank construction for Indonesian ship cargo hold fabrication
+431. Development of standardized hatch cover module for Indonesian bulk carrier construction
+432. Optimization of block transportation method for Indonesian shipyard internal logistics
+433. Implementation of modular funnel construction for Indonesian ship exhaust system
+434. Development of prefabricated cable tray system for Indonesian ship electrical outfitting
+435. Optimization of accuracy control measurement for Indonesian ship block assembly
+436. Implementation of modular rudder construction for Indonesian ship steering system
+437. Development of standardized ventilation duct module for Indonesian ship HVAC outfitting
+438. Optimization of block welding sequence for Indonesian ship distortion minimization
+439. Implementation of modular mast construction for Indonesian ship communication equipment
+440. Development of prefabricated insulation panel for Indonesian ship accommodation
+441. Optimization of grand block assembly for Indonesian large vessel construction efficiency
+442. Implementation of modular stern tube assembly for Indonesian ship propulsion system
+443. Development of standardized door and window module for Indonesian ship accommodation
+444. Optimization of block scheduling using simulation for Indonesian shipyard production
+445. Implementation of modular anchor handling equipment for Indonesian offshore vessel
+446. Development of prefabricated ballast tank coating system for Indonesian ship construction
+447. Optimization of outfit material kit preparation for Indonesian ship zone outfitting
+448. Implementation of modular engine room ventilation for Indonesian ship construction
+449. Development of standardized lifeboat davit module for Indonesian ship safety equipment
+450. Optimization of modular construction cost-benefit analysis for Indonesian shipyard investment
+
+CATEGORY 10: DIGITAL SHIPYARD & INDUSTRY 4.0 (451-500)
+451. Development of digital twin framework for Indonesian shipyard production monitoring
+452. Implementation of IoT-based welding quality monitoring for Indonesian ship construction
+453. Design of augmented reality system for Indonesian ship outfitting work instruction
+454. Development of AI-based production planning optimization for Indonesian shipyard scheduling
+455. Implementation of robotic welding system for Indonesian shipyard automation
+456. Design of 3D scanning system for Indonesian ship block accuracy measurement
+457. Development of cloud-based project management platform for Indonesian shipyard operations
+458. Implementation of machine learning for Indonesian ship weld defect prediction
+459. Design of virtual reality training system for Indonesian shipyard worker skill development
+460. Development of automated material tracking system for Indonesian shipyard logistics
+461. Implementation of drone-based inspection for Indonesian ship hull survey automation
+462. Design of digital work instruction system for Indonesian shipyard paperless operation
+463. Development of predictive analytics for Indonesian shipyard project delay prevention
+464. Implementation of automated cutting machine optimization for Indonesian shipyard nesting
+465. Design of smart sensor system for Indonesian shipyard environmental monitoring
+466. Development of blockchain-based documentation system for Indonesian ship certification
+467. Implementation of collaborative robot for Indonesian shipyard grinding and finishing
+468. Design of digital quality management system for Indonesian shipyard BKI compliance
+469. Development of simulation-based production planning for Indonesian shipyard optimization
+470. Implementation of automated pipe spool fabrication for Indonesian ship outfitting
+471. Design of smart warehouse system for Indonesian shipyard material management
+472. Development of AI-based cost estimation for Indonesian ship construction bidding
+473. Implementation of laser-guided block positioning for Indonesian ship hull erection
+474. Design of digital twin for Indonesian ship structural health monitoring
+475. Development of automated surface preparation system for Indonesian shipyard coating
+476. Implementation of edge computing for Indonesian shipyard real-time production monitoring
+477. Design of mixed reality system for Indonesian ship design review and collaboration
+478. Development of machine vision-based weld inspection for Indonesian shipyard quality control
+479. Implementation of automated marking system for Indonesian shipyard steel processing
+480. Design of digital supply chain platform for Indonesian shipyard material procurement
+481. Development of AI-based scheduling optimization for Indonesian multi-project shipyard
+482. Implementation of robotic NDT system for Indonesian ship hull inspection automation
+483. Design of smart energy management system for Indonesian shipyard facility operation
+484. Development of digital twin for Indonesian dry dock operation optimization
+485. Implementation of automated plate forming for Indonesian ship curved hull construction
+486. Design of IoT-based equipment monitoring for Indonesian shipyard maintenance management
+487. Development of virtual commissioning system for Indonesian ship automation testing
+488. Implementation of 3D printing for Indonesian ship spare parts on-demand manufacturing
+489. Design of cybersecurity framework for Indonesian digital shipyard infrastructure
+490. Development of AI-based resource allocation for Indonesian shipyard workforce management
+491. Implementation of automated welding inspection using phased array for Indonesian shipyard
+492. Design of digital performance dashboard for Indonesian shipyard KPI management
+493. Development of cloud-based design collaboration for Indonesian distributed shipbuilding
+494. Implementation of smart safety monitoring system for Indonesian shipyard worker protection
+495. Design of automated report generation system for Indonesian ship classification survey
+496. Development of digital twin for Indonesian ship machinery system commissioning
+497. Implementation of AI-based defect root cause analysis for Indonesian shipyard quality
+498. Design of integrated production control system for Indonesian smart shipyard concept
+499. Development of autonomous inspection robot for Indonesian ship tank survey
+500. Implementation of Industry 4.0 roadmap for Indonesian shipyard digital transformation

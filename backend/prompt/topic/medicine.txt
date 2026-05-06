@@ -1,0 +1,702 @@
+================================================================================
+TOPIC GUIDE — Kedokteran (Medicine / Medical Science)
+================================================================================
+FIELD: Medical and Health Sciences / Clinical Medicine
+DEFAULT CITATION STYLE: Vancouver
+SUBDISCIPLINE: Ilmu Penyakit Dalam, Bedah, Penyakit Infeksi & Tropis, Onkologi, Neurologi & Psikiatri, Kardiologi, Pediatri, Kedokteran Darurat & Intensif
+
+COMMON REFERENCE VENUES:
+  The Lancet, NEJM, BMJ, JAMA, Annals of Internal Medicine,
+  Medical Journal of Indonesia, Acta Medica Indonesiana,
+  Indonesian Journal of Internal Medicine, PLOS Medicine, BMC Medicine
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title (specific, with method and domain)
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Randomized controlled trials (RCT) with adaptive designs
+   - Prospective and retrospective cohort studies
+   - Systematic review and meta-analysis (PRISMA 2020)
+   - Genomic sequencing and whole-exome sequencing (WES)
+   - Proteomics and metabolomics profiling
+   - AI-assisted diagnosis (deep learning, convolutional neural networks)
+   - Telemedicine and digital health interventions
+   - Precision medicine and pharmacogenomics
+   - Immunotherapy (CAR-T, checkpoint inhibitors)
+   - Single-cell RNA sequencing (scRNA-seq)
+   - Mendelian randomization for causal inference
+   - Network meta-analysis and Bayesian approaches
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics with statistical measures (mean, SD, 95% CI, p-values)
+   - Comparison with baselines/controls
+   - All numbers realistic and internally consistent
+   - Typical metrics: odds ratio, relative risk, hazard ratio, NNT, sensitivity, specificity, AUC-ROC, survival rates
+
+5. MATHEMATICAL FORMULAS:
+   - 5-10 relevant formulas with variable definitions
+   - Odds Ratio OR = (a x d) / (b x c)
+   - Relative Risk RR = [a/(a+b)] / [c/(c+d)]
+   - Number Needed to Treat NNT = 1 / ARR (Absolute Risk Reduction)
+   - Sensitivity = TP / (TP + FN)
+   - Specificity = TN / (TN + FP)
+   - Positive Predictive Value PPV = TP / (TP + FP)
+   - Negative Predictive Value NPV = TN / (TN + FN)
+   - Kaplan-Meier Survival S(t) = Pi[(ni - di) / ni]
+   - Hazard Ratio HR = h1(t) / h0(t)
+   - AUC-ROC for diagnostic accuracy
+   - Sample size n = (Za/2 + Zb)^2 x 2s^2 / d^2
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian context where relevant (Indonesian disease burden, healthcare system, BPJS)
+   - Include WHO guidelines, Cochrane reviews, and landmark trials
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords, Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+================================================================================
+DOMAIN-SPECIFIC GUIDANCE
+================================================================================
+
+ABSTRACT CHARACTERISTICS:
+  200-250 words, structured (Background, Methods, Results, Conclusion). Reports: study design,
+  population/sample, intervention/exposure, primary outcome, key statistical results
+  (OR/RR/HR with 95% CI, p-value), and clinical significance.
+
+INTRODUCTION ELEMENTS:
+  - Disease burden: global and Indonesian prevalence/incidence/mortality data.
+  - Pathophysiology and current understanding of disease mechanism.
+  - Current treatment/diagnostic limitations and unmet clinical needs.
+  - Research gap: specific population, novel biomarker, treatment comparison, or diagnostic tool.
+  - Objectives: clearly stated primary and secondary endpoints.
+
+LITERATURE REVIEW:
+  Common section name: "Literature Review" / "Tinjauan Pustaka"
+  - Epidemiology: global and national disease statistics.
+  - Pathogenesis: molecular mechanisms, risk factors, genetic predisposition.
+  - Diagnosis: current gold standard, emerging biomarkers, imaging modalities.
+  - Treatment: evidence-based guidelines, novel therapies, comparative effectiveness.
+  - Prognosis: survival data, prognostic factors, scoring systems.
+  - Indonesian context: local disease patterns, healthcare access, BPJS coverage.
+
+METHODOLOGY:
+  Common section name: "Methods" / "Metode Penelitian"
+  - Study design: RCT, cohort, case-control, cross-sectional, case series.
+  - Setting: hospital type (RSUP, RSUD, RS swasta), department, time period.
+  - Population: inclusion/exclusion criteria, sampling method, sample size calculation.
+  - Variables: independent, dependent, confounders.
+  - Data collection: medical records, questionnaires, laboratory tests, imaging.
+  - Statistical analysis: univariate, bivariate (chi-square, t-test, Mann-Whitney), multivariate (logistic regression, Cox regression, linear regression).
+  - Ethical approval: institutional ethics committee, informed consent.
+  - Reporting guidelines: CONSORT, STROBE, PRISMA, STARD, CARE.
+
+EQUATIONS AND FORMULAS:
+  - Odds Ratio OR = (a x d) / (b x c)
+  - Relative Risk RR = [a/(a+b)] / [c/(c+d)]
+  - Number Needed to Treat NNT = 1 / ARR
+  - Sensitivity = TP / (TP + FN)
+  - Specificity = TN / (TN + FP)
+  - Positive Predictive Value PPV = TP / (TP + FP)
+  - Negative Predictive Value NPV = TN / (TN + FN)
+  - Kaplan-Meier Survival S(t) = Pi[(ni - di) / ni]
+  - Hazard Ratio HR = h1(t) / h0(t)
+  - Sample size n = (Za/2 + Zb)^2 x 2s^2 / d^2
+  All variables must be defined immediately after the equation.
+
+TYPICAL FIGURES:
+  - CONSORT/STROBE flow diagram.
+  - Kaplan-Meier survival curves.
+  - Forest plot (meta-analysis).
+  - ROC curve with AUC.
+  - Bar/box plots for group comparisons.
+
+TYPICAL TABLES:
+  - Baseline characteristics (continuous: mean+/-SD; categorical: n, %).
+  - Bivariate analysis: variable | case | control | OR (95% CI) | p-value.
+  - Multivariate logistic regression: variable | adjusted OR | 95% CI | p-value.
+  - Diagnostic accuracy: sensitivity | specificity | PPV | NPV | AUC.
+
+RESULTS & DISCUSSION:
+  - Demographic characteristics: age, sex, BMI, comorbidities.
+  - Primary outcome: effect size with 95% CI and p-value.
+  - Subgroup analysis and sensitivity analysis.
+  - Comparison with previous studies (concordant/discordant findings).
+  - Biological plausibility and mechanistic explanation.
+  Tables: baseline characteristics, univariate analysis, multivariate analysis, diagnostic accuracy.
+  Figures: Kaplan-Meier curves, forest plots, ROC curves, flowcharts.
+
+CONCLUSION CHARACTERISTICS:
+  - Direct answer to research objectives.
+  - Clinical implications and recommendations.
+  - Study limitations: selection bias, information bias, confounders, generalizability.
+  - Future research directions.
+
+DOMAIN VOCABULARY:
+  odds ratio, relative risk, hazard ratio, confidence interval, p-value,
+  sensitivity, specificity, NNT, AUC-ROC, Kaplan-Meier, Cox regression,
+  CONSORT, STROBE, PRISMA, intention-to-treat, per-protocol,
+  biomarker, pathogenesis, prognosis, comorbidity, differential diagnosis
+
+METHODOLOGY KEYWORDS:
+  randomized controlled trial, cohort study, case-control, cross-sectional,
+  systematic review, meta-analysis, logistic regression, Cox proportional hazards,
+  Kaplan-Meier survival analysis, ROC analysis, sample size calculation,
+  intention-to-treat analysis, CONSORT reporting, ethical approval
+
+================================================================================
+RESEARCH TOPICS — 500 TOPICS IN 10 CATEGORIES
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 1: INTERNAL MEDICINE & METABOLIC DISORDERS (001–050)
+────────────────────────────────────────────────────────────────────────────────
+001. Hubungan kadar HbA1c dan komplikasi mikrovaskuler pada pasien diabetes mellitus tipe 2 di RSUP Cipto Mangunkusumo
+002. Efektivitas terapi kombinasi metformin-SGLT2 inhibitor terhadap kontrol glikemik pada pasien DM tipe 2 dengan obesitas
+003. Prevalensi dan faktor risiko non-alcoholic fatty liver disease pada pasien sindrom metabolik di Jakarta
+004. Pengaruh suplementasi vitamin D terhadap resistensi insulin pada pasien prediabetes
+005. Hubungan gut microbiome diversity dan kontrol glikemik pada pasien DM tipe 2
+006. Analisis cost-effectiveness insulin analog vs insulin human pada pasien DM tipe 2 di era BPJS
+007. Faktor prediktor diabetic kidney disease progression pada pasien DM tipe 2 di Indonesia
+008. Efektivitas telemedicine-based diabetes management terhadap kepatuhan terapi dan HbA1c
+009. Hubungan polimorfisme gen TCF7L2 dan risiko DM tipe 2 pada populasi Jawa
+010. Pengaruh intermittent fasting terhadap profil lipid dan resistensi insulin pada pasien obesitas
+011. Prevalensi dan faktor risiko hipertiroid subklinis pada wanita usia reproduktif
+012. Hubungan kadar asam urat dan kejadian sindrom metabolik pada dewasa muda
+013. Efektivitas program lifestyle modification terhadap remisi DM tipe 2 onset baru
+014. Analisis farmakogenomik respons statin pada pasien dislipidemia populasi Indonesia
+015. Hubungan sleep apnea dan resistensi insulin pada pasien obesitas morbid
+016. Pengaruh probiotik terhadap profil metabolik pada pasien NAFLD
+017. Faktor risiko dan prediktor mortalitas ketoasidosis diabetik di IGD rumah sakit rujukan
+018. Hubungan sarcopenic obesity dan kontrol glikemik pada pasien DM tipe 2 lansia
+019. Efektivitas continuous glucose monitoring terhadap time in range pada pasien DM tipe 1
+020. Analisis biomarker novel (fetuin-A, irisin) untuk deteksi dini resistensi insulin
+021. Hubungan paparan polusi udara PM2.5 dan insiden DM tipe 2 di kota besar Indonesia
+022. Pengaruh bariatric surgery terhadap remisi DM tipe 2 pada pasien obesitas morbid
+023. Prevalensi dan manajemen dislipidemia familial di Indonesia
+024. Hubungan depresi dan kepatuhan terapi pada pasien DM tipe 2
+025. Efektivitas GLP-1 receptor agonist terhadap penurunan berat badan dan kontrol glikemik
+026. Analisis proteomik serum untuk identifikasi biomarker komplikasi DM
+027. Hubungan shift kerja malam dan risiko sindrom metabolik pada pekerja pabrik
+028. Pengaruh Mediterranean diet adaptation terhadap profil kardiometabolik pada populasi Indonesia
+029. Faktor prediktor respons terapi tiroid pada pasien hipotiroid subklinis
+030. Hubungan kadar adiponektin dan severity NAFLD pada pasien obesitas
+031. Efektivitas digital health intervention terhadap self-management DM tipe 2
+032. Analisis metabolomik untuk prediksi progresi prediabetes menjadi DM tipe 2
+033. Hubungan microalbuminuria dan risiko kardiovaskular pada pasien hipertensi
+034. Pengaruh exercise prescription terhadap sensitivitas insulin pada pasien DM tipe 2
+035. Prevalensi dan faktor risiko osteoporosis pada pasien DM tipe 2 postmenopause
+036. Hubungan kadar ferritin dan resistensi insulin pada pasien NAFLD
+037. Efektivitas kombinasi statin-ezetimibe terhadap target LDL pada pasien risiko tinggi
+038. Analisis genetic risk score untuk prediksi DM tipe 2 pada populasi Indonesia
+039. Hubungan thyroid dysfunction dan outcome kehamilan pada wanita dengan DM gestasional
+040. Pengaruh ketogenic diet terhadap kontrol glikemik dan profil lipid pada DM tipe 2
+041. Faktor prediktor remisi DM tipe 2 pasca bariatric surgery
+042. Hubungan advanced glycation end products (AGEs) dan komplikasi DM
+043. Efektivitas patient-centered medical home model untuk manajemen penyakit kronis
+044. Analisis hubungan vitamin B12 deficiency dan penggunaan metformin jangka panjang
+045. Hubungan inflammatory markers (hs-CRP, IL-6) dan severity sindrom metabolik
+046. Pengaruh time-restricted eating terhadap berat badan dan marker metabolik
+047. Prevalensi dan manajemen adrenal insufficiency pada pasien kritis di ICU
+048. Hubungan obstructive sleep apnea dan disfungsi endotel pada pasien hipertensi
+049. Efektivitas empagliflozin terhadap outcome renal pada pasien DM dengan CKD
+050. Analisis machine learning untuk prediksi risiko komplikasi DM tipe 2
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 2: SURGERY & INTERVENTIONAL PROCEDURES (051–100)
+────────────────────────────────────────────────────────────────────────────────
+051. Perbandingan outcome laparoskopi vs open surgery pada appendisitis komplikata di RSUD
+052. Efektivitas enhanced recovery after surgery (ERAS) pada pasien bedah kolorektal
+053. Hubungan surgical site infection dan faktor risiko pada pasien bedah abdomen
+054. Analisis outcome robotic-assisted surgery vs laparoskopi konvensional pada prostatektomi
+055. Pengaruh prehabilitation program terhadap outcome pasca bedah mayor
+056. Hubungan malnutrisi preoperatif dan komplikasi pasca bedah pada pasien kanker GI
+057. Evaluasi teknik single-incision laparoscopic surgery pada kolesistektomi
+058. Perbandingan mesh vs suture repair pada hernia inguinalis di rumah sakit Indonesia
+059. Pengaruh timing operasi terhadap outcome fraktur femur pada pasien geriatri
+060. Analisis faktor risiko deep vein thrombosis pasca bedah ortopedi mayor
+061. Efektivitas negative pressure wound therapy pada luka operasi terinfeksi
+062. Hubungan volume surgeon dan outcome pada bedah kanker payudara
+063. Evaluasi damage control surgery pada trauma abdomen di IGD
+064. Pengaruh intraoperative neuromonitoring terhadap preservasi nervus pada tiroidektomi
+065. Analisis outcome transplantasi ginjal dari living donor di Indonesia
+066. Perbandingan stapler vs hand-sewn anastomosis pada bedah kolorektal
+067. Hubungan hipotermia intraoperatif dan komplikasi pasca bedah
+068. Efektivitas thoracoscopic surgery pada efusi pleura maligna
+069. Pengaruh 3D printing untuk surgical planning pada kasus ortopedi kompleks
+070. Analisis learning curve robotic surgery pada bedah urologi di Indonesia
+071. Hubungan ASA score dan mortalitas pasca bedah emergensi pada lansia
+072. Evaluasi teknik endovascular aneurysm repair (EVAR) pada aneurisma aorta abdominal
+073. Perbandingan total knee arthroplasty konvensional vs computer-navigated
+074. Pengaruh antibiotic prophylaxis timing terhadap SSI pada bedah clean-contaminated
+075. Analisis outcome bedah bariatrik sleeve gastrectomy di Indonesia
+076. Hubungan blood transfusion intraoperatif dan outcome pasca bedah kanker
+077. Efektivitas ultrasound-guided regional anesthesia pada bedah ekstremitas
+078. Evaluasi teknik natural orifice transluminal endoscopic surgery (NOTES)
+079. Pengaruh goal-directed fluid therapy terhadap outcome bedah mayor
+080. Analisis faktor risiko anastomotic leak pada bedah kolorektal
+081. Hubungan sarcopenia preoperatif dan komplikasi pasca bedah pada lansia
+082. Efektivitas indocyanine green fluorescence pada bedah hepatobilier
+083. Perbandingan outcome percutaneous vs open tracheostomy di ICU
+084. Pengaruh multimodal analgesia terhadap opioid consumption pasca bedah
+085. Analisis outcome bedah rekonstruksi payudara pasca mastektomi di Indonesia
+086. Hubungan delayed surgery dan outcome pada obstruksi usus adhesif
+087. Evaluasi teknik transanal total mesorectal excision (TaTME) pada kanker rektum
+088. Pengaruh patient blood management terhadap outcome bedah jantung
+089. Analisis faktor risiko incisional hernia pasca laparotomi
+090. Hubungan frailty index dan outcome bedah pada pasien geriatri
+091. Efektivitas awake craniotomy pada reseksi tumor otak area eloquent
+092. Perbandingan outcome CABG vs PCI pada pasien multivessel coronary disease
+093. Pengaruh telemedicine follow-up terhadap deteksi komplikasi pasca bedah
+094. Analisis outcome limb salvage surgery vs amputasi pada osteosarkoma
+095. Hubungan operating room traffic dan surgical site infection
+096. Evaluasi teknik sentinel lymph node biopsy pada kanker payudara early stage
+097. Pengaruh preoperative carbohydrate loading terhadap insulin resistance pasca bedah
+098. Analisis outcome bedah epilepsi pada pasien drug-resistant epilepsy
+099. Hubungan surgical checklist compliance dan adverse events
+100. Efektivitas AI-assisted surgical planning pada bedah ortopedi kompleks
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 3: INFECTIOUS DISEASE & TROPICAL MEDICINE (101–150)
+────────────────────────────────────────────────────────────────────────────────
+101. Pola resistensi antibiotik pada infeksi saluran kemih di rumah sakit tersier Jakarta
+102. Efektivitas terapi kombinasi antituberkulosis pada TB-MDR di Indonesia
+103. Hubungan ko-infeksi HIV-TB dan outcome terapi pada pasien di RSUP
+104. Analisis genomik SARS-CoV-2 variant dan severity COVID-19 di Indonesia
+105. Pengaruh vaksinasi COVID-19 terhadap severity dan mortalitas pada populasi Indonesia
+106. Prevalensi dan faktor risiko infeksi dengue berat pada anak di daerah endemis
+107. Efektivitas rapid diagnostic test vs PCR untuk diagnosis malaria di Papua
+108. Hubungan gut microbiome dan susceptibility terhadap infeksi Clostridioides difficile
+109. Analisis faktor risiko sepsis neonatal di NICU rumah sakit rujukan
+110. Pengaruh antimicrobial stewardship program terhadap penurunan resistensi antibiotik
+111. Prevalensi dan genotipe hepatitis B pada populasi berisiko tinggi di Indonesia
+112. Efektivitas terapi antiviral direct-acting pada hepatitis C di era BPJS
+113. Hubungan malnutrisi dan outcome terapi TB pada pasien dewasa
+114. Analisis epidemiologi molekuler leptospirosis di daerah banjir Jakarta
+115. Pengaruh probiotik terhadap durasi diare akut pada anak balita
+116. Prevalensi infeksi cacing tanah dan dampaknya terhadap status gizi anak sekolah
+117. Efektivitas ivermectin mass drug administration untuk filariasis di Indonesia timur
+118. Hubungan biofilm formation dan resistensi antibiotik pada infeksi implant ortopedi
+119. Analisis faktor risiko healthcare-associated infection di ICU
+120. Pengaruh point-of-care ultrasound terhadap diagnosis pneumonia di IGD
+121. Prevalensi dan faktor risiko infeksi oportunistik pada pasien HIV dengan CD4 rendah
+122. Efektivitas bedaquiline-based regimen pada TB-XDR di Indonesia
+123. Hubungan polimorfisme gen TLR dan susceptibility terhadap TB paru
+124. Analisis cost-effectiveness skrining hepatitis B pada ibu hamil
+125. Pengaruh zinc suplementasi terhadap outcome pneumonia pada anak
+126. Prevalensi carbapenem-resistant Enterobacteriaceae di rumah sakit Indonesia
+127. Efektivitas telemedicine untuk monitoring pasien TB di daerah terpencil
+128. Hubungan diabetes mellitus dan risiko TB aktif pada populasi Indonesia
+129. Analisis whole genome sequencing untuk surveillance resistensi antibiotik
+130. Pengaruh seasonal variation terhadap insiden dengue di kota tropis Indonesia
+131. Prevalensi dan faktor risiko infeksi COVID-19 pada tenaga kesehatan
+132. Efektivitas convalescent plasma therapy pada COVID-19 berat
+133. Hubungan vitamin D deficiency dan severity infeksi saluran pernapasan
+134. Analisis epidemiologi chikungunya dan faktor risiko kronisitas artralgia
+135. Pengaruh hand hygiene compliance terhadap healthcare-associated infection rate
+136. Prevalensi methicillin-resistant Staphylococcus aureus (MRSA) di komunitas
+137. Efektivitas pre-exposure prophylaxis (PrEP) HIV pada populasi berisiko tinggi
+138. Hubungan air pollution dan insiden infeksi saluran pernapasan akut pada anak
+139. Analisis faktor risiko candidemia pada pasien ICU dengan kateter vena sentral
+140. Pengaruh rapid molecular testing terhadap time to appropriate therapy pada sepsis
+141. Prevalensi dan karakteristik long COVID pada populasi Indonesia
+142. Efektivitas therapeutic drug monitoring aminoglikosida pada infeksi berat
+143. Hubungan obesitas dan outcome infeksi COVID-19 pada populasi Asia
+144. Analisis phylogenetic Mycobacterium tuberculosis strain di Indonesia
+145. Pengaruh nutrition support terhadap immune recovery pada pasien HIV
+146. Prevalensi infeksi Helicobacter pylori dan risiko kanker lambung di Indonesia
+147. Efektivitas phage therapy sebagai alternatif antibiotik pada infeksi MDR
+148. Hubungan climate change dan perubahan pola penyakit infeksi tropis
+149. Analisis faktor risiko reinfeksi COVID-19 pada populasi tervaksinasi
+150. Pengaruh AI-based diagnostic tool terhadap akurasi diagnosis TB dari chest X-ray
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 4: ONCOLOGY & HEMATOLOGY (151–200)
+────────────────────────────────────────────────────────────────────────────────
+151. Analisis survival dan faktor prognostik kanker payudara stadium lanjut di Indonesia
+152. Efektivitas immunotherapy pembrolizumab pada kanker paru non-small cell di RSUP
+153. Hubungan ekspresi PD-L1 dan respons terapi checkpoint inhibitor pada kanker paru
+154. Analisis mutasi EGFR dan outcome terapi targeted pada kanker paru di populasi Indonesia
+155. Pengaruh delay diagnosis terhadap stadium dan survival kanker serviks
+156. Prevalensi dan faktor risiko kanker kolorektal onset muda di Indonesia
+157. Efektivitas neoadjuvant chemotherapy pada kanker payudara triple negative
+158. Hubungan tumor microenvironment dan respons immunotherapy pada kanker solid
+159. Analisis cost-effectiveness skrining kanker serviks dengan HPV DNA test vs Pap smear
+160. Pengaruh liquid biopsy (ctDNA) terhadap monitoring respons terapi kanker
+161. Prevalensi dan karakteristik molekuler kanker nasofaring di Indonesia
+162. Efektivitas CAR-T cell therapy pada leukemia limfoblastik akut relaps
+163. Hubungan obesitas dan risiko kanker payudara postmenopause pada wanita Indonesia
+164. Analisis genomik tumor untuk identifikasi actionable mutations pada kanker solid
+165. Pengaruh palliative care integration terhadap quality of life pasien kanker stadium IV
+166. Prevalensi anemia defisiensi besi pada pasien kanker dengan kemoterapi
+167. Efektivitas stereotactic body radiation therapy (SBRT) pada kanker paru early stage
+168. Hubungan human papillomavirus (HPV) genotipe dan risiko kanker serviks di Indonesia
+169. Analisis faktor risiko febrile neutropenia pada pasien kemoterapi
+170. Pengaruh exercise intervention terhadap cancer-related fatigue
+171. Prevalensi dan manajemen venous thromboembolism pada pasien kanker
+172. Efektivitas targeted therapy pada kanker tiroid diferensiasi refrakter radioiodine
+173. Hubungan inflammatory markers (NLR, PLR) dan prognosis kanker kolorektal
+174. Analisis survival kanker hepatoselular dan faktor prognostik di Indonesia
+175. Pengaruh psycho-oncology intervention terhadap distress dan adherence terapi
+176. Prevalensi sindrom mielodisplastik dan transformasi leukemia pada populasi Indonesia
+177. Efektivitas bortezomib-based regimen pada multiple myeloma di rumah sakit Indonesia
+178. Hubungan microbiome dan respons immunotherapy pada kanker gastrointestinal
+179. Analisis mutasi BRCA1/2 dan risiko kanker payudara herediter pada wanita Indonesia
+180. Pengaruh telemedicine terhadap continuity of care pasien kanker di daerah terpencil
+181. Prevalensi dan manajemen cancer pain pada pasien rawat paliatif
+182. Efektivitas hypofractionated radiotherapy pada kanker payudara early stage
+183. Hubungan sarcopenia dan toleransi kemoterapi pada pasien kanker lansia
+184. Analisis circulating tumor cells sebagai biomarker prognostik kanker payudara metastatik
+185. Pengaruh vaksinasi HPV terhadap prevalensi lesi prakanker serviks
+186. Prevalensi dan karakteristik limfoma non-Hodgkin di Indonesia
+187. Efektivitas combination immunotherapy pada melanoma metastatik
+188. Hubungan genetic polymorphism dan toksisitas kemoterapi pada pasien kanker
+189. Analisis real-world outcome terapi targeted pada kanker paru ALK-positive
+190. Pengaruh nutritional support terhadap outcome kemoterapi pada kanker GI
+191. Prevalensi trombositopenia imun dan respons terapi di rumah sakit Indonesia
+192. Efektivitas minimal residual disease monitoring pada leukemia akut
+193. Hubungan tumor mutational burden dan respons immunotherapy
+194. Analisis faktor keterlambatan diagnosis kanker anak di Indonesia
+195. Pengaruh survivorship care plan terhadap quality of life cancer survivor
+196. Prevalensi dan manajemen hemofilia di Indonesia
+197. Efektivitas rituximab pada limfoma non-Hodgkin di era BPJS
+198. Hubungan epigenetic alterations dan karsinogenesis kanker kolorektal
+199. Analisis AI-based pathology untuk grading dan prognosis kanker
+200. Pengaruh patient navigation program terhadap akses terapi kanker di Indonesia
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 5: NEUROLOGY & PSYCHIATRY (201–250)
+────────────────────────────────────────────────────────────────────────────────
+201. Prevalensi dan faktor risiko stroke iskemik pada dewasa muda di Indonesia
+202. Efektivitas mechanical thrombectomy pada stroke iskemik akut di rumah sakit stroke center
+203. Hubungan sleep quality dan fungsi kognitif pada pasien epilepsi
+204. Analisis biomarker neurofilament light chain untuk prognosis multiple sclerosis
+205. Pengaruh cognitive behavioral therapy terhadap insomnia pada pasien depresi mayor
+206. Prevalensi dan faktor risiko demensia pada lansia di komunitas urban Indonesia
+207. Efektivitas deep brain stimulation pada Parkinson disease advanced
+208. Hubungan gut-brain axis dan patogenesis Parkinson disease
+209. Analisis faktor risiko dan outcome status epileptikus di IGD
+210. Pengaruh telemedicine terhadap manajemen epilepsi di daerah terpencil
+211. Prevalensi gangguan cemas dan depresi pada mahasiswa kedokteran di Indonesia
+212. Efektivitas transcranial magnetic stimulation pada depresi resisten terapi
+213. Hubungan polimorfisme gen serotonin transporter dan respons SSRI pada depresi
+214. Analisis neuroimaging fungsional pada gangguan obsesif kompulsif
+215. Pengaruh mindfulness-based cognitive therapy terhadap relapse depresi
+216. Prevalensi dan faktor risiko neuropati diabetik pada pasien DM tipe 2
+217. Efektivitas ketamine infusion pada depresi berat dengan ide bunuh diri
+218. Hubungan traumatic brain injury dan risiko demensia jangka panjang
+219. Analisis genetic dan epigenetic factors pada autism spectrum disorder
+220. Pengaruh digital cognitive training terhadap fungsi kognitif pasien post-stroke
+221. Prevalensi dan manajemen migrain kronik pada populasi Indonesia
+222. Efektivitas anti-CGRP monoclonal antibody pada migrain episodik dan kronik
+223. Hubungan air pollution dan risiko stroke pada populasi urban
+224. Analisis faktor prediktor outcome rehabilitasi pasca stroke
+225. Pengaruh music therapy terhadap recovery afasia pasca stroke
+226. Prevalensi ADHD pada anak usia sekolah di Indonesia dan faktor risiko
+227. Efektivitas psychoeducation family intervention pada skizofrenia
+228. Hubungan social media use dan gangguan mental pada remaja Indonesia
+229. Analisis cerebrospinal fluid biomarker untuk diagnosis dini Alzheimer
+230. Pengaruh exercise terhadap neuroplasticity dan recovery pasca stroke
+231. Prevalensi dan manajemen nyeri neuropatik pada pasien kanker
+232. Efektivitas vagus nerve stimulation pada epilepsi drug-resistant
+233. Hubungan obstructive sleep apnea dan risiko stroke
+234. Analisis faktor risiko postpartum depression pada ibu di Indonesia
+235. Pengaruh art therapy terhadap gejala negatif skizofrenia
+236. Prevalensi dan karakteristik Guillain-Barre syndrome di Indonesia
+237. Efektivitas plasma exchange vs IVIG pada Guillain-Barre syndrome
+238. Hubungan COVID-19 dan manifestasi neurologis (anosmia, ensefalitis, stroke)
+239. Analisis machine learning untuk prediksi outcome stroke dari CT scan
+240. Pengaruh virtual reality rehabilitation terhadap motor recovery pasca stroke
+241. Prevalensi substance use disorder pada remaja dan dewasa muda Indonesia
+242. Efektivitas methadone maintenance therapy pada opioid use disorder
+243. Hubungan childhood adversity dan risiko gangguan mental pada dewasa
+244. Analisis cost-effectiveness skrining depresi di layanan primer
+245. Pengaruh peer support intervention terhadap recovery pasien gangguan mental
+246. Prevalensi dan faktor risiko delirium pada pasien geriatri di rumah sakit
+247. Efektivitas electroconvulsive therapy pada depresi berat dengan psikotik
+248. Hubungan neuroinflammation dan progresi penyakit neurodegeneratif
+249. Analisis telepsychiatry untuk akses layanan kesehatan mental di daerah terpencil
+250. Pengaruh psychedelic-assisted therapy pada PTSD dan depresi treatment-resistant
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 6: CARDIOLOGY & VASCULAR MEDICINE (251–300)
+────────────────────────────────────────────────────────────────────────────────
+251. Prevalensi dan faktor risiko penyakit jantung koroner pada usia muda di Indonesia
+252. Efektivitas primary PCI vs fibrinolisis pada STEMI di rumah sakit non-PCI capable
+253. Hubungan kadar troponin high-sensitivity dan prognosis acute coronary syndrome
+254. Analisis faktor risiko atrial fibrillation pada pasien hipertensi di Indonesia
+255. Pengaruh cardiac rehabilitation terhadap functional capacity pasca infark miokard
+256. Prevalensi dan manajemen heart failure with preserved ejection fraction (HFpEF)
+257. Efektivitas SGLT2 inhibitor terhadap outcome heart failure di populasi Indonesia
+258. Hubungan obstructive sleep apnea dan risiko aritmia kardiak
+259. Analisis cost-effectiveness skrining penyakit jantung koroner pada populasi berisiko
+260. Pengaruh telemedicine-based cardiac monitoring terhadap deteksi aritmia
+261. Prevalensi penyakit jantung rematik pada anak di daerah endemis Indonesia
+262. Efektivitas transcatheter aortic valve implantation (TAVI) pada stenosis aorta berat
+263. Hubungan polusi udara dan risiko kejadian kardiovaskular akut
+264. Analisis genetic polymorphism dan respons terapi antiplatelet (clopidogrel resistance)
+265. Pengaruh Mediterranean diet terhadap risiko kardiovaskular pada populasi Asia
+266. Prevalensi dan manajemen peripheral arterial disease pada pasien DM
+267. Efektivitas catheter ablation pada atrial fibrillation paroksismal
+268. Hubungan gut microbiome (TMAO) dan risiko aterosklerosis
+269. Analisis machine learning untuk prediksi risiko kardiovaskular
+270. Pengaruh wearable ECG monitoring terhadap deteksi dini aritmia
+271. Prevalensi hipertensi resisten dan faktor risiko di Indonesia
+272. Efektivitas renal denervation pada hipertensi resisten
+273. Hubungan psikososial stress dan risiko penyakit jantung koroner
+274. Analisis biomarker novel (galectin-3, sST2) untuk prognosis heart failure
+275. Pengaruh exercise-based cardiac rehabilitation terhadap quality of life
+276. Prevalensi dan manajemen pulmonary hypertension di Indonesia
+277. Efektivitas MitraClip pada mitral regurgitation berat
+278. Hubungan sarcopenia dan outcome pada pasien heart failure lansia
+279. Analisis faktor risiko sudden cardiac death pada atlet muda
+280. Pengaruh digital health intervention terhadap adherence terapi kardiovaskular
+281. Prevalensi deep vein thrombosis pada pasien rawat inap di Indonesia
+282. Efektivitas direct oral anticoagulant vs warfarin pada atrial fibrillation
+283. Hubungan inflammatory markers dan plaque vulnerability pada ACS
+284. Analisis outcome intervensi koroner pada pasien CKD dengan PJK
+285. Pengaruh preoperative optimization terhadap outcome bedah jantung
+286. Prevalensi dan manajemen cardiomyopathy di Indonesia
+287. Efektivitas implantable cardioverter defibrillator pada pencegahan sudden death
+288. Hubungan diabetes dan disfungsi diastolik ventrikel kiri
+289. Analisis fractional flow reserve vs angiography-guided PCI
+290. Pengaruh home-based cardiac rehabilitation terhadap outcome pasien rural
+291. Prevalensi congenital heart disease dan akses terapi di Indonesia
+292. Efektivitas stem cell therapy pada heart failure dengan reduced EF
+293. Hubungan thyroid dysfunction dan risiko atrial fibrillation
+294. Analisis AI-based echocardiography untuk deteksi disfungsi ventrikel
+295. Pengaruh smoking cessation program terhadap risiko kardiovaskular
+296. Prevalensi dan manajemen aortic dissection di Indonesia
+297. Efektivitas combination antihypertensive therapy pada hipertensi stage 2
+298. Hubungan COVID-19 dan komplikasi kardiovaskular (miokarditis, trombosis)
+299. Analisis pharmacogenomics warfarin dosing pada populasi Indonesia
+300. Pengaruh artificial intelligence terhadap interpretasi EKG dan deteksi aritmia
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 7: PEDIATRICS & NEONATOLOGY (301–350)
+────────────────────────────────────────────────────────────────────────────────
+301. Prevalensi dan faktor risiko stunting pada balita di daerah rural Indonesia
+302. Efektivitas kangaroo mother care terhadap outcome bayi prematur
+303. Hubungan ASI eksklusif dan kejadian infeksi saluran pernapasan pada bayi
+304. Analisis faktor risiko asfiksia neonatorum dan outcome neurologis
+305. Pengaruh suplementasi zinc terhadap durasi dan severity diare pada anak
+306. Prevalensi dan manajemen alergi susu sapi pada bayi di Indonesia
+307. Efektivitas surfactant therapy pada respiratory distress syndrome neonatus
+308. Hubungan screen time dan perkembangan kognitif anak usia dini
+309. Analisis faktor risiko sepsis neonatal awitan lambat di NICU
+310. Pengaruh early intervention terhadap perkembangan bayi prematur
+311. Prevalensi obesitas pada anak sekolah dan faktor risiko di kota besar Indonesia
+312. Efektivitas vaksinasi PCV terhadap insiden pneumonia pada anak
+313. Hubungan defisiensi vitamin A dan kejadian infeksi pada anak balita
+314. Analisis faktor risiko kejang demam berulang pada anak
+315. Pengaruh probiotik terhadap pencegahan necrotizing enterocolitis pada prematur
+316. Prevalensi dan manajemen asma pada anak di Indonesia
+317. Efektivitas high-flow nasal cannula vs CPAP pada bronkiolitis berat
+318. Hubungan paparan antibiotik dini dan risiko alergi pada anak
+319. Analisis faktor risiko retinopathy of prematurity di NICU Indonesia
+320. Pengaruh complementary feeding practice terhadap status gizi anak 6-24 bulan
+321. Prevalensi dan faktor risiko anemia defisiensi besi pada anak sekolah
+322. Efektivitas oral rehydration therapy modifikasi pada dehidrasi berat
+323. Hubungan polusi udara dalam rumah dan infeksi saluran pernapasan anak
+324. Analisis faktor risiko hiperbilirubinemia neonatal berat
+325. Pengaruh developmental care terhadap neurodevelopmental outcome prematur
+326. Prevalensi congenital hypothyroidism dan efektivitas skrining neonatal
+327. Efektivitas palivizumab terhadap pencegahan RSV pada bayi risiko tinggi
+328. Hubungan gut microbiome neonatal dan risiko atopi pada anak
+329. Analisis faktor risiko cerebral palsy pada anak di Indonesia
+330. Pengaruh telemedicine terhadap manajemen penyakit kronis anak di daerah terpencil
+331. Prevalensi dan manajemen diabetes mellitus tipe 1 pada anak Indonesia
+332. Efektivitas non-invasive ventilation pada gagal napas akut anak
+333. Hubungan breastfeeding duration dan risiko obesitas pada anak
+334. Analisis faktor risiko dan outcome meningitis bakterial pada anak
+335. Pengaruh iron fortification terhadap perkembangan kognitif anak stunting
+336. Prevalensi kelainan jantung bawaan dan akses intervensi di Indonesia
+337. Efektivitas therapeutic hypothermia pada asfiksia neonatal berat
+338. Hubungan maternal depression dan perkembangan anak usia dini
+339. Analisis faktor risiko bronchopulmonary dysplasia pada prematur
+340. Pengaruh family-centered care terhadap length of stay di NICU
+341. Prevalensi dan manajemen epilepsi pada anak di Indonesia
+342. Efektivitas ketogenic diet pada epilepsi drug-resistant anak
+343. Hubungan prenatal exposure polusi udara dan berat badan lahir
+344. Analisis faktor risiko sudden infant death syndrome di Indonesia
+345. Pengaruh music therapy terhadap pain management pada anak
+346. Prevalensi malnutrisi akut pada anak di daerah bencana Indonesia
+347. Efektivitas point-of-care ultrasound pada diagnosis pneumonia anak
+348. Hubungan socioeconomic status dan akses imunisasi lengkap pada anak
+349. Analisis outcome neonatus dengan kelainan kongenital mayor di Indonesia
+350. Pengaruh AI-based growth monitoring terhadap deteksi dini gangguan pertumbuhan
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 8: EMERGENCY & CRITICAL CARE MEDICINE (351–400)
+────────────────────────────────────────────────────────────────────────────────
+351. Analisis faktor prediktor mortalitas sepsis di ICU rumah sakit tersier Indonesia
+352. Efektivitas early goal-directed therapy pada septic shock
+353. Hubungan lactate clearance dan outcome pasien sepsis di IGD
+354. Analisis implementasi surviving sepsis campaign bundle di rumah sakit Indonesia
+355. Pengaruh prone positioning terhadap oksigenasi pada ARDS berat
+356. Prevalensi dan outcome acute kidney injury pada pasien kritis
+357. Efektivitas high-flow nasal oxygen vs non-invasive ventilation pada gagal napas akut
+358. Hubungan fluid overload dan mortalitas pada pasien kritis
+359. Analisis faktor risiko ventilator-associated pneumonia di ICU
+360. Pengaruh early mobilization terhadap ICU-acquired weakness
+361. Prevalensi dan manajemen delirium di ICU
+362. Efektivitas point-of-care ultrasound pada resusitasi pasien syok di IGD
+363. Hubungan door-to-needle time dan outcome stroke iskemik akut
+364. Analisis faktor prediktor cardiac arrest outcome di rumah sakit
+365. Pengaruh extracorporeal membrane oxygenation (ECMO) terhadap survival ARDS refrakter
+366. Prevalensi dan outcome politrauma pada kecelakaan lalu lintas di Indonesia
+367. Efektivitas damage control resuscitation pada trauma hemoragik berat
+368. Hubungan prehospital time dan outcome trauma di sistem emergensi Indonesia
+369. Analisis implementasi triage system dan patient flow di IGD
+370. Pengaruh telemedicine terhadap konsultasi spesialis di IGD rumah sakit daerah
+371. Prevalensi dan manajemen keracunan akut di IGD Indonesia
+372. Efektivitas therapeutic hypothermia pasca cardiac arrest
+373. Hubungan nurse-to-patient ratio dan outcome pasien ICU
+374. Analisis faktor risiko reintubasi dan outcome di ICU
+375. Pengaruh family presence during resuscitation terhadap outcome dan family satisfaction
+376. Prevalensi burnout pada tenaga kesehatan ICU dan IGD
+377. Efektivitas restrictive vs liberal transfusion strategy pada pasien kritis
+378. Hubungan glycemic control dan outcome pasien kritis non-diabetik
+379. Analisis cost-effectiveness ICU admission criteria pada pasien geriatri
+380. Pengaruh AI-based early warning system terhadap deteksi deteriorasi pasien
+381. Prevalensi dan outcome acute respiratory failure pada pasien COVID-19
+382. Efektivitas awake prone positioning pada COVID-19 dengan hipoksemia
+383. Hubungan nutritional support dan outcome pasien kritis di ICU
+384. Analisis faktor risiko dan outcome disseminated intravascular coagulation
+385. Pengaruh protocolized sedation terhadap duration of mechanical ventilation
+386. Prevalensi dan manajemen anaphylaxis di IGD Indonesia
+387. Efektivitas ketamine vs propofol untuk procedural sedation di IGD
+388. Hubungan time to antibiotics dan outcome pada sepsis di IGD
+389. Analisis implementasi rapid response team dan pencegahan cardiac arrest
+390. Pengaruh simulation-based training terhadap kompetensi resusitasi tenaga kesehatan
+391. Prevalensi dan outcome acute liver failure di ICU Indonesia
+392. Efektivitas lung-protective ventilation strategy pada ARDS
+393. Hubungan biomarker procalcitonin dan antibiotic stewardship di ICU
+394. Analisis faktor risiko post-intensive care syndrome (PICS)
+395. Pengaruh palliative care consultation terhadap end-of-life care di ICU
+396. Prevalensi dan manajemen status asmatikus di IGD anak
+397. Efektivitas whole blood vs component therapy pada massive transfusion
+398. Hubungan sleep disruption dan delirium pada pasien ICU
+399. Analisis outcome pasien kritis dengan do-not-resuscitate order
+400. Pengaruh digital ICU (tele-ICU) terhadap outcome pasien kritis di RS daerah
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 9: PUBLIC HEALTH & PREVENTIVE MEDICINE (401–450)
+────────────────────────────────────────────────────────────────────────────────
+401. Analisis efektivitas program vaksinasi COVID-19 terhadap herd immunity di Indonesia
+402. Hubungan determinan sosial kesehatan dan disparitas akses layanan di daerah tertinggal
+403. Evaluasi program pengendalian tuberkulosis nasional dan pencapaian target eliminasi
+404. Pengaruh health literacy terhadap perilaku pencegahan penyakit tidak menular
+405. Analisis cost-effectiveness skrining kanker payudara dengan mammografi di Indonesia
+406. Hubungan urbanisasi dan peningkatan prevalensi penyakit tidak menular
+407. Efektivitas community health worker program terhadap cakupan imunisasi di daerah terpencil
+408. Evaluasi implementasi Jaminan Kesehatan Nasional (JKN) terhadap equity akses kesehatan
+409. Pengaruh social media health campaign terhadap perilaku kesehatan masyarakat
+410. Analisis beban penyakit (disease burden) dan transisi epidemiologi di Indonesia
+411. Hubungan perubahan iklim dan pola penyakit infeksi di Indonesia
+412. Efektivitas school-based health promotion terhadap perilaku hidup bersih dan sehat
+413. Evaluasi program pengendalian malaria di daerah endemis Indonesia timur
+414. Pengaruh tobacco control policy terhadap prevalensi merokok di Indonesia
+415. Analisis kesiapsiagaan sistem kesehatan Indonesia menghadapi pandemi berikutnya
+416. Hubungan food environment dan prevalensi obesitas pada anak perkotaan
+417. Efektivitas mobile health (mHealth) intervention terhadap manajemen hipertensi
+418. Evaluasi program eliminasi filariasis di Indonesia
+419. Pengaruh air pollution terhadap morbiditas dan mortalitas penyakit pernapasan
+420. Analisis health system resilience selama pandemi COVID-19 di Indonesia
+421. Hubungan water, sanitation, and hygiene (WASH) dan kejadian diare pada anak
+422. Efektivitas integrated management of childhood illness (IMCI) di puskesmas
+423. Evaluasi program pencegahan dan pengendalian HIV/AIDS di Indonesia
+424. Pengaruh health insurance coverage terhadap health-seeking behavior
+425. Analisis geographic information system (GIS) untuk pemetaan penyakit tropis
+426. Hubungan maternal education dan pemanfaatan layanan kesehatan ibu dan anak
+427. Efektivitas task-shifting terhadap akses layanan kesehatan di daerah kekurangan dokter
+428. Evaluasi program skrining penyakit tidak menular di puskesmas (Posbindu PTM)
+429. Pengaruh nudge intervention terhadap perilaku kesehatan preventif
+430. Analisis health technology assessment untuk kebijakan formularium nasional
+431. Hubungan occupational health dan produktivitas pekerja sektor informal
+432. Efektivitas peer education terhadap pencegahan HIV pada populasi kunci
+433. Evaluasi program pengendalian demam berdarah dengue berbasis komunitas
+434. Pengaruh telemedicine terhadap akses layanan spesialis di daerah terpencil
+435. Analisis faktor determinan vaccine hesitancy di Indonesia
+436. Hubungan built environment dan physical activity pada masyarakat urban
+437. Efektivitas smoke-free policy terhadap paparan secondhand smoke
+438. Evaluasi program kesehatan jiwa komunitas di puskesmas
+439. Pengaruh one health approach terhadap pencegahan zoonosis
+440. Analisis health workforce distribution dan kebutuhan di Indonesia
+441. Hubungan poverty dan akses layanan kesehatan reproduksi
+442. Efektivitas digital contact tracing terhadap pengendalian penyakit infeksi
+443. Evaluasi program pencegahan stunting terintegrasi di Indonesia
+444. Pengaruh community empowerment terhadap kemandirian kesehatan masyarakat
+445. Analisis implementasi universal health coverage dan financial protection
+446. Hubungan disaster preparedness dan resiliensi kesehatan masyarakat
+447. Efektivitas school-based mental health program pada remaja
+448. Evaluasi program pengendalian resistensi antimikroba nasional
+449. Pengaruh precision public health terhadap efektivitas intervensi kesehatan
+450. Analisis big data dan artificial intelligence untuk surveilans kesehatan masyarakat
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 10: DIGITAL HEALTH & AI IN MEDICINE (451–500)
+────────────────────────────────────────────────────────────────────────────────
+451. Efektivitas AI-based chest X-ray interpretation untuk skrining TB di puskesmas
+452. Analisis akurasi deep learning untuk deteksi retinopati diabetik dari funduskopi
+453. Pengaruh telemedicine terhadap akses dan outcome pasien di daerah terpencil Indonesia
+454. Hubungan electronic health record implementation dan patient safety
+455. Evaluasi clinical decision support system terhadap prescribing error
+456. Efektivitas chatbot-based health education terhadap health literacy masyarakat
+457. Analisis natural language processing untuk ekstraksi informasi dari rekam medis
+458. Pengaruh wearable health device terhadap self-management penyakit kronis
+459. Hubungan digital health literacy dan adopsi telemedicine pada pasien lansia
+460. Evaluasi AI-based ECG interpretation untuk deteksi aritmia di layanan primer
+461. Efektivitas mobile app untuk monitoring kepatuhan terapi pada pasien TB
+462. Analisis machine learning untuk prediksi readmission pasien heart failure
+463. Pengaruh robotic surgery terhadap learning curve dan outcome bedah
+464. Hubungan big data analytics dan prediksi outbreak penyakit infeksi
+465. Evaluasi blockchain technology untuk keamanan data rekam medis elektronik
+466. Efektivitas virtual reality untuk manajemen nyeri pada prosedur medis
+467. Analisis computer-aided diagnosis untuk deteksi kanker payudara dari mammografi
+468. Pengaruh AI-based triage system terhadap patient flow di IGD
+469. Hubungan social media surveillance dan deteksi dini wabah penyakit
+470. Evaluasi digital therapeutics untuk manajemen diabetes mellitus
+471. Efektivitas telemonitoring terhadap outcome pasien heart failure di rumah
+472. Analisis federated learning untuk pengembangan AI medis multi-institusi
+473. Pengaruh augmented reality terhadap akurasi prosedur bedah
+474. Hubungan health information exchange dan continuity of care
+475. Evaluasi AI-based drug interaction checker terhadap medication safety
+476. Efektivitas digital mental health intervention untuk depresi dan kecemasan
+477. Analisis computer vision untuk deteksi lesi kulit maligna
+478. Pengaruh Internet of Medical Things (IoMT) terhadap patient monitoring
+479. Hubungan cybersecurity dan patient data protection di rumah sakit
+480. Evaluasi speech recognition technology untuk dokumentasi medis
+481. Efektivitas AI-based pathology untuk diagnosis kanker dari biopsi
+482. Analisis predictive analytics untuk manajemen bed occupancy rumah sakit
+483. Pengaruh 3D bioprinting terhadap regenerative medicine
+484. Hubungan digital twin dan personalized treatment planning
+485. Evaluasi remote patient monitoring terhadap hospital readmission rate
+486. Efektivitas AI-based radiology untuk deteksi fraktur di IGD
+487. Analisis ethical framework untuk implementasi AI dalam keputusan klinis
+488. Pengaruh gamification terhadap adherence terapi pada pasien kronis
+489. Hubungan interoperability sistem informasi dan efisiensi layanan kesehatan
+490. Evaluasi drone delivery untuk distribusi obat dan vaksin di daerah terpencil
+491. Efektivitas AI-based sepsis prediction terhadap early intervention
+492. Analisis sentiment analysis dari patient review untuk quality improvement
+493. Pengaruh digital phenotyping terhadap monitoring kesehatan mental
+494. Hubungan precision medicine dan pharmacogenomics di Indonesia
+495. Evaluasi AI-based ultrasound guidance untuk prosedur invasif
+496. Efektivitas virtual hospital model untuk manajemen pasien kronis
+497. Analisis implementasi FHIR standard untuk interoperabilitas data kesehatan
+498. Pengaruh explainable AI terhadap trust dan adoption oleh klinisi
+499. Hubungan digital health ecosystem dan transformasi layanan kesehatan Indonesia
+500. Evaluasi regulatory framework untuk AI sebagai medical device di Indonesia

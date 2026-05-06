@@ -1,9 +1,58 @@
 ================================================================================
-TOPIC GUIDE — Chemistry (General)
+TOPIC GUIDE — Kimia (Chemistry)
 ================================================================================
 FIELD: Natural Sciences / Chemistry
 DEFAULT CITATION STYLE: ACS or APA
 SUBDISCIPLINE: Kimia Umum, Sintesis, Karakterisasi, Kimia Analitik Dasar, Kimia Lingkungan
+
+COMMON REFERENCE VENUES:
+  Journal of Organic Chemistry, Inorganic Chemistry, ACS Applied Materials & Interfaces,
+  Molecules (MDPI), Spectrochimica Acta Part A, Journal of Molecular Structure,
+  Environmental Chemistry Letters, RSC Advances, Chemistry Select
+
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 journals (JACS, Angewandte Chemie, Chemical Engineering Journal, ACS Nano)
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Green chemistry, flow chemistry, mechanochemistry, electrochemistry, photocatalysis, MOF synthesis, computational chemistry (DFT - Gaussian/ORCA), machine learning for molecular design, high-throughput screening, cryo-EM for molecular structure
+   - Include complete synthesis protocols with yields, characterization data
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic data: yields (%), melting points, spectral data (IR peaks, NMR shifts, MS m/z), kinetic parameters, thermodynamic values
+   - Characterization: XRD patterns, SEM/TEM images description, BET surface area, TGA curves
+   - All numbers chemically plausible
+
+5. MATHEMATICAL FORMULAS:
+   - Rate law: r = k[A]^m[B]^n
+   - Arrhenius: k = A×exp(-Ea/RT)
+   - Nernst equation: E = E° - (RT/nF)ln(Q)
+   - Beer-Lambert: A = εbc
+   - Langmuir isotherm: qe = qm×KL×Ce/(1+KL×Ce)
+   - Gibbs free energy: ΔG = ΔH - TΔS
+   - Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA])
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian natural resources context (natural products, local minerals, biomass)
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords, Introduction, Literature Review, Methodology, Results & Discussion, Conclusion, References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
+================================================================================
+DOMAIN-SPECIFIC GUIDANCE
+================================================================================
 
 ABSTRACT CHARACTERISTICS:
   150–250 words. Reports: compound or material synthesized/analyzed, method used,
@@ -34,14 +83,14 @@ METHODOLOGY:
   - Computational: Gaussian 09/16, B3LYP/6-311+G(d,p), geometry optimization, frequency calculation (no imaginary frequency).
   - Activity testing: antimicrobial (Kirby-Bauer disc diffusion, MIC µg/mL), antioxidant (DPPH IC50).
 
-TYPICAL RESULTS & DISCUSSION:
-  - Synthesis yield: 50–90%; typically reported as isolated yield after recrystallization/column.
-  - 1H NMR: chemical shifts δ 0–12 ppm with multiplicity (s, d, t, q, m), coupling J (Hz).
-  - FTIR: key bands (O-H 3200–3600, C=O 1680–1750, C-H 2850–3000, N-H 3300–3500 cm⁻¹).
-  - UV-Vis: λmax 250–400 nm (aromatic/conjugated system).
-  - DPPH IC50: potent antioxidant <50 µg/mL; reference vitamin C ~5 µg/mL.
-  Tables: spectral data summary (NMR, FTIR, UV), comparison with literature, DFT data.
-  Figures: NMR spectrum, FTIR spectrum, UV-Vis absorption curve, crystal structure (if SCXRD).
+EQUATIONS AND FORMULAS:
+  - Rate law: r = k[A]^m[B]^n
+  - Arrhenius: k = A×exp(-Ea/RT)
+  - Nernst equation: E = E° - (RT/nF)ln(Q)
+  - Beer-Lambert: A = εbc
+  - Langmuir isotherm: qe = qm×KL×Ce/(1+KL×Ce)
+  - Gibbs free energy: ΔG = ΔH - TΔS
+  - Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA])
 
 TYPICAL FIGURES:
   - 1H NMR spectrum with peak assignment.
@@ -55,17 +104,21 @@ TYPICAL TABLES:
   - FTIR bands: wavenumber (cm⁻¹) | intensity | assignment.
   - Biological activity: compound | IC50 (µM/µg/mL) | reference compound | ratio.
 
+RESULTS & DISCUSSION:
+  - Synthesis yield: 50–90%; typically reported as isolated yield after recrystallization/column.
+  - 1H NMR: chemical shifts δ 0–12 ppm with multiplicity (s, d, t, q, m), coupling J (Hz).
+  - FTIR: key bands (O-H 3200–3600, C=O 1680–1750, C-H 2850–3000, N-H 3300–3500 cm⁻¹).
+  - UV-Vis: λmax 250–400 nm (aromatic/conjugated system).
+  - DPPH IC50: potent antioxidant <50 µg/mL; reference vitamin C ~5 µg/mL.
+  Tables: spectral data summary (NMR, FTIR, UV), comparison with literature, DFT data.
+  Figures: NMR spectrum, FTIR spectrum, UV-Vis absorption curve, crystal structure (if SCXRD).
+
 CONCLUSION CHARACTERISTICS:
   - Target compound successfully synthesized and fully characterized.
   - Structure confirmed by spectroscopic evidence.
   - Biological/chemical activity evaluated and compared with reference.
   - Limitations: single solvent system, model organism only, preliminary screening.
   - Future: analogue synthesis (SAR), in vivo testing, scale-up, co-crystallization.
-
-COMMON REFERENCE VENUES:
-  Journal of Organic Chemistry, Inorganic Chemistry, ACS Applied Materials & Interfaces,
-  Molecules (MDPI), Spectrochimica Acta Part A, Journal of Molecular Structure,
-  Environmental Chemistry Letters, RSC Advances, Chemistry Select
 
 DOMAIN VOCABULARY:
   synthesis, yield, NMR (1H, 13C, HMBC, COSY), FTIR, UV-Vis, ESI-MS, HPLC,
@@ -76,3 +129,547 @@ METHODOLOGY KEYWORDS:
   organic synthesis (reflux/stirring), column chromatography, TLC monitoring,
   NMR characterization (Bruker 400 MHz), FTIR (ATR/KBr), DFT (Gaussian09/16, B3LYP),
   DPPH antioxidant assay, Kirby-Bauer disc diffusion, MIC determination
+
+================================================================================
+RESEARCH TOPICS — 500 TOPICS IN 10 CATEGORIES
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 1: ORGANIC SYNTHESIS & NATURAL PRODUCTS (001–050)
+────────────────────────────────────────────────────────────────────────────────
+001. Isolation and structure elucidation of cytotoxic alkaloids from Kopsia arborea bark collected in Kalimantan forests
+002. Green synthesis of chalcone derivatives from Indonesian cinnamon (Cinnamomum burmannii) aldehyde via solvent-free Claisen-Schmidt condensation
+003. Total synthesis of andrographolide analogues from Andrographis paniculata (sambiloto) with enhanced anti-inflammatory activity
+004. Mechanochemical Suzuki coupling for biaryl synthesis using Indonesian rice husk-derived Pd/C catalyst
+005. Flow chemistry optimization of curcumin diketone modifications from Curcuma longa rhizomes of Yogyakarta
+006. Asymmetric organocatalytic aldol reaction using proline derivatives from Indonesian shrimp shell chitin
+007. Microwave-assisted extraction and semi-synthesis of xanthone derivatives from Garcinia mangostana (mangosteen) pericarp
+008. One-pot multicomponent synthesis of dihydropyrimidinones using volcanic ash-derived silica catalyst from Mount Merapi
+009. Biocatalytic oxidation of terpenes from Indonesian patchouli oil (Pogostemon cablin) using lipase-mediated Baeyer-Villiger reaction
+010. Photocatalytic C-H functionalization of flavonoid scaffolds isolated from Morinda citrifolia (mengkudu) fruit
+011. Sustainable synthesis of coumarin-thiazole hybrids from Murraya koenigii leaves as acetylcholinesterase inhibitors
+012. Electrochemical dehydrogenative coupling for lignan synthesis inspired by Indonesian Phyllanthus niruri metabolites
+013. Late-stage diversification of eugenol from Syzygium aromaticum (clove) via C-H borylation and cross-coupling
+014. Continuous flow hydrogenation of citronellal from Indonesian citronella oil to menthol using heterogeneous Ru catalyst
+015. Domino reaction approach to indole alkaloid frameworks from Uncaria gambir tannin precursors
+016. Stereoselective glycosylation of saponin aglycones from Sapindus rarak using gold(I)-catalyzed methodology
+017. Visible-light-mediated radical cyclization for terpenoid skeleton construction from Indonesian turpentine
+018. Enzymatic resolution of racemic monoterpenes from Melaleuca cajuputi (kayu putih) oil using Candida antarctica lipase B
+019. Solid-phase synthesis of peptide-terpene conjugates from Plectranthus amboinicus (daun jintan) essential oil components
+020. Ring-closing metathesis approach to macrocyclic lactones from Indonesian Aglaia odorata metabolites
+021. Palladium-catalyzed carbonylation of iodoeugenol derivatives for pharmaceutical intermediate production
+022. Biomimetic oxidative dearomatization of phenolic natural products from Curcuma xanthorrhiza (temulawak)
+023. Electroorganic synthesis of quinone derivatives from Indonesian teak (Tectona grandis) heartwood extractives
+024. Photoinduced [2+2] cycloaddition of stilbenoids from Dryobalanops aromatica (Borneo camphor tree) resin
+025. Transition-metal-free C-N bond formation for alkaloid synthesis using Indonesian volcanic sulfur as catalyst
+026. Chemo-enzymatic synthesis of glycolipids from Indonesian palm kernel oil fatty acids
+027. Microwave-assisted Heck reaction for stilbene synthesis from 4-hydroxybenzaldehyde of Indonesian vanilla
+028. Sustainable oxidation of terpene alcohols from Cananga odorata (ylang-ylang) using TEMPO/laccase system
+029. Gold-catalyzed cycloisomerization of enynes derived from Indonesian sandalwood (Santalum album) oil components
+030. Divergent synthesis of chromene natural product analogues from Calophyllum inophyllum (nyamplung) seed oil
+031. Copper-catalyzed azide-alkyne cycloaddition (CuAAC) for triazole-linked dimers of Indonesian Brucea javanica quassinoids
+032. Reductive amination of ketones from Zingiber officinale (ginger) using Indonesian laterite-derived iron catalyst
+033. Photoredox-catalyzed decarboxylative coupling of amino acids from Indonesian tempeh fermentation byproducts
+034. Iridium-catalyzed C-H borylation of aromatic natural products from Kaempferia galanga (kencur) rhizome
+035. Sustainable Wittig reaction using ylides generated from Indonesian coconut shell-derived phosphonium salts
+036. Cascade radical cyclization for sesquiterpene synthesis from Indonesian vetiver (Vetiveria zizanioides) oil
+037. Nickel-catalyzed reductive cross-electrophile coupling for biaryl ether synthesis from Indonesian clove phenolics
+038. Bioinspired oxidative phenol coupling for naphthoquinone dimer synthesis from Diospyros celebica (ebony) extractives
+039. Continuous flow ozonolysis of unsaturated fatty acids from Indonesian candlenut (Aleurites moluccanus) oil
+040. Asymmetric hydrogenation of enamides derived from Indonesian Strychnos lucida alkaloid precursors
+041. Electrochemical fluorination of aromatic compounds from Indonesian cinnamic acid derivatives
+042. Photocatalytic dehydrogenative cross-coupling of indoles from Mitragyna speciosa using organic dye sensitizer
+043. Iron-catalyzed radical addition to olefins from Indonesian pine resin (Pinus merkusii) for terpenoid diversification
+044. Sustainable Friedel-Crafts acylation using Indonesian natural zeolite from Bayah as solid acid catalyst
+045. Chemoenzymatic dynamic kinetic resolution of secondary alcohols from Indonesian Piper nigrum alkaloid intermediates
+046. Visible-light-driven thiol-ene click reaction for functionalization of Indonesian cashew nut shell liquid (CNSL) cardanol
+047. Manganese-catalyzed C-H activation for late-stage modification of Indonesian Phyllanthus urinaria lignans
+048. Electrochemical Birch reduction of aromatic rings in Indonesian Toona sureni terpenoids under ambient conditions
+049. Organocatalytic Michael addition for chromane synthesis from Indonesian Artocarpus heterophyllus (jackfruit) flavonoids
+050. Sustainable Diels-Alder reaction of myrcene from Indonesian lemongrass oil with dienophiles under aqueous conditions
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 2: ANALYTICAL CHEMISTRY & INSTRUMENTATION (051–100)
+────────────────────────────────────────────────────────────────────────────────
+051. Development of HPLC-DAD method for simultaneous determination of curcuminoids in Curcuma longa from different Indonesian islands
+052. Electrochemical sensor based on Indonesian natural graphite/MoS2 nanocomposite for heavy metal detection in Citarum River water
+053. Validation of GC-MS method for volatile organic compound profiling of Indonesian patchouli oil (Pogostemon cablin) by geographic origin
+054. Surface-enhanced Raman spectroscopy (SERS) using Indonesian gold mine tailing-derived Au nanoparticles for pesticide detection in rice
+055. Smartphone-based colorimetric detection of formaldehyde in Indonesian street food using curcumin-loaded paper sensor
+056. Capillary electrophoresis method for alkaloid fingerprinting of Indonesian Mitragyna speciosa from Kalimantan and Sumatra
+057. Ion chromatography determination of anions in Indonesian geothermal water from Kamojang and Dieng fields
+058. Fluorescence quenching-based aptasensor for aflatoxin B1 detection in Indonesian peanut products using carbon dots from coconut shell
+059. Voltammetric determination of lead(II) using bismuth film electrode modified with Indonesian bentonite from Pacitan
+060. Chemometric-assisted UV-Vis spectrophotometry for authentication of Indonesian civet coffee (kopi luwak)
+061. LC-MS/MS method development for multi-mycotoxin analysis in Indonesian corn (Zea mays) from East Java
+062. Portable XRF calibration for rapid elemental analysis of Indonesian tin ore from Bangka-Belitung
+063. Microfluidic paper-based analytical device (µPAD) for mercury detection in Indonesian artisanal gold mining wastewater
+064. Headspace solid-phase microextraction (HS-SPME) GC-MS for aroma profiling of Indonesian Toraja coffee
+065. Electrochemiluminescence immunoassay for dengue NS1 antigen using Indonesian silica nanoparticles from rice husk
+066. ICP-OES method for rare earth element determination in Indonesian monazite sand from Bangka Island
+067. Molecularly imprinted polymer (MIP) sensor for selective detection of rhodamine B in Indonesian chili sauce
+068. Near-infrared spectroscopy (NIRS) calibration for rapid quality assessment of Indonesian nutmeg (Myristica fragrans)
+069. Differential pulse voltammetry for simultaneous determination of paracetamol and caffeine in Indonesian herbal medicines (jamu)
+070. MALDI-TOF MS profiling for bacterial identification from Indonesian mangrove sediment samples
+071. Laser-induced breakdown spectroscopy (LIBS) for classification of Indonesian volcanic rocks from Ring of Fire
+072. Flow injection analysis with chemiluminescence detection for hydrogen peroxide in Indonesian tofu production wastewater
+073. Thermal analysis (DSC/TGA) characterization of Indonesian palm oil-based biodiesel blends for quality control
+074. Atomic absorption spectroscopy method for chromium speciation in Indonesian batik industry wastewater from Pekalongan
+075. Raman mapping of microplastic contamination in Indonesian sea salt from Madura traditional salt ponds
+076. Potentiometric sensor array (electronic tongue) for taste classification of Indonesian herbal beverages (jamu)
+077. Size-exclusion chromatography for molecular weight distribution of Indonesian natural rubber (Hevea brasiliensis) from Sumatra
+078. X-ray fluorescence (XRF) method for non-destructive analysis of Indonesian ancient ceramic artifacts from Trowulan
+079. Quartz crystal microbalance (QCM) sensor coated with Indonesian zeolite for ammonia gas detection in poultry farms
+080. Hyphenated TLC-DESI-MS for rapid screening of adulterants in Indonesian traditional herbal medicines
+081. Inductively coupled plasma mass spectrometry (ICP-MS) for trace element profiling of Indonesian volcanic soil fertility
+082. Electrochemical impedance spectroscopy for corrosion monitoring of steel in Indonesian marine environment
+083. Gas chromatography-olfactometry (GC-O) for key odorant identification in Indonesian palm sugar (gula aren)
+084. Laser ablation ICP-MS for provenance determination of Indonesian gold artifacts from Wonoboyo hoard
+085. Capillary zone electrophoresis for amino acid profiling of Indonesian fermented fish sauce (kecap ikan)
+086. Thermogravimetric analysis coupled with FTIR for decomposition study of Indonesian peat soil organic matter
+087. Square wave voltammetry using carbon paste electrode modified with Indonesian manganese ore for glucose sensing
+088. Two-dimensional gas chromatography (GCxGC-TOFMS) for comprehensive analysis of Indonesian crude oil from Cepu Block
+089. Fluorescence spectroscopy with multivariate analysis for palm oil adulteration detection in Indonesian cooking oils
+090. Scanning electrochemical microscopy (SECM) for localized corrosion study on Indonesian nickel laterite processing equipment
+091. Isotope ratio mass spectrometry (IRMS) for geographic origin verification of Indonesian vanilla (Vanilla planifolia)
+092. Electrochemical DNA biosensor using gold nanoparticles/graphene oxide for Vibrio parahaemolyticus detection in Indonesian shrimp
+093. Particle-induced X-ray emission (PIXE) analysis of air particulate matter in Jakarta urban atmosphere
+094. Chemiluminescence-based immunoassay for rapid detection of avian influenza virus in Indonesian poultry
+095. Synchrotron-based micro-XRF for elemental mapping of Indonesian nickel hyperaccumulator plant Phyllanthus rufuschaneyi
+096. Electroanalytical determination of sunset yellow and tartrazine in Indonesian beverages using boron-doped diamond electrode
+097. Ambient ionization mass spectrometry (DART-MS) for rapid authentication of Indonesian agarwood (gaharu) grades
+098. Neutron activation analysis (NAA) for multi-element characterization of Indonesian obsidian from archaeological sites
+099. Microwave plasma atomic emission spectroscopy (MP-AES) for nutrient analysis in Indonesian organic fertilizer from seaweed
+100. Lab-on-a-chip electrophoresis for point-of-care hemoglobin variant screening in Indonesian thalassemia patients
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 3: PHYSICAL CHEMISTRY & THERMODYNAMICS (101–150)
+────────────────────────────────────────────────────────────────────────────────
+101. Kinetic study of biodiesel transesterification from Indonesian Calophyllum inophyllum oil using heterogeneous CaO catalyst from local limestone
+102. Thermodynamic modeling of geothermal fluid-rock interaction in Indonesian Lahendong geothermal system using PHREEQC
+103. Adsorption isotherm and kinetics of methylene blue removal using activated carbon from Indonesian coconut shell (Cocos nucifera)
+104. Surface tension and micelle formation study of biosurfactants from Indonesian palm oil mill effluent (POME) microorganisms
+105. Calorimetric determination of combustion enthalpy of Indonesian biomass pellets from oil palm empty fruit bunch
+106. Viscosity and density measurements of Indonesian deep eutectic solvents based on choline chloride and local palm-based fatty acids
+107. Photophysical properties and fluorescence quantum yield of natural dyes from Indonesian Indigofera tinctoria for DSSC application
+108. Reaction kinetics of catalytic cracking of Indonesian heavy crude oil over modified natural zeolite from Lampung
+109. Phase equilibrium study of CO2-Indonesian crude palm oil system for supercritical extraction optimization
+110. Electrochemical impedance spectroscopy study of corrosion inhibition by Indonesian Uncaria gambir extract on mild steel in HCl
+111. Molecular dynamics simulation of water-oil interface behavior in Indonesian enhanced oil recovery (EOR) flooding
+112. Thermogravimetric kinetic analysis of pyrolysis of Indonesian oil palm trunk biomass using Kissinger and Flynn-Wall-Ozawa methods
+113. Diffusion coefficient measurement of essential oil components from Indonesian Cananga odorata in supercritical CO2
+114. Langmuir-Hinshelwood kinetic model for photocatalytic degradation of textile dye using Indonesian TiO2/natural zeolite composite
+115. Vapor-liquid equilibrium data for Indonesian bioethanol-water system with calcium chloride as entrainer
+116. Activation energy determination for thermal decomposition of Indonesian natural rubber using isoconversional methods
+117. Colloidal stability and zeta potential study of Indonesian natural latex (Hevea brasiliensis) at various pH and ionic strength
+118. Heat capacity and thermal conductivity measurement of Indonesian geothermal brine for power plant optimization
+119. Kinetic Monte Carlo simulation of crystal growth of Indonesian sugar (Saccharum officinarum) from supersaturated solution
+120. Rheological characterization of Indonesian bentonite drilling mud from Tasikmalaya at elevated temperature and pressure
+121. Adsorption thermodynamics of Cr(VI) removal from electroplating wastewater using Indonesian mangrove charcoal
+122. Photodegradation kinetics of paraquat herbicide in Indonesian rice paddy water under tropical solar irradiation
+123. Osmotic coefficient and activity coefficient of Indonesian sea salt solutions by isopiestic method
+124. Kinetic study of enzymatic hydrolysis of Indonesian sago starch (Metroxylon sagu) using alpha-amylase
+125. Thermodynamic properties of mixing for Indonesian biodiesel-diesel blends using excess molar volume and viscosity deviation
+126. Surface chemistry and point of zero charge determination of Indonesian laterite soil for phosphate adsorption
+127. Reaction calorimetry of exothermic neutralization in Indonesian palm oil refinery waste treatment
+128. Diffusion-ordered NMR spectroscopy (DOSY) for aggregate size determination of Indonesian asphaltenes from Duri crude oil
+129. Chemical equilibrium modeling of mineral scaling in Indonesian geothermal pipelines at Wayang Windu
+130. Kinetics of Fenton oxidation of phenol in Indonesian palm oil mill effluent using local iron ore catalyst
+131. Interfacial tension measurement between Indonesian crude oil and formation water for surfactant flooding design
+132. Thermal analysis of phase change materials based on Indonesian palm wax for building energy storage
+133. Kinetic modeling of anaerobic digestion of Indonesian tofu wastewater using modified Gompertz equation
+134. Quantum chemical calculation of hydrogen bonding in Indonesian natural deep eutectic solvents (NADES) from local sugars
+135. Electrokinetic study of Indonesian kaolin clay from Belitung for ceramic slip casting optimization
+136. Photoluminescence lifetime and energy transfer study in Indonesian rare earth-doped phosphors from monazite
+137. Thermodynamic assessment of Indonesian lateritic nickel ore reduction using FactSage software
+138. Kinetics of leaching of Indonesian manganese nodules from Karangsambung in sulfuric acid medium
+139. Molecular orbital calculation of UV-Vis spectra of Indonesian natural dyes using TD-DFT method
+140. Adsorption equilibrium of CO2 capture using Indonesian modified fly ash from Suralaya coal power plant
+141. Viscometric study of polymer-surfactant interaction in Indonesian enhanced oil recovery formulation
+142. Thermal decomposition kinetics of Indonesian iron ore from Kalimantan using non-isothermal TGA methods
+143. Surface free energy determination of Indonesian modified natural fibers for polymer composite compatibility
+144. Kinetic study of acid-catalyzed esterification of free fatty acids in Indonesian crude palm oil using Amberlyst-15
+145. Thermodynamic modeling of Indonesian tin smelting slag for valuable metal recovery optimization
+146. Photocatalytic reaction kinetics of antibiotic degradation in Indonesian hospital wastewater using visible-light-active catalyst
+147. Colligative property measurement of Indonesian seawater from different coastal regions for desalination design
+148. Activation energy of vulcanization of Indonesian natural rubber with sulfur using oscillating disc rheometer
+149. Quantum chemical study of antioxidant mechanism of flavonoids from Indonesian Moringa oleifera using DFT
+150. Thermodynamic feasibility analysis of hydrogen production from Indonesian biomass gasification using Aspen Plus
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 4: INORGANIC & COORDINATION CHEMISTRY (151–200)
+────────────────────────────────────────────────────────────────────────────────
+151. Synthesis and characterization of Cu(II)-Schiff base complex derived from Indonesian Cinnamomum burmannii cinnamaldehyde as antimicrobial agent
+152. Hydrothermal synthesis of zeolite NaX from Indonesian Bayah natural zeolite for CO2 adsorption
+153. Preparation of iron oxide nanoparticles from Indonesian laterite ore for arsenic removal in groundwater
+154. Synthesis of Zn-MOF using terephthalic acid and Indonesian zinc ore for methylene blue adsorption
+155. Coordination chemistry of Ni(II) complexes with thiosemicarbazone ligands for Indonesian nickel processing wastewater treatment
+156. Sol-gel synthesis of TiO2-SiO2 composite using Indonesian silica sand from Bangka for photocatalytic application
+157. Synthesis of hydroxyapatite from Indonesian bovine bone waste for heavy metal immobilization in contaminated soil
+158. Preparation of layered double hydroxide (LDH) from Indonesian dolomite for phosphate recovery from aquaculture wastewater
+159. Cobalt(III) complex with amino acid ligands as model for vitamin B12 coenzyme activity study
+160. Synthesis of calcium silicate hydrate (C-S-H) from Indonesian volcanic ash for geopolymer cement application
+161. Chromium(III) picolinate complex synthesis and characterization for potential antidiabetic supplement from Indonesian chrome ore
+162. Preparation of manganese dioxide (MnO2) nanorods from Indonesian manganese ore for supercapacitor electrode
+163. Synthesis of bismuth vanadate (BiVO4) photocatalyst from Indonesian bismuth concentrate for water splitting
+164. Iron(III)-tannic acid coordination polymer from Indonesian Acacia mangium bark for water purification
+165. Synthesis of nickel ferrite (NiFe2O4) spinel from Indonesian laterite for electromagnetic wave absorption
+166. Vanadium(IV)-oxo complex with salen ligand as oxidation catalyst for Indonesian crude oil desulfurization
+167. Preparation of aluminum-pillared clay from Indonesian Ponorogo bentonite for catalytic cracking application
+168. Synthesis of tin(IV) oxide nanoparticles from Indonesian tin slag for gas sensor application
+169. Copper(I)-N-heterocyclic carbene complex as catalyst for click chemistry using Indonesian copper concentrate
+170. Synthesis of zirconium phosphate from Indonesian zircon sand (Kalimantan) for proton exchange membrane
+171. Platinum group metal recovery from Indonesian spent automotive catalytic converters using coordination chemistry approach
+172. Synthesis of barium titanate (BaTiO3) from Indonesian barite ore for piezoelectric ceramic application
+173. Iron-sulfur cluster model compounds for understanding Indonesian acid mine drainage remediation mechanisms
+174. Preparation of cerium oxide (CeO2) nanoparticles from Indonesian monazite for automotive exhaust catalyst
+175. Ruthenium(II)-polypyridyl complex immobilized on Indonesian natural clay for visible-light water oxidation
+176. Synthesis of magnesium-aluminum hydrotalcite from Indonesian dolomite and bauxite for drug delivery
+177. Titanium(IV) complex with catechol ligands from Indonesian Rhizophora mucronata tannin for surface coating
+178. Preparation of tungsten carbide (WC) from Indonesian wolframite for electrocatalytic hydrogen evolution
+179. Gadolinium(III) complex with DOTA ligand using Indonesian rare earth concentrate for MRI contrast agent
+180. Synthesis of zinc-imidazolate framework (ZIF-8) using Indonesian zinc dust for gas separation membrane
+181. Palladium nanoparticles supported on Indonesian halloysite nanotube for Suzuki coupling reaction
+182. Synthesis of lithium iron phosphate (LiFePO4) from Indonesian iron sand for lithium-ion battery cathode
+183. Molybdenum disulfide (MoS2) synthesis from Indonesian molybdenite for hydrodesulfurization catalyst
+184. Copper-zinc-tin-sulfide (CZTS) thin film from Indonesian mineral sources for solar cell absorber layer
+185. Synthesis of silver-doped Indonesian natural zeolite for antibacterial water filter application
+186. Vanadium redox flow battery electrolyte preparation from Indonesian vanadium-bearing titanomagnetite
+187. Rare earth-doped yttrium aluminum garnet (YAG) phosphor from Indonesian xenotime for white LED
+188. Synthesis of iron-based metal-organic framework (MIL-53) using Indonesian iron ore for drug delivery
+189. Nickel-cobalt layered double hydroxide from Indonesian laterite for oxygen evolution reaction electrocatalyst
+190. Preparation of antimony trioxide (Sb2O3) from Indonesian stibnite for flame retardant application
+191. Copper(II)-amino acid complex as SOD mimic enzyme using Indonesian copper concentrate
+192. Synthesis of calcium-based sorbent from Indonesian limestone for high-temperature CO2 capture
+193. Tin-based perovskite (CsSnI3) from Indonesian tin for lead-free perovskite solar cell
+194. Manganese(III)-salen complex as epoxidation catalyst using Indonesian manganese ore as precursor
+195. Synthesis of iron-doped Indonesian natural halloysite for heterogeneous Fenton degradation of dye
+196. Preparation of barium hexaferrite (BaFe12O19) from Indonesian iron sand for permanent magnet
+197. Gold nanoparticle synthesis using Indonesian Pometia pinnata (matoa) fruit extract as reducing agent
+198. Synthesis of niobium pentoxide (Nb2O5) from Indonesian columbite-tantalite for photocatalysis
+199. Zinc oxide-copper oxide (ZnO-CuO) heterojunction from Indonesian mineral sources for gas sensing
+200. Coordination polymer of lanthanide with Indonesian citric acid for luminescent material application
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 5: MATERIALS CHEMISTRY & NANOMATERIALS (201–250)
+────────────────────────────────────────────────────────────────────────────────
+201. Green synthesis of silver nanoparticles using Moringa oleifera leaf extract from East Java with antibacterial activity against MDR Staphylococcus aureus
+202. Carbon quantum dots from Indonesian coconut shell pyrolysis for fluorescent detection of Fe3+ ions in water
+203. Graphene oxide synthesis from Indonesian natural graphite (Kalimantan) for supercapacitor electrode material
+204. Cellulose nanocrystal isolation from Indonesian oil palm empty fruit bunch for biodegradable packaging film
+205. Mesoporous silica MCM-41 synthesis from Indonesian Bangka tin mining tailing for drug delivery system
+206. Zinc oxide nanorods grown on Indonesian natural fiber (ramie) for UV-protective textile coating
+207. Biochar-supported iron nanoparticles from Indonesian rice husk for Cr(VI) remediation in industrial wastewater
+208. Hydroxyapatite-chitosan nanocomposite scaffold from Indonesian crab shell waste for bone tissue engineering
+209. Reduced graphene oxide/TiO2 nanocomposite using Indonesian tea (Camellia sinensis) extract as green reductant
+210. Magnetic Fe3O4 nanoparticles coated with Indonesian starch for targeted drug delivery of doxorubicin
+211. Nanocellulose aerogel from Indonesian bamboo (Gigantochloa apus) for oil spill absorption in marine environment
+212. Gold-silver bimetallic nanoparticles using Indonesian mangosteen pericarp extract for catalytic 4-nitrophenol reduction
+213. Silicon nanoparticles from Indonesian rice husk ash for lithium-ion battery anode material
+214. Halloysite nanotube from Indonesian Kalimantan deposit for controlled release of natural pesticide
+215. Copper oxide nanoparticles from Indonesian malachite ore for photocatalytic degradation of methyl orange
+216. Bacterial cellulose/montmorillonite nanocomposite from Indonesian nata de coco for wound dressing application
+217. Carbon nanotube synthesis from Indonesian palm oil as carbon source via chemical vapor deposition
+218. Titanium dioxide nanotube array on Indonesian titanium concentrate for photoelectrochemical water splitting
+219. Lignin nanoparticles from Indonesian Acacia mangium kraft pulping for UV-blocking cosmetic formulation
+220. Calcium carbonate nanoparticles from Indonesian marble waste for polymer filler and drug carrier
+221. MXene (Ti3C2Tx) composite with Indonesian natural rubber for flexible electromagnetic shielding material
+222. Silica aerogel from Indonesian geothermal sinter for thermal insulation in tropical building design
+223. Zinc sulfide quantum dots capped with Indonesian gelatin for bioimaging of cancer cells
+224. Nanostructured manganese oxide from Indonesian manganese nodule for aqueous zinc-ion battery cathode
+225. Chitin nanofiber from Indonesian black soldier fly (Hermetia illucens) larvae for water filtration membrane
+226. Perovskite quantum dots (CsPbBr3) encapsulated in Indonesian zeolite for stable LED phosphor
+227. Iron oxide/biochar nanocomposite from Indonesian sugarcane bagasse for antibiotic removal from hospital wastewater
+228. Aluminum oxide nanoparticles from Indonesian bauxite for ceramic membrane in palm oil mill effluent treatment
+229. Molybdenum disulfide nanosheets from Indonesian molybdenite for electrocatalytic nitrogen reduction to ammonia
+230. Cellulose nanofiber from Indonesian pineapple leaf (Ananas comosus) for transparent flexible substrate
+231. Nickel hydroxide nanosheet from Indonesian laterite for asymmetric supercapacitor electrode
+232. Tin oxide nanoparticles from Indonesian cassiterite for perovskite solar cell electron transport layer
+233. Biogenic selenium nanoparticles using Indonesian Lactobacillus from tempeh for anticancer application
+234. Layered double hydroxide nanosheet from Indonesian dolomite for flame retardant polymer nanocomposite
+235. Carbon nanofiber from Indonesian palm kernel shell for electromagnetic interference shielding
+236. Copper sulfide nanoparticles from Indonesian chalcopyrite for photothermal cancer therapy
+237. Nanocrystalline hydroxyapatite from Indonesian fish bone (milkfish/bandeng) for dental implant coating
+238. Graphitic carbon nitride (g-C3N4) from Indonesian urea fertilizer for visible-light photocatalytic H2 production
+239. Zirconia nanoparticles from Indonesian zircon sand for dental ceramic and thermal barrier coating
+240. Silver-decorated Indonesian natural zeolite nanocomposite for point-of-use drinking water disinfection
+241. Tungsten oxide nanostructure from Indonesian wolframite for electrochromic smart window application
+242. Starch nanoparticles from Indonesian cassava (Manihot esculenta) for Pickering emulsion stabilization
+243. Cobalt oxide nanoparticles from Indonesian nickel laterite processing residue for oxygen evolution catalyst
+244. Silk fibroin nanofiber from Indonesian wild silkworm (Attacus atlas) for tissue engineering scaffold
+245. Barium titanate nanoparticles from Indonesian barite for high-k dielectric in flexible electronics
+246. Iron-nitrogen-carbon (Fe-N-C) catalyst from Indonesian biomass for oxygen reduction in fuel cell
+247. Nano-calcium oxide from Indonesian limestone for biodiesel production catalyst
+248. Cadmium-free InP/ZnS quantum dots using Indonesian indium concentrate for display technology
+249. Montmorillonite-polyaniline nanocomposite from Indonesian bentonite for heavy metal electrochemical sensor
+250. Bioactive glass nanoparticles from Indonesian silica sand and phosphate rock for bone regeneration
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 6: ENVIRONMENTAL & GREEN CHEMISTRY (251–300)
+────────────────────────────────────────────────────────────────────────────────
+251. Photocatalytic degradation of batik dye wastewater from Pekalongan using N-doped TiO2/Indonesian natural zeolite under solar irradiation
+252. Biosorption of mercury from artisanal gold mining wastewater in Kalimantan using Indonesian Sargassum seaweed biomass
+253. Green synthesis of biodiesel from Indonesian waste cooking oil using CaO catalyst derived from blood cockle (Anadara granosa) shell
+254. Constructed wetland design using Indonesian mangrove species for palm oil mill effluent (POME) treatment
+255. Microplastic quantification and polymer identification in Indonesian sea salt from traditional salt ponds in Madura
+256. Fenton-like oxidation of antibiotic residues in Indonesian hospital wastewater using natural magnetite from iron sand
+257. Phytoremediation of lead-contaminated soil near Indonesian battery recycling facility using Vetiveria zizanioides
+258. Adsorption of cyanide from Indonesian gold processing wastewater using activated carbon from oil palm kernel shell
+259. Life cycle assessment of Indonesian palm oil biodiesel production comparing conventional and green chemistry routes
+260. Electrocoagulation treatment of Indonesian textile wastewater using aluminum electrode with solar-powered system
+261. Bioremediation of petroleum hydrocarbon in Indonesian mangrove sediment using indigenous bacterial consortium
+262. Green extraction of pectin from Indonesian cacao pod husk using citric acid as natural solvent
+263. Photodegradation of paraquat herbicide in Indonesian rice paddy water using BiVO4/g-C3N4 heterojunction photocatalyst
+264. Heavy metal speciation in sediment of Citarum River using BCR sequential extraction procedure
+265. Biochar from Indonesian rice straw for simultaneous removal of Pb(II) and Cd(II) from electroplating wastewater
+266. Green synthesis of iron nanoparticles using Indonesian Psidium guajava leaf extract for azo dye decolorization
+267. Membrane bioreactor for treatment of Indonesian tofu industry wastewater with biogas recovery
+268. Natural coagulant from Indonesian Moringa oleifera seed for turbidity removal in rural water treatment
+269. Supercritical CO2 extraction of caffeine from Indonesian robusta coffee as green decaffeination method
+270. Remediation of acid mine drainage from Indonesian coal mining using sulfate-reducing bacteria and local limestone
+271. Ionic liquid-based extraction of rare earth elements from Indonesian monazite as green alternative to acid leaching
+272. Ozonation combined with Indonesian natural zeolite adsorption for pharmaceutical removal from wastewater
+273. Carbon footprint analysis of Indonesian cement production with alternative fuel from municipal solid waste
+274. Biosurfactant production from Indonesian palm oil mill effluent for enhanced oil recovery application
+275. Electrochemical advanced oxidation of persistent organic pollutants in Indonesian landfill leachate
+276. Green synthesis of calcium oxide nanocatalyst from Indonesian chicken eggshell for transesterification of Jatropha oil
+277. Microalgae cultivation in Indonesian palm oil mill effluent for simultaneous wastewater treatment and lipid production
+278. Adsorption of phosphate from Indonesian aquaculture wastewater using modified Indonesian pumice from Lombok
+279. Vermicomposting of Indonesian market organic waste using local Eisenia fetida for soil amendment production
+280. Photocatalytic reduction of Cr(VI) in Indonesian electroplating wastewater using ZnO/Indonesian bentonite composite
+281. Green solvent extraction of bioactive compounds from Indonesian Centella asiatica using natural deep eutectic solvents (NADES)
+282. Anaerobic co-digestion of Indonesian food waste and sewage sludge for enhanced biogas production
+283. Removal of ammonia from Indonesian shrimp pond wastewater using clinoptilolite from Bayah natural zeolite deposit
+284. E-waste recycling: hydrometallurgical recovery of copper and gold from Indonesian printed circuit board using green lixiviants
+285. Biodegradation of polystyrene microplastics by Indonesian mealworm (Tenebrio molitor) gut bacteria
+286. Solar-driven photocatalytic disinfection of Indonesian rural drinking water using Ag/TiO2 on coconut shell carbon
+287. Green chemistry approach to natural indigo dye extraction from Indonesian Indigofera tinctoria for sustainable textile
+288. Bioelectrochemical system for simultaneous treatment of Indonesian cassava starch wastewater and electricity generation
+289. Atmospheric particulate matter (PM2.5) chemical composition during Indonesian forest fire season in Riau
+290. Enzymatic biodiesel production from Indonesian microalgae oil using immobilized lipase on magnetic nanoparticles
+291. Slow-release fertilizer from Indonesian natural phosphate rock coated with biodegradable polymer from cassava starch
+292. Catalytic pyrolysis of Indonesian plastic waste over modified natural zeolite for fuel oil production
+293. Wetland soil carbon sequestration potential in Indonesian tropical peatland under different land use scenarios
+294. Green synthesis of chitosan-based flocculant from Indonesian shrimp waste for palm oil mill effluent clarification
+295. Electrochemical degradation of cyanide in Indonesian gold mining wastewater using boron-doped diamond electrode
+296. Bioplastic production from Indonesian sago starch (Metroxylon sagu) reinforced with cellulose nanocrystal from pineapple leaf
+297. Activated carbon from Indonesian durian (Durio zibethinus) shell for volatile organic compound adsorption in indoor air
+298. Phycoremediation of heavy metals in Indonesian tin mining wastewater using local Chlorella vulgaris strain
+299. Green chemistry synthesis of bio-based polyurethane foam from Indonesian palm oil polyol for thermal insulation
+300. Integrated biorefinery concept for Indonesian oil palm biomass: cellulose, hemicellulose, and lignin valorization
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 7: COMPUTATIONAL & THEORETICAL CHEMISTRY (301–350)
+────────────────────────────────────────────────────────────────────────────────
+301. DFT study of antioxidant mechanism of mangiferin from Indonesian Mangifera indica using B3LYP/6-311++G(d,p) level of theory
+302. Molecular docking and dynamics simulation of Indonesian marine sponge alkaloids as SARS-CoV-2 main protease inhibitors
+303. QSAR modeling of antimalarial activity of Indonesian Artemisia annua terpenoids using machine learning algorithms
+304. Ab initio calculation of electronic structure and optical properties of Indonesian tin halide perovskite for solar cell
+305. Molecular dynamics simulation of enhanced oil recovery surfactant flooding in Indonesian sandstone reservoir
+306. DFT investigation of CO2 adsorption mechanism on Indonesian natural zeolite clinoptilolite surface
+307. Machine learning prediction of biodiesel properties from Indonesian palm oil fatty acid composition
+308. Quantum chemical study of corrosion inhibition mechanism of Indonesian Uncaria gambir catechin on iron surface
+309. Monte Carlo simulation of gas adsorption in Indonesian MOF materials for hydrogen storage application
+310. TD-DFT calculation of UV-Vis spectra of natural dyes from Indonesian Caesalpinia sappan for DSSC sensitizer
+311. Reactive molecular dynamics simulation of Indonesian coal pyrolysis using ReaxFF force field
+312. DFT study of catalytic mechanism of Indonesian natural zeolite in Friedel-Crafts alkylation reaction
+313. Pharmacophore modeling and virtual screening of Indonesian medicinal plant database for anti-tuberculosis agents
+314. First-principles calculation of mechanical properties of Indonesian iron sand-based barium hexaferrite
+315. COSMO-RS prediction of solubility of Indonesian natural products in green solvents for extraction optimization
+316. Molecular dynamics study of Indonesian natural rubber vulcanization mechanism with sulfur crosslinking
+317. DFT investigation of heavy metal adsorption on Indonesian biochar surface: Pb(II), Cd(II), and Cr(III)
+318. Machine learning-assisted catalyst design for Indonesian biomass conversion to platform chemicals
+319. Quantum chemical calculation of NMR chemical shifts of Indonesian Garcinia xanthones for structure verification
+320. Computational fluid dynamics (CFD) modeling of Indonesian geothermal separator for two-phase flow optimization
+321. DFT study of photocatalytic mechanism of Indonesian TiO2/g-C3N4 heterojunction for dye degradation
+322. Molecular docking of Indonesian Curcuma xanthorrhiza xanthorrhizol derivatives as anticancer agents targeting EGFR
+323. AIMD simulation of lithium-ion transport in Indonesian tin-based anode material for battery application
+324. QSPR modeling of flash point prediction for Indonesian essential oil components using random forest
+325. DFT calculation of band gap engineering in Indonesian ZnO nanostructures doped with transition metals
+326. Molecular dynamics simulation of Indonesian starch-based bioplastic mechanical properties at molecular level
+327. Computational screening of Indonesian natural product database for acetylcholinesterase inhibitors using AutoDock Vina
+328. First-principles study of electronic properties of Indonesian monazite-derived rare earth phosphors
+329. Machine learning model for predicting yield of Indonesian biodiesel transesterification from process parameters
+330. DFT investigation of reaction pathway for Indonesian palm oil catalytic cracking over zeolite catalyst
+331. Molecular dynamics simulation of surfactant self-assembly in Indonesian enhanced oil recovery formulation
+332. Quantum chemical study of tautomerism and UV absorption of Indonesian curcumin in different solvents
+333. Computational design of metal-organic framework for selective CO2 capture from Indonesian natural gas
+334. DFT study of lignin depolymerization mechanism for Indonesian Acacia mangium biomass valorization
+335. Neural network potential for molecular dynamics simulation of Indonesian geothermal silica scaling
+336. TDDFT calculation of fluorescence properties of Indonesian carbon dots from biomass precursors
+337. Computational investigation of Indonesian volcanic glass structure using classical and ab initio MD
+338. Machine learning classification of Indonesian herbal medicine compounds by pharmacological activity
+339. DFT study of electrocatalytic CO2 reduction on Indonesian nickel-based single atom catalyst
+340. Molecular simulation of gas permeation through Indonesian zeolite membrane for natural gas purification
+341. Quantum chemical investigation of Indonesian natural dye aggregation on TiO2 surface for DSSC
+342. Computational thermodynamics of Indonesian laterite nickel ore reduction using CALPHAD method
+343. DFT study of photoswitching mechanism of Indonesian spiropyran-based molecular sensor
+344. Machine learning prediction of Indonesian crude oil properties from molecular composition data
+345. First-principles calculation of thermoelectric properties of Indonesian Bi2Te3 from bismuth concentrate
+346. Molecular docking study of Indonesian Piper betle hydroxychavicol derivatives as dengue NS2B/NS3 protease inhibitors
+347. Reactive force field development for simulation of Indonesian peat combustion chemistry
+348. DFT investigation of mechanism of Indonesian iron sand magnetite as Fenton catalyst for dye degradation
+349. Computational design of Indonesian biomass-derived activated carbon pore structure for optimal CO2 capture
+350. Machine learning-guided optimization of Indonesian natural product extraction using NADES solvents
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 8: ELECTROCHEMISTRY & ENERGY STORAGE (351–400)
+────────────────────────────────────────────────────────────────────────────────
+351. Lithium-ion battery anode from Indonesian tin oxide/graphene composite derived from Bangka tin slag and natural graphite
+352. Supercapacitor electrode from Indonesian coconut shell-derived activated carbon with KOH activation for high specific capacitance
+353. Proton exchange membrane fuel cell using Indonesian natural rubber-based sulfonated membrane
+354. Zinc-air battery cathode using Indonesian manganese ore-derived MnO2/carbon nanocomposite as oxygen reduction catalyst
+355. Dye-sensitized solar cell using Indonesian Hibiscus rosa-sinensis anthocyanin sensitizer on TiO2 nanotube photoanode
+356. Electrochemical CO2 reduction to formate using Indonesian tin-based electrode in ionic liquid electrolyte
+357. Sodium-ion battery cathode from Indonesian iron phosphate derived from local iron sand deposit
+358. Microbial fuel cell using Indonesian palm oil mill effluent as substrate with carbon felt electrode
+359. Solid-state supercapacitor using Indonesian bacterial cellulose/polyaniline composite electrode with gel electrolyte
+360. Perovskite solar cell with Indonesian tin-based absorber (CsSnI3) as lead-free alternative
+361. Vanadium redox flow battery electrolyte optimization using Indonesian vanadium from titanomagnetite processing
+362. Electrochemical hydrogen production from Indonesian geothermal brine using dimensionally stable anode
+363. Lithium-sulfur battery cathode using Indonesian biomass-derived porous carbon as sulfur host material
+364. Photoelectrochemical water splitting using Indonesian hematite (α-Fe2O3) from iron sand photoanode
+365. Aqueous zinc-ion battery using Indonesian MnO2 cathode and zinc foil anode for grid storage
+366. Electrochemical desalination of Indonesian brackish water using carbon aerogel from coconut shell
+367. Silicon/carbon composite anode from Indonesian rice husk silica for high-capacity lithium-ion battery
+368. Enzymatic biofuel cell using Indonesian coconut water glucose oxidase for implantable medical device
+369. Electrochemical nitrogen reduction to ammonia using Indonesian iron-based electrocatalyst at ambient conditions
+370. Flexible supercapacitor using Indonesian natural fiber (kenaf) derived carbon cloth electrode
+371. All-solid-state lithium battery using Indonesian garnet-type Li7La3Zr2O12 electrolyte from local zircon
+372. Electrochemical sensor for glucose monitoring using Indonesian nickel laterite-derived NiO/graphene electrode
+373. Redox flow battery using Indonesian anthraquinone from Morinda citrifolia as organic electrolyte
+374. Photoelectrochemical cell using Indonesian BiVO4 photoanode for solar-driven pollutant degradation
+375. Potassium-ion battery anode using Indonesian hard carbon from coconut shell pyrolysis
+376. Electrochemical capacitive deionization using Indonesian natural graphite-based electrode for water softening
+377. Hybrid supercapacitor using Indonesian nickel cobalt oxide from laterite and activated carbon
+378. Electrochemical production of hydrogen peroxide using Indonesian carbon-based cathode for water treatment
+379. Organic solar cell using Indonesian natural dye-polymer blend as active layer
+380. Electrochemical upgrading of Indonesian bio-oil from palm shell pyrolysis for fuel application
+381. Aluminum-ion battery using Indonesian natural graphite cathode and ionic liquid electrolyte
+382. Electrochemical ammonia synthesis from Indonesian nitrogen-rich wastewater using Cu-based catalyst
+383. Thermoelectric generator using Indonesian Bi2Te3 from bismuth concentrate for waste heat recovery
+384. Electrochemical oxidation of Indonesian palm oil mill effluent using Ti/RuO2-IrO2 anode
+385. Lithium iron phosphate (LFP) cathode synthesis from Indonesian iron sand and phosphate rock
+386. Electrochemical reduction of CO2 to methanol using Indonesian copper-zinc oxide catalyst
+387. Supercapacitor from Indonesian peat-derived carbon with hierarchical pore structure
+388. Electrochemical detection of heavy metals in Indonesian river water using bismuth film electrode
+389. Sodium-sulfur battery using Indonesian sulfur from volcanic deposits as cathode material
+390. Photoelectrochemical hydrogen evolution using Indonesian CdS/TiO2 heterostructure from local minerals
+391. Electrochemical synthesis of adipic acid from Indonesian cyclohexane using green oxidation method
+392. Flexible lithium-ion battery using Indonesian natural rubber-based polymer electrolyte
+393. Electrochemical treatment of Indonesian batik wastewater using boron-doped diamond electrode
+394. Magnesium-ion battery electrolyte development using Indonesian magnesium chloride from bittern
+395. Electrochemical ozone generation for Indonesian drinking water disinfection using PbO2 anode
+396. Carbon-based perovskite solar cell using Indonesian candle soot as hole-free back contact
+397. Electrochemical recovery of phosphorus from Indonesian municipal wastewater as struvite
+398. Zinc-bromine flow battery using Indonesian carbon felt electrode for renewable energy storage
+399. Electrochemical degradation of microplastics in Indonesian marine water using reactive oxygen species
+400. Solid oxide fuel cell anode using Indonesian nickel from laterite processing for intermediate temperature operation
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 9: POLYMER & SUPRAMOLECULAR CHEMISTRY (401–450)
+────────────────────────────────────────────────────────────────────────────────
+401. Biodegradable polymer blend from Indonesian cassava starch and polylactic acid for food packaging with controlled water vapor permeability
+402. Natural rubber (Hevea brasiliensis) from Sumatra modified with silane coupling agent for green tire compound
+403. Supramolecular hydrogel from Indonesian chitosan (shrimp waste) and β-cyclodextrin for controlled release of curcumin
+404. Epoxidized Indonesian palm oil-based polyurethane foam for thermal insulation in tropical building
+405. Cellulose acetate membrane from Indonesian wood pulp (Acacia mangium) for hemodialysis application
+406. Self-healing polymer coating from Indonesian cashew nut shell liquid (CNSL) cardanol-based epoxy
+407. Conductive polymer composite from Indonesian natural rubber/carbon black for flexible strain sensor
+408. Polyhydroxyalkanoate (PHA) production from Indonesian palm oil mill effluent using Cupriavidus necator
+409. Supramolecular assembly of Indonesian porphyrin-cyclodextrin host-guest complex for photodynamic therapy
+410. Bio-based epoxy resin from Indonesian Calophyllum inophyllum oil for fiber-reinforced composite
+411. Stimuli-responsive polymer from Indonesian sago starch grafted with N-isopropylacrylamide for drug delivery
+412. Indonesian natural fiber (ramie/kenaf) reinforced polylactic acid composite for automotive interior panel
+413. Molecularly imprinted polymer for selective recognition of curcumin from Indonesian Curcuma longa extract
+414. Waterborne polyurethane from Indonesian palm oil-based polyol for eco-friendly wood coating
+415. Supramolecular sensor based on Indonesian calixarene derivative for selective detection of Hg2+ ions
+416. Graft copolymerization of acrylic acid onto Indonesian cellulose from oil palm empty fruit bunch for superabsorbent
+417. Conducting polymer polyaniline/Indonesian natural zeolite composite for ammonia gas sensor
+418. Biodegradable mulch film from Indonesian tapioca starch/polybutylene succinate blend for agriculture
+419. Rotaxane-based molecular machine using Indonesian cyclodextrin for controlled drug release mechanism
+420. Indonesian natural rubber latex foam modified with nano-silica from rice husk for mattress application
+421. Polymer electrolyte membrane from sulfonated Indonesian natural rubber for direct methanol fuel cell
+422. Supramolecular gel from Indonesian bile acid derivative for oil spill remediation in marine environment
+423. Chitosan-alginate polyelectrolyte complex from Indonesian seaweed for encapsulation of probiotics
+424. Bio-based polyamide from Indonesian castor oil (Ricinus communis) for engineering plastic application
+425. Crown ether-functionalized Indonesian silica for selective lithium extraction from geothermal brine
+426. Nanocomposite hydrogel from Indonesian carrageenan (Kappaphycus alvarezii) and clay for wound healing
+427. Dendrimeric drug carrier from Indonesian oleic acid-based hyperbranched polymer for cancer therapy
+428. Indonesian sago starch-based thermoplastic for injection molding with glycerol plasticizer optimization
+429. Supramolecular photocatalyst from Indonesian porphyrin-graphene oxide assembly for hydrogen evolution
+430. Electrospun nanofiber from Indonesian silk fibroin (Bombyx mori)/polyvinyl alcohol for tissue scaffold
+431. Shape memory polymer from Indonesian palm oil-based polyurethane for biomedical stent application
+432. Cucurbituril-based supramolecular complex for sequestration of paraquat from Indonesian agricultural runoff
+433. Indonesian natural rubber/halloysite nanotube composite for enhanced mechanical and barrier properties
+434. Polylactic acid/Indonesian montmorillonite nanocomposite for improved thermal stability in packaging
+435. Supramolecular polymer network from Indonesian tannin-metal coordination for self-healing coating
+436. Biocompatible hydrogel from Indonesian konjac glucomannan (Amorphophallus muelleri) for 3D cell culture
+437. Polymer-grafted Indonesian nanocellulose for compatibilization in polymer blend system
+438. Pillar[5]arene-based supramolecular amphiphile from Indonesian precursors for drug encapsulation
+439. Indonesian gutta-percha (Palaquium gutta) modification for dental obturation material improvement
+440. Covalent organic framework (COF) from Indonesian biomass-derived monomers for gas storage
+441. Polyelectrolyte multilayer coating on Indonesian natural fiber for improved interfacial adhesion in composite
+442. Supramolecular liquid crystal from Indonesian cholesterol derivative for responsive optical material
+443. Biodegradable polymer scaffold from Indonesian gelatin (bovine/fish) for cartilage tissue engineering
+444. Metal-supramolecular polymer from Indonesian terpyridine ligand and Fe2+ for electrochromic device
+445. Indonesian arenga palm fiber reinforced phenolic resin composite for brake pad application
+446. Cyclodextrin-based nanosponge from Indonesian corn starch for removal of organic micropollutants
+447. Polymer-ceramic composite from Indonesian natural rubber and hydroxyapatite for bone fixation device
+448. Supramolecular chirality transfer from Indonesian natural amino acid to achiral polymer backbone
+449. Indonesian kenaf fiber surface modification with polydopamine for enhanced epoxy composite performance
+450. Foldamer-based artificial ion channel from Indonesian amino acid building blocks for membrane transport
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY 10: BIOCHEMISTRY & MEDICINAL CHEMISTRY (451–500)
+────────────────────────────────────────────────────────────────────────────────
+451. Isolation and anticancer activity evaluation of cytotoxic compounds from Indonesian marine sponge Xestospongia sp. against HeLa cells
+452. Structure-activity relationship study of andrographolide derivatives from Indonesian Andrographis paniculata as anti-inflammatory agents
+453. Enzyme inhibition kinetics of Indonesian Phaleria macrocarpa (mahkota dewa) flavonoids against α-glucosidase for antidiabetic potential
+454. Molecular cloning and characterization of cellulase gene from Indonesian hot spring thermophilic bacteria for bioethanol production
+455. In silico and in vitro study of Indonesian Curcuma xanthorrhiza xanthorrhizol as EGFR tyrosine kinase inhibitor
+456. Antimicrobial peptide discovery from Indonesian Komodo dragon (Varanus komodoensis) blood serum against MRSA
+457. Lipase immobilization on Indonesian natural zeolite for kinetic resolution of racemic ibuprofen
+458. Antioxidant and neuroprotective activity of Indonesian Centella asiatica triterpenoids in Alzheimer's disease model
+459. Proteomic analysis of Indonesian tempeh fermentation revealing bioactive peptide generation by Rhizopus oligosporus
+460. Drug-likeness evaluation and ADMET prediction of Indonesian Phyllanthus niruri lignans as hepatoprotective candidates
+461. Recombinant expression of Indonesian snake (Naja sputatrix) venom phospholipase A2 for anti-inflammatory drug development
+462. Metabolomic profiling of Indonesian Orthosiphon stamineus (kumis kucing) using LC-HRMS for biomarker identification
+463. Chitosan nanoparticle encapsulation of Indonesian Annona muricata (sirsak) acetogenins for targeted cancer delivery
+464. Enzyme engineering of Indonesian Bacillus subtilis protease for improved stability in detergent formulation
+465. Antiviral activity screening of Indonesian mangrove endophytic fungi metabolites against dengue virus NS5 polymerase
+466. Bioinformatics analysis of Indonesian Jatropha curcas lipid biosynthesis genes for biodiesel feedstock improvement
+467. Pharmacokinetic study of Indonesian Zingiber officinale (jahe) gingerols bioavailability using Caco-2 cell model
+468. Isolation of novel antibiotic-producing actinomycetes from Indonesian Raja Ampat marine sediment
+469. Molecular mechanism of Indonesian Garcinia mangostana α-mangostin inducing apoptosis in breast cancer MCF-7 cells
+470. Biosynthesis pathway elucidation of Indonesian Catharanthus roseus (tapak dara) vinblastine using transcriptomics
+471. Protein crystallography of Indonesian thermostable amylase from Geobacillus stearothermophilus for industrial application
+472. Antimalarial activity of Indonesian Brucea javanica quassinoids against chloroquine-resistant Plasmodium falciparum
+473. Gut microbiome modulation by Indonesian fermented food (tempeh, tape) prebiotics using 16S rRNA metagenomics
+474. Structure-based drug design of Indonesian Kaempferia galanga ethyl p-methoxycinnamate analogues as COX-2 inhibitors
+475. Biofilm inhibition activity of Indonesian Piper betle (sirih) hydroxychavicol against Pseudomonas aeruginosa
+476. Recombinant production of Indonesian Calotropis gigantea (biduri) cysteine protease for meat tenderizer application
+477. Metabolic engineering of Indonesian Saccharomyces cerevisiae for enhanced bioethanol production from lignocellulose
+478. Wound healing activity of Indonesian Aloe vera polysaccharides: collagen synthesis and MMP inhibition study
+479. Discovery of tyrosinase inhibitors from Indonesian Artocarpus heterophyllus (nangka) prenylated flavonoids for skin whitening
+480. Immobilization of Indonesian Aspergillus niger tannase on chitosan beads for green tea processing
+481. Anti-tuberculosis activity of Indonesian Callicarpa longifolia terpenoids against Mycobacterium tuberculosis H37Rv
+482. Biocatalytic cascade reaction using Indonesian multi-enzyme system for chiral pharmaceutical intermediate synthesis
+483. Immunomodulatory activity of Indonesian Phyllanthus emblica (kemlaka) polyphenols on macrophage cytokine production
+484. Prodrug design of Indonesian Andrographis paniculata andrographolide for improved oral bioavailability
+485. Marine natural product discovery from Indonesian Streptomyces sp. isolated from Thousand Islands sponge
+486. Acetylcholinesterase inhibition by Indonesian Rauvolfia serpentina (pule pandak) alkaloids for Alzheimer's treatment
+487. CRISPR-Cas9 gene editing of Indonesian rice (Oryza sativa) for enhanced iron biofortification
+488. Antidiabetic mechanism of Indonesian Momordica charantia (pare) charantin through AMPK pathway activation
+489. Biodegradation pathway of Indonesian palm oil mill effluent phenolics by local Pseudomonas putida strain
+490. Nano-herbal formulation of Indonesian Nigella sativa (jintan hitam) thymoquinone for enhanced anticancer bioavailability
+491. Metagenomics-guided discovery of novel enzymes from Indonesian Kawah Ijen acidophilic microbial community
+492. Anti-dengue activity of Indonesian Psidium guajava (jambu biji) quercetin derivatives targeting NS2B-NS3 protease
+493. Fermentation optimization of Indonesian Monascus purpureus on rice substrate for lovastatin production
+494. Molecular docking and synthesis of Indonesian eugenol-based chalcone hybrids as dual COX-2/5-LOX inhibitors
+495. Probiotic characterization of Indonesian dadih (fermented buffalo milk) Lactobacillus for cholesterol reduction
+496. Anticancer marine alkaloid isolation from Indonesian nudibranch Jorunna funebris collected in Bunaken
+497. Enzyme kinetics of Indonesian Carica papaya (pepaya) papain for industrial protein hydrolysis optimization
+498. Ethnopharmacological validation of Indonesian jamu Beras Kencur formulation using network pharmacology approach
+499. Biosensor development using Indonesian horseradish peroxidase alternative from Moringa oleifera for H2O2 detection
+500. Synergistic antibacterial combination of Indonesian propolis flavonoids with conventional antibiotics against ESBL-producing E. coli

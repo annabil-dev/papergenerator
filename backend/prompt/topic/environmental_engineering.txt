@@ -5,11 +5,83 @@ FIELD: Engineering / Environmental Science
 DEFAULT CITATION STYLE: APA or IEEE
 SUBDISCIPLINE: Teknik Lingkungan, Pengolahan Air, Pengelolaan Limbah, Remediasi, AMDAL, Pencemaran
 
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title
+   - Ensure novelty through combination of: new treatment method + local pollutant, advanced technology + Indonesian conditions, emerging approach + specific waste stream
+   - Title format: "Effect of [Variable] on [Performance] of [System] for [Pollutant] Removal: A Case Study in [Indonesian Location]"
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Advanced Oxidation Processes (AOP): Fenton, photo-Fenton, ozonation, UV/H2O2
+   - Membrane Bioreactor (MBR) and forward/reverse osmosis
+   - Constructed wetlands (subsurface flow, free water surface)
+   - Life Cycle Assessment (LCA) using SimaPro/OpenLCA
+   - Air quality modeling using AERMOD, CALPUFF
+   - GIS-based environmental impact assessment
+   - Machine learning for pollution prediction and optimization
+   - Circular economy design and industrial symbiosis
+   - Biochar and activated carbon from agricultural waste
+   - Microplastic detection and removal technologies
+   - Nature-based solutions for water treatment
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - BOD5 removal: 70-95% depending on technology
+   - COD removal: 60-96% depending on system
+   - Heavy metal removal: 80-99% with adsorption
+   - Air pollutant reduction: PM2.5 (50-99%), SO2 (70-95%)
+   - All numbers realistic and internally consistent
+   - Statistical measures: mean, std deviation, R2, p-value
+
+5. MATHEMATICAL FORMULAS:
+   - BOD kinetics: Lt = L0 x e^(-kt) (mg/L)
+   - CSTR design: V = Q(C0-Ce)/(rA) (m3)
+   - PFR design: V = Q integral dC/(-rA) (m3)
+   - Settling velocity: vs = g(rho_s-rho)d^2/(18mu) (m/s)
+   - Gaussian plume: C(x,y,z) = Q/(2*pi*u*sigma_y*sigma_z) x exp(-y^2/2sigma_y^2) x [exp(-(z-H)^2/2sigma_z^2) + exp(-(z+H)^2/2sigma_z^2)]
+   - Noise attenuation: delta_L = 10log(r2/r1) (dB)
+   - Solid waste generation: Qsw = P x q x f (kg/day)
+   - Carbon footprint: CF = sum(ADi x EFi) (kg CO2-eq)
+   - Langmuir isotherm: qe = qm*KL*Ce/(1+KL*Ce)
+   - First-order kinetics: C = C0*e^(-kt)
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian context: river pollution, Jakarta air quality, POME treatment
+   - Reference Indonesian researchers and local case studies
+   - Include Scopus-indexed Indonesian journals
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords (5-7), Introduction (1500-2000 words),
+   Literature Review (2000-3000 words), Methodology (2000-3000 words),
+   Results & Discussion (2000-3000 words), Conclusion (500-800 words),
+   References (30+, 60% from 2020-2025)
+
+INDONESIAN CONTEXT:
+   - River pollution: Citarum (most polluted), Brantas, Ciliwung, Cisadane
+   - Jakarta air quality: PM2.5 exceeding WHO standards, vehicle emissions
+   - Landfill challenges: Bantar Gebang capacity, open dumping in smaller cities
+   - Palm oil mill effluent (POME): high BOD (25000 mg/L), COD (50000 mg/L)
+   - Industrial zones: Cikarang, Tangerang, Surabaya, Semarang
+   - Regulations: PP 22/2021 (water quality), PermenLHK (emissions), UU 32/2009 (environmental protection)
+   - SDG alignment: SDG 6 (Clean Water), SDG 11 (Sustainable Cities), SDG 13 (Climate Action)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
 ABSTRACT CHARACTERISTICS:
-  150–250 words. Reports: environmental problem addressed (water/wastewater treatment,
+  150-250 words. Reports: environmental problem addressed (water/wastewater treatment,
   air pollution control, solid waste management, soil remediation), technology or method applied,
   scale (lab/pilot/full-scale), key metrics (removal efficiency %, concentration mg/L before/after,
-  BOD₅ mg/L, COD mg/L, turbidity NTU, pH, MPN/100mL), and compliance with standards.
+  BOD5 mg/L, COD mg/L, turbidity NTU, pH, MPN/100mL), and compliance with standards.
 
 INTRODUCTION ELEMENTS:
   - Environmental problem: water pollution (industrial effluent), air quality (PM2.5, NOx), solid waste.
@@ -20,10 +92,10 @@ INTRODUCTION ELEMENTS:
 
 LITERATURE REVIEW:
   Common section name: "Literature Review" / "Background"
-  - Water quality parameters: BOD₅, COD, TSS, TDS, pH, DO, turbidity, fecal coliform (MPN/100mL).
+  - Water quality parameters: BOD5, COD, TSS, TDS, pH, DO, turbidity, fecal coliform (MPN/100mL).
   - Treatment technologies: coagulation/flocculation (alum, PAC), sedimentation, filtration (sand, media), activated carbon adsorption, chlorination, UV disinfection.
   - Wastewater biological treatment: aerobic (activated sludge, SBR, MBR), anaerobic (UASB), wetland.
-  - Air pollution control: cyclone (PM10+), baghouse filter (PM2.5), ESP, scrubber (SO₂, NOx), catalytic converter.
+  - Air pollution control: cyclone (PM10+), baghouse filter (PM2.5), ESP, scrubber (SO2, NOx), catalytic converter.
   - Solid waste: 3R (reduce/reuse/recycle), composting, landfill (sanitary vs. open dump), waste-to-energy.
   - Remediation: bioremediation (biosurfactant, bioaugmentation), phytoremediation, pump-and-treat.
   - AMDAL: Environmental Impact Assessment (EIA) Indonesia; ANDAL, RKL-RPL.
@@ -31,25 +103,25 @@ LITERATURE REVIEW:
 METHODOLOGY:
   Common section name: "Materials and Methods" / "Research Method"
   - Sampling: grab/composite sampling per SNI 6989 (water); frequency and location.
-  - Analysis: laboratory analysis per SNI (BOD₅ SNI 6989.72, COD SNI 6989.73, TSS SNI 6989.3).
+  - Analysis: laboratory analysis per SNI (BOD5 SNI 6989.72, COD SNI 6989.73, TSS SNI 6989.3).
   - Treatment: lab-scale (bench top, batch), pilot-scale (continuous flow), reactor design.
   - Experimental design: factorial (2^k), response surface methodology (RSM/CCD), single-factor.
-  - Variables: pH, coagulant dose (mg/L), contact time (min), temperature (°C).
+  - Variables: pH, coagulant dose (mg/L), contact time (min), temperature (C).
   - Statistical: ANOVA, Tukey's HSD, regression; Design-Expert for RSM.
 
 TYPICAL RESULTS & DISCUSSION:
-  - Coagulation: turbidity removal 80–95% at optimal PAC dose 30–60 mg/L; pH 6–7.
-  - BOD₅ removal: activated sludge 85–95% (from 200–500 mg/L to <30 mg/L).
-  - COD removal: aerobic biological 70–85%; UASB + aerobic 90–96%.
-  - Heavy metal adsorption: activated carbon 80–99% removal (Pb, Cd at 10–50 mg/L initial).
-  - Air emission: cyclone PM removal 70–80%; ESP PM2.5 removal 95–99%.
-  - Effluent vs. standard: BOD₅ <30 mg/L (Class B Indonesian standard).
+  - Coagulation: turbidity removal 80-95% at optimal PAC dose 30-60 mg/L; pH 6-7.
+  - BOD5 removal: activated sludge 85-95% (from 200-500 mg/L to <30 mg/L).
+  - COD removal: aerobic biological 70-85%; UASB + aerobic 90-96%.
+  - Heavy metal adsorption: activated carbon 80-99% removal (Pb, Cd at 10-50 mg/L initial).
+  - Air emission: cyclone PM removal 70-80%; ESP PM2.5 removal 95-99%.
+  - Effluent vs. standard: BOD5 <30 mg/L (Class B Indonesian standard).
   Tables: treatment efficiency by condition, analytical results, parameter comparison.
   Figures: removal efficiency vs. dose/pH/time, before/after comparison bar, reactor diagram.
 
 TYPICAL FIGURES:
   - Removal efficiency vs. coagulant dose curve.
-  - Before/after treatment bar chart (BOD₅, COD, TSS).
+  - Before/after treatment bar chart (BOD5, COD, TSS).
   - Process flow diagram (treatment system).
   - Adsorption isotherm (Langmuir/Freundlich).
   - Response surface plot (RSM optimization).
@@ -57,7 +129,7 @@ TYPICAL FIGURES:
 TYPICAL TABLES:
   - Treatment results: parameter | influent | effluent | removal (%) | standard.
   - RSM ANOVA: source | SS | df | MS | F | p.
-  - Water quality: sampling point | pH | BOD₅ | COD | TSS | turbidity.
+  - Water quality: sampling point | pH | BOD5 | COD | TSS | turbidity.
 
 CONCLUSION CHARACTERISTICS:
   - Treatment technology achieves required removal efficiency meeting regulatory standard.
@@ -72,11 +144,535 @@ COMMON REFERENCE VENUES:
   Water Science and Technology, Jurnal Teknologi Lingkungan (ITB)
 
 DOMAIN VOCABULARY:
-  BOD₅, COD, TSS, TDS, DO, turbidity, MPN, PAC, coagulation, flocculation,
+  BOD5, COD, TSS, TDS, DO, turbidity, MPN, PAC, coagulation, flocculation,
   activated sludge, SBR, MBR, UASB, adsorption, isotherm, Langmuir, Freundlich,
   AMDAL, ANDAL, baku mutu, SNI 6989, PM2.5, ESP, bioremediation, phytoremediation
 
 METHODOLOGY KEYWORDS:
   coagulation-flocculation jar test, activated sludge treatment, batch/continuous reactor,
-  RSM/CCD optimization (Design-Expert), SNI 6989 water quality analysis, BOD₅/COD measurement,
+  RSM/CCD optimization (Design-Expert), SNI 6989 water quality analysis, BOD5/COD measurement,
   heavy metal adsorption isotherm (Langmuir/Freundlich), ANOVA with Tukey's HSD
+
+================================================================================
+RESEARCH TOPIC BANK (500 TOPICS)
+================================================================================
+
+--- CATEGORY 1: WATER & WASTEWATER TREATMENT (001-050) ---
+001. Optimization of Electrocoagulation Process for Textile Wastewater Treatment in Bandung Industrial Zone
+002. Performance of Membrane Bioreactor (MBR) for Hospital Wastewater Treatment and Pathogen Removal
+003. Biochar from Rice Husk for Adsorption of Heavy Metals in Citarum River Water
+004. Advanced Oxidation Process (UV/H2O2) for Pharmaceutical Compound Removal in Municipal Wastewater
+005. Constructed Wetland Design for Decentralized Domestic Wastewater Treatment in Rural Java
+006. Anaerobic-Aerobic Sequential Treatment of Palm Oil Mill Effluent (POME) for COD Reduction
+007. Optimization of Coagulation-Flocculation Using Natural Coagulant (Moringa oleifera) for Turbid Water
+008. Membrane Distillation for Brackish Water Desalination in Coastal Communities of NTT
+009. Photocatalytic Degradation of Batik Dye Wastewater Using TiO2/UV System
+010. Performance of Upflow Anaerobic Sludge Blanket (UASB) for Tofu Industry Wastewater
+011. Microplastic Removal from Drinking Water Using Rapid Sand Filtration and Activated Carbon
+012. Fenton Oxidation for Treatment of Leachate from Bantar Gebang Landfill
+013. Biofilm Reactor Design for Ammonia Removal in Aquaculture Wastewater
+014. Solar-Powered Disinfection System for Rural Drinking Water Supply in Eastern Indonesia
+015. Adsorption of Chromium(VI) from Electroplating Wastewater Using Modified Zeolite
+016. Integrated Anaerobic-Constructed Wetland System for Slaughterhouse Wastewater Treatment
+017. Ozonation Combined with Biological Treatment for Recalcitrant Industrial Wastewater
+018. Performance of Moving Bed Biofilm Reactor (MBBR) for Municipal Wastewater Treatment
+019. Arsenic Removal from Groundwater Using Iron-Based Adsorption Media
+020. Greywater Recycling System Design for Water Conservation in Urban Apartments
+021. Electro-Fenton Process for Degradation of Antibiotics in Hospital Effluent
+022. Algae-Based Wastewater Treatment for Nutrient Recovery and Biofuel Production
+023. Nanofiltration Membrane for Removal of Emerging Contaminants in Drinking Water
+024. Anaerobic Co-Digestion of Food Waste and Sewage Sludge for Biogas Production
+025. Phytoremediation of Lead-Contaminated Water Using Water Hyacinth (Eichhornia crassipes)
+026. Optimization of Sequencing Batch Reactor (SBR) for Nitrogen Removal in Domestic Wastewater
+027. Activated Carbon from Coconut Shell for Phenol Removal in Petrochemical Wastewater
+028. Forward Osmosis Membrane for Concentration of POME Before Anaerobic Treatment
+029. Bioremediation of Oil-Contaminated Water Using Indigenous Hydrocarbon-Degrading Bacteria
+030. Design of Package Wastewater Treatment Plant for Small Communities in Indonesia
+031. Electrochemical Treatment of Tannery Wastewater for Chromium Recovery and Reuse
+032. Performance of Trickling Filter with Local Media for BOD Removal in Tropical Climate
+033. Photocatalytic Membrane Reactor for Simultaneous Treatment and Separation of Dye Wastewater
+034. Slow Sand Filtration with Biofilm Enhancement for Rural Water Treatment
+035. Removal of Microplastics from Laundry Wastewater Using Coagulation and Membrane Filtration
+036. Hybrid Constructed Wetland-Microbial Fuel Cell for Wastewater Treatment and Energy Recovery
+037. Optimization of Dissolved Air Flotation (DAF) for Palm Oil Refinery Wastewater
+038. Ceramic Membrane Fabrication from Local Clay for Low-Cost Water Filtration
+039. Sulfate-Reducing Bacteria for Treatment of Acid Mine Drainage in Kalimantan
+040. Real-Time Water Quality Monitoring System Using IoT for River Pollution Detection
+041. Magnetic Biochar for Enhanced Removal of Phosphate from Eutrophic Water Bodies
+042. Anaerobic Membrane Bioreactor (AnMBR) for High-Strength Industrial Wastewater
+043. Natural Zeolite from Indonesian Deposits for Ammonium Removal in Aquaculture Water
+044. Persulfate-Based Advanced Oxidation for Degradation of PFAS in Contaminated Water
+045. Decentralized Wastewater Treatment Using Biofilter for Peri-Urban Areas
+046. Removal of Cyanide from Gold Mining Wastewater Using Alkaline Chlorination
+047. Hybrid Ozone-Biological Activated Carbon for Drinking Water Treatment Plant Upgrade
+048. Vermifiltration System for Domestic Wastewater Treatment in Tropical Conditions
+049. Machine Learning Optimization of Coagulant Dosing for Water Treatment Plant Automation
+050. Integrated Wetland-Pond System for Aquaculture Effluent Polishing in Shrimp Farms
+
+--- CATEGORY 2: AIR QUALITY & POLLUTION CONTROL (051-100) ---
+051. AERMOD Dispersion Modeling of PM2.5 from Cement Factory in Cirebon Industrial Area
+052. Performance of Biofilter for Odor Control at Palm Oil Mill Using Local Organic Media
+053. Indoor Air Quality Assessment in Jakarta Office Buildings During High Pollution Episodes
+054. Electrostatic Precipitator Design Optimization for Coal-Fired Power Plant Emissions
+055. Effect of Green Belt Design on Air Pollutant Reduction Along Industrial Zone Boundary
+056. Machine Learning Prediction of Jakarta Air Quality Index Using Meteorological Data
+057. Catalytic Converter Performance for Motorcycle Emission Reduction in Urban Areas
+058. Source Apportionment of PM2.5 in Surabaya Using Receptor Modeling (PMF)
+059. Wet Scrubber Design for SO2 Removal from Smelter Exhaust Gas
+060. Health Risk Assessment of Traffic-Related Air Pollution Near Schools in Jakarta
+061. Biochar-Based Filter for Volatile Organic Compound (VOC) Removal in Industrial Settings
+062. Air Quality Impact Assessment of Waste Incineration Plant Using CALPUFF Model
+063. Low-Cost Air Quality Sensor Network for Community-Based Monitoring in Industrial Areas
+064. Photocatalytic Concrete for NOx Reduction on Urban Road Surfaces
+065. Carbon Monoxide Dispersion Modeling at Underground Parking Facilities
+066. Effect of Urban Green Space Configuration on PM2.5 Concentration Reduction
+067. Emission Inventory Development for Transportation Sector in Indonesian Metropolitan Cities
+068. Packed Bed Scrubber Design for HCl Removal from Plastic Recycling Facility
+069. Assessment of Transboundary Haze Pollution from Peatland Fires Using Satellite Data
+070. Activated Carbon Adsorption of Mercury Vapor from Artisanal Gold Mining Emissions
+071. Traffic Emission Modeling Using MOVES for Air Quality Management in Bandung
+072. Biofiltration of Hydrogen Sulfide from Geothermal Power Plant Exhaust
+073. Particulate Matter Characterization and Source Identification in Port Area of Tanjung Priok
+074. Design of Ventilation System for Underground Mining Operations in Kalimantan
+075. Ozone Formation Potential Assessment from VOC Emissions in Petrochemical Complex
+076. Effect of Building Configuration on Street Canyon Air Pollution Dispersion
+077. Real-Time Stack Emission Monitoring System Using CEMS for Regulatory Compliance
+078. Photochemical Smog Modeling for Jakarta Metropolitan Area Under Climate Scenarios
+079. Dust Control Strategy for Open-Pit Coal Mining Operations Using Water Spraying
+080. Assessment of Cooking Fuel Transition Impact on Indoor Air Quality in Rural Households
+081. Selective Catalytic Reduction (SCR) Performance for NOx Control in Diesel Generators
+082. Air Pollution Exposure Assessment for Street Vendors Using Personal Monitoring
+083. Greenhouse Gas Emission Estimation from Municipal Solid Waste Sector in Indonesian Cities
+084. Design of Air Curtain System for Pollution Control at Building Entrances
+085. Black Carbon Measurement and Health Impact Assessment in Jakarta Urban Area
+086. Flue Gas Desulfurization Using Limestone Slurry for Industrial Boiler Emissions
+087. Pollen and Bioaerosol Monitoring for Allergenic Risk Assessment in Urban Parks
+088. Effect of Meteorological Conditions on Air Pollutant Dispersion in Coastal Cities
+089. Carbon Capture and Storage (CCS) Feasibility for Indonesian Coal Power Plants
+090. Noise and Air Pollution Combined Assessment Along Highway Corridors
+091. Volatile Organic Compound Emission from Furniture Industry and Control Measures
+092. Air Quality Forecasting Using Deep Learning for Early Warning System Development
+093. Assessment of Ship Emission Impact on Port City Air Quality Using AIS Data
+094. Design of Cyclone Separator for Rice Mill Dust Collection
+095. Microplastic Air Pollution Assessment in Urban and Industrial Environments
+096. Effect of Urban Tree Species Selection on Air Pollutant Removal Efficiency
+097. Emission Factor Development for Indonesian Industrial Sectors
+098. Air Pollution Dispersion from Landfill Gas Emissions Using Gaussian Model
+099. Assessment of Electric Vehicle Adoption Impact on Urban Air Quality Improvement
+100. Integrated Air Quality Management Plan for Industrial Estate Development
+
+--- CATEGORY 3: SOLID WASTE MANAGEMENT (101-150) ---
+101. Optimization of Municipal Solid Waste Collection Route Using GIS and Vehicle Routing Problem
+102. Composting of Market Organic Waste Using Effective Microorganism (EM4) Accelerator
+103. Waste-to-Energy Feasibility Assessment for Medium-Sized Indonesian Cities
+104. Plastic Waste Pyrolysis for Fuel Oil Production: Process Optimization and Quality Analysis
+105. Sanitary Landfill Design with Leachate Treatment System for Regency-Level Waste Management
+106. Extended Producer Responsibility (EPR) Implementation Framework for Plastic Packaging in Indonesia
+107. Biogas Production from Co-Digestion of Food Waste and Cow Manure in Rural Areas
+108. Waste Bank Effectiveness Assessment for Community-Based Solid Waste Reduction
+109. Refuse-Derived Fuel (RDF) Production from Municipal Solid Waste for Cement Kiln Co-Processing
+110. Life Cycle Assessment of Waste Management Scenarios for Indonesian Metropolitan Cities
+111. Black Soldier Fly (BSF) Larvae for Organic Waste Bioconversion and Animal Feed Production
+112. Construction and Demolition Waste Recycling Strategy for Urban Development Projects
+113. Hazardous Waste Management System Design for Small and Medium Industrial Enterprises
+114. Waste Characterization and Generation Rate Study for Waste Management Planning
+115. Mechanical Biological Treatment (MBT) Plant Design for Mixed Municipal Waste
+116. E-Waste Collection and Recycling System Development for Indonesian Urban Areas
+117. Vermicomposting of Agricultural Waste Using Local Earthworm Species
+118. Landfill Gas Capture and Utilization for Electricity Generation at Existing Dump Sites
+119. Medical Waste Management Assessment in Indonesian Hospitals During Pandemic Conditions
+120. Circular Economy Model for Food Waste Reduction in Traditional Markets
+121. Waste Segregation Behavior Analysis and Intervention Strategy for Urban Households
+122. Anaerobic Digestion of Organic Fraction of Municipal Solid Waste for Biogas
+123. Plastic Waste Recycling Value Chain Analysis and Improvement Strategy
+124. Design of Transfer Station for Efficient Waste Transportation in Growing Cities
+125. Assessment of Open Burning Practice and Alternative Solutions for Rural Waste Management
+126. Waste Minimization Strategy for Hotel and Tourism Industry in Bali
+127. Landfill Leachate Characterization and Treatment Technology Selection
+128. Community-Based Composting Program Effectiveness for Organic Waste Diversion
+129. Industrial Symbiosis Network Design for Waste Exchange in Industrial Estates
+130. Smart Waste Bin System with Fill-Level Monitoring for Collection Optimization
+131. Tire Waste Recycling Technology Assessment for Crumb Rubber Production
+132. Waste Generation Forecasting Using Machine Learning for Infrastructure Planning
+133. Design of Material Recovery Facility (MRF) for Recyclable Waste Sorting
+134. Assessment of Informal Waste Sector Integration into Formal Waste Management System
+135. Biodegradable Packaging Material Development from Agricultural Waste Fiber
+136. Landfill Mining Feasibility Assessment for Space Recovery and Resource Extraction
+137. Household Hazardous Waste Collection System Design for Urban Municipalities
+138. Waste-to-Biochar Conversion for Soil Amendment and Carbon Sequestration
+139. Pay-As-You-Throw System Implementation Strategy for Waste Reduction Incentive
+140. Assessment of Microplastic Generation from Waste Management Processes
+141. Organic Waste Decentralized Treatment Using Rotary Drum Composter
+142. Waste Management Plan for Special Economic Zones in Eastern Indonesia
+143. Used Cooking Oil Collection and Biodiesel Conversion Program Assessment
+144. Design of Engineered Landfill Cell with Geomembrane Liner System
+145. Food Loss and Waste Assessment Along Supply Chain for Reduction Strategy
+146. Waste Picker Cooperative Model for Improved Livelihood and Recycling Rate
+147. Thermal Treatment Technology Comparison for Non-Recyclable Plastic Waste
+148. Disaster Waste Management Planning for Earthquake-Prone Indonesian Cities
+149. Marine Debris Collection and Prevention Strategy for Coastal Tourism Areas
+150. Digital Platform Development for Waste Trading and Circular Economy Marketplace
+
+--- CATEGORY 4: ENVIRONMENTAL IMPACT ASSESSMENT (151-200) ---
+151. Strategic Environmental Assessment (SEA) for Coastal Tourism Development in Lombok
+152. Environmental Impact Assessment of Coal Mining Expansion in South Kalimantan
+153. Cumulative Impact Assessment of Industrial Estate Development on River Water Quality
+154. Social Impact Assessment of Dam Construction on Downstream Communities
+155. Environmental Risk Assessment of Palm Oil Plantation Expansion on Peatland
+156. EIA Quality Review and Effectiveness Assessment for Indonesian Mining Projects
+157. Biodiversity Impact Assessment of Road Construction Through Protected Forest Area
+158. Environmental Audit of Existing Industrial Facilities for Compliance Evaluation
+159. Health Impact Assessment of Air Pollution from Cement Industry on Surrounding Communities
+160. Environmental Management Plan (RKL-RPL) Implementation Effectiveness Monitoring
+161. Noise Impact Assessment and Mitigation Design for Airport Expansion Project
+162. Environmental Baseline Study Methodology for Offshore Oil and Gas Development
+163. Assessment of Deforestation Impact on Watershed Hydrology Using Remote Sensing
+164. Environmental Due Diligence Framework for Infrastructure Investment Projects
+165. Impact Assessment of Aquaculture Development on Mangrove Ecosystem
+166. Traffic-Related Environmental Impact Assessment for New Toll Road Development
+167. Environmental Monitoring Program Design for Post-Mining Land Rehabilitation
+168. Assessment of Thermal Discharge Impact on Marine Ecosystem from Power Plant
+169. Environmental Impact of Sand Mining on River Morphology and Water Quality
+170. Stakeholder Participation Effectiveness in Indonesian EIA Process
+171. Environmental Impact Assessment of Geothermal Power Plant Development
+172. Assessment of Land Use Change Impact on Carbon Stock in Tropical Forest
+173. Environmental Risk Assessment of Hazardous Waste Storage Facility
+174. Impact Assessment of Reclamation Project on Coastal Fisheries Livelihood
+175. Environmental Carrying Capacity Assessment for Tourism Development Planning
+176. Assessment of Mining Closure Plan Adequacy for Environmental Rehabilitation
+177. Environmental Impact of Microplastic Pollution on Freshwater Ecosystem
+178. Vibration Impact Assessment of Pile Driving on Adjacent Structures and Community
+179. Environmental Flow Assessment for River Ecosystem Protection Below Dams
+180. Assessment of Urban Development Impact on Urban Heat Island Effect
+181. Environmental Impact of Dredging Operations on Marine Biodiversity
+182. Post-EIA Monitoring and Evaluation Framework for Indonesian Development Projects
+183. Assessment of Agricultural Runoff Impact on Coral Reef Ecosystem
+184. Environmental Impact of Waste-to-Energy Plant on Surrounding Air Quality
+185. Landscape Visual Impact Assessment for Wind Farm Development
+186. Assessment of Groundwater Contamination Risk from Industrial Waste Disposal
+187. Environmental Impact of Ship Breaking Industry on Coastal Environment
+188. Climate Change Vulnerability Assessment for Coastal Infrastructure Projects
+189. Assessment of Noise Pollution Impact on Wildlife in Protected Areas
+190. Environmental Impact of Illegal Gold Mining (PETI) on River Ecosystem
+191. Socio-Environmental Impact Assessment of Large-Scale Solar Farm Development
+192. Assessment of Construction Phase Environmental Impact and Mitigation Effectiveness
+193. Environmental Impact of Intensive Livestock Farming on Water Quality
+194. Ecosystem Services Valuation for Environmental Impact Assessment Enhancement
+195. Assessment of Microplastic Contamination in Seafood from Indonesian Waters
+196. Environmental Impact of Submarine Cable Installation on Marine Habitat
+197. Assessment of Urban Sprawl Impact on Agricultural Land and Food Security
+198. Environmental Impact of Nickel Smelter Development in Sulawesi
+199. Transboundary Environmental Impact Assessment for Cross-Border River Pollution
+200. Assessment of IKN (Nusantara) Development Impact on Borneo Rainforest Ecosystem
+
+--- CATEGORY 5: CLIMATE CHANGE & CARBON MANAGEMENT (201-250) ---
+201. Carbon Footprint Assessment of Indonesian Cement Industry Using Life Cycle Approach
+202. Climate Change Adaptation Strategy for Coastal Communities in Northern Java
+203. Greenhouse Gas Emission Inventory for Indonesian Transportation Sector
+204. Carbon Sequestration Potential of Mangrove Restoration in Degraded Coastal Areas
+205. Climate Vulnerability Assessment of Water Supply Infrastructure in Indonesian Cities
+206. Carbon Trading Mechanism Design for Indonesian Industrial Sector
+207. Assessment of Peatland Restoration Impact on Carbon Emission Reduction
+208. Climate-Resilient Urban Planning Framework for Flood-Prone Indonesian Cities
+209. Life Cycle Carbon Assessment of Green Building vs Conventional Construction
+210. Blue Carbon Ecosystem Mapping and Conservation Strategy for Indonesian Archipelago
+211. Climate Change Impact on Agricultural Water Demand in Java Rice Paddies
+212. Carbon Capture Utilization and Storage (CCUS) Feasibility for Indonesian Power Sector
+213. Greenhouse Gas Emission from Palm Oil Industry and Mitigation Strategies
+214. Climate Adaptation of Drainage Infrastructure for Increased Rainfall Intensity
+215. Carbon Footprint Comparison of Waste Management Alternatives in Indonesian Cities
+216. Nature-Based Solutions for Urban Climate Resilience in Tropical Cities
+217. Assessment of Renewable Energy Transition Impact on National Carbon Emission
+218. Climate Change Impact on Coastal Erosion Rate and Adaptation Measures
+219. Carbon Offset Project Design for Reforestation in Degraded Watershed Areas
+220. Climate Risk Assessment for Critical Infrastructure in Earthquake and Flood Zones
+221. Methane Emission Estimation from Rice Paddies and Mitigation Through Water Management
+222. Climate-Smart Agriculture Practices for Emission Reduction in Indonesian Farming
+223. Carbon Footprint of Urban Water Supply System and Reduction Strategy
+224. Sea Level Rise Impact Assessment on Coastal Infrastructure and Adaptation Planning
+225. Greenhouse Gas Emission from Wastewater Treatment Plants and Optimization
+226. Climate Change Impact on Hydropower Generation Potential in Indonesian Rivers
+227. Carbon Neutrality Roadmap for Indonesian University Campus Operations
+228. Assessment of Urban Forest Carbon Sequestration Capacity in Metropolitan Cities
+229. Climate Adaptation of Building Design for Increased Temperature and Humidity
+230. Carbon Footprint of Food Supply Chain and Reduction Through Circular Economy
+231. Climate Change Impact on Vector-Borne Disease Distribution in Tropical Indonesia
+232. Green Bond Framework for Climate Change Mitigation Project Financing
+233. Assessment of Electric Vehicle Lifecycle Carbon Emission in Indonesian Context
+234. Climate-Resilient Coastal Protection Design Under Sea Level Rise Scenarios
+235. Carbon Accounting Framework for Indonesian Manufacturing Industry
+236. Climate Change Impact on Groundwater Recharge and Sustainable Yield
+237. Biochar Application for Soil Carbon Sequestration in Degraded Agricultural Land
+238. Climate Finance Mechanism for Community-Based Adaptation Projects
+239. Assessment of Nationally Determined Contribution (NDC) Progress in Waste Sector
+240. Climate Change Impact on Urban Flooding Frequency and Infrastructure Design
+241. Carbon Footprint Reduction Strategy for Indonesian Port Operations
+242. Climate Vulnerability Mapping of Small Islands in Eastern Indonesia
+243. Greenhouse Gas Emission from Livestock Sector and Biogas Mitigation Potential
+244. Climate-Adaptive Stormwater Management Design for Tropical Urban Areas
+245. Carbon Credit Verification Methodology for Mangrove Conservation Projects
+246. Climate Change Impact on Drinking Water Quality and Treatment Requirements
+247. Net-Zero Emission Strategy for Indonesian Industrial Estate Development
+248. Assessment of REDD+ Implementation Effectiveness in Indonesian Forest Areas
+249. Climate Resilience Assessment of Healthcare Facilities in Disaster-Prone Areas
+250. Carbon Footprint of Digital Infrastructure and Green Data Center Design
+
+--- CATEGORY 6: SOIL & GROUNDWATER REMEDIATION (251-300) ---
+251. Bioremediation of Petroleum-Contaminated Soil Using Indigenous Bacteria from Kalimantan Oil Fields
+252. Phytoremediation of Heavy Metal-Contaminated Agricultural Soil Using Vetiver Grass
+253. Electrokinetic Remediation of Lead-Contaminated Soil Near Battery Recycling Facility
+254. Bioaugmentation for PAH Degradation in Soil Contaminated by Gas Station Leakage
+255. Permeable Reactive Barrier Design for Groundwater Chromium Plume Containment
+256. Soil Washing Optimization for Mercury Removal from Artisanal Gold Mining Sites
+257. Mycoremediation of Pesticide-Contaminated Agricultural Soil Using White-Rot Fungi
+258. Groundwater Contamination Assessment and Remediation Strategy for Industrial Brownfield
+259. Biochar Amendment for Immobilization of Heavy Metals in Mine Tailings
+260. Pump-and-Treat System Design for BTEX Contaminated Groundwater at Fuel Depot
+261. Phytostabilization of Nickel Mine Tailings Using Native Hyperaccumulator Plants
+262. Natural Attenuation Monitoring of Petroleum Hydrocarbon in Shallow Aquifer
+263. Soil Vapor Extraction Design for VOC Removal from Contaminated Industrial Site
+264. Biosurfactant-Enhanced Bioremediation of Diesel-Contaminated Soil
+265. Groundwater Flow and Contaminant Transport Modeling Using MODFLOW-MT3DMS
+266. In-Situ Chemical Oxidation (ISCO) for Remediation of Chlorinated Solvent Plume
+267. Vermiremediation of Cadmium-Contaminated Soil from Industrial Waste Disposal
+268. Assessment of Landfill Leachate Impact on Groundwater Quality Using Monitoring Wells
+269. Nano Zero-Valent Iron (nZVI) for In-Situ Remediation of Arsenic in Groundwater
+270. Soil Remediation Strategy for Abandoned Gas Station Sites in Urban Areas
+271. Biostimulation of Indigenous Microorganisms for Oil Spill Cleanup in Coastal Soil
+272. Groundwater Vulnerability Assessment Using DRASTIC-GIS for Aquifer Protection
+273. Thermal Desorption for Remediation of Mercury-Contaminated Soil from ASGM
+274. Constructed Wetland for Treatment of Contaminated Groundwater Discharge
+275. Soil Stabilization/Solidification Using Cement-Bentonite for Heavy Metal Containment
+276. Monitored Natural Recovery Assessment for Sediment Contamination in River
+277. Phytoextraction of Zinc and Copper from Smelter-Impacted Agricultural Soil
+278. Groundwater Remediation Using Bioreactor Permeable Reactive Barrier
+279. Risk-Based Corrective Action (RBCA) Framework for Contaminated Site Management
+280. Soil Amendment with Biochar and Compost for Rehabilitation of Mining Land
+281. Surfactant-Enhanced Aquifer Remediation (SEAR) for DNAPL Source Zone
+282. Assessment of Acid Sulfate Soil Impact on Water Quality in Coastal Lowlands
+283. In-Situ Bioremediation of Nitrate-Contaminated Groundwater from Agricultural Runoff
+284. Soil Contamination Assessment Using Geophysical Methods and Chemical Analysis
+285. Phytoremediation of Textile Dye-Contaminated Soil Using Ornamental Plants
+286. Groundwater Modeling for Delineation of Wellhead Protection Zone
+287. Landfarming Optimization for Bioremediation of Petroleum Sludge
+288. Assessment of Microplastic Contamination in Agricultural Soil from Plastic Mulch
+289. Electrochemical Remediation of Fluoride-Contaminated Groundwater
+290. Soil Erosion Assessment and Conservation Strategy for Post-Mining Rehabilitation
+291. Bioremediation of Cyanide-Contaminated Soil from Gold Processing Facility
+292. Groundwater Salinization Assessment and Management in Coastal Aquifer Systems
+293. Composting of Petroleum-Contaminated Soil for Hydrocarbon Degradation
+294. Assessment of Emerging Contaminants in Groundwater Near Landfill Sites
+295. Phytomining Potential Assessment for Nickel Recovery from Ultramafic Soil
+296. Groundwater Age Dating for Sustainable Aquifer Management Using Isotope Analysis
+297. Soil Remediation Cost-Benefit Analysis for Brownfield Redevelopment Decision
+298. In-Situ Biodegradation of MTBE in Groundwater Using Oxygen Release Compounds
+299. Assessment of Soil Contamination from Improper Pesticide Storage in Agricultural Areas
+300. Integrated Site Remediation Strategy for Multi-Contaminant Industrial Brownfield
+
+--- CATEGORY 7: INDUSTRIAL POLLUTION CONTROL (301-350) ---
+301. Cleaner Production Assessment and Implementation for Textile Dyeing Industry in Bandung
+302. Industrial Wastewater Treatment Plant Design for Electroplating Cluster in Tangerang
+303. Pollution Prevention Strategy for Palm Oil Mill Using Best Available Technology
+304. Design of Effluent Treatment Plant for Pharmaceutical Manufacturing Facility
+305. Industrial Ecology Approach for Waste Minimization in Food Processing Industry
+306. Emission Control Technology Selection for Smelter Operations in Sulawesi
+307. Zero Liquid Discharge (ZLD) System Design for Textile Industry Wastewater
+308. Environmental Management System (ISO 14001) Implementation in Indonesian Manufacturing
+309. Industrial Symbiosis Network for Chemical Industrial Estate in Cilegon
+310. Pollution Load Allocation for Industrial Discharge to Receiving Water Body
+311. Best Available Technology (BAT) Assessment for Indonesian Pulp and Paper Industry
+312. Design of Central Effluent Treatment Plant (CETP) for Small-Scale Industrial Cluster
+313. Waste Heat Recovery System Design for Energy Efficiency in Cement Production
+314. Environmental Compliance Monitoring System for Industrial Estate Management
+315. Cleaner Production Audit for Rubber Processing Industry in South Sumatra
+316. Industrial Wastewater Recycling and Reuse Strategy for Water-Intensive Industries
+317. Pollution Control Technology for Batik Industry Wastewater in Pekalongan
+318. Environmental Performance Benchmarking of Indonesian Steel Industry
+319. Design of Scrubber System for Acid Gas Control in Chemical Manufacturing
+320. Industrial Waste Exchange Platform Development for Circular Economy Implementation
+321. Effluent Quality Monitoring Using Online Sensors for Real-Time Compliance
+322. Pollution Prevention Assessment for Seafood Processing Industry in Eastern Indonesia
+323. Design of Oil-Water Separator for Automotive Workshop Wastewater
+324. Environmental Technology Verification Framework for Indonesian Industrial Sector
+325. Cleaner Production Implementation for Small-Scale Tofu and Tempeh Industry
+326. Industrial Noise Control Design Using Barrier and Enclosure Solutions
+327. Waste Minimization Strategy for Electronic Manufacturing Industry
+328. Design of Neutralization System for Acid-Alkaline Industrial Wastewater
+329. Environmental Impact Reduction of Nickel Processing Through Technology Upgrade
+330. Industrial Stormwater Management and Pollution Prevention Plan Design
+331. Cleaner Production Assessment for Leather Tanning Industry in Yogyakarta
+332. Design of Biological Treatment System for High-Strength Food Industry Wastewater
+333. Pollution Control Strategy for Artisanal and Small-Scale Gold Mining (ASGM)
+334. Industrial Energy Audit and Carbon Emission Reduction Strategy
+335. Design of Dust Collection System for Woodworking and Furniture Industry
+336. Environmental Management Plan for Industrial Estate Expansion
+337. Waste Solvent Recovery and Recycling System for Printing Industry
+338. Pollution Load Assessment and Carrying Capacity of Industrial Zone River
+339. Design of Grease Trap and Oil Separator for Food Service Industry
+340. Environmental Technology Assessment for Indonesian Ceramic Industry
+341. Cleaner Production Strategy for Reducing Water Consumption in Beverage Industry
+342. Design of Chrome Recovery System from Tannery Wastewater for Reuse
+343. Industrial Air Emission Inventory and Reduction Target Setting
+344. Pollution Prevention Through Green Chemistry in Pesticide Formulation Industry
+345. Design of Equalization and pH Adjustment System for Variable Industrial Wastewater
+346. Environmental Compliance Cost Analysis for Indonesian Manufacturing Sector
+347. Waste Oil Management and Recycling Strategy for Automotive Service Industry
+348. Design of Activated Sludge System for Combined Industrial-Domestic Wastewater
+349. Pollution Control Technology Transfer for Small and Medium Enterprises
+350. Industrial Ecology Framework for Sustainable Industrial Estate Development in IKN
+
+--- CATEGORY 8: ENVIRONMENTAL MONITORING & MODELING (351-400) ---
+351. IoT-Based Real-Time Water Quality Monitoring Network for Citarum River Basin
+352. Remote Sensing Application for Land Use Change Detection and Environmental Impact
+353. Machine Learning Model for Predicting River Water Quality from Watershed Parameters
+354. GIS-Based Environmental Sensitivity Mapping for Oil Spill Response Planning
+355. Development of Low-Cost Sensor Network for Community Air Quality Monitoring
+356. Hydrological Modeling of Watershed Response to Land Use Change Using SWAT
+357. Satellite-Based Monitoring of Peatland Fire and Haze Pollution Extent
+358. Water Quality Index Development for Indonesian Tropical River Assessment
+359. Drone-Based Environmental Monitoring for Mining Site Rehabilitation Progress
+360. Statistical Downscaling of Climate Model for Local Environmental Impact Assessment
+361. Real-Time Flood Monitoring and Early Warning System Using IoT and GIS
+362. Environmental DNA (eDNA) Method for Biodiversity Assessment in Aquatic Ecosystem
+363. Air Quality Dispersion Modeling for Environmental Permit Application
+364. GIS-Based Noise Mapping for Urban Environmental Management Planning
+365. Machine Learning Classification of Land Cover Change from Satellite Imagery
+366. Water Quality Modeling of Estuary System Using MIKE21 for Pollution Management
+367. Development of Environmental Monitoring Database for Regulatory Compliance Tracking
+368. Remote Sensing Assessment of Mangrove Health and Degradation Extent
+369. Predictive Modeling of Groundwater Level Using Artificial Neural Network
+370. GIS-Based Solid Waste Collection Optimization and Route Planning
+371. Environmental Monitoring Protocol Design for Post-Closure Landfill Management
+372. Satellite-Based Assessment of Urban Heat Island Effect and Mitigation Strategy
+373. Machine Learning for Anomaly Detection in Continuous Emission Monitoring Data
+374. GIS-Based Flood Risk Mapping for Urban Environmental Planning
+375. Development of Mobile Application for Citizen Science Environmental Monitoring
+376. Water Quality Trend Analysis Using Mann-Kendall Test for Long-Term Assessment
+377. Remote Sensing Monitoring of Coastal Erosion and Shoreline Change
+378. Environmental Noise Monitoring and Mapping for Hospital Zone Protection
+379. Machine Learning Prediction of Algal Bloom in Reservoir Using Water Quality Data
+380. GIS-Based Site Selection for Waste Treatment Facility Using Multi-Criteria Analysis
+381. Real-Time Monitoring of Industrial Effluent Discharge Using Automated Sampling
+382. Satellite-Based Estimation of Particulate Matter Concentration for Air Quality Assessment
+383. Environmental Flow Monitoring System for River Ecosystem Health Assessment
+384. GIS-Based Vulnerability Assessment of Groundwater to Contamination
+385. Machine Learning for Optimization of Wastewater Treatment Plant Operation
+386. Remote Sensing Detection of Illegal Waste Dumping Sites
+387. Development of Environmental Quality Index for Indonesian City Ranking
+388. IoT-Based Soil Moisture and Contamination Monitoring for Agricultural Land
+389. GIS-Based Environmental Carrying Capacity Assessment for Regional Planning
+390. Machine Learning Prediction of Landfill Leachate Quality from Waste Composition
+391. Satellite Monitoring of Deforestation Rate for REDD+ Verification
+392. Environmental Sensor Calibration and Quality Assurance Protocol Development
+393. GIS-Based Cumulative Environmental Impact Assessment for Regional Development
+394. Machine Learning for Source Identification of Water Pollution Events
+395. Development of Dashboard System for Environmental Performance Monitoring
+396. Remote Sensing Assessment of Mining Impact on Surrounding Vegetation Health
+397. IoT-Based Odor Monitoring System for Landfill and Wastewater Treatment Plant
+398. GIS-Based Climate Vulnerability Assessment for Infrastructure Planning
+399. Machine Learning for Prediction of Wastewater Characteristics from Industrial Type
+400. Integrated Environmental Monitoring Framework for Smart City Development
+
+--- CATEGORY 9: CIRCULAR ECONOMY & SUSTAINABILITY (401-450) ---
+401. Circular Economy Business Model for Plastic Waste Value Chain in Indonesian Cities
+402. Life Cycle Assessment of Single-Use vs Reusable Packaging in Food Delivery
+403. Industrial Symbiosis Implementation for Waste-to-Resource in Surabaya Industrial Estate
+404. Sustainable Supply Chain Design for Palm Oil Industry with Zero-Waste Target
+405. Material Flow Analysis of Construction Materials for Circular Economy Strategy
+406. Design for Disassembly Framework for Electronic Product End-of-Life Management
+407. Water-Energy-Food Nexus Assessment for Sustainable Resource Management
+408. Eco-Industrial Park Design Framework for New Industrial Development in Indonesia
+409. Life Cycle Cost Analysis of Sustainable vs Conventional Water Treatment Systems
+410. Circular Economy Indicator Development for Indonesian Manufacturing Sector
+411. Waste Biomass Valorization Strategy for Biorefinery Development in Palm Oil Industry
+412. Sustainable Procurement Framework for Green Public Purchasing in Government
+413. Product Service System Design for Reducing Material Consumption in Consumer Goods
+414. Urban Metabolism Analysis for Sustainable City Planning in Indonesian Context
+415. Life Cycle Assessment of Renewable Energy Systems for Indonesian Power Grid
+416. Circular Economy Strategy for Textile Waste Reduction and Fiber Recovery
+417. Sustainable Tourism Development Framework with Environmental Carrying Capacity
+418. Bio-Based Material Development from Agricultural Waste for Packaging Application
+419. Water Footprint Assessment of Indonesian Agricultural Products for Export
+420. Circular Economy Roadmap for Indonesian Plastic Industry Transformation
+421. Life Cycle Assessment of Electric vs Internal Combustion Engine Vehicles in Indonesia
+422. Sustainable Industrial Zone Design with Integrated Waste and Energy Management
+423. Eco-Design Framework for Reducing Environmental Impact of Consumer Electronics
+424. Carbon Footprint Labeling System Development for Indonesian Food Products
+425. Circular Economy Model for Used Cooking Oil Collection and Biodiesel Production
+426. Life Cycle Assessment of Building Materials for Green Building Certification
+427. Sustainable Fisheries Management Framework with Waste Valorization Strategy
+428. Resource Efficiency Assessment of Indonesian Manufacturing Using Material Flow Analysis
+429. Circular Economy Strategy for Hospital Waste Reduction and Resource Recovery
+430. Life Cycle Assessment of Water Reuse Systems for Industrial Application
+431. Sustainable Campus Framework with Zero-Waste and Carbon Neutral Target
+432. Bio-Economy Development Strategy for Agricultural Waste Utilization in Rural Areas
+433. Environmental Product Declaration (EPD) Development for Indonesian Building Materials
+434. Circular Economy Business Model for Food Waste Reduction in Hospitality Sector
+435. Life Cycle Sustainability Assessment of Urban Water Infrastructure Options
+436. Sharing Economy Platform for Reducing Material Consumption and Waste Generation
+437. Sustainable Packaging Design Using Biodegradable Materials from Local Resources
+438. Circular Economy Framework for Automotive End-of-Life Vehicle Management
+439. Life Cycle Assessment of Wastewater Treatment Technologies for Technology Selection
+440. Sustainable Urban Development Framework Integrating Green and Blue Infrastructure
+441. Circular Economy Strategy for Mining Waste Utilization as Construction Material
+442. Environmental Sustainability Assessment of Indonesian Palm Oil Supply Chain
+443. Design for Circularity Framework for Furniture Industry Using Local Wood Waste
+444. Life Cycle Assessment of Solid Waste Management Scenarios for Decision Support
+445. Sustainable Agriculture Practice Assessment Using Environmental Footprint Indicators
+446. Circular Economy Model for Rubber Plantation Waste Valorization
+447. Life Cycle Assessment of Drinking Water Supply Alternatives for Rural Communities
+448. Sustainable Fashion Industry Framework with Textile Waste Circular Strategy
+449. Resource Recovery from Wastewater Using Nutrient Harvesting Technology
+450. Circular Economy Transition Roadmap for Indonesian Small and Medium Enterprises
+
+--- CATEGORY 10: ENVIRONMENTAL HEALTH & TOXICOLOGY (451-500) ---
+451. Health Risk Assessment of Heavy Metal Exposure from Contaminated Rice in Mining Areas
+452. Epidemiological Study of Respiratory Disease Related to Air Pollution in Jakarta
+453. Assessment of Microplastic Contamination in Drinking Water Sources and Health Implications
+454. Occupational Health Risk from Mercury Exposure in Artisanal Gold Mining Communities
+455. Health Impact Assessment of Pesticide Exposure on Agricultural Workers in Java
+456. Risk Assessment of Endocrine Disrupting Chemicals in Indonesian Water Supply
+457. Assessment of Lead Exposure in Children Living Near Battery Recycling Facilities
+458. Health Risk from Consumption of Heavy Metal-Contaminated Fish in Citarum River
+459. Indoor Air Quality and Sick Building Syndrome Assessment in Office Buildings
+460. Toxicological Assessment of Industrial Effluent Using Bioassay Methods
+461. Health Risk Assessment of Arsenic in Groundwater for Drinking Water Supply
+462. Assessment of Noise-Induced Hearing Loss in Industrial Workers
+463. Microbiological Risk Assessment of Recreational Water Quality at Beaches
+464. Health Impact of Particulate Matter from Biomass Burning on Rural Communities
+465. Risk Assessment of Pharmaceutical Residues in Treated Wastewater for Reuse
+466. Assessment of Radon Exposure Risk in Underground Mining Operations
+467. Health Risk from Aflatoxin Contamination in Food Products Due to Poor Storage
+468. Toxicity Assessment of Textile Dye Wastewater Using Aquatic Bioassay
+469. Health Impact Assessment of Landfill Proximity on Surrounding Community
+470. Risk Assessment of Cyanobacterial Toxins in Eutrophic Reservoir Water Supply
+471. Occupational Health Assessment of Workers Exposed to Welding Fumes
+472. Health Risk from Nitrate Contamination in Shallow Wells Near Agricultural Areas
+473. Assessment of Antibiotic Resistance Genes in Hospital Wastewater Effluent
+474. Health Impact of Indoor Air Pollution from Traditional Cooking in Rural Households
+475. Risk Assessment of Polycyclic Aromatic Hydrocarbons (PAH) in Urban Soil
+476. Assessment of Fluoride Exposure from Groundwater in Volcanic Areas
+477. Health Risk from Formaldehyde Emission in New Building Materials
+478. Toxicological Assessment of Nanomaterial Release from Consumer Products
+479. Health Impact Assessment of Traffic Noise on Residential Community Well-Being
+480. Risk Assessment of Dioxin and Furan from Open Burning of Waste
+481. Assessment of Biological Hazards in Composting Facility for Worker Protection
+482. Health Risk from Chromium Exposure in Leather Tanning Industry Workers
+483. Microbiological Quality Assessment of Street Food and Public Health Implications
+484. Risk Assessment of Volatile Organic Compounds in Indoor Swimming Pool
+485. Health Impact of Peatland Fire Haze on Respiratory Health in Kalimantan
+486. Assessment of Electromagnetic Field Exposure from Power Lines on Community Health
+487. Toxicity Assessment of Mine Tailings Leachate on Aquatic Organisms
+488. Health Risk Assessment of Asbestos Exposure in Building Demolition Workers
+489. Assessment of Waterborne Disease Risk from Flood-Contaminated Water Supply
+490. Risk Assessment of Persistent Organic Pollutants (POPs) in Indonesian Marine Fish
+491. Health Impact of Hydrogen Sulfide Exposure Near Geothermal Power Plants
+492. Assessment of Silica Dust Exposure in Construction and Quarrying Workers
+493. Toxicological Assessment of Microplastic Ingestion Using In-Vitro Cell Models
+494. Health Risk from Cadmium Accumulation in Rice Grown on Contaminated Soil
+495. Assessment of Legionella Risk in Building Water Systems and Cooling Towers
+496. Health Impact of Combined Exposure to Multiple Air Pollutants in Urban Areas
+497. Risk Assessment of Emerging Contaminants (PFAS) in Indonesian Water Sources
+498. Assessment of Occupational Health Hazards in Electronic Waste Recycling
+499. Health Risk from Bioaerosol Exposure in Wastewater Treatment Plant Workers
+500. Integrated Environmental Health Risk Assessment Framework for Industrial Zone Communities

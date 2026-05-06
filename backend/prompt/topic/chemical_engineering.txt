@@ -5,6 +5,59 @@ FIELD: Engineering / Chemical Engineering
 DEFAULT CITATION STYLE: APA or AIChE
 SUBDISCIPLINE: Teknik Kimia, Proses Kimia, Reaksi Kimia, Pemisahan, Energi Kimia, Bioprosess
 
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Process intensification (microreactors, spinning disc reactors, oscillatory baffled reactors)
+   - Membrane technology (ceramic membranes, mixed matrix membranes, membrane distillation)
+   - Supercritical fluid extraction (SC-CO2, co-solvent optimization)
+   - Microreactor technology (continuous flow synthesis, numbering-up strategies)
+   - CFD simulation (ANSYS Fluent, OpenFOAM for multiphase flow)
+   - Aspen Plus/HYSYS process simulation (techno-economic analysis, sensitivity analysis)
+   - Life cycle assessment (LCA) using SimaPro/OpenLCA (ISO 14040/14044)
+   - Machine learning for process optimization (ANN, random forest, Bayesian optimization)
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics: conversion (%), yield (%), selectivity (%), energy efficiency (%), purity (%), TOF (s⁻¹), BET surface area (m²/g)
+   - Statistical measures: R², RMSE, standard deviation, confidence intervals
+   - All numbers realistic and internally consistent
+
+5. MATHEMATICAL FORMULAS:
+   - Mass balance: Σ(ṁ_in) = Σ(ṁ_out) + d(m_system)/dt
+   - Energy balance: Q = mCpΔT
+   - Reaction kinetics: r = k[A]^n[B]^m
+   - Arrhenius equation: k = A × exp(-Ea/RT)
+   - Heat transfer: Q = UAΔTLM
+   - Bernoulli equation: P₁/ρg + v₁²/2g + z₁ = P₂/ρg + v₂²/2g + z₂
+   - Ergun equation: ΔP/L = (150μ(1-ε)²)/(Dp²ε³) × u + (1.75ρ(1-ε))/(Dpε³) × u²
+   - McCabe-Thiele: y = (R/(R+1))x + xD/(R+1)
+   - Fick's law: J = -D(dC/dx)
+   - Nusselt correlation: Nu = 0.023 Re^0.8 Pr^n
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian context: palm oil industry, natural gas processing, geothermal energy, biodiesel production, local biomass (cassava, coconut, sugarcane bagasse)
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords (5-7), Introduction (1500-2000 words),
+   Literature Review (2000-3000 words), Methodology (2000-3000 words),
+   Results & Discussion (2000-3000 words), Conclusion (500-800 words),
+   References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
 ABSTRACT CHARACTERISTICS:
   150–250 words. Reports: chemical process or unit operation studied, scale (lab/pilot/industrial),
   operating conditions (T °C, P bar, flow rate L/h, feed concentration mol/L), key results
@@ -79,3 +132,527 @@ METHODOLOGY KEYWORDS:
   RSM (Central Composite Design), Aspen Plus simulation, catalyst characterization (XRD/BET/TPR),
   GC/HPLC analysis, ANOVA optimization, kinetic parameter estimation (Arrhenius),
   HAZOP analysis, heat integration (Pinch method), mass transfer coefficient (kLa)
+
+================================================================================
+RESEARCH TOPIC BANK (500 TOPICS)
+================================================================================
+
+--- CATEGORY 1: PROCESS DESIGN & SIMULATION (001-050) ---
+001. Aspen Plus simulation and optimization of crude palm oil refinery for maximizing olein yield
+002. Techno-economic analysis of methanol production from Indonesian natural gas using Aspen HYSYS
+003. Process intensification of biodiesel production using reactive distillation: simulation and experimental validation
+004. Heat integration optimization of petroleum refinery using pinch analysis and Aspen Energy Analyzer
+005. Design and simulation of hydrogen production plant from palm oil mill effluent (POME) gasification
+006. Multi-objective optimization of ethanol dehydration process using pressure swing adsorption
+007. Dynamic simulation of ammonia synthesis loop with energy recovery optimization
+008. Aspen Plus modeling of supercritical CO2 extraction of palm kernel oil
+009. Process design for bioethanol production from cassava starch with integrated waste treatment
+010. Simulation-based optimization of LNG regasification terminal for Indonesian gas distribution
+011. Techno-economic feasibility of green hydrogen production via alkaline electrolysis powered by geothermal energy
+012. Aspen HYSYS simulation of natural gas sweetening using MDEA solvent with process optimization
+013. Design of continuous crystallization process for pharmaceutical-grade sugar from sugarcane
+014. Process simulation of dimethyl ether (DME) production from syngas derived from palm empty fruit bunch
+015. Optimization of heat exchanger network in palm oil refinery using mathematical programming
+016. Steady-state and dynamic simulation of vinyl chloride monomer (VCM) production plant
+017. Process design for recovery of valuable metals from electronic waste using hydrometallurgical route
+018. Aspen Plus simulation of coal gasification integrated with carbon capture for Indonesian low-rank coal
+019. Design and optimization of seawater desalination plant using multi-effect distillation for coastal communities
+020. Techno-economic analysis of polylactic acid (PLA) production from cassava starch
+021. Process simulation of fatty acid methyl ester (FAME) purification using molecular distillation
+022. Optimization of crude distillation unit (CDU) using machine learning-assisted Aspen Plus simulation
+023. Design of modular chemical plant for distributed biodiesel production in rural Indonesia
+024. Simulation of geothermal brine processing for lithium extraction using Aspen Plus
+025. Process intensification of oleochemical production through microreactor technology
+026. Techno-economic analysis of bio-succinic acid production from palm oil mill effluent
+027. Aspen HYSYS dynamic simulation of offshore natural gas processing platform
+028. Design optimization of urea granulation process using CFD-DEM coupled simulation
+029. Process simulation of activated carbon production from coconut shell with steam activation
+030. Multi-criteria optimization of Indonesian petroleum refinery configuration for Euro-V fuel production
+031. Simulation and optimization of acetic acid recovery from dilute aqueous solution using extractive distillation
+032. Process design for nanocellulose production from oil palm empty fruit bunch
+033. Techno-economic analysis of waste cooking oil collection and biodiesel conversion network
+034. Aspen Plus simulation of calcium looping for CO2 capture in cement industry
+035. Design of integrated biorefinery for coconut processing: oil, fiber, and shell valorization
+036. Process optimization of natural rubber processing with reduced wastewater generation
+037. Simulation of supercritical water gasification of palm oil mill effluent for hydrogen production
+038. Design and simulation of mini LNG plant for stranded gas field in Eastern Indonesia
+039. Process intensification of soap manufacturing using continuous oscillatory baffled reactor
+040. Techno-economic analysis of biochar production from rice husk via slow pyrolysis
+041. Aspen Plus simulation of CO2 methanation for power-to-gas application in Indonesian context
+042. Design optimization of multi-product batch plant for specialty chemicals
+043. Process simulation of lithium-ion battery recycling using hydrometallurgical process
+044. Optimization of palm oil fractionation process using response surface methodology and simulation
+045. Design of zero-liquid-discharge system for textile wastewater in Indonesian industrial estate
+046. Simulation-based design of compressed natural gas (CNG) processing station
+047. Process optimization of cocoa butter extraction using supercritical CO2 technology
+048. Techno-economic analysis of torrefied biomass pellet production from oil palm trunk
+049. Aspen Plus simulation of methyl methacrylate production via alpha-methylstyrene route
+050. Design of integrated water-energy nexus for palm oil mill using process simulation
+
+--- CATEGORY 2: REACTION ENGINEERING & CATALYSIS (051-100) ---
+051. Kinetic study of palm oil transesterification using CaO catalyst derived from Indonesian limestone
+052. Development of Ni/Al2O3 catalyst for steam reforming of glycerol from biodiesel byproduct
+053. Optimization of heterogeneous acid catalyst (sulfonated carbon) for free fatty acid esterification
+054. Kinetic modeling of catalytic cracking of palm oil over zeolite for biofuel production
+055. Photocatalytic degradation of palm oil mill effluent using TiO2/activated carbon composite
+056. Development of bifunctional catalyst for one-pot conversion of cellulose to 5-HMF
+057. Kinetic study of enzymatic hydrolysis of cassava starch using immobilized amylase
+058. Catalytic pyrolysis of plastic waste over natural zeolite from Indonesian deposits
+059. Optimization of Fenton oxidation for treatment of rubber processing wastewater
+060. Development of Cu-Zn-Al catalyst for methanol synthesis from CO2 captured from geothermal plant
+061. Kinetic modeling of biodiesel production from Calophyllum inophyllum oil using RSM optimization
+062. Photocatalytic hydrogen production from glycerol-water mixture using modified TiO2 nanoparticles
+063. Catalytic hydrodeoxygenation of bio-oil from palm empty fruit bunch over NiMo/Al2O3
+064. Development of enzyme-immobilized membrane reactor for continuous biodiesel production
+065. Kinetic study of torrefaction of oil palm trunk: thermogravimetric analysis and modeling
+066. Catalytic conversion of bioethanol to butadiene over MgO-SiO2 catalyst
+067. Optimization of ozonation-catalysis combined process for pharmaceutical wastewater treatment
+068. Development of iron-based catalyst from red mud for Fischer-Tropsch synthesis
+069. Kinetic modeling of anaerobic digestion of palm oil mill effluent for biogas production
+070. Catalytic steam reforming of tar model compounds over Ni-Ce/Al2O3 for biomass gasification
+071. Photocatalytic reduction of CO2 to methanol using g-C3N4/ZnO heterojunction
+072. Development of acid-functionalized mesoporous silica for dehydration of bioethanol
+073. Kinetic study of rubber seed oil epoxidation using performic acid in situ generation
+074. Catalytic upgrading of pyrolysis oil from mixed plastic waste over HZSM-5 zeolite
+075. Optimization of lipase-catalyzed interesterification of palm stearin and coconut oil
+076. Development of bimetallic Pd-Cu catalyst for selective hydrogenation of acetylene in ethylene stream
+077. Kinetic modeling of lignocellulose hydrolysis using dilute acid pretreatment of sugarcane bagasse
+078. Catalytic wet air oxidation of phenol wastewater using CuO/CeO2 catalyst
+079. Photocatalytic degradation of textile dye using ZnO nanorod synthesized from Indonesian zinc ore
+080. Development of solid base catalyst from dolomite for biodiesel production
+081. Kinetic study of thermal cracking of Indonesian heavy crude oil in tubular reactor
+082. Catalytic depolymerization of lignin from oil palm empty fruit bunch over Ru/C catalyst
+083. Optimization of electro-Fenton process for degradation of antibiotics in hospital wastewater
+084. Development of Co-Mo/Al2O3 catalyst for hydrodesulfurization of Indonesian crude oil fraction
+085. Kinetic modeling of microalgae lipid extraction using subcritical water
+086. Catalytic conversion of glycerol to propylene glycol over Cu-Cr catalyst
+087. Photocatalytic disinfection of drinking water using Ag-doped TiO2 immobilized on ceramic membrane
+088. Development of hierarchical zeolite from Indonesian kaolin for catalytic cracking application
+089. Kinetic study of esterification of oleic acid with methanol over Amberlyst-15 resin
+090. Catalytic gasification of palm kernel shell for syngas production over Ni/dolomite
+091. Optimization of biocatalytic production of xylitol from sugarcane bagasse hemicellulose hydrolysate
+092. Development of perovskite-type catalyst (LaFeO3) for catalytic combustion of VOCs
+093. Kinetic modeling of hydrothermal carbonization of palm oil mill effluent sludge
+094. Catalytic ozonation of landfill leachate using MnO2/granular activated carbon
+095. Photocatalytic splitting of water using BiVO4/WO3 heterojunction for green hydrogen
+096. Development of sulfonated biochar catalyst from palm empty fruit bunch for esterification
+097. Kinetic study of supercritical transesterification of Jatropha oil without catalyst
+098. Catalytic hydrocracking of palm oil into bio-jet fuel over NiW/zeolite Y catalyst
+099. Optimization of enzymatic saccharification of pretreated rice straw using cellulase cocktail
+100. Development of MOF-derived carbon catalyst for oxygen reduction in fuel cell application
+
+--- CATEGORY 3: SEPARATION PROCESSES (101-150) ---
+101. Optimization of membrane distillation for concentration of palm oil mill effluent
+102. Development of mixed matrix membrane incorporating zeolite for CO2/CH4 separation from biogas
+103. Adsorption of heavy metals from mining wastewater using activated carbon from coconut shell
+104. Optimization of liquid-liquid extraction of rare earth elements from Indonesian tin slag
+105. Development of nanofiltration membrane for decolorization of palm oil refinery wastewater
+106. Pervaporation separation of ethanol-water mixture using PDMS/ceramic composite membrane
+107. Adsorption isotherm and kinetics of phenol removal using bagasse-derived activated carbon
+108. Optimization of supercritical CO2 extraction of essential oil from Indonesian clove
+109. Development of forward osmosis membrane for treatment of textile industry wastewater
+110. Ion exchange process optimization for demineralization of sugarcane juice
+111. Membrane bioreactor performance for treatment of palm oil mill effluent
+112. Adsorption of methylene blue dye using magnetic biochar from rice husk
+113. Optimization of extractive distillation for separation of ethanol-water azeotrope using glycerol
+114. Development of ceramic membrane from Indonesian natural clay for oily wastewater treatment
+115. Pressure swing adsorption design for biogas upgrading to biomethane quality
+116. Optimization of ultrafiltration process for protein recovery from tofu wastewater
+117. Development of thin-film composite membrane for brackish water desalination in coastal areas
+118. Adsorption of ammonia from aquaculture wastewater using natural zeolite from Lampung
+119. Optimization of solvent extraction of nickel and cobalt from laterite leach solution
+120. Development of electrospun nanofiber membrane for particulate matter filtration
+121. Chromatographic separation of palm oil carotenoids using silica gel column
+122. Adsorption of fluoride from groundwater using modified alumina derived from bauxite
+123. Optimization of freeze concentration for coconut water processing
+124. Development of hydrophobic membrane for membrane contactor CO2 absorption
+125. Electrodialysis optimization for salt recovery from fish processing wastewater
+126. Adsorption of Cr(VI) from electroplating wastewater using chitosan-modified bentonite
+127. Optimization of steam distillation of patchouli oil from Indonesian Pogostemon cablin
+128. Development of MOF-based adsorbent for selective removal of H2S from natural gas
+129. Simulated moving bed chromatography for separation of palm oil-derived fatty acids
+130. Adsorption of phosphate from agricultural runoff using iron-modified biochar
+131. Optimization of vacuum membrane distillation for brine concentration from desalination reject
+132. Development of graphene oxide membrane for organic solvent nanofiltration
+133. Flotation optimization for separation of palm oil from mill effluent
+134. Adsorption of antibiotics from pharmaceutical wastewater using granular activated carbon
+135. Optimization of supercritical CO2 extraction of caffeine from Indonesian coffee beans
+136. Development of hollow fiber membrane for blood oxygenation application
+137. Leaching optimization of gold from electronic waste using thiosulfate solution
+138. Adsorption of arsenic from groundwater using iron-coated sand filter
+139. Optimization of dividing wall column for separation of multicomponent hydrocarbon mixture
+140. Development of polymeric membrane for dehydration of natural gas
+141. Crystallization optimization of palm-based oleochemicals using melt crystallization
+142. Adsorption of VOCs from industrial emission using activated carbon fiber
+143. Optimization of centrifugal extraction for separation of palm oil minor components
+144. Development of ceramic hollow fiber membrane for high-temperature gas separation
+145. Electro-coagulation optimization for treatment of batik textile wastewater
+146. Adsorption of lead ions from battery recycling wastewater using modified zeolite
+147. Optimization of molecular distillation for purification of palm-based vitamin E (tocotrienol)
+148. Development of composite membrane for pervaporation dehydration of bioethanol
+149. Flocculation optimization for harvesting microalgae from cultivation medium
+150. Adsorption of mercury from artisanal gold mining wastewater using sulfur-impregnated activated carbon
+
+--- CATEGORY 4: TRANSPORT PHENOMENA (151-200) ---
+151. CFD simulation of multiphase flow in palm oil mill effluent anaerobic digester
+152. Heat transfer enhancement in shell-and-tube heat exchanger using helical baffles for refinery application
+153. CFD modeling of gas-liquid mass transfer in bubble column reactor for fermentation
+154. Numerical simulation of natural convection drying of cassava chips in solar dryer
+155. CFD analysis of mixing performance in static mixer for biodiesel production
+156. Heat transfer optimization of double-pipe heat exchanger with twisted tape insert
+157. CFD simulation of fluidized bed combustion of palm kernel shell
+158. Numerical modeling of moisture transport during rubber sheet drying process
+159. CFD analysis of cyclone separator performance for palm oil mill boiler fly ash
+160. Heat transfer study of falling film evaporator for palm oil refinery
+161. CFD simulation of spray drying of coconut milk powder
+162. Numerical modeling of mass transfer in hollow fiber membrane contactor for CO2 absorption
+163. CFD analysis of flow distribution in plate heat exchanger for geothermal application
+164. Heat transfer enhancement using nanofluids in car radiator: experimental and numerical study
+165. CFD simulation of gas dispersion in stirred tank reactor for aerobic fermentation
+166. Numerical modeling of heat and mass transfer in rotary kiln for cement production
+167. CFD analysis of droplet formation in microfluidic device for emulsion preparation
+168. Heat transfer optimization of waste heat recovery system from palm oil mill boiler
+169. CFD simulation of particle transport in pneumatic conveying of rice husk
+170. Numerical modeling of diffusion-reaction in catalyst pellet for Fischer-Tropsch synthesis
+171. CFD analysis of two-phase flow in trickle bed reactor for hydrodesulfurization
+172. Heat transfer study of condensation on vertical tube for geothermal power plant
+173. CFD simulation of mixing in continuous stirred tank reactor with multiple impellers
+174. Numerical modeling of convective drying of seaweed for agar production
+175. CFD analysis of gas-solid flow in circulating fluidized bed for biomass gasification
+176. Heat transfer optimization of air-cooled condenser for geothermal binary cycle plant
+177. CFD simulation of liquid-liquid extraction in pulsed column for rare earth separation
+178. Numerical modeling of heat transfer in packed bed thermal energy storage
+179. CFD analysis of ventilation and pollutant dispersion in chemical laboratory
+180. Heat transfer study of pool boiling on enhanced surface for refrigeration application
+181. CFD simulation of sedimentation in thickener for mining tailings treatment
+182. Numerical modeling of drying kinetics of palm oil fronds for pellet production
+183. CFD analysis of flow maldistribution in parallel channel heat exchanger
+184. Heat transfer enhancement in solar collector using Al2O3 nanofluid
+185. CFD simulation of reactive flow in tubular reactor for ethylene oxide production
+186. Numerical modeling of mass transfer in rotating packed bed for CO2 absorption
+187. CFD analysis of erosion in pipeline bend for crude oil transportation
+188. Heat transfer study of supercritical CO2 in printed circuit heat exchanger
+189. CFD simulation of granulation process in fluidized bed for fertilizer production
+190. Numerical modeling of thermal decomposition of Indonesian oil shale
+191. CFD analysis of gas-liquid flow in airlift reactor for wastewater treatment
+192. Heat transfer optimization of economizer in palm oil mill boiler
+193. CFD simulation of emulsification in high-pressure homogenizer for food processing
+194. Numerical modeling of moisture migration in stored rice grain
+195. CFD analysis of flow pattern in anaerobic baffled reactor for POME treatment
+196. Heat transfer study of evaporative cooling system for tropical greenhouse
+197. CFD simulation of coal combustion in Indonesian power plant boiler
+198. Numerical modeling of oxygen transfer in membrane-aerated biofilm reactor
+199. CFD analysis of mixing efficiency in kenics static mixer for polymer blending
+200. Heat transfer optimization of geothermal heat exchanger with fouling consideration
+
+--- CATEGORY 5: BIOCHEMICAL ENGINEERING (201-250) ---
+201. Optimization of bioethanol fermentation from cassava starch using co-culture of yeast strains
+202. Development of immobilized enzyme bioreactor for continuous hydrolysis of palm oil
+203. Kinetic modeling of anaerobic digestion of palm oil mill effluent in UASB reactor
+204. Optimization of microalgae cultivation in photobioreactor using palm oil mill effluent as medium
+205. Development of solid-state fermentation process for cellulase production from rice bran
+206. Scale-up of lactic acid production from cassava starch using Lactobacillus in bioreactor
+207. Optimization of biohydrogen production from sugarcane bagasse hydrolysate by dark fermentation
+208. Development of membrane bioreactor for treatment of tapioca starch wastewater
+209. Kinetic modeling of enzymatic biodiesel production using Candida rugosa lipase
+210. Optimization of xanthan gum production from palm sugar using Xanthomonas campestris
+211. Development of algal biofilm reactor for nutrient removal from aquaculture wastewater
+212. Scale-up of citric acid production from molasses using Aspergillus niger in stirred tank
+213. Optimization of biogas production from co-digestion of POME and cattle manure
+214. Development of continuous fermentation system for bioethanol from sweet sorghum juice
+215. Kinetic modeling of composting process of oil palm empty fruit bunch
+216. Optimization of PHB (polyhydroxybutyrate) production from palm oil using Ralstonia eutropha
+217. Development of packed bed bioreactor for vinegar production from coconut water
+218. Scale-up of glutamic acid production from sugarcane molasses using Corynebacterium glutamicum
+219. Optimization of bioflocculation for harvesting Chlorella from open pond cultivation
+220. Development of anaerobic membrane bioreactor for high-strength palm oil wastewater
+221. Kinetic modeling of simultaneous saccharification and fermentation of rice straw to ethanol
+222. Optimization of lipid accumulation in oleaginous yeast using glycerol from biodiesel waste
+223. Development of trickling biofilter for removal of H2S from biogas
+224. Scale-up of nata de coco production using optimized Acetobacter xylinum culture
+225. Optimization of enzyme-assisted extraction of virgin coconut oil
+226. Development of constructed wetland with bioaugmentation for palm oil mill effluent polishing
+227. Kinetic modeling of aerobic granular sludge formation for industrial wastewater treatment
+228. Optimization of tempeh fermentation using Rhizopus oligosporus on soybean-corn mixture
+229. Development of rotating biological contactor for treatment of tofu wastewater
+230. Scale-up of single cell protein production from methane using methanotrophs
+231. Optimization of biosorption of heavy metals using dead biomass of microalgae
+232. Development of sequential batch reactor for nitrogen removal from fertilizer wastewater
+233. Kinetic modeling of ethanol inhibition during fermentation of palm sap
+234. Optimization of laccase production from white-rot fungi for lignin degradation
+235. Development of upflow anaerobic sludge blanket reactor for rubber wastewater treatment
+236. Scale-up of omega-3 fatty acid production from marine microalgae in Indonesia
+237. Optimization of pretreatment of oil palm frond for enzymatic saccharification
+238. Development of microbial fuel cell using palm oil mill effluent as substrate
+239. Kinetic modeling of batch fermentation of coconut water to produce bacterial cellulose
+240. Optimization of solid-state fermentation of cocoa pod husk for animal feed
+241. Development of immobilized cell system for continuous bioethanol production from molasses
+242. Scale-up of biosurfactant production from palm oil using Pseudomonas aeruginosa
+243. Optimization of two-stage anaerobic digestion of food waste for biohydrogen and biomethane
+244. Development of enzymatic membrane reactor for starch hydrolysis in tapioca industry
+245. Kinetic modeling of biodegradation of crude oil by indigenous Indonesian bacteria
+246. Optimization of astaxanthin production from Haematococcus pluvialis in tropical conditions
+247. Development of bioelectrochemical system for simultaneous wastewater treatment and energy recovery
+248. Scale-up of koji fermentation for soy sauce production using controlled environment
+249. Optimization of bioethanol production from sago pith waste using SSF process
+250. Development of algae-bacteria consortium for treatment of aquaculture wastewater
+
+--- CATEGORY 6: ENERGY & FUEL ENGINEERING (251-300) ---
+251. Optimization of biodiesel production from waste cooking oil using heterogeneous catalyst
+252. Techno-economic analysis of bioethanol production from sugarcane bagasse in Indonesian context
+253. Development of bio-oil upgrading process from palm empty fruit bunch pyrolysis
+254. Optimization of biogas purification using water scrubbing for vehicle fuel application
+255. Techno-economic analysis of green hydrogen production from geothermal-powered electrolysis
+256. Development of hydrothermal liquefaction process for microalgae conversion to bio-crude
+257. Optimization of torrefaction of palm kernel shell for solid biofuel production
+258. Techno-economic analysis of palm oil mill as integrated biorefinery for energy self-sufficiency
+259. Development of catalytic upgrading process for pyrolysis oil from mixed plastic waste
+260. Optimization of co-firing palm kernel shell with coal in Indonesian power plant
+261. Techno-economic analysis of dimethyl ether production from palm oil mill biogas
+262. Development of solar-thermal assisted biodiesel production process
+263. Optimization of gasification of Indonesian low-rank coal for syngas production
+264. Techno-economic analysis of biojet fuel production from palm fatty acid distillate
+265. Development of integrated system for biohydrogen and biomethane from POME
+266. Optimization of supercritical biodiesel production from Jatropha curcas oil
+267. Techno-economic analysis of methanol production from captured CO2 and green hydrogen
+268. Development of catalytic fast pyrolysis of palm biomass for aromatic hydrocarbon production
+269. Optimization of palm oil mill effluent biogas for electricity generation
+270. Techno-economic analysis of ammonia as hydrogen carrier for Indonesian energy system
+271. Development of hydrodeoxygenation process for conversion of palm oil to green diesel
+272. Optimization of briquette production from coconut shell charcoal with tapioca binder
+273. Techno-economic analysis of second-generation bioethanol from oil palm trunk
+274. Development of solar-driven photocatalytic water splitting for hydrogen production
+275. Optimization of anaerobic co-digestion of POME with rice straw for enhanced biogas
+276. Techno-economic analysis of bio-LPG production from palm oil processing residues
+277. Development of microwave-assisted pyrolysis of rubber wood for bio-oil production
+278. Optimization of palm biodiesel blending ratio for Indonesian diesel engine performance
+279. Techno-economic analysis of geothermal-powered direct air capture of CO2
+280. Development of catalytic steam reforming of bioethanol for fuel cell hydrogen
+281. Optimization of updraft gasifier for coconut shell gasification
+282. Techno-economic analysis of ocean thermal energy conversion (OTEC) for Indonesian islands
+283. Development of bio-aviation fuel from palm kernel oil via hydroprocessing
+284. Optimization of biochar-based fuel briquette from palm oil mill solid waste
+285. Techno-economic analysis of power-to-methane using Indonesian geothermal electricity
+286. Development of integrated solar-biomass hybrid system for rural energy in Eastern Indonesia
+287. Optimization of fast pyrolysis of sugarcane bagasse for bio-oil production
+288. Techno-economic analysis of waste-to-energy gasification plant for Indonesian municipal solid waste
+289. Development of catalytic hydrothermal gasification of wet biomass for methane production
+290. Optimization of palm oil-based biolubricant production via chemical modification
+291. Techno-economic analysis of floating solar PV integrated with hydropower reservoir
+292. Development of thermochemical energy storage using Indonesian dolomite for CSP application
+293. Optimization of biocrude production from hydrothermal liquefaction of sewage sludge
+294. Techno-economic analysis of biomass-to-liquid fuel via Fischer-Tropsch from palm residues
+295. Development of electrochemical CO2 reduction to formic acid using renewable electricity
+296. Optimization of wood pellet production from Indonesian plantation forest residues
+297. Techno-economic analysis of hydrogen production from natural gas reforming with CCS
+298. Development of catalytic depolymerization of waste plastic to fuel oil
+299. Optimization of biogas desulfurization using iron oxide-coated biochar
+300. Techno-economic analysis of integrated palm oil mill biorefinery with carbon capture
+
+--- CATEGORY 7: ENVIRONMENTAL & SUSTAINABILITY ENGINEERING (301-350) ---
+301. Life cycle assessment of palm oil biodiesel production in Indonesian context
+302. Development of constructed wetland for treatment of palm oil mill effluent
+303. Optimization of advanced oxidation process for degradation of textile dye wastewater
+304. Life cycle assessment of bioethanol production from cassava vs. sugarcane in Indonesia
+305. Development of biochar from rice husk for soil amendment and carbon sequestration
+306. Optimization of electrocoagulation for treatment of batik industry wastewater
+307. Life cycle assessment of plastic waste management scenarios in Indonesian cities
+308. Development of phytoremediation system for heavy metal contaminated soil from mining
+309. Optimization of ozone-based treatment for hospital wastewater disinfection
+310. Life cycle assessment of packaging alternatives: palm-based bioplastic vs. petroleum plastic
+311. Development of adsorption system for removal of microplastics from drinking water
+312. Optimization of Fenton process for treatment of landfill leachate in tropical climate
+313. Life cycle assessment of geothermal power plant in Indonesian volcanic region
+314. Development of bio-based coagulant from Moringa oleifera for water treatment
+315. Optimization of anaerobic-aerobic combined system for rubber processing wastewater
+316. Life cycle assessment of electric vehicle battery production and recycling in Indonesia
+317. Development of green chemistry approach for palm oil-based surfactant production
+318. Optimization of photocatalytic reactor for degradation of pharmaceutical compounds in water
+319. Life cycle assessment of cement production with alternative fuel from palm biomass
+320. Development of membrane-based system for microplastic removal from laundry wastewater
+321. Optimization of bioremediation of petroleum-contaminated soil using indigenous bacteria
+322. Life cycle assessment of paper production from oil palm empty fruit bunch vs. wood pulp
+323. Development of solar-powered electrochemical system for arsenic removal from groundwater
+324. Optimization of composting of municipal organic waste with palm oil mill sludge
+325. Life cycle assessment of natural gas vs. coal power generation in Indonesian grid
+326. Development of algae-based system for CO2 capture from cement plant flue gas
+327. Optimization of wetland-based treatment system for aquaculture wastewater
+328. Life cycle assessment of tin mining and smelting in Bangka-Belitung
+329. Development of green solvent system for extraction of natural products
+330. Optimization of UV/H2O2 process for degradation of pesticide residues in agricultural water
+331. Life cycle assessment of palm oil supply chain with deforestation-free certification
+332. Development of biofilter for odor control in palm oil mill
+333. Optimization of coagulation-flocculation for treatment of coal mining wastewater
+334. Life cycle assessment of Indonesian nickel processing for battery materials
+335. Development of nature-based solution for flood mitigation in industrial area
+336. Optimization of persulfate-based oxidation for PFAS removal from contaminated groundwater
+337. Life cycle assessment of food waste valorization pathways in Indonesian context
+338. Development of circular economy model for palm oil industry waste streams
+339. Optimization of membrane bioreactor for greywater recycling in urban buildings
+340. Life cycle assessment of hydrogen fuel cell vs. battery electric vehicle in Indonesia
+341. Development of carbon footprint reduction strategy for Indonesian petrochemical industry
+342. Optimization of air stripping for removal of ammonia from fertilizer plant wastewater
+343. Life cycle assessment of bamboo-based biorefinery products
+344. Development of green infrastructure for stormwater management in industrial estate
+345. Optimization of biological nutrient removal from palm oil refinery wastewater
+346. Life cycle assessment of solar panel manufacturing and end-of-life in tropical climate
+347. Development of waste heat recovery system for CO2 reduction in cement industry
+348. Optimization of soil vapor extraction for remediation of gasoline-contaminated site
+349. Life cycle assessment of Indonesian crude palm oil: smallholder vs. plantation
+350. Development of integrated waste management system for Indonesian special economic zone
+
+--- CATEGORY 8: POLYMER & MATERIALS ENGINEERING (351-400) ---
+351. Development of biodegradable plastic from cassava starch reinforced with cellulose nanofiber
+352. Optimization of natural rubber latex compounding for improved mechanical properties
+353. Development of palm oil-based polyurethane foam for thermal insulation application
+354. Synthesis and characterization of polyhydroxyalkanoate from palm oil mill effluent
+355. Optimization of electrospinning of PVA/chitosan nanofiber for wound dressing
+356. Development of bio-based epoxy resin from palm oil for composite application
+357. Synthesis of superabsorbent polymer from cassava starch-grafted acrylic acid
+358. Optimization of natural fiber (kenaf/ramie) reinforced polymer composite for automotive
+359. Development of conductive polymer composite from natural rubber and carbon nanotube
+360. Synthesis and characterization of cellulose acetate membrane from oil palm empty fruit bunch
+361. Optimization of vulcanization process for natural rubber using bio-based accelerator
+362. Development of starch-based edible film with antimicrobial properties for food packaging
+363. Synthesis of silica aerogel from rice husk ash for thermal insulation
+364. Optimization of injection molding of recycled PET/palm fiber composite
+365. Development of lignin-based carbon fiber from oil palm biomass
+366. Synthesis and characterization of chitosan-based hydrogel for controlled drug release
+367. Optimization of extrusion process for thermoplastic starch/PBAT blend
+368. Development of natural rubber-based shape memory polymer
+369. Synthesis of nanocellulose from sugarcane bagasse via TEMPO-mediated oxidation
+370. Optimization of compression molding of coconut fiber reinforced polyester composite
+371. Development of palm oil-based alkyd resin for eco-friendly paint formulation
+372. Synthesis and characterization of graphene oxide from Indonesian graphite
+373. Optimization of reactive extrusion for compatibilization of PLA/natural rubber blend
+374. Development of bio-based adhesive from palm kernel cake protein
+375. Synthesis of calcium carbonate nanoparticles from Indonesian limestone for polymer filler
+376. Optimization of rotational molding of LLDPE/rice husk composite
+377. Development of self-healing polymer coating from palm oil-based microcapsules
+378. Synthesis and characterization of activated carbon fiber from palm oil trunk
+379. Optimization of 3D printing parameters for PLA/coconut shell powder composite
+380. Development of fire-retardant coating from palm oil-based intumescent system
+381. Synthesis of bio-based polyol from palm oil for flexible foam production
+382. Optimization of film blowing of starch/PBAT blend for mulch film application
+383. Development of natural rubber latex foam with improved comfort properties
+384. Synthesis and characterization of zeolite-filled mixed matrix membrane from kaolin
+385. Optimization of surface treatment of palm fiber for improved polymer adhesion
+386. Development of biodegradable mulch film from cassava starch and PLA blend
+387. Synthesis of mesoporous silica from geothermal sludge for catalyst support
+388. Optimization of twin-screw extrusion of wood-plastic composite from recycled HDPE
+389. Development of palm oil-based pressure-sensitive adhesive
+390. Synthesis and characterization of hydroxyapatite from Indonesian bovine bone for biomedical use
+391. Optimization of emulsion polymerization of natural rubber-PMMA core-shell particles
+392. Development of bio-nanocomposite from bacterial cellulose and palm oil-based resin
+393. Synthesis of carbon quantum dots from coconut shell for fluorescent sensor
+394. Optimization of calendering process for natural rubber/clay nanocomposite
+395. Development of palm oil-based plasticizer as replacement for phthalate in PVC
+396. Synthesis and characterization of biocomposite from sago starch and bamboo fiber
+397. Optimization of solution casting of cellulose/ionic liquid film for packaging
+398. Development of rubber-modified asphalt using waste tire rubber for Indonesian roads
+399. Synthesis of metal-organic framework from Indonesian metal precursor for gas storage
+400. Optimization of polymer flooding formulation for enhanced oil recovery in Indonesian field
+
+--- CATEGORY 9: FOOD & PHARMACEUTICAL ENGINEERING (401-450) ---
+401. Optimization of spray drying of coconut milk powder with maltodextrin encapsulant
+402. Development of supercritical CO2 extraction of curcumin from Indonesian turmeric
+403. Optimization of microencapsulation of palm oil carotenoids using spray drying
+404. Development of membrane-based clarification process for sugarcane juice
+405. Optimization of freeze drying of tropical fruit (mangosteen) for nutraceutical application
+406. Development of continuous crystallization process for pharmaceutical-grade paracetamol
+407. Optimization of ultrasound-assisted extraction of anthocyanin from roselle (Hibiscus sabdariffa)
+408. Development of edible coating from palm oil-based wax for fruit preservation
+409. Optimization of enzymatic hydrolysis of coconut protein for bioactive peptide production
+410. Development of nanoemulsion delivery system for palm oil-derived tocotrienol
+411. Optimization of supercritical CO2 extraction of essential oil from Indonesian nutmeg
+412. Development of extrusion process for fortified instant porridge from local cereals
+413. Optimization of ohmic heating for sterilization of coconut water
+414. Development of microfluidic system for production of drug-loaded microspheres
+415. Optimization of vacuum frying of jackfruit chips with oil content reduction
+416. Development of solid lipid nanoparticle from palm oil for drug delivery
+417. Optimization of pulsed electric field extraction of polyphenols from mangosteen peel
+418. Development of fluidized bed coating process for enteric-coated herbal tablet
+419. Optimization of membrane emulsification for production of palm oil-based W/O/W emulsion
+420. Development of continuous flow synthesis of active pharmaceutical ingredient
+421. Optimization of high-pressure processing for preservation of fresh coconut water
+422. Development of palm oil-based lipid nanocarrier for topical drug delivery
+423. Optimization of hot-melt extrusion for amorphous solid dispersion of poorly soluble drug
+424. Development of encapsulation of probiotics using palm oil-based coating material
+425. Optimization of supercritical antisolvent process for nanonization of herbal extract
+426. Development of membrane-based concentration of fruit juice without thermal degradation
+427. Optimization of drum drying of instant baby food from local sweet potato
+428. Development of microreactor for continuous production of biodegradable polymer nanoparticles
+429. Optimization of ultrafiltration for whey protein concentration from dairy waste
+430. Development of palm oil-based suppository formulation with controlled release
+431. Optimization of osmotic dehydration of tropical fruit using palm sugar solution
+432. Development of electrospun nanofiber for transdermal drug delivery patch
+433. Optimization of extraction of collagen from milkfish (Chanos chanos) scales
+434. Development of spray-dried inhalable powder from Indonesian herbal medicine
+435. Optimization of fermentation of tempeh-based functional food with enhanced isoflavone
+436. Development of 3D-printed tablet with customized drug release profile
+437. Optimization of supercritical CO2 decaffeination of Indonesian Robusta coffee
+438. Development of palm oil-based self-emulsifying drug delivery system (SEDDS)
+439. Optimization of vacuum belt drying of Moringa leaf powder for nutrition supplement
+440. Development of continuous flow hydrogenation for pharmaceutical intermediate production
+441. Optimization of microwave-assisted extraction of pectin from citrus peel waste
+442. Development of liposome from palm oil lecithin for vaccine adjuvant
+443. Optimization of spray chilling for encapsulation of fish oil in palm fat matrix
+444. Development of twin-screw granulation process for herbal tablet formulation
+445. Optimization of enzyme-assisted aqueous extraction of virgin coconut oil
+446. Development of nanostructured lipid carrier from palm oil for cosmetic application
+447. Optimization of refractance window drying of papaya puree for instant powder
+448. Development of continuous chromatography for purification of palm-derived phytosterol
+449. Optimization of subcritical water extraction of flavonoid from Indonesian propolis
+450. Development of palm oil-based transdermal patch for anti-inflammatory drug delivery
+
+--- CATEGORY 10: PROCESS SAFETY & CONTROL (451-500) ---
+451. HAZOP analysis of biodiesel production plant using reactive distillation technology
+452. Development of model predictive control for palm oil refinery deodorizer temperature
+453. Risk assessment of ammonia storage facility in Indonesian fertilizer plant
+454. Development of fault detection system using machine learning for chemical reactor
+455. HAZOP analysis of LNG regasification terminal in Indonesian port facility
+456. Development of advanced process control for distillation column energy optimization
+457. Quantitative risk assessment of hydrogen storage for fuel cell application
+458. Development of soft sensor for online monitoring of palm oil quality parameters
+459. HAZOP analysis of supercritical CO2 extraction plant for food processing
+460. Development of neural network-based predictive control for batch reactor temperature
+461. Fire and explosion risk assessment of palm oil mill boiler system
+462. Development of real-time optimization system for natural gas processing plant
+463. HAZOP analysis of biogas upgrading plant with pressure swing adsorption
+464. Development of PID auto-tuning method for pH control in wastewater treatment
+465. Consequence analysis of chlorine gas release from water treatment plant
+466. Development of data-driven process monitoring for early fault detection in refinery
+467. HAZOP analysis of hydrogen production unit via steam methane reforming
+468. Development of cascade control system for heat exchanger network in palm oil mill
+469. Bow-tie analysis of dust explosion risk in palm kernel crushing plant
+470. Development of inferential control for product quality in polymer reactor
+471. Layer of protection analysis (LOPA) for runaway reaction in batch pharmaceutical reactor
+472. Development of multivariable control for crude distillation unit optimization
+473. Safety integrity level (SIL) assessment for emergency shutdown system in gas plant
+474. Development of digital twin for predictive maintenance of rotating equipment
+475. HAZOP analysis of waste incineration plant for hazardous chemical waste
+476. Development of fuzzy logic control for dissolved oxygen in aerobic wastewater treatment
+477. Quantitative risk assessment of pipeline transportation of natural gas in urban area
+478. Development of machine learning-based alarm management system for petrochemical plant
+479. HAZOP analysis of palm oil-based oleochemical plant with fatty acid distillation
+480. Development of nonlinear model predictive control for polymerization reactor
+481. Domino effect analysis of chemical industrial estate in Indonesian special economic zone
+482. Development of reinforcement learning-based control for continuous crystallization process
+483. Human reliability analysis for operator error in Indonesian refinery control room
+484. Development of hybrid model (physics + ML) for process optimization in palm oil mill
+485. HAZOP analysis of geothermal power plant silica scaling management system
+486. Development of adaptive control for variable-speed compressor in natural gas pipeline
+487. Explosion protection assessment for grain dust in Indonesian flour mill
+488. Development of state estimation using extended Kalman filter for bioreactor monitoring
+489. Quantitative risk assessment of LPG terminal in densely populated Indonesian coastal area
+490. Development of economic model predictive control for energy-efficient cement kiln operation
+491. HAZOP analysis of electrochemical hydrogen production with high-pressure storage
+492. Development of deep learning-based image recognition for corrosion detection in pipeline
+493. Safety case development for floating LNG production facility in Indonesian waters
+494. Development of distributed control system architecture for modular chemical plant
+495. Bow-tie analysis of thermal runaway in lithium-ion battery manufacturing plant
+496. Development of robust control for uncertain parameters in bioethanol fermentation
+497. Fire risk assessment and mitigation strategy for palm oil storage tank farm
+498. Development of anomaly detection system using autoencoder for process safety monitoring
+499. HAZOP analysis of carbon capture and storage (CCS) injection well system
+500. Development of integrated safety-operability-controllability framework for Indonesian chemical plant design

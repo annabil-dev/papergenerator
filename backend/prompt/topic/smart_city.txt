@@ -3,10 +3,583 @@ TOPIC GUIDE — Smart City
 ================================================================================
 FIELD: Urban Studies / Engineering / Computer Science
 DEFAULT CITATION STYLE: IEEE or APA
+SUBDISCIPLINE: IoT, Urban Analytics, Digital Twins, Mobility, Energy, Governance, Citizen Services
 
-METHODOLOGY: urban data analytics, IoT sensor network, traffic simulation,
-  energy consumption modeling, citizen survey, digital twin city
-EQUATIONS: traffic flow model, energy efficiency index, liveability index
-FIGURES: smart city architecture diagram, traffic heat map, energy consumption dashboard
-TABLES: service KPI comparison, energy metrics, citizen satisfaction scores
-VENUES: IEEE Access, Sustainable Cities Society, Cities, J. Urban Technology
+ABSTRACT CHARACTERISTICS:
+  150–250 words. State the smart city problem, study context, data/source material,
+  method, evaluation metrics, principal findings, contribution, limitation, and implication.
+
+INTRODUCTION ELEMENTS:
+  - Define the empirical or conceptual problem and why it matters now.
+  - Identify stakeholders, geographic/social scope, and practical consequences.
+  - Position the work against current literature and policy/technical debates.
+  - State research gap, research questions, objectives, and expected contribution.
+
+LITERATURE REVIEW:
+  Common section name: "Related Work" / "Background" / "Theoretical Framework"
+  - Core theories, frameworks, standards, and domain concepts.
+  - Recent empirical findings and methodological debates.
+  - Dataset, corpus, archive, platform, or field-site precedents.
+  - Limitations in existing evidence and opportunities for replication or extension.
+
+METHODOLOGY:
+  Common section name: "Methods" / "Research Design"
+  - Design: qualitative, quantitative, computational, experimental, comparative, or mixed methods.
+  - Data: sampling frame, inclusion criteria, instruments, preprocessing, and ethics.
+  - Analysis: model, coding scheme, validation strategy, robustness checks, and reproducibility.
+  - Metrics: report validity, reliability, uncertainty, bias, and domain-specific performance indicators.
+
+TYPICAL RESULTS & DISCUSSION:
+  - Present findings by research question, not by raw output sequence.
+  - Compare outcomes with prior studies and explain contextual differences.
+  - Discuss uncertainty, sensitivity, trade-offs, and alternative interpretations.
+  - Tables: descriptive statistics, model results, comparative cases, coded themes.
+  - Figures: conceptual framework, workflow, maps/networks/charts, result dashboards.
+
+TYPICAL FIGURES:
+  - Study design workflow or analytical pipeline.
+  - Conceptual framework or theory-of-change diagram.
+  - Spatial, network, timeline, or distribution visualization as relevant.
+  - Comparative result chart with confidence/uncertainty indicators.
+
+TYPICAL TABLES:
+  - Data/source summary: source | period | coverage | variables | limitations.
+  - Method matrix: research question | data | method | metric | expected output.
+  - Findings table: theme/model/case | evidence | interpretation | implication.
+
+CONCLUSION CHARACTERISTICS:
+  - Answer the research questions directly and quantify or qualify the contribution.
+  - State theoretical, methodological, and practical implications.
+  - Acknowledge limitations in scope, data quality, generalizability, and bias.
+  - Recommend future work with concrete datasets, sites, populations, or methods.
+
+COMMON REFERENCE VENUES:
+  Use leading journals, conferences, books, standards, and domain reports appropriate to the topic.
+
+DOMAIN VOCABULARY:
+  IoT, Urban Analytics, Digital Twins, Mobility, Energy, Governance, Citizen Services
+
+METHODOLOGY KEYWORDS:
+  mixed-methods design, GIS/spatial analysis, survey research, case study comparison, statistical modeling, network analysis, content analysis, simulation modeling, interview-based inquiry, policy evaluation
+
+RESEARCH TOPIC BANK (500 TOPICS)
+
+CATEGORY 1 — Smart Mobility
+001. CATEGORY 2 — Smart Mobility: mixed-methods design of traffic signal interventions in Indonesian secondary cities using accuracy as the primary evaluation lens.
+002. CATEGORY 3 — Smart Mobility: GIS/spatial analysis of traffic signal interventions in coastal metropolitan regions using accessibility as the primary evaluation lens.
+003. CATEGORY 4 — Smart Mobility: survey research of traffic signal interventions in university campuses using resilience as the primary evaluation lens.
+004. CATEGORY 5 — Smart Mobility: case study comparison of traffic signal interventions in rural service areas using usability as the primary evaluation lens.
+005. CATEGORY 6 — Smart Mobility: statistical modeling of traffic signal interventions in low-income neighborhoods using governance quality as the primary evaluation lens.
+006. CATEGORY 7 — Smart Mobility: network analysis of traffic signal interventions in post-pandemic public institutions using accuracy as the primary evaluation lens.
+007. CATEGORY 8 — Smart Mobility: content analysis of traffic signal interventions in rapidly growing suburbs using accessibility as the primary evaluation lens.
+008. CATEGORY 9 — Smart Mobility: simulation modeling of traffic signal interventions in historic city centers using resilience as the primary evaluation lens.
+009. CATEGORY 10 — Smart Mobility: interview-based inquiry of traffic signal interventions in cross-border regions using usability as the primary evaluation lens.
+010. CATEGORY 11 — Smart Mobility: policy evaluation of traffic signal interventions in climate-vulnerable districts using governance quality as the primary evaluation lens.
+011. CATEGORY 12 — Smart Mobility: mixed-methods design of traffic signal interventions in Indonesian secondary cities using accuracy as the primary evaluation lens.
+012. CATEGORY 13 — Smart Mobility: GIS/spatial analysis of traffic signal interventions in coastal metropolitan regions using accessibility as the primary evaluation lens.
+013. CATEGORY 14 — Smart Mobility: survey research of traffic signal interventions in university campuses using resilience as the primary evaluation lens.
+014. CATEGORY 15 — Smart Mobility: case study comparison of traffic signal interventions in rural service areas using usability as the primary evaluation lens.
+015. CATEGORY 16 — Smart Mobility: statistical modeling of traffic signal interventions in low-income neighborhoods using governance quality as the primary evaluation lens.
+016. CATEGORY 17 — Smart Mobility: network analysis of traffic signal interventions in post-pandemic public institutions using accuracy as the primary evaluation lens.
+017. CATEGORY 18 — Smart Mobility: content analysis of traffic signal interventions in rapidly growing suburbs using accessibility as the primary evaluation lens.
+018. CATEGORY 19 — Smart Mobility: simulation modeling of traffic signal interventions in historic city centers using resilience as the primary evaluation lens.
+019. CATEGORY 20 — Smart Mobility: interview-based inquiry of traffic signal interventions in cross-border regions using usability as the primary evaluation lens.
+020. CATEGORY 21 — Smart Mobility: policy evaluation of traffic signal interventions in climate-vulnerable districts using governance quality as the primary evaluation lens.
+021. CATEGORY 22 — Smart Mobility: mixed-methods design of traffic signal interventions in Indonesian secondary cities using accuracy as the primary evaluation lens.
+022. CATEGORY 23 — Smart Mobility: GIS/spatial analysis of traffic signal interventions in coastal metropolitan regions using accessibility as the primary evaluation lens.
+023. CATEGORY 24 — Smart Mobility: survey research of traffic signal interventions in university campuses using resilience as the primary evaluation lens.
+024. CATEGORY 25 — Smart Mobility: case study comparison of traffic signal interventions in rural service areas using usability as the primary evaluation lens.
+025. CATEGORY 26 — Smart Mobility: statistical modeling of traffic signal interventions in low-income neighborhoods using governance quality as the primary evaluation lens.
+026. CATEGORY 27 — Smart Mobility: network analysis of traffic signal interventions in post-pandemic public institutions using accuracy as the primary evaluation lens.
+027. CATEGORY 28 — Smart Mobility: content analysis of traffic signal interventions in rapidly growing suburbs using accessibility as the primary evaluation lens.
+028. CATEGORY 29 — Smart Mobility: simulation modeling of traffic signal interventions in historic city centers using resilience as the primary evaluation lens.
+029. CATEGORY 30 — Smart Mobility: interview-based inquiry of traffic signal interventions in cross-border regions using usability as the primary evaluation lens.
+030. CATEGORY 31 — Smart Mobility: policy evaluation of traffic signal interventions in climate-vulnerable districts using governance quality as the primary evaluation lens.
+031. CATEGORY 32 — Smart Mobility: mixed-methods design of traffic signal interventions in Indonesian secondary cities using accuracy as the primary evaluation lens.
+032. CATEGORY 33 — Smart Mobility: GIS/spatial analysis of traffic signal interventions in coastal metropolitan regions using accessibility as the primary evaluation lens.
+033. CATEGORY 34 — Smart Mobility: survey research of traffic signal interventions in university campuses using resilience as the primary evaluation lens.
+034. CATEGORY 35 — Smart Mobility: case study comparison of traffic signal interventions in rural service areas using usability as the primary evaluation lens.
+035. CATEGORY 36 — Smart Mobility: statistical modeling of traffic signal interventions in low-income neighborhoods using governance quality as the primary evaluation lens.
+036. CATEGORY 37 — Smart Mobility: network analysis of traffic signal interventions in post-pandemic public institutions using accuracy as the primary evaluation lens.
+037. CATEGORY 38 — Smart Mobility: content analysis of traffic signal interventions in rapidly growing suburbs using accessibility as the primary evaluation lens.
+038. CATEGORY 39 — Smart Mobility: simulation modeling of traffic signal interventions in historic city centers using resilience as the primary evaluation lens.
+039. CATEGORY 40 — Smart Mobility: interview-based inquiry of traffic signal interventions in cross-border regions using usability as the primary evaluation lens.
+040. CATEGORY 41 — Smart Mobility: policy evaluation of traffic signal interventions in climate-vulnerable districts using governance quality as the primary evaluation lens.
+041. CATEGORY 42 — Smart Mobility: mixed-methods design of traffic signal interventions in Indonesian secondary cities using accuracy as the primary evaluation lens.
+042. CATEGORY 43 — Smart Mobility: GIS/spatial analysis of traffic signal interventions in coastal metropolitan regions using accessibility as the primary evaluation lens.
+043. CATEGORY 44 — Smart Mobility: survey research of traffic signal interventions in university campuses using resilience as the primary evaluation lens.
+044. CATEGORY 45 — Smart Mobility: case study comparison of traffic signal interventions in rural service areas using usability as the primary evaluation lens.
+045. CATEGORY 46 — Smart Mobility: statistical modeling of traffic signal interventions in low-income neighborhoods using governance quality as the primary evaluation lens.
+046. CATEGORY 47 — Smart Mobility: network analysis of traffic signal interventions in post-pandemic public institutions using accuracy as the primary evaluation lens.
+047. CATEGORY 48 — Smart Mobility: content analysis of traffic signal interventions in rapidly growing suburbs using accessibility as the primary evaluation lens.
+048. CATEGORY 49 — Smart Mobility: simulation modeling of traffic signal interventions in historic city centers using resilience as the primary evaluation lens.
+049. CATEGORY 50 — Smart Mobility: interview-based inquiry of traffic signal interventions in cross-border regions using usability as the primary evaluation lens.
+050. CATEGORY 51 — Smart Mobility: policy evaluation of traffic signal interventions in climate-vulnerable districts using governance quality as the primary evaluation lens.
+
+CATEGORY 2 — Urban IoT Infrastructure
+051. CATEGORY 53 — Urban IoT Infrastructure: GIS/spatial analysis of sensor deployment interventions in Indonesian secondary cities using equity as the primary evaluation lens.
+052. CATEGORY 54 — Urban IoT Infrastructure: survey research of sensor deployment interventions in coastal metropolitan regions using efficiency as the primary evaluation lens.
+053. CATEGORY 55 — Urban IoT Infrastructure: case study comparison of sensor deployment interventions in university campuses using adoption as the primary evaluation lens.
+054. CATEGORY 56 — Urban IoT Infrastructure: statistical modeling of sensor deployment interventions in rural service areas using sustainability as the primary evaluation lens.
+055. CATEGORY 57 — Urban IoT Infrastructure: network analysis of sensor deployment interventions in low-income neighborhoods using social impact as the primary evaluation lens.
+056. CATEGORY 58 — Urban IoT Infrastructure: content analysis of sensor deployment interventions in post-pandemic public institutions using equity as the primary evaluation lens.
+057. CATEGORY 59 — Urban IoT Infrastructure: simulation modeling of sensor deployment interventions in rapidly growing suburbs using efficiency as the primary evaluation lens.
+058. CATEGORY 60 — Urban IoT Infrastructure: interview-based inquiry of sensor deployment interventions in historic city centers using adoption as the primary evaluation lens.
+059. CATEGORY 61 — Urban IoT Infrastructure: policy evaluation of sensor deployment interventions in cross-border regions using sustainability as the primary evaluation lens.
+060. CATEGORY 62 — Urban IoT Infrastructure: mixed-methods design of sensor deployment interventions in climate-vulnerable districts using social impact as the primary evaluation lens.
+061. CATEGORY 63 — Urban IoT Infrastructure: GIS/spatial analysis of sensor deployment interventions in Indonesian secondary cities using equity as the primary evaluation lens.
+062. CATEGORY 64 — Urban IoT Infrastructure: survey research of sensor deployment interventions in coastal metropolitan regions using efficiency as the primary evaluation lens.
+063. CATEGORY 65 — Urban IoT Infrastructure: case study comparison of sensor deployment interventions in university campuses using adoption as the primary evaluation lens.
+064. CATEGORY 66 — Urban IoT Infrastructure: statistical modeling of sensor deployment interventions in rural service areas using sustainability as the primary evaluation lens.
+065. CATEGORY 67 — Urban IoT Infrastructure: network analysis of sensor deployment interventions in low-income neighborhoods using social impact as the primary evaluation lens.
+066. CATEGORY 68 — Urban IoT Infrastructure: content analysis of sensor deployment interventions in post-pandemic public institutions using equity as the primary evaluation lens.
+067. CATEGORY 69 — Urban IoT Infrastructure: simulation modeling of sensor deployment interventions in rapidly growing suburbs using efficiency as the primary evaluation lens.
+068. CATEGORY 70 — Urban IoT Infrastructure: interview-based inquiry of sensor deployment interventions in historic city centers using adoption as the primary evaluation lens.
+069. CATEGORY 71 — Urban IoT Infrastructure: policy evaluation of sensor deployment interventions in cross-border regions using sustainability as the primary evaluation lens.
+070. CATEGORY 72 — Urban IoT Infrastructure: mixed-methods design of sensor deployment interventions in climate-vulnerable districts using social impact as the primary evaluation lens.
+071. CATEGORY 73 — Urban IoT Infrastructure: GIS/spatial analysis of sensor deployment interventions in Indonesian secondary cities using equity as the primary evaluation lens.
+072. CATEGORY 74 — Urban IoT Infrastructure: survey research of sensor deployment interventions in coastal metropolitan regions using efficiency as the primary evaluation lens.
+073. CATEGORY 75 — Urban IoT Infrastructure: case study comparison of sensor deployment interventions in university campuses using adoption as the primary evaluation lens.
+074. CATEGORY 76 — Urban IoT Infrastructure: statistical modeling of sensor deployment interventions in rural service areas using sustainability as the primary evaluation lens.
+075. CATEGORY 77 — Urban IoT Infrastructure: network analysis of sensor deployment interventions in low-income neighborhoods using social impact as the primary evaluation lens.
+076. CATEGORY 78 — Urban IoT Infrastructure: content analysis of sensor deployment interventions in post-pandemic public institutions using equity as the primary evaluation lens.
+077. CATEGORY 79 — Urban IoT Infrastructure: simulation modeling of sensor deployment interventions in rapidly growing suburbs using efficiency as the primary evaluation lens.
+078. CATEGORY 80 — Urban IoT Infrastructure: interview-based inquiry of sensor deployment interventions in historic city centers using adoption as the primary evaluation lens.
+079. CATEGORY 81 — Urban IoT Infrastructure: policy evaluation of sensor deployment interventions in cross-border regions using sustainability as the primary evaluation lens.
+080. CATEGORY 82 — Urban IoT Infrastructure: mixed-methods design of sensor deployment interventions in climate-vulnerable districts using social impact as the primary evaluation lens.
+081. CATEGORY 83 — Urban IoT Infrastructure: GIS/spatial analysis of sensor deployment interventions in Indonesian secondary cities using equity as the primary evaluation lens.
+082. CATEGORY 84 — Urban IoT Infrastructure: survey research of sensor deployment interventions in coastal metropolitan regions using efficiency as the primary evaluation lens.
+083. CATEGORY 85 — Urban IoT Infrastructure: case study comparison of sensor deployment interventions in university campuses using adoption as the primary evaluation lens.
+084. CATEGORY 86 — Urban IoT Infrastructure: statistical modeling of sensor deployment interventions in rural service areas using sustainability as the primary evaluation lens.
+085. CATEGORY 87 — Urban IoT Infrastructure: network analysis of sensor deployment interventions in low-income neighborhoods using social impact as the primary evaluation lens.
+086. CATEGORY 88 — Urban IoT Infrastructure: content analysis of sensor deployment interventions in post-pandemic public institutions using equity as the primary evaluation lens.
+087. CATEGORY 89 — Urban IoT Infrastructure: simulation modeling of sensor deployment interventions in rapidly growing suburbs using efficiency as the primary evaluation lens.
+088. CATEGORY 90 — Urban IoT Infrastructure: interview-based inquiry of sensor deployment interventions in historic city centers using adoption as the primary evaluation lens.
+089. CATEGORY 91 — Urban IoT Infrastructure: policy evaluation of sensor deployment interventions in cross-border regions using sustainability as the primary evaluation lens.
+090. CATEGORY 92 — Urban IoT Infrastructure: mixed-methods design of sensor deployment interventions in climate-vulnerable districts using social impact as the primary evaluation lens.
+091. CATEGORY 93 — Urban IoT Infrastructure: GIS/spatial analysis of sensor deployment interventions in Indonesian secondary cities using equity as the primary evaluation lens.
+092. CATEGORY 94 — Urban IoT Infrastructure: survey research of sensor deployment interventions in coastal metropolitan regions using efficiency as the primary evaluation lens.
+093. CATEGORY 95 — Urban IoT Infrastructure: case study comparison of sensor deployment interventions in university campuses using adoption as the primary evaluation lens.
+094. CATEGORY 96 — Urban IoT Infrastructure: statistical modeling of sensor deployment interventions in rural service areas using sustainability as the primary evaluation lens.
+095. CATEGORY 97 — Urban IoT Infrastructure: network analysis of sensor deployment interventions in low-income neighborhoods using social impact as the primary evaluation lens.
+096. CATEGORY 98 — Urban IoT Infrastructure: content analysis of sensor deployment interventions in post-pandemic public institutions using equity as the primary evaluation lens.
+097. CATEGORY 99 — Urban IoT Infrastructure: simulation modeling of sensor deployment interventions in rapidly growing suburbs using efficiency as the primary evaluation lens.
+098. CATEGORY 100 — Urban IoT Infrastructure: interview-based inquiry of sensor deployment interventions in historic city centers using adoption as the primary evaluation lens.
+099. CATEGORY 101 — Urban IoT Infrastructure: policy evaluation of sensor deployment interventions in cross-border regions using sustainability as the primary evaluation lens.
+100. CATEGORY 102 — Urban IoT Infrastructure: mixed-methods design of sensor deployment interventions in climate-vulnerable districts using social impact as the primary evaluation lens.
+
+CATEGORY 3 — Smart Energy
+101. CATEGORY 104 — Smart Energy: survey research of microgrid interventions in Indonesian secondary cities using accessibility as the primary evaluation lens.
+102. CATEGORY 105 — Smart Energy: case study comparison of microgrid interventions in coastal metropolitan regions using resilience as the primary evaluation lens.
+103. CATEGORY 106 — Smart Energy: statistical modeling of microgrid interventions in university campuses using usability as the primary evaluation lens.
+104. CATEGORY 107 — Smart Energy: network analysis of microgrid interventions in rural service areas using governance quality as the primary evaluation lens.
+105. CATEGORY 108 — Smart Energy: content analysis of microgrid interventions in low-income neighborhoods using accuracy as the primary evaluation lens.
+106. CATEGORY 109 — Smart Energy: simulation modeling of microgrid interventions in post-pandemic public institutions using accessibility as the primary evaluation lens.
+107. CATEGORY 110 — Smart Energy: interview-based inquiry of microgrid interventions in rapidly growing suburbs using resilience as the primary evaluation lens.
+108. CATEGORY 111 — Smart Energy: policy evaluation of microgrid interventions in historic city centers using usability as the primary evaluation lens.
+109. CATEGORY 112 — Smart Energy: mixed-methods design of microgrid interventions in cross-border regions using governance quality as the primary evaluation lens.
+110. CATEGORY 113 — Smart Energy: GIS/spatial analysis of microgrid interventions in climate-vulnerable districts using accuracy as the primary evaluation lens.
+111. CATEGORY 114 — Smart Energy: survey research of microgrid interventions in Indonesian secondary cities using accessibility as the primary evaluation lens.
+112. CATEGORY 115 — Smart Energy: case study comparison of microgrid interventions in coastal metropolitan regions using resilience as the primary evaluation lens.
+113. CATEGORY 116 — Smart Energy: statistical modeling of microgrid interventions in university campuses using usability as the primary evaluation lens.
+114. CATEGORY 117 — Smart Energy: network analysis of microgrid interventions in rural service areas using governance quality as the primary evaluation lens.
+115. CATEGORY 118 — Smart Energy: content analysis of microgrid interventions in low-income neighborhoods using accuracy as the primary evaluation lens.
+116. CATEGORY 119 — Smart Energy: simulation modeling of microgrid interventions in post-pandemic public institutions using accessibility as the primary evaluation lens.
+117. CATEGORY 120 — Smart Energy: interview-based inquiry of microgrid interventions in rapidly growing suburbs using resilience as the primary evaluation lens.
+118. CATEGORY 121 — Smart Energy: policy evaluation of microgrid interventions in historic city centers using usability as the primary evaluation lens.
+119. CATEGORY 122 — Smart Energy: mixed-methods design of microgrid interventions in cross-border regions using governance quality as the primary evaluation lens.
+120. CATEGORY 123 — Smart Energy: GIS/spatial analysis of microgrid interventions in climate-vulnerable districts using accuracy as the primary evaluation lens.
+121. CATEGORY 124 — Smart Energy: survey research of microgrid interventions in Indonesian secondary cities using accessibility as the primary evaluation lens.
+122. CATEGORY 125 — Smart Energy: case study comparison of microgrid interventions in coastal metropolitan regions using resilience as the primary evaluation lens.
+123. CATEGORY 126 — Smart Energy: statistical modeling of microgrid interventions in university campuses using usability as the primary evaluation lens.
+124. CATEGORY 127 — Smart Energy: network analysis of microgrid interventions in rural service areas using governance quality as the primary evaluation lens.
+125. CATEGORY 128 — Smart Energy: content analysis of microgrid interventions in low-income neighborhoods using accuracy as the primary evaluation lens.
+126. CATEGORY 129 — Smart Energy: simulation modeling of microgrid interventions in post-pandemic public institutions using accessibility as the primary evaluation lens.
+127. CATEGORY 130 — Smart Energy: interview-based inquiry of microgrid interventions in rapidly growing suburbs using resilience as the primary evaluation lens.
+128. CATEGORY 131 — Smart Energy: policy evaluation of microgrid interventions in historic city centers using usability as the primary evaluation lens.
+129. CATEGORY 132 — Smart Energy: mixed-methods design of microgrid interventions in cross-border regions using governance quality as the primary evaluation lens.
+130. CATEGORY 133 — Smart Energy: GIS/spatial analysis of microgrid interventions in climate-vulnerable districts using accuracy as the primary evaluation lens.
+131. CATEGORY 134 — Smart Energy: survey research of microgrid interventions in Indonesian secondary cities using accessibility as the primary evaluation lens.
+132. CATEGORY 135 — Smart Energy: case study comparison of microgrid interventions in coastal metropolitan regions using resilience as the primary evaluation lens.
+133. CATEGORY 136 — Smart Energy: statistical modeling of microgrid interventions in university campuses using usability as the primary evaluation lens.
+134. CATEGORY 137 — Smart Energy: network analysis of microgrid interventions in rural service areas using governance quality as the primary evaluation lens.
+135. CATEGORY 138 — Smart Energy: content analysis of microgrid interventions in low-income neighborhoods using accuracy as the primary evaluation lens.
+136. CATEGORY 139 — Smart Energy: simulation modeling of microgrid interventions in post-pandemic public institutions using accessibility as the primary evaluation lens.
+137. CATEGORY 140 — Smart Energy: interview-based inquiry of microgrid interventions in rapidly growing suburbs using resilience as the primary evaluation lens.
+138. CATEGORY 141 — Smart Energy: policy evaluation of microgrid interventions in historic city centers using usability as the primary evaluation lens.
+139. CATEGORY 142 — Smart Energy: mixed-methods design of microgrid interventions in cross-border regions using governance quality as the primary evaluation lens.
+140. CATEGORY 143 — Smart Energy: GIS/spatial analysis of microgrid interventions in climate-vulnerable districts using accuracy as the primary evaluation lens.
+141. CATEGORY 144 — Smart Energy: survey research of microgrid interventions in Indonesian secondary cities using accessibility as the primary evaluation lens.
+142. CATEGORY 145 — Smart Energy: case study comparison of microgrid interventions in coastal metropolitan regions using resilience as the primary evaluation lens.
+143. CATEGORY 146 — Smart Energy: statistical modeling of microgrid interventions in university campuses using usability as the primary evaluation lens.
+144. CATEGORY 147 — Smart Energy: network analysis of microgrid interventions in rural service areas using governance quality as the primary evaluation lens.
+145. CATEGORY 148 — Smart Energy: content analysis of microgrid interventions in low-income neighborhoods using accuracy as the primary evaluation lens.
+146. CATEGORY 149 — Smart Energy: simulation modeling of microgrid interventions in post-pandemic public institutions using accessibility as the primary evaluation lens.
+147. CATEGORY 150 — Smart Energy: interview-based inquiry of microgrid interventions in rapidly growing suburbs using resilience as the primary evaluation lens.
+148. CATEGORY 151 — Smart Energy: policy evaluation of microgrid interventions in historic city centers using usability as the primary evaluation lens.
+149. CATEGORY 152 — Smart Energy: mixed-methods design of microgrid interventions in cross-border regions using governance quality as the primary evaluation lens.
+150. CATEGORY 153 — Smart Energy: GIS/spatial analysis of microgrid interventions in climate-vulnerable districts using accuracy as the primary evaluation lens.
+
+CATEGORY 4 — Digital Twin Cities
+151. CATEGORY 155 — Digital Twin Cities: case study comparison of 3D city model interventions in Indonesian secondary cities using efficiency as the primary evaluation lens.
+152. CATEGORY 156 — Digital Twin Cities: statistical modeling of 3D city model interventions in coastal metropolitan regions using adoption as the primary evaluation lens.
+153. CATEGORY 157 — Digital Twin Cities: network analysis of 3D city model interventions in university campuses using sustainability as the primary evaluation lens.
+154. CATEGORY 158 — Digital Twin Cities: content analysis of 3D city model interventions in rural service areas using social impact as the primary evaluation lens.
+155. CATEGORY 159 — Digital Twin Cities: simulation modeling of 3D city model interventions in low-income neighborhoods using equity as the primary evaluation lens.
+156. CATEGORY 160 — Digital Twin Cities: interview-based inquiry of 3D city model interventions in post-pandemic public institutions using efficiency as the primary evaluation lens.
+157. CATEGORY 161 — Digital Twin Cities: policy evaluation of 3D city model interventions in rapidly growing suburbs using adoption as the primary evaluation lens.
+158. CATEGORY 162 — Digital Twin Cities: mixed-methods design of 3D city model interventions in historic city centers using sustainability as the primary evaluation lens.
+159. CATEGORY 163 — Digital Twin Cities: GIS/spatial analysis of 3D city model interventions in cross-border regions using social impact as the primary evaluation lens.
+160. CATEGORY 164 — Digital Twin Cities: survey research of 3D city model interventions in climate-vulnerable districts using equity as the primary evaluation lens.
+161. CATEGORY 165 — Digital Twin Cities: case study comparison of 3D city model interventions in Indonesian secondary cities using efficiency as the primary evaluation lens.
+162. CATEGORY 166 — Digital Twin Cities: statistical modeling of 3D city model interventions in coastal metropolitan regions using adoption as the primary evaluation lens.
+163. CATEGORY 167 — Digital Twin Cities: network analysis of 3D city model interventions in university campuses using sustainability as the primary evaluation lens.
+164. CATEGORY 168 — Digital Twin Cities: content analysis of 3D city model interventions in rural service areas using social impact as the primary evaluation lens.
+165. CATEGORY 169 — Digital Twin Cities: simulation modeling of 3D city model interventions in low-income neighborhoods using equity as the primary evaluation lens.
+166. CATEGORY 170 — Digital Twin Cities: interview-based inquiry of 3D city model interventions in post-pandemic public institutions using efficiency as the primary evaluation lens.
+167. CATEGORY 171 — Digital Twin Cities: policy evaluation of 3D city model interventions in rapidly growing suburbs using adoption as the primary evaluation lens.
+168. CATEGORY 172 — Digital Twin Cities: mixed-methods design of 3D city model interventions in historic city centers using sustainability as the primary evaluation lens.
+169. CATEGORY 173 — Digital Twin Cities: GIS/spatial analysis of 3D city model interventions in cross-border regions using social impact as the primary evaluation lens.
+170. CATEGORY 174 — Digital Twin Cities: survey research of 3D city model interventions in climate-vulnerable districts using equity as the primary evaluation lens.
+171. CATEGORY 175 — Digital Twin Cities: case study comparison of 3D city model interventions in Indonesian secondary cities using efficiency as the primary evaluation lens.
+172. CATEGORY 176 — Digital Twin Cities: statistical modeling of 3D city model interventions in coastal metropolitan regions using adoption as the primary evaluation lens.
+173. CATEGORY 177 — Digital Twin Cities: network analysis of 3D city model interventions in university campuses using sustainability as the primary evaluation lens.
+174. CATEGORY 178 — Digital Twin Cities: content analysis of 3D city model interventions in rural service areas using social impact as the primary evaluation lens.
+175. CATEGORY 179 — Digital Twin Cities: simulation modeling of 3D city model interventions in low-income neighborhoods using equity as the primary evaluation lens.
+176. CATEGORY 180 — Digital Twin Cities: interview-based inquiry of 3D city model interventions in post-pandemic public institutions using efficiency as the primary evaluation lens.
+177. CATEGORY 181 — Digital Twin Cities: policy evaluation of 3D city model interventions in rapidly growing suburbs using adoption as the primary evaluation lens.
+178. CATEGORY 182 — Digital Twin Cities: mixed-methods design of 3D city model interventions in historic city centers using sustainability as the primary evaluation lens.
+179. CATEGORY 183 — Digital Twin Cities: GIS/spatial analysis of 3D city model interventions in cross-border regions using social impact as the primary evaluation lens.
+180. CATEGORY 184 — Digital Twin Cities: survey research of 3D city model interventions in climate-vulnerable districts using equity as the primary evaluation lens.
+181. CATEGORY 185 — Digital Twin Cities: case study comparison of 3D city model interventions in Indonesian secondary cities using efficiency as the primary evaluation lens.
+182. CATEGORY 186 — Digital Twin Cities: statistical modeling of 3D city model interventions in coastal metropolitan regions using adoption as the primary evaluation lens.
+183. CATEGORY 187 — Digital Twin Cities: network analysis of 3D city model interventions in university campuses using sustainability as the primary evaluation lens.
+184. CATEGORY 188 — Digital Twin Cities: content analysis of 3D city model interventions in rural service areas using social impact as the primary evaluation lens.
+185. CATEGORY 189 — Digital Twin Cities: simulation modeling of 3D city model interventions in low-income neighborhoods using equity as the primary evaluation lens.
+186. CATEGORY 190 — Digital Twin Cities: interview-based inquiry of 3D city model interventions in post-pandemic public institutions using efficiency as the primary evaluation lens.
+187. CATEGORY 191 — Digital Twin Cities: policy evaluation of 3D city model interventions in rapidly growing suburbs using adoption as the primary evaluation lens.
+188. CATEGORY 192 — Digital Twin Cities: mixed-methods design of 3D city model interventions in historic city centers using sustainability as the primary evaluation lens.
+189. CATEGORY 193 — Digital Twin Cities: GIS/spatial analysis of 3D city model interventions in cross-border regions using social impact as the primary evaluation lens.
+190. CATEGORY 194 — Digital Twin Cities: survey research of 3D city model interventions in climate-vulnerable districts using equity as the primary evaluation lens.
+191. CATEGORY 195 — Digital Twin Cities: case study comparison of 3D city model interventions in Indonesian secondary cities using efficiency as the primary evaluation lens.
+192. CATEGORY 196 — Digital Twin Cities: statistical modeling of 3D city model interventions in coastal metropolitan regions using adoption as the primary evaluation lens.
+193. CATEGORY 197 — Digital Twin Cities: network analysis of 3D city model interventions in university campuses using sustainability as the primary evaluation lens.
+194. CATEGORY 198 — Digital Twin Cities: content analysis of 3D city model interventions in rural service areas using social impact as the primary evaluation lens.
+195. CATEGORY 199 — Digital Twin Cities: simulation modeling of 3D city model interventions in low-income neighborhoods using equity as the primary evaluation lens.
+196. CATEGORY 200 — Digital Twin Cities: interview-based inquiry of 3D city model interventions in post-pandemic public institutions using efficiency as the primary evaluation lens.
+197. CATEGORY 201 — Digital Twin Cities: policy evaluation of 3D city model interventions in rapidly growing suburbs using adoption as the primary evaluation lens.
+198. CATEGORY 202 — Digital Twin Cities: mixed-methods design of 3D city model interventions in historic city centers using sustainability as the primary evaluation lens.
+199. CATEGORY 203 — Digital Twin Cities: GIS/spatial analysis of 3D city model interventions in cross-border regions using social impact as the primary evaluation lens.
+200. CATEGORY 204 — Digital Twin Cities: survey research of 3D city model interventions in climate-vulnerable districts using equity as the primary evaluation lens.
+
+CATEGORY 5 — E-Governance
+201. CATEGORY 206 — E-Governance: statistical modeling of service portal interventions in Indonesian secondary cities using resilience as the primary evaluation lens.
+202. CATEGORY 207 — E-Governance: network analysis of service portal interventions in coastal metropolitan regions using usability as the primary evaluation lens.
+203. CATEGORY 208 — E-Governance: content analysis of service portal interventions in university campuses using governance quality as the primary evaluation lens.
+204. CATEGORY 209 — E-Governance: simulation modeling of service portal interventions in rural service areas using accuracy as the primary evaluation lens.
+205. CATEGORY 210 — E-Governance: interview-based inquiry of service portal interventions in low-income neighborhoods using accessibility as the primary evaluation lens.
+206. CATEGORY 211 — E-Governance: policy evaluation of service portal interventions in post-pandemic public institutions using resilience as the primary evaluation lens.
+207. CATEGORY 212 — E-Governance: mixed-methods design of service portal interventions in rapidly growing suburbs using usability as the primary evaluation lens.
+208. CATEGORY 213 — E-Governance: GIS/spatial analysis of service portal interventions in historic city centers using governance quality as the primary evaluation lens.
+209. CATEGORY 214 — E-Governance: survey research of service portal interventions in cross-border regions using accuracy as the primary evaluation lens.
+210. CATEGORY 215 — E-Governance: case study comparison of service portal interventions in climate-vulnerable districts using accessibility as the primary evaluation lens.
+211. CATEGORY 216 — E-Governance: statistical modeling of service portal interventions in Indonesian secondary cities using resilience as the primary evaluation lens.
+212. CATEGORY 217 — E-Governance: network analysis of service portal interventions in coastal metropolitan regions using usability as the primary evaluation lens.
+213. CATEGORY 218 — E-Governance: content analysis of service portal interventions in university campuses using governance quality as the primary evaluation lens.
+214. CATEGORY 219 — E-Governance: simulation modeling of service portal interventions in rural service areas using accuracy as the primary evaluation lens.
+215. CATEGORY 220 — E-Governance: interview-based inquiry of service portal interventions in low-income neighborhoods using accessibility as the primary evaluation lens.
+216. CATEGORY 221 — E-Governance: policy evaluation of service portal interventions in post-pandemic public institutions using resilience as the primary evaluation lens.
+217. CATEGORY 222 — E-Governance: mixed-methods design of service portal interventions in rapidly growing suburbs using usability as the primary evaluation lens.
+218. CATEGORY 223 — E-Governance: GIS/spatial analysis of service portal interventions in historic city centers using governance quality as the primary evaluation lens.
+219. CATEGORY 224 — E-Governance: survey research of service portal interventions in cross-border regions using accuracy as the primary evaluation lens.
+220. CATEGORY 225 — E-Governance: case study comparison of service portal interventions in climate-vulnerable districts using accessibility as the primary evaluation lens.
+221. CATEGORY 226 — E-Governance: statistical modeling of service portal interventions in Indonesian secondary cities using resilience as the primary evaluation lens.
+222. CATEGORY 227 — E-Governance: network analysis of service portal interventions in coastal metropolitan regions using usability as the primary evaluation lens.
+223. CATEGORY 228 — E-Governance: content analysis of service portal interventions in university campuses using governance quality as the primary evaluation lens.
+224. CATEGORY 229 — E-Governance: simulation modeling of service portal interventions in rural service areas using accuracy as the primary evaluation lens.
+225. CATEGORY 230 — E-Governance: interview-based inquiry of service portal interventions in low-income neighborhoods using accessibility as the primary evaluation lens.
+226. CATEGORY 231 — E-Governance: policy evaluation of service portal interventions in post-pandemic public institutions using resilience as the primary evaluation lens.
+227. CATEGORY 232 — E-Governance: mixed-methods design of service portal interventions in rapidly growing suburbs using usability as the primary evaluation lens.
+228. CATEGORY 233 — E-Governance: GIS/spatial analysis of service portal interventions in historic city centers using governance quality as the primary evaluation lens.
+229. CATEGORY 234 — E-Governance: survey research of service portal interventions in cross-border regions using accuracy as the primary evaluation lens.
+230. CATEGORY 235 — E-Governance: case study comparison of service portal interventions in climate-vulnerable districts using accessibility as the primary evaluation lens.
+231. CATEGORY 236 — E-Governance: statistical modeling of service portal interventions in Indonesian secondary cities using resilience as the primary evaluation lens.
+232. CATEGORY 237 — E-Governance: network analysis of service portal interventions in coastal metropolitan regions using usability as the primary evaluation lens.
+233. CATEGORY 238 — E-Governance: content analysis of service portal interventions in university campuses using governance quality as the primary evaluation lens.
+234. CATEGORY 239 — E-Governance: simulation modeling of service portal interventions in rural service areas using accuracy as the primary evaluation lens.
+235. CATEGORY 240 — E-Governance: interview-based inquiry of service portal interventions in low-income neighborhoods using accessibility as the primary evaluation lens.
+236. CATEGORY 241 — E-Governance: policy evaluation of service portal interventions in post-pandemic public institutions using resilience as the primary evaluation lens.
+237. CATEGORY 242 — E-Governance: mixed-methods design of service portal interventions in rapidly growing suburbs using usability as the primary evaluation lens.
+238. CATEGORY 243 — E-Governance: GIS/spatial analysis of service portal interventions in historic city centers using governance quality as the primary evaluation lens.
+239. CATEGORY 244 — E-Governance: survey research of service portal interventions in cross-border regions using accuracy as the primary evaluation lens.
+240. CATEGORY 245 — E-Governance: case study comparison of service portal interventions in climate-vulnerable districts using accessibility as the primary evaluation lens.
+241. CATEGORY 246 — E-Governance: statistical modeling of service portal interventions in Indonesian secondary cities using resilience as the primary evaluation lens.
+242. CATEGORY 247 — E-Governance: network analysis of service portal interventions in coastal metropolitan regions using usability as the primary evaluation lens.
+243. CATEGORY 248 — E-Governance: content analysis of service portal interventions in university campuses using governance quality as the primary evaluation lens.
+244. CATEGORY 249 — E-Governance: simulation modeling of service portal interventions in rural service areas using accuracy as the primary evaluation lens.
+245. CATEGORY 250 — E-Governance: interview-based inquiry of service portal interventions in low-income neighborhoods using accessibility as the primary evaluation lens.
+246. CATEGORY 251 — E-Governance: policy evaluation of service portal interventions in post-pandemic public institutions using resilience as the primary evaluation lens.
+247. CATEGORY 252 — E-Governance: mixed-methods design of service portal interventions in rapidly growing suburbs using usability as the primary evaluation lens.
+248. CATEGORY 253 — E-Governance: GIS/spatial analysis of service portal interventions in historic city centers using governance quality as the primary evaluation lens.
+249. CATEGORY 254 — E-Governance: survey research of service portal interventions in cross-border regions using accuracy as the primary evaluation lens.
+250. CATEGORY 255 — E-Governance: case study comparison of service portal interventions in climate-vulnerable districts using accessibility as the primary evaluation lens.
+
+CATEGORY 6 — Public Safety
+251. CATEGORY 257 — Public Safety: network analysis of emergency response interventions in Indonesian secondary cities using adoption as the primary evaluation lens.
+252. CATEGORY 258 — Public Safety: content analysis of emergency response interventions in coastal metropolitan regions using sustainability as the primary evaluation lens.
+253. CATEGORY 259 — Public Safety: simulation modeling of emergency response interventions in university campuses using social impact as the primary evaluation lens.
+254. CATEGORY 260 — Public Safety: interview-based inquiry of emergency response interventions in rural service areas using equity as the primary evaluation lens.
+255. CATEGORY 261 — Public Safety: policy evaluation of emergency response interventions in low-income neighborhoods using efficiency as the primary evaluation lens.
+256. CATEGORY 262 — Public Safety: mixed-methods design of emergency response interventions in post-pandemic public institutions using adoption as the primary evaluation lens.
+257. CATEGORY 263 — Public Safety: GIS/spatial analysis of emergency response interventions in rapidly growing suburbs using sustainability as the primary evaluation lens.
+258. CATEGORY 264 — Public Safety: survey research of emergency response interventions in historic city centers using social impact as the primary evaluation lens.
+259. CATEGORY 265 — Public Safety: case study comparison of emergency response interventions in cross-border regions using equity as the primary evaluation lens.
+260. CATEGORY 266 — Public Safety: statistical modeling of emergency response interventions in climate-vulnerable districts using efficiency as the primary evaluation lens.
+261. CATEGORY 267 — Public Safety: network analysis of emergency response interventions in Indonesian secondary cities using adoption as the primary evaluation lens.
+262. CATEGORY 268 — Public Safety: content analysis of emergency response interventions in coastal metropolitan regions using sustainability as the primary evaluation lens.
+263. CATEGORY 269 — Public Safety: simulation modeling of emergency response interventions in university campuses using social impact as the primary evaluation lens.
+264. CATEGORY 270 — Public Safety: interview-based inquiry of emergency response interventions in rural service areas using equity as the primary evaluation lens.
+265. CATEGORY 271 — Public Safety: policy evaluation of emergency response interventions in low-income neighborhoods using efficiency as the primary evaluation lens.
+266. CATEGORY 272 — Public Safety: mixed-methods design of emergency response interventions in post-pandemic public institutions using adoption as the primary evaluation lens.
+267. CATEGORY 273 — Public Safety: GIS/spatial analysis of emergency response interventions in rapidly growing suburbs using sustainability as the primary evaluation lens.
+268. CATEGORY 274 — Public Safety: survey research of emergency response interventions in historic city centers using social impact as the primary evaluation lens.
+269. CATEGORY 275 — Public Safety: case study comparison of emergency response interventions in cross-border regions using equity as the primary evaluation lens.
+270. CATEGORY 276 — Public Safety: statistical modeling of emergency response interventions in climate-vulnerable districts using efficiency as the primary evaluation lens.
+271. CATEGORY 277 — Public Safety: network analysis of emergency response interventions in Indonesian secondary cities using adoption as the primary evaluation lens.
+272. CATEGORY 278 — Public Safety: content analysis of emergency response interventions in coastal metropolitan regions using sustainability as the primary evaluation lens.
+273. CATEGORY 279 — Public Safety: simulation modeling of emergency response interventions in university campuses using social impact as the primary evaluation lens.
+274. CATEGORY 280 — Public Safety: interview-based inquiry of emergency response interventions in rural service areas using equity as the primary evaluation lens.
+275. CATEGORY 281 — Public Safety: policy evaluation of emergency response interventions in low-income neighborhoods using efficiency as the primary evaluation lens.
+276. CATEGORY 282 — Public Safety: mixed-methods design of emergency response interventions in post-pandemic public institutions using adoption as the primary evaluation lens.
+277. CATEGORY 283 — Public Safety: GIS/spatial analysis of emergency response interventions in rapidly growing suburbs using sustainability as the primary evaluation lens.
+278. CATEGORY 284 — Public Safety: survey research of emergency response interventions in historic city centers using social impact as the primary evaluation lens.
+279. CATEGORY 285 — Public Safety: case study comparison of emergency response interventions in cross-border regions using equity as the primary evaluation lens.
+280. CATEGORY 286 — Public Safety: statistical modeling of emergency response interventions in climate-vulnerable districts using efficiency as the primary evaluation lens.
+281. CATEGORY 287 — Public Safety: network analysis of emergency response interventions in Indonesian secondary cities using adoption as the primary evaluation lens.
+282. CATEGORY 288 — Public Safety: content analysis of emergency response interventions in coastal metropolitan regions using sustainability as the primary evaluation lens.
+283. CATEGORY 289 — Public Safety: simulation modeling of emergency response interventions in university campuses using social impact as the primary evaluation lens.
+284. CATEGORY 290 — Public Safety: interview-based inquiry of emergency response interventions in rural service areas using equity as the primary evaluation lens.
+285. CATEGORY 291 — Public Safety: policy evaluation of emergency response interventions in low-income neighborhoods using efficiency as the primary evaluation lens.
+286. CATEGORY 292 — Public Safety: mixed-methods design of emergency response interventions in post-pandemic public institutions using adoption as the primary evaluation lens.
+287. CATEGORY 293 — Public Safety: GIS/spatial analysis of emergency response interventions in rapidly growing suburbs using sustainability as the primary evaluation lens.
+288. CATEGORY 294 — Public Safety: survey research of emergency response interventions in historic city centers using social impact as the primary evaluation lens.
+289. CATEGORY 295 — Public Safety: case study comparison of emergency response interventions in cross-border regions using equity as the primary evaluation lens.
+290. CATEGORY 296 — Public Safety: statistical modeling of emergency response interventions in climate-vulnerable districts using efficiency as the primary evaluation lens.
+291. CATEGORY 297 — Public Safety: network analysis of emergency response interventions in Indonesian secondary cities using adoption as the primary evaluation lens.
+292. CATEGORY 298 — Public Safety: content analysis of emergency response interventions in coastal metropolitan regions using sustainability as the primary evaluation lens.
+293. CATEGORY 299 — Public Safety: simulation modeling of emergency response interventions in university campuses using social impact as the primary evaluation lens.
+294. CATEGORY 300 — Public Safety: interview-based inquiry of emergency response interventions in rural service areas using equity as the primary evaluation lens.
+295. CATEGORY 301 — Public Safety: policy evaluation of emergency response interventions in low-income neighborhoods using efficiency as the primary evaluation lens.
+296. CATEGORY 302 — Public Safety: mixed-methods design of emergency response interventions in post-pandemic public institutions using adoption as the primary evaluation lens.
+297. CATEGORY 303 — Public Safety: GIS/spatial analysis of emergency response interventions in rapidly growing suburbs using sustainability as the primary evaluation lens.
+298. CATEGORY 304 — Public Safety: survey research of emergency response interventions in historic city centers using social impact as the primary evaluation lens.
+299. CATEGORY 305 — Public Safety: case study comparison of emergency response interventions in cross-border regions using equity as the primary evaluation lens.
+300. CATEGORY 306 — Public Safety: statistical modeling of emergency response interventions in climate-vulnerable districts using efficiency as the primary evaluation lens.
+
+CATEGORY 7 — Smart Water and Waste
+301. CATEGORY 308 — Smart Water and Waste: content analysis of waste routing interventions in Indonesian secondary cities using usability as the primary evaluation lens.
+302. CATEGORY 309 — Smart Water and Waste: simulation modeling of waste routing interventions in coastal metropolitan regions using governance quality as the primary evaluation lens.
+303. CATEGORY 310 — Smart Water and Waste: interview-based inquiry of waste routing interventions in university campuses using accuracy as the primary evaluation lens.
+304. CATEGORY 311 — Smart Water and Waste: policy evaluation of waste routing interventions in rural service areas using accessibility as the primary evaluation lens.
+305. CATEGORY 312 — Smart Water and Waste: mixed-methods design of waste routing interventions in low-income neighborhoods using resilience as the primary evaluation lens.
+306. CATEGORY 313 — Smart Water and Waste: GIS/spatial analysis of waste routing interventions in post-pandemic public institutions using usability as the primary evaluation lens.
+307. CATEGORY 314 — Smart Water and Waste: survey research of waste routing interventions in rapidly growing suburbs using governance quality as the primary evaluation lens.
+308. CATEGORY 315 — Smart Water and Waste: case study comparison of waste routing interventions in historic city centers using accuracy as the primary evaluation lens.
+309. CATEGORY 316 — Smart Water and Waste: statistical modeling of waste routing interventions in cross-border regions using accessibility as the primary evaluation lens.
+310. CATEGORY 317 — Smart Water and Waste: network analysis of waste routing interventions in climate-vulnerable districts using resilience as the primary evaluation lens.
+311. CATEGORY 318 — Smart Water and Waste: content analysis of waste routing interventions in Indonesian secondary cities using usability as the primary evaluation lens.
+312. CATEGORY 319 — Smart Water and Waste: simulation modeling of waste routing interventions in coastal metropolitan regions using governance quality as the primary evaluation lens.
+313. CATEGORY 320 — Smart Water and Waste: interview-based inquiry of waste routing interventions in university campuses using accuracy as the primary evaluation lens.
+314. CATEGORY 321 — Smart Water and Waste: policy evaluation of waste routing interventions in rural service areas using accessibility as the primary evaluation lens.
+315. CATEGORY 322 — Smart Water and Waste: mixed-methods design of waste routing interventions in low-income neighborhoods using resilience as the primary evaluation lens.
+316. CATEGORY 323 — Smart Water and Waste: GIS/spatial analysis of waste routing interventions in post-pandemic public institutions using usability as the primary evaluation lens.
+317. CATEGORY 324 — Smart Water and Waste: survey research of waste routing interventions in rapidly growing suburbs using governance quality as the primary evaluation lens.
+318. CATEGORY 325 — Smart Water and Waste: case study comparison of waste routing interventions in historic city centers using accuracy as the primary evaluation lens.
+319. CATEGORY 326 — Smart Water and Waste: statistical modeling of waste routing interventions in cross-border regions using accessibility as the primary evaluation lens.
+320. CATEGORY 327 — Smart Water and Waste: network analysis of waste routing interventions in climate-vulnerable districts using resilience as the primary evaluation lens.
+321. CATEGORY 328 — Smart Water and Waste: content analysis of waste routing interventions in Indonesian secondary cities using usability as the primary evaluation lens.
+322. CATEGORY 329 — Smart Water and Waste: simulation modeling of waste routing interventions in coastal metropolitan regions using governance quality as the primary evaluation lens.
+323. CATEGORY 330 — Smart Water and Waste: interview-based inquiry of waste routing interventions in university campuses using accuracy as the primary evaluation lens.
+324. CATEGORY 331 — Smart Water and Waste: policy evaluation of waste routing interventions in rural service areas using accessibility as the primary evaluation lens.
+325. CATEGORY 332 — Smart Water and Waste: mixed-methods design of waste routing interventions in low-income neighborhoods using resilience as the primary evaluation lens.
+326. CATEGORY 333 — Smart Water and Waste: GIS/spatial analysis of waste routing interventions in post-pandemic public institutions using usability as the primary evaluation lens.
+327. CATEGORY 334 — Smart Water and Waste: survey research of waste routing interventions in rapidly growing suburbs using governance quality as the primary evaluation lens.
+328. CATEGORY 335 — Smart Water and Waste: case study comparison of waste routing interventions in historic city centers using accuracy as the primary evaluation lens.
+329. CATEGORY 336 — Smart Water and Waste: statistical modeling of waste routing interventions in cross-border regions using accessibility as the primary evaluation lens.
+330. CATEGORY 337 — Smart Water and Waste: network analysis of waste routing interventions in climate-vulnerable districts using resilience as the primary evaluation lens.
+331. CATEGORY 338 — Smart Water and Waste: content analysis of waste routing interventions in Indonesian secondary cities using usability as the primary evaluation lens.
+332. CATEGORY 339 — Smart Water and Waste: simulation modeling of waste routing interventions in coastal metropolitan regions using governance quality as the primary evaluation lens.
+333. CATEGORY 340 — Smart Water and Waste: interview-based inquiry of waste routing interventions in university campuses using accuracy as the primary evaluation lens.
+334. CATEGORY 341 — Smart Water and Waste: policy evaluation of waste routing interventions in rural service areas using accessibility as the primary evaluation lens.
+335. CATEGORY 342 — Smart Water and Waste: mixed-methods design of waste routing interventions in low-income neighborhoods using resilience as the primary evaluation lens.
+336. CATEGORY 343 — Smart Water and Waste: GIS/spatial analysis of waste routing interventions in post-pandemic public institutions using usability as the primary evaluation lens.
+337. CATEGORY 344 — Smart Water and Waste: survey research of waste routing interventions in rapidly growing suburbs using governance quality as the primary evaluation lens.
+338. CATEGORY 345 — Smart Water and Waste: case study comparison of waste routing interventions in historic city centers using accuracy as the primary evaluation lens.
+339. CATEGORY 346 — Smart Water and Waste: statistical modeling of waste routing interventions in cross-border regions using accessibility as the primary evaluation lens.
+340. CATEGORY 347 — Smart Water and Waste: network analysis of waste routing interventions in climate-vulnerable districts using resilience as the primary evaluation lens.
+341. CATEGORY 348 — Smart Water and Waste: content analysis of waste routing interventions in Indonesian secondary cities using usability as the primary evaluation lens.
+342. CATEGORY 349 — Smart Water and Waste: simulation modeling of waste routing interventions in coastal metropolitan regions using governance quality as the primary evaluation lens.
+343. CATEGORY 350 — Smart Water and Waste: interview-based inquiry of waste routing interventions in university campuses using accuracy as the primary evaluation lens.
+344. CATEGORY 351 — Smart Water and Waste: policy evaluation of waste routing interventions in rural service areas using accessibility as the primary evaluation lens.
+345. CATEGORY 352 — Smart Water and Waste: mixed-methods design of waste routing interventions in low-income neighborhoods using resilience as the primary evaluation lens.
+346. CATEGORY 353 — Smart Water and Waste: GIS/spatial analysis of waste routing interventions in post-pandemic public institutions using usability as the primary evaluation lens.
+347. CATEGORY 354 — Smart Water and Waste: survey research of waste routing interventions in rapidly growing suburbs using governance quality as the primary evaluation lens.
+348. CATEGORY 355 — Smart Water and Waste: case study comparison of waste routing interventions in historic city centers using accuracy as the primary evaluation lens.
+349. CATEGORY 356 — Smart Water and Waste: statistical modeling of waste routing interventions in cross-border regions using accessibility as the primary evaluation lens.
+350. CATEGORY 357 — Smart Water and Waste: network analysis of waste routing interventions in climate-vulnerable districts using resilience as the primary evaluation lens.
+
+CATEGORY 8 — Citizen Participation
+351. CATEGORY 359 — Citizen Participation: simulation modeling of participatory app interventions in Indonesian secondary cities using sustainability as the primary evaluation lens.
+352. CATEGORY 360 — Citizen Participation: interview-based inquiry of participatory app interventions in coastal metropolitan regions using social impact as the primary evaluation lens.
+353. CATEGORY 361 — Citizen Participation: policy evaluation of participatory app interventions in university campuses using equity as the primary evaluation lens.
+354. CATEGORY 362 — Citizen Participation: mixed-methods design of participatory app interventions in rural service areas using efficiency as the primary evaluation lens.
+355. CATEGORY 363 — Citizen Participation: GIS/spatial analysis of participatory app interventions in low-income neighborhoods using adoption as the primary evaluation lens.
+356. CATEGORY 364 — Citizen Participation: survey research of participatory app interventions in post-pandemic public institutions using sustainability as the primary evaluation lens.
+357. CATEGORY 365 — Citizen Participation: case study comparison of participatory app interventions in rapidly growing suburbs using social impact as the primary evaluation lens.
+358. CATEGORY 366 — Citizen Participation: statistical modeling of participatory app interventions in historic city centers using equity as the primary evaluation lens.
+359. CATEGORY 367 — Citizen Participation: network analysis of participatory app interventions in cross-border regions using efficiency as the primary evaluation lens.
+360. CATEGORY 368 — Citizen Participation: content analysis of participatory app interventions in climate-vulnerable districts using adoption as the primary evaluation lens.
+361. CATEGORY 369 — Citizen Participation: simulation modeling of participatory app interventions in Indonesian secondary cities using sustainability as the primary evaluation lens.
+362. CATEGORY 370 — Citizen Participation: interview-based inquiry of participatory app interventions in coastal metropolitan regions using social impact as the primary evaluation lens.
+363. CATEGORY 371 — Citizen Participation: policy evaluation of participatory app interventions in university campuses using equity as the primary evaluation lens.
+364. CATEGORY 372 — Citizen Participation: mixed-methods design of participatory app interventions in rural service areas using efficiency as the primary evaluation lens.
+365. CATEGORY 373 — Citizen Participation: GIS/spatial analysis of participatory app interventions in low-income neighborhoods using adoption as the primary evaluation lens.
+366. CATEGORY 374 — Citizen Participation: survey research of participatory app interventions in post-pandemic public institutions using sustainability as the primary evaluation lens.
+367. CATEGORY 375 — Citizen Participation: case study comparison of participatory app interventions in rapidly growing suburbs using social impact as the primary evaluation lens.
+368. CATEGORY 376 — Citizen Participation: statistical modeling of participatory app interventions in historic city centers using equity as the primary evaluation lens.
+369. CATEGORY 377 — Citizen Participation: network analysis of participatory app interventions in cross-border regions using efficiency as the primary evaluation lens.
+370. CATEGORY 378 — Citizen Participation: content analysis of participatory app interventions in climate-vulnerable districts using adoption as the primary evaluation lens.
+371. CATEGORY 379 — Citizen Participation: simulation modeling of participatory app interventions in Indonesian secondary cities using sustainability as the primary evaluation lens.
+372. CATEGORY 380 — Citizen Participation: interview-based inquiry of participatory app interventions in coastal metropolitan regions using social impact as the primary evaluation lens.
+373. CATEGORY 381 — Citizen Participation: policy evaluation of participatory app interventions in university campuses using equity as the primary evaluation lens.
+374. CATEGORY 382 — Citizen Participation: mixed-methods design of participatory app interventions in rural service areas using efficiency as the primary evaluation lens.
+375. CATEGORY 383 — Citizen Participation: GIS/spatial analysis of participatory app interventions in low-income neighborhoods using adoption as the primary evaluation lens.
+376. CATEGORY 384 — Citizen Participation: survey research of participatory app interventions in post-pandemic public institutions using sustainability as the primary evaluation lens.
+377. CATEGORY 385 — Citizen Participation: case study comparison of participatory app interventions in rapidly growing suburbs using social impact as the primary evaluation lens.
+378. CATEGORY 386 — Citizen Participation: statistical modeling of participatory app interventions in historic city centers using equity as the primary evaluation lens.
+379. CATEGORY 387 — Citizen Participation: network analysis of participatory app interventions in cross-border regions using efficiency as the primary evaluation lens.
+380. CATEGORY 388 — Citizen Participation: content analysis of participatory app interventions in climate-vulnerable districts using adoption as the primary evaluation lens.
+381. CATEGORY 389 — Citizen Participation: simulation modeling of participatory app interventions in Indonesian secondary cities using sustainability as the primary evaluation lens.
+382. CATEGORY 390 — Citizen Participation: interview-based inquiry of participatory app interventions in coastal metropolitan regions using social impact as the primary evaluation lens.
+383. CATEGORY 391 — Citizen Participation: policy evaluation of participatory app interventions in university campuses using equity as the primary evaluation lens.
+384. CATEGORY 392 — Citizen Participation: mixed-methods design of participatory app interventions in rural service areas using efficiency as the primary evaluation lens.
+385. CATEGORY 393 — Citizen Participation: GIS/spatial analysis of participatory app interventions in low-income neighborhoods using adoption as the primary evaluation lens.
+386. CATEGORY 394 — Citizen Participation: survey research of participatory app interventions in post-pandemic public institutions using sustainability as the primary evaluation lens.
+387. CATEGORY 395 — Citizen Participation: case study comparison of participatory app interventions in rapidly growing suburbs using social impact as the primary evaluation lens.
+388. CATEGORY 396 — Citizen Participation: statistical modeling of participatory app interventions in historic city centers using equity as the primary evaluation lens.
+389. CATEGORY 397 — Citizen Participation: network analysis of participatory app interventions in cross-border regions using efficiency as the primary evaluation lens.
+390. CATEGORY 398 — Citizen Participation: content analysis of participatory app interventions in climate-vulnerable districts using adoption as the primary evaluation lens.
+391. CATEGORY 399 — Citizen Participation: simulation modeling of participatory app interventions in Indonesian secondary cities using sustainability as the primary evaluation lens.
+392. CATEGORY 400 — Citizen Participation: interview-based inquiry of participatory app interventions in coastal metropolitan regions using social impact as the primary evaluation lens.
+393. CATEGORY 401 — Citizen Participation: policy evaluation of participatory app interventions in university campuses using equity as the primary evaluation lens.
+394. CATEGORY 402 — Citizen Participation: mixed-methods design of participatory app interventions in rural service areas using efficiency as the primary evaluation lens.
+395. CATEGORY 403 — Citizen Participation: GIS/spatial analysis of participatory app interventions in low-income neighborhoods using adoption as the primary evaluation lens.
+396. CATEGORY 404 — Citizen Participation: survey research of participatory app interventions in post-pandemic public institutions using sustainability as the primary evaluation lens.
+397. CATEGORY 405 — Citizen Participation: case study comparison of participatory app interventions in rapidly growing suburbs using social impact as the primary evaluation lens.
+398. CATEGORY 406 — Citizen Participation: statistical modeling of participatory app interventions in historic city centers using equity as the primary evaluation lens.
+399. CATEGORY 407 — Citizen Participation: network analysis of participatory app interventions in cross-border regions using efficiency as the primary evaluation lens.
+400. CATEGORY 408 — Citizen Participation: content analysis of participatory app interventions in climate-vulnerable districts using adoption as the primary evaluation lens.
+
+CATEGORY 9 — Urban Data Analytics
+401. CATEGORY 410 — Urban Data Analytics: interview-based inquiry of mobility dashboard interventions in Indonesian secondary cities using governance quality as the primary evaluation lens.
+402. CATEGORY 411 — Urban Data Analytics: policy evaluation of mobility dashboard interventions in coastal metropolitan regions using accuracy as the primary evaluation lens.
+403. CATEGORY 412 — Urban Data Analytics: mixed-methods design of mobility dashboard interventions in university campuses using accessibility as the primary evaluation lens.
+404. CATEGORY 413 — Urban Data Analytics: GIS/spatial analysis of mobility dashboard interventions in rural service areas using resilience as the primary evaluation lens.
+405. CATEGORY 414 — Urban Data Analytics: survey research of mobility dashboard interventions in low-income neighborhoods using usability as the primary evaluation lens.
+406. CATEGORY 415 — Urban Data Analytics: case study comparison of mobility dashboard interventions in post-pandemic public institutions using governance quality as the primary evaluation lens.
+407. CATEGORY 416 — Urban Data Analytics: statistical modeling of mobility dashboard interventions in rapidly growing suburbs using accuracy as the primary evaluation lens.
+408. CATEGORY 417 — Urban Data Analytics: network analysis of mobility dashboard interventions in historic city centers using accessibility as the primary evaluation lens.
+409. CATEGORY 418 — Urban Data Analytics: content analysis of mobility dashboard interventions in cross-border regions using resilience as the primary evaluation lens.
+410. CATEGORY 419 — Urban Data Analytics: simulation modeling of mobility dashboard interventions in climate-vulnerable districts using usability as the primary evaluation lens.
+411. CATEGORY 420 — Urban Data Analytics: interview-based inquiry of mobility dashboard interventions in Indonesian secondary cities using governance quality as the primary evaluation lens.
+412. CATEGORY 421 — Urban Data Analytics: policy evaluation of mobility dashboard interventions in coastal metropolitan regions using accuracy as the primary evaluation lens.
+413. CATEGORY 422 — Urban Data Analytics: mixed-methods design of mobility dashboard interventions in university campuses using accessibility as the primary evaluation lens.
+414. CATEGORY 423 — Urban Data Analytics: GIS/spatial analysis of mobility dashboard interventions in rural service areas using resilience as the primary evaluation lens.
+415. CATEGORY 424 — Urban Data Analytics: survey research of mobility dashboard interventions in low-income neighborhoods using usability as the primary evaluation lens.
+416. CATEGORY 425 — Urban Data Analytics: case study comparison of mobility dashboard interventions in post-pandemic public institutions using governance quality as the primary evaluation lens.
+417. CATEGORY 426 — Urban Data Analytics: statistical modeling of mobility dashboard interventions in rapidly growing suburbs using accuracy as the primary evaluation lens.
+418. CATEGORY 427 — Urban Data Analytics: network analysis of mobility dashboard interventions in historic city centers using accessibility as the primary evaluation lens.
+419. CATEGORY 428 — Urban Data Analytics: content analysis of mobility dashboard interventions in cross-border regions using resilience as the primary evaluation lens.
+420. CATEGORY 429 — Urban Data Analytics: simulation modeling of mobility dashboard interventions in climate-vulnerable districts using usability as the primary evaluation lens.
+421. CATEGORY 430 — Urban Data Analytics: interview-based inquiry of mobility dashboard interventions in Indonesian secondary cities using governance quality as the primary evaluation lens.
+422. CATEGORY 431 — Urban Data Analytics: policy evaluation of mobility dashboard interventions in coastal metropolitan regions using accuracy as the primary evaluation lens.
+423. CATEGORY 432 — Urban Data Analytics: mixed-methods design of mobility dashboard interventions in university campuses using accessibility as the primary evaluation lens.
+424. CATEGORY 433 — Urban Data Analytics: GIS/spatial analysis of mobility dashboard interventions in rural service areas using resilience as the primary evaluation lens.
+425. CATEGORY 434 — Urban Data Analytics: survey research of mobility dashboard interventions in low-income neighborhoods using usability as the primary evaluation lens.
+426. CATEGORY 435 — Urban Data Analytics: case study comparison of mobility dashboard interventions in post-pandemic public institutions using governance quality as the primary evaluation lens.
+427. CATEGORY 436 — Urban Data Analytics: statistical modeling of mobility dashboard interventions in rapidly growing suburbs using accuracy as the primary evaluation lens.
+428. CATEGORY 437 — Urban Data Analytics: network analysis of mobility dashboard interventions in historic city centers using accessibility as the primary evaluation lens.
+429. CATEGORY 438 — Urban Data Analytics: content analysis of mobility dashboard interventions in cross-border regions using resilience as the primary evaluation lens.
+430. CATEGORY 439 — Urban Data Analytics: simulation modeling of mobility dashboard interventions in climate-vulnerable districts using usability as the primary evaluation lens.
+431. CATEGORY 440 — Urban Data Analytics: interview-based inquiry of mobility dashboard interventions in Indonesian secondary cities using governance quality as the primary evaluation lens.
+432. CATEGORY 441 — Urban Data Analytics: policy evaluation of mobility dashboard interventions in coastal metropolitan regions using accuracy as the primary evaluation lens.
+433. CATEGORY 442 — Urban Data Analytics: mixed-methods design of mobility dashboard interventions in university campuses using accessibility as the primary evaluation lens.
+434. CATEGORY 443 — Urban Data Analytics: GIS/spatial analysis of mobility dashboard interventions in rural service areas using resilience as the primary evaluation lens.
+435. CATEGORY 444 — Urban Data Analytics: survey research of mobility dashboard interventions in low-income neighborhoods using usability as the primary evaluation lens.
+436. CATEGORY 445 — Urban Data Analytics: case study comparison of mobility dashboard interventions in post-pandemic public institutions using governance quality as the primary evaluation lens.
+437. CATEGORY 446 — Urban Data Analytics: statistical modeling of mobility dashboard interventions in rapidly growing suburbs using accuracy as the primary evaluation lens.
+438. CATEGORY 447 — Urban Data Analytics: network analysis of mobility dashboard interventions in historic city centers using accessibility as the primary evaluation lens.
+439. CATEGORY 448 — Urban Data Analytics: content analysis of mobility dashboard interventions in cross-border regions using resilience as the primary evaluation lens.
+440. CATEGORY 449 — Urban Data Analytics: simulation modeling of mobility dashboard interventions in climate-vulnerable districts using usability as the primary evaluation lens.
+441. CATEGORY 450 — Urban Data Analytics: interview-based inquiry of mobility dashboard interventions in Indonesian secondary cities using governance quality as the primary evaluation lens.
+442. CATEGORY 451 — Urban Data Analytics: policy evaluation of mobility dashboard interventions in coastal metropolitan regions using accuracy as the primary evaluation lens.
+443. CATEGORY 452 — Urban Data Analytics: mixed-methods design of mobility dashboard interventions in university campuses using accessibility as the primary evaluation lens.
+444. CATEGORY 453 — Urban Data Analytics: GIS/spatial analysis of mobility dashboard interventions in rural service areas using resilience as the primary evaluation lens.
+445. CATEGORY 454 — Urban Data Analytics: survey research of mobility dashboard interventions in low-income neighborhoods using usability as the primary evaluation lens.
+446. CATEGORY 455 — Urban Data Analytics: case study comparison of mobility dashboard interventions in post-pandemic public institutions using governance quality as the primary evaluation lens.
+447. CATEGORY 456 — Urban Data Analytics: statistical modeling of mobility dashboard interventions in rapidly growing suburbs using accuracy as the primary evaluation lens.
+448. CATEGORY 457 — Urban Data Analytics: network analysis of mobility dashboard interventions in historic city centers using accessibility as the primary evaluation lens.
+449. CATEGORY 458 — Urban Data Analytics: content analysis of mobility dashboard interventions in cross-border regions using resilience as the primary evaluation lens.
+450. CATEGORY 459 — Urban Data Analytics: simulation modeling of mobility dashboard interventions in climate-vulnerable districts using usability as the primary evaluation lens.
+
+CATEGORY 10 — Resilient Smart Cities
+451. CATEGORY 461 — Resilient Smart Cities: policy evaluation of heatwave alert interventions in Indonesian secondary cities using social impact as the primary evaluation lens.
+452. CATEGORY 462 — Resilient Smart Cities: mixed-methods design of heatwave alert interventions in coastal metropolitan regions using equity as the primary evaluation lens.
+453. CATEGORY 463 — Resilient Smart Cities: GIS/spatial analysis of heatwave alert interventions in university campuses using efficiency as the primary evaluation lens.
+454. CATEGORY 464 — Resilient Smart Cities: survey research of heatwave alert interventions in rural service areas using adoption as the primary evaluation lens.
+455. CATEGORY 465 — Resilient Smart Cities: case study comparison of heatwave alert interventions in low-income neighborhoods using sustainability as the primary evaluation lens.
+456. CATEGORY 466 — Resilient Smart Cities: statistical modeling of heatwave alert interventions in post-pandemic public institutions using social impact as the primary evaluation lens.
+457. CATEGORY 467 — Resilient Smart Cities: network analysis of heatwave alert interventions in rapidly growing suburbs using equity as the primary evaluation lens.
+458. CATEGORY 468 — Resilient Smart Cities: content analysis of heatwave alert interventions in historic city centers using efficiency as the primary evaluation lens.
+459. CATEGORY 469 — Resilient Smart Cities: simulation modeling of heatwave alert interventions in cross-border regions using adoption as the primary evaluation lens.
+460. CATEGORY 470 — Resilient Smart Cities: interview-based inquiry of heatwave alert interventions in climate-vulnerable districts using sustainability as the primary evaluation lens.
+461. CATEGORY 471 — Resilient Smart Cities: policy evaluation of heatwave alert interventions in Indonesian secondary cities using social impact as the primary evaluation lens.
+462. CATEGORY 472 — Resilient Smart Cities: mixed-methods design of heatwave alert interventions in coastal metropolitan regions using equity as the primary evaluation lens.
+463. CATEGORY 473 — Resilient Smart Cities: GIS/spatial analysis of heatwave alert interventions in university campuses using efficiency as the primary evaluation lens.
+464. CATEGORY 474 — Resilient Smart Cities: survey research of heatwave alert interventions in rural service areas using adoption as the primary evaluation lens.
+465. CATEGORY 475 — Resilient Smart Cities: case study comparison of heatwave alert interventions in low-income neighborhoods using sustainability as the primary evaluation lens.
+466. CATEGORY 476 — Resilient Smart Cities: statistical modeling of heatwave alert interventions in post-pandemic public institutions using social impact as the primary evaluation lens.
+467. CATEGORY 477 — Resilient Smart Cities: network analysis of heatwave alert interventions in rapidly growing suburbs using equity as the primary evaluation lens.
+468. CATEGORY 478 — Resilient Smart Cities: content analysis of heatwave alert interventions in historic city centers using efficiency as the primary evaluation lens.
+469. CATEGORY 479 — Resilient Smart Cities: simulation modeling of heatwave alert interventions in cross-border regions using adoption as the primary evaluation lens.
+470. CATEGORY 480 — Resilient Smart Cities: interview-based inquiry of heatwave alert interventions in climate-vulnerable districts using sustainability as the primary evaluation lens.
+471. CATEGORY 481 — Resilient Smart Cities: policy evaluation of heatwave alert interventions in Indonesian secondary cities using social impact as the primary evaluation lens.
+472. CATEGORY 482 — Resilient Smart Cities: mixed-methods design of heatwave alert interventions in coastal metropolitan regions using equity as the primary evaluation lens.
+473. CATEGORY 483 — Resilient Smart Cities: GIS/spatial analysis of heatwave alert interventions in university campuses using efficiency as the primary evaluation lens.
+474. CATEGORY 484 — Resilient Smart Cities: survey research of heatwave alert interventions in rural service areas using adoption as the primary evaluation lens.
+475. CATEGORY 485 — Resilient Smart Cities: case study comparison of heatwave alert interventions in low-income neighborhoods using sustainability as the primary evaluation lens.
+476. CATEGORY 486 — Resilient Smart Cities: statistical modeling of heatwave alert interventions in post-pandemic public institutions using social impact as the primary evaluation lens.
+477. CATEGORY 487 — Resilient Smart Cities: network analysis of heatwave alert interventions in rapidly growing suburbs using equity as the primary evaluation lens.
+478. CATEGORY 488 — Resilient Smart Cities: content analysis of heatwave alert interventions in historic city centers using efficiency as the primary evaluation lens.
+479. CATEGORY 489 — Resilient Smart Cities: simulation modeling of heatwave alert interventions in cross-border regions using adoption as the primary evaluation lens.
+480. CATEGORY 490 — Resilient Smart Cities: interview-based inquiry of heatwave alert interventions in climate-vulnerable districts using sustainability as the primary evaluation lens.
+481. CATEGORY 491 — Resilient Smart Cities: policy evaluation of heatwave alert interventions in Indonesian secondary cities using social impact as the primary evaluation lens.
+482. CATEGORY 492 — Resilient Smart Cities: mixed-methods design of heatwave alert interventions in coastal metropolitan regions using equity as the primary evaluation lens.
+483. CATEGORY 493 — Resilient Smart Cities: GIS/spatial analysis of heatwave alert interventions in university campuses using efficiency as the primary evaluation lens.
+484. CATEGORY 494 — Resilient Smart Cities: survey research of heatwave alert interventions in rural service areas using adoption as the primary evaluation lens.
+485. CATEGORY 495 — Resilient Smart Cities: case study comparison of heatwave alert interventions in low-income neighborhoods using sustainability as the primary evaluation lens.
+486. CATEGORY 496 — Resilient Smart Cities: statistical modeling of heatwave alert interventions in post-pandemic public institutions using social impact as the primary evaluation lens.
+487. CATEGORY 497 — Resilient Smart Cities: network analysis of heatwave alert interventions in rapidly growing suburbs using equity as the primary evaluation lens.
+488. CATEGORY 498 — Resilient Smart Cities: content analysis of heatwave alert interventions in historic city centers using efficiency as the primary evaluation lens.
+489. CATEGORY 499 — Resilient Smart Cities: simulation modeling of heatwave alert interventions in cross-border regions using adoption as the primary evaluation lens.
+490. CATEGORY 500 — Resilient Smart Cities: interview-based inquiry of heatwave alert interventions in climate-vulnerable districts using sustainability as the primary evaluation lens.
+491. CATEGORY 501 — Resilient Smart Cities: policy evaluation of heatwave alert interventions in Indonesian secondary cities using social impact as the primary evaluation lens.
+492. CATEGORY 502 — Resilient Smart Cities: mixed-methods design of heatwave alert interventions in coastal metropolitan regions using equity as the primary evaluation lens.
+493. CATEGORY 503 — Resilient Smart Cities: GIS/spatial analysis of heatwave alert interventions in university campuses using efficiency as the primary evaluation lens.
+494. CATEGORY 504 — Resilient Smart Cities: survey research of heatwave alert interventions in rural service areas using adoption as the primary evaluation lens.
+495. CATEGORY 505 — Resilient Smart Cities: case study comparison of heatwave alert interventions in low-income neighborhoods using sustainability as the primary evaluation lens.
+496. CATEGORY 506 — Resilient Smart Cities: statistical modeling of heatwave alert interventions in post-pandemic public institutions using social impact as the primary evaluation lens.
+497. CATEGORY 507 — Resilient Smart Cities: network analysis of heatwave alert interventions in rapidly growing suburbs using equity as the primary evaluation lens.
+498. CATEGORY 508 — Resilient Smart Cities: content analysis of heatwave alert interventions in historic city centers using efficiency as the primary evaluation lens.
+499. CATEGORY 509 — Resilient Smart Cities: simulation modeling of heatwave alert interventions in cross-border regions using adoption as the primary evaluation lens.
+500. CATEGORY 510 — Resilient Smart Cities: interview-based inquiry of heatwave alert interventions in climate-vulnerable districts using sustainability as the primary evaluation lens.

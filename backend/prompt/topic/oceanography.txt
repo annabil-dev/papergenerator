@@ -5,6 +5,64 @@ FIELD: Earth and Planetary Sciences / Oceanography
 DEFAULT CITATION STYLE: APA
 SUBDISCIPLINE: Oseanografi Fisik, Kimia Laut, Biologi Laut, Pesisir, Sedimen Laut
 
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals (Deep-Sea Research, JGR Oceans, Ocean Science)
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title
+   - Ensure novelty through geographic specificity (Indonesian waters), methodological innovation, or parameter combination
+   - Cross-reference with Indonesian Throughflow (ITF), Makassar Strait, Java Sea, ENSO impacts, coral triangle context
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Ocean modeling: ROMS (Regional Ocean Modeling System), MITgcm, HYCOM, FVCOM
+   - Satellite oceanography: Sentinel-3/6, MODIS-Aqua, VIIRS, Jason-3 altimetry
+   - In-situ platforms: Argo floats, BGC-Argo, autonomous underwater vehicles (AUV/ROV), gliders
+   - Acoustic Doppler Current Profiler (ADCP) for current measurement
+   - Ocean color remote sensing (Chl-a, TSM, CDOM algorithms)
+   - Machine learning for ocean prediction (LSTM, CNN, Random Forest for SST/wave forecasting)
+   - eDNA metabarcoding for biodiversity assessment
+   - High-frequency radar (HFR) for surface currents
+   - Uncrewed surface vehicles (USV) for autonomous sampling
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Oceanographic metrics: SST (°C), SSS (psu), Chl-a (µg/L), DO (mg/L), nutrients (µM), current speed (m/s)
+   - Statistical measures: mean ± SD, correlation coefficients (r), RMSE, p-values
+   - All numbers realistic and internally consistent with Indonesian tropical waters
+
+5. MATHEMATICAL FORMULAS:
+   - Navier-Stokes equations: ∂u/∂t + (u·∇)u = -1/ρ ∇p + ν∇²u + f
+   - Continuity equation: ∂ρ/∂t + ∇·(ρu) = 0
+   - Ekman transport: Mₑ = τ/(ρf), where τ = wind stress, f = Coriolis parameter
+   - Geostrophic balance: fu = -1/ρ (∂p/∂y), fv = 1/ρ (∂p/∂x)
+   - Wave dispersion relation: ω² = gk × tanh(kh)
+   - Thermohaline circulation: ρ = ρ(T, S, p) via UNESCO equation of state
+   - Mixed layer depth (MLD): Δρ = ρ(z) - ρ(10m) = 0.03 kg/m³ criterion
+   - Sverdrup transport: My = curl(τ)/(ρβ)
+   - Richardson number: Ri = N²/(∂u/∂z)²
+   - Brunt-Väisälä frequency: N² = -(g/ρ₀)(∂ρ/∂z)
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian maritime context: ITF variability, Makassar Strait dynamics, Java Sea monsoon response
+   - Include recent Indonesian oceanographic studies (LIPI/BRIN, ITB, IPB, UNDIP publications)
+   - Reference international programs: IIOE-2, TPOS 2020, Argo
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords (5-7), Introduction (1500-2000 words),
+   Literature Review (2000-3000 words), Methodology (2000-3000 words),
+   Results & Discussion (2000-3000 words), Conclusion (500-800 words),
+   References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
 ABSTRACT CHARACTERISTICS:
   150–250 words. Reports: ocean region studied, parameters measured (T, S, DO, turbidity, nutrients,
   chlorophyll-a µg/L), methods (CTD cast, water sampling, remote sensing, sediment core),
@@ -79,3 +137,527 @@ METHODOLOGY KEYWORDS:
   CTD profiling, water sampling (Niskin bottle), Winkler DO titration, nutrient analysis
   (AutoAnalyzer/spectrophotometry), fluorometric Chl-a, sediment coring, grain size analysis,
   210Pb dating, remote sensing (MODIS/Sentinel-2), PCA water mass analysis
+
+================================================================================
+500 RESEARCH TOPICS — Oceanography & Marine Science
+================================================================================
+
+--- CATEGORY A: Physical Oceanography & Circulation (001-050) ---
+001. Seasonal Variability of Indonesian Throughflow Transport in Makassar Strait Using ADCP Measurements
+002. ENSO-Induced Sea Surface Temperature Anomalies in the Banda Sea: A 20-Year Satellite Analysis
+003. Monsoon-Driven Current Reversal Patterns in the Java Sea from HF Radar Observations
+004. Thermohaline Structure and Water Mass Identification in the Flores Sea Using Argo Float Data
+005. Tidal Mixing and Internal Wave Generation at the Lombok Strait Sill
+006. Mesoscale Eddy Dynamics in the Sulawesi Sea from Satellite Altimetry and ROMS Modeling
+007. Seasonal Thermocline Variability and Mixed Layer Depth in the Eastern Indian Ocean off Sumatra
+008. Surface Current Patterns in the Karimata Strait During Monsoon Transitions
+009. Deep Water Circulation and Overflow in the Lifamatola Passage: Observations and Modeling
+010. Wind-Driven Upwelling Dynamics Along the Southern Java Coast During Southeast Monsoon
+011. Interannual Variability of Sea Level in Indonesian Seas and Its Relationship to IOD Events
+012. Kelvin Wave Propagation Through Indonesian Archipelago During El Niño Events
+013. Barotropic and Baroclinic Tidal Energy Dissipation in the Indonesian Seas
+014. HYCOM-Based Assessment of ITF Partitioning Between Eastern and Western Routes
+015. Submesoscale Frontal Dynamics in the Banda Sea from High-Resolution Satellite SST
+016. Seasonal Stratification and Destratification Cycles in the Natuna Sea
+017. Lagrangian Particle Tracking of ITF Pathways Using Argo Float Trajectories
+018. Geostrophic Current Variability in the Timor Passage from Satellite Altimetry
+019. Diapycnal Mixing Rates in the Halmahera Sea Estimated from Microstructure Profiles
+020. Coastal Trapped Waves Along the Western Sumatra Coast and Their Role in Upwelling
+021. Sea Surface Height Variability in the South China Sea–Java Sea Connection
+022. Near-Inertial Wave Energy in the Makassar Strait from Mooring Observations
+023. Seasonal Volume Transport Variability Through the Ombai Strait
+024. Wind Stress Curl and Ekman Pumping Patterns Over Indonesian Seas from Scatterometer Data
+025. Rossby Wave Propagation and Its Impact on ITF Variability at Interannual Timescales
+026. Tidal Front Formation and Its Biological Implications in the Bali Strait
+027. Upper Ocean Heat Content Variability in the Warm Pool Region East of Indonesia
+028. Freshwater Flux and Its Impact on Barrier Layer Formation in the Maritime Continent
+029. Seasonal Cycle of the South Java Current from Satellite and In-Situ Observations
+030. Internal Solitary Wave Characteristics in the Sulu Sea from SAR Imagery
+031. Vertical Shear Instability and Turbulent Mixing in the Dewakang Sill
+032. Pacific-Indian Ocean Pressure Gradient and ITF Transport Correlation
+033. Seasonal Variability of the Mindanao Current Retroflection and Its Impact on Indonesian Seas
+034. High-Resolution Modeling of Tidal Currents in the Bangka Strait
+035. Ocean Heat Transport Through Indonesian Seas and Its Contribution to Indian Ocean Warming
+036. Submesoscale Variability in the Makassar Strait from Glider Observations
+037. Wind-Current Coupling in the Arafura Sea During Monsoon Seasons
+038. Decadal Trends in Sea Surface Temperature of Indonesian Seas from Multi-Satellite Products
+039. Coastal Current Dynamics and River Plume Interaction in the Mahakam Delta Region
+040. Vertical Structure of the Indonesian Throughflow from Repeated XBT Transects
+041. Seasonal Pycnocline Variability and Nutrient Supply in the Banda Sea
+042. Surface Wave Climate and Extreme Wave Statistics in Indonesian Waters from ERA5 Reanalysis
+043. Tidal Asymmetry and Residual Currents in the Madura Strait
+044. Ocean Response to Tropical Cyclone Passage South of Java from Satellite and Argo Data
+045. Seasonal Variability of the Leeuwin Current Source Waters from Indonesian Seas
+046. Double Diffusion and Thermohaline Staircases in the Banda Sea Deep Water
+047. Coastal Upwelling Indices for Indonesian Waters from Multi-Decadal Satellite SST
+048. Freshwater Transport from the South China Sea to the Java Sea via Karimata Strait
+049. Nonlinear Internal Tide Generation at the Sangihe Ridge
+050. Machine Learning Prediction of SST Anomalies in Indonesian Seas Using LSTM Networks
+
+--- CATEGORY B: Chemical Oceanography & Biogeochemistry (051-100) ---
+051. Dissolved Oxygen Distribution and Hypoxia Risk in Jakarta Bay: Seasonal Assessment
+052. Nutrient Dynamics and Eutrophication Status of the Brantas River Estuary, East Java
+053. Ocean Acidification Trends in the Coral Triangle from pH and pCO2 Measurements
+054. Carbonate Chemistry and Aragonite Saturation State in Indonesian Reef Waters
+055. Dissolved Organic Carbon Export from Peatland Rivers to the Coastal Seas of Kalimantan
+056. Nitrogen Cycling and Denitrification Rates in the Oxygen Minimum Zone of the Banda Sea
+057. Phosphate and Silicate Distribution in Upwelling Waters South of Nusa Tenggara
+058. Heavy Metal Contamination (Pb, Cd, Hg) in Sediments of Balikpapan Bay
+059. Microplastic Distribution and Associated Chemical Pollutants in the Java Sea Surface Waters
+060. Air-Sea CO2 Flux Variability in the Eastern Indian Ocean off Sumatra
+061. Dissolved Iron Distribution and Its Role in Phytoplankton Productivity in the Banda Sea
+062. Nutrient Stoichiometry (N:P:Si Ratios) and Limiting Factors in Indonesian Coastal Waters
+063. Mercury Methylation in Mangrove Sediments of the Mahakam Delta
+064. Rare Earth Element Distribution in Seawater and Sediments of the Makassar Strait
+065. Dissolved Methane Concentrations and Sea-Air Flux in the Shallow Seas of Indonesia
+066. Trace Metal Speciation and Bioavailability in the Citarum River-Coastal System
+067. Total Alkalinity and DIC Distribution in the Indonesian Throughflow Region
+068. Anthropogenic Nutrient Loading and Coastal Eutrophication in Lampung Bay
+069. Organic Carbon Burial Rates in the Sunda Shelf Sediments from 210Pb Dating
+070. Redox-Sensitive Element Cycling in the Seasonally Hypoxic Waters of Ambon Bay
+071. Stable Isotope (δ¹⁸O, δD) Tracing of Water Masses in the Banda Sea
+072. Dissolved Silica Flux from Volcanic Islands and Its Impact on Diatom Productivity
+073. Petroleum Hydrocarbon Contamination in Sediments of the Balikpapan Strait
+074. Nutrient Regeneration Rates in the Benthic Boundary Layer of the Java Sea
+075. Carbonate System Response to Freshwater Input in the Berau Delta, East Kalimantan
+076. Radium Isotopes as Tracers of Submarine Groundwater Discharge in Bali Coastal Waters
+077. Dissolved Organic Matter Fluorescence Characteristics in Indonesian Peatland-Influenced Seas
+078. Nitrous Oxide Production and Emission from the Oxygen Minimum Zone of the Savu Sea
+079. Phosphorus Speciation in Sediments of Eutrophic Coastal Lagoons in Java
+080. Chemical Weathering Fluxes from Indonesian Rivers and Their Ocean Biogeochemical Impact
+081. Microplastic-Associated Pollutant Transport in the Makassar Strait Water Column
+082. Seasonal Variation of pCO2 and Air-Sea CO2 Exchange in the Flores Sea
+083. Arsenic Speciation and Distribution in Hydrothermal Vent Waters of the Sangihe Arc
+084. Dissolved Aluminum as a Tracer of Sediment Resuspension in the Shallow Java Sea
+085. Nutrient Fluxes Across the Sediment-Water Interface in Mangrove-Fringed Estuaries
+086. Chromophoric Dissolved Organic Matter (CDOM) Distribution in the Kapuas River Plume
+087. Ocean Acidification Impact on Pteropod Shell Dissolution in Indonesian Deep Waters
+088. Barium as a Proxy for Paleoproductivity in Banda Sea Sediment Cores
+089. Anthropogenic Lead Contamination History from Coral Core Records in the Spermonde Archipelago
+090. Sulfur Cycling and Pyrite Formation in Anoxic Sediments of Segara Anakan Lagoon
+091. Dissolved Zinc and Copper Distribution in the Photic Zone of the Banda Sea
+092. Riverine Carbon Export and Coastal Ocean Carbon Sequestration in Sumatra
+093. Fluoride Distribution and Sources in Groundwater-Influenced Coastal Waters of Lombok
+094. Biogeochemical Cycling of Manganese in the Redoxcline of Stratified Indonesian Basins
+095. Persistent Organic Pollutants (POPs) in Marine Sediments of the Malacca Strait
+096. Nitrogen Fixation Rates and Diazotroph Distribution in the Oligotrophic Banda Sea
+097. Chemical Characterization of Submarine Groundwater Discharge in Jepara Coastal Waters
+098. Seasonal Dissolved Oxygen Dynamics and Dead Zone Formation in Semarang Coastal Waters
+099. Isotopic Composition of Dissolved Inorganic Carbon in Indonesian Throughflow Waters
+100. Geochemical Proxies for Paleoceanographic Reconstruction from Timor Sea Sediment Cores
+
+--- CATEGORY C: Biological Oceanography & Plankton (101-150) ---
+101. Phytoplankton Community Structure and Primary Productivity in the Banda Sea Upwelling System
+102. Zooplankton Biomass and Vertical Migration Patterns in the Makassar Strait
+103. Harmful Algal Bloom (HAB) Dynamics and Triggering Factors in Jakarta Bay
+104. Diatom-Dinoflagellate Succession in Response to Monsoon-Driven Nutrient Pulses in the Java Sea
+105. Picophytoplankton (Synechococcus, Prochlorococcus) Distribution in the Oligotrophic Banda Sea
+106. Copepod Diversity and Abundance Along the Indonesian Throughflow Pathway
+107. Satellite-Derived Primary Productivity Trends in Indonesian Seas (2003-2024)
+108. Jellyfish Bloom Occurrence and Environmental Drivers in Indonesian Coastal Waters
+109. Microbial Loop Dynamics and Bacterial Production in the Flores Sea
+110. Deep Chlorophyll Maximum (DCM) Characteristics in the Eastern Indian Ocean off Java
+111. Coccolithophore Distribution and Calcification Rates in Indonesian Warm Pool Waters
+112. Mesozooplankton Grazing Impact on Phytoplankton in the Southern Makassar Strait
+113. Trichodesmium Bloom Detection and Nitrogen Fixation Estimates from Satellite Imagery
+114. Larval Fish Distribution and Spawning Grounds in the Banda Sea
+115. Phytoplankton Size Structure and Carbon Export Efficiency in the Timor Sea
+116. Bioluminescence Distribution and Dinoflagellate Ecology in the Ambon Bay
+117. eDNA Metabarcoding of Marine Biodiversity in the Raja Ampat Seascape
+118. Seasonal Variation of Ichthyoplankton Assemblages in the Bali Strait Upwelling Zone
+119. Microzooplankton Herbivory Rates in the Tropical Eastern Indian Ocean
+120. Phytoplankton Phenology Changes in Indonesian Seas Under Climate Warming
+121. Krill Distribution and Abundance in the Deep Waters of the Banda Sea
+122. Coral Reef Fish Larval Connectivity Modeled from Ocean Currents in the Coral Triangle
+123. Cyanobacteria Dominance and Eutrophication Indicators in Indonesian Coastal Lagoons
+124. Pteropod Distribution and Shell Condition as Ocean Acidification Indicators
+125. Mesopelagic Fish Biomass Estimation in Indonesian Deep Seas Using Acoustic Methods
+126. Phytoplankton Response to Volcanic Ash Fertilization from Indonesian Eruptions
+127. Benthic Foraminifera as Bioindicators of Pollution in Jakarta Bay Sediments
+128. Sargassum Distribution and Drift Patterns in Indonesian Waters from Satellite Monitoring
+129. Tintinnid Diversity and Biogeography in the Indonesian Archipelago
+130. Marine Virus Abundance and Their Role in Microbial Mortality in Tropical Seas
+131. Chaetognath Distribution as Indicators of Water Mass Boundaries in the Flores Sea
+132. Phytoplankton Bloom Initiation Mechanisms in the Southern Java Upwelling System
+133. Deep-Sea Benthic Community Structure in the Weber Deep Basin
+134. Meiofauna Diversity and Abundance in Mangrove Sediments of the Segara Anakan
+135. Gelatinous Zooplankton (Salps, Doliolids) Ecology in the Eastern Indonesian Seas
+136. Chlorophyll-a Variability and Fishery Productivity Correlation in Indonesian EEZ
+137. Toxic Dinoflagellate (Alexandrium, Gymnodinium) Distribution in Indonesian Shellfish Waters
+138. Seagrass Epiphyte Community and Nutrient Cycling in Spermonde Archipelago
+139. Marine Snow Formation and Particle Flux in the Banda Sea from Sediment Traps
+140. Mangrove-Derived Organic Matter Contribution to Coastal Food Webs Using Stable Isotopes
+141. Red Tide Events and Paralytic Shellfish Poisoning Risk in Lampung Bay
+142. Planktonic Foraminifera Flux and Paleoceanographic Implications in the Timor Sea
+143. Seabird-Plankton Trophic Linkages in the Upwelling Zone South of Sumba
+144. Cryptophyte and Haptophyte Contributions to Phytoplankton Biomass Using HPLC Pigments
+145. Coral Spawning Synchrony and Larval Dispersal Modeling in the Banda Sea
+146. Bacterioplankton Community Composition Along Salinity Gradients in Indonesian Estuaries
+147. Nocturnal Vertical Migration of Mesopelagic Organisms in the Makassar Strait
+148. Phytoplankton Iron Limitation in the Eastern Indian Ocean South of Java
+149. Marine Fungi Diversity and Ecological Role in Indonesian Deep-Sea Sediments
+150. Climate-Driven Shifts in Zooplankton Community Structure in the Java Sea
+
+--- CATEGORY D: Geological Oceanography & Sediments (151-200) ---
+151. Sediment Transport Pathways and Accumulation Rates in the Mahakam Delta
+152. Holocene Paleoceanographic Reconstruction from Sediment Cores in the Banda Sea
+153. Submarine Landslide Hazard Assessment on the Continental Slope off Western Sumatra
+154. Coral Reef Geomorphology and Accretion Rates in the Spermonde Archipelago
+155. Volcanic Ash Layers in Marine Sediments as Chronostratigraphic Markers in Eastern Indonesia
+156. Seafloor Mapping and Habitat Classification Using Multibeam Bathymetry in Raja Ampat
+157. Sediment Provenance and Weathering History from Clay Mineralogy in the Java Sea
+158. Tsunami Deposit Identification and Characterization in Coastal Sediments of Aceh
+159. Mangrove Sediment Carbon Stocks and Blue Carbon Potential in Kalimantan
+160. Gas Hydrate Occurrence and Distribution on the Continental Margin of Papua
+161. Beach Morphodynamics and Sediment Budget Along the Northern Java Coast
+162. Deep-Sea Manganese Nodule Distribution in the Indian Ocean South of Java
+163. Quaternary Sea Level Changes Recorded in Coral Terraces of Eastern Indonesia
+164. Submarine Canyon Morphology and Sediment Transport in the Sunda Strait
+165. Organic Geochemistry of Surface Sediments in the Arafura Sea
+166. Coastal Erosion and Shoreline Change Analysis in Northern Java Using Remote Sensing
+167. Hydrothermal Vent Mineralization and Sulfide Deposits in the Sangihe Arc
+168. Sediment Grain Size Distribution and Hydrodynamic Interpretation in the Madura Strait
+169. Paleoclimate Signals from Stalagmite and Marine Sediment Records in Sulawesi
+170. Turbidite Sequences and Earthquake Recurrence from Deep-Sea Cores in the Sunda Trench
+171. Coral Rubble Transport and Reef Island Formation in the Thousand Islands
+172. Benthic Habitat Mapping Using Side-Scan Sonar in the Karimunjawa Marine Park
+173. Sedimentary Record of Anthropogenic Impact in Jakarta Bay Over the Last Century
+174. Continental Shelf Sediment Dynamics During Monsoon Seasons in the Natuna Sea
+175. Submarine Groundwater Discharge and Its Geochemical Signature in Coastal Sediments
+176. Foraminifera-Based Paleobathymetry of the Makassar Strait During the Last Glacial Maximum
+177. Seismic Stratigraphy and Basin Evolution of the North Banda Sea
+178. Heavy Mineral Assemblages and Sediment Provenance in the Flores Sea
+179. Coastal Peat Deposits and Sea Level History in Eastern Sumatra
+180. Methane Seep Carbonate Formation and Chemosynthetic Communities in the Makassar Strait
+181. Sediment Resuspension Events and Turbidity Plumes in the Shallow Java Sea
+182. Geotechnical Properties of Seafloor Sediments for Submarine Cable Route Planning
+183. Coral Core Growth Bands as Proxies for SST and Salinity in the Banda Sea
+184. Tidal Flat Sedimentation and Morphological Evolution in the Segara Anakan Lagoon
+185. Submarine Volcanic Geomorphology of the Banda Arc from Multibeam Data
+186. Sediment Contamination Assessment Using Geoaccumulation Index in Surabaya Coastal Waters
+187. Paleoproductivity Reconstruction from Biogenic Silica in Banda Sea Sediments
+188. Coastal Cliff Erosion and Mass Wasting Processes in Southern Java Limestone Coast
+189. Seabed Substrate Classification from Acoustic Backscatter in the Arafura Sea
+190. Fluvial Sediment Delivery and Delta Progradation of the Solo River
+191. Deep-Sea Fan Architecture and Turbidite Systems off Western Sumatra
+192. Beach Nourishment Effectiveness and Sediment Compatibility in Bali Tourism Beaches
+193. Authigenic Mineral Formation in Reducing Sediments of Indonesian Marginal Basins
+194. Coastal Lagoon Infilling and Sediment Budget in Southern Java
+195. Submarine Earthquake Rupture Zones and Seafloor Deformation from Bathymetric Surveys
+196. Sediment Biomarkers (n-alkanes, Alkenones) for Paleoenvironmental Reconstruction
+197. Reef Framework Drilling and Holocene Reef Development in Eastern Indonesia
+198. Sand Wave Migration and Bedform Dynamics in the Lombok Strait
+199. Estuarine Turbidity Maximum and Fine Sediment Trapping in the Musi River Estuary
+200. Paleomagnetic Dating and Magnetostratigraphy of Deep-Sea Sediments in the Banda Sea
+
+--- CATEGORY E: Ocean-Atmosphere Interaction & Climate (201-250) ---
+201. ENSO Teleconnection Patterns and Their Impact on Indonesian Rainfall and SST
+202. Indian Ocean Dipole (IOD) Influence on Upwelling Intensity South of Java
+203. Madden-Julian Oscillation (MJO) and Its Effect on Air-Sea Fluxes Over the Maritime Continent
+204. Sea Surface Temperature Warming Trends in Indonesian Seas Under Climate Change Scenarios
+205. Monsoon Onset Variability and Ocean-Atmosphere Coupling in the Java Sea
+206. Tropical Cyclone Heat Potential in the Eastern Indian Ocean from Argo and Satellite Data
+207. Diurnal SST Variability and Air-Sea Heat Exchange in the Indonesian Warm Pool
+208. Cloud-Radiation Feedback and SST in the Maritime Continent from CERES and MODIS
+209. Sea Level Rise Projections for Indonesian Coastal Cities from CMIP6 Models
+210. Ocean Heat Content Changes in the Indonesian Seas and Their Climate Implications
+211. Wind-Evaporation-SST (WES) Feedback Mechanism in the Tropical Indian Ocean
+212. Barrier Layer Thickness Variability and Its Role in Tropical Cyclone Intensification
+213. Intraseasonal Oscillation of SST and Precipitation Over the Maritime Continent
+214. CO2 Flux Variability and Ocean Carbon Sink Capacity in Indonesian Seas Under Warming
+215. Marine Heatwave Frequency and Intensity Trends in the Coral Triangle Region
+216. Aerosol-Cloud Interaction Over Indonesian Seas from Satellite and Reanalysis Data
+217. ENSO-IOD Compound Events and Their Extreme Impact on Indonesian Marine Ecosystems
+218. Decadal Pacific Oscillation (PDO) Influence on Indonesian Throughflow Variability
+219. Latent and Sensible Heat Flux Variability Over the Indonesian Seas from OAFlux
+220. Climate Model Evaluation of Maritime Continent Precipitation and SST Biases
+221. Ocean-Atmosphere CO2 Exchange Seasonality in the Eastern Indian Ocean
+222. Tropical Instability Waves and Their Air-Sea Interaction in the Eastern Pacific-Indonesian Connection
+223. Sea Spray Aerosol Production and Its Climate Feedback in Indonesian Waters
+224. Freshwater Flux from Indonesian Rivers and Its Impact on Regional Sea Surface Salinity
+225. Coral Bleaching Prediction from Marine Heatwave Early Warning Systems
+226. Atmospheric Boundary Layer Structure Over the Indonesian Seas from Radiosonde Data
+227. Climate Change Impact on Wave Climate and Coastal Flooding Risk in Indonesia
+228. Bjerknes Feedback and ENSO Development: Role of the Western Pacific Warm Pool
+229. Satellite-Based Estimation of Evaporation and Precipitation Over Indonesian Seas
+230. Ocean Thermal Energy Potential Assessment in Indonesian Deep Water Passages
+231. Stratospheric-Tropospheric Exchange and Ozone Variability Over the Maritime Continent
+232. Sea Level Variability and Coastal Inundation Risk from Compound Climate Events
+233. Wind Power Resource Assessment Over Indonesian Seas from Satellite Scatterometry
+234. Tropical Warm Pool Expansion and Its Impact on Indonesian Climate Extremes
+235. Ocean Color Response to Atmospheric Dust Deposition Events in the Eastern Indian Ocean
+236. Coupled Ocean-Atmosphere Modeling of the Maritime Continent Diurnal Cycle
+237. Climate Variability Impact on Tuna Migration Patterns in Indonesian EEZ
+238. Paleoclimate Reconstruction of ENSO Variability from Indonesian Coral Records
+239. Atmospheric Rivers and Extreme Precipitation Events Over the Maritime Continent
+240. Ocean Deoxygenation Trends in Indonesian Seas Under Future Climate Scenarios
+241. Solar Radiation and Photosynthetically Active Radiation (PAR) Over Indonesian Waters
+242. Climate-Driven Changes in Monsoon Wind Patterns and Their Oceanographic Consequences
+243. Tropical Cyclone Genesis Potential in the Eastern Indian Ocean Near Indonesia
+244. Sea Surface Salinity Variability from SMOS/SMAP and Its Climate Drivers
+245. Urban Heat Island Effect on Coastal Sea Surface Temperature in Jakarta Bay
+246. Climate Attribution of Extreme Marine Heatwave Events in Indonesian Waters
+247. Volcanic Eruption Impact on Ocean-Atmosphere System: Case Study of Indonesian Volcanoes
+248. Long-Term Tide Gauge Records and Sea Level Acceleration in Indonesian Ports
+249. Climate Downscaling for Coastal Vulnerability Assessment in Small Islands of Eastern Indonesia
+250. Feedback Between Indonesian Peatland Fires, Aerosols, and Regional Ocean-Atmosphere Dynamics
+
+--- CATEGORY F: Coastal Oceanography & Dynamics (251-300) ---
+251. Tidal Dynamics and Tidal Asymmetry in the Mahakam Delta Channels
+252. Storm Surge Modeling and Coastal Flood Risk Assessment for Northern Java
+253. Mangrove Hydrodynamics and Wave Attenuation in the Segara Anakan Lagoon
+254. Coastal Erosion Hotspot Identification Along the Northern Coast of Java Using Satellite Imagery
+255. River Plume Dynamics and Sediment Dispersal from the Citarum River to Jakarta Bay
+256. Tidal Creek Hydrodynamics and Nutrient Transport in Mangrove Ecosystems of Kalimantan
+257. Rip Current Hazard Assessment on Southern Java Beaches Using Numerical Modeling
+258. Coral Reef Hydrodynamics and Wave Energy Dissipation in the Thousand Islands
+259. Estuarine Circulation and Salt Intrusion in the Kapuas River During Dry Season
+260. Coastal Lagoon Flushing Time and Water Renewal in Segara Anakan
+261. Tsunami Propagation Modeling for the Sunda Strait Based on Historical Events
+262. Longshore Sediment Transport and Beach Morphology Changes in Bali Southern Coast
+263. Tidal Bore Dynamics in the Kampar River Estuary, Riau
+264. Coastal Groundwater-Surface Water Interaction and Submarine Groundwater Discharge in Lombok
+265. Wave-Current Interaction and Sediment Transport in the Madura Strait
+266. Mangrove Restoration Impact on Coastal Hydrodynamics and Sedimentation in Demak
+267. Harbor Siltation and Dredging Requirements in Tanjung Priok Port
+268. Coastal Upwelling and Nutrient Enrichment in the Bali Strait Narrows
+269. Beach Cusps Formation and Swash Zone Dynamics on Indonesian Sandy Beaches
+270. Tidal Flat Inundation Mapping and Aquaculture Pond Vulnerability in Northern Java
+271. Seawall Effectiveness and Coastal Protection Performance in Semarang
+272. Freshwater Lens Dynamics on Small Coral Islands of Eastern Indonesia
+273. Coastal Cliff Retreat Rates and Geohazard Assessment in Southern Java
+274. Estuary Mouth Morphodynamics and Inlet Stability of the Solo River
+275. Wave Overtopping and Coastal Structure Design for Indonesian Fishing Ports
+276. Mangrove-Mudflat Progradation and Land Accretion in the Mahakam Delta
+277. Coastal Water Quality Modeling and Pollution Dispersion in Surabaya Coastal Waters
+278. Seagrass Meadow Hydrodynamics and Sediment Stabilization in Spermonde Archipelago
+279. Compound Flooding from River Discharge and Storm Surge in Semarang Coastal Area
+280. Coral Cay Stability and Morphological Response to Sea Level Rise in Wakatobi
+281. Tidal Energy Resource Assessment in Indonesian Narrow Straits
+282. Coastal Aquifer Salinization from Sea Level Rise in Northern Java Lowlands
+283. Beach Profile Response to Seasonal Wave Climate in Southern Bali
+284. Floating Marine Debris Accumulation Patterns in Indonesian Coastal Waters
+285. Mangrove Carbon Sequestration and Blue Carbon Economy in Indonesian Coastlines
+286. Coastal Reclamation Impact on Hydrodynamics and Water Quality in Jakarta Bay
+287. Wave Refraction and Diffraction Patterns Around Coral Reef Islands
+288. Tidal Wetland Elevation Change and Vulnerability to Sea Level Rise
+289. Coastal Erosion Management Using Hybrid Engineering-Nature Solutions in Demak
+290. Submarine Cable Route Hazard Assessment in Indonesian Coastal Waters
+291. Seasonal Beach Rotation and Headland-Bay Beach Dynamics in Eastern Indonesia
+292. Coastal Lake Stratification and Mixing Dynamics in Kakaban Island
+293. Port Sedimentation and Navigation Channel Maintenance in Belawan Harbor
+294. Microplastic Transport and Accumulation in Indonesian Mangrove Sediments
+295. Coastal Flooding Frequency Analysis Under Combined Sea Level Rise and Land Subsidence
+296. Wave Energy Converter Site Selection in Indonesian Southern Coast
+297. Tidal Prism and Estuary Classification of Major Indonesian River Systems
+298. Coastal Vegetation (Mangrove/Seagrass) Role in Shoreline Stabilization
+299. Numerical Modeling of Oil Spill Trajectory in the Makassar Strait
+300. Climate Change Adaptation Strategies for Coastal Communities in Small Islands
+
+--- CATEGORY G: Ocean Technology & Instrumentation (301-350) ---
+301. Development of Low-Cost CTD Sensor for Indonesian Coastal Monitoring
+302. Autonomous Underwater Vehicle (AUV) Path Planning for Coral Reef Survey in Raja Ampat
+303. IoT-Based Real-Time Water Quality Monitoring System for Indonesian Coastal Waters
+304. Acoustic Doppler Current Profiler (ADCP) Deployment Optimization in Strong Tidal Environments
+305. Underwater Acoustic Communication System Design for Indonesian Shallow Seas
+306. Development of Wave-Powered Ocean Observation Buoy for Indonesian Waters
+307. ROV-Based Deep-Sea Exploration Technology for Indonesian Exclusive Economic Zone
+308. Satellite-Derived Bathymetry Accuracy Assessment in Indonesian Coral Reef Waters
+309. Coastal Radar System for Real-Time Surface Current Mapping in the Java Sea
+310. Autonomous Surface Vehicle (ASV) for Hydrographic Survey in Indonesian Archipelago
+311. Deep-Sea Mooring Design and Deployment for Long-Term Current Measurement
+312. Underwater Glider Mission Planning for Sustained Ocean Observation in Indonesian Seas
+313. Low-Cost Tide Gauge Network Development for Indonesian Tsunami Early Warning
+314. Fiber-Optic Distributed Temperature Sensing for Submarine Groundwater Discharge Detection
+315. Acoustic Fish Finder Calibration and Biomass Estimation in Indonesian Waters
+316. Satellite AIS Data Integration for Maritime Traffic and Ocean Environment Monitoring
+317. Development of Biodegradable Drifter Buoys for Surface Current Tracking
+318. Underwater Camera System for Automated Coral Reef Health Assessment
+319. Portable Fluorometer Development for In-Situ Chlorophyll-a Measurement
+320. Ocean Bottom Seismometer (OBS) Array Design for Indonesian Subduction Zone
+321. Multi-Beam Echo Sounder Data Processing for Seafloor Habitat Mapping
+322. Unmanned Aerial Vehicle (UAV) Application for Coastal Topography and Bathymetry
+323. Acoustic Telemetry System for Marine Animal Tracking in Indonesian MPAs
+324. Development of Profiling Float with Biogeochemical Sensors for Indonesian Seas
+325. Satellite Communication System for Remote Ocean Observation Platforms
+326. Underwater Noise Monitoring and Marine Soundscape Assessment Technology
+327. Coastal X-Band Radar for Wave and Current Measurement in Port Areas
+328. Development of Compact Nutrient Analyzer for Autonomous Ocean Platforms
+329. Machine Vision System for Automated Plankton Classification from Imaging FlowCytobot
+330. Acoustic Backscatter Calibration for Suspended Sediment Concentration Measurement
+331. Solar-Powered Ocean Data Buoy Design for Tropical Maritime Environment
+332. Electromagnetic Induction Sensor for Submarine Freshwater Seepage Detection
+333. Development of Deep-Sea Pressure Sensor for Tsunami Detection
+334. Integrated Ocean Observing System (IOOS) Architecture for Indonesian Waters
+335. Hyperspectral Imaging for Coral Reef Benthic Classification from UAV Platform
+336. Acoustic Doppler Velocimeter (ADV) Application for Turbulence Measurement in Tidal Channels
+337. Development of Expendable Bathythermograph (XBT) Alternative Using IoT Technology
+338. Underwater LiDAR System for High-Resolution Seafloor Mapping
+339. Real-Time Ocean Forecasting System Development for Indonesian Maritime Safety
+340. Biofouling Prevention Technology for Long-Term Ocean Sensor Deployments
+341. Compact Mass Spectrometer for In-Situ Dissolved Gas Measurement in Deep Sea
+342. Development of Towed Undulating Vehicle for High-Resolution Ocean Profiling
+343. Satellite-Based Ship Detection and Illegal Fishing Monitoring System
+344. Acoustic Positioning System for Underwater Vehicle Navigation in Indonesian Waters
+345. Development of Miniaturized pH Sensor for Ocean Acidification Monitoring
+346. Coastal Video Monitoring System for Beach Morphodynamics Assessment
+347. Autonomous Benthic Lander for Long-Term Seafloor Process Observation
+348. Integration of Citizen Science and IoT for Coastal Water Quality Monitoring
+349. Development of Acoustic Zooplankton Fish Profiler for Indonesian Pelagic Surveys
+350. Blockchain-Based Data Management System for Ocean Observation Networks
+
+--- CATEGORY H: Ocean Modeling & Prediction (351-400) ---
+351. ROMS-Based Simulation of Indonesian Throughflow Variability Under ENSO Forcing
+352. Machine Learning Ensemble for 7-Day Sea Surface Temperature Prediction in Indonesian Seas
+353. High-Resolution Tidal Modeling of the Indonesian Archipelago Using FVCOM
+354. Data Assimilation of Argo Float Profiles into Regional Ocean Model for Indonesian Seas
+355. Wave Forecasting System for Indonesian Waters Using WAVEWATCH III and Machine Learning
+356. Coupled Physical-Biogeochemical Modeling of Chlorophyll-a in the Java Sea
+357. Lagrangian Particle Dispersion Modeling for Marine Debris Trajectory in Indonesian Waters
+358. Downscaling Global Climate Models for Regional Sea Level Projection in Indonesia
+359. Neural Network-Based Prediction of Harmful Algal Blooms in Jakarta Bay
+360. Oil Spill Trajectory Modeling and Response Planning for the Makassar Strait
+361. Tsunami Inundation Modeling for Coastal Cities Along the Sunda Megathrust
+362. Sediment Transport Modeling in the Mahakam Delta Using Delft3D
+363. Ensemble Kalman Filter Data Assimilation for Operational Ocean Forecasting
+364. Climate Model Evaluation of Indonesian Throughflow Under Future Warming Scenarios
+365. Storm Surge Forecasting System for Northern Java Using ADCIRC Model
+366. Biogeochemical Modeling of Nutrient Cycling and Hypoxia in Jakarta Bay
+367. Random Forest Classification of Water Masses from Satellite Ocean Color Data
+368. Coupled Hydrodynamic-Wave Modeling for Coastal Erosion Prediction in Northern Java
+369. Deep Learning (CNN) for Mesoscale Eddy Detection from Satellite Altimetry
+370. Operational Wave Forecasting Validation for Indonesian Shipping Routes
+371. Agent-Based Modeling of Fishing Fleet Dynamics in Indonesian Waters
+372. MITgcm Simulation of Internal Tide Generation in the Indonesian Archipelago
+373. Genetic Algorithm Optimization of Ocean Model Parameters for Indonesian Seas
+374. Coastal Flooding Prediction Under Compound Events Using Coupled Models
+375. Transfer Learning for SST Prediction in Data-Sparse Indonesian Regions
+376. Particle Tracking Model for Coral Larval Connectivity in the Coral Triangle
+377. Unstructured Grid Modeling of Tidal Currents in Complex Indonesian Coastlines
+378. Machine Learning Correction of Satellite-Derived Chlorophyll-a in Optically Complex Waters
+379. Ensemble Weather-Ocean Coupled Prediction for Indonesian Maritime Safety
+380. Numerical Modeling of Submarine Groundwater Discharge Impact on Coastal Biogeochemistry
+381. LSTM-Based Sea Level Prediction for Indonesian Tide Gauge Stations
+382. Hydrodynamic Modeling of Aquaculture Site Selection in Indonesian Coastal Waters
+383. Physics-Informed Neural Network for Ocean Current Prediction in the Makassar Strait
+384. Climate Projection of Marine Heatwave Frequency in the Coral Triangle
+385. Finite Element Modeling of Tsunami Wave Propagation Through Indonesian Island Chains
+386. Data-Driven Model for Predicting Coastal Erosion Rates in Northern Java
+387. Coupled Ice-Ocean Modeling for Understanding Antarctic Bottom Water Influence on Indonesian Deep Basins
+388. Operational Forecasting of Upwelling Events South of Java Using Satellite and Model Data
+389. Graph Neural Network for Spatial-Temporal Ocean Temperature Prediction
+390. Modeling the Impact of Mangrove Loss on Coastal Hydrodynamics and Sediment Transport
+391. Variational Data Assimilation of Satellite SST into Indonesian Regional Ocean Model
+392. Predictive Modeling of Tidal Energy Resource Variability in Indonesian Straits
+393. Digital Twin Development for Indonesian Port Hydrodynamics
+394. Modeling Microplastic Transport and Accumulation Hotspots in Indonesian Seas
+395. Seasonal Prediction of Indonesian Throughflow Using Climate Indices and Machine Learning
+396. Computational Fluid Dynamics of Flow Around Offshore Structures in Indonesian Waters
+397. Bayesian Model Averaging for Uncertainty Quantification in Sea Level Projections
+398. Modeling the Impact of Land Reclamation on Jakarta Bay Circulation
+399. Hybrid Physics-ML Model for Wave Height Prediction in Indonesian Waters
+400. Coupled Atmosphere-Ocean-Wave Modeling for Extreme Event Prediction in Indonesian Seas
+
+--- CATEGORY I: Polar & Deep Ocean Studies (401-450) ---
+401. Antarctic Bottom Water Influence on Deep Circulation in the Eastern Indonesian Basins
+402. Deep-Sea Hydrothermal Vent Ecosystems in the Sangihe Arc: Biodiversity and Biogeochemistry
+403. Abyssal Current Measurements and Deep Water Renewal in the Banda Sea
+404. Deep-Sea Coral Communities and Their Environmental Controls in Indonesian Waters
+405. Hadal Zone Exploration and Biodiversity in the Java Trench
+406. Deep Water Formation and Ventilation Timescales in Semi-Enclosed Indonesian Basins
+407. Chemosynthetic Ecosystems at Cold Seeps on the Makassar Strait Continental Slope
+408. Deep-Sea Sediment Biodiversity and Ecosystem Function in the Weber Deep
+409. Abyssal Plain Manganese Nodule Distribution South of Java
+410. Deep-Sea Fish Diversity and Trophic Ecology in the Banda Sea from eDNA Analysis
+411. Antarctic Intermediate Water Tracing Through Indonesian Passages Using CFC Data
+412. Deep-Sea Microplastic Contamination in the Java Trench
+413. Pressure and Temperature Effects on Deep-Sea Microbial Communities in Indonesian Basins
+414. Deep Water Overflow and Mixing at the Lifamatola Passage Sill
+415. Bioluminescent Organisms in the Deep Scattering Layer of the Banda Sea
+416. Rare Earth Element Enrichment in Deep-Sea Sediments of the Indian Ocean South of Java
+417. Deep-Sea Sponge Grounds and Their Role in Carbon Cycling in Indonesian Waters
+418. Paleoceanography of Deep Water Circulation from Benthic Foraminifera in Indonesian Basins
+419. Deep-Sea Mining Environmental Impact Assessment for Indonesian EEZ
+420. Xenophyophore Distribution and Ecology in the Abyssal Indonesian Seas
+421. Deep Water Temperature Trends and Climate Change Signals in Indonesian Basins
+422. Submarine Volcano Hydrothermal Plume Detection in the Banda Arc
+423. Deep-Sea Amphipod Communities in the Java Trench Hadal Zone
+424. Dissolved Oxygen Minimum Zone Dynamics in the Deep Banda Sea
+425. Cold-Water Coral Distribution Modeling in Indonesian Deep-Sea Environments
+426. Deep-Sea Turbidity Current Frequency and Magnitude from Sediment Records
+427. Mesopelagic Zone Carbon Pump Efficiency in the Eastern Indian Ocean
+428. Deep-Sea Bacterial Mat Communities at Methane Seeps in the Makassar Strait
+429. Abyssal Circulation Pathways in the Indonesian Seas from Tracer Studies
+430. Deep-Sea Polychaete Diversity and New Species Discovery in Indonesian Waters
+431. Hydrothermal Fluid Chemistry and Mineral Precipitation in the Sangihe Arc Vents
+432. Deep-Sea Ecosystem Vulnerability Assessment for Submarine Cable Installation
+433. Polar Front Influence on Intermediate Water Properties Reaching Indonesian Seas
+434. Deep-Sea Litter Distribution and Sources in the Java Trench
+435. Barophilic Microbial Communities and Biotechnology Potential from Indonesian Deep Sea
+436. Deep Water Upwelling and Nutrient Supply to the Euphotic Zone in the Banda Sea
+437. Submarine Volcanic Eruption Impact on Deep-Sea Ecosystems in Eastern Indonesia
+438. Deep-Sea Isopod Diversity and Biogeography in the Indo-Australian Region
+439. Thermohaline Staircase Structures and Double Diffusion in Indonesian Deep Basins
+440. Deep-Sea Octocoral Gardens and Their Conservation Value in Indonesian Waters
+441. Abyssal Sediment Geochemistry and Diagenetic Processes in the Banda Sea
+442. Deep-Sea Cephalopod Diversity from ROV Surveys in Indonesian Waters
+443. Antarctic Circumpolar Current Influence on Indonesian Deep Water Properties
+444. Deep-Sea Ecosystem Recovery After Submarine Volcanic Disturbance
+445. Hadal Snailfish and Extreme Depth Adaptation in the Java Trench
+446. Deep Water Radiocarbon Ages and Ventilation Rates in Indonesian Semi-Enclosed Basins
+447. Submarine Hydrothermal Vent Microbial Diversity Using Metagenomics
+448. Deep-Sea Mineral Resource Assessment in Indonesian Exclusive Economic Zone
+449. Vertical Connectivity Between Deep-Sea and Surface Ecosystems in Indonesian Waters
+450. Deep-Sea Environmental DNA (eDNA) Survey for Biodiversity Assessment in the Banda Sea
+
+--- CATEGORY J: Ocean Remote Sensing & Big Data (451-500) ---
+451. Multi-Satellite SST Product Comparison and Validation in Indonesian Archipelagic Waters
+452. Sentinel-3 OLCI Chlorophyll-a Algorithm Development for Optically Complex Indonesian Waters
+453. SAR-Based Oil Spill Detection and Monitoring in the Makassar Strait
+454. Machine Learning Classification of Coral Reef Habitats from Sentinel-2 Imagery
+455. Satellite Altimetry-Derived Sea Level Trends and Variability in Indonesian Seas
+456. MODIS-Based Turbidity Mapping and Sediment Plume Monitoring in the Java Sea
+457. Google Earth Engine Time Series Analysis of Mangrove Extent Change in Indonesia
+458. Satellite-Derived Ocean Primary Productivity Trends in the Indonesian EEZ
+459. SAR Interferometry for Coastal Subsidence Monitoring in Northern Java
+460. Deep Learning for Automatic Ship Detection and Maritime Surveillance from Satellite
+461. Fusion of Multi-Source Satellite Data for Comprehensive Ocean State Estimation
+462. Satellite Ocean Color Validation Using In-Situ Measurements in Indonesian Waters
+463. Cloud Computing Platform for Big Ocean Data Processing in Indonesian Maritime Domain
+464. Landsat Time Series Analysis of Shoreline Change in Indonesian Coastal Cities
+465. GRACE Satellite Gravimetry for Ocean Mass and Sea Level Budget in Indonesian Region
+466. Hyperspectral Remote Sensing for Seagrass Mapping in Shallow Indonesian Waters
+467. Satellite-Based Fishing Ground Prediction Using SST and Chlorophyll-a in Indonesian EEZ
+468. Synthetic Aperture Radar Detection of Internal Waves in the Indonesian Seas
+469. Big Data Analytics for Maritime Traffic Pattern and Environmental Impact Assessment
+470. Satellite Thermal Infrared Detection of Submarine Volcanic Activity in Indonesian Arc
+471. UAV-Based Multispectral Imaging for Intertidal Habitat Mapping
+472. Satellite Scatterometer Wind Product Validation Over Indonesian Seas
+473. Deep Learning Semantic Segmentation of Coral Reef from Underwater Imagery
+474. Satellite-Derived Wave Parameters Validation for Indonesian Coastal Waters
+475. Cloud-Free Composite Generation for Tropical Ocean Remote Sensing Using Deep Learning
+476. VIIRS Nighttime Light Data for Fishing Activity Monitoring in Indonesian Waters
+477. Satellite Radar Altimetry for Tidal Modeling Improvement in Indonesian Archipelago
+478. Random Forest Regression for Bathymetry Estimation from Multispectral Satellite Data
+479. Time Series Decomposition of Satellite Chlorophyll-a for Trend Detection in Indonesian Seas
+480. Satellite-Based Estimation of Particulate Organic Carbon in Indonesian Waters
+481. Object-Based Image Analysis for Mangrove Species Classification from WorldView Imagery
+482. Satellite SST Front Detection and Its Correlation with Pelagic Fish Abundance
+483. Digital Ocean Twin Development Using Multi-Source Satellite and In-Situ Data
+484. Satellite Monitoring of Sargassum Bloom Events in Indonesian Waters
+485. Convolutional Neural Network for Sea Ice Classification (Antarctic Context for Indonesian Researchers)
+486. Satellite-Derived Photosynthetically Available Radiation (PAR) for Indonesian Waters
+487. Big Data Approach to Marine Heatwave Detection and Attribution in the Coral Triangle
+488. Satellite Gravity Data for Geoid Modeling and Bathymetry in Indonesian Seas
+489. Automated Satellite Image Processing Pipeline for Operational Ocean Monitoring
+490. Multi-Temporal SAR Analysis for Coastal Wetland Change Detection in Kalimantan
+491. Satellite-Based Evaporation Estimation Over Indonesian Seas Using Bulk Formulas
+492. Deep Learning Super-Resolution of Satellite Ocean Color Imagery
+493. Citizen Science Integration with Satellite Data for Coastal Water Quality Monitoring
+494. Satellite Lidar (ICESat-2) for Shallow Water Bathymetry in Indonesian Reef Areas
+495. Blockchain-Based Data Sharing Platform for Indonesian Ocean Observation Network
+496. Satellite-Derived Diffuse Attenuation Coefficient (Kd490) for Water Clarity Assessment
+497. Artificial Intelligence for Anomaly Detection in Ocean Time Series Data
+498. Multi-Sensor Data Fusion for Comprehensive Coastal Zone Monitoring
+499. Digital Earth Platform for Indonesian Marine Spatial Planning Support
+500. Explainable AI (XAI) for Interpretable Ocean Prediction Models in Indonesian Seas

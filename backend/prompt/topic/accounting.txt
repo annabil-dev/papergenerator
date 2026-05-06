@@ -5,6 +5,56 @@ FIELD: Business / Accounting
 DEFAULT CITATION STYLE: APA or Harvard
 SUBDISCIPLINE: Akuntansi Keuangan, Akuntansi Manajemen, Audit, Perpajakan, Akuntansi Sektor Publik
 
+--- PAPER GENERATION INSTRUCTIONS ---
+When given a user's research idea, you MUST generate a COMPLETE academic paper following these requirements:
+
+1. RESEARCH GAP IDENTIFICATION:
+   - Identify 3-5 specific gaps in current literature
+   - Reference recent works (2020-2025)
+   - Clearly articulate what remains UNKNOWN or UNRESOLVED
+   - Frame as researchable question with measurable outcomes
+   - Target Q1/Q2 Scopus-indexed journals
+
+2. NOVEL TOPIC REFINEMENT:
+   - Refine into publishable research title
+
+3. LATEST METHODOLOGY (2022-2025):
+   - Panel data regression (fixed/random effects with Hausman test)
+   - Event study methodology for market reaction analysis
+   - Data Envelopment Analysis (DEA) for efficiency measurement
+   - SEM-PLS for complex causal modeling
+   - Content analysis of annual reports and sustainability reports
+   - Text mining of financial disclosures using NLP
+   - Machine learning for fraud detection (Random Forest, XGBoost, Neural Networks)
+   - Blockchain auditing and smart contract verification
+   - Difference-in-differences for regulatory impact assessment
+
+4. ESTIMATED DATA & RESULTS:
+   - Realistic estimated data tables (10-30 data points)
+   - Field-appropriate metrics with statistical measures
+   - All numbers realistic and internally consistent
+
+5. MATHEMATICAL FORMULAS (where applicable):
+   - ROA = Net Income / Total Assets
+   - ROE = Net Income / Shareholders' Equity
+   - DER = Total Debt / Total Equity
+   - Current Ratio = Current Assets / Current Liabilities
+   - Altman Z-Score = 1.2X1 + 1.4X2 + 3.3X3 + 0.6X4 + 1.0X5
+   - Beneish M-Score = -4.84 + 0.920(DSRI) + 0.528(GMI) + 0.404(AQI) + 0.892(SGI) + 0.115(DEPI) - 0.172(SGAI) + 4.679(TATA) - 0.327(LVGI)
+   - Tobin's Q = (Market Value of Equity + Book Value of Debt) / Total Assets
+   - Jones Model (Discretionary Accruals): TAit/Ait-1 = α1(1/Ait-1) + α2(ΔREVit/Ait-1) + α3(PPEit/Ait-1) + εit
+   - Modified Jones Model: DAit = TAit/Ait-1 - [α1(1/Ait-1) + α2(ΔREVit - ΔRECit)/Ait-1 + α3(PPEit/Ait-1)]
+   - Audit Fee Model: ln(AF) = β0 + β1ln(TA) + β2(SUBS) + β3(INVREC) + β4(LOSS) + β5(BIG4) + ε
+
+6. LITERATURE REVIEW WITH EXPLICIT GAPS:
+   - 25-30 references thematically organized
+   - Each subsection ends with "However, no study has addressed..."
+   - Indonesian context (OJK regulations, PSAK/SAK standards, IDX listed companies, BUMN governance)
+
+7. COMPLETE PAPER STRUCTURE:
+   Title, Abstract (200-250 words), Keywords, Introduction (1500-2000 words), Literature Review (2000-3000 words), Methodology (2000-3000 words), Results & Discussion (2000-3000 words), Conclusion (500-800 words), References (30+, 60% from 2020-2025)
+--- END PAPER GENERATION INSTRUCTIONS ---
+
 ABSTRACT CHARACTERISTICS:
   150–250 words. Reports: research setting (public companies, SMEs, government entities),
   accounting phenomenon studied, methodology (archival data analysis, survey, experiment),
@@ -81,3 +131,527 @@ METHODOLOGY KEYWORDS:
   archival data analysis, Jones modified model (accruals), ETR measurement,
   panel data regression (FE/RE), Hausman test, Propensity Score Matching (PSM),
   2SLS endogeneity, logistic regression, SEM-PLS/AMOS, reliability-validity test
+
+================================================================================
+RESEARCH TOPIC BANK (500 TOPICS)
+================================================================================
+
+--- CATEGORY A: Financial Accounting & Reporting (001-050) ---
+001. The Impact of PSAK 73 (Lease Accounting) Adoption on Financial Ratios of IDX-Listed Manufacturing Companies
+002. Value Relevance of Fair Value Measurement Under PSAK 68 in Indonesian Banking Sector
+003. IFRS Convergence and Earnings Quality: Evidence from Indonesian Public Companies (2020-2024)
+004. The Effect of Revenue Recognition (PSAK 72) on Earnings Predictability in Telecommunications Industry
+005. Comparability of Financial Statements Before and After PSAK Convergence to IFRS in Indonesia
+006. The Role of Comprehensive Income Reporting in Investment Decision-Making: IDX Evidence
+007. Impact of Expected Credit Loss Model (PSAK 71) on Loan Loss Provisions in Indonesian Banks
+008. Financial Reporting Quality and Cost of Capital: Panel Data Analysis of LQ45 Companies
+009. Segment Reporting Practices and Information Asymmetry in Indonesian Conglomerates
+010. The Effect of Accounting Conservatism on Firm Value: Moderating Role of Corporate Governance
+011. Related Party Transaction Disclosure Quality and Earnings Management in Family Firms
+012. Timeliness of Financial Reporting and Market Reaction: Evidence from IDX
+013. The Impact of Restatements on Investor Confidence in Indonesian Capital Market
+014. Accounting for Biological Assets (PSAK 69) in Indonesian Plantation Companies
+015. Intangible Asset Recognition and Firm Valuation in Indonesian Technology Startups
+016. The Effect of Accounting Complexity on Audit Fees in Indonesian Listed Companies
+017. Goodwill Impairment Testing Practices and Earnings Management in Post-M&A Firms
+018. Foreign Currency Translation Methods and Reported Earnings Volatility in Multinational Indonesian Firms
+019. The Impact of COVID-19 on Going Concern Opinions in Indonesian Financial Statements
+020. Inventory Valuation Methods and Tax Planning in Indonesian Manufacturing Sector
+021. Deferred Tax Assets Recognition and Earnings Management in Loss-Making Firms
+022. The Quality of Cash Flow Reporting and Earnings Persistence in IDX Companies
+023. Impact of Digital Financial Reporting (XBRL) on Information Processing by Indonesian Investors
+024. Accounting for Government Grants and Subsidies During Pandemic Recovery Period
+025. The Effect of Pension Accounting (PSAK 24) on Reported Liabilities in Indonesian SOEs
+026. Pro Forma Earnings vs. GAAP Earnings: Investor Perception in Indonesian Market
+027. The Role of Accounting Information in Credit Rating Decisions for Indonesian Corporate Bonds
+028. Interim Financial Reporting Quality and Stock Price Informativeness
+029. The Impact of New Insurance Accounting Standard on Indonesian Insurance Companies
+030. Accounting for Cryptocurrency Holdings: Challenges and Practices in Indonesian Companies
+031. The Effect of Principles-Based vs. Rules-Based Standards on Financial Reporting Quality
+032. Consolidated Financial Statement Complexity and Analyst Forecast Accuracy
+033. The Impact of Climate-Related Financial Disclosures on Firm Value in Indonesia
+034. Revenue Management Practices in Indonesian E-Commerce Companies
+035. The Quality of Risk Disclosure in Annual Reports of Indonesian Banking Sector
+036. Accounting for Joint Arrangements (PSAK 66) and Investment Decision-Making
+037. The Effect of Financial Statement Presentation Format on Nonprofessional Investor Judgment
+038. Share-Based Payment Accounting and Executive Compensation in Indonesian Firms
+039. The Impact of Hyperinflation Accounting on Foreign Subsidiaries of Indonesian MNCs
+040. Measurement Uncertainty in Fair Value Hierarchy and Audit Implications
+041. The Role of Other Comprehensive Income in Predicting Future Firm Performance
+042. Accounting for Carbon Credits and Emission Trading in Indonesian Companies
+043. The Effect of Disaggregated Financial Information on Credit Risk Assessment
+044. Impact of Regulatory Changes on Accounting Policy Choices in Indonesian Mining Sector
+045. The Quality of Non-Financial Information in Integrated Reports of IDX Companies
+046. Accounting for Digital Assets and NFTs: Emerging Practices in Indonesian Firms
+047. The Effect of Accounting Standards Complexity on SME Financial Reporting in Indonesia
+048. Predictive Value of Accrual Components for Future Cash Flows in Indonesian Context
+049. The Impact of Supply Chain Finance on Financial Statement Presentation
+050. Accounting for Business Combinations Under Common Control in Indonesian Corporate Groups
+
+--- CATEGORY B: Management Accounting & Control (051-100) ---
+051. Balanced Scorecard Implementation and Organizational Performance in Indonesian Hospitals
+052. Activity-Based Costing Adoption and Profitability Analysis in Indonesian Manufacturing SMEs
+053. The Role of Management Control Systems in Startup Sustainability: Indonesian Unicorn Case Studies
+054. Target Costing Implementation in Indonesian Automotive Component Industry
+055. Budgetary Slack and Organizational Culture: Evidence from Indonesian State-Owned Enterprises
+056. The Effect of Beyond Budgeting Approach on Managerial Performance in Indonesian Banks
+057. Strategic Cost Management and Competitive Advantage in Indonesian Halal Food Industry
+058. Transfer Pricing Practices and Performance Evaluation in Indonesian Multinational Groups
+059. The Role of Management Accounting in Digital Transformation of Indonesian Retailers
+060. Environmental Management Accounting Practices in Indonesian Palm Oil Companies
+061. The Impact of ERP Systems on Management Accounting Practices in Indonesian Firms
+062. Kaizen Costing and Continuous Improvement in Indonesian Textile Manufacturing
+063. The Effect of Participative Budgeting on Managerial Performance: Moderating Role of Job-Relevant Information
+064. Life Cycle Costing for Infrastructure Projects in Indonesian Public Sector
+065. The Role of Big Data Analytics in Management Accounting Decision-Making
+066. Throughput Accounting vs. Traditional Costing in Indonesian Bottleneck Industries
+067. The Impact of Lean Accounting on Operational Efficiency in Indonesian Automotive Sector
+068. Customer Profitability Analysis Using Time-Driven Activity-Based Costing in Indonesian Banking
+069. The Effect of Rolling Forecasts on Budget Accuracy in Indonesian Telecommunications
+070. Management Accounting Innovation and Organizational Resilience During Economic Crisis
+071. The Role of Controller as Business Partner in Indonesian Manufacturing Companies
+072. Sustainability Balanced Scorecard Implementation in Indonesian Mining Companies
+073. The Effect of Incentive Systems on Earnings Management: Experimental Evidence from Indonesia
+074. Cost-Volume-Profit Analysis Under Uncertainty in Indonesian FMCG Industry
+075. The Impact of Artificial Intelligence on Management Accounting Roles in Indonesian Firms
+076. Value Chain Analysis and Strategic Positioning of Indonesian Coffee Export Industry
+077. The Role of Non-Financial Performance Measures in Executive Compensation Contracts
+078. Benchmarking Practices and Performance Improvement in Indonesian Public Hospitals
+079. The Effect of Decentralization on Management Control System Design in Indonesian Conglomerates
+080. Real Options Analysis for Capital Budgeting in Indonesian Energy Sector
+081. The Impact of Integrated Reporting on Internal Decision-Making Processes
+082. Cost Allocation Methods and Fairness Perception in Indonesian Shared Service Centers
+083. The Role of Management Accounting in Circular Economy Implementation
+084. Variance Analysis and Corrective Actions in Indonesian Construction Projects
+085. The Effect of Organizational Justice on Budget Gaming Behavior in Indonesian Government
+086. Strategic Performance Measurement in Indonesian Islamic Banking
+087. The Impact of Cloud Computing on Management Accounting Information Systems
+088. Product Costing Accuracy and Pricing Decisions in Indonesian Pharmaceutical Industry
+089. The Role of Scenario Planning in Strategic Management Accounting
+090. Quality Costing and Total Quality Management in Indonesian Electronics Manufacturing
+091. The Effect of Intellectual Capital Measurement on Innovation Performance
+092. Management Accounting for Sustainability in Indonesian Plantation Companies
+093. The Impact of Robotic Process Automation on Accounting Department Efficiency
+094. Responsibility Accounting and Performance Evaluation in Indonesian Hotel Chains
+095. The Role of Predictive Analytics in Cash Flow Forecasting for Indonesian SMEs
+096. Open Book Accounting in Supply Chain Relationships: Indonesian Automotive Case
+097. The Effect of Carbon Pricing on Cost Structure of Indonesian Cement Industry
+098. Management Accounting Support for Servitization in Indonesian Manufacturing
+099. The Impact of Agile Methodology on Budgeting Practices in Indonesian Tech Companies
+100. Inter-Organizational Cost Management in Indonesian Infrastructure PPP Projects
+
+--- CATEGORY C: Auditing & Assurance (101-150) ---
+101. The Effect of Audit Committee Financial Expertise on Audit Quality in Indonesian Banks
+102. Auditor Industry Specialization and Earnings Management Detection in IDX Companies
+103. The Impact of Mandatory Audit Firm Rotation on Audit Quality: Indonesian Evidence
+104. Data Analytics in Audit Procedures: Adoption and Effectiveness in Indonesian Audit Firms
+105. The Effect of Client Importance on Auditor Independence: Evidence from Indonesian Big4
+106. Going Concern Opinion Accuracy and Subsequent Bankruptcy in Indonesian Companies
+107. The Role of Internal Audit in Corporate Governance: Evidence from Indonesian SOEs
+108. Audit Fee Determinants in Indonesian Banking Sector: Pre and Post-COVID Analysis
+109. The Impact of Remote Auditing on Audit Quality During and After Pandemic
+110. Continuous Auditing Implementation and Fraud Detection in Indonesian Financial Institutions
+111. The Effect of Auditor Tenure on Audit Quality: Non-Linear Relationship Evidence
+112. Key Audit Matters Disclosure and Investor Decision-Making in Indonesian Capital Market
+113. The Role of Forensic Audit in Detecting Corruption in Indonesian Local Government
+114. Audit Quality and Real Earnings Management: Moderating Effect of Institutional Ownership
+115. The Impact of Artificial Intelligence on Audit Procedures in Indonesian Accounting Firms
+116. Joint Audit and Audit Quality: Lessons for Indonesian Regulatory Framework
+117. The Effect of Audit Partner Characteristics on Audit Quality in Indonesia
+118. Integrated Audit of Financial and Sustainability Reports: Challenges in Indonesian Context
+119. The Role of Whistleblowing Systems in Enhancing Audit Effectiveness
+120. Audit Expectation Gap in Indonesian Capital Market: Stakeholder Perspective
+121. The Impact of Blockchain Technology on Audit Evidence Collection and Verification
+122. Risk-Based Audit Approach and Fraud Detection in Indonesian Manufacturing Companies
+123. The Effect of Audit Committee Meeting Frequency on Financial Reporting Quality
+124. Cybersecurity Audit Framework for Indonesian Digital Banking
+125. The Role of Professional Skepticism in Detecting Material Misstatement
+126. Audit Quality Indicators and Transparency Reporting in Indonesian Audit Market
+127. The Impact of Non-Audit Services on Auditor Independence in Indonesian Context
+128. Group Audit Challenges and Component Auditor Reliance in Indonesian Conglomerates
+129. The Effect of Time Budget Pressure on Audit Quality: Indonesian Junior Auditor Evidence
+130. Sustainability Assurance Practices and Report Credibility in Indonesian Listed Companies
+131. The Role of Technology in Enhancing Audit Sampling Effectiveness
+132. Audit of Related Party Transactions in Indonesian Family-Controlled Firms
+133. The Impact of Regulatory Sanctions on Audit Firm Reputation and Client Retention
+134. Internal Control Over Financial Reporting (ICFR) Assessment in Indonesian Public Companies
+135. The Effect of Auditor Workload on Audit Quality: Busy Season Analysis
+136. Audit of Fair Value Estimates: Challenges and Practices in Indonesian Property Sector
+137. The Role of Audit Quality in IPO Underpricing: Evidence from Indonesian Stock Exchange
+138. The Impact of PCAOB-Style Inspection on Audit Quality in Indonesia
+139. Auditing Cryptocurrency Transactions: Framework Development for Indonesian Context
+140. The Effect of Client Business Risk on Audit Planning and Procedures
+141. The Role of Data Visualization in Audit Communication and Reporting
+142. Audit of Government Financial Statements: BPK Findings and Follow-Up Analysis
+143. The Impact of Audit Market Concentration on Audit Pricing in Indonesia
+144. Environmental Audit Practices in Indonesian Mining and Plantation Companies
+145. The Effect of Auditor-Client Relationship Length on Fraud Detection Capability
+146. Performance Audit Effectiveness in Indonesian Local Government Programs
+147. The Role of Audit Technology in Detecting Journal Entry Fraud
+148. The Impact of COVID-19 on Audit Procedures and Modified Opinions in Indonesia
+149. Audit of Digital Revenue Streams in Indonesian E-Commerce Companies
+150. The Effect of Audit Report Lag on Stock Price Reaction in IDX
+
+--- CATEGORY D: Corporate Governance & Ethics (151-200) ---
+151. Board Diversity and Firm Performance: Gender and Ethnic Representation in Indonesian Boards
+152. The Effect of Independent Commissioner Proportion on Earnings Management in IDX Companies
+153. Family Ownership Concentration and Tunneling Behavior in Indonesian Listed Firms
+154. The Role of Institutional Investors in Monitoring Corporate Governance in Indonesia
+155. CEO Duality and Firm Value: Moderating Effect of Board Independence
+156. The Impact of Government Ownership on Corporate Social Responsibility Disclosure
+157. Related Party Transactions and Minority Shareholder Expropriation in Indonesian Groups
+158. The Effect of Audit Committee Characteristics on Tax Avoidance in Indonesian Firms
+159. Corporate Governance Mechanisms and Dividend Policy in Indonesian Banking Sector
+160. The Role of Nomination and Remuneration Committee in Executive Pay-Performance Sensitivity
+161. Ownership Structure and Capital Structure Decisions in Indonesian Manufacturing
+162. The Impact of OJK Corporate Governance Regulations on Firm Transparency
+163. Political Connections and Firm Performance: Evidence from Indonesian Listed Companies
+164. The Effect of Board Interlocks on Corporate Strategy and Performance
+165. Whistleblower Protection and Corporate Fraud Reporting in Indonesian Companies
+166. The Role of Sharia Supervisory Board in Islamic Bank Governance in Indonesia
+167. Corporate Governance and Intellectual Capital Disclosure in Indonesian Knowledge-Intensive Firms
+168. The Impact of ESG Committee Establishment on Sustainability Performance
+169. Director Busyness and Monitoring Effectiveness in Indonesian Corporate Boards
+170. The Effect of Managerial Ownership on Agency Costs in Indonesian Family Firms
+171. Corporate Governance Quality and Access to Finance for Indonesian SMEs
+172. The Role of Corporate Secretary in Governance Compliance and Disclosure
+173. Pyramid Ownership Structure and Earnings Management in Indonesian Business Groups
+174. The Impact of Board Meeting Frequency on Firm Performance and Risk Management
+175. Ethical Leadership and Organizational Ethical Climate in Indonesian Accounting Firms
+176. The Effect of Corporate Governance on Cost of Equity Capital in Indonesia
+177. Cross-Directorship and Information Transfer in Indonesian Capital Market
+178. The Role of Independent Directors in M&A Decision-Making Quality
+179. Corporate Governance Reform and Foreign Direct Investment in Indonesia
+180. The Impact of Beneficial Ownership Transparency on Corporate Accountability
+181. The Effect of Board Gender Diversity on Corporate Risk-Taking in Indonesian Banks
+182. Governance Mechanisms and Related Party Transaction Disclosure Quality
+183. The Role of Corporate Governance in Preventing Accounting Fraud: Indonesian Cases
+184. The Impact of Dual-Class Share Structure on Minority Shareholder Rights
+185. Professional Ethics and Auditor Decision-Making: Indonesian CPA Perspective
+186. The Effect of Corporate Governance on Voluntary Disclosure in Annual Reports
+187. Stakeholder Governance and Long-Term Value Creation in Indonesian SOEs
+188. The Role of Risk Management Committee in Enterprise Risk Management Effectiveness
+189. Corporate Governance and Financial Distress Prediction in Indonesian Companies
+190. The Impact of Regulatory Governance Framework on Banking Stability in Indonesia
+191. The Effect of Board Expertise on Strategic Decision Quality in Indonesian Firms
+192. Corporate Governance Disclosure and Market Valuation: IDX Evidence
+193. The Role of Internal Governance Mechanisms in Preventing Transfer Pricing Abuse
+194. The Impact of Governance Quality on Credit Rating of Indonesian Corporate Bonds
+195. Ethical Dilemmas in Tax Planning: Perspectives of Indonesian Tax Accountants
+196. The Effect of Ownership Concentration on Dividend Smoothing Behavior
+197. Corporate Governance and Innovation Investment in Indonesian Technology Sector
+198. The Role of Governance in Managing Stakeholder Conflicts in Indonesian Mining
+199. The Impact of Anti-Corruption Compliance Programs on Firm Value
+200. Corporate Governance Best Practices and Implementation Gaps in Indonesian Public Companies
+
+--- CATEGORY E: Sustainability & ESG Reporting (201-250) ---
+201. The Impact of Sustainability Reporting on Firm Value: Evidence from IDX Sri-Kehati Index
+202. ESG Performance and Cost of Capital in Indonesian Listed Companies
+203. Carbon Emission Disclosure and Market Reaction in Indonesian Energy Sector
+204. The Effect of GRI Standards Adoption on Reporting Quality in Indonesian Companies
+205. Integrated Reporting and Value Creation Communication in Indonesian Banking
+206. The Role of Sustainability Assurance in Enhancing Report Credibility
+207. Green Accounting Practices and Environmental Performance in Indonesian Manufacturing
+208. The Impact of EU Taxonomy-Aligned Disclosure on Indonesian Export Companies
+209. Social Return on Investment (SROI) Measurement in Indonesian CSR Programs
+210. The Effect of Board Environmental Expertise on Carbon Disclosure Quality
+211. Sustainability Reporting and Earnings Management: Complementary or Substitutive?
+212. The Role of Stakeholder Pressure on ESG Disclosure in Indonesian Palm Oil Industry
+213. Climate Risk Disclosure and Financial Performance in Indonesian Banking Sector
+214. The Impact of SDG Reporting on Institutional Investor Decisions in Indonesia
+215. Water Accounting and Disclosure Practices in Indonesian Beverage Industry
+216. The Effect of ESG Ratings on Stock Returns in Indonesian Capital Market
+217. Biodiversity Disclosure Practices in Indonesian Mining and Plantation Companies
+218. The Role of Internal Carbon Pricing in Corporate Sustainability Strategy
+219. Human Capital Disclosure and Firm Performance in Indonesian Service Industry
+220. The Impact of Circular Economy Reporting on Stakeholder Perception
+221. Supply Chain Sustainability Disclosure in Indonesian Textile and Garment Industry
+222. The Effect of Sustainability Committee on ESG Performance in Indonesian Firms
+223. Gender Pay Gap Disclosure and Corporate Reputation in Indonesian Companies
+224. The Role of Digital Technology in Enhancing Sustainability Data Collection
+225. Community Investment Disclosure and Social License to Operate in Indonesian Mining
+226. The Impact of TCFD Recommendations on Climate Disclosure in Indonesian Banks
+227. Waste Management Accounting and Reporting in Indonesian FMCG Companies
+228. The Effect of Greenwashing on Investor Trust in Indonesian Capital Market
+229. Indigenous Community Engagement Disclosure in Indonesian Extractive Industries
+230. The Role of Materiality Assessment in Sustainability Reporting Quality
+231. Energy Transition Disclosure and Firm Valuation in Indonesian Energy Companies
+232. The Impact of Sustainability-Linked Loans on Corporate Environmental Performance
+233. Occupational Health and Safety Disclosure in Indonesian Construction Industry
+234. The Effect of ESG Integration on Portfolio Performance: Indonesian Mutual Fund Evidence
+235. Plastic Waste Reduction Reporting in Indonesian Consumer Goods Companies
+236. The Role of Assurance Providers in Sustainability Report Quality Enhancement
+237. Anti-Corruption Disclosure and Governance Quality in Indonesian SOEs
+238. The Impact of Nature-Related Financial Disclosure on Indonesian Agribusiness
+239. Social Impact Measurement and Reporting in Indonesian Social Enterprises
+240. The Effect of Regulatory Mandate on Sustainability Reporting Quality (OJK POJK 51/2017)
+241. Scope 3 Emission Reporting Challenges in Indonesian Manufacturing Supply Chains
+242. The Role of Sustainability Reporting in Attracting Green Investment to Indonesia
+243. Human Rights Due Diligence Disclosure in Indonesian Global Supply Chains
+244. The Impact of Just Transition Reporting on Stakeholder Relations in Coal Industry
+245. Digital Sustainability Reporting and Stakeholder Engagement Effectiveness
+246. The Effect of CEO Environmental Commitment on Corporate Green Innovation Disclosure
+247. Taxonomy of Sustainability Risks in Indonesian Financial Sector Reporting
+248. The Role of Accounting Profession in Advancing Sustainability Reporting Standards
+249. Deforestation-Free Supply Chain Disclosure in Indonesian Commodity Companies
+250. The Impact of Double Materiality Assessment on Reporting Comprehensiveness
+
+--- CATEGORY F: Forensic Accounting & Fraud (251-300) ---
+251. Machine Learning Approaches for Financial Statement Fraud Detection in Indonesian Companies
+252. The Effectiveness of Beneish M-Score in Detecting Earnings Manipulation in IDX
+253. Forensic Accounting Techniques in Investigating Corruption Cases in Indonesian SOEs
+254. The Role of Data Analytics in Detecting Procurement Fraud in Indonesian Government
+255. Occupational Fraud Risk Factors in Indonesian Banking: Application of Fraud Diamond
+256. The Effect of Internal Control Weakness on Fraud Occurrence in Indonesian Local Government
+257. Benford's Law Application for Detecting Anomalies in Indonesian Tax Returns
+258. The Impact of Whistleblowing Systems on Fraud Detection in Indonesian Companies
+259. Money Laundering Detection Using Network Analysis in Indonesian Financial System
+260. The Role of Forensic Accountants in Indonesian Anti-Corruption Commission (KPK) Investigations
+261. Asset Misappropriation Patterns and Prevention in Indonesian Retail Industry
+262. The Effect of Fraud Awareness Training on Employee Fraud Reporting Behavior
+263. Digital Forensic Accounting for Cryptocurrency-Related Fraud in Indonesia
+264. The Impact of Corporate Culture on Fraud Prevention Effectiveness
+265. Revenue Recognition Fraud Detection Using Text Mining of Financial Statements
+266. The Role of Artificial Intelligence in Continuous Fraud Monitoring Systems
+267. Fraud Risk Assessment Framework for Indonesian Islamic Financial Institutions
+268. The Effect of Audit Committee Expertise on Fraud Detection Capability
+269. Social Engineering Fraud in Indonesian Digital Banking: Detection and Prevention
+270. The Impact of Pandemic on Fraud Patterns in Indonesian Organizations
+271. Forensic Data Analytics for Detecting Bid-Rigging in Government Procurement
+272. The Role of Behavioral Analysis in Identifying Potential Fraudsters
+273. Insurance Fraud Detection Using Predictive Modeling in Indonesian Insurance Industry
+274. The Effect of Tone at the Top on Fraud Prevention Culture
+275. Transfer Pricing Manipulation Detection in Indonesian Multinational Companies
+276. The Impact of Blockchain on Fraud Prevention in Supply Chain Finance
+277. Forensic Accounting Education and Professional Competency in Indonesia
+278. The Role of Red Flag Indicators in Early Fraud Detection Systems
+279. Financial Statement Fraud and Corporate Governance Failure: Indonesian Case Studies
+280. The Effect of Regulatory Enforcement on Fraud Deterrence in Indonesian Capital Market
+281. Deepfake and Identity Fraud Detection in Indonesian Digital Financial Services
+282. The Impact of Fraud on Firm Value and Investor Confidence in IDX
+283. Forensic Investigation of Related Party Transaction Abuse in Indonesian Groups
+284. The Role of Technology in Enhancing Anti-Money Laundering Compliance
+285. Payroll Fraud Detection Using Data Analytics in Indonesian Manufacturing
+286. The Effect of Organizational Size on Fraud Risk and Control Effectiveness
+287. Intellectual Property Fraud and Valuation Disputes in Indonesian Technology Sector
+288. The Impact of Fraud Triangle Elements on Fraud Likelihood: SEM Analysis
+289. Forensic Accounting for Divorce and Business Valuation Disputes in Indonesia
+290. The Role of Continuous Monitoring in Preventing Financial Statement Fraud
+291. Tax Fraud Detection Using Machine Learning: Indonesian Tax Authority Perspective
+292. The Effect of Peer Reporting Culture on Fraud Prevention in Indonesian Banks
+293. Vendor Fraud Schemes and Detection Methods in Indonesian Procurement
+294. The Impact of Digital Transformation on New Fraud Typologies in Indonesia
+295. Forensic Accounting Standards and Practices: Comparative Study Indonesia-ASEAN
+296. The Role of Predictive Analytics in Identifying High-Risk Transactions
+297. Corporate Fraud and Auditor Liability: Legal and Accounting Perspectives in Indonesia
+298. The Effect of Anti-Fraud Technology Investment on Fraud Loss Reduction
+299. Forensic Investigation of Financial Reporting Fraud in Indonesian Plantation Companies
+300. The Impact of Fraud Examiner Certification on Investigation Quality in Indonesia
+
+--- CATEGORY G: Public Sector Accounting (301-350) ---
+301. Accrual-Based Government Accounting Implementation and Financial Statement Quality in Indonesian Local Government
+302. The Effect of SAP (Standar Akuntansi Pemerintahan) Compliance on BPK Audit Opinion
+303. Performance-Based Budgeting and Public Service Delivery in Indonesian Municipalities
+304. The Role of Government Internal Auditors (APIP) in Fraud Prevention
+305. Village Fund Accountability and Financial Reporting Quality in Indonesian Villages
+306. The Impact of E-Budgeting on Budget Transparency in Indonesian Local Government
+307. Public Sector Asset Management and Reporting Challenges in Indonesia
+308. The Effect of Human Resource Competency on Government Financial Reporting Quality
+309. Cost of Public Services Calculation and Tariff Setting in Indonesian Local Government
+310. The Role of Regional Financial Information Systems (SIPD) in Reporting Accuracy
+311. Government Accounting and Fiscal Transparency: Cross-Regional Analysis in Indonesia
+312. The Impact of Transfer Funds (DAU, DAK) on Local Government Financial Performance
+313. Public Sector Internal Control System (SPIP) Effectiveness in Preventing Misuse
+314. The Effect of Political Budget Cycles on Local Government Spending in Indonesia
+315. Social Benefit Accounting and Reporting in Indonesian Government Programs
+316. The Role of Supreme Audit Institution (BPK) in Government Accountability
+317. Infrastructure Asset Valuation and Depreciation in Indonesian Government Accounting
+318. The Impact of Regional Autonomy on Financial Management Quality
+319. Government Pension Fund Accounting and Actuarial Reporting in Indonesia
+320. The Effect of E-Government on Financial Reporting Timeliness in Indonesian Regions
+321. Natural Resource Revenue Accounting and Transparency in Indonesian Mining Regions
+322. The Role of Accounting Information in Legislative Budget Oversight (DPRD)
+323. Public Hospital Financial Performance and Reporting Under BLUD Framework
+324. The Impact of COVID-19 Fiscal Response on Government Accounting Practices
+325. Disaster Fund Accounting and Accountability in Indonesian BNPB Programs
+326. The Effect of Bureaucratic Reform on Government Accounting System Quality
+327. Public Debt Management and Reporting in Indonesian Sub-National Government
+328. The Role of Government Accounting in Supporting SDG Achievement Monitoring
+329. State-Owned Enterprise (BUMN) Financial Reporting and Public Accountability
+330. The Impact of Digital Transformation on Government Accounting Processes
+331. Environmental Liability Recognition in Indonesian Government Financial Statements
+332. The Effect of Audit Findings on Local Government Financial Management Improvement
+333. Public Procurement Accounting and Value for Money Assessment in Indonesia
+334. The Role of Accounting in Managing Village-Owned Enterprises (BUMDes)
+335. Government Grant Accounting and Reporting for Indonesian Higher Education
+336. The Impact of Fiscal Decentralization on Accounting Capacity Building
+337. Heritage Asset Accounting and Reporting in Indonesian Government
+338. The Effect of Financial Management Information Systems on Audit Readiness
+339. Public Sector Cost Accounting for Healthcare Services in Indonesian Hospitals
+340. The Role of Performance Accountability Reports (LAKIP) in Government Evaluation
+341. Zakat Accounting and Reporting in Indonesian Government-Affiliated Institutions
+342. The Impact of Regional Financial Consolidation on Fiscal Analysis Quality
+343. Public Investment Accounting and Capital Expenditure Efficiency in Indonesia
+344. The Effect of Leadership Commitment on Government Accounting Reform Success
+345. Social Fund Accounting and Transparency in Indonesian Social Protection Programs
+346. The Role of Technology in Modernizing Indonesian Government Accounting
+347. Contingent Liability Disclosure in Indonesian Government Financial Statements
+348. The Impact of Intergovernmental Fiscal Relations on Accounting Harmonization
+349. Public Sector Sustainability Reporting in Indonesian Government Entities
+350. The Effect of Accounting Standards Revision on Government Financial Statement Comparability
+
+--- CATEGORY H: Accounting Information Systems (351-400) ---
+351. The Impact of ERP Implementation on Accounting Information Quality in Indonesian Manufacturing
+352. Cloud-Based Accounting Systems Adoption by Indonesian SMEs: TAM-TOE Framework
+353. The Effect of Accounting Information System Quality on Decision-Making Effectiveness
+354. Cybersecurity Risk Management in Accounting Information Systems of Indonesian Banks
+355. The Role of Robotic Process Automation (RPA) in Accounting Process Efficiency
+356. Blockchain-Based Accounting Systems: Feasibility Study for Indonesian Supply Chains
+357. The Impact of Artificial Intelligence on Accounting Information System Design
+358. User Satisfaction and System Quality of Indonesian Government Financial Applications (SAKTI)
+359. The Effect of IT Governance on Accounting Information System Effectiveness
+360. Digital Transformation of Accounting Processes in Indonesian Financial Institutions
+361. The Role of Data Analytics Capabilities in Enhancing Accounting Decision Support
+362. Integration of IoT Data in Management Accounting Information Systems
+363. The Impact of Mobile Accounting Applications on SME Financial Management in Indonesia
+364. Accounting Information System Security and Internal Control Effectiveness
+365. The Effect of System Integration on Financial Reporting Timeliness
+366. Big Data Analytics Infrastructure for Real-Time Financial Reporting
+367. The Role of API Integration in Modern Accounting Information Architecture
+368. User Acceptance of AI-Powered Accounting Systems: Indonesian Accountant Perspective
+369. The Impact of Digital Invoice Systems on Tax Compliance in Indonesia
+370. Accounting Information System Design for Indonesian Cooperative Enterprises
+371. The Effect of Database Quality on Financial Statement Reliability
+372. Cloud Computing Adoption Barriers in Indonesian Accounting Firms
+373. The Role of Business Intelligence Tools in Management Reporting Enhancement
+374. Accounting Information System for Carbon Emission Tracking and Reporting
+375. The Impact of Fintech Integration on Accounting Processes in Indonesian Banks
+376. Data Governance Framework for Accounting Information Systems in Indonesian SOEs
+377. The Effect of System Complexity on User Error Rates in Accounting Applications
+378. Machine Learning Integration in Accounts Receivable Management Systems
+379. The Role of Accounting Information Systems in Supporting Audit Trail Documentation
+380. Digital Twin Technology for Financial Planning and Analysis Systems
+381. The Impact of E-Invoicing Mandate on Accounting System Requirements in Indonesia
+382. Accounting Information System Resilience and Business Continuity Planning
+383. The Effect of User Training Quality on Accounting System Utilization
+384. Natural Language Processing for Automated Financial Report Generation
+385. The Role of Accounting Information Systems in Regulatory Compliance Automation
+386. Interoperability Challenges in Indonesian Government Accounting Systems
+387. The Impact of Low-Code Platforms on Accounting Application Development
+388. Accounting Information System Design for Indonesian Islamic Banking Products
+389. The Effect of Real-Time Reporting Systems on Managerial Decision Speed
+390. Predictive Analytics Integration in Accounting Information Systems for Forecasting
+391. The Role of User Interface Design in Accounting System Adoption
+392. Accounting Information System for Multi-Entity Consolidation in Indonesian Groups
+393. The Impact of 5G Technology on Real-Time Accounting Data Processing
+394. Data Lake Architecture for Integrated Financial and Non-Financial Reporting
+395. The Effect of Accounting Information System Maturity on Organizational Performance
+396. Automated Reconciliation Systems and Error Reduction in Indonesian Banking
+397. The Role of Digital Dashboards in Financial Performance Monitoring
+398. Accounting Information System Requirements for Indonesian Carbon Trading Market
+399. The Impact of Quantum Computing Readiness on Accounting System Security
+400. Accounting Information System Innovation and Competitive Advantage in Indonesian Firms
+
+--- CATEGORY I: Behavioral Accounting (401-450) ---
+401. The Effect of Cognitive Bias on Auditor Judgment in Indonesian Audit Firms
+402. Anchoring Effect in Earnings Forecasting by Indonesian Financial Analysts
+403. The Impact of Accountability Pressure on Accountant Ethical Decision-Making
+404. Framing Effects on Investment Decisions: Experimental Evidence from Indonesian Investors
+405. The Role of Emotional Intelligence in Audit Judgment Quality
+406. Overconfidence Bias and Earnings Management Decisions by Indonesian CFOs
+407. The Effect of Time Pressure on Tax Professional Judgment in Indonesia
+408. Moral Reasoning Development and Ethical Behavior of Indonesian Accounting Students
+409. The Impact of Group Dynamics on Audit Committee Decision-Making Effectiveness
+410. Heuristics in Going Concern Assessment: Indonesian Auditor Experiment
+411. The Role of Professional Identity on Whistleblowing Intention in Indonesian Firms
+412. Confirmation Bias in Fraud Investigation: Experimental Study with Indonesian Auditors
+413. The Effect of Incentive Structure on Budget Participation Honesty
+414. Risk Perception and Investment Decision-Making of Indonesian Retail Investors
+415. The Impact of Information Overload on Financial Statement Analysis Quality
+416. The Role of Trust in Auditor-Client Relationship and Audit Quality
+417. Sunk Cost Fallacy in Capital Budgeting Decisions: Indonesian Manager Experiment
+418. The Effect of Presentation Format on Nonprofessional Investor Judgment
+419. Ethical Climate and Accountant Behavior in Indonesian Public Accounting Firms
+420. The Impact of Mindfulness on Auditor Attention and Error Detection
+421. The Role of Social Norms on Tax Compliance Behavior in Indonesian SMEs
+422. Availability Heuristic and Risk Assessment in Indonesian Audit Planning
+423. The Effect of Client Narcissism on Auditor Professional Skepticism
+424. Behavioral Factors in Voluntary Disclosure Decisions by Indonesian Managers
+425. The Impact of Gamification on Accounting Learning Outcomes in Indonesian Universities
+426. The Role of Personality Traits on Accountant Career Satisfaction in Indonesia
+427. Prospect Theory and Earnings Management Decisions Under Loss Conditions
+428. The Effect of Peer Pressure on Ethical Reporting Behavior in Indonesian Organizations
+429. Cognitive Load and Decision Quality in Complex Accounting Estimates
+430. The Impact of Cultural Values on Accounting Judgment in Indonesian Context
+431. The Role of Affect in Auditor Risk Assessment and Response
+432. Behavioral Responses to Audit Findings in Indonesian Government Officials
+433. The Effect of Visualization Tools on Investor Decision-Making Quality
+434. Motivated Reasoning in Fair Value Estimation by Indonesian Accountants
+435. The Impact of Deadline Pressure on Financial Reporting Quality
+436. The Role of Psychological Safety on Internal Audit Reporting Honesty
+437. Herding Behavior in Indonesian Stock Market: Accounting Information Perspective
+438. The Effect of Regulatory Focus on Tax Planning Aggressiveness
+439. Behavioral Factors in Technology Adoption by Indonesian Accounting Professionals
+440. The Impact of Feedback Mechanisms on Budget Accuracy Improvement
+441. The Role of Moral Disengagement in Accounting Fraud Rationalization
+442. Attention Allocation and Material Misstatement Detection in Audit
+443. The Effect of Narrative Disclosure on Investor Sentiment and Decisions
+444. Behavioral Aspects of Sustainability Reporting Decisions by Indonesian Managers
+445. The Impact of Stress on Auditor Performance During Busy Season
+446. The Role of Intuition vs. Analysis in Experienced Auditor Judgment
+447. Behavioral Responses to Accounting Standard Changes in Indonesian Firms
+448. The Effect of Social Media Information on Investor Behavioral Biases
+449. Cognitive Complexity and Audit Judgment in Complex Financial Instruments
+450. The Impact of Ethical Training Programs on Accountant Moral Development
+
+--- CATEGORY J: Digital Accounting & Technology (451-500) ---
+451. Blockchain Technology Adoption for Financial Reporting Transparency in Indonesian Companies
+452. The Impact of Artificial Intelligence on Audit Efficiency and Effectiveness
+453. Machine Learning for Credit Risk Assessment in Indonesian Peer-to-Peer Lending
+454. The Role of Robotic Process Automation in Tax Compliance Processes
+455. Smart Contract Auditing Framework for Indonesian Decentralized Finance (DeFi)
+456. The Effect of Big Data Analytics on Management Accounting Practices
+457. Digital Twin Technology for Financial Modeling in Indonesian Manufacturing
+458. The Impact of Natural Language Processing on Financial Statement Analysis
+459. Cryptocurrency Accounting and Taxation Framework for Indonesian Context
+460. The Role of Cloud Computing in Accounting Firm Digital Transformation
+461. Predictive Analytics for Going Concern Assessment in Indonesian Companies
+462. The Effect of Fintech Disruption on Traditional Accounting Services in Indonesia
+463. Automated Financial Statement Preparation Using AI: Quality Assessment
+464. The Impact of Digital Payment Systems on Revenue Recognition Practices
+465. Blockchain-Based Supply Chain Accounting for Indonesian Commodity Trading
+466. The Role of Data Visualization in Financial Reporting Communication
+467. Machine Learning for Anomaly Detection in Indonesian Government Financial Data
+468. The Effect of Digital Transformation on Accountant Competency Requirements
+469. Real-Time Financial Reporting Using IoT and Blockchain Integration
+470. The Impact of Regtech on Regulatory Compliance Costs in Indonesian Banking
+471. AI-Powered Chatbots for Tax Advisory Services: Indonesian Implementation
+472. The Role of Digital Forensics in Modern Fraud Investigation
+473. Tokenization of Assets and Accounting Implications for Indonesian Companies
+474. The Effect of Automation on Accounting Job Market in Indonesia
+475. Deep Learning for Financial Distress Prediction in Indonesian Companies
+476. The Impact of Open Banking on Accounting Data Accessibility
+477. Digital Audit Evidence and Its Legal Admissibility in Indonesian Courts
+478. The Role of Explainable AI in Accounting Decision Support Systems
+479. Central Bank Digital Currency (CBDC) Accounting Implications for Indonesian Banks
+480. The Effect of Technology Adoption on Audit Firm Competitiveness in Indonesia
+481. Metaverse Economy Accounting: Challenges and Framework Development
+482. The Impact of Process Mining on Internal Audit Effectiveness
+483. AI-Based Transfer Pricing Documentation and Compliance
+484. The Role of Digital Platforms in Accounting Service Delivery for Indonesian SMEs
+485. Quantum Computing Implications for Cryptographic Security in Accounting Systems
+486. The Effect of Algorithmic Trading on Financial Reporting and Disclosure
+487. Digital Tax Administration and Taxpayer Compliance in Indonesian Context
+488. The Impact of Generative AI on Accounting Education and Practice
+489. Decentralized Autonomous Organization (DAO) Accounting and Governance
+490. The Role of API Economy in Accounting System Integration
+491. Machine Learning for Revenue Forecasting Accuracy in Indonesian E-Commerce
+492. The Effect of Digital Identity Systems on KYC Processes in Accounting
+493. Sustainable Finance Technology and Green Bond Accounting in Indonesia
+494. The Impact of Edge Computing on Real-Time Financial Data Processing
+495. AI Ethics in Accounting: Bias Detection and Fairness in Automated Decisions
+496. The Role of Digital Twins in Asset Valuation and Depreciation
+497. Accounting for Platform Economy Business Models in Indonesian Context
+498. The Effect of Cybersecurity Incidents on Financial Reporting and Disclosure
+499. Digital Transformation Maturity and Accounting Function Evolution in Indonesian Firms
+500. The Impact of Web3 Technologies on Future Accounting Practices and Standards

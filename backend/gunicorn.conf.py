@@ -14,8 +14,8 @@ import os
 # ── Workers ──────────────────────────────────────────────────────────────────
 # gthread: sync worker with threads (safe with SQLAlchemy connection pooling)
 worker_class = "gthread"
-workers = multiprocessing.cpu_count() * 2 + 1  # = 5 on 2-core machine
-threads = 8              # 8 threads per worker = 40 total concurrent requests
+workers = 4              # Reduced to 4 workers to save memory
+threads = 8              # 8 threads per worker = 32 total concurrent requests
                          # Each thread handles one request; OS schedules I/O
 
 # ── Timeouts ─────────────────────────────────────────────────────────────────

@@ -4,13 +4,23 @@
     "ses_204607708ffe5Ba4jbQxgG2uct": {
       "worktreeId": null,
       "createdAt": "2026-05-06T04:50:29.846Z"
+    },
+    "ses_200406f2affeub8BTZnzLk0LdT": {
+      "worktreeId": null,
+      "createdAt": "2026-05-07T00:03:57.980Z"
+    },
+    "ses_1e309aa85ffeX5A2Ptgz4lzhsD": {
+      "worktreeId": null,
+      "createdAt": "2026-05-12T16:12:46.380Z"
     }
   },
   "tabOrder": {
     "local": [
-      "ses_2057a26ceffegiGC7ch7zyarNo",
+      "pending:1",
       "ses_205759a55ffejlZI1ynCBzmKQL",
-      "ses_204607708ffe5Ba4jbQxgG2uct"
+      "ses_204607708ffe5Ba4jbQxgG2uct",
+      "ses_200406f2affeub8BTZnzLk0LdT",
+      "ses_1e309aa85ffeX5A2Ptgz4lzhsD"
     ]
   }
 }
